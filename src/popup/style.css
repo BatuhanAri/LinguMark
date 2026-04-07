@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom toggle switch styles for the modern theme */
+input:checked ~ #switchBg {
+  background-color: rgba(59, 130, 246, 0.9); /* blue-500 equivalent */
+  border-color: rgba(59, 130, 246, 1);
+}
+
+input:checked ~ .dot {
+  transform: translateX(1.75rem); /* Move dot further for wider switch */
+}
