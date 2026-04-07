@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "LinguMark",
+  "version": "1.0",
+  "description": "Highlight and define words as you browse.",
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "LinguMark",
+    "default_popup": "index.html"
+  }
+}
