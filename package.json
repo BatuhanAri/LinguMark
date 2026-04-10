@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node remove-crossorigin.js",
     "preview": "vite preview"
   },
   "devDependencies": {
