@@ -1,7 +1,10 @@
 const wordList = document.getElementById('wordList');
 const emptyState = document.getElementById('emptyState');
 const masterSwitch = document.getElementById('masterSwitch');
-const targetLangSelect = document.getElementById('targetLang');
+const langDropdownBtn = document.getElementById('langDropdownBtn');
+const langDropdownText = document.getElementById('langDropdownText');
+const langDropdownMenu = document.getElementById('langDropdownMenu');
+const targetLangOptions = document.querySelectorAll('.lang-option');
 const practiceBtn = document.getElementById('practiceBtn');
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -10,18 +13,39 @@ document.addEventListener('DOMContentLoaded', async () => {
       chrome.tabs.create({ url: chrome.runtime.getURL('dashboard.html') });
     });
   }
+  
+  // Custom Dropdown logic
+  langDropdownBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    langDropdownMenu.classList.toggle('hidden');
+  });
+
+  document.addEventListener('click', () => {
+    langDropdownMenu.classList.add('hidden');
+  });
+
+  targetLangOptions.forEach(option => {
+    option.addEventListener('click', (e) => {
+      const selectedValue = e.target.getAttribute('data-value');
+      const selectedText = e.target.textContent;
+      langDropdownText.textContent = selectedText;
+      chrome.storage.sync.set({ targetLang: selectedValue });
+    });
+  });
+
   // Load settings
   const syncData = await chrome.storage.sync.get(['masterSwitch', 'targetLang']);
   masterSwitch.checked = syncData.masterSwitch ?? true;
-  targetLangSelect.value = syncData.targetLang || 'tr';
+  
+  const currentLang = syncData.targetLang || 'tr';
+  const selectedOption = Array.from(targetLangOptions).find(opt => opt.getAttribute('data-value') === currentLang);
+  if (selectedOption) {
+    langDropdownText.textContent = selectedOption.textContent;
+  }
 
   // Listeners for settings
   masterSwitch.addEventListener('change', (e) => {
     chrome.storage.sync.set({ masterSwitch: e.target.checked });
-  });
-
-  targetLangSelect.addEventListener('change', (e) => {
-    chrome.storage.sync.set({ targetLang: e.target.value });
   });
 
   // Load words

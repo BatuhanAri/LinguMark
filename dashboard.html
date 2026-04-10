@@ -24,49 +24,75 @@
     .rotate-y-180 { transform: rotateY(180deg); }
   </style>
 </head>
-<body class="bg-[#0b0e14] text-slate-200 min-h-screen relative overflow-x-hidden p-8 flex flex-col items-center justify-center">
+<body class="bg-[#0b0e14] text-slate-200 min-h-screen relative overflow-x-hidden p-0 m-0 flex flex-col">
   
   <!-- Glowing Orbs (Background) -->
   <div class="fixed -top-32 -left-32 w-96 h-96 bg-purple-600 rounded-full mix-blend-screen filter blur-[120px] opacity-40 animate-slow-pulse pointer-events-none"></div>
   <div class="fixed top-[20%] -right-32 w-[30rem] h-[30rem] bg-cyan-600 rounded-full mix-blend-screen filter blur-[150px] opacity-30 animate-slow-pulse pointer-events-none" style="animation-delay: -2s;"></div>
   <div class="fixed -bottom-32 left-[20%] w-[25rem] h-[25rem] bg-pink-600 rounded-full mix-blend-screen filter blur-[120px] opacity-30 animate-slow-pulse pointer-events-none" style="animation-delay: -4s;"></div>
 
-  <!-- Header -->
-  <header class="fixed top-0 left-0 w-full p-6 flex justify-between items-center z-50 bg-[#0b0e14]/50 backdrop-blur-md border-b border-white/5">
+  <!-- Navbar -->
+  <header class="sticky top-0 left-0 w-full px-8 py-4 flex justify-between items-center z-50 bg-[#0b0e14]/70 backdrop-blur-xl border-b border-white/5 shadow-lg shadow-black/20">
     <div class="flex items-center gap-4">
-      <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-500 to-cyan-400 p-[2px] shadow-lg shadow-purple-500/20">
-        <div class="w-full h-full bg-[#0b0e14] rounded-[14px] flex items-center justify-center relative overflow-hidden">
+      <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-500 to-cyan-400 p-[2px] shadow-lg shadow-purple-500/20">
+        <div class="w-full h-full bg-[#0b0e14] rounded-[10px] flex items-center justify-center relative overflow-hidden">
              <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-400/20"></div>
-             <span class="text-2xl font-bold bg-gradient-to-tr from-purple-400 to-cyan-300 bg-clip-text text-transparent relative z-10 block">L</span>
+             <span class="text-xl font-bold bg-gradient-to-tr from-purple-400 to-cyan-300 bg-clip-text text-transparent relative z-10 block">L</span>
         </div>
       </div>
       <div>
-        <h1 class="text-2xl font-bold tracking-wide text-white drop-shadow-sm leading-none mb-1">
+        <h1 class="text-xl font-bold tracking-wide text-white drop-shadow-sm leading-none mb-1">
           LinguMark
         </h1>
-        <p class="text-xs text-cyan-300 font-semibold tracking-widest uppercase opacity-80 leading-none">Kelime Pratiği (Flashcards)</p>
+        <p class="text-[10px] text-cyan-300 font-semibold tracking-widest uppercase opacity-80 leading-none">Öğrenme Merkezi</p>
       </div>
     </div>
+    
+    <!-- Navigation Buttons -->
+    <nav class="flex gap-2">
+      <button class="nav-btn active px-4 py-2 rounded-lg font-medium text-sm transition-all text-white bg-white/10 shadow-inner border border-white/10" data-target="view-wordlist">Kelimelerim</button>
+      <button class="nav-btn px-4 py-2 rounded-lg font-medium text-sm transition-all text-slate-400 hover:text-white hover:bg-white/5" data-target="view-flashcard">Flashcard</button>
+      <button class="nav-btn px-4 py-2 rounded-lg font-medium text-sm transition-all text-slate-400 hover:text-white hover:bg-white/5" data-target="view-quiz">Test Çöz</button>
+      <button class="nav-btn px-4 py-2 rounded-lg font-medium text-sm transition-all text-slate-400 hover:text-white hover:bg-white/5" data-target="view-typing">Yazım</button>
+      <button class="nav-btn px-4 py-2 rounded-lg font-medium text-sm transition-all text-slate-400 hover:text-white hover:bg-white/5" data-target="view-matching">Eşleştirme</button>
+    </nav>
   </header>
 
-  <main class="w-full max-w-4xl mt-20 z-10 flex flex-col items-center">
+  <main class="flex-grow w-full max-w-6xl mx-auto p-8 relative z-10 flex flex-col pt-12">
     
+    <!-- Global Empty State -->
     <div id="noWordsState" class="hidden flex-col items-center justify-center mt-20">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 text-slate-700/50 mb-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M9 13v-1h6v1"/><path d="M12 12v6"/><path d="M11 18h2"/></svg>
         <h2 class="text-3xl font-bold text-white mb-3 tracking-wide">Henüz kelime eklenmemiş!</h2>
         <p class="text-slate-400 text-lg text-center max-w-md font-light">Kelimelerin üzerine sağ tıklayarak LinguMark sözlüğünüze ekleyin, ardından buraya gelip pratik yapın.</p>
     </div>
 
-    <div id="practiceArea" class="hidden flex-col items-center w-full">
+    <!-- 1. Word List View -->
+    <section id="view-wordlist" class="app-view flex w-full flex-col">
+       <div class="flex justify-between items-end mb-8">
+         <div>
+            <h2 class="text-3xl font-bold text-white tracking-tight mb-2">Kelimelerim</h2>
+            <p class="text-slate-400">Kaydettiğiniz tüm kelimeleri gözden geçirin.</p>
+         </div>
+         <div class="text-right">
+            <span id="wordCountBadge" class="bg-purple-500/20 text-purple-300 px-4 py-1.5 rounded-full text-sm font-bold border border-purple-500/30">0 Kelime</span>
+         </div>
+       </div>
+       <div id="wordListGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+         <!-- Renders via JS -->
+       </div>
+    </section>
+
+    <!-- 2. Flashcard View -->
+    <section id="view-flashcard" class="app-view hidden flex-col items-center w-full">
       <div class="text-center mb-8">
         <span id="progressText" class="text-cyan-400 font-bold tracking-widest uppercase text-sm bg-cyan-500/10 px-4 py-1.5 rounded-full border border-cyan-500/20 shadow-md">1 / 10</span>
       </div>
 
-      <!-- Flashcard Container -->
       <div class="perspective-1000 w-full max-w-2xl h-[400px] mb-12 cursor-pointer group" id="flashcard">
         <div id="flashcardInner" class="relative w-full h-full transition-transform duration-700 transform-style-preserve-3d shadow-2xl rounded-3xl">
           
-          <!-- Front Side -->
+          <!-- Front -->
           <div class="absolute inset-0 backface-hidden bg-gradient-to-br from-slate-800/80 to-slate-900/90 backdrop-blur-xl border border-white/10 rounded-3xl flex flex-col items-center justify-center p-12 text-center group-hover:border-purple-500/30 transition-colors">
             <span id="fcLang" class="absolute top-6 left-6 text-xs font-bold text-slate-400 uppercase tracking-widest bg-black/30 px-3 py-1 rounded-full border border-white/5">TR</span>
             <p class="text-slate-400 mb-6 tracking-widest uppercase text-sm">Bu kelimenin çevirisi nedir?</p>
@@ -77,12 +103,12 @@
             </div>
           </div>
 
-          <!-- Back Side -->
+          <!-- Back -->
           <div class="absolute inset-0 backface-hidden rotate-y-180 bg-gradient-to-bl from-purple-900/80 to-slate-900/90 backdrop-blur-xl border border-purple-500/20 rounded-3xl flex flex-col items-center justify-center p-12 text-center shadow-[0_0_50px_rgba(168,85,247,0.15)]">
             <p class="text-purple-300 mb-6 tracking-widest uppercase text-sm font-semibold">Anlamı</p>
             <h2 id="fcMeaning" class="text-3xl md:text-5xl font-bold text-white drop-shadow-md leading-tight max-h-48 overflow-y-auto no-scrollbar">Anlamı burada</h2>
             
-            <div class="absolute bottom-8 flex gap-4 w-full justify-center px-10 mt-12">
+            <div class="absolute bottom-8 flex gap-4 w-full justify-center px-10 mt-12" id="fcButtons">
                <button id="btnForgot" class="bg-slate-800/80 hover:bg-red-500/20 text-slate-300 hover:text-red-400 border border-white/5 hover:border-red-500/30 font-semibold py-3 px-8 rounded-xl transition-all w-1/2">Bilemedim</button>
                <button id="btnRemembered" class="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-white font-bold py-3 px-8 rounded-xl shadow-lg shadow-emerald-500/20 transition-all flex items-center justify-center gap-2 w-1/2">Bildim <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
             </div>
@@ -90,8 +116,22 @@
 
         </div>
       </div>
+    </section>
 
-    </div>
+    <!-- 3. Quiz View -->
+    <section id="view-quiz" class="app-view hidden flex-col items-center w-full">
+      <div id="quizContainer" class="w-full max-w-3xl"></div>
+    </section>
+
+    <!-- 4. Typing View -->
+    <section id="view-typing" class="app-view hidden flex-col items-center w-full">
+      <div id="typingContainer" class="w-full max-w-2xl"></div>
+    </section>
+    
+    <!-- 5. Matching View -->
+    <section id="view-matching" class="app-view hidden flex-col items-center w-full">
+      <div id="matchingContainer" class="w-full max-w-4xl"></div>
+    </section>
 
   </main>
   
