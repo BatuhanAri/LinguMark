@@ -2,8 +2,14 @@ const wordList = document.getElementById('wordList');
 const emptyState = document.getElementById('emptyState');
 const masterSwitch = document.getElementById('masterSwitch');
 const targetLangSelect = document.getElementById('targetLang');
+const practiceBtn = document.getElementById('practiceBtn');
 
 document.addEventListener('DOMContentLoaded', async () => {
+  if (practiceBtn) {
+    practiceBtn.addEventListener('click', () => {
+      chrome.tabs.create({ url: chrome.runtime.getURL('dashboard.html') });
+    });
+  }
   // Load settings
   const syncData = await chrome.storage.sync.get(['masterSwitch', 'targetLang']);
   masterSwitch.checked = syncData.masterSwitch ?? true;

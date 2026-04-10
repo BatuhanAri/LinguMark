@@ -85,22 +85,47 @@ function processTextNode(node, wordsToHighlight) {
     sup.textContent = 'L';
     span.appendChild(sup);
 
+    let isTranslated = false;
+    const originalNodeText = matchNode.nodeValue;
+
     // Right Cick Event to transform context
     span.addEventListener('contextmenu', (e) => {
       e.preventDefault(); // Stop native context menu from opening
       
       const translation = wordObjMatch.meaning || "Translating...";
       
-      // Keep it inside the DOM cleanly
-      span.innerHTML = "";
-      span.appendChild(document.createTextNode(translation));
-      
-      // Update styling to signify successful translation
-      span.classList.remove('lingumark-word');
-      span.style.color = '#10b981'; // A pleasant green
-      span.style.fontWeight = '500';
-      span.style.cursor = 'default';
-      span.title = `Original: ${wordObjMatch.word}`; // Show original on hover
+      if (!isTranslated) {
+        // Keep it inside the DOM cleanly
+        span.innerHTML = "";
+        span.appendChild(document.createTextNode(translation));
+        
+        // Update styling to signify successful translation
+        span.classList.remove('lingumark-word');
+        span.style.color = '#10b981'; // A pleasant green
+        span.style.fontWeight = '700';
+        span.style.cursor = 'pointer';
+        span.style.textDecoration = 'none';
+        span.title = `Original: ${wordObjMatch.word} (Sağ tıkla eski haline döndür)`;
+        
+        isTranslated = true;
+      } else {
+        span.innerHTML = "";
+        span.appendChild(document.createTextNode(originalNodeText));
+        
+        const sup = document.createElement('sup');
+        sup.className = 'lingumark-badge';
+        sup.textContent = 'L';
+        span.appendChild(sup);
+
+        span.classList.add('lingumark-word');
+        span.style.color = '';
+        span.style.fontWeight = '';
+        span.style.cursor = 'pointer';
+        span.style.textDecoration = '';
+        span.title = '';
+        
+        isTranslated = false;
+      }
     });
 
     matchNode.parentNode.replaceChild(span, matchNode);
