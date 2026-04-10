@@ -3,6 +3,11 @@
   "name": "LinguMark",
   "version": "1.0",
   "description": "Highlight and define words as you browse.",
+  "icons": {
+    "16": "icons/logo.png",
+    "48": "icons/logo.png",
+    "128": "icons/logo.png"
+  },
   "permissions": [
     "storage",
     "contextMenus",

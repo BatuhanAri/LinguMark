@@ -4,65 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LinguMark</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="./src/popup/style.css" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', sans-serif; }
+    body { font-family: 'Outfit', sans-serif; }
+    /* Hide scrollbar */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    
+    @keyframes slow-pulse {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.05); }
+    }
+    .animate-slow-pulse { animation: slow-pulse 4s ease-in-out infinite; }
   </style>
 </head>
-<body class="bg-[#f8f9fc] text-slate-800 w-[350px] min-h-[450px] max-h-[500px] overflow-hidden">
+<body class="bg-[#0b0e14] text-slate-200 w-[350px] min-h-[450px] max-h-[500px] overflow-hidden relative">
   
-  <!-- Sleek gradient header background -->
-  <div class="absolute top-0 left-0 right-0 h-32 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-b-[2rem] shadow-lg -z-10"></div>
+  <!-- Glowing Orbs (Background) -->
+  <div class="absolute -top-12 -left-12 w-48 h-48 bg-purple-600 rounded-full mix-blend-screen filter blur-[70px] opacity-60 animate-slow-pulse pointer-events-none"></div>
+  <div class="absolute top-[40%] -right-16 w-56 h-56 bg-cyan-600 rounded-full mix-blend-screen filter blur-[80px] opacity-50 animate-slow-pulse pointer-events-none" style="animation-delay: -2s;"></div>
+  <div class="absolute -bottom-16 left-6 w-48 h-48 bg-pink-600 rounded-full mix-blend-screen filter blur-[70px] opacity-40 animate-slow-pulse pointer-events-none" style="animation-delay: -1s;"></div>
 
-  <div id="app" class="p-5 flex flex-col h-[450px]">
+  <div id="app" class="p-5 flex flex-col h-[450px] relative z-10">
     
-    <header class="flex justify-between items-start mb-6 shrink-0 text-white">
-      <div>
-        <h1 class="text-2xl font-bold tracking-tight flex items-center gap-2 drop-shadow-sm">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-          LinguMark
-        </h1>
-        <p class="text-[11px] text-blue-200 mt-1 font-medium ml-8">Contextual translation</p>
+    <!-- Header -->
+    <header class="flex justify-between items-center mb-6 shrink-0 mt-1">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-500 to-cyan-400 p-[1.5px] shadow-lg shadow-purple-500/20">
+          <div class="w-full h-full bg-[#0b0e14] rounded-[10.5px] flex items-center justify-center relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-400/20"></div>
+            <img src="./public/icons/logo.png" alt="Logo" class="w-7 h-7 object-contain relative z-10 drop-shadow-md rounded-md" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <span class="text-xl font-bold bg-gradient-to-tr from-purple-400 to-cyan-300 bg-clip-text text-transparent relative z-10 hidden">L</span>
+          </div>
+        </div>
+        <div>
+          <h1 class="text-xl font-bold tracking-wide text-white drop-shadow-sm leading-none mb-1">
+            LinguMark
+          </h1>
+          <p class="text-[10px] text-cyan-300 font-semibold tracking-widest uppercase opacity-80 leading-none">Smart Translation</p>
+        </div>
       </div>
       
-      <label class="flex items-center cursor-pointer group mt-1">
-        <div class="relative">
+      <!-- Master Switch -->
+      <label class="flex items-center cursor-pointer group" title="Toggle translation on pages">
+        <div class="relative flex items-center">
           <input type="checkbox" id="masterSwitch" class="sr-only">
-          <div class="block bg-white/20 w-11 h-6 rounded-full transition-all duration-300 border border-white/30 group-hover:bg-white/30" id="switchBg"></div>
-          <div class="dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform duration-300 shadow-sm" id="switchDot"></div>
+          <div class="block bg-slate-800/80 w-11 h-6 rounded-full transition-all duration-300 border border-slate-600/50 backdrop-blur-md group-hover:border-slate-500/80" id="switchBg"></div>
+          <div class="dot absolute left-1 top-1 bg-gradient-to-tr from-slate-400 to-slate-500 w-4 h-4 rounded-full transition-transform duration-300 shadow-md" id="switchDot"></div>
         </div>
       </label>
     </header>
 
-    <!-- Controls Box -->
-    <div class="bg-white/90 backdrop-blur-md rounded-2xl p-3 shadow-sm border border-white/40 flex justify-between items-center mb-5 z-10 relative">
-      <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider ml-1">Target Language</span>
-      <select id="targetLang" class="bg-slate-50 border border-slate-200 text-slate-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-1.5 focus:outline-none transition-colors cursor-pointer font-medium">
-        <option value="tr">Turkish</option>
-        <option value="en">English</option>
-        <option value="es">Spanish</option>
-        <option value="fr">French</option>
-        <option value="de">German</option>
-        <option value="it">Italian</option>
-      </select>
+    <!-- Controls Box (Glassmorphic) -->
+    <div class="bg-slate-800/30 backdrop-blur-xl rounded-2xl p-2.5 shadow-xl border border-white/10 flex justify-between items-center mb-5 shrink-0 relative overflow-hidden group">
+      <div class="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+      
+      <div class="flex items-center gap-2 pl-2 relative z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+        <span class="text-[10px] font-bold text-slate-300 uppercase tracking-widest">Translate To</span>
+      </div>
+      <div class="relative z-10">
+        <select id="targetLang" class="bg-black/20 border border-white/10 text-white text-xs rounded-xl focus:ring-1 focus:ring-purple-400 focus:border-purple-400 block pl-3 pr-7 py-1.5 focus:outline-none transition-all cursor-pointer font-medium appearance-none hover:bg-black/40 backdrop-blur-md shadow-inner">
+          <option value="tr" class="bg-slate-800">Turkish</option>
+          <option value="en" class="bg-slate-800">English</option>
+          <option value="es" class="bg-slate-800">Spanish</option>
+          <option value="fr" class="bg-slate-800">French</option>
+          <option value="de" class="bg-slate-800">German</option>
+          <option value="it" class="bg-slate-800">Italian</option>
+        </select>
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-400">
+          <svg class="fill-current h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+        </div>
+      </div>
     </div>
 
     <!-- Word List Area -->
-    <main class="flex-grow overflow-y-auto no-scrollbar relative z-10 bg-transparent rounded-xl">
-      <ul id="wordList" class="space-y-3 pb-2 pt-1 px-1">
+    <main class="flex-grow overflow-y-auto no-scrollbar relative w-full pr-1 -mr-1">
+      <!-- Words Container -->
+      <ul id="wordList" class="space-y-3 pb-4">
         <!-- Render words dynamically here -->
       </ul>
 
-      <div id="emptyState" class="hidden flex-col items-center justify-center text-center py-12 opacity-80 h-full">
-        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-slate-100">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+      <!-- Empty State -->
+      <div id="emptyState" class="hidden flex-col items-center justify-center text-center py-8 h-full">
+        <div class="w-16 h-16 bg-gradient-to-tr from-slate-800/80 to-slate-700/50 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-lg shadow-black/20 mb-4 border border-white/5 relative group transition-transform duration-500 hover:scale-105 hover:-translate-y-1">
+          <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-cyan-400 relative z-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M9 13v-1h6v1"/><path d="M12 12v6"/><path d="M11 18h2"/></svg>
         </div>
-        <p class="text-sm font-semibold text-slate-700 mb-1">No words saved yet!</p>
-        <p class="text-xs text-slate-400 px-6 leading-relaxed">Select text on any site, right-click, and click <strong class="text-slate-500">Add to LinguMark</strong> to save and translate.</p>
+        <p class="text-[15px] font-medium text-white mb-1.5 tracking-wide">No words discovered</p>
+        <p class="text-[11px] text-slate-400 px-3 leading-relaxed font-light">Highlight text and right-click to transform words with <span class="text-cyan-400 font-medium whitespace-nowrap">LinguMark</span>.</p>
       </div>
     </main>
   </div>
+  
   <script type="module" src="./src/popup/main.js"></script>
 </body>
 </html>
