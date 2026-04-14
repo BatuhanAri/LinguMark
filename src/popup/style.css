@@ -2,22 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+@layer base {
+  body {
+    @apply antialiased;
   }
 }
 
-/* Custom toggle switch styles for the modern theme */
+@keyframes slow-pulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.1); }
+}
+
+.animate-slow-pulse {
+  animation: slow-pulse 8s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}
+
+/* Custom Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 input:checked ~ #switchBg {
-  background-color: rgba(59, 130, 246, 0.9); /* blue-500 equivalent */
-  border-color: rgba(59, 130, 246, 1);
+  @apply bg-gradient-to-r from-purple-600 to-cyan-500 border-purple-400/30;
 }
 
-input:checked ~ .dot {
-  transform: translateX(1.75rem); /* Move dot further for wider switch */
+input:checked ~ #switchDot {
+  transform: translateX(1.5rem);
+  @apply bg-white;
 }
+
+/* Premium Card Effects */
+.word-card {
+  @apply bg-white/[0.04] backdrop-blur-3xl p-4 rounded-[24px] border border-white/[0.08] flex flex-col transition-all duration-500 relative overflow-hidden;
+}
+
+.word-card:hover {
+  @apply bg-white/[0.08] border-white/[0.15] -translate-y-1 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.6)];
+}
+
+.word-card::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-tr from-purple-500/[0.1] to-cyan-500/[0.1] opacity-0 transition-opacity duration-500 pointer-events-none;
+}
+
+.word-card:hover::before {
+  @apply opacity-100;
+}
+
+/* Custom Highlighting Styles for Content Script */
+.lingumark-word {
+  @apply border-b-2 border-cyan-400/40 cursor-pointer transition-all duration-200 relative decoration-0;
+  text-decoration: none !important;
+}
+
+.lingumark-word:hover {
+  @apply text-cyan-300 border-cyan-400 bg-cyan-400/10 rounded-sm;
+}
+
+.lingumark-badge {
+  @apply text-[9px] font-black bg-gradient-to-tr from-purple-600 to-cyan-500 text-white px-1.5 py-0.5 ml-0.5 rounded-md shadow-lg shadow-purple-500/20;
+  vertical-align: super;
+  line-height: 1;
+}
+
