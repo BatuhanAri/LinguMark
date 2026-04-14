@@ -26,7 +26,15 @@ export const translations = {
     flip_hint: "Çevirmek için tıkla",
     all_done: "Tüm kelimeleri tekrar ettin!",
     back_to_start: "Başa Dön",
-    kalan_eslesme: "Kalan Eşleşme"
+    kalan_eslesme: "Kalan Eşleşme",
+    yetersiz_kelime: "Yetersiz Kelime",
+    yetersiz_kelime_desc: "Bu işlem için en az 4 kelime kaydetmiş olmalısın.",
+    yazim_talimati: "Bu anlama gelen kelimeyi yazın",
+    dogru: "Doğru!",
+    yanlis: "Yanlış!",
+    dogru_sayisi_desc: "Bildiğiniz kelime sayısı.",
+    ipucu: "İpucu",
+    kontrol_et: "Kontrol Et"
   },
   en: {
     app_title: "LinguMark",
@@ -55,7 +63,15 @@ export const translations = {
     flip_hint: "Click to flip",
     all_done: "You've reviewed all words!",
     back_to_start: "Back to Start",
-    kalan_eslesme: "Remaining Matches"
+    kalan_eslesme: "Remaining Matches",
+    yetersiz_kelime: "Insufficient Words",
+    yetersiz_kelime_desc: "You must save at least 4 words for this practice.",
+    yazim_talimati: "Type the word for this meaning",
+    dogru: "Correct!",
+    yanlis: "Wrong!",
+    dogru_sayisi_desc: "Number of words you knew.",
+    ipucu: "Hint",
+    kontrol_et: "Check"
   },
   es: {
     app_title: "LinguMark",
@@ -84,7 +100,15 @@ export const translations = {
     flip_hint: "Clic para voltear",
     all_done: "¡Has revisado todas las palabras!",
     back_to_start: "Volver al inicio",
-    kalan_eslesme: "Parejas restantes"
+    kalan_eslesme: "Parejas restantes",
+    yetersiz_kelime: "Palabras insuficientes",
+    yetersiz_kelime_desc: "Debes guardar al menos 4 palabras para esta práctica.",
+    yazim_talimati: "Escribe la palabra para este significado",
+    dogru: "¡Correcto!",
+    yanlis: "¡Incorrecto!",
+    dogru_sayisi_desc: "Número de palabras que conocías.",
+    ipucu: "Pista",
+    kontrol_et: "Comprobar"
   },
   fr: {
     app_title: "LinguMark",
@@ -113,7 +137,15 @@ export const translations = {
     flip_hint: "Cliquer pour retourner",
     all_done: "Vous avez révisé tous les mots !",
     back_to_start: "Retour au début",
-    kalan_eslesme: "Matchs restants"
+    kalan_eslesme: "Matchs restants",
+    yetersiz_kelime: "Mots insuffisants",
+    yetersiz_kelime_desc: "Vous devez enregistrer au moins 4 mots pour cette pratique.",
+    yazim_talimati: "Tapez le mot pour cette signification",
+    dogru: "Correct !",
+    yanlis: "Faux !",
+    dogru_sayisi_desc: "Nombre de mots que vous connaissiez.",
+    ipucu: "Indice",
+    kontrol_et: "Vérifier"
   },
   de: {
     app_title: "LinguMark",
@@ -142,7 +174,15 @@ export const translations = {
     flip_hint: "Klicken zum Umdrehen",
     all_done: "Du hast alle Wörter wiederholt!",
     back_to_start: "Zurück zum Start",
-    kalan_eslesme: "Verbleibende Übereinstimmungen"
+    kalan_eslesme: "Verbleibende Übereinstimmungen",
+    yetersiz_kelime: "Unzureichende Wörter",
+    yetersiz_kelime_desc: "Sie müssen mindestens 4 Wörter für diese Übung speichern.",
+    yazim_talimati: "Geben Sie das Wort für diese Bedeutung ein",
+    dogru: "Richtig!",
+    yanlis: "Falsch!",
+    dogru_sayisi_desc: "Anzahl der Wörter, die Sie kannten.",
+    ipucu: "Hinweis",
+    kontrol_et: "Prüfen"
   },
   it: {
     app_title: "LinguMark",
@@ -153,7 +193,7 @@ export const translations = {
     no_words: "Nessuna parola trovata",
     no_words_desc: "Seleziona le parole e fai clic destro per aggiungerle.",
     words_tab: "Le mie parole",
-    flashcards_tab: "Flashcard",
+    flashcard_tab: "Flashcard",
     quiz_tab: "Quiz",
     typing_tab: "Scrittura",
     match_tab: "Abbinamento",
@@ -171,7 +211,15 @@ export const translations = {
     flip_hint: "Clicca per girare",
     all_done: "Hai ripassato tutte le parole!",
     back_to_start: "Torna all'inizio",
-    kalan_eslesme: "Abbinamenti rimasti"
+    kalan_eslesme: "Abbinamenti rimasti",
+    yetersiz_kelime: "Parole insufficienti",
+    yetersiz_kelime_desc: "Devi salvare almeno 4 parole per questa pratica.",
+    yazim_talimati: "Digita la parola per questo significato",
+    dogru: "Corretto!",
+    yanlis: "Sbagliato!",
+    dogru_sayisi_desc: "Numero di parole che conoscevi.",
+    ipucu: "Suggerimento",
+    kontrol_et: "Controlla"
   }
 };
 

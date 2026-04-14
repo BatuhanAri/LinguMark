@@ -1,11 +1,8 @@
 import { t } from '../../shared/i18n.js';
 
-export function initMatch() {
+export function initMatch(lang = 'tr') {
   const container = document.getElementById('matchingContainer');
-  const syncData = chrome.storage.sync.get(['targetLang'], (res) => {
-    const lang = res.targetLang || 'tr';
-    startMatchGame(container, lang);
-  });
+  startMatchGame(container, lang);
 }
 
 function startMatchGame(container, lang) {
@@ -16,8 +13,8 @@ function startMatchGame(container, lang) {
   if(window.linguWords.length < 4) {
       container.innerHTML = `
         <div class="bg-red-500/10 border border-red-500/20 p-12 rounded-[32px] text-center mt-10 backdrop-blur-3xl animate-in fade-in zoom-in-95">
-            <h2 class="text-3xl font-black text-red-400 mb-4">${t('yetersiz_kelime', lang) || 'Yetersiz Kelime'}</h2>
-            <p class="text-red-300/80 text-lg font-medium">Eşleştirme yapabilmek için en az 4 kelime kaydetmiş olmanız gerekir.</p>
+            <h2 class="text-3xl font-black text-red-400 mb-4">${t('yetersiz_kelime', lang)}</h2>
+            <p class="text-red-300/80 text-lg font-medium">${t('yetersiz_kelime_desc', lang)}</p>
         </div>
       `;
       return;
