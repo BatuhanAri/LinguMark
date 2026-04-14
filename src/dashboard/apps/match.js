@@ -1,15 +1,23 @@
+import { t } from '../../shared/i18n.js';
+
 export function initMatch() {
   const container = document.getElementById('matchingContainer');
+  const syncData = chrome.storage.sync.get(['targetLang'], (res) => {
+    const lang = res.targetLang || 'tr';
+    startMatchGame(container, lang);
+  });
+}
+
+function startMatchGame(container, lang) {
   let matchWords = [];
-  let score = 0;
   let matchesFound = 0;
 
   // need at least 4 words
   if(window.linguWords.length < 4) {
       container.innerHTML = `
-        <div class="bg-red-500/10 border border-red-500/20 p-8 rounded-2xl text-center mt-10">
-            <h2 class="text-xl font-bold text-red-400 mb-2">Yetersiz Kelime</h2>
-            <p class="text-red-300/80">Eşleştirme yapabilmek için en az 4 kelime kaydetmiş olmanız gerekir.</p>
+        <div class="bg-red-500/10 border border-red-500/20 p-12 rounded-[32px] text-center mt-10 backdrop-blur-3xl animate-in fade-in zoom-in-95">
+            <h2 class="text-3xl font-black text-red-400 mb-4">${t('yetersiz_kelime', lang) || 'Yetersiz Kelime'}</h2>
+            <p class="text-red-300/80 text-lg font-medium">Eşleştirme yapabilmek için en az 4 kelime kaydetmiş olmanız gerekir.</p>
         </div>
       `;
       return;
@@ -28,15 +36,17 @@ export function initMatch() {
   cards = cards.sort(() => Math.random() - 0.5);
 
   container.innerHTML = `
-    <div class="text-center mb-8">
-        <span class="text-emerald-400 font-bold tracking-widest uppercase text-sm bg-emerald-500/10 px-4 py-1.5 rounded-full border border-emerald-500/20 shadow-md">Kalan Eşleşme: <span id="matchRem">4</span></span>
+    <div class="text-center mb-10 flex flex-col items-center">
+        <span class="text-emerald-400 font-black tracking-[0.2em] uppercase text-sm bg-emerald-500/10 px-8 py-3 rounded-2xl border border-emerald-500/20 shadow-2xl backdrop-blur-md">
+            ${t('kalan_eslesme', lang)}: <span id="matchRem" class="text-white ml-2">4</span>
+        </span>
     </div>
-    <div class="bg-gradient-to-br from-slate-800/80 to-slate-900/90 backdrop-blur-xl border border-white/10 p-8 sm:p-12 rounded-3xl shadow-2xl relative w-full">
-        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 to-teal-500/10 opacity-30 pointer-events-none rounded-3xl"></div>
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 relative z-10" id="matchGrid">
+    <div class="bg-white/[0.03] backdrop-blur-3xl border border-white/10 p-10 sm:p-16 rounded-[48px] shadow-3xl relative w-full overflow-hidden group">
+        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 to-teal-500/10 opacity-30 pointer-events-none transition-opacity duration-1000 group-hover:opacity-50"></div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 relative z-10" id="matchGrid">
             ${cards.map((c, i) => `
-                <div class="match-card bg-slate-800/80 hover:bg-white/10 border-2 border-white/5 cursor-pointer rounded-2xl p-4 sm:p-6 flex items-center justify-center text-center transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(52,211,153,0.3)] min-h-[100px]" data-id="${c.id}" data-index="${i}">
-                    <span class="text-white font-semibold flex-1 pointer-events-none select-none break-words text-sm sm:text-base capitalize drop-shadow-sm">${c.text}</span>
+                <div class="match-card bg-black/40 hover:bg-white/10 border-2 border-white/5 cursor-pointer rounded-3xl p-6 flex items-center justify-center text-center transition-all duration-500 transform hover:-translate-y-2 hover:shadow-[0_25px_50px_-15px_rgba(52,211,153,0.3)] min-h-[140px] group/card" data-id="${c.id}" data-index="${i}">
+                    <span class="text-white font-black flex-1 pointer-events-none select-none break-words text-base sm:text-lg capitalize drop-shadow-2xl transition-all group-hover/card:scale-105">${c.text}</span>
                 </div>
             `).join('')}
         </div>
@@ -54,8 +64,8 @@ export function initMatch() {
           if(firstSelection && firstSelection.getAttribute('data-index') === card.getAttribute('data-index')) return;
 
           // Select visually
-          card.classList.add('border-emerald-400', 'bg-emerald-500/20');
-          card.classList.remove('border-white/5', 'bg-slate-800/80');
+          card.classList.add('border-emerald-400', 'bg-emerald-500/20', 'scale-105', 'shadow-[0_0_30px_rgba(52,211,153,0.3)]');
+          card.classList.remove('border-white/5', 'bg-black/40');
 
           if(!firstSelection) {
               firstSelection = card;
@@ -72,11 +82,11 @@ export function initMatch() {
           if(id1 === id2) {
               // Match!
               setTimeout(() => {
-                  firstSelection.classList.remove('border-emerald-400', 'bg-emerald-500/20');
-                  secondSelection.classList.remove('border-emerald-400', 'bg-emerald-500/20');
+                  firstSelection.classList.remove('border-emerald-400', 'bg-emerald-500/20', 'scale-105');
+                  secondSelection.classList.remove('border-emerald-400', 'bg-emerald-500/20', 'scale-105');
                   
-                  firstSelection.classList.add('opacity-0', 'scale-90', 'matched');
-                  secondSelection.classList.add('opacity-0', 'scale-90', 'matched');
+                  firstSelection.classList.add('opacity-0', 'scale-75', 'matched');
+                  secondSelection.classList.add('opacity-0', 'scale-75', 'matched');
                   firstSelection.style.pointerEvents = 'none';
                   secondSelection.style.pointerEvents = 'none';
 
@@ -87,22 +97,21 @@ export function initMatch() {
                   isChecking = false;
 
                   if(matchesFound === 4) {
-                      setTimeout(showResults, 600);
+                      setTimeout(() => showMatchResults(container, lang), 600);
                   }
-              }, 500);
+              }, 600);
           } else {
               // Wrong!
-              // add warning colors
               firstSelection.classList.remove('border-emerald-400', 'bg-emerald-500/20');
               secondSelection.classList.remove('border-emerald-400', 'bg-emerald-500/20');
-              firstSelection.classList.add('border-red-500', 'bg-red-500/20');
-              secondSelection.classList.add('border-red-500', 'bg-red-500/20');
+              firstSelection.classList.add('border-red-500', 'bg-red-500/20', 'animate-shake');
+              secondSelection.classList.add('border-red-500', 'bg-red-500/20', 'animate-shake');
 
               setTimeout(() => {
-                  firstSelection.classList.remove('border-red-500', 'bg-red-500/20');
-                  secondSelection.classList.remove('border-red-500', 'bg-red-500/20');
-                  firstSelection.classList.add('border-white/5', 'bg-slate-800/80');
-                  secondSelection.classList.add('border-white/5', 'bg-slate-800/80');
+                  firstSelection.classList.remove('border-red-500', 'bg-red-500/20', 'animate-shake', 'scale-105');
+                  secondSelection.classList.remove('border-red-500', 'bg-red-500/20', 'animate-shake', 'scale-105');
+                  firstSelection.classList.add('border-white/5', 'bg-black/40');
+                  secondSelection.classList.add('border-white/5', 'bg-black/40');
 
                   firstSelection = null;
                   isChecking = false;
@@ -110,19 +119,24 @@ export function initMatch() {
           }
       });
   });
-
-  function showResults() {
-      container.innerHTML = `
-        <div class="bg-gradient-to-br from-slate-800/80 to-slate-900/90 backdrop-blur-xl border border-white/10 p-12 rounded-3xl text-center shadow-2xl">
-            <h2 class="text-4xl font-bold text-white mb-6">Mükemmel Eşleşme!</h2>
-            <div class="w-24 h-24 mx-auto bg-green-500/20 rounded-full flex items-center justify-center mb-8 border border-green-500/50 scale-110 drop-shadow-lg">
-               <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-            </div>
-            <p class="text-slate-300 text-lg mb-8">Tüm kelimeleri doğru eşleştirdiniz.</p>
-            <button onclick="location.reload()" class="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-white font-bold py-3 px-10 rounded-xl shadow-[0_0_20px_rgba(16,185,129,0.4)] transition-all transform hover:scale-105">
-                Başa Dön
-            </button>
-        </div>
-      `;
-  }
 }
+
+function showMatchResults(container, lang) {
+  container.innerHTML = `
+    <div class="bg-white/[0.03] backdrop-blur-3xl border border-white/10 p-20 rounded-[48px] text-center shadow-3xl animate-in fade-in zoom-in-95 duration-700">
+        <h2 class="text-5xl font-black text-white mb-8 tracking-tighter">${t('perfect_match', lang)}</h2>
+        <div class="w-32 h-32 mx-auto bg-emerald-500/20 rounded-full flex items-center justify-center mb-10 border border-emerald-500/40 shadow-[0_0_50px_rgba(16,185,129,0.3)] animate-bounce">
+           <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <p class="text-slate-400 text-xl mb-12 font-bold">${t('match_finished_desc', lang)}</p>
+        <button id="restartMatchBtn" class="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-white font-black py-5 px-16 rounded-[28px] shadow-[0_20px_40px_-10px_rgba(16,185,129,0.4)] transition-all transform hover:scale-105 active:scale-95 text-xl tracking-tight uppercase">
+            ${t('play_again', lang)}
+        </button>
+    </div>
+  `;
+  
+  document.getElementById('restartMatchBtn').addEventListener('click', () => {
+    startMatchGame(container, lang);
+  });
+}
+

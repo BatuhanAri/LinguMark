@@ -1,5 +1,14 @@
+import { t } from '../../shared/i18n.js';
+
 export function initTyping() {
   const container = document.getElementById('typingContainer');
+  chrome.storage.sync.get(['targetLang'], (res) => {
+    const lang = res.targetLang || 'tr';
+    startTypingGame(container, lang);
+  });
+}
+
+function startTypingGame(container, lang) {
   let typeWords = [];
   let currentQ = 0;
   let score = 0;
@@ -12,27 +21,29 @@ export function initTyping() {
 
   function showQuestion() {
       if(currentQ >= typeWords.length) {
-          showResults();
+          showTypingResults(container, typeWords, score, lang);
           return;
       }
 
       const currentWord = typeWords[currentQ];
       
       container.innerHTML = `
-        <div class="text-center mb-8">
-            <span class="text-pink-400 font-bold tracking-widest uppercase text-sm bg-pink-500/10 px-4 py-1.5 rounded-full border border-pink-500/20 shadow-md">Soru ${currentQ + 1} / ${typeWords.length}</span>
+        <div class="text-center mb-10 flex flex-col items-center">
+            <span class="text-pink-400 font-black tracking-[0.2em] uppercase text-sm bg-pink-500/10 px-8 py-3 rounded-2xl border border-pink-500/20 shadow-2xl backdrop-blur-md font-['Outfit']">
+                ${t('back', lang).toUpperCase()} ${currentQ + 1} / ${typeWords.length}
+            </span>
         </div>
-        <div class="bg-gradient-to-br from-slate-800/80 to-slate-900/90 backdrop-blur-xl border border-white/10 p-10 rounded-3xl text-center shadow-2xl relative overflow-hidden w-full">
-            <div class="absolute inset-0 bg-gradient-to-tr from-pink-500/10 to-purple-500/10 opacity-30 pointer-events-none"></div>
-            <p class="text-slate-400 mb-4 tracking-widest uppercase text-xs sm:text-sm relative z-10">Bu anlama gelen kelimeyi yazın</p>
-            <h2 class="text-2xl sm:text-4xl font-bold text-white mb-10 drop-shadow-md relative z-10 break-words">${currentWord.meaning}</h2>
+        <div class="bg-white/[0.03] backdrop-blur-3xl border border-white/10 p-12 rounded-[48px] text-center shadow-3xl relative overflow-hidden w-full group">
+            <div class="absolute inset-0 bg-gradient-to-tr from-pink-500/10 to-purple-500/10 opacity-30 pointer-events-none group-hover:opacity-50 transition-opacity duration-1000"></div>
+            <p class="text-slate-500 mb-6 tracking-[0.2em] uppercase text-xs font-black relative z-10">${t('typing_instruction', lang) || 'BU ANLAMA GELEN KELİMEYİ YAZIN'}</p>
+            <h2 class="text-3xl sm:text-5xl font-black text-white mb-12 tracking-tighter drop-shadow-2xl relative z-10 break-words">${currentWord.meaning}</h2>
             
-            <div class="relative z-10 max-w-sm mx-auto">
-                <input type="text" id="typeInput" class="w-full bg-slate-900/50 border-2 border-slate-700/50 focus:border-pink-500/50 text-white text-center text-2xl p-4 rounded-xl outline-none transition-all shadow-inner mb-6" placeholder="..." autocomplete="off">
-                <div id="feedback" class="text-sm font-bold h-6 mb-4 mt-[-10px] hidden"></div>
-                <div class="flex gap-3">
-                    <button id="btnHint" class="bg-slate-700/50 hover:bg-slate-600/50 text-slate-300 font-bold py-3 px-6 rounded-xl transition-all border border-white/5 w-1/3 text-sm">İpucu</button>
-                    <button id="btnSubmit" class="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all border border-white/10 w-2/3">Kontrol Et</button>
+            <div class="relative z-10 max-w-md mx-auto">
+                <input type="text" id="typeInput" class="w-full bg-black/40 border-2 border-white/5 focus:border-pink-500/50 text-white text-center text-3xl font-black p-6 rounded-[28px] outline-none transition-all shadow-2xl mb-8 selection:bg-pink-500/30" placeholder="..." autocomplete="off">
+                <div id="feedback" class="text-sm font-black h-8 mb-6 mt-[-15px] hidden uppercase tracking-widest"></div>
+                <div class="flex gap-4">
+                    <button id="btnHint" class="bg-white/5 hover:bg-white/10 text-slate-400 font-black py-4 px-8 rounded-[24px] transition-all border border-white/5 w-1/3 text-sm uppercase tracking-wider active:scale-95 text-xs">${t('hint', lang) || 'İPUCU'}</button>
+                    <button id="btnSubmit" class="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white font-black py-4 px-8 rounded-[24px] shadow-2xl transition-all border border-white/10 w-2/3 uppercase tracking-widest active:scale-95">${t('check_answer', lang) || 'KONTROL ET'}</button>
                 </div>
             </div>
         </div>
@@ -46,12 +57,11 @@ export function initTyping() {
       let answered = false;
 
       // Focus input
-      setTimeout(() => input.focus(), 100);
+      setTimeout(() => input.focus(), 150);
 
       btnHint.addEventListener('click', () => {
           if(answered) return;
           hinted = true;
-          // show first 2 letters
           const word = currentWord.word;
           const hint = word.substring(0, Math.ceil(word.length / 2)) + '...';
           input.value = hint;
@@ -68,20 +78,20 @@ export function initTyping() {
           answered = true;
           if(val === target) {
               if(!hinted) score++;
-              input.classList.remove('border-slate-700/50', 'focus:border-pink-500/50');
-              input.classList.add('border-emerald-500', 'bg-emerald-500/10', 'text-emerald-400');
-              feedback.textContent = 'Doğru!';
+              input.classList.remove('border-white/5', 'focus:border-pink-500/50');
+              input.classList.add('border-emerald-500/50', 'bg-emerald-500/10', 'text-emerald-400', 'shadow-[0_0_30px_rgba(52,211,153,0.3)]');
+              feedback.textContent = 'Correct!';
               feedback.classList.remove('hidden', 'text-red-400');
               feedback.classList.add('block', 'text-emerald-400');
               
               setTimeout(() => {
                   currentQ++;
                   showQuestion();
-              }, 1000);
+              }, 1200);
           } else {
-              input.classList.remove('border-slate-700/50', 'focus:border-pink-500/50');
-              input.classList.add('border-red-500', 'bg-red-500/10', 'text-red-400', 'animate-pulse');
-              feedback.textContent = `Yanlış! Doğrusu: ${currentWord.word}`;
+              input.classList.remove('border-white/5', 'focus:border-pink-500/50');
+              input.classList.add('border-red-500/50', 'bg-red-500/10', 'text-red-400', 'animate-shake', 'shadow-[0_0_30px_rgba(239,68,68,0.35)]');
+              feedback.textContent = `False! Answer: ${currentWord.word}`;
               feedback.classList.remove('hidden', 'text-emerald-400');
               feedback.classList.add('block', 'text-red-400');
               
@@ -97,19 +107,24 @@ export function initTyping() {
           if(e.key === 'Enter') checkAnswer();
       });
   }
-
-  function showResults() {
-      container.innerHTML = `
-        <div class="bg-gradient-to-br from-slate-800/80 to-slate-900/90 backdrop-blur-xl border border-white/10 p-12 rounded-3xl text-center shadow-2xl">
-            <h2 class="text-4xl font-bold text-white mb-6">Yazım Pratiği Tamam!</h2>
-            <div class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 mb-8 drop-shadow-lg scale-110">
-                ${score} / ${typeWords.length}
-            </div>
-            <p class="text-slate-300 text-lg mb-8">İpucu almadan doğru yazdığınız kelime sayısı.</p>
-            <button onclick="location.reload()" class="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-400 hover:to-purple-400 text-white font-bold py-3 px-10 rounded-xl shadow-[0_0_20px_rgba(236,72,153,0.4)] transition-all transform hover:scale-105">
-                Başa Dön
-            </button>
-        </div>
-      `;
-  }
 }
+
+function showTypingResults(container, typeWords, score, lang) {
+  container.innerHTML = `
+    <div class="bg-white/[0.03] backdrop-blur-3xl border border-white/10 p-20 rounded-[48px] text-center shadow-3xl animate-in fade-in zoom-in-95 duration-700">
+        <h2 class="text-5xl font-black text-white mb-8 tracking-tighter">${t('congrats', lang)}</h2>
+        <div class="text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 mb-10 drop-shadow-lg scale-110 animate-pulse">
+            ${score} / ${typeWords.length}
+        </div>
+        <p class="text-slate-400 text-xl mb-12 font-bold">${t('meaning', lang).toUpperCase()} DOĞRU YAZILAN KELİME SAYISI.</p>
+        <button id="restartTypingBtn" class="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white font-black py-5 px-16 rounded-[28px] shadow-2xl transition-all transform hover:scale-105 active:scale-95 text-xl tracking-tight uppercase">
+            ${t('back_to_start', lang)}
+        </button>
+    </div>
+  `;
+  
+  document.getElementById('restartTypingBtn').addEventListener('click', () => {
+    startTypingGame(container, lang);
+  });
+}
+
