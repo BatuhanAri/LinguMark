@@ -157,9 +157,9 @@ function filterAndRefresh(lang) {
     setupFlashcard();
     
     // Init others
-    initQuiz();
-    initTyping();
-    initMatch();
+    initQuiz(lang);
+    initTyping(lang);
+    initMatch(lang);
   }
 }
 
@@ -192,7 +192,9 @@ function setupFlashcard() {
 
   // Remove old listeners to avoid duplicates
   const newFlashcard = flashcard.cloneNode(true);
-  flashcard.parentNode.replaceChild(newFlashcard, flashcard);
+  if (flashcard && flashcard.parentNode) {
+    flashcard.parentNode.replaceChild(newFlashcard, flashcard);
+  }
   
   // Update references
   const flashcardRef = document.getElementById('flashcard');
@@ -200,25 +202,31 @@ function setupFlashcard() {
   const forgotRef = document.getElementById('btnForgot');
   const rememberedRef = document.getElementById('btnRemembered');
 
-  flashcardRef.addEventListener('click', (e) => {
-    if (e.target.tagName === 'BUTTON' || e.target.closest('button')) return;
-    fcIsFlipped = !fcIsFlipped;
-    if (fcIsFlipped) innerRef.classList.add('rotate-y-180');
-    else innerRef.classList.remove('rotate-y-180');
-  });
+  if (flashcardRef) {
+    flashcardRef.addEventListener('click', (e) => {
+      if (e.target.tagName === 'BUTTON' || e.target.closest('button')) return;
+      fcIsFlipped = !fcIsFlipped;
+      if (fcIsFlipped) innerRef.classList.add('rotate-y-180');
+      else innerRef.classList.remove('rotate-y-180');
+    });
+  }
 
-  forgotRef.addEventListener('click', (e) => {
-    e.stopPropagation();
-    flashcardWords.push(flashcardWords[fcCurrentIndex]);
-    fcCurrentIndex++;
-    nextFlashcard(innerRef);
-  });
+  if (forgotRef) {
+    forgotRef.addEventListener('click', (e) => {
+      e.stopPropagation();
+      flashcardWords.push(flashcardWords[fcCurrentIndex]);
+      fcCurrentIndex++;
+      nextFlashcard(innerRef);
+    });
+  }
 
-  rememberedRef.addEventListener('click', (e) => {
-    e.stopPropagation();
-    fcCurrentIndex++;
-    nextFlashcard(innerRef);
-  });
+  if (rememberedRef) {
+    rememberedRef.addEventListener('click', (e) => {
+      e.stopPropagation();
+      fcCurrentIndex++;
+      nextFlashcard(innerRef);
+    });
+  }
 }
 
 function nextFlashcard(inner) {

@@ -1,11 +1,8 @@
 import { t } from '../../shared/i18n.js';
 
-export function initQuiz() {
+export function initQuiz(lang = 'tr') {
   const container = document.getElementById('quizContainer');
-  chrome.storage.sync.get(['targetLang'], (res) => {
-    const lang = res.targetLang || 'tr';
-    startQuizGame(container, lang);
-  });
+  startQuizGame(container, lang);
 }
 
 function startQuizGame(container, lang) {
@@ -19,8 +16,8 @@ function startQuizGame(container, lang) {
   if(quizWords.length < 4) {
       container.innerHTML = `
         <div class="bg-red-500/10 border border-red-500/20 p-12 rounded-[32px] text-center mt-10 backdrop-blur-3xl animate-in fade-in zoom-in-95">
-            <h2 class="text-3xl font-black text-red-400 mb-4">${t('yetersiz_kelime', lang) || 'Yetersiz Kelime'}</h2>
-            <p class="text-red-300/80 text-lg font-medium">Test çözebilmek için en az 4 kelime kaydetmiş olmanız gerekir.</p>
+            <h2 class="text-3xl font-black text-red-400 mb-4">${t('yetersiz_kelime', lang)}</h2>
+            <p class="text-red-300/80 text-lg font-medium">${t('yetersiz_kelime_desc', lang)}</p>
         </div>
       `;
       return;
@@ -50,7 +47,7 @@ function startQuizGame(container, lang) {
         </div>
         <div class="bg-white/[0.03] backdrop-blur-3xl border border-white/10 p-12 rounded-[48px] text-center shadow-3xl relative overflow-hidden group">
             <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/10 to-cyan-500/10 opacity-30 pointer-events-none group-hover:opacity-50 transition-opacity duration-1000"></div>
-            <p class="text-slate-500 mb-6 tracking-[0.2em] uppercase text-xs font-black relative z-10">${t('fcHint', lang) || 'BU KELİMENİN ANLAMI NEDİR?'}</p>
+            <p class="text-slate-500 mb-6 tracking-[0.2em] uppercase text-xs font-black relative z-10">${t('flip_hint', lang).toUpperCase()} ?</p>
             <h2 class="text-6xl md:text-7xl font-black text-white mb-12 tracking-tighter drop-shadow-2xl capitalize relative z-10">${currentWord.word}</h2>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 relative z-10" id="optionsGrid">
@@ -106,7 +103,7 @@ function showQuizResults(container, quizWords, score, lang) {
         <div class="text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-cyan-400 to-purple-400 mb-10 drop-shadow-lg scale-110 animate-pulse">
             ${score} / ${quizWords.length}
         </div>
-        <p class="text-slate-400 text-xl mb-12 font-bold">${t('meaning', lang).toUpperCase()} BİLDİĞİNİZ KELİME SAYISI.</p>
+        <p class="text-slate-400 text-xl mb-12 font-bold uppercase tracking-widest">${t('dogru_sayisi_desc', lang)}</p>
         <button id="restartQuizBtn" class="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-400 hover:to-cyan-400 text-white font-black py-5 px-16 rounded-[28px] shadow-2xl transition-all transform hover:scale-105 active:scale-95 text-xl tracking-tight uppercase">
             ${t('back_to_start', lang)}
         </button>
