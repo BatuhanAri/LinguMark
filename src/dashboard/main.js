@@ -39,7 +39,7 @@ const dashLangOptions = document.querySelectorAll('.dash-lang-option');
 
 // Word List Elements
 const wordListGrid = document.getElementById('wordListGrid');
-const oxfordListGrid = document.getElementById('oxfordListGrid');
+// oxfordListGrid is fetched at runtime inside initOxford() to avoid null at boot
 const wordCountBadge = document.getElementById('wordCountBadge');
 const viewTitleWords = document.getElementById('viewTitleWords');
 const viewDescWords = document.getElementById('viewDescWords');
@@ -65,11 +65,9 @@ let fcCurrentIndex = 0;
 let fcIsFlipped = false;
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const syncData = await chrome.storage.sync.get(['targetLang', 'isOxfordEnabled']);
+  const syncData = await chrome.storage.sync.get(['targetLang']);
   currentGameLang = syncData.targetLang || 'tr';
-  isOxfordEnabled = syncData.isOxfordEnabled || false;
   
-  updateOxfordToggleUI();
   updateDashUI(currentGameLang);
   
   // Toggle Oxford (removed - now handled in initOxford)
