@@ -4,11 +4,13 @@ import { initTyping } from './apps/typing.js';
 import { initMatch } from './apps/match.js';
 import { initRemember } from './apps/remember.js';
 import { initStats } from './apps/stats.js';
+import { oxfordDictionary } from '../shared/oxford.js';
 
 // Global state
 window.linguWords = [];
 let allWords = [];
 let currentGameLang = 'tr';
+let isOxfordEnabled = false;
 
 // DOM Elements
 const noWordsState = document.getElementById('noWordsState');
@@ -24,6 +26,7 @@ const tabQuiz = document.getElementById('tab-quiz');
 const tabTyping = document.getElementById('tab-typing');
 const tabMatching = document.getElementById('tab-matching');
 const tabRemember = document.getElementById('tab-remember');
+const tabOxford = document.getElementById('tab-oxford');
 const tabStats = document.getElementById('tab-stats');
 const emptyTitle = document.getElementById('emptyTitle');
 const emptyDesc = document.getElementById('emptyDesc');
@@ -36,9 +39,13 @@ const dashLangOptions = document.querySelectorAll('.dash-lang-option');
 
 // Word List Elements
 const wordListGrid = document.getElementById('wordListGrid');
+const oxfordListGrid = document.getElementById('oxfordListGrid');
 const wordCountBadge = document.getElementById('wordCountBadge');
 const viewTitleWords = document.getElementById('viewTitleWords');
 const viewDescWords = document.getElementById('viewDescWords');
+
+const toggleOxfordBtn = document.getElementById('toggleOxfordBtn');
+const oxfordToggleStatus = document.getElementById('oxfordToggleStatus');
 
 // Flashcard Elements
 const flashcard = document.getElementById('flashcard');
@@ -58,10 +65,20 @@ let fcCurrentIndex = 0;
 let fcIsFlipped = false;
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const syncData = await chrome.storage.sync.get(['targetLang']);
+  const syncData = await chrome.storage.sync.get(['targetLang', 'isOxfordEnabled']);
   currentGameLang = syncData.targetLang || 'tr';
+  isOxfordEnabled = syncData.isOxfordEnabled || false;
   
+  updateOxfordToggleUI();
   updateDashUI(currentGameLang);
+  
+  // Toggle Oxford
+  toggleOxfordBtn.addEventListener('click', async () => {
+    isOxfordEnabled = !isOxfordEnabled;
+    await chrome.storage.sync.set({ isOxfordEnabled });
+    updateOxfordToggleUI();
+    filterAndRefresh(currentGameLang);
+  });
   
   // Lang Dropdown
   dashLangBtn.addEventListener('click', (e) => {
@@ -148,6 +165,11 @@ function updateDashUI(lang) {
 function filterAndRefresh(lang) {
   window.linguWords = allWords.filter(w => w.lang === lang);
   
+  if (isOxfordEnabled) {
+    const oxf = oxfordDictionary.filter(w => w.lang === lang);
+    window.linguWords.push(...oxf);
+  }
+  
   if (window.linguWords.length === 0) {
     noWordsState.classList.remove('hidden');
     noWordsState.classList.add('flex');
@@ -160,8 +182,14 @@ function filterAndRefresh(lang) {
     document.getElementById('view-wordlist').classList.remove('hidden');
     document.getElementById('view-wordlist').classList.add('flex');
     
-    wordCountBadge.textContent = `${window.linguWords.length} ${t('words_count', lang)}`;
-    renderWordList(window.linguWords);
+    // Split rendering
+    const customWords = window.linguWords.filter(w => !w.isOxford);
+    const oxfordFound = window.linguWords.filter(w => w.isOxford);
+    
+    // wordCountBadge should reflect custom words
+    wordCountBadge.textContent = `${customWords.length} ${t('words_count', lang)}`;
+    renderWordListItems(customWords, wordListGrid);
+    if(oxfordListGrid) renderWordListItems(oxfordFound, oxfordListGrid);
     setupFlashcard();
     
     // Init others
@@ -173,27 +201,44 @@ function filterAndRefresh(lang) {
   }
 }
 
+function updateOxfordToggleUI() {
+  if (!oxfordToggleStatus) return;
+  if(isOxfordEnabled) {
+      oxfordToggleStatus.innerHTML = `🎓 Oxford: <span class="text-green-400">Açık</span>`;
+  } else {
+      oxfordToggleStatus.innerHTML = `🎓 Oxford: <span class="text-red-400">Kapalı</span>`;
+  }
+}
+
 // 1. Rendering Word List View
-function renderWordList(words) {
-  wordListGrid.innerHTML = '';
+function renderWordListItems(words, gridElement) {
+  if(!gridElement) return;
+  gridElement.innerHTML = '';
   // Alphabetical sorting
   const sortedWords = [...words].sort((a, b) => a.word.localeCompare(b.word));
+
+  if (sortedWords.length === 0) {
+    gridElement.innerHTML = `<p class="text-slate-500 font-medium py-4 px-2 col-span-full">Şu an gösterilecek kelime yok.</p>`;
+    return;
+  }
 
   sortedWords.forEach(wordObj => {
     const card = document.createElement('div');
     card.className = 'word-card group cursor-pointer';
     
+    const deleteBtnHtml = wordObj.isOxford ? '' : `
+      <button class="delete-btn p-2 rounded-full bg-red-500/10 hover:bg-red-500/20 transition-colors text-red-400 opacity-0 group-hover:opacity-100 shrink-0" data-id="${wordObj.id}" title="Sil">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+      </button>`;
+
     card.innerHTML = `
       <div class="flex justify-between items-start mb-4 z-10 relative">
-        <h3 class="text-2xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors">${wordObj.word}</h3>
-        <div class="flex items-center gap-2">
-            <button class="delete-btn p-2 rounded-full bg-red-500/10 hover:bg-red-500/20 transition-colors text-red-400 opacity-0 group-hover:opacity-100" data-id="${wordObj.id}" title="Sil">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
-            </button>
-            <button class="speaker-btn p-2 rounded-full bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
+        <h3 class="text-2xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors w-[65%] truncate" title="${wordObj.word}">${wordObj.word}</h3>
+        <div class="flex items-center gap-1 shrink-0">
+            ${deleteBtnHtml}
+            <button class="speaker-btn p-2 rounded-full bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white shrink-0" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z"/><path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.061z"/></svg>
             </button>
-            <span class="text-[10px] font-black bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-lg uppercase tracking-widest border border-cyan-500/20">${wordObj.lang || 'TR'}</span>
         </div>
       </div>
       <div class="bg-black/40 backdrop-blur-md p-5 rounded-2xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none">
@@ -208,7 +253,7 @@ function renderWordList(words) {
       window.open(searchUrl, '_blank');
     });
 
-    wordListGrid.appendChild(card);
+    gridElement.appendChild(card);
   });
   
   // Attach speaker event listeners

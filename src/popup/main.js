@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const currentLang = syncData.targetLang || 'tr';
   
   masterSwitch.checked = syncData.masterSwitch ?? true;
+  updateSwitchVisuals(masterSwitch.checked);
   updateLocalUI(currentLang);
 
   if (practiceBtn) {
@@ -54,6 +55,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Listeners for settings
   masterSwitch.addEventListener('change', (e) => {
     chrome.storage.sync.set({ masterSwitch: e.target.checked });
+    updateSwitchVisuals(e.target.checked);
   });
 
   chrome.storage.onChanged.addListener((changes, areaName) => {
@@ -62,6 +64,25 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 });
+
+function updateSwitchVisuals(isOn) {
+  const bg = document.getElementById('switchBg');
+  const dot = document.getElementById('switchDot');
+  const status = document.getElementById('statusDot');
+  if (isOn) {
+     bg.classList.add('bg-green-500');
+     bg.classList.remove('bg-slate-800');
+     dot.style.transform = 'translateX(24px)';
+     status.classList.replace('bg-slate-500', 'bg-green-400');
+     status.classList.add('animate-pulse');
+  } else {
+     bg.classList.remove('bg-green-500');
+     bg.classList.add('bg-slate-800');
+     dot.style.transform = 'translateX(0)';
+     status.classList.replace('bg-green-400', 'bg-slate-500');
+     status.classList.remove('animate-pulse');
+  }
+}
 
 function updateLocalUI(lang) {
   if (appTitle) appTitle.textContent = t('app_title', lang);
