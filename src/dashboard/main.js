@@ -101,12 +101,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Navigation Logic
   navBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
-      if (window.linguWords.length === 0) return;
+      const targetId = e.currentTarget.getAttribute('data-target');
+
+      // Block games if 0 words, but ALWAYS allow wordlist, oxford, stats
+      const allowedEmpty = ['view-wordlist', 'view-oxford', 'view-stats'];
+      if (window.linguWords.length === 0 && !allowedEmpty.includes(targetId)) return;
 
       navBtns.forEach(b => b.classList.remove('active'));
-      e.target.classList.add('active');
+      e.currentTarget.classList.add('active');
 
-      const targetId = e.target.getAttribute('data-target');
       appViews.forEach(view => {
         view.classList.add('hidden');
         view.classList.remove('flex');
@@ -157,16 +160,14 @@ function updateDashUI(lang) {
 
 function filterAndRefresh(lang) {
   window.linguWords = allWords.filter(w => w.lang === lang);
+  const wordlistContent = document.getElementById('wordlistContent');
   
   if (window.linguWords.length === 0) {
     if(noWordsState) { noWordsState.classList.remove('hidden'); noWordsState.classList.add('flex'); }
-    appViews.forEach(v => v.classList.add('hidden'));
+    if(wordlistContent) { wordlistContent.classList.add('hidden'); wordlistContent.classList.remove('flex'); }
   } else {
     if(noWordsState) { noWordsState.classList.add('hidden'); noWordsState.classList.remove('flex'); }
-    
-    // Default show words
-    document.getElementById('view-wordlist').classList.remove('hidden');
-    document.getElementById('view-wordlist').classList.add('flex');
+    if(wordlistContent) { wordlistContent.classList.remove('hidden'); wordlistContent.classList.add('flex'); }
     
     // Split rendering
     const customWords = window.linguWords.filter(w => !w.isOxford);
@@ -204,7 +205,7 @@ function initOxford(lang) {
 
   function renderOxfordLevel(level) {
     currentOxfordLevel = level;
-    const words = oxfordDictionary.filter(w => w.lang === lang && w.level === level);
+    const words = oxfordDictionary.filter(w => w.level === level);
     countBadge.textContent = `${words.length} kelime`;
     if (!grid) return;
     grid.innerHTML = '';
@@ -220,7 +221,7 @@ function initOxford(lang) {
           <span class="text-[9px] font-black px-2 py-1 rounded-lg border ${c.border} ${c.text} ${c.bg}">${level}</span>
         </div>
         <div class="bg-black/40 p-4 rounded-2xl border border-white/5 pointer-events-none">
-          <p class="text-[14px] text-slate-200 font-semibold">${wordObj.meaning}</p>
+          <p class="text-[14px] text-slate-200 font-semibold">${wordObj.meanings[lang] || wordObj.meanings['tr'] || ''}</p>
         </div>
         ${isAdded ? '<div class="absolute top-3 right-3 w-2 h-2 rounded-full bg-emerald-400" title="Kelimelerimde var"></div>' : ''}
       `;
@@ -264,8 +265,8 @@ function initOxford(lang) {
       if (!currentOxfordLevel) return;
       const now = new Date().toISOString();
       const toAdd = oxfordDictionary
-        .filter(w => w.lang === lang && w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id))
-        .map(w => ({ ...w, dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
+        .filter(w => w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id))
+        .map(w => ({ ...w, lang: lang, meaning: w.meanings[lang] || w.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
       const result = await new Promise(res => chrome.storage.sync.get(['words'], res));
       const existing = result.words || [];
       const merged = [...existing, ...toAdd];
@@ -284,7 +285,7 @@ function initOxford(lang) {
     removeBtn.parentNode.replaceChild(freshRm, removeBtn);
     document.getElementById('removeOxfordFromMyWords').addEventListener('click', async () => {
       if (!currentOxfordLevel) return;
-      const idsToRemove = new Set(oxfordDictionary.filter(w => w.lang === lang && w.level === currentOxfordLevel).map(w => w.id));
+      const idsToRemove = new Set(oxfordDictionary.filter(w => w.level === currentOxfordLevel).map(w => w.id));
       const result = await new Promise(res => chrome.storage.sync.get(['words'], res));
       const filtered = (result.words || []).filter(w => !idsToRemove.has(w.id));
       await new Promise(res => chrome.storage.sync.set({ words: filtered }, res));
