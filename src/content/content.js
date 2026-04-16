@@ -6,10 +6,10 @@ const tagsToIgnore = new Set([
 ]);
 
 async function init() {
-  const syncData = await chrome.storage.sync.get(['masterSwitch']);
+  const syncData = await chrome.storage.local.get(['masterSwitch']);
   isMasterSwitchEnabled = syncData.masterSwitch ?? true;
 
-  const syncDataWords = await chrome.storage.sync.get(['words']);
+  const syncDataWords = await chrome.storage.local.get(['words']);
   savedWords = syncDataWords.words || [];
 
   if (isMasterSwitchEnabled && savedWords.length > 0) {

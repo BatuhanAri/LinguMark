@@ -61,12 +61,12 @@ function processAnswer(answerType) {
   wordObj.nextReviewDate = nextDate.toISOString();
 
   // Save to Chrome Sync Global Array
-  chrome.storage.sync.get(['words'], (result) => {
+  chrome.storage.local.get(['words'], (result) => {
     const allWords = result.words || [];
     const idx = allWords.findIndex(w => w.id === wordObj.id);
     if (idx !== -1) {
       allWords[idx] = wordObj;
-      chrome.storage.sync.set({ words: allWords });
+      chrome.storage.local.set({ words: allWords });
     }
   });
 
