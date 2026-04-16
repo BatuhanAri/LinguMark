@@ -1,67 +1,121 @@
-// Oxford 3000/5000 Word List - Categorized by CEFR Level
-// Each word has: id, word, meaning (Turkish/Native), lang, level, isOxford flag
-
 export const oxfordDictionary = [
   // ═══════════════════════════════════════════════
-  //  ENGLISH — A1
+  //  A1 — BEGINNER (30 words)
   // ═══════════════════════════════════════════════
-  { id: 'ox-en-a1-1',  word: 'about',      meaning: 'Hakkında, Yaklaşık',       lang: 'en', level: 'A1', isOxford: true },
-  { id: 'ox-en-a1-2',  word: 'after',      meaning: 'Sonra, Sonrasında',        lang: 'en', level: 'A1', isOxford: true },
-  { id: 'ox-en-a1-3',  word: 'again',      meaning: 'Tekrar, Yeniden',          lang: 'en', level: 'A1', isOxford: true },
-  { id: 'ox-en-a1-4',  word: 'animal',     meaning: 'Hayvan',                   lang: 'en', level: 'A1', isOxford: true },
-  { id: 'ox-en-a1-5',  word: 'answer',     meaning: 'Cevap, Yanıt',             lang: 'en', level: 'A1', isOxford: true },
-  { id: 'ox-en-a1-6',  word: 'beautiful',  meaning: 'Güzel',                    lang: 'en', level: 'A1', isOxford: true },
-  
-  // ═══════════════════════════════════════════════
-  //  ENGLISH — A2
-  // ═══════════════════════════════════════════════
-  { id: 'ox-en-a2-1',  word: 'accept',     meaning: 'Kabul etmek',              lang: 'en', level: 'A2', isOxford: true },
-  { id: 'ox-en-a2-2',  word: 'achieve',    meaning: 'Başarmak, Elde etmek',     lang: 'en', level: 'A2', isOxford: true },
-  { id: 'ox-en-a2-3',  word: 'advice',     meaning: 'Tavsiye, Öğüt',            lang: 'en', level: 'A2', isOxford: true },
+  { id: 'ox-a1-1',  word: 'about',      level: 'A1', meanings: { tr: 'Hakkında',     es: 'Sobre',      fr: 'Sur',        de: 'Über',        it: 'Circa' } },
+  { id: 'ox-a1-2',  word: 'after',      level: 'A1', meanings: { tr: 'Sonra',        es: 'Después',    fr: 'Après',      de: 'Nach',        it: 'Dopo' } },
+  { id: 'ox-a1-3',  word: 'again',      level: 'A1', meanings: { tr: 'Tekrar',       es: 'Otra vez',   fr: 'Encore',     de: 'Wieder',      it: 'Di nuovo' } },
+  { id: 'ox-a1-4',  word: 'animal',     level: 'A1', meanings: { tr: 'Hayvan',       es: 'Animal',     fr: 'Animal',     de: 'Tier',        it: 'Animale' } },
+  { id: 'ox-a1-5',  word: 'answer',     level: 'A1', meanings: { tr: 'Cevap',        es: 'Respuesta',  fr: 'Réponse',    de: 'Antwort',     it: 'Risposta' } },
+  { id: 'ox-a1-6',  word: 'because',    level: 'A1', meanings: { tr: 'Çünkü',        es: 'Porque',     fr: 'Parce que',  de: 'Weil',        it: 'Perché' } },
+  { id: 'ox-a1-7',  word: 'begin',      level: 'A1', meanings: { tr: 'Başlamak',     es: 'Empezar',    fr: 'Commencer',  de: 'Beginnen',    it: 'Iniziare' } },
+  { id: 'ox-a1-8',  word: 'between',    level: 'A1', meanings: { tr: 'Arasında',     es: 'Entre',      fr: 'Entre',      de: 'Zwischen',    it: 'Tra' } },
+  { id: 'ox-a1-9',  word: 'build',      level: 'A1', meanings: { tr: 'İnşa etmek',   es: 'Construir',  fr: 'Construire', de: 'Bauen',       it: 'Costruire' } },
+  { id: 'ox-a1-10', word: 'change',     level: 'A1', meanings: { tr: 'Değişim',      es: 'Cambio',     fr: 'Change',     de: 'Wechsel',     it: 'Cambio' } },
+  { id: 'ox-a1-11', word: 'child',      level: 'A1', meanings: { tr: 'Çocuk',        es: 'Niño',       fr: 'Enfant',     de: 'Kind',        it: 'Bambino' } },
+  { id: 'ox-a1-12', word: 'city',       level: 'A1', meanings: { tr: 'Şehir',        es: 'Ciudad',     fr: 'Ville',      de: 'Stadt',       it: 'Città' } },
+  { id: 'ox-a1-13', word: 'country',    level: 'A1', meanings: { tr: 'Ülke',         es: 'País',       fr: 'Pays',       de: 'Land',        it: 'Paese' } },
+  { id: 'ox-a1-14', word: 'early',      level: 'A1', meanings: { tr: 'Erken',        es: 'Temprano',   fr: 'Tôt',        de: 'Früh',        it: 'Presto' } },
+  { id: 'ox-a1-15', word: 'eat',        level: 'A1', meanings: { tr: 'Yemek',        es: 'Comer',      fr: 'Manger',     de: 'Essen',       it: 'Mangiare' } },
+  { id: 'ox-a1-16', word: 'family',     level: 'A1', meanings: { tr: 'Aile',         es: 'Familia',    fr: 'Famille',    de: 'Familie',     it: 'Famiglia' } },
+  { id: 'ox-a1-17', word: 'find',       level: 'A1', meanings: { tr: 'Bulmak',       es: 'Encontrar',  fr: 'Trouver',    de: 'Finden',      it: 'Trovare' } },
+  { id: 'ox-a1-18', word: 'friend',     level: 'A1', meanings: { tr: 'Arkadaş',      es: 'Amigo',      fr: 'Ami',        de: 'Freund',      it: 'Amico' } },
+  { id: 'ox-a1-19', word: 'house',      level: 'A1', meanings: { tr: 'Ev',           es: 'Casa',       fr: 'Maison',     de: 'Haus',        it: 'Casa' } },
+  { id: 'ox-a1-20', word: 'learn',      level: 'A1', meanings: { tr: 'Öğrenmek',     es: 'Aprender',   fr: 'Apprendre',  de: 'Lernen',      it: 'Imparare' } },
+  { id: 'ox-a1-21', word: 'money',      level: 'A1', meanings: { tr: 'Para',         es: 'Dinero',     fr: 'Argent',     de: 'Geld',        it: 'Denaro' } },
+  { id: 'ox-a1-22', word: 'name',       level: 'A1', meanings: { tr: 'İsim',         es: 'Nombre',     fr: 'Nom',        de: 'Name',        it: 'Nome' } },
+  { id: 'ox-a1-23', word: 'people',     level: 'A1', meanings: { tr: 'İnsanlar',     es: 'Gente',      fr: 'Gens',       de: 'Leute',       it: 'Persone' } },
+  { id: 'ox-a1-24', word: 'place',      level: 'A1', meanings: { tr: 'Yer',          es: 'Lugar',      fr: 'Lieu',       de: 'Ort',         it: 'Luogo' } },
+  { id: 'ox-a1-25', word: 'read',       level: 'A1', meanings: { tr: 'Okumak',       es: 'Leer',       fr: 'Lire',       de: 'Lesen',       it: 'Leggere' } },
+  { id: 'ox-a1-26', word: 'school',     level: 'A1', meanings: { tr: 'Okul',         es: 'Escuela',    fr: 'École',      de: 'Schule',      it: 'Scuola' } },
+  { id: 'ox-a1-27', word: 'start',      level: 'A1', meanings: { tr: 'Başlamak',     es: 'Comenzar',   fr: 'Débuter',    de: 'Starten',     it: 'Iniziare' } },
+  { id: 'ox-a1-28', word: 'water',      level: 'A1', meanings: { tr: 'Su',           es: 'Agua',       fr: 'Eau',        de: 'Wasser',      it: 'Acqua' } },
+  { id: 'ox-a1-29', word: 'word',       level: 'A1', meanings: { tr: 'Kelime',       es: 'Palabra',    fr: 'Mot',        de: 'Wort',        it: 'Parola' } },
+  { id: 'ox-a1-30', word: 'work',       level: 'A1', meanings: { tr: 'Çalışmak',     es: 'Trabajar',   fr: 'Travailler', de: 'Arbeiten',    it: 'Lavorare' } },
 
   // ═══════════════════════════════════════════════
-  //  ENGLISH — B1
+  //  A2 — ELEMENTARY (25 words)
   // ═══════════════════════════════════════════════
-  { id: 'ox-en-b1-1',  word: 'abandon',    meaning: 'Terk etmek, Bırakmak',     lang: 'en', level: 'B1', isOxford: true },
-  { id: 'ox-en-b1-2',  word: 'absorb',     meaning: 'Emmek, Özümsemek',         lang: 'en', level: 'B1', isOxford: true },
+  { id: 'ox-a2-1',  word: 'accept',     level: 'A2', meanings: { tr: 'Kabul etmek',  es: 'Aceptar',    fr: 'Accepter',   de: 'Akzeptieren', it: 'Accettare' } },
+  { id: 'ox-a2-2',  word: 'advice',     level: 'A2', meanings: { tr: 'Tavsiye',      es: 'Consejo',    fr: 'Conseil',    de: 'Rat',         it: 'Consiglio' } },
+  { id: 'ox-a2-3',  word: 'allow',      level: 'A2', meanings: { tr: 'İzin vermek',  es: 'Permitir',   fr: 'Permettre',  de: 'Erlauben',    it: 'Permettere' } },
+  { id: 'ox-a2-4',  word: 'amount',     level: 'A2', meanings: { tr: 'Miktar',       es: 'Cantidad',   fr: 'Quantité',   de: 'Menge',       it: 'Quantità' } },
+  { id: 'ox-a2-5',  word: 'appear',     level: 'A2', meanings: { tr: 'Görünmek',     es: 'Aparecer',   fr: 'Apparaître', de: 'Erscheinen',  it: 'Apparire' } },
+  { id: 'ox-a2-6',  word: 'balance',    level: 'A2', meanings: { tr: 'Denge',        es: 'Equilibrio', fr: 'Équilibre',  de: 'Gleichgewicht', it: 'Equilibrio' } },
+  { id: 'ox-a2-7',  word: 'believe',    level: 'A2', meanings: { tr: 'İnanmak',      es: 'Creer',      fr: 'Croire',     de: 'Glauben',     it: 'Credere' } },
+  { id: 'ox-a2-8',  word: 'benefit',    level: 'A2', meanings: { tr: 'Fayda',        es: 'Beneficio',  fr: 'Bénéfice',   de: 'Vorteil',     it: 'Beneficio' } },
+  { id: 'ox-a2-9',  word: 'century',    level: 'A2', meanings: { tr: 'Yüzyıl',       es: 'Siglo',      fr: 'Siècle',     de: 'Jahrhundert', it: 'Secolo' } },
+  { id: 'ox-a2-10', word: 'challenge',  level: 'A2', meanings: { tr: 'Zorluk',       es: 'Desafío',    fr: 'Défi',       de: 'Herausforderung', it: 'Sfida' } },
+  { id: 'ox-a2-11', word: 'compare',    level: 'A2', meanings: { tr: 'Karşılaştırmak',es:'Comparar',   fr: 'Comparer',   de: 'Vergleichen', it: 'Confrontare' } },
+  { id: 'ox-a2-12', word: 'complain',   level: 'A2', meanings: { tr: 'Şikayet etmek',es:'Quejarse',    fr: 'Se plaindre',de: 'Sich beklagen',it: 'Lamentarsi' } },
+  { id: 'ox-a2-13', word: 'connect',    level: 'A2', meanings: { tr: 'Bağlamak',     es: 'Conectar',   fr: 'Connecter',  de: 'Verbinden',   it: 'Connettere' } },
+  { id: 'ox-a2-14', word: 'continue',   level: 'A2', meanings: { tr: 'Devam etmek',  es: 'Continuar',  fr: 'Continuer',  de: 'Fortsetzen',  it: 'Continuare' } },
+  { id: 'ox-a2-15', word: 'control',    level: 'A2', meanings: { tr: 'Kontrol',      es: 'Control',    fr: 'Contrôle',   de: 'Kontrolle',   it: 'Controllo' } },
+  { id: 'ox-a2-16', word: 'create',     level: 'A2', meanings: { tr: 'Yaratmak',     es: 'Crear',      fr: 'Créer',      de: 'Erstellen',   it: 'Creare' } },
+  { id: 'ox-a2-17', word: 'damage',     level: 'A2', meanings: { tr: 'Zarar',        es: 'Daño',       fr: 'Dommage',    de: 'Schaden',     it: 'Danno' } },
+  { id: 'ox-a2-18', word: 'decide',     level: 'A2', meanings: { tr: 'Karar vermek', es: 'Decidir',    fr: 'Décider',    de: 'Entscheiden', it: 'Decidere' } },
+  { id: 'ox-a2-19', word: 'develop',    level: 'A2', meanings: { tr: 'Geliştirmek',  es: 'Desarrollar',fr: 'Développer', de: 'Entwickeln',  it: 'Sviluppare' } },
+  { id: 'ox-a2-20', word: 'difference', level: 'A2', meanings: { tr: 'Fark',         es: 'Diferencia', fr: 'Différence', de: 'Unterschied', it: 'Differenza' } },
+  { id: 'ox-a2-21', word: 'discover',   level: 'A2', meanings: { tr: 'Keşfetmek',    es: 'Descubrir',  fr: 'Découvrir',  de: 'Entdecken',   it: 'Scoprire' } },
+  { id: 'ox-a2-22', word: 'disease',    level: 'A2', meanings: { tr: 'Hastalık',     es: 'Enfermedad', fr: 'Maladie',    de: 'Krankheit',   it: 'Malattia' } },
+  { id: 'ox-a2-23', word: 'economy',    level: 'A2', meanings: { tr: 'Ekonomi',      es: 'Economía',   fr: 'Économie',   de: 'Wirtschaft',  it: 'Economia' } },
+  { id: 'ox-a2-24', word: 'event',      level: 'A2', meanings: { tr: 'Etkinlik',     es: 'Evento',     fr: 'Événement',  de: 'Ereignis',    it: 'Evento' } },
+  { id: 'ox-a2-25', word: 'experience', level: 'A2', meanings: { tr: 'Deneyim',      es: 'Experiencia',fr: 'Expérience', de: 'Erfahrung',   it: 'Esperienza' } },
 
   // ═══════════════════════════════════════════════
-  //  ENGLISH — B2
+  //  B1 — INTERMEDIATE (20 words)
   // ═══════════════════════════════════════════════
-  { id: 'ox-en-b2-1',  word: 'abolish',    meaning: 'Kaldırmak, Feshetmek',     lang: 'en', level: 'B2', isOxford: true },
-  { id: 'ox-en-b2-2',  word: 'abstract',   meaning: 'Soyut',                    lang: 'en', level: 'B2', isOxford: true },
-  { id: 'ox-en-b2-18', word: 'authentic',  meaning: 'Özgün, Orijinal',          lang: 'en', level: 'B2', isOxford: true },
+  { id: 'ox-b1-1',  word: 'abandon',    level: 'B1', meanings: { tr: 'Terk etmek',   es: 'Abandonar',  fr: 'Abandonner', de: 'Verlassen',   it: 'Abbandonare' } },
+  { id: 'ox-b1-2',  word: 'absorb',     level: 'B1', meanings: { tr: 'Emmek',        es: 'Absorber',   fr: 'Absorber',   de: 'Absorbieren', it: 'Assorbire' } },
+  { id: 'ox-b1-3',  word: 'accompany',  level: 'B1', meanings: { tr: 'Eşlik etmek',  es: 'Acompañar',  fr: 'Accompagner',de: 'Begleiten',   it: 'Accompagnare' } },
+  { id: 'ox-b1-4',  word: 'accurate',   level: 'B1', meanings: { tr: 'Doğru',        es: 'Preciso',    fr: 'Précis',     de: 'Genau',       it: 'Accurato' } },
+  { id: 'ox-b1-5',  word: 'acquire',    level: 'B1', meanings: { tr: 'Edinmek',      es: 'Adquirir',   fr: 'Acquérir',   de: 'Erwerben',    it: 'Acquisire' } },
+  { id: 'ox-b1-6',  word: 'adapt',      level: 'B1', meanings: { tr: 'Uyum sağlamak',es: 'Adaptar',    fr: 'Adapter',    de: 'Anpassen',    it: 'Adattare' } },
+  { id: 'ox-b1-7',  word: 'adequate',   level: 'B1', meanings: { tr: 'Yeterli',      es: 'Adecuado',   fr: 'Adéquat',    de: 'Angemessen',  it: 'Adeguato' } },
+  { id: 'ox-b1-8',  word: 'admire',     level: 'B1', meanings: { tr: 'Hayran olmak', es: 'Admirar',    fr: 'Admirer',    de: 'Bewundern',   it: 'Ammirare' } },
+  { id: 'ox-b1-9',  word: 'adopt',      level: 'B1', meanings: { tr: 'Benimsemek',   es: 'Adoptar',    fr: 'Adopter',    de: 'Übernehmen',  it: 'Adottare' } },
+  { id: 'ox-b1-10', word: 'advance',    level: 'B1', meanings: { tr: 'İlerlemek',    es: 'Avanzar',    fr: 'Avancer',    de: 'Fortschritt', it: 'Avanzare' } },
+  { id: 'ox-b1-11', word: 'agriculture',level: 'B1', meanings: { tr: 'Tarım',        es: 'Agricultura',fr: 'Agriculture',de: 'Landwirtschaft',it:'Agricoltura' } },
+  { id: 'ox-b1-12', word: 'alternative',level: 'B1', meanings: { tr: 'Alternatif',   es: 'Alternativa',fr: 'Alternative',de: 'Alternative', it: 'Alternativa' } },
+  { id: 'ox-b1-13', word: 'ambassador', level: 'B1', meanings: { tr: 'Büyükelçi',    es: 'Embajador',  fr: 'Ambassadeur',de: 'Botschafter', it: 'Ambasciatore' } },
+  { id: 'ox-b1-14', word: 'ambitious',  level: 'B1', meanings: { tr: 'Hırslı',       es: 'Ambicioso',  fr: 'Ambitieux',  de: 'Ehrgeizig',   it: 'Ambizioso' } },
+  { id: 'ox-b1-15', word: 'analysis',   level: 'B1', meanings: { tr: 'Analiz',       es: 'Análisis',   fr: 'Analyse',    de: 'Analyse',     it: 'Analisi' } },
+  { id: 'ox-b1-16', word: 'annual',     level: 'B1', meanings: { tr: 'Yıllık',       es: 'Anual',      fr: 'Annuel',     de: 'Jährlich',    it: 'Annuale' } },
+  { id: 'ox-b1-17', word: 'anxiety',    level: 'B1', meanings: { tr: 'Kaygı',        es: 'Ansiedad',   fr: 'Anxiété',    de: 'Angst',       it: 'Ansia' } },
+  { id: 'ox-b1-18', word: 'apparent',   level: 'B1', meanings: { tr: 'Besbelli',     es: 'Aparente',   fr: 'Apparent',   de: 'Scheinbar',   it: 'Apparente' } },
+  { id: 'ox-b1-19', word: 'appetite',   level: 'B1', meanings: { tr: 'İştah',        es: 'Apetito',    fr: 'Appétit',    de: 'Appetit',     it: 'Appetito' } },
+  { id: 'ox-b1-20', word: 'approval',   level: 'B1', meanings: { tr: 'Onay',         es: 'Aprobación', fr: 'Approbation',de: 'Zustimmung',  it: 'Approvazione' } },
 
   // ═══════════════════════════════════════════════
-  //  ENGLISH — C1
+  //  B2 — UPPER INTERMEDIATE (15 words)
   // ═══════════════════════════════════════════════
-  { id: 'ox-en-c1-1',  word: 'abrupt',       meaning: 'Ani, Beklenmedik',          lang: 'en', level: 'C1', isOxford: true },
-  { id: 'ox-en-c1-2',  word: 'absurd',       meaning: 'Saçma, Anlamsız',           lang: 'en', level: 'C1', isOxford: true },
+  { id: 'ox-b2-1',  word: 'abolish',    level: 'B2', meanings: { tr: 'Kaldırmak',    es: 'Abolir',     fr: 'Abolir',     de: 'Abschaffen',  it: 'Abolire' } },
+  { id: 'ox-b2-2',  word: 'abstract',   level: 'B2', meanings: { tr: 'Soyut',        es: 'Abstracto',  fr: 'Abstrait',   de: 'Abstrakt',    it: 'Astratto' } },
+  { id: 'ox-b2-3',  word: 'accumulate', level: 'B2', meanings: { tr: 'Biriktirmek',  es: 'Acumular',   fr: 'Accumuler',  de: 'Ansammeln',   it: 'Accumulare' } },
+  { id: 'ox-b2-4',  word: 'acknowledge',level: 'B2', meanings: { tr: 'Kabul etmek',  es: 'Reconocer',  fr: 'Reconnaître',de: 'Anerkennen',  it: 'Riconoscere' } },
+  { id: 'ox-b2-5',  word: 'addiction',  level: 'B2', meanings: { tr: 'Bağımlılık',   es: 'Adicción',   fr: 'Addiction',  de: 'Sucht',       it: 'Dipendenza' } },
+  { id: 'ox-b2-6',  word: 'adolescent', level: 'B2', meanings: { tr: 'Ergen',        es: 'Adolescente',fr: 'Adolescent', de: 'Jugendliche', it: 'Adolescente' } },
+  { id: 'ox-b2-7',  word: 'aesthetic',  level: 'B2', meanings: { tr: 'Estetik',      es: 'Estético',   fr: 'Esthétique', de: 'Ästhetisch',  it: 'Estetico' } },
+  { id: 'ox-b2-8',  word: 'aggression', level: 'B2', meanings: { tr: 'Saldırganlık', es: 'Agresión',   fr: 'Agression',  de: 'Aggression',  it: 'Aggressione' } },
+  { id: 'ox-b2-9',  word: 'allegation', level: 'B2', meanings: { tr: 'İddia',        es: 'Alegación',  fr: 'Allégation', de: 'Behauptung',  it: 'Accusa' } },
+  { id: 'ox-b2-10', word: 'allocate',   level: 'B2', meanings: { tr: 'Tahsis etmek', es: 'Asignar',    fr: 'Allouer',    de: 'Zuteilen',    it: 'Assegnare' } },
+  { id: 'ox-b2-11', word: 'ambiguity',  level: 'B2', meanings: { tr: 'Belirsizlik',  es: 'Ambigüedad', fr: 'Ambiguïté',  de: 'Zweideutigkeit', it: 'Ambiguità' } },
+  { id: 'ox-b2-12', word: 'anticipate', level: 'B2', meanings: { tr: 'Tahmin etmek', es: 'Anticipar',  fr: 'Anticiper',  de: 'Vorhersehen', it: 'Anticipare' } },
+  { id: 'ox-b2-13', word: 'arbitrary',  level: 'B2', meanings: { tr: 'Keyfi',        es: 'Arbitrario', fr: 'Arbitraire', de: 'Willkürlich', it: 'Arbitrario' } },
+  { id: 'ox-b2-14', word: 'articulate', level: 'B2', meanings: { tr: 'Açık ifade',   es: 'Articular',  fr: 'Articuler',  de: 'Artikulieren',it: 'Articolare' } },
+  { id: 'ox-b2-15', word: 'authentic',  level: 'B2', meanings: { tr: 'Özgün',        es: 'Auténtico',  fr: 'Authentique',de: 'Authentisch', it: 'Autentico' } },
 
   // ═══════════════════════════════════════════════
-  //  SPANISH — A1
+  //  C1 — ADVANCED (10 words)
   // ═══════════════════════════════════════════════
-  { id: 'ox-es-a1-1',  word: 'hola',       meaning: 'Merhaba',                  lang: 'es', level: 'A1', isOxford: true },
-  { id: 'ox-es-a1-2',  word: 'gracias',    meaning: 'Teşekkürler',              lang: 'es', level: 'A1', isOxford: true },
-
-  // ═══════════════════════════════════════════════
-  //  TURKISH — A1
-  // ═══════════════════════════════════════════════
-  { id: 'ox-tr-a1-1',  word: 'merhaba',     meaning: 'Hello',                    lang: 'tr', level: 'A1', isOxford: true },
-  { id: 'ox-tr-a1-2',  word: 'teşekkürler', meaning: 'Thank you',                lang: 'tr', level: 'A1', isOxford: true },
-  { id: 'ox-tr-a1-3',  word: 'su',          meaning: 'Water',                    lang: 'tr', level: 'A1', isOxford: true },
-  { id: 'ox-tr-a1-4',  word: 'ev',          meaning: 'House',                    lang: 'tr', level: 'A1', isOxford: true },
-  { id: 'ox-tr-a1-5',  word: 'okul',        meaning: 'School',                   lang: 'tr', level: 'A1', isOxford: true },
-
-  // ═══════════════════════════════════════════════
-  //  TURKISH — A2
-  // ═══════════════════════════════════════════════
-  { id: 'ox-tr-a2-1',  word: 'kahvaltı',    meaning: 'Breakfast',                lang: 'tr', level: 'A2', isOxford: true },
-  { id: 'ox-tr-a2-2',  word: 'pencere',     meaning: 'Window',                   lang: 'tr', level: 'A2', isOxford: true },
-  
-  // ═══════════════════════════════════════════════
-  //  TURKISH — B1
-  // ═══════════════════════════════════════════════
-  { id: 'ox-tr-b1-1',  word: 'geliştirmek', meaning: 'To develop',               lang: 'tr', level: 'B1', isOxford: true },
-  { id: 'ox-tr-b1-2',  word: 'araştırma',   meaning: 'Research',                 lang: 'tr', level: 'B1', isOxford: true }
+  { id: 'ox-c1-1',  word: 'abrupt',     level: 'C1', meanings: { tr: 'Ani',          es: 'Abrupto',    fr: 'Abrupt',     de: 'Abrupt',      it: 'Brusco' } },
+  { id: 'ox-c1-2',  word: 'absurd',     level: 'C1', meanings: { tr: 'Saçma',        es: 'Absurdo',    fr: 'Absurde',    de: 'Absurd',      it: 'Assurdo' } },
+  { id: 'ox-c1-3',  word: 'acclaim',    level: 'C1', meanings: { tr: 'Alkış',        es: 'Aclamación', fr: 'Acclamation',de: 'Anerkennung', it: 'Acclamazione' } },
+  { id: 'ox-c1-4',  word: 'adversary',  level: 'C1', meanings: { tr: 'Rakip',        es: 'Adversario', fr: 'Adversaire', de: 'Gegner',      it: 'Avversario' } },
+  { id: 'ox-c1-5',  word: 'allegiance', level: 'C1', meanings: { tr: 'Bağlılık',     es: 'Lealtad',    fr: 'Allégeance', de: 'Treue',       it: 'Lealtà' } },
+  { id: 'ox-c1-6',  word: 'ambivalent', level: 'C1', meanings: { tr: 'Kararsız',     es: 'Ambivalente',fr: 'Ambivalent', de: 'Ambivalent',  it: 'Ambivalente' } },
+  { id: 'ox-c1-7',  word: 'anecdote',   level: 'C1', meanings: { tr: 'Anekdot',      es: 'Anécdota',   fr: 'Anecdote',   de: 'Anekdote',    it: 'Aneddoto' } },
+  { id: 'ox-c1-8',  word: 'benevolent', level: 'C1', meanings: { tr: 'Hayırsever',   es: 'Benevolente',fr: 'Bienveillant',de: 'Wohlwollend',it: 'Benevolo' } },
+  { id: 'ox-c1-9',  word: 'bureaucracy',level: 'C1', meanings: { tr: 'Bürokrasi',    es: 'Burocracia', fr: 'Bureaucratie',de: 'Bürokratie', it: 'Burocrazia' } },
+  { id: 'ox-c1-10', word: 'complacent', level: 'C1', meanings: { tr: 'Memnuniyet',   es: 'Complaciente',fr:'Complaisant',de: 'Selbstgefällig',it:'Compiacente' } }
 ];
