@@ -65,7 +65,7 @@ let fcCurrentIndex = 0;
 let fcIsFlipped = false;
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const syncData = await chrome.storage.sync.get(['targetLang']);
+  const syncData = await chrome.storage.local.get(['targetLang']);
   currentGameLang = syncData.targetLang || 'tr';
   
   updateDashUI(currentGameLang);
@@ -88,12 +88,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       currentGameLang = val;
       updateDashUI(val);
       filterAndRefresh(val);
-      await chrome.storage.sync.set({ targetLang: val });
+      await chrome.storage.local.set({ targetLang: val });
     });
   });
 
   // Load Initial Data
-  chrome.storage.sync.get(['words'], (result) => {
+  chrome.storage.local.get(['words'], (result) => {
     allWords = result.words || [];
     filterAndRefresh(currentGameLang);
   });
@@ -267,10 +267,10 @@ function initOxford(lang) {
       const toAdd = oxfordDictionary
         .filter(w => w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id))
         .map(w => ({ ...w, lang: lang, meaning: w.meanings[lang] || w.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
-      const result = await new Promise(res => chrome.storage.sync.get(['words'], res));
+      const result = await new Promise(res => chrome.storage.local.get(['words'], res));
       const existing = result.words || [];
       const merged = [...existing, ...toAdd];
-      await new Promise(res => chrome.storage.sync.set({ words: merged }, res));
+      await new Promise(res => chrome.storage.local.set({ words: merged }, res));
       allWords = merged;
       filterAndRefresh(lang);
       renderOxfordLevel(currentOxfordLevel);
@@ -286,9 +286,9 @@ function initOxford(lang) {
     document.getElementById('removeOxfordFromMyWords').addEventListener('click', async () => {
       if (!currentOxfordLevel) return;
       const idsToRemove = new Set(oxfordDictionary.filter(w => w.level === currentOxfordLevel).map(w => w.id));
-      const result = await new Promise(res => chrome.storage.sync.get(['words'], res));
+      const result = await new Promise(res => chrome.storage.local.get(['words'], res));
       const filtered = (result.words || []).filter(w => !idsToRemove.has(w.id));
-      await new Promise(res => chrome.storage.sync.set({ words: filtered }, res));
+      await new Promise(res => chrome.storage.local.set({ words: filtered }, res));
       allWords = filtered;
       renderOxfordLevel(currentOxfordLevel);
       const n = document.getElementById('oxfordAddedNote');
@@ -373,10 +373,10 @@ function renderWordListItems(words, gridElement) {
 }
 
 function deleteDashWord(id) {
-  chrome.storage.sync.get(['words'], (result) => {
+  chrome.storage.local.get(['words'], (result) => {
     let words = result.words || [];
     words = words.filter(w => w.id !== id);
-    chrome.storage.sync.set({ words: words }, () => {
+    chrome.storage.local.set({ words: words }, () => {
        allWords = words;
        filterAndRefresh(currentGameLang);
     });

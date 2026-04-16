@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(() => {
   
   // Migration logic (Local to Sync)
   chrome.storage.local.get(['words'], (localData) => {
-    chrome.storage.sync.get(['masterSwitch', 'targetLang', 'words'], (syncData) => {
+    chrome.storage.local.get(['masterSwitch', 'targetLang', 'words'], (syncData) => {
       const toSet = {};
       if (syncData.masterSwitch === undefined) toSet.masterSwitch = true;
       if (syncData.targetLang === undefined) toSet.targetLang = 'tr';
@@ -25,7 +25,7 @@ chrome.runtime.onInstalled.addListener(() => {
       }
 
       if (Object.keys(toSet).length > 0) {
-        chrome.storage.sync.set(toSet);
+        chrome.storage.local.set(toSet);
       }
     });
   });
@@ -44,7 +44,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
     }
 
     try {
-      const syncData = await chrome.storage.sync.get(['targetLang']);
+      const syncData = await chrome.storage.local.get(['targetLang']);
       const targetLang = syncData.targetLang || 'tr';
 
       const response = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(word)}`);
@@ -57,7 +57,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
         }
       }
 
-      chrome.storage.sync.get({ words: [] }, (result) => {
+      chrome.storage.local.get({ words: [] }, (result) => {
         const words = result.words;
         
         const existingIndex = words.findIndex(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === targetLang);
@@ -82,7 +82,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
           words.push(newEntry);
         }
 
-        chrome.storage.sync.set({ words: words });
+        chrome.storage.local.set({ words: words });
       });
 
     } catch (error) {

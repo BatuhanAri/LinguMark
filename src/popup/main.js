@@ -13,7 +13,7 @@ const translateToLabel = document.getElementById('translateToLabel');
 
 document.addEventListener('DOMContentLoaded', async () => {
   // Load settings
-  const syncData = await chrome.storage.sync.get(['masterSwitch', 'targetLang']);
+  const syncData = await chrome.storage.local.get(['masterSwitch', 'targetLang']);
   const currentLang = syncData.targetLang || 'tr';
   
   masterSwitch.checked = syncData.masterSwitch ?? true;
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const selectedText = e.target.textContent;
       langDropdownText.textContent = selectedText;
       
-      await chrome.storage.sync.set({ targetLang: selectedValue });
+      await chrome.storage.local.set({ targetLang: selectedValue });
       updateLocalUI(selectedValue);
     });
   });
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Listeners for settings
   masterSwitch.addEventListener('change', (e) => {
-    chrome.storage.sync.set({ masterSwitch: e.target.checked });
+    chrome.storage.local.set({ masterSwitch: e.target.checked });
     updateSwitchVisuals(e.target.checked);
   });
 
