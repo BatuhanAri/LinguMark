@@ -9,8 +9,8 @@ async function init() {
   const syncData = await chrome.storage.sync.get(['masterSwitch']);
   isMasterSwitchEnabled = syncData.masterSwitch ?? true;
 
-  const localData = await chrome.storage.local.get(['words']);
-  savedWords = localData.words || [];
+  const syncDataWords = await chrome.storage.sync.get(['words']);
+  savedWords = syncDataWords.words || [];
 
   if (isMasterSwitchEnabled && savedWords.length > 0) {
     highlightWords();
@@ -27,7 +27,8 @@ chrome.storage.onChanged.addListener((changes, areaName) => {
     }
   }
 
-  if (areaName === 'local' && changes.words) {
+  // Handle words changes in sync
+  if (areaName === 'sync' && changes.words) {
     savedWords = changes.words.newValue || [];
     if (isMasterSwitchEnabled) {
       removeHighlights();

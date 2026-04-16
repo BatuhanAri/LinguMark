@@ -2,6 +2,8 @@ import { t } from '../shared/i18n.js';
 import { initQuiz } from './apps/quiz.js';
 import { initTyping } from './apps/typing.js';
 import { initMatch } from './apps/match.js';
+import { initRemember } from './apps/remember.js';
+import { initStats } from './apps/stats.js';
 
 // Global state
 window.linguWords = [];
@@ -21,6 +23,8 @@ const tabFlashcards = document.getElementById('tab-flashcards');
 const tabQuiz = document.getElementById('tab-quiz');
 const tabTyping = document.getElementById('tab-typing');
 const tabMatching = document.getElementById('tab-matching');
+const tabRemember = document.getElementById('tab-remember');
+const tabStats = document.getElementById('tab-stats');
 const emptyTitle = document.getElementById('emptyTitle');
 const emptyDesc = document.getElementById('emptyDesc');
 
@@ -80,7 +84,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   // Load Initial Data
-  chrome.storage.local.get(['words'], (result) => {
+  chrome.storage.sync.get(['words'], (result) => {
     allWords = result.words || [];
     filterAndRefresh(currentGameLang);
   });
@@ -105,6 +109,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (targetId === 'view-matching') initMatch();
       if (targetId === 'view-quiz') initQuiz();
       if (targetId === 'view-typing') initTyping();
+      if (targetId === 'view-remember') initRemember(currentGameLang);
+      if (targetId === 'view-stats') initStats(currentGameLang);
     });
   });
 });
@@ -123,6 +129,8 @@ function updateDashUI(lang) {
   if (tabQuiz) tabQuiz.textContent = t('quiz_tab', lang);
   if (tabTyping) tabTyping.textContent = t('typing_tab', lang);
   if (tabMatching) tabMatching.textContent = t('match_tab', lang);
+  if (tabRemember) tabRemember.textContent = t('remember_tab', lang);
+  if (tabStats) tabStats.textContent = t('stats_tab', lang);
   
   if (emptyTitle) emptyTitle.textContent = t('no_words', lang);
   if (emptyDesc) emptyDesc.textContent = t('no_words_desc', lang);
@@ -160,6 +168,8 @@ function filterAndRefresh(lang) {
     initQuiz(lang);
     initTyping(lang);
     initMatch(lang);
+    initRemember(lang);
+    initStats(lang);
   }
 }
 

@@ -5,21 +5,43 @@ chrome.runtime.onInstalled.addListener(() => {
     contexts: ["selection"]
   });
   
-  chrome.storage.sync.get(['masterSwitch', 'targetLang'], (result) => {
-    const toSet = {};
-    if (result.masterSwitch === undefined) toSet.masterSwitch = true;
-    if (result.targetLang === undefined) toSet.targetLang = 'tr';
-    if (Object.keys(toSet).length > 0) {
-      chrome.storage.sync.set(toSet);
-    }
+  // Migration logic (Local to Sync)
+  chrome.storage.local.get(['words'], (localData) => {
+    chrome.storage.sync.get(['masterSwitch', 'targetLang', 'words'], (syncData) => {
+      const toSet = {};
+      if (syncData.masterSwitch === undefined) toSet.masterSwitch = true;
+      if (syncData.targetLang === undefined) toSet.targetLang = 'tr';
+      
+      // If words exist in local but not sync, or sync is empty, migrate them
+      if (localData.words && localData.words.length > 0) {
+        if (!syncData.words || syncData.words.length === 0) {
+            toSet.words = localData.words;
+            // Clear local words to complete migration
+            chrome.storage.local.remove(['words']);
+            console.log("LinguMark: Migrated words from local to sync storage.");
+        }
+      } else if (syncData.words === undefined) {
+         toSet.words = [];
+      }
+
+      if (Object.keys(toSet).length > 0) {
+        chrome.storage.sync.set(toSet);
+      }
+    });
   });
 });
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   if (info.menuItemId === "add-to-lingumark" && info.selectionText) {
-    const word = info.selectionText.trim(); // Keep original casing initially for better translation context
+    const word = info.selectionText.trim(); 
     
     if (!word) return;
+    
+    // Single word constraint (Reject multi-word selections like sentences)
+    if (word.split(/\s+/).length > 1) {
+      console.warn("LinguMark: Cannot add multiple words.", word);
+      return;
+    }
 
     try {
       const syncData = await chrome.storage.sync.get(['targetLang']);
@@ -31,30 +53,36 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
       if (response.ok) {
         const data = await response.json();
         if (data && data[0] && data[0][0] && data[0][0][0]) {
-          // Combine multi-sentence translations if applicable
           meaning = data[0].map(item => item[0]).join(''); 
         }
       }
 
-      chrome.storage.local.get({ words: [] }, (result) => {
+      chrome.storage.sync.get({ words: [] }, (result) => {
         const words = result.words;
         
         const existingIndex = words.findIndex(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === targetLang);
         const newEntry = {
           id: Date.now().toString(),
-          word: word.toLowerCase(), // Save normalized version for highlighting
+          word: word.toLowerCase(),
           meaning: meaning,
           lang: targetLang,
-          dateAdded: new Date().toISOString()
+          dateAdded: new Date().toISOString(),
+          // Spaced Repetition (Hatırla) Module Schema
+          nextReviewDate: new Date().toISOString(),
+          interval: 0,
+          easeFactor: 2.5
         };
 
         if (existingIndex !== -1) {
-          words[existingIndex] = newEntry;
+          // If rewriting, preserve spacing stats
+          const old = words[existingIndex];
+          old.meaning = meaning;
+          words[existingIndex] = old;
         } else {
           words.push(newEntry);
         }
 
-        chrome.storage.local.set({ words: words });
+        chrome.storage.sync.set({ words: words });
       });
 
     } catch (error) {
