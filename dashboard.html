@@ -63,26 +63,34 @@
       <button id="tab-remember" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-remember">Hatırla</button>
       <button id="tab-flashcards" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-flashcard">Flashcard</button>
       <button id="tab-quiz" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-quiz">Test Çöz</button>
-      <button id="tab-typing" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-typing">Yazım</button>
       <button id="tab-matching" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-matching">Eşleştirme</button>
+      <button id="tab-oxford" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-oxford">Oxford</button>
       <button id="tab-stats" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-stats">İstatistikler</button>
     </nav>
 
-    <!-- Language Selector -->
-    <div class="relative group">
-       <button id="dashLangBtn" class="bg-white/5 hover:bg-white/10 border border-white/10 px-5 py-2.5 rounded-2xl flex items-center gap-3 transition-all min-w-[140px] shadow-xl">
-          <div class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></div>
-          <span id="dashLangText" class="text-sm font-bold text-white uppercase tracking-wider">Turkish</span>
-          <svg class="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
-       </button>
-       <div id="dashLangMenu" class="absolute hidden top-full mt-3 right-0 w-44 bg-[#0b0e14]/95 backdrop-blur-3xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden py-2 z-[100] transform origin-top-right transition-all">
-          <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="tr">Turkish</button>
-          <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="en">English</button>
-          <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="es">Spanish</button>
-          <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="fr">French</button>
-          <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="de">German</button>
-          <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="it">Italian</button>
-       </div>
+    <!-- Dashboard Controls -->
+    <div class="flex items-center">
+      <!-- Oxford Toggle -->
+      <button id="toggleOxfordBtn" class="bg-black/30 border border-white/10 text-white text-[11px] rounded-xl flex items-center justify-between gap-2.5 pl-3 pr-3 py-2 cursor-pointer font-bold hover:bg-black/50 backdrop-blur-md shadow-2xl transition-all mr-3">
+        <span id="oxfordToggleStatus">🎓 Oxford: <span class="text-red-400">Off</span></span>
+      </button>
+
+      <!-- Language Selector -->
+      <div class="relative group">
+         <button id="dashLangBtn" class="bg-white/5 hover:bg-white/10 border border-white/10 px-5 py-2.5 rounded-2xl flex items-center gap-3 transition-all min-w-[140px] shadow-xl">
+            <div class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></div>
+            <span id="dashLangText" class="text-sm font-bold text-white uppercase tracking-wider">Turkish</span>
+            <svg class="w-4 h-4 text-slate-400 group-hover:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+         </button>
+         <div id="dashLangMenu" class="absolute hidden top-full mt-3 right-0 w-44 bg-[#0b0e14]/95 backdrop-blur-3xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden py-2 z-[100] transform origin-top-right transition-all">
+            <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="tr">Turkish</button>
+            <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="en">English</button>
+            <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="es">Spanish</button>
+            <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="fr">French</button>
+            <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="de">German</button>
+            <button class="dash-lang-option w-full text-left px-5 py-2.5 text-sm font-bold text-slate-400 hover:text-white hover:bg-purple-500/20 transition-all" data-value="it">Italian</button>
+         </div>
+      </div>
     </div>
   </header>
 

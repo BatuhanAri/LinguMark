@@ -33,15 +33,21 @@
         </div>
       </div>
       
-      <!-- Master Switch -->
-      <label class="flex items-center cursor-pointer group" title="Toggle translation on pages">
-        <div class="relative flex items-center">
-          <input type="checkbox" id="masterSwitch" class="sr-only">
-          <div class="block bg-slate-800/60 w-12 h-6.5 rounded-full transition-all duration-300 border border-white/10 backdrop-blur-md group-hover:border-white/20 shadow-inner" id="switchBg"></div>
-          <div class="dot absolute left-1 top-1 bg-gradient-to-tr from-slate-200 to-white w-4.5 h-4.5 rounded-full transition-transform duration-300 shadow-xl" id="switchDot"></div>
-        </div>
-      </label>
+      <!-- We moved Master Switch down as a huge button -->
     </header>
+
+    <!-- Master Switch (Huge Toggle) -->
+    <label class="flex items-center justify-between w-full p-4 bg-white/5 backdrop-blur-md rounded-2xl cursor-pointer hover:bg-white/10 transition-colors border border-white/10 mb-5 shrink-0 group shadow-lg">
+      <span class="font-black text-white text-md tracking-wide flex items-center gap-3">
+        <span class="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse" id="statusDot"></span>
+        Eklentiyi Aktifleştir
+      </span>
+      <div class="relative flex items-center">
+        <input type="checkbox" id="masterSwitch" class="sr-only">
+        <div class="block bg-slate-800 w-14 h-8 rounded-full transition-all duration-300 border border-white/10 group-hover:border-white/20 shadow-inner" id="switchBg"></div>
+        <div class="dot absolute left-1 top-1 bg-gradient-to-tr from-slate-200 to-white w-6 h-6 rounded-full transition-transform duration-300 shadow-xl" id="switchDot"></div>
+      </div>
+    </label>
 
     <!-- Action Button -->
     <div class="mb-5 shrink-0">
