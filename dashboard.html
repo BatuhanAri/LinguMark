@@ -60,10 +60,12 @@
     <!-- Navigation Buttons -->
     <nav id="mainNav" class="flex bg-white/5 p-1.5 rounded-2xl border border-white/5 backdrop-blur-md">
       <button id="tab-words" class="nav-btn active px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-wordlist">Kelimelerim</button>
+      <button id="tab-remember" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-remember">Hatırla</button>
       <button id="tab-flashcards" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-flashcard">Flashcard</button>
       <button id="tab-quiz" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-quiz">Test Çöz</button>
       <button id="tab-typing" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-typing">Yazım</button>
       <button id="tab-matching" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-matching">Eşleştirme</button>
+      <button id="tab-stats" class="nav-btn px-6 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-400 hover:text-white" data-target="view-stats">İstatistikler</button>
     </nav>
 
     <!-- Language Selector -->
@@ -159,6 +161,16 @@
     <!-- 5. Matching View -->
     <section id="view-matching" class="app-view hidden flex-col items-center w-full animate-in fade-in">
       <div id="matchingContainer" class="w-full max-w-5xl"></div>
+    </section>
+
+    <!-- 6. Remember (Spaced Repetition) View -->
+    <section id="view-remember" class="app-view hidden flex-col items-center w-full animate-in fade-in">
+      <div id="rememberContainer" class="w-full max-w-3xl"></div>
+    </section>
+
+    <!-- 7. Stats (Heatmap) View -->
+    <section id="view-stats" class="app-view hidden flex-col items-center w-full animate-in fade-in">
+      <div id="statsContainer" class="w-full max-w-5xl"></div>
     </section>
 
   </main>
