@@ -159,12 +159,10 @@ function filterAndRefresh(lang) {
   window.linguWords = allWords.filter(w => w.lang === lang);
   
   if (window.linguWords.length === 0) {
-    noWordsState.classList.remove('hidden');
-    noWordsState.classList.add('flex');
+    if(noWordsState) { noWordsState.classList.remove('hidden'); noWordsState.classList.add('flex'); }
     appViews.forEach(v => v.classList.add('hidden'));
   } else {
-    noWordsState.classList.add('hidden');
-    noWordsState.classList.remove('flex');
+    if(noWordsState) { noWordsState.classList.add('hidden'); noWordsState.classList.remove('flex'); }
     
     // Default show words
     document.getElementById('view-wordlist').classList.remove('hidden');
@@ -264,16 +262,19 @@ function initOxford(lang) {
     addBtn.parentNode.replaceChild(freshAdd, addBtn);
     document.getElementById('addOxfordToMyWords').addEventListener('click', async () => {
       if (!currentOxfordLevel) return;
-      const toAdd = oxfordDictionary.filter(w => w.lang === lang && w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id));
-      if (toAdd.length === 0) return;
+      const now = new Date().toISOString();
+      const toAdd = oxfordDictionary
+        .filter(w => w.lang === lang && w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id))
+        .map(w => ({ ...w, dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
       const result = await new Promise(res => chrome.storage.sync.get(['words'], res));
       const existing = result.words || [];
       const merged = [...existing, ...toAdd];
       await new Promise(res => chrome.storage.sync.set({ words: merged }, res));
       allWords = merged;
+      filterAndRefresh(lang);
       renderOxfordLevel(currentOxfordLevel);
       const n = document.getElementById('oxfordAddedNote');
-      if(n) { n.textContent = `✓ ${toAdd.length} kelime eklendi`; n.classList.remove('hidden'); }
+      if(n) { n.textContent = toAdd.length > 0 ? `✓ ${toAdd.length} kelime eklendi` : `⚠ Zaten eklendi`; n.classList.remove('hidden'); }
     });
   }
 
