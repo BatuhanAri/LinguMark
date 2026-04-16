@@ -176,7 +176,8 @@ function filterAndRefresh(lang) {
 // 1. Rendering Word List View
 function renderWordList(words) {
   wordListGrid.innerHTML = '';
-  const sortedWords = [...words].sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+  // Alphabetical sorting
+  const sortedWords = [...words].sort((a, b) => a.word.localeCompare(b.word));
 
   sortedWords.forEach(wordObj => {
     const card = document.createElement('div');
@@ -186,6 +187,9 @@ function renderWordList(words) {
       <div class="flex justify-between items-start mb-4 z-10 relative">
         <h3 class="text-2xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors">${wordObj.word}</h3>
         <div class="flex items-center gap-2">
+            <button class="delete-btn p-2 rounded-full bg-red-500/10 hover:bg-red-500/20 transition-colors text-red-400 opacity-0 group-hover:opacity-100" data-id="${wordObj.id}" title="Sil">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+            </button>
             <button class="speaker-btn p-2 rounded-full bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z"/><path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.061z"/></svg>
             </button>
@@ -214,6 +218,26 @@ function renderWordList(words) {
         const word = btn.getAttribute('data-word');
         const lang = btn.getAttribute('data-lang');
         playPronunciation(word, lang);
+    });
+  });
+  
+  // Attach delete event listeners
+  document.querySelectorAll('.delete-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const id = btn.getAttribute('data-id');
+        deleteDashWord(id);
+    });
+  });
+}
+
+function deleteDashWord(id) {
+  chrome.storage.sync.get(['words'], (result) => {
+    let words = result.words || [];
+    words = words.filter(w => w.id !== id);
+    chrome.storage.sync.set({ words: words }, () => {
+       allWords = words;
+       filterAndRefresh(currentGameLang);
     });
   });
 }

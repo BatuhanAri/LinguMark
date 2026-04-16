@@ -14,7 +14,7 @@
   <div class="fixed top-[40%] -right-24 w-72 h-72 bg-cyan-600 rounded-full mix-blend-screen filter blur-[100px] opacity-30 animate-slow-pulse pointer-events-none" style="animation-delay: -2s;"></div>
   <div class="fixed -bottom-24 left-10 w-64 h-64 bg-pink-600 rounded-full mix-blend-screen filter blur-[90px] opacity-20 animate-slow-pulse pointer-events-none" style="animation-delay: -1s;"></div>
 
-  <div id="app" class="p-6 flex flex-col h-[520px] relative z-10 box-border">
+  <div id="app" class="p-6 flex flex-col relative z-10 box-border">
     
     <!-- Header -->
     <header class="flex justify-between items-center mb-6 shrink-0">
@@ -78,24 +78,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Word List Area -->
-    <main class="flex-grow overflow-y-auto no-scrollbar relative w-full pr-1.5 -mr-1.5">
-      <!-- Words Container -->
-      <ul id="wordList" class="space-y-4 pb-6">
-        <!-- Render words dynamically here -->
-      </ul>
-
-      <!-- Empty State -->
-      <div id="emptyState" class="hidden flex-col items-center justify-center text-center py-12 h-full">
-        <div class="w-20 h-20 bg-gradient-to-tr from-slate-800/80 to-slate-700/50 backdrop-blur-md rounded-[24px] flex items-center justify-center shadow-2xl mb-5 border border-white/5 relative group transition-transform duration-700 hover:scale-110 hover:rotate-3">
-          <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 rounded-[24px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-cyan-400 relative z-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M9 13v-1h6v1"/><path d="M12 12v6"/><path d="M11 18h2"/></svg>
-        </div>
-        <p id="noWordsTitle" class="text-[17px] font-bold text-white mb-2 tracking-tight">No words discovered</p>
-        <p id="noWordsDesc" class="text-[12px] text-slate-400 px-6 leading-relaxed font-normal opacity-80">Highlight text and right-click to transform words with <span class="text-cyan-400 font-bold">LinguMark</span>.</p>
-      </div>
-    </main>
 
   </div>
   
