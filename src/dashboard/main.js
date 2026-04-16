@@ -180,19 +180,57 @@ function renderWordList(words) {
 
   sortedWords.forEach(wordObj => {
     const card = document.createElement('div');
-    card.className = 'word-card group cursor-default';
+    card.className = 'word-card group cursor-pointer';
     
     card.innerHTML = `
       <div class="flex justify-between items-start mb-4 z-10 relative">
-        <h3 class="text-2xl font-black text-white capitalize tracking-tight drop-shadow-md">${wordObj.word}</h3>
-        <span class="text-[10px] font-black bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-lg uppercase tracking-widest border border-cyan-500/20">${wordObj.lang || 'TR'}</span>
+        <h3 class="text-2xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors">${wordObj.word}</h3>
+        <div class="flex items-center gap-2">
+            <button class="speaker-btn p-2 rounded-full bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
+               <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z"/><path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.061z"/></svg>
+            </button>
+            <span class="text-[10px] font-black bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-lg uppercase tracking-widest border border-cyan-500/20">${wordObj.lang || 'TR'}</span>
+        </div>
       </div>
-      <div class="bg-black/40 backdrop-blur-md p-5 rounded-2xl border border-white/5 relative z-10 hover:border-white/10 transition-colors">
+      <div class="bg-black/40 backdrop-blur-md p-5 rounded-2xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none">
         <p class="text-[15px] text-slate-200 font-bold leading-relaxed">${wordObj.meaning}</p>
       </div>
     `;
+    
+    card.addEventListener('click', (e) => {
+      // Ignore click if it was on speaker button
+      if (e.target.closest('.speaker-btn')) return;
+      const searchUrl = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(wordObj.word)}`;
+      window.open(searchUrl, '_blank');
+    });
+
     wordListGrid.appendChild(card);
   });
+  
+  // Attach speaker event listeners
+  document.querySelectorAll('.speaker-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const word = btn.getAttribute('data-word');
+        const lang = btn.getAttribute('data-lang');
+        playPronunciation(word, lang);
+    });
+  });
+}
+
+function playPronunciation(word, langCode) {
+  if (!('speechSynthesis' in window)) return;
+  const utterance = new SpeechSynthesisUtterance(word);
+  const localeMap = {
+      'en': 'en-US',
+      'tr': 'tr-TR',
+      'es': 'es-ES',
+      'fr': 'fr-FR',
+      'de': 'de-DE',
+      'it': 'it-IT'
+  };
+  utterance.lang = localeMap[langCode] || 'tr-TR';
+  window.speechSynthesis.speak(utterance);
 }
 
 // 2. Flashcard Logic
