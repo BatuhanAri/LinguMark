@@ -10,7 +10,7 @@ import { oxfordDictionary } from '../shared/oxford.js';
 window.linguWords = [];
 let allWords = [];
 let currentGameLang = 'tr';
-let isOxfordEnabled = false;
+let currentOxfordLevel = null;
 
 // DOM Elements
 const noWordsState = document.getElementById('noWordsState');
@@ -44,8 +44,8 @@ const wordCountBadge = document.getElementById('wordCountBadge');
 const viewTitleWords = document.getElementById('viewTitleWords');
 const viewDescWords = document.getElementById('viewDescWords');
 
-const toggleOxfordBtn = document.getElementById('toggleOxfordBtn');
-const oxfordToggleStatus = document.getElementById('oxfordToggleStatus');
+const toggleOxfordBtn = null; // removed
+const oxfordToggleStatus = null; // removed
 
 // Flashcard Elements
 const flashcard = document.getElementById('flashcard');
@@ -72,13 +72,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   updateOxfordToggleUI();
   updateDashUI(currentGameLang);
   
-  // Toggle Oxford
-  toggleOxfordBtn.addEventListener('click', async () => {
-    isOxfordEnabled = !isOxfordEnabled;
-    await chrome.storage.sync.set({ isOxfordEnabled });
-    updateOxfordToggleUI();
-    filterAndRefresh(currentGameLang);
-  });
+  // Toggle Oxford (removed - now handled in initOxford)
   
   // Lang Dropdown
   dashLangBtn.addEventListener('click', (e) => {
@@ -127,6 +121,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (targetId === 'view-quiz') initQuiz();
       if (targetId === 'view-typing') initTyping();
       if (targetId === 'view-remember') initRemember(currentGameLang);
+      if (targetId === 'view-oxford') initOxford(currentGameLang);
       if (targetId === 'view-stats') initStats(currentGameLang);
     });
   });
@@ -165,11 +160,6 @@ function updateDashUI(lang) {
 function filterAndRefresh(lang) {
   window.linguWords = allWords.filter(w => w.lang === lang);
   
-  if (isOxfordEnabled) {
-    const oxf = oxfordDictionary.filter(w => w.lang === lang);
-    window.linguWords.push(...oxf);
-  }
-  
   if (window.linguWords.length === 0) {
     noWordsState.classList.remove('hidden');
     noWordsState.classList.add('flex');
@@ -189,7 +179,6 @@ function filterAndRefresh(lang) {
     // wordCountBadge should reflect custom words
     wordCountBadge.textContent = `${customWords.length} ${t('words_count', lang)}`;
     renderWordListItems(customWords, wordListGrid);
-    if(oxfordListGrid) renderWordListItems(oxfordFound, oxfordListGrid);
     setupFlashcard();
     
     // Init others
@@ -201,13 +190,120 @@ function filterAndRefresh(lang) {
   }
 }
 
-function updateOxfordToggleUI() {
-  if (!oxfordToggleStatus) return;
-  if(isOxfordEnabled) {
-      oxfordToggleStatus.innerHTML = `🎓 Oxford: <span class="text-green-400">Açık</span>`;
-  } else {
-      oxfordToggleStatus.innerHTML = `🎓 Oxford: <span class="text-red-400">Kapalı</span>`;
+function initOxford(lang) {
+  const grid = document.getElementById('oxfordListGrid');
+  const countBadge = document.getElementById('oxfordCountBadge');
+  const addBtn = document.getElementById('addOxfordToMyWords');
+  const removeBtn = document.getElementById('removeOxfordFromMyWords');
+  const note = document.getElementById('oxfordAddedNote');
+  const levelBtns = document.querySelectorAll('.oxford-level-btn');
+  
+  const levelColors = {
+    A1: { border: 'border-green-400/60',  text: 'text-green-400',  bg: 'bg-green-400/10' },
+    A2: { border: 'border-yellow-400/60', text: 'text-yellow-400', bg: 'bg-yellow-400/10' },
+    B1: { border: 'border-orange-400/60', text: 'text-orange-400', bg: 'bg-orange-400/10' },
+    B2: { border: 'border-red-400/60',    text: 'text-red-400',    bg: 'bg-red-400/10' },
+    C1: { border: 'border-purple-400/60', text: 'text-purple-400', bg: 'bg-purple-400/10' },
+  };
+
+  function renderOxfordLevel(level) {
+    currentOxfordLevel = level;
+    const words = oxfordDictionary.filter(w => w.lang === lang && w.level === level);
+    countBadge.textContent = `${words.length} kelime`;
+    if (!grid) return;
+    grid.innerHTML = '';
+    words.forEach(wordObj => {
+      const card = document.createElement('div');
+      // Check if already added to user words
+      const isAdded = allWords.some(w => w.id === wordObj.id);
+      const c = levelColors[level] || levelColors.A1;
+      card.className = `word-card group cursor-pointer relative`;
+      card.innerHTML = `
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-black text-white capitalize truncate w-[75%]" title="${wordObj.word}">${wordObj.word}</h3>
+          <span class="text-[9px] font-black px-2 py-1 rounded-lg border ${c.border} ${c.text} ${c.bg}">${level}</span>
+        </div>
+        <div class="bg-black/40 p-4 rounded-2xl border border-white/5 pointer-events-none">
+          <p class="text-[14px] text-slate-200 font-semibold">${wordObj.meaning}</p>
+        </div>
+        ${isAdded ? '<div class="absolute top-3 right-3 w-2 h-2 rounded-full bg-emerald-400" title="Kelimelerimde var"></div>' : ''}
+      `;
+      card.addEventListener('click', () => {
+        const url = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(wordObj.word)}`;
+        window.open(url, '_blank');
+      });
+      grid.appendChild(card);
+    });
   }
+
+  // Level button click
+  levelBtns.forEach(btn => {
+    // Fresh clone to avoid duplicate listeners
+    const fresh = btn.cloneNode(true);
+    btn.parentNode.replaceChild(fresh, btn);
+  });
+
+  document.querySelectorAll('.oxford-level-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.oxford-level-btn').forEach(b => {
+        b.classList.remove('border-green-400/60','border-yellow-400/60','border-orange-400/60','border-red-400/60','border-purple-400/60',
+                            'text-green-400','text-yellow-400','text-orange-400','text-red-400','text-purple-400',
+                            'bg-green-400/10','bg-yellow-400/10','bg-orange-400/10','bg-red-400/10','bg-purple-400/10');
+        b.classList.add('border-white/10', 'text-slate-400');
+      });
+      const lv = btn.getAttribute('data-level');
+      const c = levelColors[lv];
+      btn.classList.remove('border-white/10','text-slate-400');
+      btn.classList.add(c.border, c.text, c.bg);
+      if(note) note.classList.add('hidden');
+      renderOxfordLevel(lv);
+    });
+  });
+
+  // Add this level to user words
+  if (addBtn) {
+    const freshAdd = addBtn.cloneNode(true);
+    addBtn.parentNode.replaceChild(freshAdd, addBtn);
+    document.getElementById('addOxfordToMyWords').addEventListener('click', async () => {
+      if (!currentOxfordLevel) return;
+      const toAdd = oxfordDictionary.filter(w => w.lang === lang && w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id));
+      if (toAdd.length === 0) return;
+      const result = await new Promise(res => chrome.storage.sync.get(['words'], res));
+      const existing = result.words || [];
+      const merged = [...existing, ...toAdd];
+      await new Promise(res => chrome.storage.sync.set({ words: merged }, res));
+      allWords = merged;
+      renderOxfordLevel(currentOxfordLevel);
+      const n = document.getElementById('oxfordAddedNote');
+      if(n) { n.textContent = `✓ ${toAdd.length} kelime eklendi`; n.classList.remove('hidden'); }
+    });
+  }
+
+  // Remove this level from user words
+  if (removeBtn) {
+    const freshRm = removeBtn.cloneNode(true);
+    removeBtn.parentNode.replaceChild(freshRm, removeBtn);
+    document.getElementById('removeOxfordFromMyWords').addEventListener('click', async () => {
+      if (!currentOxfordLevel) return;
+      const idsToRemove = new Set(oxfordDictionary.filter(w => w.lang === lang && w.level === currentOxfordLevel).map(w => w.id));
+      const result = await new Promise(res => chrome.storage.sync.get(['words'], res));
+      const filtered = (result.words || []).filter(w => !idsToRemove.has(w.id));
+      await new Promise(res => chrome.storage.sync.set({ words: filtered }, res));
+      allWords = filtered;
+      renderOxfordLevel(currentOxfordLevel);
+      const n = document.getElementById('oxfordAddedNote');
+      if(n) { n.textContent = `✓ Bu seviye çıkarıldı`; n.classList.remove('hidden'); }
+    });
+  }
+
+  // Auto-select first level on open if none selected
+  const firstBtn = document.querySelector('.oxford-level-btn');
+  if (firstBtn && !currentOxfordLevel) firstBtn.click();
+  else if (currentOxfordLevel) renderOxfordLevel(currentOxfordLevel);
+}
+
+function updateOxfordToggleUI() {
+  // No longer needed - replaced by level selector
 }
 
 // 1. Rendering Word List View
