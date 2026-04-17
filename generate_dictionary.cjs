@@ -10,8 +10,8 @@ async function translateWord(word, targetLang) {
     const data = await res.json();
     return data[0][0][0] || word;
   } catch (err) {
-    console.log(`Failed translating ${word} to ${targetLang}`);
-    return word; // Fallback
+    console.log(`Failed translating ${word} to ${targetLang} (Rate Limit Hit!)`);
+    return word; // Fallback to english if banned
   }
 }
 
@@ -29,13 +29,13 @@ async function start() {
     console.log(`Processing Level ${level}... (${words.length} words)`);
     let idx = 1;
     for (const word of words) {
-      console.log(`  Translating [${level}] ${word}...`);
       const meanings = {};
       
-      // Translate concurrently for speed, but add slight delay between words to prevent ban
-      await Promise.all(langs.map(async (lang) => {
-        meanings[lang] = await translateWord(word, lang);
-      }));
+      // Translate sequentially to avoid 429 Too Many Requests IP Ban (50,000 requests total)
+      for (const lang of langs) {
+         meanings[lang] = await translateWord(word, lang);
+         await new Promise(r => setTimeout(r, 200)); // 200ms per api call
+      }
 
       finalDictionary.push({
         id: `ox-${level.toLowerCase()}-${idx++}`,
@@ -44,16 +44,19 @@ async function start() {
         isOxford: true,
         meanings: meanings
       });
-      // 100ms delay to respect rate limit
-      await new Promise(r => setTimeout(r, 100));
+      
+      if (idx % 50 === 0) {
+          console.log(`  [${level}] Translated ${idx}/${words.length} words...`);
+          // Save incrementally just in case
+          const output = `export const oxfordDictionary = ${JSON.stringify(finalDictionary, null, 2)};\n`;
+          fs.writeFileSync(outFile, output, 'utf8');
+      }
     }
   }
 
-  // Format array into JS module
   const output = `export const oxfordDictionary = ${JSON.stringify(finalDictionary, null, 2)};\n`;
   fs.writeFileSync(outFile, output, 'utf8');
   console.log(`✅ Dictionary Generation Complete! Successfully wrote ${finalDictionary.length} words to src/shared/oxford.js`);
-  console.log(`To add 5000 words, just fill 'oxford_words.json' and run 'npm run generate' again!`);
 }
 
 start();
