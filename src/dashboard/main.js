@@ -12,6 +12,11 @@ let allWords = [];
 let currentGameLang = 'tr';
 let currentOxfordLevel = null;
 
+// Pagination state
+let myWordsPage = 1;
+let oxfordPage = 1;
+const ITEMS_PER_PAGE = 60;
+
 // DOM Elements
 const noWordsState = document.getElementById('noWordsState');
 const navBtns = document.querySelectorAll('.nav-btn');
@@ -209,7 +214,26 @@ function initOxford(lang) {
     countBadge.textContent = `${words.length} kelime`;
     if (!grid) return;
     grid.innerHTML = '';
-    words.forEach(wordObj => {
+    
+    const totalPages = Math.ceil(words.length / ITEMS_PER_PAGE) || 1;
+    if (oxfordPage > totalPages) oxfordPage = totalPages;
+    
+    const paginationDiv = document.getElementById('oxfordPagination');
+    if (words.length <= ITEMS_PER_PAGE) {
+       if(paginationDiv) paginationDiv.classList.add('hidden');
+    } else {
+       if(paginationDiv) paginationDiv.classList.remove('hidden');
+       document.getElementById('txtPageOxford').textContent = `Sayfa ${oxfordPage} / ${totalPages}`;
+       document.getElementById('btnPrevOxford').disabled = oxfordPage === 1;
+       document.getElementById('btnNextOxford').disabled = oxfordPage === totalPages;
+       
+       document.getElementById('btnPrevOxford').onclick = () => { oxfordPage--; renderOxfordLevel(level); };
+       document.getElementById('btnNextOxford').onclick = () => { oxfordPage++; renderOxfordLevel(level); };
+    }
+    
+    const paginatedWords = words.slice((oxfordPage - 1) * ITEMS_PER_PAGE, oxfordPage * ITEMS_PER_PAGE);
+
+    paginatedWords.forEach(wordObj => {
       const card = document.createElement('div');
       // Check if already added to user words
       const isAdded = allWords.some(w => w.id === wordObj.id);
@@ -249,6 +273,9 @@ function initOxford(lang) {
         b.classList.add('border-white/10', 'text-slate-400');
       });
       const lv = btn.getAttribute('data-level');
+      if (currentOxfordLevel !== lv) {
+        oxfordPage = 1; // reset page on tab switch
+      }
       const c = levelColors[lv];
       btn.classList.remove('border-white/10','text-slate-400');
       btn.classList.add(c.border, c.text, c.bg);
@@ -313,12 +340,30 @@ function renderWordListItems(words, gridElement) {
   // Alphabetical sorting
   const sortedWords = [...words].sort((a, b) => a.word.localeCompare(b.word));
 
-  if (sortedWords.length === 0) {
+  const totalPages = Math.ceil(sortedWords.length / ITEMS_PER_PAGE) || 1;
+  if (myWordsPage > totalPages) myWordsPage = totalPages;
+
+  const paginationDiv = document.getElementById('wordListPagination');
+  if (sortedWords.length <= ITEMS_PER_PAGE) {
+     if(paginationDiv) paginationDiv.classList.add('hidden');
+  } else {
+     if(paginationDiv) paginationDiv.classList.remove('hidden');
+     document.getElementById('txtPageMyWords').textContent = `Sayfa ${myWordsPage} / ${totalPages}`;
+     document.getElementById('btnPrevMyWords').disabled = myWordsPage === 1;
+     document.getElementById('btnNextMyWords').disabled = myWordsPage === totalPages;
+     
+     document.getElementById('btnPrevMyWords').onclick = () => { myWordsPage--; renderWordListItems(words, gridElement); };
+     document.getElementById('btnNextMyWords').onclick = () => { myWordsPage++; renderWordListItems(words, gridElement); };
+  }
+
+  const paginatedWords = sortedWords.slice((myWordsPage - 1) * ITEMS_PER_PAGE, myWordsPage * ITEMS_PER_PAGE);
+
+  if (paginatedWords.length === 0) {
     gridElement.innerHTML = `<p class="text-slate-500 font-medium py-4 px-2 col-span-full">Şu an gösterilecek kelime yok.</p>`;
     return;
   }
 
-  sortedWords.forEach(wordObj => {
+  paginatedWords.forEach(wordObj => {
     const card = document.createElement('div');
     card.className = 'word-card group cursor-pointer';
     
