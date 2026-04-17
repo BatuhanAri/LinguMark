@@ -213,7 +213,7 @@ function initOxford(lang) {
       const card = document.createElement('div');
       // Check if already added to user words
       const isAdded = allWords.some(w => w.id === wordObj.id);
-      const c = levelColors[level] || levelColors.A1;
+      const c = levelColors[level] || levelColors.A2;
       card.className = `word-card group cursor-pointer relative`;
       card.innerHTML = `
         <div class="flex justify-between items-center mb-4">
