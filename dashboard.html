@@ -115,6 +115,13 @@
        <div id="wordListGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
          <!-- Renders via JS -->
        </div>
+       
+       <!-- Pagination Controls -->
+       <div id="wordListPagination" class="hidden mt-12 flex justify-between items-center w-full bg-white/5 backdrop-blur-md rounded-2xl p-4 border border-white/10 shadow-2xl">
+          <button id="btnPrevMyWords" class="px-6 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-sm transition-all shadow-lg border border-white/5 disabled:opacity-30 disabled:cursor-not-allowed">Önceki</button>
+          <span id="txtPageMyWords" class="font-black text-slate-400 text-sm tracking-widest bg-black/40 px-6 py-2.5 rounded-xl border border-white/5">Sayfa 1 / 1</span>
+          <button id="btnNextMyWords" class="px-6 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-sm transition-all shadow-lg border border-white/5 disabled:opacity-30 disabled:cursor-not-allowed">Sonraki</button>
+       </div>
        </div> <!-- Ends wordlistContent -->
     </section>
 
@@ -205,8 +212,15 @@
       </div>
 
       <!-- Oxford Word Grid -->
-      <div id="oxfordListGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full overflow-y-auto pr-2 pb-10" style="max-height: calc(100vh - 380px);">
+      <div id="oxfordListGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full overflow-y-auto pr-2 pb-10" style="max-height: calc(100vh - 460px);">
       </div>
+      
+      <!-- Oxford Pagination Controls -->
+       <div id="oxfordPagination" class="hidden mt-2 flex justify-between items-center w-full bg-white/5 backdrop-blur-md rounded-2xl p-4 border border-white/10 shadow-2xl">
+          <button id="btnPrevOxford" class="px-6 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-sm transition-all shadow-lg border border-white/5 disabled:opacity-30 disabled:cursor-not-allowed">Önceki</button>
+          <span id="txtPageOxford" class="font-black text-slate-400 text-sm tracking-widest bg-black/40 px-6 py-2.5 rounded-xl border border-white/5">Sayfa 1 / 1</span>
+          <button id="btnNextOxford" class="px-6 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 font-bold text-sm transition-all shadow-lg border border-white/5 disabled:opacity-30 disabled:cursor-not-allowed">Sonraki</button>
+       </div>
     </section>
 
     <!-- 8. Stats (Heatmap) View -->
