@@ -59,7 +59,7 @@ window.addEventListener('message', (event) => {
       chrome.runtime.sendMessage(event.data, (response) => {
         // Service worker restart hatalarını yakala
         if (chrome.runtime.lastError) {
-          console.warn("LinguMark: Chrome runtime error:", chrome.runtime.lastError);
+          console.warn("LinguMark: Chrome runtime error:", chrome.runtime.lastError?.message || chrome.runtime.lastError);
           return;
         }
         
