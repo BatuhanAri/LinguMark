@@ -11,6 +11,11 @@ const tagsToIgnore = new Set([
 
 console.log("LinguMark: Content-injected script başlatıldı");
 
+let dataLoaded = {
+  oxford: false,
+  storage: false
+};
+
 // Content-loader'dan gelen mesajları dinle
 window.addEventListener('message', (event) => {
   if (event.source !== window) return;
@@ -32,17 +37,48 @@ window.addEventListener('message', (event) => {
   if (event.data.type === 'LINGUMARK_INIT_OXFORD') {
     oxfordDictionary = event.data.data;
     console.log("LinguMark: Oxford dictionary yüklendi, kelime sayısı:", oxfordDictionary.length);
+    dataLoaded.oxford = true;
+    checkAndInit();
+  }
+  
+  // Storage verileri content-loader'dan al
+  if (event.data.type === 'LINGUMARK_INIT_STORAGE') {
+    const storageData = event.data.data;
+    console.log("LinguMark: Storage verileri alındı:", storageData);
     
-    // Oxford dict yüklenince init'i çağır
-    initWithOxford();
+    isMasterSwitchEnabled = storageData.masterSwitch ?? true;
+    savedWords = storageData.words || [];
+    
+    dataLoaded.storage = true;
+    checkAndInit();
+  }
+  
+  // Storage update mesajları
+  if (event.data.type === 'LINGUMARK_STORAGE_UPDATE') {
+    if (event.data.masterSwitch !== undefined) {
+      isMasterSwitchEnabled = event.data.masterSwitch;
+    }
+    if (event.data.savedWords) {
+      savedWords = event.data.savedWords;
+      if (isMasterSwitchEnabled && savedWords.length > 0) {
+        removeHighlights();
+        highlightWords();
+      }
+    }
   }
 });
 
-async function initWithOxford() {
-  // Storage'dan veri al (simüle et)
-  isMasterSwitchEnabled = true;
-  savedWords = [];
+// Tüm veriler yüklendikten sonra init yap
+function checkAndInit() {
+  if (dataLoaded.oxford && dataLoaded.storage) {
+    initWithData();
+  }
+}
 
+// Gerçek veri ile initialize et
+async function initWithData() {
+  console.log("LinguMark: Init başlatıldı - masterSwitch:", isMasterSwitchEnabled, "savedWords:", savedWords.length);
+  
   if (isMasterSwitchEnabled && savedWords.length > 0) {
     highlightWords();
   }
