@@ -59,7 +59,6 @@ window.addEventListener('message', (event) => {
       chrome.runtime.sendMessage(event.data, (response) => {
         // Service worker restart hatalarını yakala
         if (chrome.runtime.lastError) {
-          console.warn("LinguMark: Chrome runtime error:", chrome.runtime.lastError?.message || chrome.runtime.lastError);
           return;
         }
         
@@ -71,7 +70,7 @@ window.addEventListener('message', (event) => {
         }, '*');
       });
     } catch (error) {
-      console.error("LinguMark: Failed to send message to background:", error);
+      // Sessiz fail
     }
   }
 });
