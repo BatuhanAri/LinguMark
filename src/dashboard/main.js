@@ -241,20 +241,48 @@ function initOxford(lang) {
       const c = levelColors[level] || levelColors.A2;
       card.className = `word-card group cursor-pointer relative`;
       card.innerHTML = `
-        <div class="flex justify-between items-center mb-4">
-          <h3 class="text-xl font-black text-white capitalize truncate w-[75%]" title="${wordObj.word}">${wordObj.word}</h3>
-          <span class="text-[9px] font-black px-2 py-1 rounded-lg border ${c.border} ${c.text} ${c.bg}">${level}</span>
+        <div class="flex justify-between items-start mb-3 tooltip-parent">
+          <h3 class="text-lg font-black text-white capitalize pr-2 flex-1 truncate" title="${wordObj.word}">${wordObj.word}</h3>
+          <div class="flex items-center gap-2 shrink-0 z-20 relative">
+             <span class="text-[9px] font-black px-2 py-1 rounded-lg border ${c.border} ${c.text} ${c.bg}">${level}</span>
+             ${isAdded ? '<div class="w-2 h-2 rounded-full bg-emerald-400" title="Kelimelerimde var"></div>' : `
+             <button class="add-single-word-btn p-1 rounded-md bg-white/5 hover:bg-emerald-500/20 text-slate-400 hover:text-emerald-400 transition-colors pointer-events-auto" data-id="${wordObj.id}" title="Kelimelerime Ekle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+             </button>
+             `}
+          </div>
         </div>
-        <div class="bg-black/40 p-4 rounded-2xl border border-white/5 pointer-events-none">
-          <p class="text-[14px] text-slate-200 font-semibold">${wordObj.meanings[lang] || wordObj.meanings['tr'] || ''}</p>
+        <div class="bg-black/40 p-3 rounded-xl border border-white/5 pointer-events-none">
+          <p class="text-[13px] text-slate-200 font-semibold truncate hover:text-clip hover:whitespace-normal transition-all">${wordObj.meanings[lang] || wordObj.meanings['tr'] || ''}</p>
         </div>
-        ${isAdded ? '<div class="absolute top-3 right-3 w-2 h-2 rounded-full bg-emerald-400" title="Kelimelerimde var"></div>' : ''}
       `;
-      card.addEventListener('click', () => {
+      card.addEventListener('click', (e) => {
+        if(e.target.closest('.add-single-word-btn')) return;
         const url = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(wordObj.word)}`;
         window.open(url, '_blank');
       });
       grid.appendChild(card);
+    });
+
+    // Attach individual word add listeners
+    document.querySelectorAll('.add-single-word-btn').forEach(btn => {
+      btn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const wordId = btn.getAttribute('data-id');
+        const wObj = oxfordDictionary.find(x => x.id === wordId);
+        if(!wObj) return;
+        const now = new Date().toISOString();
+        const newWord = { ...wObj, lang: lang, meaning: wObj.meanings[lang] || wObj.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 };
+        
+        const res = await new Promise(r => chrome.storage.local.get(['words'], r));
+        const existing = res.words || [];
+        if(existing.some(x => x.id === wordId)) return;
+        const merged = [...existing, newWord];
+        await new Promise(r => chrome.storage.local.set({words: merged}, r));
+        allWords = merged;
+        filterAndRefresh(lang);
+        renderOxfordLevel(level); // re-render to update icon
+      });
     });
   }
 
@@ -374,17 +402,17 @@ function renderWordListItems(words, gridElement) {
       </button>`;
 
     card.innerHTML = `
-      <div class="flex justify-between items-start mb-4 z-10 relative">
-        <h3 class="text-2xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors w-[65%] truncate" title="${wordObj.word}">${wordObj.word}</h3>
+      <div class="flex justify-between items-start mb-3 z-10 relative">
+        <h3 class="text-xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors flex-1 pr-2 truncate" title="${wordObj.word}">${wordObj.word}</h3>
         <div class="flex items-center gap-1 shrink-0">
             ${deleteBtnHtml}
-            <button class="speaker-btn p-2 rounded-full bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white shrink-0" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
+            <button class="speaker-btn p-1.5 rounded-md bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white shrink-0 pointer-events-auto" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z"/><path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.061z"/></svg>
             </button>
         </div>
       </div>
-      <div class="bg-black/40 backdrop-blur-md p-5 rounded-2xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none">
-        <p class="text-[15px] text-slate-200 font-bold leading-relaxed">${wordObj.meaning}</p>
+      <div class="bg-black/40 backdrop-blur-md p-3 rounded-xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none w-full">
+        <p class="text-[14px] text-slate-200 font-bold leading-relaxed line-clamp-2 hover:line-clamp-none">${wordObj.meaning}</p>
       </div>
     `;
     
