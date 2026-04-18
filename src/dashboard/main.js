@@ -272,7 +272,7 @@ function initOxford(lang) {
         const wObj = oxfordDictionary.find(x => x.id === wordId);
         if(!wObj) return;
         const now = new Date().toISOString();
-        const newWord = { ...wObj, lang: lang, meaning: wObj.meanings[lang] || wObj.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 };
+        const newWord = { ...wObj, lang: lang, meaning: wObj.meanings[lang] || wObj.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5, isOxford: false };
         
         const res = await new Promise(r => chrome.storage.local.get(['words'], r));
         const existing = res.words || [];
