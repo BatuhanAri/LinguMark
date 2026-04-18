@@ -80,12 +80,12 @@
 .lingumark-badge {
   font-size: 9px;
   font-weight: 900;
-  background: linear-gradient(to tr, #9333ea, #06b6d4);
-  color: white;
+  background: transparent;
+  color: #3b82f6;
   padding: 1px 4px;
   margin-left: 2px;
   border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.2);
+  box-shadow: none;
   vertical-align: super;
   line-height: 1;
   display: inline-block;
