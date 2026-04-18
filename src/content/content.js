@@ -1,3 +1,5 @@
+import { oxfordDictionary } from '../shared/oxford.js';
+
 let isMasterSwitchEnabled = true;
 let savedWords = [];
 
@@ -49,19 +51,41 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === "RONTGEN_SCAN") {
     handleRontgenScan(message.levels);
   }
+  if (message.type === "CLEAR_SCAN") {
+    removeRontgenHighlights();
+  }
 });
 
-async function handleRontgenScan(levels) {
-   // Import dictionary dynamically or from global if we bundle it
-   // Since we use Vite, we might need to handle this via background or bundled oxford.js
-   // For now, let's assume we can fetch it or it's provided
-   const { oxfordDictionary } = await import('../shared/oxford.js');
-   const filtered = oxfordDictionary.filter(w => levels.includes(w.level));
-   highlightWords(filtered, "rontgen");
+function removeRontgenHighlights() {
+  const marks = document.querySelectorAll('span.lingumark-rontgen');
+  marks.forEach(span => {
+    const parent = span.parentNode;
+    // Keep text, remove span
+    const text = span.childNodes[0].nodeValue;
+    parent.replaceChild(document.createTextNode(text), span);
+    parent.normalize();
+  });
+}
+
+function showToast(text) {
+  const toast = document.createElement('div');
+  toast.className = 'lingumark-toast';
+  toast.textContent = text;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.classList.add('show'), 100);
+  setTimeout(() => {
+    toast.classList.remove('show');
+    setTimeout(() => toast.remove(), 300);
+  }, 2500);
+}
+
+function handleRontgenScan(levels) {
+  const filtered = oxfordDictionary.filter(w => levels.includes(w.level));
+  highlightWords(filtered, "rontgen");
 }
 
 chrome.storage.onChanged.addListener((changes, areaName) => {
-  if (areaName === 'sync' && changes.masterSwitch) {
+  if (areaName === 'local' && changes.masterSwitch) {
     isMasterSwitchEnabled = changes.masterSwitch.newValue;
     if (isMasterSwitchEnabled) {
       highlightWords();
@@ -70,8 +94,8 @@ chrome.storage.onChanged.addListener((changes, areaName) => {
     }
   }
 
-  // Handle words changes in sync
-  if (areaName === 'sync' && changes.words) {
+  // Handle words changes in local
+  if (areaName === 'local' && changes.words) {
     savedWords = changes.words.newValue || [];
     if (isMasterSwitchEnabled) {
       removeHighlights();
@@ -143,8 +167,13 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Çift tıkla kütüphanene ekle!`;
       span.addEventListener('dblclick', async (e) => {
          e.preventDefault();
-         // Quick add logic could go here
-         chrome.runtime.sendMessage({ type: "QUICK_ADD", word: wordObjMatch.word, id: wordObjMatch.id });
+         chrome.runtime.sendMessage({ 
+           type: "QUICK_ADD", 
+           word: wordObjMatch.word, 
+           id: wordObjMatch.id,
+           meanings: wordObjMatch.meanings // Pass all language meanings
+         });
+         showToast(`✓ ${wordObjMatch.word} eklendi!`);
          span.classList.remove('lingumark-rontgen');
          span.classList.add('lingumark-word');
       });

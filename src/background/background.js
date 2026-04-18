@@ -45,22 +45,19 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     };
   }
   if (message.type === "QUICK_ADD") {
-     // Perform quick add without translation (or small fetch)
-     saveWord(message.word, message.id);
+     saveWord(message.word, message.id, message.meanings || {});
   }
 });
 
-async function saveWord(word, oxfordId) {
+async function saveWord(word, oxfordId, meanings) {
    const syncData = await chrome.storage.local.get(['targetLang', 'words']);
    const targetLang = syncData.targetLang || 'tr';
    const words = syncData.words || [];
    
    if (words.some(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === targetLang)) return;
 
-   // Get meaning from oxford dictionary
-   const { oxfordDictionary } = await import('../shared/oxford.js');
-   const wObj = oxfordDictionary.find(x => x.id === oxfordId) || { word, meanings: {} };
-   const meaning = wObj.meanings[targetLang] || "No meaning found";
+   // Use meanings passed from content script (no dynamic import needed)
+   const meaning = (meanings && meanings[targetLang]) || (meanings && meanings['tr']) || '';
 
    const newEntry = {
       id: Date.now().toString(),
