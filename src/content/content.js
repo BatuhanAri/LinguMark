@@ -17,6 +17,49 @@ async function init() {
   }
 }
 
+// Feature 1: Contextual Memory - Capture sentence on right-click
+window.addEventListener('contextmenu', () => {
+  const selection = window.getSelection();
+  if (!selection.rangeCount) return;
+
+  const range = selection.getRangeAt(0);
+  const container = range.commonAncestorContainer;
+  
+  // Find surrounding sentence
+  // We look at the parent element of the selection to find text
+  const parent = container.nodeType === 3 ? container.parentNode : container;
+  const fullText = parent.innerText || "";
+  const selectedText = selection.toString().trim();
+  
+  if (!selectedText) return;
+
+  // Simple sentence splitter logic
+  const sentences = fullText.match(/[^\.!\?]+[\.!\?]+/g) || [fullText];
+  const sentence = sentences.find(s => s.toLowerCase().includes(selectedText.toLowerCase())) || selectedText;
+
+  chrome.runtime.sendMessage({
+    type: "UPDATE_CONTEXT",
+    sentence: sentence.trim().substring(0, 300), // Limit to 300 chars for safety
+    sourceUrl: window.location.href
+  });
+});
+
+// Feature 2: Web Röntgen - Receive scan request
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.type === "RONTGEN_SCAN") {
+    handleRontgenScan(message.levels);
+  }
+});
+
+async function handleRontgenScan(levels) {
+   // Import dictionary dynamically or from global if we bundle it
+   // Since we use Vite, we might need to handle this via background or bundled oxford.js
+   // For now, let's assume we can fetch it or it's provided
+   const { oxfordDictionary } = await import('../shared/oxford.js');
+   const filtered = oxfordDictionary.filter(w => levels.includes(w.level));
+   highlightWords(filtered, "rontgen");
+}
+
 chrome.storage.onChanged.addListener((changes, areaName) => {
   if (areaName === 'sync' && changes.masterSwitch) {
     isMasterSwitchEnabled = changes.masterSwitch.newValue;
@@ -47,7 +90,7 @@ function removeHighlights() {
   });
 }
 
-function processTextNode(node, wordsToHighlight) {
+function processTextNode(node, wordsToHighlight, type = "normal") {
   const content = node.nodeValue;
   if (!content || !content.trim()) return null;
 
@@ -61,9 +104,12 @@ function processTextNode(node, wordsToHighlight) {
     let matchArr;
     while ((matchArr = regex.exec(content)) !== null) {
       if (earliestMatch === null || matchArr.index < earliestMatch) {
-        earliestMatch = matchArr.index;
-        textMatch = matchArr[0];
-        wordObjMatch = wordObj;
+         // Skip if word is already highlighted or too short
+         if (node.parentNode && node.parentNode.classList && node.parentNode.classList.contains('lingumark-word')) continue;
+         
+         earliestMatch = matchArr.index;
+         textMatch = matchArr[0];
+         wordObjMatch = wordObj;
       }
     }
   }
@@ -75,56 +121,68 @@ function processTextNode(node, wordsToHighlight) {
     const afterNode = matchNode.splitText(matchLength);
 
     const span = document.createElement('span');
-    span.className = 'lingumark-word';
+    span.className = type === "rontgen" ? 'lingumark-rontgen' : 'lingumark-word';
     
     // Add text securely
     span.appendChild(document.createTextNode(matchNode.nodeValue));
 
-    // Add superscript
-    const sup = document.createElement('sup');
-    sup.className = 'lingumark-badge';
-    sup.textContent = 'L';
-    span.appendChild(sup);
+    if (type === "normal") {
+      // Add superscript for saved words
+      const sup = document.createElement('sup');
+      sup.className = 'lingumark-badge';
+      sup.textContent = 'L';
+      span.appendChild(sup);
+    } else {
+      // Add small level badge for rontgen
+      const levelBadge = document.createElement('sub');
+      levelBadge.className = 'rontgen-level-badge';
+      levelBadge.textContent = wordObjMatch.level;
+      span.appendChild(levelBadge);
+      
+      // Feature 1.1: Clicking rontgen word opens a quick-save toast or logic
+      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Çift tıkla kütüphanene ekle!`;
+      span.addEventListener('dblclick', async (e) => {
+         e.preventDefault();
+         // Quick add logic could go here
+         chrome.runtime.sendMessage({ type: "QUICK_ADD", word: wordObjMatch.word, id: wordObjMatch.id });
+         span.classList.remove('lingumark-rontgen');
+         span.classList.add('lingumark-word');
+      });
+    }
 
     let isTranslated = false;
     const originalNodeText = matchNode.nodeValue;
 
     // Right Cick Event to transform context
     span.addEventListener('contextmenu', (e) => {
-      e.preventDefault(); // Stop native context menu from opening
+      if (type === "rontgen") return; // Handled differently
+      e.preventDefault(); 
       
       const translation = wordObjMatch.meaning || "Translating...";
       
       if (!isTranslated) {
-        // Keep it inside the DOM cleanly
         span.innerHTML = "";
         span.appendChild(document.createTextNode(translation));
-        
-        // Update styling to signify successful translation
         span.classList.remove('lingumark-word');
-        span.style.color = '#10b981'; // A pleasant green
+        span.style.color = '#10b981'; 
         span.style.fontWeight = '700';
         span.style.cursor = 'pointer';
         span.style.textDecoration = 'none';
         span.title = `Original: ${wordObjMatch.word} (Sağ tıkla eski haline döndür)`;
-        
         isTranslated = true;
       } else {
         span.innerHTML = "";
         span.appendChild(document.createTextNode(originalNodeText));
-        
         const sup = document.createElement('sup');
         sup.className = 'lingumark-badge';
         sup.textContent = 'L';
         span.appendChild(sup);
-
         span.classList.add('lingumark-word');
         span.style.color = '';
         span.style.fontWeight = '';
-        span.style.cursor = 'pointer';
+        span.style.cursor = '';
         span.style.textDecoration = '';
         span.title = '';
-        
         isTranslated = false;
       }
     });
@@ -135,8 +193,8 @@ function processTextNode(node, wordsToHighlight) {
   return null;
 }
 
-function highlightWords() {
-  if (!savedWords.length) return;
+function highlightWords(words = savedWords, type = "normal") {
+  if (!words.length) return;
 
   const walker = document.createTreeWalker(
     document.body,
@@ -148,7 +206,7 @@ function highlightWords() {
           if (tagsToIgnore.has(parent.tagName) || parent.isContentEditable) {
             return NodeFilter.FILTER_REJECT;
           }
-          if (parent.tagName === 'SPAN' && parent.classList.contains('lingumark-word')) {
+          if (parent.tagName === 'SPAN' && (parent.classList.contains('lingumark-word') || parent.classList.contains('lingumark-rontgen'))) {
              return NodeFilter.FILTER_REJECT;
           }
           parent = parent.parentNode;
@@ -167,7 +225,7 @@ function highlightWords() {
   nodesToProcess.forEach(textNode => {
     let currNode = textNode;
     while (currNode) {
-      currNode = processTextNode(currNode, savedWords);
+      currNode = processTextNode(currNode, words, type);
     }
   });
 }

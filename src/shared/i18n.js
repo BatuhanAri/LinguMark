@@ -36,7 +36,9 @@ export const translations = {
     yanlis: "Yanlış!",
     dogru_sayisi_desc: "Bildiğiniz kelime sayısı.",
     ipucu: "İpucu",
-    kontrol_et: "Kontrol Et"
+    kontrol_et: "Kontrol Et",
+    context: "Bağlam",
+    view_source: "Kaynağa Git"
   },
   en: {
     app_title: "LinguMark",
@@ -75,7 +77,9 @@ export const translations = {
     yanlis: "Wrong!",
     dogru_sayisi_desc: "Number of words you knew.",
     ipucu: "Hint",
-    kontrol_et: "Check"
+    kontrol_et: "Check",
+    context: "Context",
+    view_source: "View Source"
   },
   es: {
     app_title: "LinguMark",
@@ -114,7 +118,9 @@ export const translations = {
     yanlis: "¡Incorrecto!",
     dogru_sayisi_desc: "Número de palabras que conocías.",
     ipucu: "Pista",
-    kontrol_et: "Comprobar"
+    kontrol_et: "Comprobar",
+    context: "Contexto",
+    view_source: "Ver Fuente"
   },
   fr: {
     app_title: "LinguMark",
@@ -153,7 +159,9 @@ export const translations = {
     yanlis: "Faux !",
     dogru_sayisi_desc: "Nombre de mots que vous connaissiez.",
     ipucu: "Indice",
-    kontrol_et: "Vérifier"
+    kontrol_et: "Vérifier",
+    context: "Contexte",
+    view_source: "Voir la source"
   },
   de: {
     app_title: "LinguMark",
@@ -192,7 +200,9 @@ export const translations = {
     yanlis: "Falsch!",
     dogru_sayisi_desc: "Anzahl der Wörter, die Sie kannten.",
     ipucu: "Hinweis",
-    kontrol_et: "Prüfen"
+    kontrol_et: "Prüfen",
+    context: "Kontext",
+    view_source: "Quelle ansehen"
   },
   it: {
     app_title: "LinguMark",
@@ -231,7 +241,9 @@ export const translations = {
     yanlis: "Sbagliato!",
     dogru_sayisi_desc: "Numero di parole che conoscevi.",
     ipucu: "Suggerimento",
-    kontrol_et: "Controlla"
+    kontrol_et: "Controlla",
+    context: "Contesto",
+    view_source: "Vedi Fonte"
   }
 };
 

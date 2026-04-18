@@ -31,6 +31,54 @@ chrome.runtime.onInstalled.addListener(() => {
   });
 });
 
+// Premium: Global state for last captured context
+let lastCapturedData = {
+  sentence: "",
+  sourceUrl: ""
+};
+
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.type === "UPDATE_CONTEXT") {
+    lastCapturedData = {
+      sentence: message.sentence,
+      sourceUrl: message.sourceUrl
+    };
+  }
+  if (message.type === "QUICK_ADD") {
+     // Perform quick add without translation (or small fetch)
+     saveWord(message.word, message.id);
+  }
+});
+
+async function saveWord(word, oxfordId) {
+   const syncData = await chrome.storage.local.get(['targetLang', 'words']);
+   const targetLang = syncData.targetLang || 'tr';
+   const words = syncData.words || [];
+   
+   if (words.some(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === targetLang)) return;
+
+   // Get meaning from oxford dictionary
+   const { oxfordDictionary } = await import('../shared/oxford.js');
+   const wObj = oxfordDictionary.find(x => x.id === oxfordId) || { word, meanings: {} };
+   const meaning = wObj.meanings[targetLang] || "No meaning found";
+
+   const newEntry = {
+      id: Date.now().toString(),
+      word: word.toLowerCase(),
+      meaning: meaning,
+      lang: targetLang,
+      dateAdded: new Date().toISOString(),
+      isOxford: true,
+      context: "Added via Web Röntgen",
+      sourceUrl: "", 
+      nextReviewDate: new Date().toISOString(),
+      interval: 1,
+      easeFactor: 2.5
+   };
+   words.push(newEntry);
+   chrome.storage.local.set({ words });
+}
+
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   if (info.menuItemId === "add-to-lingumark" && info.selectionText) {
     const word = info.selectionText.trim(); 
@@ -67,6 +115,9 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
           meaning: meaning,
           lang: targetLang,
           dateAdded: new Date().toISOString(),
+          // Premium: Contextual Memory fields
+          context: (lastCapturedData.sentence && lastCapturedData.sentence.toLowerCase().includes(word.toLowerCase())) ? lastCapturedData.sentence : "",
+          sourceUrl: lastCapturedData.sourceUrl || "",
           // Spaced Repetition (Hatırla) Module Schema
           nextReviewDate: new Date().toISOString(),
           interval: 0,
