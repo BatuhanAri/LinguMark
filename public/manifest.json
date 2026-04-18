@@ -33,5 +33,11 @@
   "action": {
     "default_title": "LinguMark",
     "default_popup": "index.html"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["oxford.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
