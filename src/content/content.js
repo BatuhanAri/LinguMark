@@ -171,16 +171,9 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
     span.appendChild(document.createTextNode(matchNode.nodeValue));
 
     if (type === "normal") {
-      // Add superscript for saved words
-      const sup = document.createElement('span');
-      sup.className = 'mord mathnormal mtight';
-      sup.style.color = 'blue';
+      const sup = document.createElement('sup');
       sup.textContent = 'L';
-      sup.style.margin = '0';
-      sup.style.padding = '0';
-      sup.style.background = 'none';
-      sup.style.border = 'none';
-      sup.style.display = 'inline';
+      sup.style.color = 'blue';
       span.appendChild(sup);
     } else {
       // Add small level badge for rontgen
