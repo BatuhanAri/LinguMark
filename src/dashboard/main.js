@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       updateDashUI(val);
       filterAndRefresh(val);
       await chrome.storage.local.set({ targetLang: val });
+      window.location.reload();
     });
   });
 
