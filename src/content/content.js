@@ -172,8 +172,9 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
 
     if (type === "normal") {
       // Add superscript for saved words
-      const sup = document.createElement('sup');
-      sup.className = 'lingumark-badge';
+      const sup = document.createElement('span');
+      sup.className = 'mord mathnormal mtight';
+      sup.style.color = 'blue';
       sup.textContent = 'L';
       sup.style.margin = '0';
       sup.style.padding = '0';
