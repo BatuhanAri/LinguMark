@@ -39583,5 +39583,32011 @@ export const oxfordDictionary = [
       "de": "Zweck",
       "it": "scopo"
     }
+  },
+  {
+    "id": "ox-b1-2150",
+    "word": "purse",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "el çantası",
+      "es": "cartera",
+      "fr": "bourse",
+      "de": "Geldbeutel",
+      "it": "borsa"
+    }
+  },
+  {
+    "id": "ox-b1-2151",
+    "word": "push",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "itmek",
+      "es": "empujar",
+      "fr": "pousser",
+      "de": "drücken",
+      "it": "spingere"
+    }
+  },
+  {
+    "id": "ox-b1-2152",
+    "word": "put away",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bir kenara koymak",
+      "es": "guardar",
+      "fr": "ranger",
+      "de": "weglegen",
+      "it": "mettere via"
+    }
+  },
+  {
+    "id": "ox-b1-2153",
+    "word": "put down",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yere koymak",
+      "es": "poner",
+      "fr": "déposer",
+      "de": "niederlegen",
+      "it": "mettere giù"
+    }
+  },
+  {
+    "id": "ox-b1-2154",
+    "word": "put off",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ertelemek",
+      "es": "posponer",
+      "fr": "repousser",
+      "de": "aufschieben",
+      "it": "rimandare"
+    }
+  },
+  {
+    "id": "ox-b1-2155",
+    "word": "put on",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "giymek",
+      "es": "ponerse",
+      "fr": "mettez",
+      "de": "aufsetzen",
+      "it": "mettere"
+    }
+  },
+  {
+    "id": "ox-b1-2156",
+    "word": "put out",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "söndürmek",
+      "es": "apagar",
+      "fr": "éteindre",
+      "de": "herausgeben",
+      "it": "mettere fuori"
+    }
+  },
+  {
+    "id": "ox-b1-2157",
+    "word": "put through",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geçirmek",
+      "es": "llevar a cabo",
+      "fr": "passer à travers",
+      "de": "durchsetzen",
+      "it": "far passare"
+    }
+  },
+  {
+    "id": "ox-b1-2158",
+    "word": "put up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koymak",
+      "es": "Hospedarse",
+      "fr": "faire des réserves",
+      "de": "aufstellen",
+      "it": "mettere su"
+    }
+  },
+  {
+    "id": "ox-b1-2159",
+    "word": "puzzle",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bulmaca",
+      "es": "rompecabezas",
+      "fr": "puzzle",
+      "de": "Puzzle",
+      "it": "puzzle"
+    }
+  },
+  {
+    "id": "ox-b1-2160",
+    "word": "pyjamas",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pijama",
+      "es": "pijama",
+      "fr": "pyjamas",
+      "de": "Pyjama",
+      "it": "pigiama"
+    }
+  },
+  {
+    "id": "ox-b1-2161",
+    "word": "qualification",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vasıf",
+      "es": "calificación",
+      "fr": "qualification",
+      "de": "Qualifikation",
+      "it": "qualificazione"
+    }
+  },
+  {
+    "id": "ox-b1-2162",
+    "word": "qualified",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nitelikli",
+      "es": "calificado",
+      "fr": "qualifié",
+      "de": "qualifiziert",
+      "it": "qualificato"
+    }
+  },
+  {
+    "id": "ox-b1-2163",
+    "word": "quality",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalite",
+      "es": "calidad",
+      "fr": "qualité",
+      "de": "Qualität",
+      "it": "qualità"
+    }
+  },
+  {
+    "id": "ox-b1-2164",
+    "word": "quantity",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "miktar",
+      "es": "cantidad",
+      "fr": "quantité",
+      "de": "Menge",
+      "it": "quantità"
+    }
+  },
+  {
+    "id": "ox-b1-2165",
+    "word": "queen",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kraliçe",
+      "es": "reina",
+      "fr": "reine",
+      "de": "Königin",
+      "it": "regina"
+    }
+  },
+  {
+    "id": "ox-b1-2166",
+    "word": "questionnaire",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anket",
+      "es": "cuestionario",
+      "fr": "questionnaire",
+      "de": "Fragebogen",
+      "it": "questionario"
+    }
+  },
+  {
+    "id": "ox-b1-2167",
+    "word": "queue",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıra",
+      "es": "cola",
+      "fr": "file d'attente",
+      "de": "Warteschlange",
+      "it": "coda"
+    }
+  },
+  {
+    "id": "ox-b1-2168",
+    "word": "quietly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sessizce",
+      "es": "en silencio",
+      "fr": "tranquillement",
+      "de": "ruhig",
+      "it": "tranquillamente"
+    }
+  },
+  {
+    "id": "ox-b1-2169",
+    "word": "quit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıkış yapmak",
+      "es": "abandonar",
+      "fr": "quitter",
+      "de": "aufhören",
+      "it": "esentato"
+    }
+  },
+  {
+    "id": "ox-b1-2170",
+    "word": "quiz",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sınav",
+      "es": "prueba",
+      "fr": "questionnaire",
+      "de": "Quiz",
+      "it": "quiz"
+    }
+  },
+  {
+    "id": "ox-b1-2171",
+    "word": "rabbit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tavşan",
+      "es": "conejo",
+      "fr": "lapin",
+      "de": "Kaninchen",
+      "it": "coniglio"
+    }
+  },
+  {
+    "id": "ox-b1-2172",
+    "word": "race",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ırk",
+      "es": "carrera",
+      "fr": "course",
+      "de": "Wettrennen",
+      "it": "gara"
+    }
+  },
+  {
+    "id": "ox-b1-2173",
+    "word": "racing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yarışma",
+      "es": "carreras",
+      "fr": "courses",
+      "de": "Rennen",
+      "it": "corsa"
+    }
+  },
+  {
+    "id": "ox-b1-2174",
+    "word": "racket",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "raket",
+      "es": "raqueta",
+      "fr": "raquette",
+      "de": "Schläger",
+      "it": "racchetta"
+    }
+  },
+  {
+    "id": "ox-b1-2175",
+    "word": "rail",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demiryolu",
+      "es": "carril",
+      "fr": "rail",
+      "de": "Schiene",
+      "it": "sbarra"
+    }
+  },
+  {
+    "id": "ox-b1-2176",
+    "word": "railroad",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demiryolu",
+      "es": "ferrocarril",
+      "fr": "chemin de fer",
+      "de": "Eisenbahn",
+      "it": "ferrovia"
+    }
+  },
+  {
+    "id": "ox-b1-2177",
+    "word": "railway",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demiryolu",
+      "es": "ferrocarril",
+      "fr": "chemin de fer",
+      "de": "Eisenbahn",
+      "it": "ferrovia"
+    }
+  },
+  {
+    "id": "ox-b1-2178",
+    "word": "raincoat",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yağmurluk",
+      "es": "impermeable",
+      "fr": "imperméable",
+      "de": "Regenmantel",
+      "it": "impermeabile"
+    }
+  },
+  {
+    "id": "ox-b1-2179",
+    "word": "rainforest",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yağmur ormanı",
+      "es": "selva tropical",
+      "fr": "forêt tropicale",
+      "de": "Regenwald",
+      "it": "foresta pluviale"
+    }
+  },
+  {
+    "id": "ox-b1-2180",
+    "word": "raise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "artırmak",
+      "es": "aumentar",
+      "fr": "augmenter",
+      "de": "erheben",
+      "it": "aumentare"
+    }
+  },
+  {
+    "id": "ox-b1-2181",
+    "word": "range",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "menzil",
+      "es": "rango",
+      "fr": "gamme",
+      "de": "Reichweite",
+      "it": "allineare"
+    }
+  },
+  {
+    "id": "ox-b1-2182",
+    "word": "rap",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rap",
+      "es": "rap",
+      "fr": "rap",
+      "de": "Rap",
+      "it": "rap"
+    }
+  },
+  {
+    "id": "ox-b1-2183",
+    "word": "rare",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nadir",
+      "es": "extraño",
+      "fr": "rare",
+      "de": "selten",
+      "it": "raro"
+    }
+  },
+  {
+    "id": "ox-b1-2184",
+    "word": "rarely",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nadiren",
+      "es": "casi nunca",
+      "fr": "rarement",
+      "de": "selten",
+      "it": "raramente"
+    }
+  },
+  {
+    "id": "ox-b1-2185",
+    "word": "rather",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerine",
+      "es": "bastante",
+      "fr": "plutôt",
+      "de": "eher",
+      "it": "Piuttosto"
+    }
+  },
+  {
+    "id": "ox-b1-2186",
+    "word": "raw",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çiğ",
+      "es": "crudo",
+      "fr": "brut",
+      "de": "roh",
+      "it": "crudo"
+    }
+  },
+  {
+    "id": "ox-b1-2187",
+    "word": "reach",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ulaşmak",
+      "es": "alcanzar",
+      "fr": "atteindre",
+      "de": "erreichen",
+      "it": "portata"
+    }
+  },
+  {
+    "id": "ox-b1-2188",
+    "word": "react",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tepki vermek",
+      "es": "reaccionar",
+      "fr": "réagir",
+      "de": "reagieren",
+      "it": "reagire"
+    }
+  },
+  {
+    "id": "ox-b1-2189",
+    "word": "realise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fark etmek",
+      "es": "darse cuenta",
+      "fr": "réaliser",
+      "de": "realisieren",
+      "it": "realizzare"
+    }
+  },
+  {
+    "id": "ox-b1-2190",
+    "word": "realistic",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçekçi",
+      "es": "realista",
+      "fr": "réaliste",
+      "de": "realistisch",
+      "it": "realistico"
+    }
+  },
+  {
+    "id": "ox-b1-2191",
+    "word": "reality",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçeklik",
+      "es": "realidad",
+      "fr": "réalité",
+      "de": "Wirklichkeit",
+      "it": "realtà"
+    }
+  },
+  {
+    "id": "ox-b1-2192",
+    "word": "reasonable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mantıklı",
+      "es": "razonable",
+      "fr": "raisonnable",
+      "de": "vernünftig",
+      "it": "ragionevole"
+    }
+  },
+  {
+    "id": "ox-b1-2193",
+    "word": "reasonably",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "makul olarak",
+      "es": "razonablemente",
+      "fr": "raisonnablement",
+      "de": "vernünftigerweise",
+      "it": "ragionevolmente"
+    }
+  },
+  {
+    "id": "ox-b1-2194",
+    "word": "rebuild",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeniden inşa etmek",
+      "es": "reconstruir",
+      "fr": "reconstruire",
+      "de": "neu aufbauen",
+      "it": "ricostruire"
+    }
+  },
+  {
+    "id": "ox-b1-2195",
+    "word": "receive",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "almak",
+      "es": "recibir",
+      "fr": "recevoir",
+      "de": "erhalten",
+      "it": "ricevere"
+    }
+  },
+  {
+    "id": "ox-b1-2196",
+    "word": "receipt",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fiş",
+      "es": "recibo",
+      "fr": "reçu",
+      "de": "Quittung",
+      "it": "ricevuta"
+    }
+  },
+  {
+    "id": "ox-b1-2197",
+    "word": "recent",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "son",
+      "es": "reciente",
+      "fr": "récent",
+      "de": "jüngste",
+      "it": "recente"
+    }
+  },
+  {
+    "id": "ox-b1-2198",
+    "word": "reception",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "resepsiyon",
+      "es": "recepción",
+      "fr": "réception",
+      "de": "Rezeption",
+      "it": "reception"
+    }
+  },
+  {
+    "id": "ox-b1-2199",
+    "word": "receptionist",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "resepsiyonist",
+      "es": "recepcionista",
+      "fr": "réceptionniste",
+      "de": "Empfangsdame",
+      "it": "receptionist"
+    }
+  },
+  {
+    "id": "ox-b1-2200",
+    "word": "recipe",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yemek tarifi",
+      "es": "receta",
+      "fr": "recette",
+      "de": "Rezept",
+      "it": "ricetta"
+    }
+  },
+  {
+    "id": "ox-b1-2201",
+    "word": "recognise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanımak",
+      "es": "reconocer",
+      "fr": "reconnaître",
+      "de": "erkennen",
+      "it": "riconoscere"
+    }
+  },
+  {
+    "id": "ox-b1-2202",
+    "word": "recommend",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tavsiye etmek",
+      "es": "recomendar",
+      "fr": "recommander",
+      "de": "empfehlen",
+      "it": "consigliare"
+    }
+  },
+  {
+    "id": "ox-b1-2203",
+    "word": "record",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt",
+      "es": "registro",
+      "fr": "enregistrer",
+      "de": "aufzeichnen",
+      "it": "documentazione"
+    }
+  },
+  {
+    "id": "ox-b1-2204",
+    "word": "recording",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt",
+      "es": "grabación",
+      "fr": "enregistrement",
+      "de": "Aufnahme",
+      "it": "registrazione"
+    }
+  },
+  {
+    "id": "ox-b1-2205",
+    "word": "recover",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyileşmek",
+      "es": "recuperar",
+      "fr": "récupérer",
+      "de": "genesen",
+      "it": "recuperare"
+    }
+  },
+  {
+    "id": "ox-b1-2206",
+    "word": "recycle",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geri dönüşüm",
+      "es": "reciclar",
+      "fr": "recycler",
+      "de": "recyceln",
+      "it": "riciclare"
+    }
+  },
+  {
+    "id": "ox-b1-2207",
+    "word": "recycled",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geri dönüştürülmüş",
+      "es": "reciclado",
+      "fr": "recyclé",
+      "de": "recycelt",
+      "it": "riciclato"
+    }
+  },
+  {
+    "id": "ox-b1-2208",
+    "word": "recycling",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geri dönüşüm",
+      "es": "reciclaje",
+      "fr": "recyclage",
+      "de": "Recycling",
+      "it": "riciclaggio"
+    }
+  },
+  {
+    "id": "ox-b1-2209",
+    "word": "reduce",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "azaltmak",
+      "es": "reducir",
+      "fr": "réduire",
+      "de": "reduzieren",
+      "it": "ridurre"
+    }
+  },
+  {
+    "id": "ox-b1-2210",
+    "word": "reduced",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "azaltılmış",
+      "es": "reducido",
+      "fr": "réduit",
+      "de": "reduziert",
+      "it": "ridotto"
+    }
+  },
+  {
+    "id": "ox-b1-2211",
+    "word": "refreshments",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içecekler",
+      "es": "refrescos",
+      "fr": "rafraîchissements",
+      "de": "Erfrischungen",
+      "it": "rinfreschi"
+    }
+  },
+  {
+    "id": "ox-b1-2212",
+    "word": "refrigerator",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "buzdolabı",
+      "es": "refrigerador",
+      "fr": "réfrigérateur",
+      "de": "Kühlschrank",
+      "it": "frigorifero"
+    }
+  },
+  {
+    "id": "ox-b1-2213",
+    "word": "regarding",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişkin",
+      "es": "acerca de",
+      "fr": "concernant",
+      "de": "hinsichtlich",
+      "it": "per quanto riguarda"
+    }
+  },
+  {
+    "id": "ox-b1-2214",
+    "word": "regards",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "saygılarımla",
+      "es": "saludos",
+      "fr": "salutations",
+      "de": "Grüße",
+      "it": "saluti"
+    }
+  },
+  {
+    "id": "ox-b1-2215",
+    "word": "region",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bölge",
+      "es": "región",
+      "fr": "région",
+      "de": "Region",
+      "it": "regione"
+    }
+  },
+  {
+    "id": "ox-b1-2216",
+    "word": "register",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt olmak",
+      "es": "registro",
+      "fr": "registre",
+      "de": "registrieren",
+      "it": "registro"
+    }
+  },
+  {
+    "id": "ox-b1-2217",
+    "word": "registration",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt",
+      "es": "registro",
+      "fr": "inscription",
+      "de": "Anmeldung",
+      "it": "registrazione"
+    }
+  },
+  {
+    "id": "ox-b1-2218",
+    "word": "regret",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pişmanlık",
+      "es": "arrepentirse",
+      "fr": "regret",
+      "de": "Reue",
+      "it": "rimpianto"
+    }
+  },
+  {
+    "id": "ox-b1-2219",
+    "word": "regular",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenli",
+      "es": "regular",
+      "fr": "régulier",
+      "de": "regulär",
+      "it": "regolare"
+    }
+  },
+  {
+    "id": "ox-b1-2220",
+    "word": "regularly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenli olarak",
+      "es": "regularmente",
+      "fr": "régulièrement",
+      "de": "regelmäßig",
+      "it": "regolarmente"
+    }
+  },
+  {
+    "id": "ox-b1-2221",
+    "word": "relation",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişki",
+      "es": "relación",
+      "fr": "relation",
+      "de": "Beziehung",
+      "it": "relazione"
+    }
+  },
+  {
+    "id": "ox-b1-2222",
+    "word": "relationship",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişki",
+      "es": "relación",
+      "fr": "relation",
+      "de": "Beziehung",
+      "it": "relazione"
+    }
+  },
+  {
+    "id": "ox-b1-2223",
+    "word": "relative",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akraba",
+      "es": "relativo",
+      "fr": "relatif",
+      "de": "relativ",
+      "it": "relativo"
+    }
+  },
+  {
+    "id": "ox-b1-2224",
+    "word": "relaxation",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gevşeme",
+      "es": "relajación",
+      "fr": "relaxation",
+      "de": "Entspannung",
+      "it": "relax"
+    }
+  },
+  {
+    "id": "ox-b1-2225",
+    "word": "relaxed",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahat",
+      "es": "relajado",
+      "fr": "détendu",
+      "de": "entspannt",
+      "it": "rilassato"
+    }
+  },
+  {
+    "id": "ox-b1-2226",
+    "word": "reliable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenilir",
+      "es": "confiable",
+      "fr": "fiable",
+      "de": "zuverlässig",
+      "it": "affidabile"
+    }
+  },
+  {
+    "id": "ox-b1-2227",
+    "word": "relieved",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahatlamak",
+      "es": "aliviado",
+      "fr": "soulagé",
+      "de": "erleichtert",
+      "it": "sollevato"
+    }
+  },
+  {
+    "id": "ox-b1-2228",
+    "word": "religion",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "din",
+      "es": "religión",
+      "fr": "religion",
+      "de": "Religion",
+      "it": "religione"
+    }
+  },
+  {
+    "id": "ox-b1-2229",
+    "word": "rely on",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenmek",
+      "es": "confiar en",
+      "fr": "compter sur",
+      "de": "Verlassen Sie sich darauf",
+      "it": "fare affidamento su"
+    }
+  },
+  {
+    "id": "ox-b1-2230",
+    "word": "remain",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geriye kalmak",
+      "es": "permanecer",
+      "fr": "rester",
+      "de": "bleiben",
+      "it": "rimanere"
+    }
+  },
+  {
+    "id": "ox-b1-2231",
+    "word": "remind",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hatırlatmak",
+      "es": "recordar",
+      "fr": "rappeler",
+      "de": "erinnern",
+      "it": "ricordare"
+    }
+  },
+  {
+    "id": "ox-b1-2232",
+    "word": "remote control",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uzaktan kumanda",
+      "es": "mando a distancia",
+      "fr": "télécommande",
+      "de": "Fernbedienung",
+      "it": "telecomando"
+    }
+  },
+  {
+    "id": "ox-b1-2233",
+    "word": "remove",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaldırmak",
+      "es": "eliminar",
+      "fr": "retirer",
+      "de": "entfernen",
+      "it": "rimuovere"
+    }
+  },
+  {
+    "id": "ox-b1-2234",
+    "word": "rent",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kira",
+      "es": "alquilar",
+      "fr": "louer",
+      "de": "mieten",
+      "it": "affitto"
+    }
+  },
+  {
+    "id": "ox-b1-2235",
+    "word": "repair",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamirat",
+      "es": "reparar",
+      "fr": "réparation",
+      "de": "reparieren",
+      "it": "riparazione"
+    }
+  },
+  {
+    "id": "ox-b1-2236",
+    "word": "replace",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yer değiştirmek",
+      "es": "reemplazar",
+      "fr": "remplacer",
+      "de": "ersetzen",
+      "it": "sostituire"
+    }
+  },
+  {
+    "id": "ox-b1-2237",
+    "word": "reply",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cevap vermek",
+      "es": "responder",
+      "fr": "répondre",
+      "de": "Antwort",
+      "it": "rispondere"
+    }
+  },
+  {
+    "id": "ox-b1-2238",
+    "word": "reporter",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "muhabir",
+      "es": "reportero",
+      "fr": "journaliste",
+      "de": "Reporter",
+      "it": "reporter"
+    }
+  },
+  {
+    "id": "ox-b1-2239",
+    "word": "request",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rica etmek",
+      "es": "pedido",
+      "fr": "demande",
+      "de": "Anfrage",
+      "it": "richiesta"
+    }
+  },
+  {
+    "id": "ox-b1-2240",
+    "word": "require",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerekmek",
+      "es": "requerir",
+      "fr": "exiger",
+      "de": "erfordern",
+      "it": "richiedere"
+    }
+  },
+  {
+    "id": "ox-b1-2241",
+    "word": "rescue",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurtarmak",
+      "es": "rescate",
+      "fr": "sauvetage",
+      "de": "Rettung",
+      "it": "salvare"
+    }
+  },
+  {
+    "id": "ox-b1-2242",
+    "word": "research",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "araştırma",
+      "es": "investigación",
+      "fr": "recherche",
+      "de": "Forschung",
+      "it": "ricerca"
+    }
+  },
+  {
+    "id": "ox-b1-2243",
+    "word": "reservation",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rezervasyon",
+      "es": "reserva",
+      "fr": "réservation",
+      "de": "Reservierung",
+      "it": "prenotazione"
+    }
+  },
+  {
+    "id": "ox-b1-2244",
+    "word": "reserve",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rezerv",
+      "es": "reservar",
+      "fr": "réserve",
+      "de": "reservieren",
+      "it": "prenotare"
+    }
+  },
+  {
+    "id": "ox-b1-2245",
+    "word": "resort",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatil yeri",
+      "es": "complejo",
+      "fr": "station balnéaire",
+      "de": "Resort",
+      "it": "ricorrere"
+    }
+  },
+  {
+    "id": "ox-b1-2246",
+    "word": "respect",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Saygı",
+      "es": "respeto",
+      "fr": "respect",
+      "de": "respektieren",
+      "it": "rispetto"
+    }
+  },
+  {
+    "id": "ox-b1-2247",
+    "word": "responsible",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sorumlu",
+      "es": "responsable",
+      "fr": "responsable",
+      "de": "verantwortlich",
+      "it": "responsabile"
+    }
+  },
+  {
+    "id": "ox-b1-2248",
+    "word": "rest",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dinlenmek",
+      "es": "descansar",
+      "fr": "repos",
+      "de": "ausruhen",
+      "it": "riposo"
+    }
+  },
+  {
+    "id": "ox-b1-2249",
+    "word": "retire",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emekli olmak",
+      "es": "retirarse",
+      "fr": "se retirer",
+      "de": "ausscheiden",
+      "it": "andare in pensione"
+    }
+  },
+  {
+    "id": "ox-b1-2250",
+    "word": "retirement",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emeklilik",
+      "es": "jubilación",
+      "fr": "retraite",
+      "de": "Ruhestand",
+      "it": "pensionamento"
+    }
+  },
+  {
+    "id": "ox-b1-2251",
+    "word": "review",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gözden geçirmek",
+      "es": "revisar",
+      "fr": "revoir",
+      "de": "Rezension",
+      "it": "revisione"
+    }
+  },
+  {
+    "id": "ox-b1-2252",
+    "word": "revise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tekrar düzeltme yapmak",
+      "es": "revisar",
+      "fr": "réviser",
+      "de": "überarbeiten",
+      "it": "rivedere"
+    }
+  },
+  {
+    "id": "ox-b1-2253",
+    "word": "revision",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "revizyon",
+      "es": "revisión",
+      "fr": "révision",
+      "de": "Revision",
+      "it": "revisione"
+    }
+  },
+  {
+    "id": "ox-b1-2254",
+    "word": "reward",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ödül",
+      "es": "premio",
+      "fr": "récompense",
+      "de": "belohnen",
+      "it": "ricompensa"
+    }
+  },
+  {
+    "id": "ox-b1-2255",
+    "word": "rider",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "binici",
+      "es": "jinete",
+      "fr": "cavalier",
+      "de": "Fahrer",
+      "it": "cavaliere"
+    }
+  },
+  {
+    "id": "ox-b1-2256",
+    "word": "riding",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "binme",
+      "es": "equitación",
+      "fr": "équitation",
+      "de": "Reiten",
+      "it": "cavalcare"
+    }
+  },
+  {
+    "id": "ox-b1-2257",
+    "word": "right-hand",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sağ el",
+      "es": "mano derecha",
+      "fr": "main droite",
+      "de": "rechts",
+      "it": "mano destra"
+    }
+  },
+  {
+    "id": "ox-b1-2258",
+    "word": "ring",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzük",
+      "es": "anillo",
+      "fr": "anneau",
+      "de": "Ring",
+      "it": "squillo"
+    }
+  },
+  {
+    "id": "ox-b1-2259",
+    "word": "ring back",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geri ara",
+      "es": "volver a llamar",
+      "fr": "rappeler",
+      "de": "Rufen Sie zurück",
+      "it": "richiamare"
+    }
+  },
+  {
+    "id": "ox-b1-2260",
+    "word": "ring up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "telefonu açmak",
+      "es": "llamar",
+      "fr": "appeler",
+      "de": "anrufen",
+      "it": "telefonare"
+    }
+  },
+  {
+    "id": "ox-b1-2261",
+    "word": "rise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yükselmek",
+      "es": "elevar",
+      "fr": "augmenter",
+      "de": "erheben",
+      "it": "salita"
+    }
+  },
+  {
+    "id": "ox-b1-2262",
+    "word": "roast",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haşlamak",
+      "es": "asar",
+      "fr": "rôti",
+      "de": "braten",
+      "it": "arrosto"
+    }
+  },
+  {
+    "id": "ox-b1-2263",
+    "word": "rob",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soymak",
+      "es": "robar",
+      "fr": "voler",
+      "de": "rauben",
+      "it": "rapinare"
+    }
+  },
+  {
+    "id": "ox-b1-2264",
+    "word": "robot",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "robot",
+      "es": "robot",
+      "fr": "robot",
+      "de": "Roboter",
+      "it": "robot"
+    }
+  },
+  {
+    "id": "ox-b1-2265",
+    "word": "rock",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaynak",
+      "es": "roca",
+      "fr": "rocher",
+      "de": "Felsen",
+      "it": "roccia"
+    }
+  },
+  {
+    "id": "ox-b1-2266",
+    "word": "rocket",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "roket",
+      "es": "cohete",
+      "fr": "fusée",
+      "de": "Rakete",
+      "it": "razzo"
+    }
+  },
+  {
+    "id": "ox-b1-2267",
+    "word": "role",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rol",
+      "es": "role",
+      "fr": "rôle",
+      "de": "Rolle",
+      "it": "ruolo"
+    }
+  },
+  {
+    "id": "ox-b1-2268",
+    "word": "roll",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rulo",
+      "es": "rollo",
+      "fr": "rouler",
+      "de": "rollen",
+      "it": "rotolo"
+    }
+  },
+  {
+    "id": "ox-b1-2269",
+    "word": "romance",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "romantik",
+      "es": "romance",
+      "fr": "romance",
+      "de": "Romantik",
+      "it": "romanticismo"
+    }
+  },
+  {
+    "id": "ox-b1-2270",
+    "word": "romantic",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "romantik",
+      "es": "romántico",
+      "fr": "romantique",
+      "de": "romantisch",
+      "it": "romantico"
+    }
+  },
+  {
+    "id": "ox-b1-2271",
+    "word": "roof",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çatı",
+      "es": "techo",
+      "fr": "toit",
+      "de": "Dach",
+      "it": "tetto"
+    }
+  },
+  {
+    "id": "ox-b1-2272",
+    "word": "roommate",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oda arkadaşı",
+      "es": "compañero de cuarto",
+      "fr": "colocataire",
+      "de": "Mitbewohner",
+      "it": "compagno di stanza"
+    }
+  },
+  {
+    "id": "ox-b1-2273",
+    "word": "rope",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "halat",
+      "es": "soga",
+      "fr": "corde",
+      "de": "Seil",
+      "it": "corda"
+    }
+  },
+  {
+    "id": "ox-b1-2274",
+    "word": "rose",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gül",
+      "es": "rosa",
+      "fr": "rose",
+      "de": "Rose",
+      "it": "rosa"
+    }
+  },
+  {
+    "id": "ox-b1-2275",
+    "word": "rough",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaba ",
+      "es": "bruto",
+      "fr": "rugueux",
+      "de": "rauh",
+      "it": "ruvido"
+    }
+  },
+  {
+    "id": "ox-b1-2276",
+    "word": "round",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yuvarlak",
+      "es": "redondo",
+      "fr": "rond",
+      "de": "runden",
+      "it": "girare"
+    }
+  },
+  {
+    "id": "ox-b1-2277",
+    "word": "roundabout",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dolambaçlı",
+      "es": "rotonda",
+      "fr": "rond point",
+      "de": "Kreisel",
+      "it": "rotatoria"
+    }
+  },
+  {
+    "id": "ox-b1-2278",
+    "word": "route",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rota",
+      "es": "ruta",
+      "fr": "itinéraire",
+      "de": "Route",
+      "it": "itinerario"
+    }
+  },
+  {
+    "id": "ox-b1-2279",
+    "word": "row",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıra",
+      "es": "fila",
+      "fr": "rangée",
+      "de": "Reihe",
+      "it": "riga"
+    }
+  },
+  {
+    "id": "ox-b1-2280",
+    "word": "rubber",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "lastik",
+      "es": "goma",
+      "fr": "caoutchouc",
+      "de": "Gummi",
+      "it": "gomma"
+    }
+  },
+  {
+    "id": "ox-b1-2281",
+    "word": "rubbish",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zırva",
+      "es": "basura",
+      "fr": "déchets",
+      "de": "Müll",
+      "it": "spazzatura"
+    }
+  },
+  {
+    "id": "ox-b1-2282",
+    "word": "rude",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaba",
+      "es": "brusco",
+      "fr": "grossier",
+      "de": "unhöflich",
+      "it": "maleducato"
+    }
+  },
+  {
+    "id": "ox-b1-2283",
+    "word": "rug",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kilim",
+      "es": "alfombra",
+      "fr": "tapis",
+      "de": "Teppich",
+      "it": "tappeto"
+    }
+  },
+  {
+    "id": "ox-b1-2284",
+    "word": "rugby",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rugby",
+      "es": "rugby",
+      "fr": "rugby",
+      "de": "Rugby",
+      "it": "rugby"
+    }
+  },
+  {
+    "id": "ox-b1-2285",
+    "word": "ruin",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mahvetmek",
+      "es": "ruina",
+      "fr": "ruine",
+      "de": "Ruine",
+      "it": "rovina"
+    }
+  },
+  {
+    "id": "ox-b1-2286",
+    "word": "ruler",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cetvel",
+      "es": "gobernante",
+      "fr": "règle",
+      "de": "Herrscher",
+      "it": "governate"
+    }
+  },
+  {
+    "id": "ox-b1-2287",
+    "word": "runner",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koşucu",
+      "es": "corredor",
+      "fr": "coureur",
+      "de": "Läufer",
+      "it": "corridore"
+    }
+  },
+  {
+    "id": "ox-b1-2288",
+    "word": "running",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koşma",
+      "es": "correr",
+      "fr": "en cours d'exécution",
+      "de": "läuft",
+      "it": "corsa"
+    }
+  },
+  {
+    "id": "ox-b1-2289",
+    "word": "run out",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tükendi",
+      "es": "sin",
+      "fr": "s'épuiser",
+      "de": "Auslaufen",
+      "it": "esaurire"
+    }
+  },
+  {
+    "id": "ox-b1-2290",
+    "word": "safe",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenli",
+      "es": "seguro",
+      "fr": "sûr",
+      "de": "sicher",
+      "it": "sicuro"
+    }
+  },
+  {
+    "id": "ox-b1-2291",
+    "word": "safely",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenli bir şekilde",
+      "es": "sin peligro",
+      "fr": "sans risque",
+      "de": "sicher",
+      "it": "in sicurezza"
+    }
+  },
+  {
+    "id": "ox-b1-2292",
+    "word": "sail",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "denize açılmak",
+      "es": "navegar",
+      "fr": "naviguer",
+      "de": "Segel",
+      "it": "vela"
+    }
+  },
+  {
+    "id": "ox-b1-2293",
+    "word": "sailing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yelkencilik",
+      "es": "navegación",
+      "fr": "voile",
+      "de": "Segeln",
+      "it": "navigazione"
+    }
+  },
+  {
+    "id": "ox-b1-2294",
+    "word": "sailor",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "denizci",
+      "es": "marinero",
+      "fr": "marin",
+      "de": "Seemann",
+      "it": "marinaio"
+    }
+  },
+  {
+    "id": "ox-b1-2295",
+    "word": "salary",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "maaş",
+      "es": "salario",
+      "fr": "salaire",
+      "de": "Gehalt",
+      "it": "stipendio"
+    }
+  },
+  {
+    "id": "ox-b1-2296",
+    "word": "sale",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "satış",
+      "es": "venta",
+      "fr": "vente",
+      "de": "Verkauf",
+      "it": "vendita"
+    }
+  },
+  {
+    "id": "ox-b1-2297",
+    "word": "salesman",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "satıcı",
+      "es": "vendedor",
+      "fr": "vendeur",
+      "de": "Verkäufer",
+      "it": "venditore"
+    }
+  },
+  {
+    "id": "ox-b1-2298",
+    "word": "saleswoman",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pazarlamacı",
+      "es": "vendedora",
+      "fr": "vendeuse",
+      "de": "Verkäuferin",
+      "it": "commessa"
+    }
+  },
+  {
+    "id": "ox-b1-2299",
+    "word": "salmon",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "somon",
+      "es": "salmón",
+      "fr": "saumon",
+      "de": "Lachs",
+      "it": "salmone"
+    }
+  },
+  {
+    "id": "ox-b1-2300",
+    "word": "sand",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kum",
+      "es": "arena",
+      "fr": "sable",
+      "de": "Sand",
+      "it": "sabbia"
+    }
+  },
+  {
+    "id": "ox-b1-2301",
+    "word": "sandal",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sandalet",
+      "es": "sandalia",
+      "fr": "sandale",
+      "de": "Sandale",
+      "it": "sandalo"
+    }
+  },
+  {
+    "id": "ox-b1-2302",
+    "word": "satisfactory",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatmin edici",
+      "es": "satisfactorio",
+      "fr": "satisfaisant",
+      "de": "zufriedenstellend",
+      "it": "soddisfacente"
+    }
+  },
+  {
+    "id": "ox-b1-2303",
+    "word": "satisfied",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "memnun",
+      "es": "satisfecho",
+      "fr": "satisfait",
+      "de": "befriedigt",
+      "it": "soddisfatto"
+    }
+  },
+  {
+    "id": "ox-b1-2304",
+    "word": "sauce",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sos",
+      "es": "salsa",
+      "fr": "sauce",
+      "de": "Sauce",
+      "it": "salsa"
+    }
+  },
+  {
+    "id": "ox-b1-2305",
+    "word": "saucepan",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tencere",
+      "es": "cacerola",
+      "fr": "casserole",
+      "de": "Topf",
+      "it": "casseruola"
+    }
+  },
+  {
+    "id": "ox-b1-2306",
+    "word": "saucer",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tabak",
+      "es": "platillo",
+      "fr": "soucoupe",
+      "de": "Untertasse",
+      "it": "piattino"
+    }
+  },
+  {
+    "id": "ox-b1-2307",
+    "word": "sausage",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sosis",
+      "es": "embutido",
+      "fr": "saucisse",
+      "de": "Wurst",
+      "it": "salsiccia"
+    }
+  },
+  {
+    "id": "ox-b1-2308",
+    "word": "save",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaydetmek",
+      "es": "ahorrar",
+      "fr": "sauvegarder",
+      "de": "speichern",
+      "it": "salva"
+    }
+  },
+  {
+    "id": "ox-b1-2309",
+    "word": "scared",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korkmuş",
+      "es": "asustado",
+      "fr": "effrayé",
+      "de": "verängstigt",
+      "it": "impaurito"
+    }
+  },
+  {
+    "id": "ox-b1-2310",
+    "word": "scarf",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atkı",
+      "es": "bufanda",
+      "fr": "foulard",
+      "de": "Schal",
+      "it": "sciarpa"
+    }
+  },
+  {
+    "id": "ox-b1-2311",
+    "word": "scary",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korkutucu",
+      "es": "aterrador",
+      "fr": "effrayant",
+      "de": "beängstigend",
+      "it": "allarmante"
+    }
+  },
+  {
+    "id": "ox-b1-2312",
+    "word": "scene",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sahne",
+      "es": "escena",
+      "fr": "scène",
+      "de": "Szene",
+      "it": "scena"
+    }
+  },
+  {
+    "id": "ox-b1-2313",
+    "word": "scenery",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "manzara",
+      "es": "escenario",
+      "fr": "paysage",
+      "de": "Landschaft",
+      "it": "scenario"
+    }
+  },
+  {
+    "id": "ox-b1-2314",
+    "word": "schoolchild",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "okul çocuğu",
+      "es": "alumno",
+      "fr": "écolier",
+      "de": "Schulkind",
+      "it": "scolaro"
+    }
+  },
+  {
+    "id": "ox-b1-2315",
+    "word": "science fiction",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilimkurgu",
+      "es": "ciencia ficción",
+      "fr": "la science-fiction",
+      "de": "Science-Fiction",
+      "it": "fantascienza"
+    }
+  },
+  {
+    "id": "ox-b1-2316",
+    "word": "scientific",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilmi",
+      "es": "científico",
+      "fr": "scientifique",
+      "de": "wissenschaftlich",
+      "it": "scientifico"
+    }
+  },
+  {
+    "id": "ox-b1-2317",
+    "word": "scissors",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "makas",
+      "es": "tijeras",
+      "fr": "ciseaux",
+      "de": "Schere",
+      "it": "forbici"
+    }
+  },
+  {
+    "id": "ox-b1-2318",
+    "word": "scooter",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "scooter",
+      "es": "scooter",
+      "fr": "scooter",
+      "de": "Roller",
+      "it": "scooter"
+    }
+  },
+  {
+    "id": "ox-b1-2319",
+    "word": "score",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Gol",
+      "es": "puntaje",
+      "fr": "score",
+      "de": "Punktzahl",
+      "it": "punto"
+    }
+  },
+  {
+    "id": "ox-b1-2320",
+    "word": "scream",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağırmak",
+      "es": "gritar",
+      "fr": "crier",
+      "de": "schreien",
+      "it": "grido"
+    }
+  },
+  {
+    "id": "ox-b1-2321",
+    "word": "screen",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ekran",
+      "es": "pantalla",
+      "fr": "écran",
+      "de": "Bildschirm",
+      "it": "schermo"
+    }
+  },
+  {
+    "id": "ox-b1-2322",
+    "word": "sculpture",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "heykel",
+      "es": "escultura",
+      "fr": "sculpture",
+      "de": "Skulptur",
+      "it": "scultura"
+    }
+  },
+  {
+    "id": "ox-b1-2323",
+    "word": "search",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aramak",
+      "es": "buscar",
+      "fr": "recherche",
+      "de": "suchen",
+      "it": "ricerca"
+    }
+  },
+  {
+    "id": "ox-b1-2324",
+    "word": "seaside",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "deniz kenarı",
+      "es": "playa",
+      "fr": "bord de la mer",
+      "de": "Meer",
+      "it": "mare"
+    }
+  },
+  {
+    "id": "ox-b1-2325",
+    "word": "season",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mevsim",
+      "es": "estación",
+      "fr": "saison",
+      "de": "Jahreszeit",
+      "it": "stagione"
+    }
+  },
+  {
+    "id": "ox-b1-2326",
+    "word": "seat",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koltuk",
+      "es": "asiento",
+      "fr": "siège",
+      "de": "Sitz",
+      "it": "posto a sedere"
+    }
+  },
+  {
+    "id": "ox-b1-2327",
+    "word": "seat belt",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emniyet kemeri",
+      "es": "cinturón de seguridad",
+      "fr": "ceinture de sécurité",
+      "de": "Sicherheitsgurt",
+      "it": "cintura di sicurezza"
+    }
+  },
+  {
+    "id": "ox-b1-2328",
+    "word": "secondary",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikincil",
+      "es": "secundario",
+      "fr": "secondaire",
+      "de": "sekundär",
+      "it": "secondario"
+    }
+  },
+  {
+    "id": "ox-b1-2329",
+    "word": "secondary school",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ortaokul",
+      "es": "Escuela secundaria",
+      "fr": "lycée",
+      "de": "weiterführende Schule",
+      "it": "scuola media"
+    }
+  },
+  {
+    "id": "ox-b1-2330",
+    "word": "second-hand",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikinci el",
+      "es": "de segunda mano",
+      "fr": "d'occasion",
+      "de": "aus zweiter Hand",
+      "it": "seconda mano"
+    }
+  },
+  {
+    "id": "ox-b1-2331",
+    "word": "secret",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gizli",
+      "es": "secreto",
+      "fr": "secrète",
+      "de": "Geheimnis",
+      "it": "segreto"
+    }
+  },
+  {
+    "id": "ox-b1-2332",
+    "word": "secretary",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sekreter",
+      "es": "secretario",
+      "fr": "secrétaire",
+      "de": "Sekretär",
+      "it": "segretario"
+    }
+  },
+  {
+    "id": "ox-b1-2333",
+    "word": "security",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenlik",
+      "es": "seguridad",
+      "fr": "sécurité",
+      "de": "Sicherheit",
+      "it": "sicurezza"
+    }
+  },
+  {
+    "id": "ox-b1-2334",
+    "word": "security guard",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenlik görevlisi",
+      "es": "guardia de seguridad",
+      "fr": "agent de sécurité",
+      "de": "Wachmann",
+      "it": "guardia di sicurezza"
+    }
+  },
+  {
+    "id": "ox-b1-2335",
+    "word": "seem",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gözükmek",
+      "es": "parecer",
+      "fr": "sembler",
+      "de": "erscheinen",
+      "it": "sembrare"
+    }
+  },
+  {
+    "id": "ox-b1-2336",
+    "word": "select",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seçme",
+      "es": "seleccionar",
+      "fr": "sélectionner",
+      "de": "wählen",
+      "it": "selezionare"
+    }
+  },
+  {
+    "id": "ox-b1-2337",
+    "word": "selfie",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özçekim",
+      "es": "autofoto",
+      "fr": "selfie",
+      "de": "Selfie",
+      "it": "selfie"
+    }
+  },
+  {
+    "id": "ox-b1-2338",
+    "word": "selfish",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bencil",
+      "es": "egoísta",
+      "fr": "égoïste",
+      "de": "egoistisch",
+      "it": "egoista"
+    }
+  },
+  {
+    "id": "ox-b1-2339",
+    "word": "self-service",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Self servis",
+      "es": "autoservicio",
+      "fr": "en libre service",
+      "de": "Selbstbedienung",
+      "it": "self service"
+    }
+  },
+  {
+    "id": "ox-b1-2340",
+    "word": "sense",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "algı",
+      "es": "sentido",
+      "fr": "sens",
+      "de": "Sinn",
+      "it": "senso"
+    }
+  },
+  {
+    "id": "ox-b1-2341",
+    "word": "sensible",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mantıklı",
+      "es": "sensitivo",
+      "fr": "sensible",
+      "de": "vernünftig",
+      "it": "sensato"
+    }
+  },
+  {
+    "id": "ox-b1-2342",
+    "word": "separate",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayırmak",
+      "es": "separado",
+      "fr": "séparé",
+      "de": "separate",
+      "it": "separato"
+    }
+  },
+  {
+    "id": "ox-b1-2343",
+    "word": "series",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seri",
+      "es": "serie",
+      "fr": "série",
+      "de": "Serie",
+      "it": "serie"
+    }
+  },
+  {
+    "id": "ox-b1-2344",
+    "word": "serious",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cidden",
+      "es": "grave",
+      "fr": "sérieux",
+      "de": "ernst",
+      "it": "serio"
+    }
+  },
+  {
+    "id": "ox-b1-2345",
+    "word": "seriously",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Cidden",
+      "es": "en serio",
+      "fr": "sérieusement",
+      "de": "ernsthaft",
+      "it": "sul serio"
+    }
+  },
+  {
+    "id": "ox-b1-2346",
+    "word": "serve",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sert",
+      "es": "atender",
+      "fr": "servir",
+      "de": "Aufschlag",
+      "it": "servire"
+    }
+  },
+  {
+    "id": "ox-b1-2347",
+    "word": "server",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sunucu",
+      "es": "servidor",
+      "fr": "serveur",
+      "de": "Server",
+      "it": "server"
+    }
+  },
+  {
+    "id": "ox-b1-2348",
+    "word": "service",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hizmet",
+      "es": "servicio",
+      "fr": "service",
+      "de": "Service",
+      "it": "servizio"
+    }
+  },
+  {
+    "id": "ox-b1-2349",
+    "word": "session",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oturum",
+      "es": "sesión",
+      "fr": "session",
+      "de": "Sitzung",
+      "it": "sessione"
+    }
+  },
+  {
+    "id": "ox-b1-2350",
+    "word": "set",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayarlamak",
+      "es": "colocar",
+      "fr": "ensemble",
+      "de": "Satz",
+      "it": "impostato"
+    }
+  },
+  {
+    "id": "ox-b1-2351",
+    "word": "set off",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tetiklemek",
+      "es": "activar",
+      "fr": "déclencher",
+      "de": "losfahren",
+      "it": "partire"
+    }
+  },
+  {
+    "id": "ox-b1-2352",
+    "word": "set out",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yola çıkmak",
+      "es": "exponer",
+      "fr": "énoncé",
+      "de": "loslegen",
+      "it": "partire"
+    }
+  },
+  {
+    "id": "ox-b1-2353",
+    "word": "set up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurmak",
+      "es": "configuración",
+      "fr": "installation",
+      "de": "aufstellen",
+      "it": "impostare"
+    }
+  },
+  {
+    "id": "ox-b1-2354",
+    "word": "several",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birçok",
+      "es": "varios",
+      "fr": "plusieurs",
+      "de": "mehrere",
+      "it": "parecchi"
+    }
+  },
+  {
+    "id": "ox-b1-2355",
+    "word": "sew",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dikmek",
+      "es": "coser",
+      "fr": "coudre",
+      "de": "nähen",
+      "it": "cucire"
+    }
+  },
+  {
+    "id": "ox-b1-2356",
+    "word": "sex",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seks",
+      "es": "sexo",
+      "fr": "sexe",
+      "de": "Sex",
+      "it": "sesso"
+    }
+  },
+  {
+    "id": "ox-b1-2357",
+    "word": "shade",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gölge",
+      "es": "sombra",
+      "fr": "ombre",
+      "de": "Schatten",
+      "it": "ombra"
+    }
+  },
+  {
+    "id": "ox-b1-2358",
+    "word": "shadow",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gölge",
+      "es": "sombra",
+      "fr": "ombre",
+      "de": "Schatten",
+      "it": "ombra"
+    }
+  },
+  {
+    "id": "ox-b1-2359",
+    "word": "shake",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sallamak",
+      "es": "agitar",
+      "fr": "secouer",
+      "de": "Shake",
+      "it": "scuotere"
+    }
+  },
+  {
+    "id": "ox-b1-2360",
+    "word": "shall",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olacak",
+      "es": "deber",
+      "fr": "devoir",
+      "de": "soll",
+      "it": "deve"
+    }
+  },
+  {
+    "id": "ox-b1-2361",
+    "word": "shame",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "utanç",
+      "es": "lástima",
+      "fr": "honte",
+      "de": "Scham",
+      "it": "vergogna"
+    }
+  },
+  {
+    "id": "ox-b1-2362",
+    "word": "shampoo",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şampuan",
+      "es": "champú",
+      "fr": "shampooing",
+      "de": "Shampoo",
+      "it": "shampoo"
+    }
+  },
+  {
+    "id": "ox-b1-2363",
+    "word": "shape",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şekil",
+      "es": "forma",
+      "fr": "forme",
+      "de": "Form",
+      "it": "forma"
+    }
+  },
+  {
+    "id": "ox-b1-2364",
+    "word": "shark",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "köpek balığı",
+      "es": "tiburón",
+      "fr": "requin",
+      "de": "Hai",
+      "it": "squalo"
+    }
+  },
+  {
+    "id": "ox-b1-2365",
+    "word": "sharp",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "keskin",
+      "es": "afilado",
+      "fr": "pointu",
+      "de": "scharf",
+      "it": "affilato"
+    }
+  },
+  {
+    "id": "ox-b1-2366",
+    "word": "shave",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tıraş olmak",
+      "es": "afeitar",
+      "fr": "raser",
+      "de": "Rasur",
+      "it": "farsi la barba"
+    }
+  },
+  {
+    "id": "ox-b1-2367",
+    "word": "sheet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çarşaf",
+      "es": "hoja",
+      "fr": "feuille",
+      "de": "Blatt",
+      "it": "foglio"
+    }
+  },
+  {
+    "id": "ox-b1-2368",
+    "word": "shelf",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "raf",
+      "es": "estante",
+      "fr": "étagère",
+      "de": "Regal",
+      "it": "mensola"
+    }
+  },
+  {
+    "id": "ox-b1-2369",
+    "word": "shine",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "parlamak",
+      "es": "brillar",
+      "fr": "briller",
+      "de": "Glanz",
+      "it": "splendore"
+    }
+  },
+  {
+    "id": "ox-b1-2370",
+    "word": "shiny",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "parlak",
+      "es": "brillante",
+      "fr": "brillant",
+      "de": "glänzend",
+      "it": "lucido"
+    }
+  },
+  {
+    "id": "ox-b1-2371",
+    "word": "ship",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gemi",
+      "es": "barco",
+      "fr": "bateau",
+      "de": "Schiff",
+      "it": "nave"
+    }
+  },
+  {
+    "id": "ox-b1-2372",
+    "word": "shock",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şok",
+      "es": "choque",
+      "fr": "choc",
+      "de": "Schock",
+      "it": "shock"
+    }
+  },
+  {
+    "id": "ox-b1-2373",
+    "word": "shocked",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şok",
+      "es": "sorprendido",
+      "fr": "choqué",
+      "de": "schockiert",
+      "it": "scioccato"
+    }
+  },
+  {
+    "id": "ox-b1-2374",
+    "word": "shocking",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şok edici",
+      "es": "chocante",
+      "fr": "choquant",
+      "de": "schockierend",
+      "it": "scioccante"
+    }
+  },
+  {
+    "id": "ox-b1-2375",
+    "word": "shoot",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "film çekmek",
+      "es": "disparar",
+      "fr": "tirer",
+      "de": "schießen",
+      "it": "sparare"
+    }
+  },
+  {
+    "id": "ox-b1-2376",
+    "word": "shop assistant",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mağaza asistanı",
+      "es": "dependienta",
+      "fr": "vendeur",
+      "de": "Verkäufer",
+      "it": "commesso del negozio"
+    }
+  },
+  {
+    "id": "ox-b1-2377",
+    "word": "shopper",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alışverişçi",
+      "es": "comprador",
+      "fr": "client",
+      "de": "Käufer",
+      "it": "acquirente"
+    }
+  },
+  {
+    "id": "ox-b1-2378",
+    "word": "shore",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sahil",
+      "es": "costa",
+      "fr": "rive",
+      "de": "Ufer",
+      "it": "costa"
+    }
+  },
+  {
+    "id": "ox-b1-2379",
+    "word": "shortly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısaca",
+      "es": "dentro de poco",
+      "fr": "prochainement",
+      "de": "kurz",
+      "it": "a breve"
+    }
+  },
+  {
+    "id": "ox-b1-2380",
+    "word": "shorts",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şort",
+      "es": "bermudas",
+      "fr": "shorts",
+      "de": "Shorts",
+      "it": "pantaloncini"
+    }
+  },
+  {
+    "id": "ox-b1-2381",
+    "word": "shoulder",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "omuz",
+      "es": "hombro",
+      "fr": "épaule",
+      "de": "Schulter",
+      "it": "spalla"
+    }
+  },
+  {
+    "id": "ox-b1-2382",
+    "word": "shout",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağırmak",
+      "es": "gritar",
+      "fr": "crier",
+      "de": "schreien",
+      "it": "gridare"
+    }
+  },
+  {
+    "id": "ox-b1-2383",
+    "word": "show up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ortaya çıkmak",
+      "es": "aparecer",
+      "fr": "se présenter",
+      "de": "auftauchen",
+      "it": "presentarsi"
+    }
+  },
+  {
+    "id": "ox-b1-2384",
+    "word": "shut",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapat",
+      "es": "cerrar",
+      "fr": "fermer",
+      "de": "schließen",
+      "it": "chiuso"
+    }
+  },
+  {
+    "id": "ox-b1-2385",
+    "word": "shy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "utangaç",
+      "es": "tímido",
+      "fr": "timide",
+      "de": "schüchtern",
+      "it": "Timido"
+    }
+  },
+  {
+    "id": "ox-b1-2386",
+    "word": "side",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "taraf",
+      "es": "lado",
+      "fr": "côté",
+      "de": "Seite",
+      "it": "lato"
+    }
+  },
+  {
+    "id": "ox-b1-2387",
+    "word": "sight",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görünüş",
+      "es": "vista",
+      "fr": "vue",
+      "de": "Sicht",
+      "it": "vista"
+    }
+  },
+  {
+    "id": "ox-b1-2388",
+    "word": "sightseeing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "manzara",
+      "es": "pasear",
+      "fr": "touristique",
+      "de": "Besichtigungen",
+      "it": "giro turistico"
+    }
+  },
+  {
+    "id": "ox-b1-2389",
+    "word": "sign",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "imza",
+      "es": "firmar",
+      "fr": "signe",
+      "de": "Zeichen",
+      "it": "cartello"
+    }
+  },
+  {
+    "id": "ox-b1-2390",
+    "word": "signal",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sinyal",
+      "es": "señal",
+      "fr": "signal",
+      "de": "Signal",
+      "it": "segnale"
+    }
+  },
+  {
+    "id": "ox-b1-2391",
+    "word": "signature",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "imza",
+      "es": "firma",
+      "fr": "signature",
+      "de": "Unterschrift",
+      "it": "firma"
+    }
+  },
+  {
+    "id": "ox-b1-2392",
+    "word": "signpost",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yön tabelası",
+      "es": "señalizar",
+      "fr": "poteau indicateur",
+      "de": "Wegweiser",
+      "it": "cartello"
+    }
+  },
+  {
+    "id": "ox-b1-2393",
+    "word": "sign up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üye olmak",
+      "es": "inscribirse",
+      "fr": "s'inscrire",
+      "de": "Melden Sie sich an",
+      "it": "iscrizione"
+    }
+  },
+  {
+    "id": "ox-b1-2394",
+    "word": "silence",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sessizlik",
+      "es": "silencio",
+      "fr": "silence",
+      "de": "Schweigen",
+      "it": "silenzio"
+    }
+  },
+  {
+    "id": "ox-b1-2395",
+    "word": "silent",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sessiz",
+      "es": "silencioso",
+      "fr": "silencieux",
+      "de": "still",
+      "it": "silenzioso"
+    }
+  },
+  {
+    "id": "ox-b1-2396",
+    "word": "silk",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ipek",
+      "es": "seda",
+      "fr": "soie",
+      "de": "Seide",
+      "it": "seta"
+    }
+  },
+  {
+    "id": "ox-b1-2397",
+    "word": "silly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şapşal",
+      "es": "tonto",
+      "fr": "idiot",
+      "de": "dumm",
+      "it": "sciocco"
+    }
+  },
+  {
+    "id": "ox-b1-2398",
+    "word": "silver",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gümüş",
+      "es": "plata",
+      "fr": "argent",
+      "de": "Silber",
+      "it": "argento"
+    }
+  },
+  {
+    "id": "ox-b1-2399",
+    "word": "simple",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "basit",
+      "es": "simple",
+      "fr": "simple",
+      "de": "einfach",
+      "it": "semplice"
+    }
+  },
+  {
+    "id": "ox-b1-2400",
+    "word": "since",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "o zamandan beri",
+      "es": "desde",
+      "fr": "depuis",
+      "de": "seit",
+      "it": "Da"
+    }
+  },
+  {
+    "id": "ox-b1-2401",
+    "word": "sincerely",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "samimi olarak",
+      "es": "atentamente",
+      "fr": "sincèrement",
+      "de": "aufrichtig",
+      "it": "sinceramente"
+    }
+  },
+  {
+    "id": "ox-b1-2402",
+    "word": "singing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şarkı söylemek",
+      "es": "cantando",
+      "fr": "chant",
+      "de": "Singen",
+      "it": "canto"
+    }
+  },
+  {
+    "id": "ox-b1-2403",
+    "word": "single",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Bekar",
+      "es": "soltero",
+      "fr": "célibataire",
+      "de": "einzel",
+      "it": "separare"
+    }
+  },
+  {
+    "id": "ox-b1-2404",
+    "word": "sink",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atmak",
+      "es": "hundir",
+      "fr": "couler",
+      "de": "Waschbecken",
+      "it": "lavello"
+    }
+  },
+  {
+    "id": "ox-b1-2405",
+    "word": "sir",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Sayın",
+      "es": "Señor",
+      "fr": "Monsieur",
+      "de": "Herr",
+      "it": "Signore"
+    }
+  },
+  {
+    "id": "ox-b1-2406",
+    "word": "sit down",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oturmak",
+      "es": "sentarse",
+      "fr": "asseyez-vous",
+      "de": "hinsetzen",
+      "it": "sedere"
+    }
+  },
+  {
+    "id": "ox-b1-2407",
+    "word": "site",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alan",
+      "es": "sitio",
+      "fr": "site",
+      "de": "Website",
+      "it": "sito"
+    }
+  },
+  {
+    "id": "ox-b1-2408",
+    "word": "situated",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yer alan",
+      "es": "situado",
+      "fr": "situé",
+      "de": "gelegen",
+      "it": "situato"
+    }
+  },
+  {
+    "id": "ox-b1-2409",
+    "word": "size",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boyut",
+      "es": "tamaño",
+      "fr": "taille",
+      "de": "Größe",
+      "it": "misurare"
+    }
+  },
+  {
+    "id": "ox-b1-2410",
+    "word": "skate",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paten",
+      "es": "patinar",
+      "fr": "patin",
+      "de": "Schlittschuh",
+      "it": "pattinare"
+    }
+  },
+  {
+    "id": "ox-b1-2411",
+    "word": "skateboard",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaykay",
+      "es": "monopatín",
+      "fr": "skateboard",
+      "de": "Skateboard",
+      "it": "skateboard"
+    }
+  },
+  {
+    "id": "ox-b1-2412",
+    "word": "skateboarding",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaykay yapmak",
+      "es": "patinar",
+      "fr": "faire de la planche à roulettes",
+      "de": "Skateboarden",
+      "it": "skateboard"
+    }
+  },
+  {
+    "id": "ox-b1-2413",
+    "word": "skating",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paten kaymak",
+      "es": "patinaje",
+      "fr": "patinage",
+      "de": "Skaten",
+      "it": "pattinaggio"
+    }
+  },
+  {
+    "id": "ox-b1-2414",
+    "word": "ski",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayak",
+      "es": "esquí",
+      "fr": "ski",
+      "de": "Ski",
+      "it": "sciare"
+    }
+  },
+  {
+    "id": "ox-b1-2415",
+    "word": "skiing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayak yapma",
+      "es": "esquiar",
+      "fr": "ski",
+      "de": "Skifahren",
+      "it": "sciare"
+    }
+  },
+  {
+    "id": "ox-b1-2416",
+    "word": "skin",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "deri",
+      "es": "piel",
+      "fr": "peau",
+      "de": "Haut",
+      "it": "pelle"
+    }
+  },
+  {
+    "id": "ox-b1-2417",
+    "word": "sky",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gökyüzü",
+      "es": "cielo",
+      "fr": "ciel",
+      "de": "Himmel",
+      "it": "cielo"
+    }
+  },
+  {
+    "id": "ox-b1-2418",
+    "word": "sleepy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uykulu",
+      "es": "somnoliento",
+      "fr": "somnolent",
+      "de": "schläfrig",
+      "it": "assonnato"
+    }
+  },
+  {
+    "id": "ox-b1-2419",
+    "word": "sleeve",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elbise kolu",
+      "es": "manga",
+      "fr": "manche",
+      "de": "Ärmel",
+      "it": "manica"
+    }
+  },
+  {
+    "id": "ox-b1-2420",
+    "word": "sleeveless",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kolsuz",
+      "es": "sin mangas",
+      "fr": "sans manches",
+      "de": "ärmellos",
+      "it": "senza maniche"
+    }
+  },
+  {
+    "id": "ox-b1-2421",
+    "word": "slice",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dilim",
+      "es": "rebanada",
+      "fr": "tranche",
+      "de": "Scheibe",
+      "it": "fetta"
+    }
+  },
+  {
+    "id": "ox-b1-2422",
+    "word": "slide",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "slayt",
+      "es": "deslizar",
+      "fr": "glisser",
+      "de": "gleiten",
+      "it": "diapositiva"
+    }
+  },
+  {
+    "id": "ox-b1-2423",
+    "word": "slightly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "biraz",
+      "es": "levemente",
+      "fr": "légèrement",
+      "de": "leicht",
+      "it": "leggermente"
+    }
+  },
+  {
+    "id": "ox-b1-2424",
+    "word": "slim",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ince",
+      "es": "delgado",
+      "fr": "mince",
+      "de": "schlank",
+      "it": "sottile"
+    }
+  },
+  {
+    "id": "ox-b1-2425",
+    "word": "slip",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayma",
+      "es": "deslizar",
+      "fr": "glisser",
+      "de": "Beleg",
+      "it": "scontrino"
+    }
+  },
+  {
+    "id": "ox-b1-2426",
+    "word": "slowly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yavaşça",
+      "es": "despacio",
+      "fr": "lentement",
+      "de": "langsam",
+      "it": "lentamente"
+    }
+  },
+  {
+    "id": "ox-b1-2427",
+    "word": "smart",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akıllı",
+      "es": "elegante",
+      "fr": "intelligent",
+      "de": "schlau",
+      "it": "accorto"
+    }
+  },
+  {
+    "id": "ox-b1-2428",
+    "word": "smartphone",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akıllı telefon",
+      "es": "teléfono inteligente",
+      "fr": "téléphone intelligent",
+      "de": "Smartphone",
+      "it": "smartphone"
+    }
+  },
+  {
+    "id": "ox-b1-2429",
+    "word": "smell",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koku",
+      "es": "oler",
+      "fr": "odeur",
+      "de": "Geruch",
+      "it": "odore"
+    }
+  },
+  {
+    "id": "ox-b1-2430",
+    "word": "smile",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gülümsemek",
+      "es": "sonrisa",
+      "fr": "sourire",
+      "de": "lächeln",
+      "it": "sorriso"
+    }
+  },
+  {
+    "id": "ox-b1-2431",
+    "word": "smoke",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "duman",
+      "es": "fumar",
+      "fr": "fumée",
+      "de": "Rauch",
+      "it": "fumo"
+    }
+  },
+  {
+    "id": "ox-b1-2432",
+    "word": "smoking",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sigara içmek",
+      "es": "de fumar",
+      "fr": "fumeur",
+      "de": "Rauchen",
+      "it": "fumare"
+    }
+  },
+  {
+    "id": "ox-b1-2433",
+    "word": "smooth",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düz",
+      "es": "liso",
+      "fr": "lisse",
+      "de": "glatt",
+      "it": "liscio"
+    }
+  },
+  {
+    "id": "ox-b1-2434",
+    "word": "snack",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atıştırmalık",
+      "es": "bocadillo",
+      "fr": "collation",
+      "de": "Snack",
+      "it": "spuntino"
+    }
+  },
+  {
+    "id": "ox-b1-2435",
+    "word": "snowboard",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "snowboard",
+      "es": "snowboard",
+      "fr": "snowboard",
+      "de": "Snowboard",
+      "it": "snowboard"
+    }
+  },
+  {
+    "id": "ox-b1-2436",
+    "word": "snowboarding",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "snowboard yapmak",
+      "es": "snowboard",
+      "fr": "faire du snowboard",
+      "de": "Snowboarden",
+      "it": "snowboard"
+    }
+  },
+  {
+    "id": "ox-b1-2437",
+    "word": "snowfall",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kar yağışı",
+      "es": "nevada",
+      "fr": "chute de neige",
+      "de": "Schneefall",
+      "it": "nevicata"
+    }
+  },
+  {
+    "id": "ox-b1-2438",
+    "word": "soap",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sabun",
+      "es": "jabón",
+      "fr": "savon",
+      "de": "Seife",
+      "it": "sapone"
+    }
+  },
+  {
+    "id": "ox-b1-2439",
+    "word": "soap opera",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dizi",
+      "es": "telenovela",
+      "fr": "feuilleton",
+      "de": "Seifenoper",
+      "it": "soap opera"
+    }
+  },
+  {
+    "id": "ox-b1-2440",
+    "word": "soccer",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "futbol",
+      "es": "fútbol",
+      "fr": "football",
+      "de": "Fußball",
+      "it": "calcio"
+    }
+  },
+  {
+    "id": "ox-b1-2441",
+    "word": "sociable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "girişken",
+      "es": "sociable",
+      "fr": "sociable",
+      "de": "gesellig",
+      "it": "socievole"
+    }
+  },
+  {
+    "id": "ox-b1-2442",
+    "word": "social",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sosyal",
+      "es": "social",
+      "fr": "sociale",
+      "de": "sozial",
+      "it": "sociale"
+    }
+  },
+  {
+    "id": "ox-b1-2443",
+    "word": "social media",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sosyal medya",
+      "es": "redes sociales",
+      "fr": "réseaux sociaux",
+      "de": "soziale Medien",
+      "it": "mezzi di comunicazione sociale"
+    }
+  },
+  {
+    "id": "ox-b1-2444",
+    "word": "society",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplum",
+      "es": "sociedad",
+      "fr": "société",
+      "de": "Gesellschaft",
+      "it": "società"
+    }
+  },
+  {
+    "id": "ox-b1-2445",
+    "word": "sock",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çorap",
+      "es": "calcetín",
+      "fr": "chaussette",
+      "de": "Socke",
+      "it": "calzino"
+    }
+  },
+  {
+    "id": "ox-b1-2446",
+    "word": "sofa",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "divan",
+      "es": "sofá",
+      "fr": "canapé",
+      "de": "Sofa",
+      "it": "divano"
+    }
+  },
+  {
+    "id": "ox-b1-2447",
+    "word": "soft",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yumuşak",
+      "es": "suave",
+      "fr": "doux",
+      "de": "weich",
+      "it": "morbido"
+    }
+  },
+  {
+    "id": "ox-b1-2448",
+    "word": "software",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yazılım",
+      "es": "software",
+      "fr": "logiciel",
+      "de": "Software",
+      "it": "software"
+    }
+  },
+  {
+    "id": "ox-b1-2449",
+    "word": "soldier",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "asker",
+      "es": "soldado",
+      "fr": "soldat",
+      "de": "Soldat",
+      "it": "soldato"
+    }
+  },
+  {
+    "id": "ox-b1-2450",
+    "word": "solution",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çözüm",
+      "es": "solución",
+      "fr": "solution",
+      "de": "Lösung",
+      "it": "soluzione"
+    }
+  },
+  {
+    "id": "ox-b1-2451",
+    "word": "solve",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çözmek",
+      "es": "resolver",
+      "fr": "résoudre",
+      "de": "lösen",
+      "it": "risolvere"
+    }
+  },
+  {
+    "id": "ox-b1-2452",
+    "word": "somehow",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bir şekilde",
+      "es": "de alguna manera",
+      "fr": "d'une manière ou d'une autre",
+      "de": "irgendwie",
+      "it": "in qualche modo"
+    }
+  },
+  {
+    "id": "ox-b1-2453",
+    "word": "somewhere",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bir yerde",
+      "es": "en algún lugar",
+      "fr": "quelque part",
+      "de": "irgendwo",
+      "it": "in qualche luogo"
+    }
+  },
+  {
+    "id": "ox-b1-2454",
+    "word": "sore",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yara",
+      "es": "doloroso",
+      "fr": "douloureux",
+      "de": "wund",
+      "it": "irritato"
+    }
+  },
+  {
+    "id": "ox-b1-2455",
+    "word": "sort",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenlemek",
+      "es": "clasificar",
+      "fr": "trier",
+      "de": "Sortieren",
+      "it": "ordinare"
+    }
+  },
+  {
+    "id": "ox-b1-2456",
+    "word": "so-so",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şöyle böyle",
+      "es": "más o menos",
+      "fr": "tellement tellement",
+      "de": "soso",
+      "it": "così così"
+    }
+  },
+  {
+    "id": "ox-b1-2457",
+    "word": "soul",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ruh",
+      "es": "alma",
+      "fr": "âme",
+      "de": "Seele",
+      "it": "anima"
+    }
+  },
+  {
+    "id": "ox-b1-2458",
+    "word": "soundtrack",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "film müziği",
+      "es": "banda sonora",
+      "fr": "bande sonore",
+      "de": "Soundtrack",
+      "it": "colonna sonora"
+    }
+  },
+  {
+    "id": "ox-b1-2459",
+    "word": "soup",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çorba",
+      "es": "sopa",
+      "fr": "soupe",
+      "de": "Suppe",
+      "it": "minestra"
+    }
+  },
+  {
+    "id": "ox-b1-2460",
+    "word": "sour",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ekşi",
+      "es": "agrio",
+      "fr": "aigre",
+      "de": "sauer",
+      "it": "acido"
+    }
+  },
+  {
+    "id": "ox-b1-2461",
+    "word": "southeast",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güneydoğu",
+      "es": "sudeste",
+      "fr": "sud-est",
+      "de": "Südost",
+      "it": "sud-est"
+    }
+  },
+  {
+    "id": "ox-b1-2462",
+    "word": "southern",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güney",
+      "es": "del sur",
+      "fr": "du sud",
+      "de": "Süd-",
+      "it": "meridionale"
+    }
+  },
+  {
+    "id": "ox-b1-2463",
+    "word": "southwest",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güneybatı",
+      "es": "suroeste",
+      "fr": "sud-ouest",
+      "de": "Südwesten",
+      "it": "sud-ovest"
+    }
+  },
+  {
+    "id": "ox-b1-2464",
+    "word": "souvenir",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hatıra",
+      "es": "recuerdo",
+      "fr": "souvenir",
+      "de": "Souvenir",
+      "it": "souvenir"
+    }
+  },
+  {
+    "id": "ox-b1-2465",
+    "word": "spaceship",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uzay gemisi",
+      "es": "astronave",
+      "fr": "vaisseau spatial",
+      "de": "Raumschiff",
+      "it": "astronave"
+    }
+  },
+  {
+    "id": "ox-b1-2466",
+    "word": "spare",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kıyamamak",
+      "es": "repuesto",
+      "fr": "de rechange",
+      "de": "Ersatzteil",
+      "it": "ricambio"
+    }
+  },
+  {
+    "id": "ox-b1-2467",
+    "word": "sparkling",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "köpüklü",
+      "es": "espumoso",
+      "fr": "pétillant",
+      "de": "funkelnd",
+      "it": "scintillante"
+    }
+  },
+  {
+    "id": "ox-b1-2468",
+    "word": "speaker",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hoparlör",
+      "es": "vocero",
+      "fr": "conférencier",
+      "de": "Lautsprecher",
+      "it": "altoparlante"
+    }
+  },
+  {
+    "id": "ox-b1-2469",
+    "word": "specially",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özel olarak",
+      "es": "especialmente",
+      "fr": "spécialement",
+      "de": "speziell",
+      "it": "appositamente"
+    }
+  },
+  {
+    "id": "ox-b1-2470",
+    "word": "species",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "türler",
+      "es": "especies",
+      "fr": "espèces",
+      "de": "Spezies",
+      "it": "specie"
+    }
+  },
+  {
+    "id": "ox-b1-2471",
+    "word": "spectacular",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "muhteşem",
+      "es": "espectacular",
+      "fr": "spectaculaire",
+      "de": "spektakulär",
+      "it": "spettacolare"
+    }
+  },
+  {
+    "id": "ox-b1-2472",
+    "word": "speech",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "konuşma",
+      "es": "discurso",
+      "fr": "discours",
+      "de": "Rede",
+      "it": "discorso"
+    }
+  },
+  {
+    "id": "ox-b1-2473",
+    "word": "speed",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hız",
+      "es": "velocidad",
+      "fr": "vitesse",
+      "de": "Geschwindigkeit",
+      "it": "velocità"
+    }
+  },
+  {
+    "id": "ox-b1-2474",
+    "word": "spice",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baharat",
+      "es": "condimentar",
+      "fr": "pimenter",
+      "de": "würzen",
+      "it": "spezia"
+    }
+  },
+  {
+    "id": "ox-b1-2475",
+    "word": "spicy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baharatlı",
+      "es": "picante",
+      "fr": "épicé",
+      "de": "scharf",
+      "it": "speziato"
+    }
+  },
+  {
+    "id": "ox-b1-2476",
+    "word": "spill",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dökülme",
+      "es": "derramar",
+      "fr": "répandre",
+      "de": "verschütten",
+      "it": "fuoriuscita"
+    }
+  },
+  {
+    "id": "ox-b1-2477",
+    "word": "spinach",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ıspanak",
+      "es": "espinaca",
+      "fr": "épinard",
+      "de": "Spinat",
+      "it": "spinaci"
+    }
+  },
+  {
+    "id": "ox-b1-2478",
+    "word": "spite",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kin",
+      "es": "despecho",
+      "fr": "dépit",
+      "de": "Trotz",
+      "it": "dispetto"
+    }
+  },
+  {
+    "id": "ox-b1-2479",
+    "word": "split up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayrılmak",
+      "es": "partir",
+      "fr": "fractionner",
+      "de": "aufteilen",
+      "it": "diviso"
+    }
+  },
+  {
+    "id": "ox-b1-2480",
+    "word": "spoil",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şımartmak",
+      "es": "arruinar",
+      "fr": "gâcher",
+      "de": "verderben",
+      "it": "rovinare"
+    }
+  },
+  {
+    "id": "ox-b1-2481",
+    "word": "spoon",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaşık",
+      "es": "cuchara",
+      "fr": "cuillère",
+      "de": "Löffel",
+      "it": "cucchiaio"
+    }
+  },
+  {
+    "id": "ox-b1-2482",
+    "word": "sports centre",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "spor merkezi",
+      "es": "centro deportivo",
+      "fr": "centre sportif",
+      "de": "Sportzentrum",
+      "it": "centro sportivo"
+    }
+  },
+  {
+    "id": "ox-b1-2483",
+    "word": "spot",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "leke",
+      "es": "lugar",
+      "fr": "place",
+      "de": "Stelle",
+      "it": "macchiare"
+    }
+  },
+  {
+    "id": "ox-b1-2484",
+    "word": "spy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "casus",
+      "es": "espiar",
+      "fr": "espionner",
+      "de": "Spion",
+      "it": "spiare"
+    }
+  },
+  {
+    "id": "ox-b1-2485",
+    "word": "square",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kare",
+      "es": "cuadrado",
+      "fr": "carré",
+      "de": "Quadrat",
+      "it": "piazza"
+    }
+  },
+  {
+    "id": "ox-b1-2486",
+    "word": "squash",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kabak",
+      "es": "calabaza",
+      "fr": "squash",
+      "de": "quetschen",
+      "it": "schiacciare"
+    }
+  },
+  {
+    "id": "ox-b1-2487",
+    "word": "stadium",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stadyum",
+      "es": "estadio",
+      "fr": "stade",
+      "de": "Stadion",
+      "it": "stadio"
+    }
+  },
+  {
+    "id": "ox-b1-2488",
+    "word": "staff",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kadro",
+      "es": "personal",
+      "fr": "personnel",
+      "de": "Personal",
+      "it": "personale"
+    }
+  },
+  {
+    "id": "ox-b1-2489",
+    "word": "stage",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sahne",
+      "es": "escenario",
+      "fr": "scène",
+      "de": "Bühne",
+      "it": "palcoscenico"
+    }
+  },
+  {
+    "id": "ox-b1-2490",
+    "word": "stairs",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "merdiven",
+      "es": "escaleras",
+      "fr": "escaliers",
+      "de": "Treppe",
+      "it": "scale"
+    }
+  },
+  {
+    "id": "ox-b1-2491",
+    "word": "stall",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "durak",
+      "es": "parar",
+      "fr": "décrochage",
+      "de": "Stall",
+      "it": "stallo"
+    }
+  },
+  {
+    "id": "ox-b1-2492",
+    "word": "stamp",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "damga vurmak",
+      "es": "estampilla",
+      "fr": "timbre",
+      "de": "Stempel",
+      "it": "timbro"
+    }
+  },
+  {
+    "id": "ox-b1-2493",
+    "word": "statue",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "heykel",
+      "es": "estatua",
+      "fr": "statue",
+      "de": "Statue",
+      "it": "statua"
+    }
+  },
+  {
+    "id": "ox-b1-2494",
+    "word": "stay behind",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geride kal",
+      "es": "quedarse",
+      "fr": "rester en arrière",
+      "de": "bleib zurück",
+      "it": "restare indietro"
+    }
+  },
+  {
+    "id": "ox-b1-2495",
+    "word": "steak",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "biftek",
+      "es": "bife",
+      "fr": "steak",
+      "de": "Steak",
+      "it": "bistecca"
+    }
+  },
+  {
+    "id": "ox-b1-2496",
+    "word": "steal",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hırsızlık yapmak",
+      "es": "robar",
+      "fr": "voler",
+      "de": "stehlen",
+      "it": "rubare"
+    }
+  },
+  {
+    "id": "ox-b1-2497",
+    "word": "steep",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dik",
+      "es": "empinado",
+      "fr": "raide",
+      "de": "steil",
+      "it": "ripido"
+    }
+  },
+  {
+    "id": "ox-b1-2498",
+    "word": "step",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "adım",
+      "es": "paso",
+      "fr": "étape",
+      "de": "Schritt",
+      "it": "fare un passo"
+    }
+  },
+  {
+    "id": "ox-b1-2499",
+    "word": "stick",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sopa",
+      "es": "palo",
+      "fr": "bâton",
+      "de": "Stock",
+      "it": "bastone"
+    }
+  },
+  {
+    "id": "ox-b1-2500",
+    "word": "sticky",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapışkan",
+      "es": "pegajoso",
+      "fr": "collant",
+      "de": "klebrig",
+      "it": "appiccicoso"
+    }
+  },
+  {
+    "id": "ox-b1-2501",
+    "word": "stir",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karıştırmak",
+      "es": "remover",
+      "fr": "remuer",
+      "de": "Aufsehen",
+      "it": "mescolata"
+    }
+  },
+  {
+    "id": "ox-b1-2502",
+    "word": "stomach",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karın",
+      "es": "estómago",
+      "fr": "estomac",
+      "de": "Magen",
+      "it": "stomaco"
+    }
+  },
+  {
+    "id": "ox-b1-2503",
+    "word": "stomach ache",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karın ağrısı",
+      "es": "Dolor de estómago",
+      "fr": "mal au ventre",
+      "de": "Bauchschmerzen",
+      "it": "mal di stomaco"
+    }
+  },
+  {
+    "id": "ox-b1-2504",
+    "word": "stone",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "taş",
+      "es": "piedra",
+      "fr": "pierre",
+      "de": "Stein",
+      "it": "calcolo"
+    }
+  },
+  {
+    "id": "ox-b1-2505",
+    "word": "store",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mağaza",
+      "es": "almacenar",
+      "fr": "magasin",
+      "de": "speichern",
+      "it": "negozio"
+    }
+  },
+  {
+    "id": "ox-b1-2506",
+    "word": "storm",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fırtına",
+      "es": "tormenta",
+      "fr": "tempête",
+      "de": "Sturm",
+      "it": "tempesta"
+    }
+  },
+  {
+    "id": "ox-b1-2507",
+    "word": "straight",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dümdüz",
+      "es": "derecho",
+      "fr": "droit",
+      "de": "gerade",
+      "it": "Dritto"
+    }
+  },
+  {
+    "id": "ox-b1-2508",
+    "word": "strange",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "garip",
+      "es": "extraño",
+      "fr": "étrange",
+      "de": "seltsam",
+      "it": "strano"
+    }
+  },
+  {
+    "id": "ox-b1-2509",
+    "word": "stranger",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yabancı",
+      "es": "extraño",
+      "fr": "étranger",
+      "de": "Fremder",
+      "it": "sconosciuto"
+    }
+  },
+  {
+    "id": "ox-b1-2510",
+    "word": "strawberry",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çilek",
+      "es": "fresa",
+      "fr": "fraise",
+      "de": "Erdbeere",
+      "it": "fragola"
+    }
+  },
+  {
+    "id": "ox-b1-2511",
+    "word": "stream",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aktarım",
+      "es": "arroyo",
+      "fr": "flux",
+      "de": "Strom",
+      "it": "flusso"
+    }
+  },
+  {
+    "id": "ox-b1-2512",
+    "word": "stress",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stres",
+      "es": "estrés",
+      "fr": "stresser",
+      "de": "Stress",
+      "it": "stress"
+    }
+  },
+  {
+    "id": "ox-b1-2513",
+    "word": "stressed",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stresli",
+      "es": "estresado",
+      "fr": "stressé",
+      "de": "betont",
+      "it": "sottolineato"
+    }
+  },
+  {
+    "id": "ox-b1-2514",
+    "word": "stressful",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stresli",
+      "es": "lleno de tensión",
+      "fr": "stressant",
+      "de": "stressig",
+      "it": "stressante"
+    }
+  },
+  {
+    "id": "ox-b1-2515",
+    "word": "strict",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıkı",
+      "es": "estricto",
+      "fr": "strict",
+      "de": "strikt",
+      "it": "rigoroso"
+    }
+  },
+  {
+    "id": "ox-b1-2516",
+    "word": "strike",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çarpmak",
+      "es": "huelga",
+      "fr": "grève",
+      "de": "schlagen",
+      "it": "sciopero"
+    }
+  },
+  {
+    "id": "ox-b1-2517",
+    "word": "stripe",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şerit",
+      "es": "raya",
+      "fr": "bande",
+      "de": "Streifen",
+      "it": "banda"
+    }
+  },
+  {
+    "id": "ox-b1-2518",
+    "word": "studio",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stüdyo",
+      "es": "estudio",
+      "fr": "studio",
+      "de": "Studio",
+      "it": "studio"
+    }
+  },
+  {
+    "id": "ox-b1-2519",
+    "word": "studies",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çalışmalar",
+      "es": "estudios",
+      "fr": "études",
+      "de": "Studien",
+      "it": "studi"
+    }
+  },
+  {
+    "id": "ox-b1-2520",
+    "word": "stuff",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şey",
+      "es": "cosa",
+      "fr": "truc",
+      "de": "Sachen",
+      "it": "cose"
+    }
+  },
+  {
+    "id": "ox-b1-2521",
+    "word": "stupid",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aptal",
+      "es": "estúpido",
+      "fr": "stupide",
+      "de": "dumm",
+      "it": "stupido"
+    }
+  },
+  {
+    "id": "ox-b1-2522",
+    "word": "stylish",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şık",
+      "es": "elegante",
+      "fr": "élégant",
+      "de": "stilvoll",
+      "it": "elegante"
+    }
+  },
+  {
+    "id": "ox-b1-2523",
+    "word": "subtract",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıkarma",
+      "es": "sustraer",
+      "fr": "soustraire",
+      "de": "subtrahieren",
+      "it": "sottrarre"
+    }
+  },
+  {
+    "id": "ox-b1-2524",
+    "word": "subway",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "metro",
+      "es": "metro",
+      "fr": "métro",
+      "de": "U-Bahn",
+      "it": "metropolitana"
+    }
+  },
+  {
+    "id": "ox-b1-2525",
+    "word": "succeed",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başarmak",
+      "es": "tener éxito",
+      "fr": "réussir",
+      "de": "gelingen",
+      "it": "avere successo"
+    }
+  },
+  {
+    "id": "ox-b1-2526",
+    "word": "successful",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başarılı",
+      "es": "exitoso",
+      "fr": "réussi",
+      "de": "erfolgreich",
+      "it": "riuscito"
+    }
+  },
+  {
+    "id": "ox-b1-2527",
+    "word": "such",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çok",
+      "es": "semejante",
+      "fr": "tel",
+      "de": "solch",
+      "it": "come"
+    }
+  },
+  {
+    "id": "ox-b1-2528",
+    "word": "sudden",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birden",
+      "es": "repentino",
+      "fr": "soudain",
+      "de": "plötzlich",
+      "it": "improvviso"
+    }
+  },
+  {
+    "id": "ox-b1-2529",
+    "word": "suddenly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Birden",
+      "es": "de repente",
+      "fr": "soudainement",
+      "de": "plötzlich",
+      "it": "All'improvviso"
+    }
+  },
+  {
+    "id": "ox-b1-2530",
+    "word": "suffer",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acı çekmek",
+      "es": "sufrir",
+      "fr": "souffrir",
+      "de": "leiden",
+      "it": "soffrire"
+    }
+  },
+  {
+    "id": "ox-b1-2531",
+    "word": "suggest",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tavsiye etmek",
+      "es": "sugerir",
+      "fr": "suggérer",
+      "de": "vorschlagen",
+      "it": "suggerire"
+    }
+  },
+  {
+    "id": "ox-b1-2532",
+    "word": "suggestion",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "telkin",
+      "es": "sugerencia",
+      "fr": "suggestion",
+      "de": "Anregung",
+      "it": "suggerimento"
+    }
+  },
+  {
+    "id": "ox-b1-2533",
+    "word": "suit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygun olmak",
+      "es": "traje",
+      "fr": "costume",
+      "de": "Anzug",
+      "it": "abito"
+    }
+  },
+  {
+    "id": "ox-b1-2534",
+    "word": "suitable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygun",
+      "es": "adecuado",
+      "fr": "approprié",
+      "de": "geeignet",
+      "it": "adatto"
+    }
+  },
+  {
+    "id": "ox-b1-2535",
+    "word": "suitcase",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bavul",
+      "es": "maleta",
+      "fr": "valise",
+      "de": "Koffer",
+      "it": "valigia"
+    }
+  },
+  {
+    "id": "ox-b1-2536",
+    "word": "sum",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplam",
+      "es": "suma",
+      "fr": "somme",
+      "de": "Summe",
+      "it": "somma"
+    }
+  },
+  {
+    "id": "ox-b1-2537",
+    "word": "sunbathe",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güneşlenmek",
+      "es": "tomar el sol",
+      "fr": "bronzer",
+      "de": "sonnenbaden",
+      "it": "prendere il sole"
+    }
+  },
+  {
+    "id": "ox-b1-2538",
+    "word": "sunglasses",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güneş gözlüğü",
+      "es": "gafas de sol",
+      "fr": "lunettes de soleil",
+      "de": "Sonnenbrille",
+      "it": "occhiali da sole"
+    }
+  },
+  {
+    "id": "ox-b1-2539",
+    "word": "sunny",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güneşli",
+      "es": "soleado",
+      "fr": "ensoleillé",
+      "de": "sonnig",
+      "it": "soleggiato"
+    }
+  },
+  {
+    "id": "ox-b1-2540",
+    "word": "sunrise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gündoğumu",
+      "es": "amanecer",
+      "fr": "lever du soleil",
+      "de": "Sonnenaufgang",
+      "it": "alba"
+    }
+  },
+  {
+    "id": "ox-b1-2541",
+    "word": "sunset",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gün batımı",
+      "es": "atardecer",
+      "fr": "coucher de soleil",
+      "de": "Sonnenuntergang",
+      "it": "tramonto"
+    }
+  },
+  {
+    "id": "ox-b1-2542",
+    "word": "sunshine",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güneş ışığı",
+      "es": "luz solar",
+      "fr": "soleil",
+      "de": "Sonnenschein",
+      "it": "luce del sole"
+    }
+  },
+  {
+    "id": "ox-b1-2543",
+    "word": "superhero",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "süper kahraman",
+      "es": "superhéroe",
+      "fr": "super-héros",
+      "de": "Superheld",
+      "it": "supereroe"
+    }
+  },
+  {
+    "id": "ox-b1-2544",
+    "word": "supper",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akşam yemeği",
+      "es": "cena",
+      "fr": "souper",
+      "de": "Abendessen",
+      "it": "cena"
+    }
+  },
+  {
+    "id": "ox-b1-2545",
+    "word": "supply",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tedarik",
+      "es": "suministrar",
+      "fr": "fournir",
+      "de": "liefern",
+      "it": "fornitura"
+    }
+  },
+  {
+    "id": "ox-b1-2546",
+    "word": "support",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Destek",
+      "es": "apoyo",
+      "fr": "soutien",
+      "de": "Unterstützung",
+      "it": "supporto"
+    }
+  },
+  {
+    "id": "ox-b1-2547",
+    "word": "supporter",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "destekçi",
+      "es": "seguidor",
+      "fr": "supporter",
+      "de": "Fan",
+      "it": "sostenitore"
+    }
+  },
+  {
+    "id": "ox-b1-2548",
+    "word": "suppose",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sanmak",
+      "es": "suponer",
+      "fr": "supposer",
+      "de": "vermuten",
+      "it": "supponiamo"
+    }
+  },
+  {
+    "id": "ox-b1-2549",
+    "word": "surf",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sörf",
+      "es": "navegar",
+      "fr": "surf",
+      "de": "surfen",
+      "it": "navigare"
+    }
+  },
+  {
+    "id": "ox-b1-2550",
+    "word": "surfboard",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sörf tahtası",
+      "es": "tabla de surf",
+      "fr": "planche de surf",
+      "de": "Surfbrett",
+      "it": "tavola da surf"
+    }
+  },
+  {
+    "id": "ox-b1-2551",
+    "word": "surfing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sörf",
+      "es": "surf",
+      "fr": "surf",
+      "de": "Surfen",
+      "it": "surf"
+    }
+  },
+  {
+    "id": "ox-b1-2552",
+    "word": "surname",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soyadı",
+      "es": "apellido",
+      "fr": "nom de famille",
+      "de": "Nachname",
+      "it": "cognome"
+    }
+  },
+  {
+    "id": "ox-b1-2553",
+    "word": "surprise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sürpriz",
+      "es": "sorpresa",
+      "fr": "surprendre",
+      "de": "Überraschung",
+      "it": "sorpresa"
+    }
+  },
+  {
+    "id": "ox-b1-2554",
+    "word": "surprised",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şaşırmış",
+      "es": "sorprendido",
+      "fr": "surpris",
+      "de": "überrascht",
+      "it": "sorpreso"
+    }
+  },
+  {
+    "id": "ox-b1-2555",
+    "word": "suprising",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şaşırtıcı",
+      "es": "sorprendente",
+      "fr": "surprenant",
+      "de": "überraschend",
+      "it": "sorprendente"
+    }
+  },
+  {
+    "id": "ox-b1-2556",
+    "word": "surround",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çevrelemek",
+      "es": "rodear",
+      "fr": "entourer",
+      "de": "umgeben",
+      "it": "circondare"
+    }
+  },
+  {
+    "id": "ox-b1-2557",
+    "word": "sweatshirt",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kazak",
+      "es": "camisa de entrenamiento",
+      "fr": "sweat-shirt",
+      "de": "Sweatshirt",
+      "it": "felpa"
+    }
+  },
+  {
+    "id": "ox-b1-2558",
+    "word": "sweet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatlı",
+      "es": "dulce",
+      "fr": "doux",
+      "de": "süß",
+      "it": "dolce"
+    }
+  },
+  {
+    "id": "ox-b1-2559",
+    "word": "swimmer",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzücü",
+      "es": "nadador",
+      "fr": "nageur",
+      "de": "Schwimmer",
+      "it": "nuotatore"
+    }
+  },
+  {
+    "id": "ox-b1-2560",
+    "word": "swimming costume",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzme kostümü",
+      "es": "traje de baño",
+      "fr": "maillot de bain",
+      "de": "Badeanzug",
+      "it": "costume da bagno"
+    }
+  },
+  {
+    "id": "ox-b1-2561",
+    "word": "swimming pool",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzme havuzu",
+      "es": "piscina",
+      "fr": "piscine",
+      "de": "Schwimmbad",
+      "it": "piscina"
+    }
+  },
+  {
+    "id": "ox-b1-2562",
+    "word": "swimsuit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mayo",
+      "es": "traje de baño",
+      "fr": "maillot de bain",
+      "de": "Badeanzug",
+      "it": "costume da bagno"
+    }
+  },
+  {
+    "id": "ox-b1-2563",
+    "word": "switch",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anahtar",
+      "es": "cambiar",
+      "fr": "changer",
+      "de": "schalten",
+      "it": "interruttore"
+    }
+  },
+  {
+    "id": "ox-b1-2564",
+    "word": "system",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sistem",
+      "es": "sistema",
+      "fr": "système",
+      "de": "System",
+      "it": "sistema"
+    }
+  },
+  {
+    "id": "ox-b1-2565",
+    "word": "table-cloth",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "masa örtüsü",
+      "es": "mantel",
+      "fr": "nappe",
+      "de": "Tischdecke",
+      "it": "tovaglia"
+    }
+  },
+  {
+    "id": "ox-b1-2566",
+    "word": "tablet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tablet",
+      "es": "tableta",
+      "fr": "comprimé",
+      "de": "Tablette",
+      "it": "tavoletta"
+    }
+  },
+  {
+    "id": "ox-b1-2567",
+    "word": "table tennis",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "masa tenisi",
+      "es": "tenis de mesa",
+      "fr": "tennis de table",
+      "de": "Tischtennis",
+      "it": "ping-pong"
+    }
+  },
+  {
+    "id": "ox-b1-2568",
+    "word": "takeaway",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "götürmek",
+      "es": "llevar",
+      "fr": "emporter",
+      "de": "wegbringen",
+      "it": "porta via"
+    }
+  },
+  {
+    "id": "ox-b1-2569",
+    "word": "take away",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "götürmek",
+      "es": "llevar",
+      "fr": "emporter",
+      "de": "wegbringen",
+      "it": "porta via"
+    }
+  },
+  {
+    "id": "ox-b1-2570",
+    "word": "take care of",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kendine iyi bak",
+      "es": "ocuparse de",
+      "fr": "prendre soin de",
+      "de": "kümmern",
+      "it": "prendersi cura di"
+    }
+  },
+  {
+    "id": "ox-b1-2571",
+    "word": "take off",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıkarmak",
+      "es": "despegar",
+      "fr": "décoller",
+      "de": "abheben",
+      "it": "decollare"
+    }
+  },
+  {
+    "id": "ox-b1-2572",
+    "word": "take part",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katılmak",
+      "es": "participar",
+      "fr": "participer",
+      "de": "teilnehmen",
+      "it": "partecipare"
+    }
+  },
+  {
+    "id": "ox-b1-2573",
+    "word": "take place",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçekleşmek",
+      "es": "tener lugar",
+      "fr": "avoir lieu",
+      "de": "stattfinden",
+      "it": "avere luogo"
+    }
+  },
+  {
+    "id": "ox-b1-2574",
+    "word": "take up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapmaya başlamak",
+      "es": "comenzar",
+      "fr": "prendre",
+      "de": "aufnehmen",
+      "it": "prendere"
+    }
+  },
+  {
+    "id": "ox-b1-2575",
+    "word": "talent",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yetenek",
+      "es": "talento",
+      "fr": "talent",
+      "de": "Talent",
+      "it": "talento"
+    }
+  },
+  {
+    "id": "ox-b1-2576",
+    "word": "talented",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yetenekli",
+      "es": "talentoso",
+      "fr": "talentueux",
+      "de": "talentiert",
+      "it": "talentuoso"
+    }
+  },
+  {
+    "id": "ox-b1-2577",
+    "word": "talk show",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "talk show",
+      "es": "programa de entrevistas",
+      "fr": "talk-show",
+      "de": "Talkshow",
+      "it": "talk show"
+    }
+  },
+  {
+    "id": "ox-b1-2578",
+    "word": "tap",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "musluk",
+      "es": "grifo",
+      "fr": "robinet",
+      "de": "klopfen",
+      "it": "rubinetto"
+    }
+  },
+  {
+    "id": "ox-b1-2579",
+    "word": "taste",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatmak",
+      "es": "gusto",
+      "fr": "goût",
+      "de": "schmecken",
+      "it": "gusto"
+    }
+  },
+  {
+    "id": "ox-b1-2580",
+    "word": "tasty",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "lezzetli",
+      "es": "sabroso",
+      "fr": "savoureux",
+      "de": "lecker",
+      "it": "gustoso"
+    }
+  },
+  {
+    "id": "ox-b1-2581",
+    "word": "tax",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vergi",
+      "es": "impuesto",
+      "fr": "impôt",
+      "de": "Steuer",
+      "it": "tassare"
+    }
+  },
+  {
+    "id": "ox-b1-2582",
+    "word": "teaching",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öğretim",
+      "es": "enseñanza",
+      "fr": "enseignement",
+      "de": "Lehre",
+      "it": "insegnamento"
+    }
+  },
+  {
+    "id": "ox-b1-2583",
+    "word": "tear",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "göz yaşı",
+      "es": "lágrima",
+      "fr": "larme",
+      "de": "Träne",
+      "it": "lacrima"
+    }
+  },
+  {
+    "id": "ox-b1-2584",
+    "word": "technique",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teknik",
+      "es": "técnica",
+      "fr": "technique",
+      "de": "Technik",
+      "it": "tecnica"
+    }
+  },
+  {
+    "id": "ox-b1-2585",
+    "word": "technology",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teknoloji",
+      "es": "tecnología",
+      "fr": "technologie",
+      "de": "Technologie",
+      "it": "tecnologia"
+    }
+  },
+  {
+    "id": "ox-b1-2586",
+    "word": "temperature",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıcaklık",
+      "es": "temperatura",
+      "fr": "température",
+      "de": "Temperatur",
+      "it": "temperatura"
+    }
+  },
+  {
+    "id": "ox-b1-2587",
+    "word": "temporary",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geçici",
+      "es": "temporario",
+      "fr": "temporaire",
+      "de": "vorübergehend",
+      "it": "temporaneo"
+    }
+  },
+  {
+    "id": "ox-b1-2588",
+    "word": "tense",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gergin",
+      "es": "tenso",
+      "fr": "tendu",
+      "de": "Zeitform",
+      "it": "teso"
+    }
+  },
+  {
+    "id": "ox-b1-2589",
+    "word": "tent",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çadır",
+      "es": "carpa",
+      "fr": "tente",
+      "de": "Zelt",
+      "it": "tenda"
+    }
+  },
+  {
+    "id": "ox-b1-2590",
+    "word": "term",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "terim",
+      "es": "término",
+      "fr": "terme",
+      "de": "Begriff",
+      "it": "termine"
+    }
+  },
+  {
+    "id": "ox-b1-2591",
+    "word": "terribly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korkunç derecede",
+      "es": "terriblemente",
+      "fr": "terriblement",
+      "de": "schrecklich",
+      "it": "terribilmente"
+    }
+  },
+  {
+    "id": "ox-b1-2592",
+    "word": "terrific",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "müthiş",
+      "es": "fantástico",
+      "fr": "formidable",
+      "de": "ausgezeichnet",
+      "it": "spaventoso"
+    }
+  },
+  {
+    "id": "ox-b1-2593",
+    "word": "terrified",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dehşete düşmüş",
+      "es": "aterrorizado",
+      "fr": "terrifié",
+      "de": "verängstigt",
+      "it": "terrorizzato"
+    }
+  },
+  {
+    "id": "ox-b1-2594",
+    "word": "textbook",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ders kitabı",
+      "es": "libro de texto",
+      "fr": "manuel",
+      "de": "Lehrbuch",
+      "it": "libro di testo"
+    }
+  },
+  {
+    "id": "ox-b1-2595",
+    "word": "text message",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısa mesaj",
+      "es": "mensaje de texto",
+      "fr": "SMS",
+      "de": "SMS",
+      "it": "messaggio di testo"
+    }
+  },
+  {
+    "id": "ox-b1-2596",
+    "word": "thank you",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Teşekkürler",
+      "es": "gracias",
+      "fr": "merci",
+      "de": "Danke",
+      "it": "Grazie"
+    }
+  },
+  {
+    "id": "ox-b1-2597",
+    "word": "theirs",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onlarınki",
+      "es": "suyo",
+      "fr": "la leur",
+      "de": "ihre",
+      "it": "loro"
+    }
+  },
+  {
+    "id": "ox-b1-2598",
+    "word": "themselves",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kendileri",
+      "es": "ellos mismos",
+      "fr": "eux-mêmes",
+      "de": "selbst",
+      "it": "loro stessi"
+    }
+  },
+  {
+    "id": "ox-b1-2599",
+    "word": "therefore",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Öyleyse",
+      "es": "por lo tanto",
+      "fr": "donc",
+      "de": "daher",
+      "it": "Perciò"
+    }
+  },
+  {
+    "id": "ox-b1-2600",
+    "word": "these",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bunlar",
+      "es": "estos",
+      "fr": "ces",
+      "de": "diese",
+      "it": "questi"
+    }
+  },
+  {
+    "id": "ox-b1-2601",
+    "word": "thick",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalın",
+      "es": "grueso",
+      "fr": "épais",
+      "de": "dick",
+      "it": "spesso"
+    }
+  },
+  {
+    "id": "ox-b1-2602",
+    "word": "thief",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hırsız",
+      "es": "ladrón",
+      "fr": "voleur",
+      "de": "Dieb",
+      "it": "ladro"
+    }
+  },
+  {
+    "id": "ox-b1-2603",
+    "word": "thin",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ince",
+      "es": "delgado",
+      "fr": "mince",
+      "de": "dünn",
+      "it": "magro"
+    }
+  },
+  {
+    "id": "ox-b1-2604",
+    "word": "those",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onlar",
+      "es": "aquellos",
+      "fr": "ceux",
+      "de": "diese",
+      "it": "quelli"
+    }
+  },
+  {
+    "id": "ox-b1-2605",
+    "word": "though",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Yine de",
+      "es": "aunque",
+      "fr": "cependant",
+      "de": "obwohl",
+      "it": "Anche se"
+    }
+  },
+  {
+    "id": "ox-b1-2606",
+    "word": "thought",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düşünce",
+      "es": "pensamiento",
+      "fr": "pensée",
+      "de": "Gedanke",
+      "it": "Pensiero"
+    }
+  },
+  {
+    "id": "ox-b1-2607",
+    "word": "thriller",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerilim",
+      "es": "suspenso",
+      "fr": "thriller",
+      "de": "Thriller",
+      "it": "thriller"
+    }
+  },
+  {
+    "id": "ox-b1-2608",
+    "word": "throat",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boğaz",
+      "es": "garganta",
+      "fr": "gorge",
+      "de": "Kehle",
+      "it": "gola"
+    }
+  },
+  {
+    "id": "ox-b1-2609",
+    "word": "throw",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fırlatmak",
+      "es": "tirar",
+      "fr": "lancer",
+      "de": "werfen",
+      "it": "gettare"
+    }
+  },
+  {
+    "id": "ox-b1-2610",
+    "word": "throw away",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atmak",
+      "es": "tirar a la basura",
+      "fr": "jeter",
+      "de": "wegwerfen",
+      "it": "Buttar via"
+    }
+  },
+  {
+    "id": "ox-b1-2611",
+    "word": "thumb",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baş parmak",
+      "es": "pulgar",
+      "fr": "pouce",
+      "de": "Daumen",
+      "it": "pollice"
+    }
+  },
+  {
+    "id": "ox-b1-2612",
+    "word": "thunder",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gök gürültüsü",
+      "es": "trueno",
+      "fr": "tonnerre",
+      "de": "Donner",
+      "it": "tuono"
+    }
+  },
+  {
+    "id": "ox-b1-2613",
+    "word": "thunderstorm",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fırtına",
+      "es": "tormenta",
+      "fr": "orage",
+      "de": "Gewitter",
+      "it": "temporale"
+    }
+  },
+  {
+    "id": "ox-b1-2614",
+    "word": "tick",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kene",
+      "es": "garrapata",
+      "fr": "cocher",
+      "de": "Tick",
+      "it": "tic tac"
+    }
+  },
+  {
+    "id": "ox-b1-2615",
+    "word": "tidy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenli",
+      "es": "ordenado",
+      "fr": "rangé",
+      "de": "ordentlich",
+      "it": "Ordinato"
+    }
+  },
+  {
+    "id": "ox-b1-2616",
+    "word": "tidy up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toparlamak",
+      "es": "poner en orden",
+      "fr": "ranger",
+      "de": "aufräumen",
+      "it": "riordinare"
+    }
+  },
+  {
+    "id": "ox-b1-2617",
+    "word": "tie",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlamak",
+      "es": "atar",
+      "fr": "cravate",
+      "de": "binden",
+      "it": "cravatta"
+    }
+  },
+  {
+    "id": "ox-b1-2618",
+    "word": "tiger",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaplan",
+      "es": "tigre",
+      "fr": "tigre",
+      "de": "Tiger",
+      "it": "tigre"
+    }
+  },
+  {
+    "id": "ox-b1-2619",
+    "word": "tight",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıkı",
+      "es": "ajustado",
+      "fr": "serré",
+      "de": "eng",
+      "it": "stretto"
+    }
+  },
+  {
+    "id": "ox-b1-2620",
+    "word": "tights",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tayt",
+      "es": "medias",
+      "fr": "collants",
+      "de": "Strumpfhosen",
+      "it": "collant"
+    }
+  },
+  {
+    "id": "ox-b1-2621",
+    "word": "till",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kadar",
+      "es": "hasta",
+      "fr": "jusqu'à",
+      "de": "bis",
+      "it": "fino"
+    }
+  },
+  {
+    "id": "ox-b1-2622",
+    "word": "timetable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zaman çizelgesi",
+      "es": "calendario",
+      "fr": "calendrier",
+      "de": "Zeitplan",
+      "it": "orario"
+    }
+  },
+  {
+    "id": "ox-b1-2623",
+    "word": "tin",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalay",
+      "es": "estaño",
+      "fr": "étain",
+      "de": "Zinn",
+      "it": "stagno"
+    }
+  },
+  {
+    "id": "ox-b1-2624",
+    "word": "tiny",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "minik",
+      "es": "diminuto",
+      "fr": "minuscule",
+      "de": "winzig",
+      "it": "minuscolo"
+    }
+  },
+  {
+    "id": "ox-b1-2625",
+    "word": "tip",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uç",
+      "es": "consejo",
+      "fr": "conseil",
+      "de": "Tipp",
+      "it": "mancia"
+    }
+  },
+  {
+    "id": "ox-b1-2626",
+    "word": "tiring",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yorucu",
+      "es": "agotador",
+      "fr": "fatigant",
+      "de": "ermüdend",
+      "it": "stancante"
+    }
+  },
+  {
+    "id": "ox-b1-2627",
+    "word": "tissue",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "doku",
+      "es": "tejido",
+      "fr": "tissu",
+      "de": "Gewebe",
+      "it": "tessuto"
+    }
+  },
+  {
+    "id": "ox-b1-2628",
+    "word": "toast",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tost",
+      "es": "tostada",
+      "fr": "griller",
+      "de": "Toast",
+      "it": "pane abbrustolito"
+    }
+  },
+  {
+    "id": "ox-b1-2629",
+    "word": "toe",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayak parmağı",
+      "es": "dedo del pie",
+      "fr": "orteil",
+      "de": "Zehe",
+      "it": "punta"
+    }
+  },
+  {
+    "id": "ox-b1-2630",
+    "word": "tongue",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dil",
+      "es": "lengua",
+      "fr": "langue",
+      "de": "Zunge",
+      "it": "lingua"
+    }
+  },
+  {
+    "id": "ox-b1-2631",
+    "word": "tooth/teeth",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "diş/dişler",
+      "es": "diente/dientes",
+      "fr": "dent/dents",
+      "de": "Zahn/Zähne",
+      "it": "dente/denti"
+    }
+  },
+  {
+    "id": "ox-b1-2632",
+    "word": "toothache",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "diş ağrısı",
+      "es": "dolor de muelas",
+      "fr": "mal aux dents",
+      "de": "Zahnschmerzen",
+      "it": "mal di denti"
+    }
+  },
+  {
+    "id": "ox-b1-2633",
+    "word": "toothbrush",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "diş fırçası",
+      "es": "cepillo de dientes",
+      "fr": "brosse à dents",
+      "de": "Zahnbürste",
+      "it": "spazzolino da denti"
+    }
+  },
+  {
+    "id": "ox-b1-2634",
+    "word": "toothpaste",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "diş macunu",
+      "es": "pasta dentífrica",
+      "fr": "dentifrice",
+      "de": "Zahnpasta",
+      "it": "dentifricio"
+    }
+  },
+  {
+    "id": "ox-b1-2635",
+    "word": "top",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tepe",
+      "es": "arriba",
+      "fr": "haut",
+      "de": "Spitze",
+      "it": "superiore"
+    }
+  },
+  {
+    "id": "ox-b1-2636",
+    "word": "torch",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "meşale",
+      "es": "antorcha",
+      "fr": "torche",
+      "de": "Fackel",
+      "it": "torcia"
+    }
+  },
+  {
+    "id": "ox-b1-2637",
+    "word": "total",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplam",
+      "es": "total",
+      "fr": "total",
+      "de": "gesamt",
+      "it": "totale"
+    }
+  },
+  {
+    "id": "ox-b1-2638",
+    "word": "totally",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamamen",
+      "es": "totalmente",
+      "fr": "totalement",
+      "de": "völlig",
+      "it": "totalmente"
+    }
+  },
+  {
+    "id": "ox-b1-2639",
+    "word": "touch",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dokunmak",
+      "es": "tocar",
+      "fr": "touche",
+      "de": "berühren",
+      "it": "tocco"
+    }
+  },
+  {
+    "id": "ox-b1-2640",
+    "word": "tour",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tur",
+      "es": "recorrido",
+      "fr": "tournée",
+      "de": "Tour",
+      "it": "tour"
+    }
+  },
+  {
+    "id": "ox-b1-2641",
+    "word": "tour guide",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tur rehberi",
+      "es": "guía turístico",
+      "fr": "guide touristique",
+      "de": "Reiseleiter",
+      "it": "guida turistica"
+    }
+  },
+  {
+    "id": "ox-b1-2642",
+    "word": "tourism",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "turizm",
+      "es": "turismo",
+      "fr": "tourisme",
+      "de": "Tourismus",
+      "it": "turismo"
+    }
+  },
+  {
+    "id": "ox-b1-2643",
+    "word": "tourist information centre",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "turist bilgi merkezi",
+      "es": "centro de información turística",
+      "fr": "centre d'information touristique",
+      "de": "Touristeninformationszentrum",
+      "it": "centro di informazioni turistiche"
+    }
+  },
+  {
+    "id": "ox-b1-2644",
+    "word": "tournament",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "turnuva",
+      "es": "torneo",
+      "fr": "tournoi",
+      "de": "Turnier",
+      "it": "torneo"
+    }
+  },
+  {
+    "id": "ox-b1-2645",
+    "word": "toward(s)",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşı)",
+      "es": "hacia)",
+      "fr": "vers)",
+      "de": "in Richtung)",
+      "it": "in direzione)"
+    }
+  },
+  {
+    "id": "ox-b1-2646",
+    "word": "towel",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "havlu",
+      "es": "toalla",
+      "fr": "serviette",
+      "de": "Handtuch",
+      "it": "asciugamano"
+    }
+  },
+  {
+    "id": "ox-b1-2647",
+    "word": "tower",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kule",
+      "es": "torre",
+      "fr": "tour",
+      "de": "Turm",
+      "it": "torre"
+    }
+  },
+  {
+    "id": "ox-b1-2648",
+    "word": "toy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oyuncak",
+      "es": "juguete",
+      "fr": "jouet",
+      "de": "Spielzeug",
+      "it": "giocattolo"
+    }
+  },
+  {
+    "id": "ox-b1-2649",
+    "word": "track",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "izlemek",
+      "es": "pista",
+      "fr": "piste",
+      "de": "Schiene",
+      "it": "traccia"
+    }
+  },
+  {
+    "id": "ox-b1-2650",
+    "word": "tracksuit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eşofman",
+      "es": "chandal",
+      "fr": "survêtement",
+      "de": "Trainingsanzug",
+      "it": "tuta"
+    }
+  },
+  {
+    "id": "ox-b1-2651",
+    "word": "trade",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ticaret",
+      "es": "comercio",
+      "fr": "commerce",
+      "de": "Handel",
+      "it": "commercio"
+    }
+  },
+  {
+    "id": "ox-b1-2652",
+    "word": "traditional",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geleneksel",
+      "es": "tradicional",
+      "fr": "traditionnel",
+      "de": "traditionell",
+      "it": "tradizionale"
+    }
+  },
+  {
+    "id": "ox-b1-2653",
+    "word": "traffic jam",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "trafik sıkışıklığı",
+      "es": "atasco de tráfico",
+      "fr": "embouteillage",
+      "de": "Stau",
+      "it": "ingorgo stradale"
+    }
+  },
+  {
+    "id": "ox-b1-2654",
+    "word": "traffic light(s)",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "trafik ışıkları)",
+      "es": "semáforo)",
+      "fr": "feux de signalisation)",
+      "de": "Ampel)",
+      "it": "semaforo)"
+    }
+  },
+  {
+    "id": "ox-b1-2655",
+    "word": "trainer",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğitmen",
+      "es": "entrenador",
+      "fr": "entraîneur",
+      "de": "Trainer",
+      "it": "allenatore"
+    }
+  },
+  {
+    "id": "ox-b1-2656",
+    "word": "training",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğitim",
+      "es": "capacitación",
+      "fr": "entraînement",
+      "de": "Ausbildung",
+      "it": "formazione"
+    }
+  },
+  {
+    "id": "ox-b1-2657",
+    "word": "tram",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tramvay",
+      "es": "tranvía",
+      "fr": "tram",
+      "de": "Tram",
+      "it": "tram"
+    }
+  },
+  {
+    "id": "ox-b1-2658",
+    "word": "transfer",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aktarma",
+      "es": "transferir",
+      "fr": "transfert",
+      "de": "überweisen",
+      "it": "trasferire"
+    }
+  },
+  {
+    "id": "ox-b1-2659",
+    "word": "translate",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tercüme etmek",
+      "es": "traducir",
+      "fr": "traduire",
+      "de": "übersetzen",
+      "it": "tradurre"
+    }
+  },
+  {
+    "id": "ox-b1-2660",
+    "word": "translation",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeviri",
+      "es": "traducción",
+      "fr": "traduction",
+      "de": "Übersetzung",
+      "it": "traduzione"
+    }
+  },
+  {
+    "id": "ox-b1-2661",
+    "word": "transport",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ulaşım",
+      "es": "transporte",
+      "fr": "transport",
+      "de": "Transport",
+      "it": "trasporto"
+    }
+  },
+  {
+    "id": "ox-b1-2662",
+    "word": "trash can",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çöp tenekesi",
+      "es": "bote de basura",
+      "fr": "poubelle",
+      "de": "Mülleimer",
+      "it": "bidone della spazzatura"
+    }
+  },
+  {
+    "id": "ox-b1-2663",
+    "word": "travel agent",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seyahat acentesi",
+      "es": "agente de viajes",
+      "fr": "agent de voyage",
+      "de": "Reisebüro",
+      "it": "agente di viaggio"
+    }
+  },
+  {
+    "id": "ox-b1-2664",
+    "word": "trend",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğilim",
+      "es": "tendencia",
+      "fr": "s'orienter",
+      "de": "Trend",
+      "it": "tendenza"
+    }
+  },
+  {
+    "id": "ox-b1-2665",
+    "word": "trick",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kandırmak",
+      "es": "truco",
+      "fr": "astuce",
+      "de": "Trick",
+      "it": "trucco"
+    }
+  },
+  {
+    "id": "ox-b1-2666",
+    "word": "trouble",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bela",
+      "es": "problema",
+      "fr": "inquiéter",
+      "de": "Problem",
+      "it": "guaio"
+    }
+  },
+  {
+    "id": "ox-b1-2667",
+    "word": "truck",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kamyon",
+      "es": "camión",
+      "fr": "camion",
+      "de": "LKW",
+      "it": "camion"
+    }
+  },
+  {
+    "id": "ox-b1-2668",
+    "word": "trunk",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gövde",
+      "es": "trompa",
+      "fr": "tronc",
+      "de": "Stamm",
+      "it": "tronco"
+    }
+  },
+  {
+    "id": "ox-b1-2669",
+    "word": "true",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "doğru",
+      "es": "verdadero",
+      "fr": "vrai",
+      "de": "WAHR",
+      "it": "VERO"
+    }
+  },
+  {
+    "id": "ox-b1-2670",
+    "word": "trumpet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "trompet",
+      "es": "trompeta",
+      "fr": "trompette",
+      "de": "Trompete",
+      "it": "tromba"
+    }
+  },
+  {
+    "id": "ox-b1-2671",
+    "word": "trust",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güven",
+      "es": "confianza",
+      "fr": "confiance",
+      "de": "Vertrauen",
+      "it": "Fiducia"
+    }
+  },
+  {
+    "id": "ox-b1-2672",
+    "word": "truth",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçek",
+      "es": "verdad",
+      "fr": "vérité",
+      "de": "Wahrheit",
+      "it": "verità"
+    }
+  },
+  {
+    "id": "ox-b1-2673",
+    "word": "try on",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "denemek",
+      "es": "probarse",
+      "fr": "essayer",
+      "de": "anprobieren",
+      "it": "provare"
+    }
+  },
+  {
+    "id": "ox-b1-2674",
+    "word": "tube",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tüp",
+      "es": "tubo",
+      "fr": "tube",
+      "de": "Rohr",
+      "it": "tubo"
+    }
+  },
+  {
+    "id": "ox-b1-2675",
+    "word": "tuna",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ton balığı",
+      "es": "atún",
+      "fr": "thon",
+      "de": "Thunfisch",
+      "it": "tonno"
+    }
+  },
+  {
+    "id": "ox-b1-2676",
+    "word": "tune",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "melodi",
+      "es": "melodía",
+      "fr": "régler",
+      "de": "Melodie",
+      "it": "sintonizzare"
+    }
+  },
+  {
+    "id": "ox-b1-2677",
+    "word": "tunnel",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tünel",
+      "es": "túnel",
+      "fr": "tunnel",
+      "de": "Tunnel",
+      "it": "tunnel"
+    }
+  },
+  {
+    "id": "ox-b1-2678",
+    "word": "turkey",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Türkiye",
+      "es": "pavo",
+      "fr": "dinde",
+      "de": "Truthahn",
+      "it": "tacchino"
+    }
+  },
+  {
+    "id": "ox-b1-2679",
+    "word": "turn down",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geri çevirmek",
+      "es": "rechazar",
+      "fr": "refuser",
+      "de": "ablehnen",
+      "it": "rifiutare"
+    }
+  },
+  {
+    "id": "ox-b1-2680",
+    "word": "turning",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dönüm",
+      "es": "torneado",
+      "fr": "tournant",
+      "de": "drehen",
+      "it": "girando"
+    }
+  },
+  {
+    "id": "ox-b1-2681",
+    "word": "turn into",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dönüşmek",
+      "es": "convertirse en",
+      "fr": "devenir",
+      "de": "verwandeln",
+      "it": "trasformarsi in"
+    }
+  },
+  {
+    "id": "ox-b1-2682",
+    "word": "turn off",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapamak",
+      "es": "apagar",
+      "fr": "éteindre",
+      "de": "ausschalten",
+      "it": "spegnere"
+    }
+  },
+  {
+    "id": "ox-b1-2683",
+    "word": "turn on",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aç",
+      "es": "encender",
+      "fr": "allumer",
+      "de": "einschalten",
+      "it": "accendere"
+    }
+  },
+  {
+    "id": "ox-b1-2684",
+    "word": "turn up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açmak",
+      "es": "aparecer",
+      "fr": "venez",
+      "de": "auftauchen",
+      "it": "uscire fuori"
+    }
+  },
+  {
+    "id": "ox-b1-2685",
+    "word": "twin",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikiz",
+      "es": "mellizo",
+      "fr": "double",
+      "de": "Zwilling",
+      "it": "gemello"
+    }
+  },
+  {
+    "id": "ox-b1-2686",
+    "word": "typical",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tipik",
+      "es": "típico",
+      "fr": "typique",
+      "de": "typisch",
+      "it": "tipico"
+    }
+  },
+  {
+    "id": "ox-b1-2687",
+    "word": "typically",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tipik olarak",
+      "es": "típicamente",
+      "fr": "typiquement",
+      "de": "typischerweise",
+      "it": "tipicamente"
+    }
+  },
+  {
+    "id": "ox-b1-2688",
+    "word": "tyre",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yorulmak",
+      "es": "neumático",
+      "fr": "pneu",
+      "de": "Reifen",
+      "it": "pneumatico"
+    }
+  },
+  {
+    "id": "ox-b1-2689",
+    "word": "ugly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çirkin",
+      "es": "feo",
+      "fr": "laid",
+      "de": "hässlich",
+      "it": "brutto"
+    }
+  },
+  {
+    "id": "ox-b1-2690",
+    "word": "unable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aciz",
+      "es": "incapaz",
+      "fr": "incapable",
+      "de": "unfähig",
+      "it": "incapace"
+    }
+  },
+  {
+    "id": "ox-b1-2691",
+    "word": "unbelievable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "inanılmaz",
+      "es": "increíble",
+      "fr": "incroyable",
+      "de": "unglaublich",
+      "it": "incredibile"
+    }
+  },
+  {
+    "id": "ox-b1-2692",
+    "word": "uncomfortable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahatsız",
+      "es": "incómodo",
+      "fr": "inconfortable",
+      "de": "unbequem",
+      "it": "scomodo"
+    }
+  },
+  {
+    "id": "ox-b1-2693",
+    "word": "underground",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeraltı",
+      "es": "subterráneo",
+      "fr": "souterrain",
+      "de": "unterirdisch",
+      "it": "metropolitana"
+    }
+  },
+  {
+    "id": "ox-b1-2694",
+    "word": "underline",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "altı çizili",
+      "es": "subrayar",
+      "fr": "souligner",
+      "de": "unterstreichen",
+      "it": "sottolineare"
+    }
+  },
+  {
+    "id": "ox-b1-2695",
+    "word": "underneath",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "altında",
+      "es": "debajo",
+      "fr": "dessous",
+      "de": "darunter",
+      "it": "sotto"
+    }
+  },
+  {
+    "id": "ox-b1-2696",
+    "word": "underpants",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "külot",
+      "es": "calzoncillos",
+      "fr": "slip",
+      "de": "Unterhose",
+      "it": "mutande"
+    }
+  },
+  {
+    "id": "ox-b1-2697",
+    "word": "underwater",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sualtı",
+      "es": "submarino",
+      "fr": "sous l'eau",
+      "de": "unter Wasser",
+      "it": "sott'acqua"
+    }
+  },
+  {
+    "id": "ox-b1-2698",
+    "word": "underwear",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iç çamaşırı",
+      "es": "ropa interior",
+      "fr": "sous-vêtement",
+      "de": "Unterwäsche",
+      "it": "biancheria intima"
+    }
+  },
+  {
+    "id": "ox-b1-2699",
+    "word": "undress",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soyunmak",
+      "es": "desnudo",
+      "fr": "déshabiller",
+      "de": "ausziehen",
+      "it": "spogliarsi"
+    }
+  },
+  {
+    "id": "ox-b1-2700",
+    "word": "unemployed",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işsiz",
+      "es": "desempleados",
+      "fr": "sans emploi",
+      "de": "arbeitslos",
+      "it": "disoccupato"
+    }
+  },
+  {
+    "id": "ox-b1-2701",
+    "word": "unemployment",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işsizlik",
+      "es": "desempleo",
+      "fr": "chômage",
+      "de": "Arbeitslosigkeit",
+      "it": "disoccupazione"
+    }
+  },
+  {
+    "id": "ox-b1-2702",
+    "word": "unexpected",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beklenmedik",
+      "es": "inesperado",
+      "fr": "inattendu",
+      "de": "unerwartet",
+      "it": "inaspettato"
+    }
+  },
+  {
+    "id": "ox-b1-2703",
+    "word": "unfair",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haksız",
+      "es": "injusto",
+      "fr": "injuste",
+      "de": "unfair",
+      "it": "sleale"
+    }
+  },
+  {
+    "id": "ox-b1-2704",
+    "word": "unfit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygun olmayan",
+      "es": "impropio",
+      "fr": "inapte",
+      "de": "untauglich",
+      "it": "inadatto"
+    }
+  },
+  {
+    "id": "ox-b1-2705",
+    "word": "unforgettable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "unutulmaz",
+      "es": "inolvidable",
+      "fr": "inoubliable",
+      "de": "unvergesslich",
+      "it": "indimenticabile"
+    }
+  },
+  {
+    "id": "ox-b1-2706",
+    "word": "unfortunately",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Ne yazık ki",
+      "es": "desafortunadamente",
+      "fr": "malheureusement",
+      "de": "Leider",
+      "it": "Purtroppo"
+    }
+  },
+  {
+    "id": "ox-b1-2707",
+    "word": "unfriendly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düşmanca",
+      "es": "antipático",
+      "fr": "hostile",
+      "de": "unfreundlich",
+      "it": "ostile"
+    }
+  },
+  {
+    "id": "ox-b1-2708",
+    "word": "unhappy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mutsuz",
+      "es": "infeliz",
+      "fr": "malheureux",
+      "de": "unzufrieden",
+      "it": "infelice"
+    }
+  },
+  {
+    "id": "ox-b1-2709",
+    "word": "unhealthy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sağlıksız",
+      "es": "malsano",
+      "fr": "malsain",
+      "de": "ungesund",
+      "it": "malsano"
+    }
+  },
+  {
+    "id": "ox-b1-2710",
+    "word": "uniform",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üniforma",
+      "es": "uniforme",
+      "fr": "uniforme",
+      "de": "Uniform",
+      "it": "uniforme"
+    }
+  },
+  {
+    "id": "ox-b1-2711",
+    "word": "union",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birlik",
+      "es": "unión",
+      "fr": "union",
+      "de": "Union",
+      "it": "unione"
+    }
+  },
+  {
+    "id": "ox-b1-2712",
+    "word": "unit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birim",
+      "es": "unidad",
+      "fr": "unité",
+      "de": "Einheit",
+      "it": "unità"
+    }
+  },
+  {
+    "id": "ox-b1-2713",
+    "word": "unkind",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaba",
+      "es": "cruel",
+      "fr": "méchant",
+      "de": "unfreundlich",
+      "it": "scortese"
+    }
+  },
+  {
+    "id": "ox-b1-2714",
+    "word": "unknown",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilinmiyor",
+      "es": "desconocido",
+      "fr": "inconnu",
+      "de": "unbekannt",
+      "it": "sconosciuto"
+    }
+  },
+  {
+    "id": "ox-b1-2715",
+    "word": "unimportant",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önemsiz",
+      "es": "sin importancia",
+      "fr": "sans importance",
+      "de": "unwichtig",
+      "it": "non importante"
+    }
+  },
+  {
+    "id": "ox-b1-2716",
+    "word": "uninterested",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilgisiz",
+      "es": "desinteresado",
+      "fr": "indifférent",
+      "de": "uninteressiert",
+      "it": "disinteressato"
+    }
+  },
+  {
+    "id": "ox-b1-2717",
+    "word": "uninteresting",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilginç olmayan",
+      "es": "poco interesante",
+      "fr": "inintéressant",
+      "de": "uninteressant",
+      "it": "poco interessante"
+    }
+  },
+  {
+    "id": "ox-b1-2718",
+    "word": "universe",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "evren",
+      "es": "universo",
+      "fr": "univers",
+      "de": "Universum",
+      "it": "universo"
+    }
+  },
+  {
+    "id": "ox-b1-2719",
+    "word": "unless",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "meğer ki",
+      "es": "a menos que",
+      "fr": "sauf si",
+      "de": "es sei denn",
+      "it": "salvo che"
+    }
+  },
+  {
+    "id": "ox-b1-2720",
+    "word": "unlikely",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olası değil",
+      "es": "improbable",
+      "fr": "peu probable",
+      "de": "unwahrscheinlich",
+      "it": "improbabile"
+    }
+  },
+  {
+    "id": "ox-b1-2721",
+    "word": "unlucky",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şanssız",
+      "es": "desafortunado",
+      "fr": "malchanceux",
+      "de": "unglücklich",
+      "it": "sfortunato"
+    }
+  },
+  {
+    "id": "ox-b1-2722",
+    "word": "unnecessary",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gereksiz",
+      "es": "innecesario",
+      "fr": "inutile",
+      "de": "unnötig",
+      "it": "inutile"
+    }
+  },
+  {
+    "id": "ox-b1-2723",
+    "word": "unpack",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paketi açmak",
+      "es": "deshacer",
+      "fr": "déballer",
+      "de": "auspacken",
+      "it": "disfare le valigie"
+    }
+  },
+  {
+    "id": "ox-b1-2724",
+    "word": "unpleasant",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatsız",
+      "es": "desagradable",
+      "fr": "désagréable",
+      "de": "unangenehm",
+      "it": "sgradevole"
+    }
+  },
+  {
+    "id": "ox-b1-2725",
+    "word": "unsure",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emin değilim",
+      "es": "inseguro",
+      "fr": "incertain",
+      "de": "unsicher",
+      "it": "incerto"
+    }
+  },
+  {
+    "id": "ox-b1-2726",
+    "word": "untidy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzensiz",
+      "es": "desordenado",
+      "fr": "désordonné",
+      "de": "unordentlich",
+      "it": "disordinato"
+    }
+  },
+  {
+    "id": "ox-b1-2727",
+    "word": "unusual",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olağan dışı",
+      "es": "inusual",
+      "fr": "inhabituel",
+      "de": "ungewöhnlich",
+      "it": "insolito"
+    }
+  },
+  {
+    "id": "ox-b1-2728",
+    "word": "unwell",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyi değil",
+      "es": "indispuesto",
+      "fr": "malade",
+      "de": "unwohl",
+      "it": "malessere"
+    }
+  },
+  {
+    "id": "ox-b1-2729",
+    "word": "update",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güncelleme",
+      "es": "actualizar",
+      "fr": "mise à jour",
+      "de": "aktualisieren",
+      "it": "aggiornamento"
+    }
+  },
+  {
+    "id": "ox-b1-2730",
+    "word": "upload",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüklemek",
+      "es": "subir",
+      "fr": "télécharger",
+      "de": "hochladen",
+      "it": "caricamento"
+    }
+  },
+  {
+    "id": "ox-b1-2731",
+    "word": "upon",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üzerine",
+      "es": "al",
+      "fr": "sur",
+      "de": "auf",
+      "it": "su"
+    }
+  },
+  {
+    "id": "ox-b1-2732",
+    "word": "upper",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üst",
+      "es": "superior",
+      "fr": "supérieur",
+      "de": "obere",
+      "it": "superiore"
+    }
+  },
+  {
+    "id": "ox-b1-2733",
+    "word": "upset",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üzgün",
+      "es": "decepcionado",
+      "fr": "bouleversé",
+      "de": "verärgern",
+      "it": "Rovesciato"
+    }
+  },
+  {
+    "id": "ox-b1-2734",
+    "word": "up to",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kadar",
+      "es": "arriba a",
+      "fr": "jusqu'à",
+      "de": "bis zu",
+      "it": "fino a"
+    }
+  },
+  {
+    "id": "ox-b1-2735",
+    "word": "up to date",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güncel",
+      "es": "A hoy",
+      "fr": "à jour",
+      "de": "auf dem neuesten Stand",
+      "it": "aggiornato"
+    }
+  },
+  {
+    "id": "ox-b1-2736",
+    "word": "urgent",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acil",
+      "es": "urgente",
+      "fr": "urgent",
+      "de": "dringend",
+      "it": "urgente"
+    }
+  },
+  {
+    "id": "ox-b1-2737",
+    "word": "urgently",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acilen",
+      "es": "urgentemente",
+      "fr": "instamment",
+      "de": "dringend",
+      "it": "urgentemente"
+    }
+  },
+  {
+    "id": "ox-b1-2738",
+    "word": "used to",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eskiden",
+      "es": "solía hacerlo",
+      "fr": "habitué",
+      "de": "gewöhnt an",
+      "it": "abituato a"
+    }
+  },
+  {
+    "id": "ox-b1-2739",
+    "word": "user",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kullanıcı",
+      "es": "usuario",
+      "fr": "utilisateur",
+      "de": "Benutzer",
+      "it": "utente"
+    }
+  },
+  {
+    "id": "ox-b1-2740",
+    "word": "usual",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olağan",
+      "es": "habitual",
+      "fr": "habituel",
+      "de": "üblich",
+      "it": "al solito"
+    }
+  },
+  {
+    "id": "ox-b1-2741",
+    "word": "v/versus",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "v/karşı",
+      "es": "v/contra",
+      "fr": "contre/contre",
+      "de": "v/versus",
+      "it": "v/contro"
+    }
+  },
+  {
+    "id": "ox-b1-2742",
+    "word": "valley",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vadi",
+      "es": "valle",
+      "fr": "vallée",
+      "de": "Schlucht",
+      "it": "valle"
+    }
+  },
+  {
+    "id": "ox-b1-2743",
+    "word": "valuable",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değerli",
+      "es": "valioso",
+      "fr": "précieux",
+      "de": "wertvoll",
+      "it": "prezioso"
+    }
+  },
+  {
+    "id": "ox-b1-2744",
+    "word": "value",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değer",
+      "es": "valor",
+      "fr": "valeur",
+      "de": "Wert",
+      "it": "valore"
+    }
+  },
+  {
+    "id": "ox-b1-2745",
+    "word": "van",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kamyonet",
+      "es": "furgoneta",
+      "fr": "van",
+      "de": "Transporter",
+      "it": "furgone"
+    }
+  },
+  {
+    "id": "ox-b1-2746",
+    "word": "vanilla",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vanilya",
+      "es": "vainilla",
+      "fr": "vanille",
+      "de": "Vanille",
+      "it": "vaniglia"
+    }
+  },
+  {
+    "id": "ox-b1-2747",
+    "word": "variety",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeşitlilik",
+      "es": "variedad",
+      "fr": "variété",
+      "de": "Vielfalt",
+      "it": "varietà"
+    }
+  },
+  {
+    "id": "ox-b1-2748",
+    "word": "various",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeşitli",
+      "es": "varios",
+      "fr": "divers",
+      "de": "verschieden",
+      "it": "vari"
+    }
+  },
+  {
+    "id": "ox-b1-2749",
+    "word": "vase",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vazo",
+      "es": "florero",
+      "fr": "vase",
+      "de": "Vase",
+      "it": "vaso"
+    }
+  },
+  {
+    "id": "ox-b1-2750",
+    "word": "vegetarian",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vejetaryen",
+      "es": "vegetariano",
+      "fr": "végétarien",
+      "de": "Vegetarier",
+      "it": "vegetariano"
+    }
+  },
+  {
+    "id": "ox-b1-2751",
+    "word": "vehicle",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "araç",
+      "es": "vehículo",
+      "fr": "véhicule",
+      "de": "Fahrzeug",
+      "it": "veicolo"
+    }
+  },
+  {
+    "id": "ox-b1-2752",
+    "word": "version",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "versiyon",
+      "es": "versión",
+      "fr": "version",
+      "de": "Version",
+      "it": "versione"
+    }
+  },
+  {
+    "id": "ox-b1-2753",
+    "word": "vet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "veteriner",
+      "es": "veterinario",
+      "fr": "vétérinaire",
+      "de": "Tierarzt",
+      "it": "veterinario"
+    }
+  },
+  {
+    "id": "ox-b1-2754",
+    "word": "via",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aracılığıyla",
+      "es": "a través de",
+      "fr": "via",
+      "de": "über",
+      "it": "tramite"
+    }
+  },
+  {
+    "id": "ox-b1-2755",
+    "word": "video clip",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "video klip",
+      "es": "videoclip",
+      "fr": "clip vidéo",
+      "de": "Videoclip",
+      "it": "videoclip"
+    }
+  },
+  {
+    "id": "ox-b1-2756",
+    "word": "video game",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "video oyunu",
+      "es": "videojuego",
+      "fr": "jeu vidéo",
+      "de": "Videospiel",
+      "it": "videogioco"
+    }
+  },
+  {
+    "id": "ox-b1-2757",
+    "word": "view",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görüş",
+      "es": "vista",
+      "fr": "voir",
+      "de": "Sicht",
+      "it": "visualizzazione"
+    }
+  },
+  {
+    "id": "ox-b1-2758",
+    "word": "violin",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "keman",
+      "es": "violín",
+      "fr": "violon",
+      "de": "Violine",
+      "it": "violino"
+    }
+  },
+  {
+    "id": "ox-b1-2759",
+    "word": "virus",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "virüs",
+      "es": "virus",
+      "fr": "virus",
+      "de": "Virus",
+      "it": "virus"
+    }
+  },
+  {
+    "id": "ox-b1-2760",
+    "word": "visa",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Visa",
+      "es": "visa",
+      "fr": "Visa",
+      "de": "Visum",
+      "it": "Visa"
+    }
+  },
+  {
+    "id": "ox-b1-2761",
+    "word": "vocabulary",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kelime bilgisi",
+      "es": "vocabulario",
+      "fr": "vocabulaire",
+      "de": "Vokabular",
+      "it": "vocabolario"
+    }
+  },
+  {
+    "id": "ox-b1-2762",
+    "word": "voice",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ses",
+      "es": "voz",
+      "fr": "voix",
+      "de": "Stimme",
+      "it": "voce"
+    }
+  },
+  {
+    "id": "ox-b1-2763",
+    "word": "volleyball",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "voleybol",
+      "es": "voleibol",
+      "fr": "volley-ball",
+      "de": "Volleyball",
+      "it": "pallavolo"
+    }
+  },
+  {
+    "id": "ox-b1-2764",
+    "word": "volume",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hacim",
+      "es": "volumen",
+      "fr": "volume",
+      "de": "Volumen",
+      "it": "volume"
+    }
+  },
+  {
+    "id": "ox-b1-2765",
+    "word": "volunteer",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gönüllü",
+      "es": "voluntario",
+      "fr": "bénévole",
+      "de": "Freiwilliger",
+      "it": "volontario"
+    }
+  },
+  {
+    "id": "ox-b1-2766",
+    "word": "vote",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oy",
+      "es": "votar",
+      "fr": "voter",
+      "de": "Abstimmung",
+      "it": "votare"
+    }
+  },
+  {
+    "id": "ox-b1-2767",
+    "word": "vowel",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sesli harf",
+      "es": "vocal",
+      "fr": "voyelle",
+      "de": "Vokal",
+      "it": "vocale"
+    }
+  },
+  {
+    "id": "ox-b1-2768",
+    "word": "wage(s)",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "maaş(lar)",
+      "es": "salarios)",
+      "fr": "salaires)",
+      "de": "Löhne)",
+      "it": "salari)"
+    }
+  },
+  {
+    "id": "ox-b1-2769",
+    "word": "waiting room",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bekleme odası",
+      "es": "sala de espera",
+      "fr": "SALLE D'ATTENTE",
+      "de": "Wartezimmer",
+      "it": "Sala D'Attesa"
+    }
+  },
+  {
+    "id": "ox-b1-2770",
+    "word": "waitress",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Garson",
+      "es": "camarera",
+      "fr": "serveuse",
+      "de": "Kellnerin",
+      "it": "cameriera"
+    }
+  },
+  {
+    "id": "ox-b1-2771",
+    "word": "wake up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyanmak",
+      "es": "despertar",
+      "fr": "réveillez-vous",
+      "de": "aufwachen",
+      "it": "svegliati"
+    }
+  },
+  {
+    "id": "ox-b1-2772",
+    "word": "walking",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yürüme",
+      "es": "caminando",
+      "fr": "marche",
+      "de": "gehen",
+      "it": "a piedi"
+    }
+  },
+  {
+    "id": "ox-b1-2773",
+    "word": "wallet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cüzdan",
+      "es": "billetera",
+      "fr": "portefeuille",
+      "de": "Geldbörse",
+      "it": "portafoglio"
+    }
+  },
+  {
+    "id": "ox-b1-2774",
+    "word": "war",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "savaş",
+      "es": "guerra",
+      "fr": "guerre",
+      "de": "Krieg",
+      "it": "guerra"
+    }
+  },
+  {
+    "id": "ox-b1-2775",
+    "word": "wardrobe",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gardırop",
+      "es": "armario",
+      "fr": "garde-robe",
+      "de": "Kleiderschrank",
+      "it": "armadio"
+    }
+  },
+  {
+    "id": "ox-b1-2776",
+    "word": "warn",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyarmak",
+      "es": "advertir",
+      "fr": "avertir",
+      "de": "warnen",
+      "it": "avvisare"
+    }
+  },
+  {
+    "id": "ox-b1-2777",
+    "word": "warning",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyarı",
+      "es": "advertencia",
+      "fr": "avertissement",
+      "de": "Warnung",
+      "it": "avvertimento"
+    }
+  },
+  {
+    "id": "ox-b1-2778",
+    "word": "wash up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yıkanmak",
+      "es": "lavar",
+      "fr": "se laver",
+      "de": "abwaschen",
+      "it": "lavarsi"
+    }
+  },
+  {
+    "id": "ox-b1-2779",
+    "word": "washing machine",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çamaşır makinesi",
+      "es": "lavadora",
+      "fr": "machine à laver",
+      "de": "Waschmaschine",
+      "it": "lavatrice"
+    }
+  },
+  {
+    "id": "ox-b1-2780",
+    "word": "washing-up",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bulaşık yıkama",
+      "es": "lavar",
+      "fr": "vaisselle",
+      "de": "Abwaschen",
+      "it": "lavare"
+    }
+  },
+  {
+    "id": "ox-b1-2781",
+    "word": "waste",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atık",
+      "es": "desperdiciar",
+      "fr": "déchets",
+      "de": "Abfall",
+      "it": "sciupare"
+    }
+  },
+  {
+    "id": "ox-b1-2782",
+    "word": "waterfall",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şelale",
+      "es": "cascada",
+      "fr": "cascade",
+      "de": "Wasserfall",
+      "it": "cascata"
+    }
+  },
+  {
+    "id": "ox-b1-2783",
+    "word": "wave",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dalga",
+      "es": "ola",
+      "fr": "vague",
+      "de": "Welle",
+      "it": "onda"
+    }
+  },
+  {
+    "id": "ox-b1-2784",
+    "word": "weak",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zayıf",
+      "es": "débil",
+      "fr": "faible",
+      "de": "schwach",
+      "it": "Debole"
+    }
+  },
+  {
+    "id": "ox-b1-2785",
+    "word": "wear out",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yıpranmak",
+      "es": "desgastar",
+      "fr": "épuiser",
+      "de": "verschleißen",
+      "it": "consumarsi"
+    }
+  },
+  {
+    "id": "ox-b1-2786",
+    "word": "weather forecast",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hava tahmini",
+      "es": "pronóstico del tiempo",
+      "fr": "prévisions météorologiques",
+      "de": "Wettervorhersage",
+      "it": "previsioni del tempo"
+    }
+  },
+  {
+    "id": "ox-b1-2787",
+    "word": "web",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ağ",
+      "es": "web",
+      "fr": "la toile",
+      "de": "Web",
+      "it": "web"
+    }
+  },
+  {
+    "id": "ox-b1-2788",
+    "word": "webcam",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "web kamerası",
+      "es": "cámara web",
+      "fr": "webcam",
+      "de": "Webcam",
+      "it": "webcam"
+    }
+  },
+  {
+    "id": "ox-b1-2789",
+    "word": "web page",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "web sayfası",
+      "es": "Página web",
+      "fr": "page web",
+      "de": "Webseite",
+      "it": "pagina web"
+    }
+  },
+  {
+    "id": "ox-b1-2790",
+    "word": "wedding",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düğün",
+      "es": "boda",
+      "fr": "mariage",
+      "de": "Hochzeit",
+      "it": "nozze"
+    }
+  },
+  {
+    "id": "ox-b1-2791",
+    "word": "weekday",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hafta içi",
+      "es": "día laborable",
+      "fr": "jour de la semaine",
+      "de": "Wochentag",
+      "it": "giorno feriale"
+    }
+  },
+  {
+    "id": "ox-b1-2792",
+    "word": "weekly",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haftalık",
+      "es": "semanalmente",
+      "fr": "hebdomadaire",
+      "de": "wöchentlich",
+      "it": "settimanale"
+    }
+  },
+  {
+    "id": "ox-b1-2793",
+    "word": "weigh",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tartmak",
+      "es": "pesar",
+      "fr": "peser",
+      "de": "wiegen",
+      "it": "pesare"
+    }
+  },
+  {
+    "id": "ox-b1-2794",
+    "word": "weight",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ağırlık",
+      "es": "peso",
+      "fr": "poids",
+      "de": "Gewicht",
+      "it": "peso"
+    }
+  },
+  {
+    "id": "ox-b1-2795",
+    "word": "well done!",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tebrikler!",
+      "es": "¡bien hecho!",
+      "fr": "bien joué!",
+      "de": "gut gemacht!",
+      "it": "ben fatto!"
+    }
+  },
+  {
+    "id": "ox-b1-2796",
+    "word": "well-dressed",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyi giyimli",
+      "es": "bien vestido",
+      "fr": "bien habillé",
+      "de": "gut gekleidet",
+      "it": "ben vestito"
+    }
+  },
+  {
+    "id": "ox-b1-2797",
+    "word": "well-known",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanınmış",
+      "es": "bien conocido",
+      "fr": "bien connu",
+      "de": "bekannt",
+      "it": "ben noto"
+    }
+  },
+  {
+    "id": "ox-b1-2798",
+    "word": "well made / well-made",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyi yapılmış / iyi yapılmış",
+      "es": "bien hecho / bien hecho",
+      "fr": "bien fait / bien fait",
+      "de": "gut gemacht / gut gemacht",
+      "it": "ben fatto / ben fatto"
+    }
+  },
+  {
+    "id": "ox-b1-2799",
+    "word": "western",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "batılı",
+      "es": "occidental",
+      "fr": "occidental",
+      "de": "Western",
+      "it": "occidentale"
+    }
+  },
+  {
+    "id": "ox-b1-2800",
+    "word": "wet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ıslak",
+      "es": "húmedo",
+      "fr": "mouillé",
+      "de": "nass",
+      "it": "Bagnato"
+    }
+  },
+  {
+    "id": "ox-b1-2801",
+    "word": "wetsuit/wet suit",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dalgıç kıyafeti/dalış kıyafeti",
+      "es": "traje de neopreno/traje de neopreno",
+      "fr": "combinaison/combinaison humide",
+      "de": "Neoprenanzug/Neoprenanzug",
+      "it": "muta/muta"
+    }
+  },
+  {
+    "id": "ox-b1-2802",
+    "word": "whale",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "balina",
+      "es": "ballena",
+      "fr": "baleine",
+      "de": "Wal",
+      "it": "balena"
+    }
+  },
+  {
+    "id": "ox-b1-2803",
+    "word": "whatever",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Her neyse",
+      "es": "lo que",
+      "fr": "peu importe",
+      "de": "was auch immer",
+      "it": "Qualunque cosa"
+    }
+  },
+  {
+    "id": "ox-b1-2804",
+    "word": "wheel",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teker",
+      "es": "rueda",
+      "fr": "roue",
+      "de": "Rad",
+      "it": "ruota"
+    }
+  },
+  {
+    "id": "ox-b1-2805",
+    "word": "wheelchair",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tekerlekli sandalye",
+      "es": "silla de ruedas",
+      "fr": "fauteuil roulant",
+      "de": "Rollstuhl",
+      "it": "sedia a rotelle"
+    }
+  },
+  {
+    "id": "ox-b1-2806",
+    "word": "whenever",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "her ne zaman",
+      "es": "cuando sea",
+      "fr": "chaque fois que",
+      "de": "wann immer",
+      "it": "ogni volta"
+    }
+  },
+  {
+    "id": "ox-b1-2807",
+    "word": "wherever",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "her yerde",
+      "es": "lo que sea",
+      "fr": "partout où",
+      "de": "wo immer",
+      "it": "ovunque"
+    }
+  },
+  {
+    "id": "ox-b1-2808",
+    "word": "whether",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikisinden biri",
+      "es": "si",
+      "fr": "si",
+      "de": "ob",
+      "it": "se"
+    }
+  },
+  {
+    "id": "ox-b1-2809",
+    "word": "while",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sırasında",
+      "es": "mientras",
+      "fr": "alors que",
+      "de": "während",
+      "it": "Mentre"
+    }
+  },
+  {
+    "id": "ox-b1-2810",
+    "word": "whole",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tüm",
+      "es": "entero",
+      "fr": "entier",
+      "de": "ganz",
+      "it": "Totale"
+    }
+  },
+  {
+    "id": "ox-b1-2811",
+    "word": "whose",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kimin",
+      "es": "cuyo",
+      "fr": "dont",
+      "de": "wessen",
+      "it": "di chi"
+    }
+  },
+  {
+    "id": "ox-b1-2812",
+    "word": "wide",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geniş",
+      "es": "ancho",
+      "fr": "large",
+      "de": "breit",
+      "it": "Largo"
+    }
+  },
+  {
+    "id": "ox-b1-2813",
+    "word": "wild",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vahşi",
+      "es": "salvaje",
+      "fr": "sauvage",
+      "de": "wild",
+      "it": "selvaggio"
+    }
+  },
+  {
+    "id": "ox-b1-2814",
+    "word": "wildlife",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaban hayatı",
+      "es": "fauna",
+      "fr": "faune",
+      "de": "Tierwelt",
+      "it": "animali selvatici"
+    }
+  },
+  {
+    "id": "ox-b1-2815",
+    "word": "willing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hevesli",
+      "es": "deseoso",
+      "fr": "disposé",
+      "de": "bereit",
+      "it": "disposto"
+    }
+  },
+  {
+    "id": "ox-b1-2816",
+    "word": "wind",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rüzgâr",
+      "es": "viento",
+      "fr": "vent",
+      "de": "Wind",
+      "it": "vento"
+    }
+  },
+  {
+    "id": "ox-b1-2817",
+    "word": "windscreen",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ön cam",
+      "es": "parabrisas",
+      "fr": "pare-brise",
+      "de": "Windschutzscheibe",
+      "it": "parabrezza"
+    }
+  },
+  {
+    "id": "ox-b1-2818",
+    "word": "windsurfing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rüzgar sörfü",
+      "es": "tabla a vela",
+      "fr": "planche à voile",
+      "de": "Windsurfen",
+      "it": "windsurf"
+    }
+  },
+  {
+    "id": "ox-b1-2819",
+    "word": "windy",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rüzgarlı",
+      "es": "ventoso",
+      "fr": "venteux",
+      "de": "windig",
+      "it": "ventoso"
+    }
+  },
+  {
+    "id": "ox-b1-2820",
+    "word": "wing",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kanat",
+      "es": "ala",
+      "fr": "aile",
+      "de": "Flügel",
+      "it": "ala"
+    }
+  },
+  {
+    "id": "ox-b1-2821",
+    "word": "winner",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kazanan",
+      "es": "ganador",
+      "fr": "gagnant",
+      "de": "Gewinner",
+      "it": "vincitore"
+    }
+  },
+  {
+    "id": "ox-b1-2822",
+    "word": "wise",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilge",
+      "es": "inteligente",
+      "fr": "sage",
+      "de": "weise",
+      "it": "saggio"
+    }
+  },
+  {
+    "id": "ox-b1-2823",
+    "word": "wish",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dilek",
+      "es": "desear",
+      "fr": "souhait",
+      "de": "Wunsch",
+      "it": "desiderio"
+    }
+  },
+  {
+    "id": "ox-b1-2824",
+    "word": "within",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içinde",
+      "es": "dentro",
+      "fr": "dans",
+      "de": "innerhalb",
+      "it": "entro"
+    }
+  },
+  {
+    "id": "ox-b1-2825",
+    "word": "wonder",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "merak etmek",
+      "es": "preguntarse",
+      "fr": "merveille",
+      "de": "Wunder",
+      "it": "Meraviglia"
+    }
+  },
+  {
+    "id": "ox-b1-2826",
+    "word": "wood",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "odun",
+      "es": "madera",
+      "fr": "bois",
+      "de": "Holz",
+      "it": "legna"
+    }
+  },
+  {
+    "id": "ox-b1-2827",
+    "word": "wooden",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ahşap",
+      "es": "de madera",
+      "fr": "en bois",
+      "de": "aus Holz",
+      "it": "di legno"
+    }
+  },
+  {
+    "id": "ox-b1-2828",
+    "word": "wool",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yün",
+      "es": "lana",
+      "fr": "laine",
+      "de": "Wolle",
+      "it": "lana"
+    }
+  },
+  {
+    "id": "ox-b1-2829",
+    "word": "working",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çalışma",
+      "es": "laboral",
+      "fr": "fonctionnement",
+      "de": "Arbeiten",
+      "it": "lavorando"
+    }
+  },
+  {
+    "id": "ox-b1-2830",
+    "word": "workout",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "antrenman yapmak",
+      "es": "ejercicio",
+      "fr": "entraînement",
+      "de": "trainieren",
+      "it": "allenamento"
+    }
+  },
+  {
+    "id": "ox-b1-2831",
+    "word": "work out",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "antrenman yapmak",
+      "es": "ejercicio",
+      "fr": "entraînement",
+      "de": "trainieren",
+      "it": "allenamento"
+    }
+  },
+  {
+    "id": "ox-b1-2832",
+    "word": "worried",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "endişeli",
+      "es": "preocupado",
+      "fr": "inquiet",
+      "de": "besorgt",
+      "it": "preoccupato"
+    }
+  },
+  {
+    "id": "ox-b1-2833",
+    "word": "worry",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "endişelenmek",
+      "es": "preocuparse",
+      "fr": "inquiétude",
+      "de": "Sorge",
+      "it": "preoccupazione"
+    }
+  },
+  {
+    "id": "ox-b1-2834",
+    "word": "worse",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "daha kötüsü",
+      "es": "peor",
+      "fr": "pire",
+      "de": "schlechter",
+      "it": "peggio"
+    }
+  },
+  {
+    "id": "ox-b1-2835",
+    "word": "worst",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "en kötüsü",
+      "es": "el peor",
+      "fr": "pire",
+      "de": "am schlimmsten",
+      "it": "peggio"
+    }
+  },
+  {
+    "id": "ox-b1-2836",
+    "word": "worth",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değer",
+      "es": "valer",
+      "fr": "valeur",
+      "de": "Wert",
+      "it": "Di valore"
+    }
+  },
+  {
+    "id": "ox-b1-2837",
+    "word": "wow",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Vay",
+      "es": "Guau",
+      "fr": "Ouah",
+      "de": "Wow",
+      "it": "Oh"
+    }
+  },
+  {
+    "id": "ox-b1-2838",
+    "word": "wrap (up)",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sarmak (yukarı)",
+      "es": "envolver)",
+      "fr": "conclure)",
+      "de": "einpacken)",
+      "it": "incartare)"
+    }
+  },
+  {
+    "id": "ox-b1-2839",
+    "word": "write down",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaz",
+      "es": "anotar",
+      "fr": "écrire",
+      "de": "aufschreiben",
+      "it": "scrivere"
+    }
+  },
+  {
+    "id": "ox-b1-2840",
+    "word": "written",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yazılı",
+      "es": "escrito",
+      "fr": "écrit",
+      "de": "geschrieben",
+      "it": "scritto"
+    }
+  },
+  {
+    "id": "ox-b1-2841",
+    "word": "yard",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bahçe",
+      "es": "patio",
+      "fr": "cour",
+      "de": "Hof",
+      "it": "cortile"
+    }
+  },
+  {
+    "id": "ox-b1-2842",
+    "word": "yet",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "henüz",
+      "es": "todavía",
+      "fr": "encore",
+      "de": "noch",
+      "it": "Ancora"
+    }
+  },
+  {
+    "id": "ox-b1-2843",
+    "word": "yoga",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yoga",
+      "es": "yoga",
+      "fr": "yoga",
+      "de": "Yoga",
+      "it": "yoga"
+    }
+  },
+  {
+    "id": "ox-b1-2844",
+    "word": "yog(h)urt",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yoğurt",
+      "es": "yogur",
+      "fr": "yaourt",
+      "de": "Joghurt",
+      "it": "yogurt"
+    }
+  },
+  {
+    "id": "ox-b1-2845",
+    "word": "yours",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "senin",
+      "es": "tuyo",
+      "fr": "le vôtre",
+      "de": "dein",
+      "it": "il tuo"
+    }
+  },
+  {
+    "id": "ox-b1-2846",
+    "word": "youth",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gençlik",
+      "es": "juventud",
+      "fr": "jeunesse",
+      "de": "Jugend",
+      "it": "gioventù"
+    }
+  },
+  {
+    "id": "ox-b1-2847",
+    "word": "zebra",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zebra",
+      "es": "cebra",
+      "fr": "zèbre",
+      "de": "Zebra",
+      "it": "zebra"
+    }
+  },
+  {
+    "id": "ox-b1-2848",
+    "word": "zero",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıfır",
+      "es": "cero",
+      "fr": "zéro",
+      "de": "null",
+      "it": "zero"
+    }
+  },
+  {
+    "id": "ox-b1-2849",
+    "word": "zone",
+    "level": "B1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alan",
+      "es": "zona",
+      "fr": "zone",
+      "de": "Zone",
+      "it": "zona"
+    }
+  },
+  {
+    "id": "ox-b2-1",
+    "word": "abandon",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "terk etmek",
+      "es": "abandonar",
+      "fr": "abandonner",
+      "de": "aufgeben",
+      "it": "abbandono"
+    }
+  },
+  {
+    "id": "ox-b2-2",
+    "word": "absolute",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mutlak",
+      "es": "absoluto",
+      "fr": "absolu",
+      "de": "Absolute",
+      "it": "assoluto"
+    }
+  },
+  {
+    "id": "ox-b2-3",
+    "word": "academic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akademik",
+      "es": "académico",
+      "fr": "académique",
+      "de": "akademisch",
+      "it": "accademico"
+    }
+  },
+  {
+    "id": "ox-b2-4",
+    "word": "accuse",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "suçlamak",
+      "es": "acusar",
+      "fr": "accuser",
+      "de": "beschuldigen",
+      "it": "accusare"
+    }
+  },
+  {
+    "id": "ox-b2-5",
+    "word": "acknowledge",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kabullenmek",
+      "es": "reconocer",
+      "fr": "reconnaître",
+      "de": "anerkennen",
+      "it": "riconoscere"
+    }
+  },
+  {
+    "id": "ox-b2-6",
+    "word": "acquire",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elde etmek",
+      "es": "adquirir",
+      "fr": "acquérir",
+      "de": "erwerben",
+      "it": "acquisire"
+    }
+  },
+  {
+    "id": "ox-b2-7",
+    "word": "actual",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçek",
+      "es": "actual",
+      "fr": "réel",
+      "de": "tatsächlich",
+      "it": "reale"
+    }
+  },
+  {
+    "id": "ox-b2-8",
+    "word": "adapt",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyum sağlamak",
+      "es": "adaptar",
+      "fr": "adapter",
+      "de": "anpassen",
+      "it": "adattare"
+    }
+  },
+  {
+    "id": "ox-b2-9",
+    "word": "additional",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ek olarak",
+      "es": "adicional",
+      "fr": "supplémentaire",
+      "de": "zusätzlich",
+      "it": "aggiuntivo"
+    }
+  },
+  {
+    "id": "ox-b2-10",
+    "word": "administration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönetim",
+      "es": "administración",
+      "fr": "administration",
+      "de": "Verwaltung",
+      "it": "amministrazione"
+    }
+  },
+  {
+    "id": "ox-b2-11",
+    "word": "adopt",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "evlat edinmek",
+      "es": "adoptar",
+      "fr": "adopter",
+      "de": "adoptieren",
+      "it": "adottare"
+    }
+  },
+  {
+    "id": "ox-b2-12",
+    "word": "affair",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mesele",
+      "es": "amorío",
+      "fr": "affaire",
+      "de": "Affäre",
+      "it": "affare"
+    }
+  },
+  {
+    "id": "ox-b2-13",
+    "word": "afterward",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "daha sonra",
+      "es": "después",
+      "fr": "après",
+      "de": "später",
+      "it": "dopo"
+    }
+  },
+  {
+    "id": "ox-b2-14",
+    "word": "agenda",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gündem",
+      "es": "orden del día",
+      "fr": "ordre du jour",
+      "de": "Agenda",
+      "it": "ordine del giorno"
+    }
+  },
+  {
+    "id": "ox-b2-15",
+    "word": "aggressive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "agresif",
+      "es": "agresivo",
+      "fr": "agressif",
+      "de": "aggressiv",
+      "it": "aggressivo"
+    }
+  },
+  {
+    "id": "ox-b2-16",
+    "word": "aid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yardım",
+      "es": "ayuda",
+      "fr": "aide",
+      "de": "Hilfe",
+      "it": "aiuto"
+    }
+  },
+  {
+    "id": "ox-b2-17",
+    "word": "alter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değiştirmek",
+      "es": "alterar",
+      "fr": "modifier",
+      "de": "ändern",
+      "it": "alterare"
+    }
+  },
+  {
+    "id": "ox-b2-18",
+    "word": "anger",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kızgınlık",
+      "es": "enojo",
+      "fr": "colère",
+      "de": "Wut",
+      "it": "rabbia"
+    }
+  },
+  {
+    "id": "ox-b2-19",
+    "word": "angle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açı",
+      "es": "ángulo",
+      "fr": "angle",
+      "de": "Winkel",
+      "it": "angolo"
+    }
+  },
+  {
+    "id": "ox-b2-20",
+    "word": "apparent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belirgin",
+      "es": "aparente",
+      "fr": "apparent",
+      "de": "ersichtlich",
+      "it": "apparente"
+    }
+  },
+  {
+    "id": "ox-b2-21",
+    "word": "apparently",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görünüşe göre",
+      "es": "aparentemente",
+      "fr": "apparemment",
+      "de": "scheinbar",
+      "it": "apparentemente"
+    }
+  },
+  {
+    "id": "ox-b2-22",
+    "word": "appeal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çekici",
+      "es": "apelar",
+      "fr": "appel",
+      "de": "appellieren",
+      "it": "appello"
+    }
+  },
+  {
+    "id": "ox-b2-23",
+    "word": "appropriate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygun",
+      "es": "adecuado",
+      "fr": "approprié",
+      "de": "geeignet",
+      "it": "appropriato"
+    }
+  },
+  {
+    "id": "ox-b2-24",
+    "word": "approval",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onay",
+      "es": "aprobación",
+      "fr": "approbation",
+      "de": "Genehmigung",
+      "it": "approvazione"
+    }
+  },
+  {
+    "id": "ox-b2-25",
+    "word": "arise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalkmak",
+      "es": "surgir",
+      "fr": "surgir",
+      "de": "entstehen",
+      "it": "presentarsi"
+    }
+  },
+  {
+    "id": "ox-b2-26",
+    "word": "armed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "silahlı",
+      "es": "armado",
+      "fr": "armé",
+      "de": "bewaffnet",
+      "it": "armato"
+    }
+  },
+  {
+    "id": "ox-b2-27",
+    "word": "arms",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "silahlar",
+      "es": "brazos",
+      "fr": "bras",
+      "de": "Waffen",
+      "it": "braccia"
+    }
+  },
+  {
+    "id": "ox-b2-28",
+    "word": "artificial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapay",
+      "es": "artificial",
+      "fr": "artificiel",
+      "de": "künstlich",
+      "it": "artificiale"
+    }
+  },
+  {
+    "id": "ox-b2-29",
+    "word": "artistic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sanatsal",
+      "es": "artístico",
+      "fr": "artistique",
+      "de": "künstlerisch",
+      "it": "artistico"
+    }
+  },
+  {
+    "id": "ox-b2-30",
+    "word": "aspect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bakış açısı",
+      "es": "aspecto",
+      "fr": "aspect",
+      "de": "Aspekt",
+      "it": "aspetto"
+    }
+  },
+  {
+    "id": "ox-b2-31",
+    "word": "assess",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değer biçmek",
+      "es": "evaluar",
+      "fr": "évaluer",
+      "de": "bewerten",
+      "it": "valutare"
+    }
+  },
+  {
+    "id": "ox-b2-32",
+    "word": "assessment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değerlendirme",
+      "es": "evaluación",
+      "fr": "évaluation",
+      "de": "Bewertung",
+      "it": "valutazione"
+    }
+  },
+  {
+    "id": "ox-b2-33",
+    "word": "associate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iş arkadaşı",
+      "es": "asociado",
+      "fr": "associé",
+      "de": "assoziieren",
+      "it": "socio"
+    }
+  },
+  {
+    "id": "ox-b2-34",
+    "word": "associated",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birleşmiş",
+      "es": "asociado",
+      "fr": "associé",
+      "de": "verbunden",
+      "it": "associato"
+    }
+  },
+  {
+    "id": "ox-b2-35",
+    "word": "association",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dernek",
+      "es": "asociación",
+      "fr": "association",
+      "de": "Verein",
+      "it": "associazione"
+    }
+  },
+  {
+    "id": "ox-b2-36",
+    "word": "assume",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "farz etmek",
+      "es": "asumir",
+      "fr": "supposer",
+      "de": "annehmen",
+      "it": "assumere"
+    }
+  },
+  {
+    "id": "ox-b2-37",
+    "word": "assumption",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varsayım",
+      "es": "suposición",
+      "fr": "hypothèse",
+      "de": "Annahme",
+      "it": "assunzione"
+    }
+  },
+  {
+    "id": "ox-b2-38",
+    "word": "assurance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvence",
+      "es": "garantía",
+      "fr": "assurance",
+      "de": "Sicherheit",
+      "it": "assicurazione"
+    }
+  },
+  {
+    "id": "ox-b2-39",
+    "word": "astonishing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şaşırtıcı",
+      "es": "asombroso",
+      "fr": "étonnant",
+      "de": "erstaunlich",
+      "it": "stupefacente"
+    }
+  },
+  {
+    "id": "ox-b2-40",
+    "word": "attachment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "EK",
+      "es": "adjunto",
+      "fr": "pièce jointe",
+      "de": "Anhang",
+      "it": "attaccamento"
+    }
+  },
+  {
+    "id": "ox-b2-41",
+    "word": "attorney",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "avukat",
+      "es": "abogado",
+      "fr": "avocat",
+      "de": "Rechtsanwalt",
+      "it": "avvocato"
+    }
+  },
+  {
+    "id": "ox-b2-42",
+    "word": "authority",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yetki",
+      "es": "autoridad",
+      "fr": "autorité",
+      "de": "Behörde",
+      "it": "autorità"
+    }
+  },
+  {
+    "id": "ox-b2-43",
+    "word": "automatic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "otomatik",
+      "es": "automático",
+      "fr": "automatique",
+      "de": "automatisch",
+      "it": "automatico"
+    }
+  },
+  {
+    "id": "ox-b2-44",
+    "word": "automatically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "otomatik olarak",
+      "es": "automáticamente",
+      "fr": "automatiquement",
+      "de": "automatisch",
+      "it": "automaticamente"
+    }
+  },
+  {
+    "id": "ox-b2-45",
+    "word": "award",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ödül",
+      "es": "otorgar",
+      "fr": "prix",
+      "de": "vergeben",
+      "it": "premio"
+    }
+  },
+  {
+    "id": "ox-b2-46",
+    "word": "aware",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "farkında olmak",
+      "es": "consciente",
+      "fr": "conscient",
+      "de": "bewusst",
+      "it": "consapevole"
+    }
+  },
+  {
+    "id": "ox-b2-47",
+    "word": "awareness",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "farkındalık",
+      "es": "conciencia",
+      "fr": "conscience",
+      "de": "Bewusstsein",
+      "it": "consapevolezza"
+    }
+  },
+  {
+    "id": "ox-b2-48",
+    "word": "awkward",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "garip",
+      "es": "extraño",
+      "fr": "maladroit",
+      "de": "unangenehm",
+      "it": "imbarazzante"
+    }
+  },
+  {
+    "id": "ox-b2-49",
+    "word": "balance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "denge",
+      "es": "balance",
+      "fr": "équilibre",
+      "de": "Gleichgewicht",
+      "it": "bilancia"
+    }
+  },
+  {
+    "id": "ox-b2-50",
+    "word": "barely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "neredeyse",
+      "es": "apenas",
+      "fr": "à peine",
+      "de": "kaum",
+      "it": "appena"
+    }
+  },
+  {
+    "id": "ox-b2-51",
+    "word": "barrier",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bariyer",
+      "es": "barrera",
+      "fr": "barrière",
+      "de": "Barriere",
+      "it": "barriera"
+    }
+  },
+  {
+    "id": "ox-b2-52",
+    "word": "basically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "temel olarak",
+      "es": "básicamente",
+      "fr": "essentiellement",
+      "de": "grundsätzlich",
+      "it": "fondamentalmente"
+    }
+  },
+  {
+    "id": "ox-b2-53",
+    "word": "beg",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yalvarmak",
+      "es": "mendigar",
+      "fr": "mendier",
+      "de": "bitten",
+      "it": "elemosinare"
+    }
+  },
+  {
+    "id": "ox-b2-54",
+    "word": "being",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapı",
+      "es": "ser",
+      "fr": "être",
+      "de": "Sein",
+      "it": "essendo"
+    }
+  },
+  {
+    "id": "ox-b2-55",
+    "word": "belief",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "inanç",
+      "es": "creencia",
+      "fr": "croyance",
+      "de": "Glauben",
+      "it": "credenza"
+    }
+  },
+  {
+    "id": "ox-b2-56",
+    "word": "bend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bükülmek",
+      "es": "doblar",
+      "fr": "plier",
+      "de": "biegen",
+      "it": "curva"
+    }
+  },
+  {
+    "id": "ox-b2-57",
+    "word": "bent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bükülmüş",
+      "es": "doblado",
+      "fr": "courbé",
+      "de": "gebogen",
+      "it": "piegato"
+    }
+  },
+  {
+    "id": "ox-b2-58",
+    "word": "bias",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ön yargı",
+      "es": "inclinación",
+      "fr": "biais",
+      "de": "Voreingenommenheit",
+      "it": "pregiudizio"
+    }
+  },
+  {
+    "id": "ox-b2-59",
+    "word": "bid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teklif etmek",
+      "es": "licitación",
+      "fr": "offre",
+      "de": "Gebot",
+      "it": "offerta"
+    }
+  },
+  {
+    "id": "ox-b2-60",
+    "word": "bond",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlamak",
+      "es": "vínculo",
+      "fr": "lier",
+      "de": "Bindung",
+      "it": "legame"
+    }
+  },
+  {
+    "id": "ox-b2-61",
+    "word": "bore",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "delik",
+      "es": "aburrir",
+      "fr": "alésage",
+      "de": "langweilig",
+      "it": "foro"
+    }
+  },
+  {
+    "id": "ox-b2-62",
+    "word": "bound",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlı",
+      "es": "atado",
+      "fr": "lié",
+      "de": "gebunden",
+      "it": "limite"
+    }
+  },
+  {
+    "id": "ox-b2-63",
+    "word": "bracket",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "braket",
+      "es": "soporte",
+      "fr": "support",
+      "de": "Halterung",
+      "it": "staffa"
+    }
+  },
+  {
+    "id": "ox-b2-64",
+    "word": "brand",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "marka",
+      "es": "marca",
+      "fr": "marque",
+      "de": "Marke",
+      "it": "marca"
+    }
+  },
+  {
+    "id": "ox-b2-65",
+    "word": "breach",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çiğneme",
+      "es": "incumplimiento",
+      "fr": "enfreindre",
+      "de": "Verstoß",
+      "it": "violazione"
+    }
+  },
+  {
+    "id": "ox-b2-66",
+    "word": "breakdown",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bozulma",
+      "es": "descomponer",
+      "fr": "panne",
+      "de": "abbauen",
+      "it": "guasto"
+    }
+  },
+  {
+    "id": "ox-b2-67",
+    "word": "briefly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısaca",
+      "es": "brevemente",
+      "fr": "brièvement",
+      "de": "knapp",
+      "it": "brevemente"
+    }
+  },
+  {
+    "id": "ox-b2-68",
+    "word": "broadcast",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yayın",
+      "es": "transmisión",
+      "fr": "diffuser",
+      "de": "übertragen",
+      "it": "trasmissione"
+    }
+  },
+  {
+    "id": "ox-b2-69",
+    "word": "budget",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bütçe",
+      "es": "presupuesto",
+      "fr": "budget",
+      "de": "Budget",
+      "it": "bilancio"
+    }
+  },
+  {
+    "id": "ox-b2-70",
+    "word": "burden",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yük",
+      "es": "carga",
+      "fr": "fardeau",
+      "de": "Last",
+      "it": "fardello"
+    }
+  },
+  {
+    "id": "ox-b2-71",
+    "word": "burst",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "patlamak",
+      "es": "explosión",
+      "fr": "éclatement",
+      "de": "platzen",
+      "it": "scoppiare"
+    }
+  },
+  {
+    "id": "ox-b2-72",
+    "word": "calculation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hesaplama",
+      "es": "cálculo",
+      "fr": "calcul",
+      "de": "Berechnung",
+      "it": "calcolo"
+    }
+  },
+  {
+    "id": "ox-b2-73",
+    "word": "campaign",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kampanya",
+      "es": "campaña",
+      "fr": "campagne",
+      "de": "Kampagne",
+      "it": "campagna"
+    }
+  },
+  {
+    "id": "ox-b2-74",
+    "word": "cancer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kanser",
+      "es": "cáncer",
+      "fr": "cancer",
+      "de": "Krebs",
+      "it": "cancro"
+    }
+  },
+  {
+    "id": "ox-b2-75",
+    "word": "capable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yetenekli",
+      "es": "capaz",
+      "fr": "capable",
+      "de": "fähig",
+      "it": "capace"
+    }
+  },
+  {
+    "id": "ox-b2-76",
+    "word": "capacity",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapasite",
+      "es": "capacidad",
+      "fr": "capacité",
+      "de": "Kapazität",
+      "it": "capacità"
+    }
+  },
+  {
+    "id": "ox-b2-77",
+    "word": "capture",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "esir almak",
+      "es": "captura",
+      "fr": "capturer",
+      "de": "erfassen",
+      "it": "catturare"
+    }
+  },
+  {
+    "id": "ox-b2-78",
+    "word": "cast",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "döküm",
+      "es": "elenco",
+      "fr": "casting",
+      "de": "gießen",
+      "it": "lancio"
+    }
+  },
+  {
+    "id": "ox-b2-79",
+    "word": "category",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kategori",
+      "es": "categoría",
+      "fr": "catégorie",
+      "de": "Kategorie",
+      "it": "categoria"
+    }
+  },
+  {
+    "id": "ox-b2-80",
+    "word": "cease",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "durdurmak",
+      "es": "cesar",
+      "fr": "cesser",
+      "de": "aufhören",
+      "it": "cessare"
+    }
+  },
+  {
+    "id": "ox-b2-81",
+    "word": "cell",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hücre",
+      "es": "celúla",
+      "fr": "cellule",
+      "de": "Zelle",
+      "it": "cella"
+    }
+  },
+  {
+    "id": "ox-b2-82",
+    "word": "characteristic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karakteristik",
+      "es": "característica",
+      "fr": "caractéristiques",
+      "de": "Merkmal",
+      "it": "caratteristica"
+    }
+  },
+  {
+    "id": "ox-b2-83",
+    "word": "chase",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "takip etmek",
+      "es": "perseguir",
+      "fr": "chasse",
+      "de": "Verfolgungsjagd",
+      "it": "caccia"
+    }
+  },
+  {
+    "id": "ox-b2-84",
+    "word": "chemical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kimyasal",
+      "es": "químico",
+      "fr": "chimique",
+      "de": "chemisch",
+      "it": "chimico"
+    }
+  },
+  {
+    "id": "ox-b2-85",
+    "word": "chief",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şef",
+      "es": "jefe",
+      "fr": "chef",
+      "de": "Chef",
+      "it": "capo"
+    }
+  },
+  {
+    "id": "ox-b2-86",
+    "word": "circumstance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "durum",
+      "es": "circunstancia",
+      "fr": "circonstance",
+      "de": "Umstand",
+      "it": "circostanza"
+    }
+  },
+  {
+    "id": "ox-b2-87",
+    "word": "cite",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alıntı yapmak",
+      "es": "citar",
+      "fr": "citer",
+      "de": "zitieren",
+      "it": "citare"
+    }
+  },
+  {
+    "id": "ox-b2-88",
+    "word": "citizen",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vatandaş",
+      "es": "ciudadano",
+      "fr": "citoyen",
+      "de": "Bürger",
+      "it": "cittadino"
+    }
+  },
+  {
+    "id": "ox-b2-89",
+    "word": "civil",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sivil",
+      "es": "civil",
+      "fr": "civil",
+      "de": "bürgerlich",
+      "it": "civile"
+    }
+  },
+  {
+    "id": "ox-b2-90",
+    "word": "claim",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iddia",
+      "es": "afirmar",
+      "fr": "réclamer",
+      "de": "beanspruchen",
+      "it": "reclamo"
+    }
+  },
+  {
+    "id": "ox-b2-91",
+    "word": "classic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "klasik",
+      "es": "clásico",
+      "fr": "classique",
+      "de": "Klassiker",
+      "it": "classico"
+    }
+  },
+  {
+    "id": "ox-b2-92",
+    "word": "clause",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "madde",
+      "es": "cláusula",
+      "fr": "clause",
+      "de": "Klausel",
+      "it": "clausola"
+    }
+  },
+  {
+    "id": "ox-b2-93",
+    "word": "clerk",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katip",
+      "es": "oficinista",
+      "fr": "greffier",
+      "de": "Sachbearbeiter",
+      "it": "impiegato"
+    }
+  },
+  {
+    "id": "ox-b2-94",
+    "word": "client",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "müşteri",
+      "es": "cliente",
+      "fr": "client",
+      "de": "Kunde",
+      "it": "cliente"
+    }
+  },
+  {
+    "id": "ox-b2-95",
+    "word": "closely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yakından",
+      "es": "cercanamente",
+      "fr": "étroitement",
+      "de": "eng",
+      "it": "da vicino"
+    }
+  },
+  {
+    "id": "ox-b2-96",
+    "word": "clue",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ipucu",
+      "es": "clave",
+      "fr": "indice",
+      "de": "Hinweis",
+      "it": "traccia"
+    }
+  },
+  {
+    "id": "ox-b2-97",
+    "word": "coal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kömür",
+      "es": "carbón",
+      "fr": "charbon",
+      "de": "Kohle",
+      "it": "carbone"
+    }
+  },
+  {
+    "id": "ox-b2-98",
+    "word": "code",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kod",
+      "es": "código",
+      "fr": "code",
+      "de": "Code",
+      "it": "codice"
+    }
+  },
+  {
+    "id": "ox-b2-99",
+    "word": "collapse",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yıkılmak",
+      "es": "colapsar",
+      "fr": "effondrement",
+      "de": "Zusammenbruch",
+      "it": "crollo"
+    }
+  },
+  {
+    "id": "ox-b2-100",
+    "word": "column",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kolon",
+      "es": "columna",
+      "fr": "colonne",
+      "de": "Spalte",
+      "it": "colonna"
+    }
+  },
+  {
+    "id": "ox-b2-101",
+    "word": "combination",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kombinasyon",
+      "es": "combinación",
+      "fr": "combinaison",
+      "de": "Kombination",
+      "it": "combinazione"
+    }
+  },
+  {
+    "id": "ox-b2-102",
+    "word": "combine",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birleştirmek",
+      "es": "combinar",
+      "fr": "combiner",
+      "de": "kombinieren",
+      "it": "combinare"
+    }
+  },
+  {
+    "id": "ox-b2-103",
+    "word": "command",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emretmek",
+      "es": "dominio",
+      "fr": "commande",
+      "de": "Befehl",
+      "it": "comando"
+    }
+  },
+  {
+    "id": "ox-b2-104",
+    "word": "commercial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "reklam",
+      "es": "comercial",
+      "fr": "commercial",
+      "de": "kommerziell",
+      "it": "commerciale"
+    }
+  },
+  {
+    "id": "ox-b2-105",
+    "word": "commission",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "komisyon",
+      "es": "comisión",
+      "fr": "commission",
+      "de": "Kommission",
+      "it": "commissione"
+    }
+  },
+  {
+    "id": "ox-b2-106",
+    "word": "commit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işlemek",
+      "es": "comprometerse",
+      "fr": "commettre",
+      "de": "begehen",
+      "it": "impegnarsi"
+    }
+  },
+  {
+    "id": "ox-b2-107",
+    "word": "commitment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlılık",
+      "es": "compromiso",
+      "fr": "engagement",
+      "de": "Engagement",
+      "it": "impegno"
+    }
+  },
+  {
+    "id": "ox-b2-108",
+    "word": "committee",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "komite",
+      "es": "comité",
+      "fr": "comité",
+      "de": "Ausschuss",
+      "it": "comitato"
+    }
+  },
+  {
+    "id": "ox-b2-109",
+    "word": "commonly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaygın olarak",
+      "es": "comúnmente",
+      "fr": "communément",
+      "de": "häufig",
+      "it": "comunemente"
+    }
+  },
+  {
+    "id": "ox-b2-110",
+    "word": "community",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplum",
+      "es": "comunidad",
+      "fr": "communauté",
+      "de": "Gemeinschaft",
+      "it": "comunità"
+    }
+  },
+  {
+    "id": "ox-b2-111",
+    "word": "comparison",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşılaştırmak",
+      "es": "comparación",
+      "fr": "comparaison",
+      "de": "Vergleich",
+      "it": "confronto"
+    }
+  },
+  {
+    "id": "ox-b2-112",
+    "word": "competitive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rekabetçi",
+      "es": "competitivo",
+      "fr": "compétitif",
+      "de": "wettbewerbsfähig",
+      "it": "competitivo"
+    }
+  },
+  {
+    "id": "ox-b2-113",
+    "word": "complex",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karmaşık",
+      "es": "complejo",
+      "fr": "complexe",
+      "de": "Komplex",
+      "it": "complesso"
+    }
+  },
+  {
+    "id": "ox-b2-114",
+    "word": "complicate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karmaşık",
+      "es": "complicar",
+      "fr": "compliquer",
+      "de": "komplizieren",
+      "it": "complicare"
+    }
+  },
+  {
+    "id": "ox-b2-115",
+    "word": "component",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bileşen",
+      "es": "componente",
+      "fr": "composant",
+      "de": "Komponente",
+      "it": "componente"
+    }
+  },
+  {
+    "id": "ox-b2-116",
+    "word": "compose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beste yapmak",
+      "es": "componer",
+      "fr": "composer",
+      "de": "komponieren",
+      "it": "comporre"
+    }
+  },
+  {
+    "id": "ox-b2-117",
+    "word": "compound",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birleştirmek",
+      "es": "compuesto",
+      "fr": "composé",
+      "de": "Verbindung",
+      "it": "composto"
+    }
+  },
+  {
+    "id": "ox-b2-118",
+    "word": "comprehensive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapsayıcı",
+      "es": "integral",
+      "fr": "complet",
+      "de": "umfassend",
+      "it": "completo"
+    }
+  },
+  {
+    "id": "ox-b2-119",
+    "word": "comprise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içermek",
+      "es": "comprender",
+      "fr": "comprendre",
+      "de": "umfassen",
+      "it": "comprendere"
+    }
+  },
+  {
+    "id": "ox-b2-120",
+    "word": "compromise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anlaşmak",
+      "es": "compromiso",
+      "fr": "compromis",
+      "de": "Kompromiss",
+      "it": "compromesso"
+    }
+  },
+  {
+    "id": "ox-b2-121",
+    "word": "concentration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "konsantrasyon",
+      "es": "concentración",
+      "fr": "concentration",
+      "de": "Konzentration",
+      "it": "concentrazione"
+    }
+  },
+  {
+    "id": "ox-b2-122",
+    "word": "concept",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kavram",
+      "es": "concepto",
+      "fr": "concept",
+      "de": "Konzept",
+      "it": "concetto"
+    }
+  },
+  {
+    "id": "ox-b2-123",
+    "word": "concern",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaygı",
+      "es": "inquietud",
+      "fr": "préoccupation",
+      "de": "Sorge",
+      "it": "preoccupazione"
+    }
+  },
+  {
+    "id": "ox-b2-124",
+    "word": "concerned",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "endişeli",
+      "es": "preocupado",
+      "fr": "concerné",
+      "de": "betroffen",
+      "it": "interessato"
+    }
+  },
+  {
+    "id": "ox-b2-125",
+    "word": "concerning",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişkin",
+      "es": "sobre",
+      "fr": "concernant",
+      "de": "betreffend",
+      "it": "riguardante"
+    }
+  },
+  {
+    "id": "ox-b2-126",
+    "word": "conclude",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonuçlandırmak",
+      "es": "concluir",
+      "fr": "conclure",
+      "de": "abschließen",
+      "it": "concludere"
+    }
+  },
+  {
+    "id": "ox-b2-127",
+    "word": "concrete",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beton",
+      "es": "concreto",
+      "fr": "béton",
+      "de": "Beton",
+      "it": "calcestruzzo"
+    }
+  },
+  {
+    "id": "ox-b2-128",
+    "word": "conduct",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönetmek",
+      "es": "conducta",
+      "fr": "conduire",
+      "de": "Benehmen",
+      "it": "condotta"
+    }
+  },
+  {
+    "id": "ox-b2-129",
+    "word": "confidence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kendinden emin",
+      "es": "confianza",
+      "fr": "confiance",
+      "de": "Vertrauen",
+      "it": "fiducia"
+    }
+  },
+  {
+    "id": "ox-b2-130",
+    "word": "conflict",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anlaşmazlık",
+      "es": "conflicto",
+      "fr": "conflit",
+      "de": "Konflikt",
+      "it": "conflitto"
+    }
+  },
+  {
+    "id": "ox-b2-131",
+    "word": "confront",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzleşmek",
+      "es": "confrontar",
+      "fr": "affronter",
+      "de": "konfrontieren",
+      "it": "confrontarsi"
+    }
+  },
+  {
+    "id": "ox-b2-132",
+    "word": "confuse",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kafası karışmak",
+      "es": "confundir",
+      "fr": "embrouiller",
+      "de": "verwechseln",
+      "it": "confondere"
+    }
+  },
+  {
+    "id": "ox-b2-133",
+    "word": "confusion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilinç bulanıklığı, konfüzyon",
+      "es": "confusión",
+      "fr": "confusion",
+      "de": "Verwirrung",
+      "it": "confusione"
+    }
+  },
+  {
+    "id": "ox-b2-134",
+    "word": "congratulate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tebrik etmek",
+      "es": "felicitar",
+      "fr": "féliciter",
+      "de": "gratulieren",
+      "it": "congratularmi"
+    }
+  },
+  {
+    "id": "ox-b2-135",
+    "word": "congress",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kongre",
+      "es": "congreso",
+      "fr": "congrès",
+      "de": "Kongress",
+      "it": "congresso"
+    }
+  },
+  {
+    "id": "ox-b2-136",
+    "word": "conscious",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilinçli",
+      "es": "consciente",
+      "fr": "conscient",
+      "de": "bewusst",
+      "it": "cosciente"
+    }
+  },
+  {
+    "id": "ox-b2-137",
+    "word": "consequence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonuçlar",
+      "es": "consecuencia",
+      "fr": "conséquence",
+      "de": "Folge",
+      "it": "conseguenza"
+    }
+  },
+  {
+    "id": "ox-b2-138",
+    "word": "conservative",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tutucu",
+      "es": "conservador",
+      "fr": "conservateur",
+      "de": "konservativ",
+      "it": "conservatore"
+    }
+  },
+  {
+    "id": "ox-b2-139",
+    "word": "considerable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hatırı sayılır",
+      "es": "considerable",
+      "fr": "considérable",
+      "de": "beträchtlich",
+      "it": "considerevole"
+    }
+  },
+  {
+    "id": "ox-b2-140",
+    "word": "considerably",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önemli ölçüde",
+      "es": "importantemente",
+      "fr": "considérablement",
+      "de": "wesentlich",
+      "it": "considerevolmente"
+    }
+  },
+  {
+    "id": "ox-b2-141",
+    "word": "consideration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düşünce",
+      "es": "consideración",
+      "fr": "considération",
+      "de": "Rücksichtnahme",
+      "it": "considerazione"
+    }
+  },
+  {
+    "id": "ox-b2-142",
+    "word": "consistent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tutarlı",
+      "es": "coherente",
+      "fr": "cohérent",
+      "de": "konsistent",
+      "it": "coerente"
+    }
+  },
+  {
+    "id": "ox-b2-143",
+    "word": "constant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "devamlı",
+      "es": "constante",
+      "fr": "constante",
+      "de": "Konstante",
+      "it": "costante"
+    }
+  },
+  {
+    "id": "ox-b2-144",
+    "word": "constantly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sürekli",
+      "es": "constantemente",
+      "fr": "en permanence",
+      "de": "ständig",
+      "it": "costantemente"
+    }
+  },
+  {
+    "id": "ox-b2-145",
+    "word": "constitute",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oluşturmak",
+      "es": "constituir",
+      "fr": "constituer",
+      "de": "bilden",
+      "it": "costituire"
+    }
+  },
+  {
+    "id": "ox-b2-146",
+    "word": "constitution",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anayasa",
+      "es": "constitución",
+      "fr": "constitution",
+      "de": "Verfassung",
+      "it": "costituzione"
+    }
+  },
+  {
+    "id": "ox-b2-147",
+    "word": "construct",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "inşa etmek",
+      "es": "construir",
+      "fr": "construction",
+      "de": "Konstrukt",
+      "it": "costruire"
+    }
+  },
+  {
+    "id": "ox-b2-148",
+    "word": "construction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapı",
+      "es": "construcción",
+      "fr": "construction",
+      "de": "Konstruktion",
+      "it": "costruzione"
+    }
+  },
+  {
+    "id": "ox-b2-149",
+    "word": "consult",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "danışmak",
+      "es": "consultar",
+      "fr": "consulter",
+      "de": "konsultieren",
+      "it": "consultare"
+    }
+  },
+  {
+    "id": "ox-b2-150",
+    "word": "consumer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tüketici",
+      "es": "consumidor",
+      "fr": "consommateur",
+      "de": "Verbraucher",
+      "it": "consumatore"
+    }
+  },
+  {
+    "id": "ox-b2-151",
+    "word": "consumption",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tüketim",
+      "es": "consumo",
+      "fr": "consommation",
+      "de": "Verbrauch",
+      "it": "consumo"
+    }
+  },
+  {
+    "id": "ox-b2-152",
+    "word": "contemporary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "modern",
+      "es": "contemporáneo",
+      "fr": "contemporain",
+      "de": "zeitgenössisch",
+      "it": "contemporaneo"
+    }
+  },
+  {
+    "id": "ox-b2-153",
+    "word": "content",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içerik",
+      "es": "contenido",
+      "fr": "contenu",
+      "de": "Inhalt",
+      "it": "contenuto"
+    }
+  },
+  {
+    "id": "ox-b2-154",
+    "word": "context",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlam",
+      "es": "contexto",
+      "fr": "contexte",
+      "de": "Kontext",
+      "it": "contesto"
+    }
+  },
+  {
+    "id": "ox-b2-155",
+    "word": "continuous",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sürekli",
+      "es": "continuo",
+      "fr": "continu",
+      "de": "kontinuierlich",
+      "it": "continuo"
+    }
+  },
+  {
+    "id": "ox-b2-156",
+    "word": "contrast",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zıtlık",
+      "es": "contraste",
+      "fr": "contraste",
+      "de": "Kontrast",
+      "it": "contrasto"
+    }
+  },
+  {
+    "id": "ox-b2-157",
+    "word": "contribute",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katkı yapmak",
+      "es": "contribuir",
+      "fr": "contribuer",
+      "de": "beitragen",
+      "it": "contribuire"
+    }
+  },
+  {
+    "id": "ox-b2-158",
+    "word": "contribution",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katkı",
+      "es": "contribución",
+      "fr": "contribution",
+      "de": "Beitrag",
+      "it": "contributo"
+    }
+  },
+  {
+    "id": "ox-b2-159",
+    "word": "controversial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tartışmalı",
+      "es": "controversial",
+      "fr": "controversé",
+      "de": "umstritten",
+      "it": "controverso"
+    }
+  },
+  {
+    "id": "ox-b2-160",
+    "word": "controversy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tartışma",
+      "es": "controversia",
+      "fr": "controverse",
+      "de": "Kontroverse",
+      "it": "controversia"
+    }
+  },
+  {
+    "id": "ox-b2-161",
+    "word": "convenience",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kolaylık",
+      "es": "conveniencia",
+      "fr": "commodité",
+      "de": "Bequemlichkeit",
+      "it": "convenienza"
+    }
+  },
+  {
+    "id": "ox-b2-162",
+    "word": "convention",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kongre",
+      "es": "convención",
+      "fr": "convention",
+      "de": "Konvention",
+      "it": "convenzione"
+    }
+  },
+  {
+    "id": "ox-b2-163",
+    "word": "conventional",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geleneksel",
+      "es": "convencional",
+      "fr": "conventionnel",
+      "de": "konventionell",
+      "it": "convenzionale"
+    }
+  },
+  {
+    "id": "ox-b2-164",
+    "word": "convert",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dönüştürmek",
+      "es": "convertir",
+      "fr": "convertir",
+      "de": "konvertieren",
+      "it": "convertire"
+    }
+  },
+  {
+    "id": "ox-b2-165",
+    "word": "convict",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mahkum",
+      "es": "condenar",
+      "fr": "condamner",
+      "de": "Sträfling",
+      "it": "condannato"
+    }
+  },
+  {
+    "id": "ox-b2-166",
+    "word": "conviction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mahkumiyet",
+      "es": "convicción",
+      "fr": "conviction",
+      "de": "Überzeugung",
+      "it": "convinzione"
+    }
+  },
+  {
+    "id": "ox-b2-167",
+    "word": "convinced",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikna edilmiş",
+      "es": "convencido",
+      "fr": "convaincu",
+      "de": "überzeugt",
+      "it": "convinto"
+    }
+  },
+  {
+    "id": "ox-b2-168",
+    "word": "cooperate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işbirliği yapmak",
+      "es": "cooperar",
+      "fr": "coopérer",
+      "de": "zusammenarbeiten",
+      "it": "cooperare"
+    }
+  },
+  {
+    "id": "ox-b2-169",
+    "word": "coordinate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koordinat",
+      "es": "coordinar",
+      "fr": "coordonner",
+      "de": "koordinieren",
+      "it": "coordinata"
+    }
+  },
+  {
+    "id": "ox-b2-170",
+    "word": "core",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çekirdek",
+      "es": "centro",
+      "fr": "cœur",
+      "de": "Kern",
+      "it": "nucleo"
+    }
+  },
+  {
+    "id": "ox-b2-171",
+    "word": "corporate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurumsal",
+      "es": "corporativo",
+      "fr": "entreprise",
+      "de": "Unternehmen",
+      "it": "aziendale"
+    }
+  },
+  {
+    "id": "ox-b2-172",
+    "word": "corporation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şirket",
+      "es": "corporación",
+      "fr": "corporation",
+      "de": "Gesellschaft",
+      "it": "società"
+    }
+  },
+  {
+    "id": "ox-b2-173",
+    "word": "correctly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "doğru şekilde",
+      "es": "correctamente",
+      "fr": "correctement",
+      "de": "korrekt",
+      "it": "correttamente"
+    }
+  },
+  {
+    "id": "ox-b2-174",
+    "word": "council",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "konsey",
+      "es": "concejo",
+      "fr": "conseil",
+      "de": "Rat",
+      "it": "consiglio"
+    }
+  },
+  {
+    "id": "ox-b2-175",
+    "word": "counsel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öğüt",
+      "es": "consejo",
+      "fr": "avocat",
+      "de": "Rat",
+      "it": "consiglio"
+    }
+  },
+  {
+    "id": "ox-b2-176",
+    "word": "counter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tezgah",
+      "es": "encimera",
+      "fr": "comptoir",
+      "de": "Schalter",
+      "it": "contatore"
+    }
+  },
+  {
+    "id": "ox-b2-177",
+    "word": "county",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kontluk",
+      "es": "condado",
+      "fr": "comté",
+      "de": "County",
+      "it": "contea"
+    }
+  },
+  {
+    "id": "ox-b2-178",
+    "word": "coverage",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapsama",
+      "es": "cobertura",
+      "fr": "couverture",
+      "de": "Abdeckung",
+      "it": "copertura"
+    }
+  },
+  {
+    "id": "ox-b2-179",
+    "word": "covered",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapalı",
+      "es": "cubierto",
+      "fr": "couvert",
+      "de": "bedeckt",
+      "it": "coperto"
+    }
+  },
+  {
+    "id": "ox-b2-180",
+    "word": "crack",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çatırtı",
+      "es": "grieta",
+      "fr": "fissure",
+      "de": "Riss",
+      "it": "crepa"
+    }
+  },
+  {
+    "id": "ox-b2-181",
+    "word": "craft",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zanaat",
+      "es": "artesanía",
+      "fr": "artisanat",
+      "de": "Handwerk",
+      "it": "mestiere"
+    }
+  },
+  {
+    "id": "ox-b2-182",
+    "word": "crazy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "deli",
+      "es": "loco",
+      "fr": "fou",
+      "de": "verrückt",
+      "it": "pazzo"
+    }
+  },
+  {
+    "id": "ox-b2-183",
+    "word": "creation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaratılış",
+      "es": "creación",
+      "fr": "création",
+      "de": "Schaffung",
+      "it": "creazione"
+    }
+  },
+  {
+    "id": "ox-b2-184",
+    "word": "creativity",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaratıcılık",
+      "es": "creatividad",
+      "fr": "créativité",
+      "de": "Kreativität",
+      "it": "creatività"
+    }
+  },
+  {
+    "id": "ox-b2-185",
+    "word": "creator",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaratıcı",
+      "es": "creador",
+      "fr": "créateur",
+      "de": "Schöpfer",
+      "it": "Creatore"
+    }
+  },
+  {
+    "id": "ox-b2-186",
+    "word": "crisis",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kriz",
+      "es": "crisis",
+      "fr": "crise",
+      "de": "Krise",
+      "it": "crisi"
+    }
+  },
+  {
+    "id": "ox-b2-187",
+    "word": "criterion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kriter",
+      "es": "criterio",
+      "fr": "critère",
+      "de": "Kriterium",
+      "it": "criterio"
+    }
+  },
+  {
+    "id": "ox-b2-188",
+    "word": "critic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eleştirmen",
+      "es": "crítico",
+      "fr": "critique",
+      "de": "Kritiker",
+      "it": "critico"
+    }
+  },
+  {
+    "id": "ox-b2-189",
+    "word": "critical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kritik",
+      "es": "crítico",
+      "fr": "critique",
+      "de": "kritisch",
+      "it": "critico"
+    }
+  },
+  {
+    "id": "ox-b2-190",
+    "word": "critically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eleştirel olarak",
+      "es": "críticamente",
+      "fr": "de manière critique",
+      "de": "kritisch",
+      "it": "criticamente"
+    }
+  },
+  {
+    "id": "ox-b2-191",
+    "word": "criticism",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eleştiri",
+      "es": "crítica",
+      "fr": "critique",
+      "de": "Kritik",
+      "it": "critica"
+    }
+  },
+  {
+    "id": "ox-b2-192",
+    "word": "criticize",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eleştirmek",
+      "es": "criticar",
+      "fr": "critiquer",
+      "de": "kritisieren",
+      "it": "criticare"
+    }
+  },
+  {
+    "id": "ox-b2-193",
+    "word": "crucial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hayati",
+      "es": "crucial",
+      "fr": "crucial",
+      "de": "entscheidend",
+      "it": "cruciale"
+    }
+  },
+  {
+    "id": "ox-b2-194",
+    "word": "curiosity",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "merak",
+      "es": "curiosidad",
+      "fr": "curiosité",
+      "de": "Neugier",
+      "it": "curiosità"
+    }
+  },
+  {
+    "id": "ox-b2-195",
+    "word": "current",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akım",
+      "es": "actual",
+      "fr": "actuel",
+      "de": "aktuell",
+      "it": "attuale"
+    }
+  },
+  {
+    "id": "ox-b2-196",
+    "word": "currently",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şu anda",
+      "es": "actualmente",
+      "fr": "actuellement",
+      "de": "momentan",
+      "it": "attualmente"
+    }
+  },
+  {
+    "id": "ox-b2-197",
+    "word": "dare",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cesaret",
+      "es": "atrevimiento",
+      "fr": "oser",
+      "de": "wagen",
+      "it": "osare"
+    }
+  },
+  {
+    "id": "ox-b2-198",
+    "word": "deadline",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "son teslim tarihi",
+      "es": "fecha límite",
+      "fr": "date limite",
+      "de": "Frist",
+      "it": "scadenza"
+    }
+  },
+  {
+    "id": "ox-b2-199",
+    "word": "dealer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "satıcı",
+      "es": "distribuidor",
+      "fr": "revendeur",
+      "de": "Händler",
+      "it": "rivenditore"
+    }
+  },
+  {
+    "id": "ox-b2-200",
+    "word": "debate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çekişme",
+      "es": "debate",
+      "fr": "débat",
+      "de": "Debatte",
+      "it": "discussione"
+    }
+  },
+  {
+    "id": "ox-b2-201",
+    "word": "debt",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "borç",
+      "es": "deuda",
+      "fr": "dette",
+      "de": "Schulden",
+      "it": "debito"
+    }
+  },
+  {
+    "id": "ox-b2-202",
+    "word": "decade",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "on yıl",
+      "es": "década",
+      "fr": "décennie",
+      "de": "Jahrzehnt",
+      "it": "decennio"
+    }
+  },
+  {
+    "id": "ox-b2-203",
+    "word": "decay",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çürümek",
+      "es": "decadencia",
+      "fr": "pourriture",
+      "de": "Verfall",
+      "it": "decadimento"
+    }
+  },
+  {
+    "id": "ox-b2-204",
+    "word": "decline",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "reddetmek",
+      "es": "rechazar",
+      "fr": "déclin",
+      "de": "Abfall",
+      "it": "declino"
+    }
+  },
+  {
+    "id": "ox-b2-205",
+    "word": "decoration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dekorasyon",
+      "es": "decoración",
+      "fr": "décoration",
+      "de": "Dekoration",
+      "it": "decorazione"
+    }
+  },
+  {
+    "id": "ox-b2-206",
+    "word": "deeply",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "derinden",
+      "es": "profundamente",
+      "fr": "profondément",
+      "de": "tief",
+      "it": "profondamente"
+    }
+  },
+  {
+    "id": "ox-b2-207",
+    "word": "defendant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sanık",
+      "es": "acusado",
+      "fr": "défendeur",
+      "de": "Beklagte",
+      "it": "convenuto"
+    }
+  },
+  {
+    "id": "ox-b2-208",
+    "word": "defensive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "savunma",
+      "es": "defensivo",
+      "fr": "défensive",
+      "de": "Defensive",
+      "it": "difensiva"
+    }
+  },
+  {
+    "id": "ox-b2-209",
+    "word": "deficiency",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eksiklik",
+      "es": "deficiencia",
+      "fr": "carence",
+      "de": "Mangel",
+      "it": "carenza"
+    }
+  },
+  {
+    "id": "ox-b2-210",
+    "word": "deficit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açık",
+      "es": "déficit",
+      "fr": "déficit",
+      "de": "Defizit",
+      "it": "disavanzo"
+    }
+  },
+  {
+    "id": "ox-b2-211",
+    "word": "define",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanımlamak",
+      "es": "definir",
+      "fr": "définir",
+      "de": "definieren",
+      "it": "definire"
+    }
+  },
+  {
+    "id": "ox-b2-212",
+    "word": "definite",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kesin",
+      "es": "definido",
+      "fr": "précis",
+      "de": "definitiv",
+      "it": "definito"
+    }
+  },
+  {
+    "id": "ox-b2-213",
+    "word": "definition",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanım",
+      "es": "definición",
+      "fr": "définition",
+      "de": "Definition",
+      "it": "definizione"
+    }
+  },
+  {
+    "id": "ox-b2-214",
+    "word": "delegate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "temsilci",
+      "es": "delegar",
+      "fr": "déléguer",
+      "de": "delegieren",
+      "it": "delegare"
+    }
+  },
+  {
+    "id": "ox-b2-215",
+    "word": "deliberate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kasıtlı",
+      "es": "adrede",
+      "fr": "volontaire",
+      "de": "absichtlich",
+      "it": "deliberare"
+    }
+  },
+  {
+    "id": "ox-b2-216",
+    "word": "deliberately",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kasten",
+      "es": "deliberadamente",
+      "fr": "délibérément",
+      "de": "absichtlich",
+      "it": "deliberatamente"
+    }
+  },
+  {
+    "id": "ox-b2-217",
+    "word": "delicate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "narin",
+      "es": "delicado",
+      "fr": "délicat",
+      "de": "empfindlich",
+      "it": "delicato"
+    }
+  },
+  {
+    "id": "ox-b2-218",
+    "word": "democracy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demokrasi",
+      "es": "democracia",
+      "fr": "démocratie",
+      "de": "Demokratie",
+      "it": "democrazia"
+    }
+  },
+  {
+    "id": "ox-b2-219",
+    "word": "democratic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demokratik",
+      "es": "democrático",
+      "fr": "démocratique",
+      "de": "demokratisch",
+      "it": "democratico"
+    }
+  },
+  {
+    "id": "ox-b2-220",
+    "word": "demonstrate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "göstermek",
+      "es": "demostrar",
+      "fr": "démontrer",
+      "de": "zeigen",
+      "it": "dimostrare"
+    }
+  },
+  {
+    "id": "ox-b2-221",
+    "word": "demonstration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gösteri",
+      "es": "demostración",
+      "fr": "démonstration",
+      "de": "Demonstration",
+      "it": "dimostrazione"
+    }
+  },
+  {
+    "id": "ox-b2-222",
+    "word": "denial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "inkar",
+      "es": "negación",
+      "fr": "dénégation",
+      "de": "Verweigerung",
+      "it": "negazione"
+    }
+  },
+  {
+    "id": "ox-b2-223",
+    "word": "deny",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "reddetmek",
+      "es": "denegar",
+      "fr": "refuser",
+      "de": "leugnen",
+      "it": "negare"
+    }
+  },
+  {
+    "id": "ox-b2-224",
+    "word": "depend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlı olmak",
+      "es": "depender",
+      "fr": "dépendre",
+      "de": "abhängen",
+      "it": "dipendere"
+    }
+  },
+  {
+    "id": "ox-b2-225",
+    "word": "dependent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağımlı",
+      "es": "dependiente",
+      "fr": "dépendant",
+      "de": "abhängig",
+      "it": "dipendente"
+    }
+  },
+  {
+    "id": "ox-b2-226",
+    "word": "depressing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "moral bozucu",
+      "es": "deprimente",
+      "fr": "déprimant",
+      "de": "deprimierend",
+      "it": "deprimente"
+    }
+  },
+  {
+    "id": "ox-b2-227",
+    "word": "derive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "türetmek",
+      "es": "derivar",
+      "fr": "dériver",
+      "de": "ableiten",
+      "it": "derivare"
+    }
+  },
+  {
+    "id": "ox-b2-228",
+    "word": "desire",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "arzu",
+      "es": "deseo",
+      "fr": "désir",
+      "de": "Wunsch",
+      "it": "desiderio"
+    }
+  },
+  {
+    "id": "ox-b2-229",
+    "word": "desperate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çaresiz",
+      "es": "desesperado",
+      "fr": "désespéré",
+      "de": "verzweifelt",
+      "it": "disperato"
+    }
+  },
+  {
+    "id": "ox-b2-230",
+    "word": "destruction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yıkım",
+      "es": "destrucción",
+      "fr": "destruction",
+      "de": "Zerstörung",
+      "it": "distruzione"
+    }
+  },
+  {
+    "id": "ox-b2-231",
+    "word": "detailed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayrıntılı",
+      "es": "detallado",
+      "fr": "détaillé",
+      "de": "detailliert",
+      "it": "dettagliato"
+    }
+  },
+  {
+    "id": "ox-b2-232",
+    "word": "detect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tespit etmek",
+      "es": "detectar",
+      "fr": "détecter",
+      "de": "erkennen",
+      "it": "rilevare"
+    }
+  },
+  {
+    "id": "ox-b2-233",
+    "word": "determination",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kararlılık",
+      "es": "determinación",
+      "fr": "détermination",
+      "de": "Bestimmung",
+      "it": "determinazione"
+    }
+  },
+  {
+    "id": "ox-b2-234",
+    "word": "determine",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belirlemek",
+      "es": "determinar",
+      "fr": "déterminer",
+      "de": "bestimmen",
+      "it": "determinare"
+    }
+  },
+  {
+    "id": "ox-b2-235",
+    "word": "determined",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "azimli",
+      "es": "determinado",
+      "fr": "déterminé",
+      "de": "bestimmt",
+      "it": "determinato"
+    }
+  },
+  {
+    "id": "ox-b2-236",
+    "word": "developing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gelişen",
+      "es": "desarrollo",
+      "fr": "développement",
+      "de": "Entwicklung",
+      "it": "in via di sviluppo"
+    }
+  },
+  {
+    "id": "ox-b2-237",
+    "word": "device",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cihaz",
+      "es": "dispositivo",
+      "fr": "appareil",
+      "de": "Gerät",
+      "it": "dispositivo"
+    }
+  },
+  {
+    "id": "ox-b2-238",
+    "word": "devote",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "adamak",
+      "es": "dedicar",
+      "fr": "consacrer",
+      "de": "widmen",
+      "it": "dedicare"
+    }
+  },
+  {
+    "id": "ox-b2-239",
+    "word": "devoted",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sadık",
+      "es": "dedicado",
+      "fr": "dévoué",
+      "de": "hingebungsvoll",
+      "it": "devoto"
+    }
+  },
+  {
+    "id": "ox-b2-240",
+    "word": "diamond",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elmas",
+      "es": "diamante",
+      "fr": "diamant",
+      "de": "Diamant",
+      "it": "diamante"
+    }
+  },
+  {
+    "id": "ox-b2-241",
+    "word": "differently",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "farklı",
+      "es": "diferentemente",
+      "fr": "différemment",
+      "de": "anders",
+      "it": "diversamente"
+    }
+  },
+  {
+    "id": "ox-b2-242",
+    "word": "dimension",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boyut",
+      "es": "dimensión",
+      "fr": "dimension",
+      "de": "Dimension",
+      "it": "dimensione"
+    }
+  },
+  {
+    "id": "ox-b2-243",
+    "word": "disagreement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anlaşmazlık",
+      "es": "desacuerdo",
+      "fr": "désaccord",
+      "de": "Uneinigkeit",
+      "it": "disaccordo"
+    }
+  },
+  {
+    "id": "ox-b2-244",
+    "word": "disaster",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "felaket",
+      "es": "desastre",
+      "fr": "catastrophe",
+      "de": "Katastrophe",
+      "it": "disastro"
+    }
+  },
+  {
+    "id": "ox-b2-245",
+    "word": "disc",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "disk",
+      "es": "desct",
+      "fr": "disque",
+      "de": "Scheibe",
+      "it": "disco"
+    }
+  },
+  {
+    "id": "ox-b2-246",
+    "word": "discipline",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "disiplin",
+      "es": "disciplina",
+      "fr": "discipline",
+      "de": "Disziplin",
+      "it": "disciplina"
+    }
+  },
+  {
+    "id": "ox-b2-247",
+    "word": "disgust",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iğrenme",
+      "es": "asco",
+      "fr": "dégoût",
+      "de": "Ekel",
+      "it": "disgusto"
+    }
+  },
+  {
+    "id": "ox-b2-248",
+    "word": "disgusted",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tiksinti",
+      "es": "disgustado",
+      "fr": "dégoûté",
+      "de": "angewidert",
+      "it": "disgustato"
+    }
+  },
+  {
+    "id": "ox-b2-249",
+    "word": "dishonest",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sahtekâr",
+      "es": "deshonesto",
+      "fr": "malhonnête",
+      "de": "unehrlich",
+      "it": "disonesto"
+    }
+  },
+  {
+    "id": "ox-b2-250",
+    "word": "dismiss",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "azletmek",
+      "es": "despedir",
+      "fr": "rejeter",
+      "de": "zurückweisen",
+      "it": "congedare"
+    }
+  },
+  {
+    "id": "ox-b2-251",
+    "word": "dispute",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anlaşmazlık",
+      "es": "disputar",
+      "fr": "différend",
+      "de": "Disput",
+      "it": "controversia"
+    }
+  },
+  {
+    "id": "ox-b2-252",
+    "word": "distant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mesafe",
+      "es": "distante",
+      "fr": "loin",
+      "de": "entfernt",
+      "it": "distante"
+    }
+  },
+  {
+    "id": "ox-b2-253",
+    "word": "distinct",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belirgin",
+      "es": "distinto",
+      "fr": "distinct",
+      "de": "unterscheidbar",
+      "it": "distinto"
+    }
+  },
+  {
+    "id": "ox-b2-254",
+    "word": "distinction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayrım",
+      "es": "distinción",
+      "fr": "distinction",
+      "de": "Unterscheidung",
+      "it": "distinzione"
+    }
+  },
+  {
+    "id": "ox-b2-255",
+    "word": "distinguish",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayırt etmek",
+      "es": "distinguir",
+      "fr": "distinguer",
+      "de": "unterscheiden",
+      "it": "distinguere"
+    }
+  },
+  {
+    "id": "ox-b2-256",
+    "word": "distribute",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dağıtmak",
+      "es": "distribuir",
+      "fr": "distribuer",
+      "de": "verteilen",
+      "it": "distribuire"
+    }
+  },
+  {
+    "id": "ox-b2-257",
+    "word": "distribution",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dağıtım",
+      "es": "distribución",
+      "fr": "distribution",
+      "de": "Verteilung",
+      "it": "distribuzione"
+    }
+  },
+  {
+    "id": "ox-b2-258",
+    "word": "disturbing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahatsız edici",
+      "es": "inquietante",
+      "fr": "inquiétant",
+      "de": "verstörend",
+      "it": "inquietante"
+    }
+  },
+  {
+    "id": "ox-b2-259",
+    "word": "division",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bölüm",
+      "es": "división",
+      "fr": "division",
+      "de": "Division",
+      "it": "divisione"
+    }
+  },
+  {
+    "id": "ox-b2-260",
+    "word": "divorce",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boşanmak",
+      "es": "divorcio",
+      "fr": "divorce",
+      "de": "Scheidung",
+      "it": "divorzio"
+    }
+  },
+  {
+    "id": "ox-b2-261",
+    "word": "divorced",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boşanmış",
+      "es": "divorciado",
+      "fr": "divorcé",
+      "de": "geschieden",
+      "it": "divorziato"
+    }
+  },
+  {
+    "id": "ox-b2-262",
+    "word": "domestic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerel",
+      "es": "doméstico",
+      "fr": "domestique",
+      "de": "inländisch",
+      "it": "domestico"
+    }
+  },
+  {
+    "id": "ox-b2-263",
+    "word": "dominant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baskın",
+      "es": "dominante",
+      "fr": "dominant",
+      "de": "dominant",
+      "it": "dominante"
+    }
+  },
+  {
+    "id": "ox-b2-264",
+    "word": "dominate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hakim olmak",
+      "es": "dominar",
+      "fr": "dominer",
+      "de": "dominieren",
+      "it": "dominare"
+    }
+  },
+  {
+    "id": "ox-b2-265",
+    "word": "downward",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aşağı doğru",
+      "es": "hacia abajo",
+      "fr": "vers le bas",
+      "de": "nach unten",
+      "it": "verso il basso"
+    }
+  },
+  {
+    "id": "ox-b2-266",
+    "word": "draft",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "taslak",
+      "es": "borrador",
+      "fr": "brouillon",
+      "de": "Entwurf",
+      "it": "bozza"
+    }
+  },
+  {
+    "id": "ox-b2-267",
+    "word": "dramatic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dramatik",
+      "es": "dramático",
+      "fr": "dramatique",
+      "de": "dramatisch",
+      "it": "drammatico"
+    }
+  },
+  {
+    "id": "ox-b2-268",
+    "word": "dramatically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dramatik bir şekilde",
+      "es": "dramáticamente",
+      "fr": "dramatiquement",
+      "de": "dramatisch",
+      "it": "drammaticamente"
+    }
+  },
+  {
+    "id": "ox-b2-269",
+    "word": "driving",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "araba kullanmak",
+      "es": "conduciendo",
+      "fr": "conduite",
+      "de": "Fahren",
+      "it": "guida"
+    }
+  },
+  {
+    "id": "ox-b2-270",
+    "word": "drug",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilaç",
+      "es": "droga",
+      "fr": "médicament",
+      "de": "Arzneimittel",
+      "it": "farmaco"
+    }
+  },
+  {
+    "id": "ox-b2-271",
+    "word": "drunk",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sarhoş",
+      "es": "ebrio",
+      "fr": "ivre",
+      "de": "betrunken",
+      "it": "ubriaco"
+    }
+  },
+  {
+    "id": "ox-b2-272",
+    "word": "dump",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çöplük",
+      "es": "vertedero",
+      "fr": "décharge",
+      "de": "entsorgen",
+      "it": "scarico"
+    }
+  },
+  {
+    "id": "ox-b2-273",
+    "word": "dynamic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dinamik",
+      "es": "dinámica",
+      "fr": "dynamique",
+      "de": "dynamisch",
+      "it": "dinamico"
+    }
+  },
+  {
+    "id": "ox-b2-274",
+    "word": "eager",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "istekli",
+      "es": "ansioso",
+      "fr": "désireux",
+      "de": "erpicht",
+      "it": "desideroso"
+    }
+  },
+  {
+    "id": "ox-b2-275",
+    "word": "ease",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kolaylaştırmak",
+      "es": "facilidad",
+      "fr": "facilité",
+      "de": "Leichtigkeit",
+      "it": "sollievo"
+    }
+  },
+  {
+    "id": "ox-b2-276",
+    "word": "economic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ekonomik",
+      "es": "económico",
+      "fr": "économique",
+      "de": "wirtschaftlich",
+      "it": "economico"
+    }
+  },
+  {
+    "id": "ox-b2-277",
+    "word": "economist",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iktisatçı",
+      "es": "economista",
+      "fr": "économiste",
+      "de": "Ökonom",
+      "it": "economista"
+    }
+  },
+  {
+    "id": "ox-b2-278",
+    "word": "economy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ekonomi",
+      "es": "economía",
+      "fr": "économie",
+      "de": "Wirtschaft",
+      "it": "economia"
+    }
+  },
+  {
+    "id": "ox-b2-279",
+    "word": "edition",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baskı",
+      "es": "edición",
+      "fr": "édition",
+      "de": "Ausgabe",
+      "it": "edizione"
+    }
+  },
+  {
+    "id": "ox-b2-280",
+    "word": "editor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "editör",
+      "es": "editor",
+      "fr": "éditeur",
+      "de": "Editor",
+      "it": "editore"
+    }
+  },
+  {
+    "id": "ox-b2-281",
+    "word": "editorial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "editoryal",
+      "es": "editorial",
+      "fr": "éditorial",
+      "de": "Leitartikel",
+      "it": "editoriale"
+    }
+  },
+  {
+    "id": "ox-b2-282",
+    "word": "educate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğitmek",
+      "es": "educar",
+      "fr": "éduquer",
+      "de": "erziehen",
+      "it": "educare"
+    }
+  },
+  {
+    "id": "ox-b2-283",
+    "word": "educated",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğitimli",
+      "es": "educado",
+      "fr": "instruit",
+      "de": "gebildet",
+      "it": "istruito"
+    }
+  },
+  {
+    "id": "ox-b2-284",
+    "word": "educational",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğitici",
+      "es": "educativo",
+      "fr": "pédagogique",
+      "de": "pädagogisch",
+      "it": "educativo"
+    }
+  },
+  {
+    "id": "ox-b2-285",
+    "word": "effective",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etkili",
+      "es": "eficaz",
+      "fr": "efficace",
+      "de": "wirksam",
+      "it": "efficace"
+    }
+  },
+  {
+    "id": "ox-b2-286",
+    "word": "effectively",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etkili bir şekilde",
+      "es": "eficazmente",
+      "fr": "efficacement",
+      "de": "effektiv",
+      "it": "in modo efficace"
+    }
+  },
+  {
+    "id": "ox-b2-287",
+    "word": "efficiency",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeterlik",
+      "es": "eficiencia",
+      "fr": "efficacité",
+      "de": "Effizienz",
+      "it": "efficienza"
+    }
+  },
+  {
+    "id": "ox-b2-288",
+    "word": "elect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seçmek",
+      "es": "electo",
+      "fr": "élire",
+      "de": "wählen",
+      "it": "eleggere"
+    }
+  },
+  {
+    "id": "ox-b2-289",
+    "word": "elegant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zarif",
+      "es": "elegante",
+      "fr": "élégant",
+      "de": "elegant",
+      "it": "elegante"
+    }
+  },
+  {
+    "id": "ox-b2-290",
+    "word": "element",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eleman",
+      "es": "elemento",
+      "fr": "élément",
+      "de": "Element",
+      "it": "elemento"
+    }
+  },
+  {
+    "id": "ox-b2-291",
+    "word": "eliminate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elemek",
+      "es": "eliminar",
+      "fr": "éliminer",
+      "de": "beseitigen",
+      "it": "eliminare"
+    }
+  },
+  {
+    "id": "ox-b2-292",
+    "word": "elsewhere",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başka yerde",
+      "es": "en otra parte",
+      "fr": "autre part",
+      "de": "anderswo",
+      "it": "altrove"
+    }
+  },
+  {
+    "id": "ox-b2-293",
+    "word": "embarrass",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "utandırmak",
+      "es": "avergonzar",
+      "fr": "embarrasser",
+      "de": "in Verlegenheit bringen",
+      "it": "imbarazzare"
+    }
+  },
+  {
+    "id": "ox-b2-294",
+    "word": "embarrassment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "utanç",
+      "es": "vergüenza",
+      "fr": "embarras",
+      "de": "Verlegenheit",
+      "it": "imbarazzo"
+    }
+  },
+  {
+    "id": "ox-b2-295",
+    "word": "emerge",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "meydana gelmek",
+      "es": "surgir",
+      "fr": "émerger",
+      "de": "auftauchen",
+      "it": "emergere"
+    }
+  },
+  {
+    "id": "ox-b2-296",
+    "word": "emotion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "duygu",
+      "es": "emoción",
+      "fr": "émotion",
+      "de": "Emotion",
+      "it": "emozione"
+    }
+  },
+  {
+    "id": "ox-b2-297",
+    "word": "emotional",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "duygusal",
+      "es": "emocional",
+      "fr": "émotionnel",
+      "de": "emotional",
+      "it": "emotivo"
+    }
+  },
+  {
+    "id": "ox-b2-298",
+    "word": "emphasis",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vurgu",
+      "es": "énfasis",
+      "fr": "accent",
+      "de": "Schwerpunkt",
+      "it": "enfasi"
+    }
+  },
+  {
+    "id": "ox-b2-299",
+    "word": "emphasize",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vurgu",
+      "es": "enfatizar",
+      "fr": "souligner",
+      "de": "betonen",
+      "it": "sottolineare"
+    }
+  },
+  {
+    "id": "ox-b2-300",
+    "word": "empire",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "imparatorluk",
+      "es": "imperio",
+      "fr": "empire",
+      "de": "Reich",
+      "it": "impero"
+    }
+  },
+  {
+    "id": "ox-b2-301",
+    "word": "enable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olanak vermek",
+      "es": "permitir",
+      "fr": "activer",
+      "de": "aktivieren",
+      "it": "abilitare"
+    }
+  },
+  {
+    "id": "ox-b2-302",
+    "word": "encounter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rastlamak",
+      "es": "encontrar",
+      "fr": "rencontre",
+      "de": "begegnen",
+      "it": "incontrare"
+    }
+  },
+  {
+    "id": "ox-b2-303",
+    "word": "encouragement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teşvik",
+      "es": "estímulo",
+      "fr": "encouragement",
+      "de": "Ermutigung",
+      "it": "incoraggiamento"
+    }
+  },
+  {
+    "id": "ox-b2-304",
+    "word": "engage",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "angaje etmek",
+      "es": "comprometer",
+      "fr": "s'engager",
+      "de": "engagieren",
+      "it": "ingaggiare"
+    }
+  },
+  {
+    "id": "ox-b2-305",
+    "word": "ensure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emin olmak",
+      "es": "asegurar",
+      "fr": "assurer",
+      "de": "sicherstellen",
+      "it": "garantire"
+    }
+  },
+  {
+    "id": "ox-b2-306",
+    "word": "entertaining",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğlenceli",
+      "es": "entretenido",
+      "fr": "amusant",
+      "de": "unterhaltsam",
+      "it": "divertente"
+    }
+  },
+  {
+    "id": "ox-b2-307",
+    "word": "enthusiasm",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "heves",
+      "es": "entusiasmo",
+      "fr": "enthousiasme",
+      "de": "Begeisterung",
+      "it": "entusiasmo"
+    }
+  },
+  {
+    "id": "ox-b2-308",
+    "word": "enthusiastic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hevesli",
+      "es": "entusiasta",
+      "fr": "enthousiaste",
+      "de": "enthusiastisch",
+      "it": "entusiasta"
+    }
+  },
+  {
+    "id": "ox-b2-309",
+    "word": "entire",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bütün",
+      "es": "completo",
+      "fr": "entier",
+      "de": "gesamte",
+      "it": "intero"
+    }
+  },
+  {
+    "id": "ox-b2-310",
+    "word": "entirely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamamen",
+      "es": "enteramente",
+      "fr": "entièrement",
+      "de": "vollständig",
+      "it": "interamente"
+    }
+  },
+  {
+    "id": "ox-b2-311",
+    "word": "equally",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eşit olarak",
+      "es": "igualmente",
+      "fr": "également",
+      "de": "gleichermaßen",
+      "it": "ugualmente"
+    }
+  },
+  {
+    "id": "ox-b2-312",
+    "word": "equivalent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eş değer",
+      "es": "equivalente",
+      "fr": "équivalent",
+      "de": "Äquivalent",
+      "it": "equivalente"
+    }
+  },
+  {
+    "id": "ox-b2-313",
+    "word": "era",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çağ",
+      "es": "era",
+      "fr": "ère",
+      "de": "Epoche",
+      "it": "epoca"
+    }
+  },
+  {
+    "id": "ox-b2-314",
+    "word": "error",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hata",
+      "es": "error",
+      "fr": "erreur",
+      "de": "Fehler",
+      "it": "errore"
+    }
+  },
+  {
+    "id": "ox-b2-315",
+    "word": "essentially",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "esasen",
+      "es": "esencialmente",
+      "fr": "essentiellement",
+      "de": "im Wesentlichen",
+      "it": "essenzialmente"
+    }
+  },
+  {
+    "id": "ox-b2-316",
+    "word": "establish",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurmak",
+      "es": "establecer",
+      "fr": "établir",
+      "de": "gründen",
+      "it": "stabilire"
+    }
+  },
+  {
+    "id": "ox-b2-317",
+    "word": "establishment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kuruluş",
+      "es": "establecimiento",
+      "fr": "établissement",
+      "de": "Gründung",
+      "it": "stabilimento"
+    }
+  },
+  {
+    "id": "ox-b2-318",
+    "word": "estate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emlak",
+      "es": "bienes",
+      "fr": "domaine",
+      "de": "Anwesen",
+      "it": "proprietà"
+    }
+  },
+  {
+    "id": "ox-b2-319",
+    "word": "estimate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tahmin etmek",
+      "es": "estimar",
+      "fr": "estimation",
+      "de": "schätzen",
+      "it": "stima"
+    }
+  },
+  {
+    "id": "ox-b2-320",
+    "word": "etc",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vesaire",
+      "es": "etc.",
+      "fr": "etc.",
+      "de": "usw",
+      "it": "ecc"
+    }
+  },
+  {
+    "id": "ox-b2-321",
+    "word": "ethical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etik",
+      "es": "ético",
+      "fr": "éthique",
+      "de": "ethisch",
+      "it": "etico"
+    }
+  },
+  {
+    "id": "ox-b2-322",
+    "word": "ethnic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etnik",
+      "es": "étnico",
+      "fr": "ethnique",
+      "de": "ethnisch",
+      "it": "etnico"
+    }
+  },
+  {
+    "id": "ox-b2-323",
+    "word": "eventually",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonunda",
+      "es": "eventualmente",
+      "fr": "finalement",
+      "de": "letztlich",
+      "it": "infine"
+    }
+  },
+  {
+    "id": "ox-b2-324",
+    "word": "evidence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kanıt",
+      "es": "evidencia",
+      "fr": "preuve",
+      "de": "Beweis",
+      "it": "prova"
+    }
+  },
+  {
+    "id": "ox-b2-325",
+    "word": "evil",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fenalık",
+      "es": "demonio",
+      "fr": "mal",
+      "de": "teuflisch",
+      "it": "cattivo"
+    }
+  },
+  {
+    "id": "ox-b2-326",
+    "word": "evolution",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "evrim",
+      "es": "evolución",
+      "fr": "évolution",
+      "de": "Evolution",
+      "it": "evoluzione"
+    }
+  },
+  {
+    "id": "ox-b2-327",
+    "word": "evolve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "evrim geçirmek",
+      "es": "evolucionar",
+      "fr": "évoluer",
+      "de": "evolve",
+      "it": "evolvere"
+    }
+  },
+  {
+    "id": "ox-b2-328",
+    "word": "exaggerate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "abartmak",
+      "es": "exagerar",
+      "fr": "exagérer",
+      "de": "übertreiben",
+      "it": "esagerare"
+    }
+  },
+  {
+    "id": "ox-b2-329",
+    "word": "exaggerated",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "abartılı",
+      "es": "exagerado",
+      "fr": "exagéré",
+      "de": "übertrieben",
+      "it": "esagerato"
+    }
+  },
+  {
+    "id": "ox-b2-330",
+    "word": "examination",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "muayene",
+      "es": "examen",
+      "fr": "examen",
+      "de": "Prüfung",
+      "it": "esame"
+    }
+  },
+  {
+    "id": "ox-b2-331",
+    "word": "examine",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "incelemek",
+      "es": "examinar",
+      "fr": "examiner",
+      "de": "prüfen",
+      "it": "esaminare"
+    }
+  },
+  {
+    "id": "ox-b2-332",
+    "word": "exception",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "istisna",
+      "es": "excepción",
+      "fr": "exception",
+      "de": "Ausnahme",
+      "it": "eccezione"
+    }
+  },
+  {
+    "id": "ox-b2-333",
+    "word": "excessive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aşırı",
+      "es": "excesivo",
+      "fr": "excessif",
+      "de": "übertrieben",
+      "it": "eccessivo"
+    }
+  },
+  {
+    "id": "ox-b2-334",
+    "word": "excite",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "heyecanlandırmak",
+      "es": "excitar",
+      "fr": "exciter",
+      "de": "erregen",
+      "it": "eccitare"
+    }
+  },
+  {
+    "id": "ox-b2-335",
+    "word": "exclude",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hariç tutmak",
+      "es": "excluir",
+      "fr": "exclure",
+      "de": "ausschließen",
+      "it": "escludere"
+    }
+  },
+  {
+    "id": "ox-b2-336",
+    "word": "excluding",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hariç",
+      "es": "a excepción de",
+      "fr": "sauf",
+      "de": "ausschließlich",
+      "it": "escluso"
+    }
+  },
+  {
+    "id": "ox-b2-337",
+    "word": "executive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönetici",
+      "es": "ejecutivo",
+      "fr": "exécutif",
+      "de": "Exekutive",
+      "it": "esecutivo"
+    }
+  },
+  {
+    "id": "ox-b2-338",
+    "word": "exhibit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sergilemek",
+      "es": "anexo",
+      "fr": "exposition",
+      "de": "ausstellen",
+      "it": "mostra"
+    }
+  },
+  {
+    "id": "ox-b2-339",
+    "word": "existence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varoluş",
+      "es": "existencia",
+      "fr": "existence",
+      "de": "Existenz",
+      "it": "esistenza"
+    }
+  },
+  {
+    "id": "ox-b2-340",
+    "word": "expand",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "genişletmek",
+      "es": "expandir",
+      "fr": "développer",
+      "de": "expandieren",
+      "it": "espandere"
+    }
+  },
+  {
+    "id": "ox-b2-341",
+    "word": "expansion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "genleşme",
+      "es": "expansión",
+      "fr": "expansion",
+      "de": "Erweiterung",
+      "it": "espansione"
+    }
+  },
+  {
+    "id": "ox-b2-342",
+    "word": "expectation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beklenti",
+      "es": "expectativa",
+      "fr": "attente",
+      "de": "Erwartung",
+      "it": "aspettativa"
+    }
+  },
+  {
+    "id": "ox-b2-343",
+    "word": "expected",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beklenen",
+      "es": "esperado",
+      "fr": "attendu",
+      "de": "erwartet",
+      "it": "previsto"
+    }
+  },
+  {
+    "id": "ox-b2-344",
+    "word": "expense",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gider",
+      "es": "gastos",
+      "fr": "frais",
+      "de": "Aufwand",
+      "it": "spese"
+    }
+  },
+  {
+    "id": "ox-b2-345",
+    "word": "experimental",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "deneysel",
+      "es": "experimental",
+      "fr": "expérimental",
+      "de": "Experimental-",
+      "it": "sperimentale"
+    }
+  },
+  {
+    "id": "ox-b2-346",
+    "word": "exploration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "keşif",
+      "es": "exploración",
+      "fr": "exploration",
+      "de": "Erforschung",
+      "it": "esplorazione"
+    }
+  },
+  {
+    "id": "ox-b2-347",
+    "word": "explosion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "patlama",
+      "es": "explosión",
+      "fr": "explosion",
+      "de": "Explosion",
+      "it": "esplosione"
+    }
+  },
+  {
+    "id": "ox-b2-348",
+    "word": "export",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ihracat",
+      "es": "exportar",
+      "fr": "exporter",
+      "de": "Export",
+      "it": "esportare"
+    }
+  },
+  {
+    "id": "ox-b2-349",
+    "word": "expose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ortaya çıkarmak",
+      "es": "exponer",
+      "fr": "exposer",
+      "de": "exponieren",
+      "it": "esporre"
+    }
+  },
+  {
+    "id": "ox-b2-350",
+    "word": "exposure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "maruziyet",
+      "es": "exposición",
+      "fr": "exposition",
+      "de": "Belichtung",
+      "it": "esposizione"
+    }
+  },
+  {
+    "id": "ox-b2-351",
+    "word": "express",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ifade etmek",
+      "es": "expresar",
+      "fr": "exprimer",
+      "de": "äußern",
+      "it": "esprimere"
+    }
+  },
+  {
+    "id": "ox-b2-352",
+    "word": "expression",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ifade",
+      "es": "expresión",
+      "fr": "expression",
+      "de": "Ausdruck",
+      "it": "espressione"
+    }
+  },
+  {
+    "id": "ox-b2-353",
+    "word": "extend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uzatmak",
+      "es": "extender",
+      "fr": "étendre",
+      "de": "verlängern",
+      "it": "estendere"
+    }
+  },
+  {
+    "id": "ox-b2-354",
+    "word": "extension",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eklenti",
+      "es": "extensión",
+      "fr": "extension",
+      "de": "Verlängerung",
+      "it": "estensione"
+    }
+  },
+  {
+    "id": "ox-b2-355",
+    "word": "extensive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaygın",
+      "es": "extenso",
+      "fr": "extensif",
+      "de": "umfangreich",
+      "it": "ampio"
+    }
+  },
+  {
+    "id": "ox-b2-356",
+    "word": "extent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapsam",
+      "es": "medida",
+      "fr": "étendue",
+      "de": "Ausmaß",
+      "it": "estensione"
+    }
+  },
+  {
+    "id": "ox-b2-357",
+    "word": "external",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "harici",
+      "es": "externo",
+      "fr": "externe",
+      "de": "extern",
+      "it": "esterno"
+    }
+  },
+  {
+    "id": "ox-b2-358",
+    "word": "extreme",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aşırı",
+      "es": "extremo",
+      "fr": "extrême",
+      "de": "extrem",
+      "it": "estremo"
+    }
+  },
+  {
+    "id": "ox-b2-359",
+    "word": "facility",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tesis",
+      "es": "instalación",
+      "fr": "facilité",
+      "de": "Einrichtung",
+      "it": "facilità"
+    }
+  },
+  {
+    "id": "ox-b2-360",
+    "word": "factor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "faktör",
+      "es": "factor",
+      "fr": "facteur",
+      "de": "Faktor",
+      "it": "fattore"
+    }
+  },
+  {
+    "id": "ox-b2-361",
+    "word": "failure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "arıza",
+      "es": "falla",
+      "fr": "échec",
+      "de": "Versagen",
+      "it": "fallimento"
+    }
+  },
+  {
+    "id": "ox-b2-362",
+    "word": "faint",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bayılmak",
+      "es": "débil",
+      "fr": "s'évanouir",
+      "de": "schwach",
+      "it": "fiacco"
+    }
+  },
+  {
+    "id": "ox-b2-363",
+    "word": "faith",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "inanç",
+      "es": "fe",
+      "fr": "foi",
+      "de": "Glaube",
+      "it": "fede"
+    }
+  },
+  {
+    "id": "ox-b2-364",
+    "word": "faithful",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sadık",
+      "es": "fiel",
+      "fr": "fidèle",
+      "de": "treu",
+      "it": "fedele"
+    }
+  },
+  {
+    "id": "ox-b2-365",
+    "word": "fame",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şöhret",
+      "es": "fama",
+      "fr": "notoriété",
+      "de": "Ruhm",
+      "it": "fama"
+    }
+  },
+  {
+    "id": "ox-b2-366",
+    "word": "familiar",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aşina",
+      "es": "familiar",
+      "fr": "familier",
+      "de": "vertraut",
+      "it": "familiare"
+    }
+  },
+  {
+    "id": "ox-b2-367",
+    "word": "fascinating",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büyüleyici",
+      "es": "fascinante",
+      "fr": "fascinant",
+      "de": "faszinierend",
+      "it": "affascinante"
+    }
+  },
+  {
+    "id": "ox-b2-368",
+    "word": "feather",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tüy",
+      "es": "pluma",
+      "fr": "plume",
+      "de": "Feder",
+      "it": "piuma"
+    }
+  },
+  {
+    "id": "ox-b2-369",
+    "word": "feature",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özellik",
+      "es": "característica",
+      "fr": "fonctionnalité",
+      "de": "Besonderheit",
+      "it": "caratteristica"
+    }
+  },
+  {
+    "id": "ox-b2-370",
+    "word": "federal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "federal",
+      "es": "federal",
+      "fr": "fédéral",
+      "de": "föderal",
+      "it": "federale"
+    }
+  },
+  {
+    "id": "ox-b2-371",
+    "word": "fellow",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aynı tür",
+      "es": "compañero",
+      "fr": "compagnon",
+      "de": "Gefährte",
+      "it": "compagno"
+    }
+  },
+  {
+    "id": "ox-b2-372",
+    "word": "fence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çit",
+      "es": "cerca",
+      "fr": "clôture",
+      "de": "Zaun",
+      "it": "recinzione"
+    }
+  },
+  {
+    "id": "ox-b2-373",
+    "word": "fibre",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "lif",
+      "es": "fibra",
+      "fr": "fibre",
+      "de": "Faser",
+      "it": "fibra"
+    }
+  },
+  {
+    "id": "ox-b2-374",
+    "word": "fierce",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şiddetli",
+      "es": "feroz",
+      "fr": "féroce",
+      "de": "erbittert",
+      "it": "feroce"
+    }
+  },
+  {
+    "id": "ox-b2-375",
+    "word": "finance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "finans",
+      "es": "finanzas",
+      "fr": "finance",
+      "de": "Finanzen",
+      "it": "finanza"
+    }
+  },
+  {
+    "id": "ox-b2-376",
+    "word": "finished",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bitti",
+      "es": "finalizado",
+      "fr": "fini",
+      "de": "fertig",
+      "it": "finito"
+    }
+  },
+  {
+    "id": "ox-b2-377",
+    "word": "firmly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıkıca",
+      "es": "firmemente",
+      "fr": "fermement",
+      "de": "fest",
+      "it": "fermamente"
+    }
+  },
+  {
+    "id": "ox-b2-378",
+    "word": "fixed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sabit",
+      "es": "fijado",
+      "fr": "fixé",
+      "de": "behoben",
+      "it": "fisso"
+    }
+  },
+  {
+    "id": "ox-b2-379",
+    "word": "flame",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alev",
+      "es": "llama",
+      "fr": "flamme",
+      "de": "Flamme",
+      "it": "fiamma"
+    }
+  },
+  {
+    "id": "ox-b2-380",
+    "word": "flash",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "flaş",
+      "es": "destello",
+      "fr": "éclair",
+      "de": "Blitz",
+      "it": "flash"
+    }
+  },
+  {
+    "id": "ox-b2-381",
+    "word": "flesh",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "et",
+      "es": "carne",
+      "fr": "chair",
+      "de": "Fleisch",
+      "it": "carne"
+    }
+  },
+  {
+    "id": "ox-b2-382",
+    "word": "focus",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "odak",
+      "es": "enfocar",
+      "fr": "se concentrer",
+      "de": "Fokus",
+      "it": "messa a fuoco"
+    }
+  },
+  {
+    "id": "ox-b2-383",
+    "word": "folding",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katlanır",
+      "es": "plegable",
+      "fr": "pliant",
+      "de": "falten",
+      "it": "pieghevole"
+    }
+  },
+  {
+    "id": "ox-b2-384",
+    "word": "force",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güç",
+      "es": "fuerza",
+      "fr": "forcer",
+      "de": "Gewalt",
+      "it": "forza"
+    }
+  },
+  {
+    "id": "ox-b2-385",
+    "word": "formal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "resmi",
+      "es": "formal",
+      "fr": "officiel",
+      "de": "formell",
+      "it": "formale"
+    }
+  },
+  {
+    "id": "ox-b2-386",
+    "word": "formerly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eskiden",
+      "es": "antes",
+      "fr": "anciennement",
+      "de": "früher",
+      "it": "precedentemente"
+    }
+  },
+  {
+    "id": "ox-b2-387",
+    "word": "formula",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "formül",
+      "es": "fórmula",
+      "fr": "formule",
+      "de": "Formel",
+      "it": "formula"
+    }
+  },
+  {
+    "id": "ox-b2-388",
+    "word": "fortune",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "talih",
+      "es": "fortuna",
+      "fr": "fortune",
+      "de": "Vermögen",
+      "it": "fortuna"
+    }
+  },
+  {
+    "id": "ox-b2-389",
+    "word": "forward",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ileri",
+      "es": "adelante",
+      "fr": "avant",
+      "de": "nach vorne",
+      "it": "inoltrare"
+    }
+  },
+  {
+    "id": "ox-b2-390",
+    "word": "found",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurmak",
+      "es": "encontró",
+      "fr": "trouvé",
+      "de": "gefunden",
+      "it": "trovato"
+    }
+  },
+  {
+    "id": "ox-b2-391",
+    "word": "foundation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "temel",
+      "es": "base",
+      "fr": "fondation",
+      "de": "Stiftung",
+      "it": "fondazione"
+    }
+  },
+  {
+    "id": "ox-b2-392",
+    "word": "freedom",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özgürlük",
+      "es": "libertad",
+      "fr": "liberté",
+      "de": "Freiheit",
+      "it": "libertà"
+    }
+  },
+  {
+    "id": "ox-b2-393",
+    "word": "freely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özgürce",
+      "es": "con libertad",
+      "fr": "librement",
+      "de": "frei",
+      "it": "liberamente"
+    }
+  },
+  {
+    "id": "ox-b2-394",
+    "word": "function",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işlev",
+      "es": "función",
+      "fr": "fonction",
+      "de": "Funktion",
+      "it": "funzione"
+    }
+  },
+  {
+    "id": "ox-b2-395",
+    "word": "fund",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fon",
+      "es": "financiar",
+      "fr": "fonds",
+      "de": "Fonds",
+      "it": "finanziare"
+    }
+  },
+  {
+    "id": "ox-b2-396",
+    "word": "fundamental",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "esas",
+      "es": "fundamental",
+      "fr": "fondamental",
+      "de": "grundlegend",
+      "it": "fondamentale"
+    }
+  },
+  {
+    "id": "ox-b2-397",
+    "word": "funeral",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cenaze",
+      "es": "funeral",
+      "fr": "funérailles",
+      "de": "Beerdigung",
+      "it": "funerale"
+    }
+  },
+  {
+    "id": "ox-b2-398",
+    "word": "gang",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çete",
+      "es": "banda",
+      "fr": "gang",
+      "de": "Gang",
+      "it": "banda"
+    }
+  },
+  {
+    "id": "ox-b2-399",
+    "word": "gather",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplamak",
+      "es": "recolectar",
+      "fr": "rassembler",
+      "de": "versammeln",
+      "it": "raccogliere"
+    }
+  },
+  {
+    "id": "ox-b2-400",
+    "word": "gear",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vites",
+      "es": "engranaje",
+      "fr": "engrenage",
+      "de": "Gang",
+      "it": "ingranaggio"
+    }
+  },
+  {
+    "id": "ox-b2-401",
+    "word": "generate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oluşturmak",
+      "es": "generar",
+      "fr": "générer",
+      "de": "erzeugen",
+      "it": "generare"
+    }
+  },
+  {
+    "id": "ox-b2-402",
+    "word": "gentleman",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beyefendi",
+      "es": "hidalgo",
+      "fr": "gentilhomme",
+      "de": "Gentleman",
+      "it": "signore"
+    }
+  },
+  {
+    "id": "ox-b2-403",
+    "word": "genuine",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eşsiz",
+      "es": "genuino",
+      "fr": "authentique",
+      "de": "echt",
+      "it": "genuino"
+    }
+  },
+  {
+    "id": "ox-b2-404",
+    "word": "genuinely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçekten",
+      "es": "verdaderamente",
+      "fr": "véritablement",
+      "de": "original",
+      "it": "sinceramente"
+    }
+  },
+  {
+    "id": "ox-b2-405",
+    "word": "gesture",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "jest yapmak",
+      "es": "gesto",
+      "fr": "geste",
+      "de": "Geste",
+      "it": "gesto"
+    }
+  },
+  {
+    "id": "ox-b2-406",
+    "word": "ghost",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hayalet",
+      "es": "fantasma",
+      "fr": "fantôme",
+      "de": "Geist",
+      "it": "fantasma"
+    }
+  },
+  {
+    "id": "ox-b2-407",
+    "word": "global",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "küresel",
+      "es": "global",
+      "fr": "mondial",
+      "de": "global",
+      "it": "globale"
+    }
+  },
+  {
+    "id": "ox-b2-408",
+    "word": "glue",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zamk",
+      "es": "pegamento",
+      "fr": "colle",
+      "de": "Kleber",
+      "it": "colla"
+    }
+  },
+  {
+    "id": "ox-b2-409",
+    "word": "god",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Tanrı",
+      "es": "dios",
+      "fr": "Dieu",
+      "de": "Gott",
+      "it": "Dio"
+    }
+  },
+  {
+    "id": "ox-b2-410",
+    "word": "govern",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönetmek",
+      "es": "gobernar",
+      "fr": "gouverner",
+      "de": "regieren",
+      "it": "governare"
+    }
+  },
+  {
+    "id": "ox-b2-411",
+    "word": "governor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Vali",
+      "es": "gobernador",
+      "fr": "gouverneur",
+      "de": "Gouverneur",
+      "it": "governatore"
+    }
+  },
+  {
+    "id": "ox-b2-412",
+    "word": "gradual",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kademeli",
+      "es": "gradual",
+      "fr": "graduel",
+      "de": "allmählich",
+      "it": "graduale"
+    }
+  },
+  {
+    "id": "ox-b2-413",
+    "word": "gradually",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gitgide",
+      "es": "gradualmente",
+      "fr": "progressivement",
+      "de": "schrittweise",
+      "it": "gradualmente"
+    }
+  },
+  {
+    "id": "ox-b2-414",
+    "word": "grain",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tahıl",
+      "es": "grano",
+      "fr": "grain",
+      "de": "Getreide",
+      "it": "grano"
+    }
+  },
+  {
+    "id": "ox-b2-415",
+    "word": "grand",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büyük",
+      "es": "magnífico",
+      "fr": "grandiose",
+      "de": "großartig",
+      "it": "grande"
+    }
+  },
+  {
+    "id": "ox-b2-416",
+    "word": "grave",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mezar",
+      "es": "tumba",
+      "fr": "tombe",
+      "de": "Grab",
+      "it": "grave"
+    }
+  },
+  {
+    "id": "ox-b2-417",
+    "word": "greatly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büyük ölçüde",
+      "es": "muy",
+      "fr": "considérablement",
+      "de": "stark",
+      "it": "notevolmente"
+    }
+  },
+  {
+    "id": "ox-b2-418",
+    "word": "grocery",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bakkal",
+      "es": "tienda de comestibles",
+      "fr": "épicerie",
+      "de": "Lebensmittelgeschäft",
+      "it": "drogheria"
+    }
+  },
+  {
+    "id": "ox-b2-419",
+    "word": "growth",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büyüme",
+      "es": "crecimiento",
+      "fr": "croissance",
+      "de": "Wachstum",
+      "it": "crescita"
+    }
+  },
+  {
+    "id": "ox-b2-420",
+    "word": "guarantee",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "garanti",
+      "es": "garantizar",
+      "fr": "garantie",
+      "de": "Garantie",
+      "it": "garanzia"
+    }
+  },
+  {
+    "id": "ox-b2-421",
+    "word": "hammer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çekiç",
+      "es": "martillo",
+      "fr": "marteau",
+      "de": "Hammer",
+      "it": "martello"
+    }
+  },
+  {
+    "id": "ox-b2-422",
+    "word": "harm",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zarar",
+      "es": "dañar",
+      "fr": "nuire",
+      "de": "Schaden",
+      "it": "danno"
+    }
+  },
+  {
+    "id": "ox-b2-423",
+    "word": "harmful",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zararlı",
+      "es": "dañino",
+      "fr": "nocif",
+      "de": "schädlich",
+      "it": "dannoso"
+    }
+  },
+  {
+    "id": "ox-b2-424",
+    "word": "harmless",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zararsız",
+      "es": "inofensivo",
+      "fr": "inoffensif",
+      "de": "harmlos",
+      "it": "innocuo"
+    }
+  },
+  {
+    "id": "ox-b2-425",
+    "word": "hatred",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nefret",
+      "es": "odio",
+      "fr": "haine",
+      "de": "Hass",
+      "it": "odio"
+    }
+  },
+  {
+    "id": "ox-b2-426",
+    "word": "heal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyileştirmek",
+      "es": "sanar",
+      "fr": "guérir",
+      "de": "heilen",
+      "it": "guarire"
+    }
+  },
+  {
+    "id": "ox-b2-427",
+    "word": "hearing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işitme",
+      "es": "audiencia",
+      "fr": "audience",
+      "de": "Anhörung",
+      "it": "udito"
+    }
+  },
+  {
+    "id": "ox-b2-428",
+    "word": "heaven",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cennet",
+      "es": "cielo",
+      "fr": "paradis",
+      "de": "Himmel",
+      "it": "paradiso"
+    }
+  },
+  {
+    "id": "ox-b2-429",
+    "word": "hell",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cehennem",
+      "es": "infierno",
+      "fr": "enfer",
+      "de": "Hölle",
+      "it": "inferno"
+    }
+  },
+  {
+    "id": "ox-b2-430",
+    "word": "helpful",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yardımsever",
+      "es": "útil",
+      "fr": "utile",
+      "de": "hilfreich",
+      "it": "utile"
+    }
+  },
+  {
+    "id": "ox-b2-431",
+    "word": "hence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "buradan",
+      "es": "por eso",
+      "fr": "ainsi",
+      "de": "somit",
+      "it": "quindi"
+    }
+  },
+  {
+    "id": "ox-b2-432",
+    "word": "hesitate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tereddüt etmek",
+      "es": "dudar",
+      "fr": "hésiter",
+      "de": "zögern",
+      "it": "esitare"
+    }
+  },
+  {
+    "id": "ox-b2-433",
+    "word": "highlight",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vurgulamak",
+      "es": "destacar",
+      "fr": "souligner",
+      "de": "hervorheben",
+      "it": "evidenziare"
+    }
+  },
+  {
+    "id": "ox-b2-434",
+    "word": "highly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "son derece",
+      "es": "muy",
+      "fr": "très",
+      "de": "hoch",
+      "it": "altamente"
+    }
+  },
+  {
+    "id": "ox-b2-435",
+    "word": "highway",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "otoyol",
+      "es": "carretera",
+      "fr": "autoroute",
+      "de": "Autobahn",
+      "it": "autostrada"
+    }
+  },
+  {
+    "id": "ox-b2-436",
+    "word": "hint",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ipucu",
+      "es": "pista",
+      "fr": "indice",
+      "de": "Hinweis",
+      "it": "suggerimento"
+    }
+  },
+  {
+    "id": "ox-b2-437",
+    "word": "hollow",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oyuk",
+      "es": "hueco",
+      "fr": "creux",
+      "de": "hohl",
+      "it": "vuoto"
+    }
+  },
+  {
+    "id": "ox-b2-438",
+    "word": "holy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kutsal",
+      "es": "santo",
+      "fr": "saint",
+      "de": "heilig",
+      "it": "santo"
+    }
+  },
+  {
+    "id": "ox-b2-439",
+    "word": "honour",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onur",
+      "es": "honor",
+      "fr": "honneur",
+      "de": "Ehre",
+      "it": "onore"
+    }
+  },
+  {
+    "id": "ox-b2-440",
+    "word": "hook",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kanca",
+      "es": "gancho",
+      "fr": "crochet",
+      "de": "Haken",
+      "it": "gancio"
+    }
+  },
+  {
+    "id": "ox-b2-441",
+    "word": "horizontal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yatay",
+      "es": "horizontal",
+      "fr": "horizontal",
+      "de": "horizontal",
+      "it": "orizzontale"
+    }
+  },
+  {
+    "id": "ox-b2-442",
+    "word": "horn",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korna",
+      "es": "bocina",
+      "fr": "corne",
+      "de": "Horn",
+      "it": "corno"
+    }
+  },
+  {
+    "id": "ox-b2-443",
+    "word": "host",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ev sahibi",
+      "es": "anfitrión",
+      "fr": "hôte",
+      "de": "Gastgeber",
+      "it": "ospite"
+    }
+  },
+  {
+    "id": "ox-b2-444",
+    "word": "household",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ev",
+      "es": "familiar",
+      "fr": "ménage",
+      "de": "Haushalt",
+      "it": "domestico"
+    }
+  },
+  {
+    "id": "ox-b2-445",
+    "word": "housing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "konut",
+      "es": "alojamiento",
+      "fr": "logement",
+      "de": "Gehäuse",
+      "it": "alloggiamento"
+    }
+  },
+  {
+    "id": "ox-b2-446",
+    "word": "humorous",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "esprili",
+      "es": "humorístico",
+      "fr": "humoristique",
+      "de": "humorvoll",
+      "it": "divertente"
+    }
+  },
+  {
+    "id": "ox-b2-447",
+    "word": "humour",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mizah",
+      "es": "humor",
+      "fr": "humour",
+      "de": "Humor",
+      "it": "umore"
+    }
+  },
+  {
+    "id": "ox-b2-448",
+    "word": "hunter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "avcı",
+      "es": "cazador",
+      "fr": "chasseur",
+      "de": "Jäger",
+      "it": "cacciatore"
+    }
+  },
+  {
+    "id": "ox-b2-449",
+    "word": "hypothesize",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hipotez kurmak",
+      "es": "hipotetizar",
+      "fr": "émettre une hypothèse",
+      "de": "Hypothese",
+      "it": "ipotizzare"
+    }
+  },
+  {
+    "id": "ox-b2-450",
+    "word": "hypothesis",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hipotez",
+      "es": "hipótesis",
+      "fr": "hypothèse",
+      "de": "Hypothese",
+      "it": "ipotesi"
+    }
+  },
+  {
+    "id": "ox-b2-451",
+    "word": "ideal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ideal",
+      "es": "ideal",
+      "fr": "idéal",
+      "de": "Ideal",
+      "it": "ideale"
+    }
+  },
+  {
+    "id": "ox-b2-452",
+    "word": "identity",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kimlik",
+      "es": "identidad",
+      "fr": "identité",
+      "de": "Identität",
+      "it": "identità"
+    }
+  },
+  {
+    "id": "ox-b2-453",
+    "word": "ie",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yani",
+      "es": "es decir",
+      "fr": "c'est à dire",
+      "de": "dh",
+      "it": "cioè"
+    }
+  },
+  {
+    "id": "ox-b2-454",
+    "word": "illegal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yasa dışı",
+      "es": "ilegal",
+      "fr": "illégal",
+      "de": "illegal",
+      "it": "illegale"
+    }
+  },
+  {
+    "id": "ox-b2-455",
+    "word": "illustrate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "göstermek",
+      "es": "ilustrar",
+      "fr": "illustrer",
+      "de": "veranschaulichen",
+      "it": "illustrare"
+    }
+  },
+  {
+    "id": "ox-b2-456",
+    "word": "illustration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "illüstrasyon",
+      "es": "ilustración",
+      "fr": "illustration",
+      "de": "Illustration",
+      "it": "illustrazione"
+    }
+  },
+  {
+    "id": "ox-b2-457",
+    "word": "image",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görüntü",
+      "es": "imagen",
+      "fr": "image",
+      "de": "Bild",
+      "it": "immagine"
+    }
+  },
+  {
+    "id": "ox-b2-458",
+    "word": "imaginary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hayali",
+      "es": "imaginario",
+      "fr": "imaginaire",
+      "de": "imaginär",
+      "it": "immaginario"
+    }
+  },
+  {
+    "id": "ox-b2-459",
+    "word": "immediate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acil",
+      "es": "inmediato",
+      "fr": "immédiat",
+      "de": "sofort",
+      "it": "immediato"
+    }
+  },
+  {
+    "id": "ox-b2-460",
+    "word": "immoral",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ahlaksız",
+      "es": "inmoral",
+      "fr": "immoral",
+      "de": "unmoralisch",
+      "it": "immorale"
+    }
+  },
+  {
+    "id": "ox-b2-461",
+    "word": "impact",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "darbe",
+      "es": "impacto",
+      "fr": "impact",
+      "de": "Auswirkungen",
+      "it": "impatto"
+    }
+  },
+  {
+    "id": "ox-b2-462",
+    "word": "impatient",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sabırsız",
+      "es": "impaciente",
+      "fr": "impatient",
+      "de": "ungeduldig",
+      "it": "impaziente"
+    }
+  },
+  {
+    "id": "ox-b2-463",
+    "word": "imply",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ima etmek",
+      "es": "implicar",
+      "fr": "impliquer",
+      "de": "implizieren",
+      "it": "implicare"
+    }
+  },
+  {
+    "id": "ox-b2-464",
+    "word": "import",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içe aktarmak",
+      "es": "importar",
+      "fr": "importer",
+      "de": "Import",
+      "it": "importare"
+    }
+  },
+  {
+    "id": "ox-b2-465",
+    "word": "impose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "empoze etmek",
+      "es": "imponer",
+      "fr": "imposer",
+      "de": "auferlegen",
+      "it": "imporre"
+    }
+  },
+  {
+    "id": "ox-b2-466",
+    "word": "impress",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etkilemek",
+      "es": "impresionar",
+      "fr": "impressionner",
+      "de": "beeindrucken",
+      "it": "impressionare"
+    }
+  },
+  {
+    "id": "ox-b2-467",
+    "word": "impressed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etkilenmiş",
+      "es": "impresionado",
+      "fr": "impressionné",
+      "de": "beeindruckt",
+      "it": "impressionato"
+    }
+  },
+  {
+    "id": "ox-b2-468",
+    "word": "impression",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "izlenim",
+      "es": "impresión",
+      "fr": "impression",
+      "de": "Eindruck",
+      "it": "impressione"
+    }
+  },
+  {
+    "id": "ox-b2-469",
+    "word": "impressive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etkileyici",
+      "es": "impresionante",
+      "fr": "impressionnant",
+      "de": "beeindruckend",
+      "it": "impressionante"
+    }
+  },
+  {
+    "id": "ox-b2-470",
+    "word": "inability",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yetersizlik",
+      "es": "incapacidad",
+      "fr": "incapacité",
+      "de": "Unfähigkeit",
+      "it": "incapacità"
+    }
+  },
+  {
+    "id": "ox-b2-471",
+    "word": "incident",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olay",
+      "es": "incidente",
+      "fr": "incident",
+      "de": "Vorfall",
+      "it": "incidente"
+    }
+  },
+  {
+    "id": "ox-b2-472",
+    "word": "income",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gelir",
+      "es": "ingreso",
+      "fr": "revenu",
+      "de": "Einkommen",
+      "it": "reddito"
+    }
+  },
+  {
+    "id": "ox-b2-473",
+    "word": "increased",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "artırılmış",
+      "es": "aumentó",
+      "fr": "augmenté",
+      "de": "erhöht",
+      "it": "aumentato"
+    }
+  },
+  {
+    "id": "ox-b2-474",
+    "word": "increasingly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "giderek",
+      "es": "cada vez más",
+      "fr": "de plus en plus",
+      "de": "zunehmend",
+      "it": "sempre più"
+    }
+  },
+  {
+    "id": "ox-b2-475",
+    "word": "independence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağımsızlık",
+      "es": "independencia",
+      "fr": "indépendance",
+      "de": "Unabhängigkeit",
+      "it": "indipendenza"
+    }
+  },
+  {
+    "id": "ox-b2-476",
+    "word": "index",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "indeks",
+      "es": "índice",
+      "fr": "indice",
+      "de": "Index",
+      "it": "indice"
+    }
+  },
+  {
+    "id": "ox-b2-477",
+    "word": "indicate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belirtmek",
+      "es": "indicar",
+      "fr": "indiquer",
+      "de": "angeben",
+      "it": "indicare"
+    }
+  },
+  {
+    "id": "ox-b2-478",
+    "word": "indication",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gösterge",
+      "es": "indicación",
+      "fr": "indication",
+      "de": "Anzeige",
+      "it": "indicazione"
+    }
+  },
+  {
+    "id": "ox-b2-479",
+    "word": "indirect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dolaylı",
+      "es": "indirecto",
+      "fr": "indirect",
+      "de": "indirekt",
+      "it": "indiretto"
+    }
+  },
+  {
+    "id": "ox-b2-480",
+    "word": "industrial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "endüstriyel",
+      "es": "industrial",
+      "fr": "industriel",
+      "de": "industriell",
+      "it": "industriale"
+    }
+  },
+  {
+    "id": "ox-b2-481",
+    "word": "inevitable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaçınılmaz",
+      "es": "inevitable",
+      "fr": "inévitable",
+      "de": "unvermeidlich",
+      "it": "inevitabile"
+    }
+  },
+  {
+    "id": "ox-b2-482",
+    "word": "inevitably",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaçınılmaz olarak",
+      "es": "inevitablemente",
+      "fr": "inévitablement",
+      "de": "zwangsläufig",
+      "it": "inevitabilmente"
+    }
+  },
+  {
+    "id": "ox-b2-483",
+    "word": "infant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bebek",
+      "es": "niño",
+      "fr": "nourrisson",
+      "de": "Säugling",
+      "it": "infantile"
+    }
+  },
+  {
+    "id": "ox-b2-484",
+    "word": "infect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "enfekte etmek",
+      "es": "infectar",
+      "fr": "infecter",
+      "de": "infizieren",
+      "it": "infettare"
+    }
+  },
+  {
+    "id": "ox-b2-485",
+    "word": "infected",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "enfekte",
+      "es": "infectado",
+      "fr": "infecté",
+      "de": "infiziert",
+      "it": "infetto"
+    }
+  },
+  {
+    "id": "ox-b2-486",
+    "word": "infection",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "enfeksiyon",
+      "es": "infección",
+      "fr": "infection",
+      "de": "Infektion",
+      "it": "infezione"
+    }
+  },
+  {
+    "id": "ox-b2-487",
+    "word": "infectious",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bulaşıcı",
+      "es": "infeccioso",
+      "fr": "infectieux",
+      "de": "ansteckend",
+      "it": "contagioso"
+    }
+  },
+  {
+    "id": "ox-b2-488",
+    "word": "informal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "resmi olmayan",
+      "es": "informal",
+      "fr": "informel",
+      "de": "informell",
+      "it": "informale"
+    }
+  },
+  {
+    "id": "ox-b2-489",
+    "word": "initially",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilk olarak",
+      "es": "inicialmente",
+      "fr": "initialement",
+      "de": "anfänglich",
+      "it": "inizialmente"
+    }
+  },
+  {
+    "id": "ox-b2-490",
+    "word": "initiative",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "girişim",
+      "es": "iniciativa",
+      "fr": "initiative",
+      "de": "Initiative",
+      "it": "iniziativa"
+    }
+  },
+  {
+    "id": "ox-b2-491",
+    "word": "injured",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaralı",
+      "es": "herido",
+      "fr": "blessé",
+      "de": "verletzt",
+      "it": "ferito"
+    }
+  },
+  {
+    "id": "ox-b2-492",
+    "word": "injury",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "incinme",
+      "es": "lesión",
+      "fr": "blessure",
+      "de": "Verletzung",
+      "it": "infortunio"
+    }
+  },
+  {
+    "id": "ox-b2-493",
+    "word": "inner",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iç",
+      "es": "interno",
+      "fr": "intérieur",
+      "de": "innere",
+      "it": "interno"
+    }
+  },
+  {
+    "id": "ox-b2-494",
+    "word": "innocent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "masum",
+      "es": "inocente",
+      "fr": "innocent",
+      "de": "unschuldig",
+      "it": "innocente"
+    }
+  },
+  {
+    "id": "ox-b2-495",
+    "word": "insert",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sokmak",
+      "es": "insertar",
+      "fr": "insérer",
+      "de": "einfügen",
+      "it": "inserire"
+    }
+  },
+  {
+    "id": "ox-b2-496",
+    "word": "instead",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerine",
+      "es": "en cambio",
+      "fr": "plutôt",
+      "de": "stattdessen",
+      "it": "Invece"
+    }
+  },
+  {
+    "id": "ox-b2-497",
+    "word": "institute",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "enstitü",
+      "es": "instituto",
+      "fr": "institut",
+      "de": "Institut",
+      "it": "istituto"
+    }
+  },
+  {
+    "id": "ox-b2-498",
+    "word": "institution",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurum",
+      "es": "institución",
+      "fr": "institution",
+      "de": "Institution",
+      "it": "istituzione"
+    }
+  },
+  {
+    "id": "ox-b2-499",
+    "word": "instruction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "talimat",
+      "es": "instrucción",
+      "fr": "instruction",
+      "de": "Anweisung",
+      "it": "istruzioni"
+    }
+  },
+  {
+    "id": "ox-b2-500",
+    "word": "insult",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hakaret",
+      "es": "insulto",
+      "fr": "insulte",
+      "de": "Beleidigung",
+      "it": "insulto"
+    }
+  },
+  {
+    "id": "ox-b2-501",
+    "word": "insulting",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aşağılayıcı",
+      "es": "insultante",
+      "fr": "insultant",
+      "de": "beleidigend",
+      "it": "offensivo"
+    }
+  },
+  {
+    "id": "ox-b2-502",
+    "word": "insurance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sigorta",
+      "es": "seguro",
+      "fr": "assurance",
+      "de": "Versicherung",
+      "it": "assicurazione"
+    }
+  },
+  {
+    "id": "ox-b2-503",
+    "word": "intelligence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "istihbarat",
+      "es": "inteligencia",
+      "fr": "intelligence",
+      "de": "Intelligenz",
+      "it": "intelligenza"
+    }
+  },
+  {
+    "id": "ox-b2-504",
+    "word": "intended",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "amaçlanan",
+      "es": "destinado",
+      "fr": "destiné",
+      "de": "beabsichtigt",
+      "it": "destinato"
+    }
+  },
+  {
+    "id": "ox-b2-505",
+    "word": "intensity",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yoğunluk",
+      "es": "intensidad",
+      "fr": "intensité",
+      "de": "Intensität",
+      "it": "intensità"
+    }
+  },
+  {
+    "id": "ox-b2-506",
+    "word": "intention",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "niyet",
+      "es": "intención",
+      "fr": "intention",
+      "de": "Absicht",
+      "it": "intenzione"
+    }
+  },
+  {
+    "id": "ox-b2-507",
+    "word": "interior",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iç mekan",
+      "es": "interior",
+      "fr": "intérieur",
+      "de": "Innere",
+      "it": "interno"
+    }
+  },
+  {
+    "id": "ox-b2-508",
+    "word": "internal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dahili",
+      "es": "interno",
+      "fr": "interne",
+      "de": "intern",
+      "it": "interno"
+    }
+  },
+  {
+    "id": "ox-b2-509",
+    "word": "interpret",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yorumlamak",
+      "es": "interpretar",
+      "fr": "interpréter",
+      "de": "interpretieren",
+      "it": "interpretare"
+    }
+  },
+  {
+    "id": "ox-b2-510",
+    "word": "interpretation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tercüme",
+      "es": "interpretación",
+      "fr": "interprétation",
+      "de": "Interpretation",
+      "it": "interpretazione"
+    }
+  },
+  {
+    "id": "ox-b2-511",
+    "word": "invest",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yatırım",
+      "es": "invertir",
+      "fr": "investir",
+      "de": "investieren",
+      "it": "investire"
+    }
+  },
+  {
+    "id": "ox-b2-512",
+    "word": "investigate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "araştırmak",
+      "es": "investigar",
+      "fr": "enquêter",
+      "de": "untersuchen",
+      "it": "indagare"
+    }
+  },
+  {
+    "id": "ox-b2-513",
+    "word": "investigation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soruşturma",
+      "es": "investigación",
+      "fr": "enquête",
+      "de": "Untersuchung",
+      "it": "indagine"
+    }
+  },
+  {
+    "id": "ox-b2-514",
+    "word": "investment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yatırım",
+      "es": "inversión",
+      "fr": "investissement",
+      "de": "Investition",
+      "it": "investimento"
+    }
+  },
+  {
+    "id": "ox-b2-515",
+    "word": "investor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yatırımcı",
+      "es": "inversor",
+      "fr": "investisseur",
+      "de": "Investor",
+      "it": "investitore"
+    }
+  },
+  {
+    "id": "ox-b2-516",
+    "word": "involved",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dahil olmuş",
+      "es": "involucrado",
+      "fr": "impliqué",
+      "de": "beteiligt",
+      "it": "coinvolto"
+    }
+  },
+  {
+    "id": "ox-b2-517",
+    "word": "jaw",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çene",
+      "es": "mandíbula",
+      "fr": "mâchoire",
+      "de": "Kiefer",
+      "it": "mascella"
+    }
+  },
+  {
+    "id": "ox-b2-518",
+    "word": "jelly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "jöle",
+      "es": "gelatina",
+      "fr": "gelée",
+      "de": "Gelee",
+      "it": "gelatina"
+    }
+  },
+  {
+    "id": "ox-b2-519",
+    "word": "jewel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mücevher",
+      "es": "joya",
+      "fr": "bijou",
+      "de": "Juwel",
+      "it": "gioiello"
+    }
+  },
+  {
+    "id": "ox-b2-520",
+    "word": "joint",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eklem yeri",
+      "es": "articulación",
+      "fr": "articulation",
+      "de": "gemeinsam",
+      "it": "giunto"
+    }
+  },
+  {
+    "id": "ox-b2-521",
+    "word": "journal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "günlük",
+      "es": "diario",
+      "fr": "journal",
+      "de": "Zeitschrift",
+      "it": "diario"
+    }
+  },
+  {
+    "id": "ox-b2-522",
+    "word": "joy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "neşe",
+      "es": "alegría",
+      "fr": "joie",
+      "de": "Freude",
+      "it": "gioia"
+    }
+  },
+  {
+    "id": "ox-b2-523",
+    "word": "judgement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yargı",
+      "es": "juicio",
+      "fr": "jugement",
+      "de": "Urteil",
+      "it": "sentenza"
+    }
+  },
+  {
+    "id": "ox-b2-524",
+    "word": "junior",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "genç",
+      "es": "júnior",
+      "fr": "junior",
+      "de": "Junior-",
+      "it": "junior"
+    }
+  },
+  {
+    "id": "ox-b2-525",
+    "word": "justice",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "adalet",
+      "es": "justicia",
+      "fr": "justice",
+      "de": "Gerechtigkeit",
+      "it": "giustizia"
+    }
+  },
+  {
+    "id": "ox-b2-526",
+    "word": "justified",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haklı",
+      "es": "justificado",
+      "fr": "justifié",
+      "de": "gerechtfertigt",
+      "it": "giustificato"
+    }
+  },
+  {
+    "id": "ox-b2-527",
+    "word": "justify",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "savunmak",
+      "es": "justificar",
+      "fr": "justifier",
+      "de": "rechtfertigen",
+      "it": "giustificare"
+    }
+  },
+  {
+    "id": "ox-b2-528",
+    "word": "killing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öldürme",
+      "es": "asesinato",
+      "fr": "meurtre",
+      "de": "Tötung",
+      "it": "uccidendo"
+    }
+  },
+  {
+    "id": "ox-b2-529",
+    "word": "kilogram",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kilogram",
+      "es": "kilogramo",
+      "fr": "kilogramme",
+      "de": "Kilogramm",
+      "it": "chilogrammo"
+    }
+  },
+  {
+    "id": "ox-b2-530",
+    "word": "knot",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düğüm",
+      "es": "nudo",
+      "fr": "noeud",
+      "de": "Knoten",
+      "it": "nodo"
+    }
+  },
+  {
+    "id": "ox-b2-531",
+    "word": "labour",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iş gücü",
+      "es": "mano de obra",
+      "fr": "travail",
+      "de": "Arbeit",
+      "it": "lavoro"
+    }
+  },
+  {
+    "id": "ox-b2-532",
+    "word": "lane",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Lane",
+      "es": "carril",
+      "fr": "voie",
+      "de": "Fahrbahn",
+      "it": "sentiero"
+    }
+  },
+  {
+    "id": "ox-b2-533",
+    "word": "largely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büyük ölçüde",
+      "es": "en gran parte",
+      "fr": "en grande partie",
+      "de": "weitgehend",
+      "it": "in gran parte"
+    }
+  },
+  {
+    "id": "ox-b2-534",
+    "word": "latter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikincisi",
+      "es": "último",
+      "fr": "dernier",
+      "de": "letztere",
+      "it": "più recente"
+    }
+  },
+  {
+    "id": "ox-b2-535",
+    "word": "launch",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öğle yemeği",
+      "es": "lanzamiento",
+      "fr": "lancement",
+      "de": "Start",
+      "it": "lancio"
+    }
+  },
+  {
+    "id": "ox-b2-536",
+    "word": "layer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katman",
+      "es": "capa",
+      "fr": "couche",
+      "de": "Schicht",
+      "it": "strato"
+    }
+  },
+  {
+    "id": "ox-b2-537",
+    "word": "lead",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yol göstermek",
+      "es": "dirigir",
+      "fr": "plomb",
+      "de": "führen",
+      "it": "Guida"
+    }
+  },
+  {
+    "id": "ox-b2-538",
+    "word": "leading",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önde gelen",
+      "es": "principal",
+      "fr": "menant",
+      "de": "führend",
+      "it": "primo"
+    }
+  },
+  {
+    "id": "ox-b2-539",
+    "word": "lean",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğilmek",
+      "es": "inclinarse",
+      "fr": "maigre",
+      "de": "mager",
+      "it": "pendere"
+    }
+  },
+  {
+    "id": "ox-b2-540",
+    "word": "legal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yasal",
+      "es": "legal",
+      "fr": "légal",
+      "de": "legal",
+      "it": "legale"
+    }
+  },
+  {
+    "id": "ox-b2-541",
+    "word": "legend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "efsane",
+      "es": "leyenda",
+      "fr": "légende",
+      "de": "Legende",
+      "it": "leggenda"
+    }
+  },
+  {
+    "id": "ox-b2-542",
+    "word": "liberal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "liberal",
+      "es": "liberal",
+      "fr": "libéral",
+      "de": "Liberale",
+      "it": "liberale"
+    }
+  },
+  {
+    "id": "ox-b2-543",
+    "word": "license",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "lisans",
+      "es": "licencia",
+      "fr": "licence",
+      "de": "Lizenz",
+      "it": "licenza"
+    }
+  },
+  {
+    "id": "ox-b2-544",
+    "word": "lid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapak",
+      "es": "tapa",
+      "fr": "couvercle",
+      "de": "Deckel",
+      "it": "coperchio"
+    }
+  },
+  {
+    "id": "ox-b2-545",
+    "word": "lightly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hafifçe",
+      "es": "ligeramente",
+      "fr": "légèrement",
+      "de": "leicht",
+      "it": "leggermente"
+    }
+  },
+  {
+    "id": "ox-b2-546",
+    "word": "living",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaşamak",
+      "es": "viviendo",
+      "fr": "vie",
+      "de": "Leben",
+      "it": "vita"
+    }
+  },
+  {
+    "id": "ox-b2-547",
+    "word": "located",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bulunan",
+      "es": "situado",
+      "fr": "situé",
+      "de": "gelegen",
+      "it": "situato"
+    }
+  },
+  {
+    "id": "ox-b2-548",
+    "word": "logic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mantık",
+      "es": "lógica",
+      "fr": "logique",
+      "de": "Logik",
+      "it": "logica"
+    }
+  },
+  {
+    "id": "ox-b2-549",
+    "word": "logical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mantıksal",
+      "es": "lógico",
+      "fr": "logique",
+      "de": "logisch",
+      "it": "logico"
+    }
+  },
+  {
+    "id": "ox-b2-550",
+    "word": "loosely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gevşekçe",
+      "es": "libremente",
+      "fr": "librement",
+      "de": "lose",
+      "it": "liberamente"
+    }
+  },
+  {
+    "id": "ox-b2-551",
+    "word": "lord",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "efendim",
+      "es": "caballero",
+      "fr": "seigneur",
+      "de": "Herr",
+      "it": "signore"
+    }
+  },
+  {
+    "id": "ox-b2-552",
+    "word": "loss",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıp",
+      "es": "pérdida",
+      "fr": "perte",
+      "de": "Verlust",
+      "it": "perdita"
+    }
+  },
+  {
+    "id": "ox-b2-553",
+    "word": "loyal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sadık",
+      "es": "leal",
+      "fr": "loyal",
+      "de": "treu",
+      "it": "leale"
+    }
+  },
+  {
+    "id": "ox-b2-554",
+    "word": "lump",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yumru",
+      "es": "bulto",
+      "fr": "grumeau",
+      "de": "Klumpen",
+      "it": "massa"
+    }
+  },
+  {
+    "id": "ox-b2-555",
+    "word": "lung",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akciğer",
+      "es": "pulmón",
+      "fr": "poumon",
+      "de": "Lunge",
+      "it": "polmone"
+    }
+  },
+  {
+    "id": "ox-b2-556",
+    "word": "machinery",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "makineler",
+      "es": "maquinaria",
+      "fr": "machinerie",
+      "de": "Maschinen",
+      "it": "macchinari"
+    }
+  },
+  {
+    "id": "ox-b2-557",
+    "word": "maintain",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sürdürmek",
+      "es": "mantener",
+      "fr": "maintenir",
+      "de": "pflegen",
+      "it": "mantenere"
+    }
+  },
+  {
+    "id": "ox-b2-558",
+    "word": "maintenance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Bakım",
+      "es": "mantenimiento",
+      "fr": "entretien",
+      "de": "Wartung",
+      "it": "manutenzione"
+    }
+  },
+  {
+    "id": "ox-b2-559",
+    "word": "major",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ana",
+      "es": "importante",
+      "fr": "majeur",
+      "de": "wesentlich",
+      "it": "maggiore"
+    }
+  },
+  {
+    "id": "ox-b2-560",
+    "word": "majority",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çoğunluk",
+      "es": "mayoría",
+      "fr": "majorité",
+      "de": "mehrheitlich",
+      "it": "maggioranza"
+    }
+  },
+  {
+    "id": "ox-b2-561",
+    "word": "management",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönetmek",
+      "es": "gestión",
+      "fr": "gestion",
+      "de": "Management",
+      "it": "gestione"
+    }
+  },
+  {
+    "id": "ox-b2-562",
+    "word": "manner",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "biçim",
+      "es": "manera",
+      "fr": "manière",
+      "de": "Benehmen",
+      "it": "maniera"
+    }
+  },
+  {
+    "id": "ox-b2-563",
+    "word": "manufacture",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "imalat",
+      "es": "fabricar",
+      "fr": "fabrication",
+      "de": "Herstellung",
+      "it": "produzione"
+    }
+  },
+  {
+    "id": "ox-b2-564",
+    "word": "manufacturer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üretici",
+      "es": "fabricante",
+      "fr": "fabricant",
+      "de": "Hersteller",
+      "it": "produttore"
+    }
+  },
+  {
+    "id": "ox-b2-565",
+    "word": "manufacturing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üretme",
+      "es": "fabricación",
+      "fr": "fabrication",
+      "de": "Herstellung",
+      "it": "produzione"
+    }
+  },
+  {
+    "id": "ox-b2-566",
+    "word": "march",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mart",
+      "es": "marzo",
+      "fr": "mars",
+      "de": "Marsch",
+      "it": "marzo"
+    }
+  },
+  {
+    "id": "ox-b2-567",
+    "word": "marketing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pazarlama",
+      "es": "marketing",
+      "fr": "commercialisation",
+      "de": "Marketing",
+      "it": "marketing"
+    }
+  },
+  {
+    "id": "ox-b2-568",
+    "word": "mass",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yığın",
+      "es": "masa",
+      "fr": "masse",
+      "de": "Masse",
+      "it": "massa"
+    }
+  },
+  {
+    "id": "ox-b2-569",
+    "word": "massive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cüsseli",
+      "es": "masivo",
+      "fr": "massif",
+      "de": "massiv",
+      "it": "massiccio"
+    }
+  },
+  {
+    "id": "ox-b2-570",
+    "word": "master",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "usta",
+      "es": "maestro",
+      "fr": "maître",
+      "de": "Master",
+      "it": "maestro"
+    }
+  },
+  {
+    "id": "ox-b2-571",
+    "word": "matching",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eşleştirme",
+      "es": "pareo",
+      "fr": "correspondance",
+      "de": "passend",
+      "it": "corrispondenza"
+    }
+  },
+  {
+    "id": "ox-b2-572",
+    "word": "mathematics",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "matematik",
+      "es": "matemáticas",
+      "fr": "mathématiques",
+      "de": "Mathematik",
+      "it": "matematica"
+    }
+  },
+  {
+    "id": "ox-b2-573",
+    "word": "mayor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belediye başkanı",
+      "es": "alcalde",
+      "fr": "maire",
+      "de": "Bürgermeister",
+      "it": "sindaco"
+    }
+  },
+  {
+    "id": "ox-b2-574",
+    "word": "means",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "araç",
+      "es": "medio",
+      "fr": "moyens",
+      "de": "bedeutet",
+      "it": "significa"
+    }
+  },
+  {
+    "id": "ox-b2-575",
+    "word": "measurement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ölçüm",
+      "es": "medición",
+      "fr": "mesures",
+      "de": "Messung",
+      "it": "misurazione"
+    }
+  },
+  {
+    "id": "ox-b2-576",
+    "word": "mechanism",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mekanizma",
+      "es": "mecanismo",
+      "fr": "mécanisme",
+      "de": "Mechanismus",
+      "it": "meccanismo"
+    }
+  },
+  {
+    "id": "ox-b2-577",
+    "word": "media",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "medya",
+      "es": "medios de comunicación",
+      "fr": "médias",
+      "de": "Medien",
+      "it": "media"
+    }
+  },
+  {
+    "id": "ox-b2-578",
+    "word": "medical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tıbbi",
+      "es": "médico",
+      "fr": "médical",
+      "de": "medizinisch",
+      "it": "medico"
+    }
+  },
+  {
+    "id": "ox-b2-579",
+    "word": "melt",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eritmek",
+      "es": "derretir",
+      "fr": "fondre",
+      "de": "schmelzen",
+      "it": "sciolto"
+    }
+  },
+  {
+    "id": "ox-b2-580",
+    "word": "mental",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zihinsel",
+      "es": "mental",
+      "fr": "mental",
+      "de": "mental",
+      "it": "mentale"
+    }
+  },
+  {
+    "id": "ox-b2-581",
+    "word": "mentally",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zihinsel olarak",
+      "es": "mentalmente",
+      "fr": "mentalement",
+      "de": "geistig",
+      "it": "mentalmente"
+    }
+  },
+  {
+    "id": "ox-b2-582",
+    "word": "mere",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sadece",
+      "es": "mero",
+      "fr": "simple",
+      "de": "bloß",
+      "it": "semplice"
+    }
+  },
+  {
+    "id": "ox-b2-583",
+    "word": "merely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sadece",
+      "es": "meramente",
+      "fr": "simplement",
+      "de": "lediglich",
+      "it": "semplicemente"
+    }
+  },
+  {
+    "id": "ox-b2-584",
+    "word": "military",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "askeri",
+      "es": "militar",
+      "fr": "militaire",
+      "de": "Militär",
+      "it": "militare"
+    }
+  },
+  {
+    "id": "ox-b2-585",
+    "word": "milligram",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "miligram",
+      "es": "miligramo",
+      "fr": "milligramme",
+      "de": "Milligramm",
+      "it": "milligrammo"
+    }
+  },
+  {
+    "id": "ox-b2-586",
+    "word": "mineral",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mineral",
+      "es": "mineral",
+      "fr": "minéral",
+      "de": "Mineral",
+      "it": "minerale"
+    }
+  },
+  {
+    "id": "ox-b2-587",
+    "word": "minister",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bakan",
+      "es": "ministro",
+      "fr": "ministre",
+      "de": "Minister",
+      "it": "ministro"
+    }
+  },
+  {
+    "id": "ox-b2-588",
+    "word": "ministry",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bakanlık",
+      "es": "ministerio",
+      "fr": "ministère",
+      "de": "Ministerium",
+      "it": "ministero"
+    }
+  },
+  {
+    "id": "ox-b2-589",
+    "word": "minor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "küçük",
+      "es": "menor",
+      "fr": "mineure",
+      "de": "unerheblich",
+      "it": "minore"
+    }
+  },
+  {
+    "id": "ox-b2-590",
+    "word": "minority",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "azınlık",
+      "es": "minoría",
+      "fr": "minorité",
+      "de": "Minderheit",
+      "it": "minoranza"
+    }
+  },
+  {
+    "id": "ox-b2-591",
+    "word": "mistaken",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yanılmış",
+      "es": "equivocado",
+      "fr": "trompé",
+      "de": "falsch",
+      "it": "sbagliato"
+    }
+  },
+  {
+    "id": "ox-b2-592",
+    "word": "mixed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karışık",
+      "es": "mezclado",
+      "fr": "mixte",
+      "de": "gemischt",
+      "it": "misto"
+    }
+  },
+  {
+    "id": "ox-b2-593",
+    "word": "mixture",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karışım",
+      "es": "mezcla",
+      "fr": "mélange",
+      "de": "Mischung",
+      "it": "miscela"
+    }
+  },
+  {
+    "id": "ox-b2-594",
+    "word": "mobile",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mobil",
+      "es": "móvil",
+      "fr": "mobile",
+      "de": "Mobile",
+      "it": "mobile"
+    }
+  },
+  {
+    "id": "ox-b2-595",
+    "word": "monitor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "monitör",
+      "es": "monitor",
+      "fr": "moniteur",
+      "de": "Monitor",
+      "it": "monitorare"
+    }
+  },
+  {
+    "id": "ox-b2-596",
+    "word": "moral",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ahlaki",
+      "es": "moral",
+      "fr": "morale",
+      "de": "Moral",
+      "it": "morale"
+    }
+  },
+  {
+    "id": "ox-b2-597",
+    "word": "morally",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ahlaki açıdan",
+      "es": "moralmente",
+      "fr": "moralement",
+      "de": "moralisch",
+      "it": "moralmente"
+    }
+  },
+  {
+    "id": "ox-b2-598",
+    "word": "moreover",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Dahası",
+      "es": "además",
+      "fr": "de plus",
+      "de": "darüber hinaus",
+      "it": "Inoltre"
+    }
+  },
+  {
+    "id": "ox-b2-599",
+    "word": "motion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hareket",
+      "es": "movimiento",
+      "fr": "mouvement",
+      "de": "Bewegung",
+      "it": "movimento"
+    }
+  },
+  {
+    "id": "ox-b2-600",
+    "word": "motor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "motor",
+      "es": "motor",
+      "fr": "moteur",
+      "de": "Motor",
+      "it": "motore"
+    }
+  },
+  {
+    "id": "ox-b2-601",
+    "word": "mount",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "montaj",
+      "es": "montar",
+      "fr": "monter",
+      "de": "montieren",
+      "it": "montare"
+    }
+  },
+  {
+    "id": "ox-b2-602",
+    "word": "movement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hareket",
+      "es": "movimiento",
+      "fr": "mouvement",
+      "de": "Bewegung",
+      "it": "movimento"
+    }
+  },
+  {
+    "id": "ox-b2-603",
+    "word": "mud",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çamur",
+      "es": "lodo",
+      "fr": "boue",
+      "de": "Dreck",
+      "it": "fango"
+    }
+  },
+  {
+    "id": "ox-b2-604",
+    "word": "murder",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cinayet",
+      "es": "asesinato",
+      "fr": "meurtre",
+      "de": "Mord",
+      "it": "omicidio"
+    }
+  },
+  {
+    "id": "ox-b2-605",
+    "word": "muscle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kas",
+      "es": "músculo",
+      "fr": "muscle",
+      "de": "Muskel",
+      "it": "muscolo"
+    }
+  },
+  {
+    "id": "ox-b2-606",
+    "word": "mysterious",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gizemli",
+      "es": "misterioso",
+      "fr": "mystérieux",
+      "de": "geheimnisvoll",
+      "it": "misterioso"
+    }
+  },
+  {
+    "id": "ox-b2-607",
+    "word": "nail",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çivi",
+      "es": "clavo",
+      "fr": "clou",
+      "de": "Nagel",
+      "it": "chiodo"
+    }
+  },
+  {
+    "id": "ox-b2-608",
+    "word": "naked",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıplak",
+      "es": "desnudo",
+      "fr": "nu",
+      "de": "nackt",
+      "it": "nudo"
+    }
+  },
+  {
+    "id": "ox-b2-609",
+    "word": "nation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ulus",
+      "es": "nación",
+      "fr": "nation",
+      "de": "Nation",
+      "it": "nazione"
+    }
+  },
+  {
+    "id": "ox-b2-610",
+    "word": "native",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerli",
+      "es": "nativo",
+      "fr": "indigène",
+      "de": "einheimisch",
+      "it": "nativo"
+    }
+  },
+  {
+    "id": "ox-b2-611",
+    "word": "naturally",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "doğal olarak",
+      "es": "naturalmente",
+      "fr": "naturellement",
+      "de": "natürlich",
+      "it": "naturalmente"
+    }
+  },
+  {
+    "id": "ox-b2-612",
+    "word": "navy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "donanma",
+      "es": "marina de guerra",
+      "fr": "marine",
+      "de": "Marine",
+      "it": "marina"
+    }
+  },
+  {
+    "id": "ox-b2-613",
+    "word": "necessarily",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mutlaka",
+      "es": "necesariamente",
+      "fr": "nécessairement",
+      "de": "unbedingt",
+      "it": "necessariamente"
+    }
+  },
+  {
+    "id": "ox-b2-614",
+    "word": "needle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iğne",
+      "es": "aguja",
+      "fr": "aiguille",
+      "de": "Nadel",
+      "it": "ago"
+    }
+  },
+  {
+    "id": "ox-b2-615",
+    "word": "nerve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sinir",
+      "es": "nervio",
+      "fr": "nerf",
+      "de": "Nerv",
+      "it": "nervo"
+    }
+  },
+  {
+    "id": "ox-b2-616",
+    "word": "nevertheless",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yine de",
+      "es": "sin embargo",
+      "fr": "néanmoins",
+      "de": "Trotzdem",
+      "it": "tuttavia"
+    }
+  },
+  {
+    "id": "ox-b2-617",
+    "word": "newly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeni",
+      "es": "recién",
+      "fr": "nouvellement",
+      "de": "neu",
+      "it": "recentemente"
+    }
+  },
+  {
+    "id": "ox-b2-618",
+    "word": "nicely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güzelce",
+      "es": "bien",
+      "fr": "bien",
+      "de": "schön",
+      "it": "bene"
+    }
+  },
+  {
+    "id": "ox-b2-619",
+    "word": "noble",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soylu",
+      "es": "noble",
+      "fr": "noble",
+      "de": "edel",
+      "it": "nobile"
+    }
+  },
+  {
+    "id": "ox-b2-620",
+    "word": "nor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ne de",
+      "es": "ni",
+      "fr": "ni",
+      "de": "noch",
+      "it": "né"
+    }
+  },
+  {
+    "id": "ox-b2-621",
+    "word": "notion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fikir",
+      "es": "noción",
+      "fr": "notion",
+      "de": "Vorstellung",
+      "it": "nozione"
+    }
+  },
+  {
+    "id": "ox-b2-622",
+    "word": "nuclear",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nükleer",
+      "es": "nuclear",
+      "fr": "nucléaire",
+      "de": "nuklear",
+      "it": "nucleare"
+    }
+  },
+  {
+    "id": "ox-b2-623",
+    "word": "nut",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ceviz",
+      "es": "tuerca",
+      "fr": "noix",
+      "de": "Nuss",
+      "it": "noce"
+    }
+  },
+  {
+    "id": "ox-b2-624",
+    "word": "obey",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "itaat etmek",
+      "es": "cumplir",
+      "fr": "obéir",
+      "de": "gehorchen",
+      "it": "obbedire"
+    }
+  },
+  {
+    "id": "ox-b2-625",
+    "word": "objective",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "amaç",
+      "es": "objetivo",
+      "fr": "objectif",
+      "de": "Objektiv",
+      "it": "obiettivo"
+    }
+  },
+  {
+    "id": "ox-b2-626",
+    "word": "observation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gözlem",
+      "es": "observación",
+      "fr": "observation",
+      "de": "Beobachtung",
+      "it": "osservazione"
+    }
+  },
+  {
+    "id": "ox-b2-627",
+    "word": "observe",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gözlemlemek",
+      "es": "observar",
+      "fr": "observer",
+      "de": "beobachten",
+      "it": "osservare"
+    }
+  },
+  {
+    "id": "ox-b2-628",
+    "word": "obtain",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elde etmek",
+      "es": "obtener",
+      "fr": "obtenir",
+      "de": "erhalten",
+      "it": "ottenere"
+    }
+  },
+  {
+    "id": "ox-b2-629",
+    "word": "occupy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işgal etmek",
+      "es": "ocupar",
+      "fr": "occuper",
+      "de": "besetzen",
+      "it": "occupare"
+    }
+  },
+  {
+    "id": "ox-b2-630",
+    "word": "occur",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "meydana gelmek",
+      "es": "ocurrir",
+      "fr": "se produire",
+      "de": "geschehen",
+      "it": "verificarsi"
+    }
+  },
+  {
+    "id": "ox-b2-631",
+    "word": "odd",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "garip",
+      "es": "extraño",
+      "fr": "impair",
+      "de": "seltsam",
+      "it": "strano"
+    }
+  },
+  {
+    "id": "ox-b2-632",
+    "word": "oddly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "garip bir şekilde",
+      "es": "extrañamente",
+      "fr": "bizarrement",
+      "de": "seltsamerweise",
+      "it": "stranamente"
+    }
+  },
+  {
+    "id": "ox-b2-633",
+    "word": "offence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "suç",
+      "es": "ofensa",
+      "fr": "infraction",
+      "de": "Angriff",
+      "it": "offesa"
+    }
+  },
+  {
+    "id": "ox-b2-634",
+    "word": "offend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gücendirmek",
+      "es": "ofender",
+      "fr": "offenser",
+      "de": "beleidigen",
+      "it": "offendere"
+    }
+  },
+  {
+    "id": "ox-b2-635",
+    "word": "offensive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "saldırgan",
+      "es": "ofensivo",
+      "fr": "offensant",
+      "de": "Offensive",
+      "it": "offensiva"
+    }
+  },
+  {
+    "id": "ox-b2-636",
+    "word": "official",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "resmi",
+      "es": "oficial",
+      "fr": "officiel",
+      "de": "offiziell",
+      "it": "ufficiale"
+    }
+  },
+  {
+    "id": "ox-b2-637",
+    "word": "officially",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "resmen",
+      "es": "oficialmente",
+      "fr": "officiellement",
+      "de": "offiziell",
+      "it": "ufficialmente"
+    }
+  },
+  {
+    "id": "ox-b2-638",
+    "word": "ok",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Tamam",
+      "es": "OK",
+      "fr": "d'accord",
+      "de": "OK",
+      "it": "OK"
+    }
+  },
+  {
+    "id": "ox-b2-639",
+    "word": "opening",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açılış",
+      "es": "apertura",
+      "fr": "ouverture",
+      "de": "Öffnung",
+      "it": "apertura"
+    }
+  },
+  {
+    "id": "ox-b2-640",
+    "word": "openly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açıkça",
+      "es": "abiertamente",
+      "fr": "ouvertement",
+      "de": "offen",
+      "it": "apertamente"
+    }
+  },
+  {
+    "id": "ox-b2-641",
+    "word": "opponent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rakip",
+      "es": "adversario",
+      "fr": "adversaire",
+      "de": "Gegner",
+      "it": "avversario"
+    }
+  },
+  {
+    "id": "ox-b2-642",
+    "word": "oppose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşı çıkmak",
+      "es": "oponerse a",
+      "fr": "opposer",
+      "de": "ablehnen",
+      "it": "opporsi"
+    }
+  },
+  {
+    "id": "ox-b2-643",
+    "word": "opposed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşı çıktı",
+      "es": "opuesto",
+      "fr": "opposé",
+      "de": "dagegen",
+      "it": "contrario"
+    }
+  },
+  {
+    "id": "ox-b2-644",
+    "word": "opposing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşıt",
+      "es": "oponerse",
+      "fr": "opposé",
+      "de": "widersprechend",
+      "it": "opporsi"
+    }
+  },
+  {
+    "id": "ox-b2-645",
+    "word": "opposition",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "muhalefet",
+      "es": "oposición",
+      "fr": "opposition",
+      "de": "Opposition",
+      "it": "opposizione"
+    }
+  },
+  {
+    "id": "ox-b2-646",
+    "word": "organ",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "organ",
+      "es": "órgano",
+      "fr": "organe",
+      "de": "Orgel",
+      "it": "organo"
+    }
+  },
+  {
+    "id": "ox-b2-647",
+    "word": "organization",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "organizasyon",
+      "es": "organización",
+      "fr": "organisation",
+      "de": "Organisation",
+      "it": "organizzazione"
+    }
+  },
+  {
+    "id": "ox-b2-648",
+    "word": "organize",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "organize etmek",
+      "es": "organizar",
+      "fr": "organiser",
+      "de": "organisieren",
+      "it": "organizzare"
+    }
+  },
+  {
+    "id": "ox-b2-649",
+    "word": "organized",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "organize edilmiş",
+      "es": "organizado",
+      "fr": "organisé",
+      "de": "organisiert",
+      "it": "organizzato"
+    }
+  },
+  {
+    "id": "ox-b2-650",
+    "word": "origin",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "köken",
+      "es": "origen",
+      "fr": "origine",
+      "de": "Herkunft",
+      "it": "origine"
+    }
+  },
+  {
+    "id": "ox-b2-651",
+    "word": "originally",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aslen",
+      "es": "originalmente",
+      "fr": "initialement",
+      "de": "ursprünglich",
+      "it": "originariamente"
+    }
+  },
+  {
+    "id": "ox-b2-652",
+    "word": "outcome",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonuç",
+      "es": "resultado",
+      "fr": "résultat",
+      "de": "Ergebnis",
+      "it": "risultato"
+    }
+  },
+  {
+    "id": "ox-b2-653",
+    "word": "outer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dış",
+      "es": "exterior",
+      "fr": "extérieur",
+      "de": "äußere",
+      "it": "esterno"
+    }
+  },
+  {
+    "id": "ox-b2-654",
+    "word": "outline",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "taslak",
+      "es": "describir",
+      "fr": "contour",
+      "de": "Gliederung",
+      "it": "contorno"
+    }
+  },
+  {
+    "id": "ox-b2-655",
+    "word": "output",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıktı",
+      "es": "producción",
+      "fr": "sortir",
+      "de": "Ausgabe",
+      "it": "produzione"
+    }
+  },
+  {
+    "id": "ox-b2-656",
+    "word": "outstanding",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üstün",
+      "es": "pendiente",
+      "fr": "remarquable",
+      "de": "hervorragend",
+      "it": "eccezionale"
+    }
+  },
+  {
+    "id": "ox-b2-657",
+    "word": "overall",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etraflı",
+      "es": "en general",
+      "fr": "dans l'ensemble",
+      "de": "gesamt",
+      "it": "complessivamente"
+    }
+  },
+  {
+    "id": "ox-b2-658",
+    "word": "overcome",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üstesinden gelmek",
+      "es": "superar",
+      "fr": "surmonter",
+      "de": "überwinden",
+      "it": "superare"
+    }
+  },
+  {
+    "id": "ox-b2-659",
+    "word": "pace",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "adımlamak",
+      "es": "paso",
+      "fr": "rythme",
+      "de": "Tempo",
+      "it": "ritmo"
+    }
+  },
+  {
+    "id": "ox-b2-660",
+    "word": "package",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paket",
+      "es": "paquete",
+      "fr": "emballer",
+      "de": "Paket",
+      "it": "pacchetto"
+    }
+  },
+  {
+    "id": "ox-b2-661",
+    "word": "panel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paneli",
+      "es": "panel",
+      "fr": "panneau",
+      "de": "Panel",
+      "it": "pannello"
+    }
+  },
+  {
+    "id": "ox-b2-662",
+    "word": "pant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pantolon",
+      "es": "jadear",
+      "fr": "haleter",
+      "de": "keuchen",
+      "it": "pantalone"
+    }
+  },
+  {
+    "id": "ox-b2-663",
+    "word": "parallel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paralel",
+      "es": "paralelo",
+      "fr": "parallèle",
+      "de": "parallel",
+      "it": "parallelo"
+    }
+  },
+  {
+    "id": "ox-b2-664",
+    "word": "parliament",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "parlamento",
+      "es": "parlamento",
+      "fr": "parlement",
+      "de": "Parlament",
+      "it": "parlamento"
+    }
+  },
+  {
+    "id": "ox-b2-665",
+    "word": "partnership",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ortaklık",
+      "es": "asociación",
+      "fr": "partenariat",
+      "de": "Partnerschaft",
+      "it": "partenariato"
+    }
+  },
+  {
+    "id": "ox-b2-666",
+    "word": "passage",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geçit",
+      "es": "paso",
+      "fr": "passage",
+      "de": "Passage",
+      "it": "passaggio"
+    }
+  },
+  {
+    "id": "ox-b2-667",
+    "word": "passing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geçen",
+      "es": "paso",
+      "fr": "passage",
+      "de": "vorbei",
+      "it": "passando"
+    }
+  },
+  {
+    "id": "ox-b2-668",
+    "word": "passion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tutku",
+      "es": "pasión",
+      "fr": "passion",
+      "de": "Hingabe",
+      "it": "passione"
+    }
+  },
+  {
+    "id": "ox-b2-669",
+    "word": "patience",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sabır",
+      "es": "paciencia",
+      "fr": "patience",
+      "de": "Geduld",
+      "it": "pazienza"
+    }
+  },
+  {
+    "id": "ox-b2-670",
+    "word": "payment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ödeme",
+      "es": "pago",
+      "fr": "paiement",
+      "de": "Zahlung",
+      "it": "pagamento"
+    }
+  },
+  {
+    "id": "ox-b2-671",
+    "word": "penalty",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "penaltı",
+      "es": "pena",
+      "fr": "peine",
+      "de": "Strafe",
+      "it": "pena"
+    }
+  },
+  {
+    "id": "ox-b2-672",
+    "word": "perceive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "algılamak",
+      "es": "percibir",
+      "fr": "percevoir",
+      "de": "wahrnehmen",
+      "it": "percepire"
+    }
+  },
+  {
+    "id": "ox-b2-673",
+    "word": "percentage",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzde",
+      "es": "porcentaje",
+      "fr": "pourcentage",
+      "de": "Prozentsatz",
+      "it": "percentuale"
+    }
+  },
+  {
+    "id": "ox-b2-674",
+    "word": "personality",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kişilik",
+      "es": "personalidad",
+      "fr": "personnalité",
+      "de": "Persönlichkeit",
+      "it": "personalità"
+    }
+  },
+  {
+    "id": "ox-b2-675",
+    "word": "perspective",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "perspektif",
+      "es": "perspectiva",
+      "fr": "perspective",
+      "de": "Perspektive",
+      "it": "prospettiva"
+    }
+  },
+  {
+    "id": "ox-b2-676",
+    "word": "phase",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "faz",
+      "es": "fase",
+      "fr": "phase",
+      "de": "Phase",
+      "it": "fase"
+    }
+  },
+  {
+    "id": "ox-b2-677",
+    "word": "philosophy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "felsefe",
+      "es": "filosofía",
+      "fr": "philosophie",
+      "de": "Philosophie",
+      "it": "filosofia"
+    }
+  },
+  {
+    "id": "ox-b2-678",
+    "word": "physical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fiziksel",
+      "es": "físico",
+      "fr": "physique",
+      "de": "körperlich",
+      "it": "fisico"
+    }
+  },
+  {
+    "id": "ox-b2-679",
+    "word": "physically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fiziksel olarak",
+      "es": "físicamente",
+      "fr": "physiquement",
+      "de": "physisch",
+      "it": "fisicamente"
+    }
+  },
+  {
+    "id": "ox-b2-680",
+    "word": "pint",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pint",
+      "es": "pinta",
+      "fr": "pinte",
+      "de": "Pint",
+      "it": "pinta"
+    }
+  },
+  {
+    "id": "ox-b2-681",
+    "word": "planning",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "planlama",
+      "es": "planificación",
+      "fr": "planification",
+      "de": "Planung",
+      "it": "pianificazione"
+    }
+  },
+  {
+    "id": "ox-b2-682",
+    "word": "pointed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sivri",
+      "es": "puntiagudo",
+      "fr": "pointu",
+      "de": "spitz",
+      "it": "appuntito"
+    }
+  },
+  {
+    "id": "ox-b2-683",
+    "word": "poison",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zehir",
+      "es": "veneno",
+      "fr": "poison",
+      "de": "Gift",
+      "it": "veleno"
+    }
+  },
+  {
+    "id": "ox-b2-684",
+    "word": "poisonous",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zehirli",
+      "es": "venenoso",
+      "fr": "toxique",
+      "de": "giftig",
+      "it": "velenoso"
+    }
+  },
+  {
+    "id": "ox-b2-685",
+    "word": "pole",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kutup",
+      "es": "polo",
+      "fr": "pôle",
+      "de": "Pole",
+      "it": "palo"
+    }
+  },
+  {
+    "id": "ox-b2-686",
+    "word": "policy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "politika",
+      "es": "política",
+      "fr": "politique",
+      "de": "Politik",
+      "it": "politica"
+    }
+  },
+  {
+    "id": "ox-b2-687",
+    "word": "polish",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cila",
+      "es": "polaco",
+      "fr": "polonais",
+      "de": "polieren",
+      "it": "polacco"
+    }
+  },
+  {
+    "id": "ox-b2-688",
+    "word": "pose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "poz",
+      "es": "pose",
+      "fr": "pose",
+      "de": "Pose",
+      "it": "posa"
+    }
+  },
+  {
+    "id": "ox-b2-689",
+    "word": "possess",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elinde bulundurmak",
+      "es": "poseer",
+      "fr": "posséder",
+      "de": "besitzen",
+      "it": "possedere"
+    }
+  },
+  {
+    "id": "ox-b2-690",
+    "word": "possession",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mülk",
+      "es": "posesión",
+      "fr": "possession",
+      "de": "Besitz",
+      "it": "possesso"
+    }
+  },
+  {
+    "id": "ox-b2-691",
+    "word": "potential",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "potansiyel",
+      "es": "potencial",
+      "fr": "potentiel",
+      "de": "Potenzial",
+      "it": "potenziale"
+    }
+  },
+  {
+    "id": "ox-b2-692",
+    "word": "potentially",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "potansiyel olarak",
+      "es": "potencialmente",
+      "fr": "potentiellement",
+      "de": "potenziell",
+      "it": "potenzialmente"
+    }
+  },
+  {
+    "id": "ox-b2-693",
+    "word": "practical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pratik",
+      "es": "práctico",
+      "fr": "pratique",
+      "de": "praktisch",
+      "it": "pratico"
+    }
+  },
+  {
+    "id": "ox-b2-694",
+    "word": "practically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pratik olarak",
+      "es": "prácticamente",
+      "fr": "pratiquement",
+      "de": "praktisch",
+      "it": "praticamente"
+    }
+  },
+  {
+    "id": "ox-b2-695",
+    "word": "praise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "övmek",
+      "es": "elogio",
+      "fr": "louer",
+      "de": "Lob",
+      "it": "lode"
+    }
+  },
+  {
+    "id": "ox-b2-696",
+    "word": "precise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kesin",
+      "es": "preciso",
+      "fr": "précis",
+      "de": "präzise",
+      "it": "preciso"
+    }
+  },
+  {
+    "id": "ox-b2-697",
+    "word": "precisely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açık olarak",
+      "es": "precisamente",
+      "fr": "précisément",
+      "de": "genau",
+      "it": "precisamente"
+    }
+  },
+  {
+    "id": "ox-b2-698",
+    "word": "prediction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tahmin",
+      "es": "predicción",
+      "fr": "prédiction",
+      "de": "Vorhersage",
+      "it": "previsione"
+    }
+  },
+  {
+    "id": "ox-b2-699",
+    "word": "preference",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tercih",
+      "es": "preferencia",
+      "fr": "préférence",
+      "de": "Präferenz",
+      "it": "preferenza"
+    }
+  },
+  {
+    "id": "ox-b2-700",
+    "word": "prejudice",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ön yargı",
+      "es": "prejuicio",
+      "fr": "préjugé",
+      "de": "Vorurteil",
+      "it": "pregiudizio"
+    }
+  },
+  {
+    "id": "ox-b2-701",
+    "word": "presence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mevcudiyet",
+      "es": "presencia",
+      "fr": "présence",
+      "de": "Gegenwart",
+      "it": "presenza"
+    }
+  },
+  {
+    "id": "ox-b2-702",
+    "word": "presentation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sunum",
+      "es": "presentación",
+      "fr": "présentation",
+      "de": "Präsentation",
+      "it": "presentazione"
+    }
+  },
+  {
+    "id": "ox-b2-703",
+    "word": "preserve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korumak",
+      "es": "preservar",
+      "fr": "préserver",
+      "de": "bewahren",
+      "it": "conserva"
+    }
+  },
+  {
+    "id": "ox-b2-704",
+    "word": "president",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başkan",
+      "es": "presidente",
+      "fr": "président",
+      "de": "Präsident",
+      "it": "presidente"
+    }
+  },
+  {
+    "id": "ox-b2-705",
+    "word": "press",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "basmak",
+      "es": "prensa",
+      "fr": "presse",
+      "de": "drücken",
+      "it": "premere"
+    }
+  },
+  {
+    "id": "ox-b2-706",
+    "word": "pressure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "basınç",
+      "es": "presión",
+      "fr": "pression",
+      "de": "Druck",
+      "it": "pressione"
+    }
+  },
+  {
+    "id": "ox-b2-707",
+    "word": "presumably",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "muhtemelen",
+      "es": "presumiblemente",
+      "fr": "probablement",
+      "de": "vermutlich",
+      "it": "presumibilmente"
+    }
+  },
+  {
+    "id": "ox-b2-708",
+    "word": "presume",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varsaymak",
+      "es": "presumir",
+      "fr": "présumer",
+      "de": "vermuten",
+      "it": "presumere"
+    }
+  },
+  {
+    "id": "ox-b2-709",
+    "word": "pretend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "numara yapmak",
+      "es": "pretender",
+      "fr": "prétendre",
+      "de": "vorgeben",
+      "it": "fare finta"
+    }
+  },
+  {
+    "id": "ox-b2-710",
+    "word": "prevent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önlemek",
+      "es": "prevenir",
+      "fr": "prévenir",
+      "de": "verhindern",
+      "it": "impedire"
+    }
+  },
+  {
+    "id": "ox-b2-711",
+    "word": "previous",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öncesi",
+      "es": "anterior",
+      "fr": "précédent",
+      "de": "vorherige",
+      "it": "precedente"
+    }
+  },
+  {
+    "id": "ox-b2-712",
+    "word": "previously",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önceden",
+      "es": "previamente",
+      "fr": "précédemment",
+      "de": "vorher",
+      "it": "precedentemente"
+    }
+  },
+  {
+    "id": "ox-b2-713",
+    "word": "pride",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gurur",
+      "es": "orgullo",
+      "fr": "fierté",
+      "de": "Stolz",
+      "it": "orgoglio"
+    }
+  },
+  {
+    "id": "ox-b2-714",
+    "word": "priest",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahip",
+      "es": "sacerdote",
+      "fr": "prêtre",
+      "de": "Priester",
+      "it": "sacerdote"
+    }
+  },
+  {
+    "id": "ox-b2-715",
+    "word": "primarily",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öncelikle",
+      "es": "ante todo",
+      "fr": "principalement",
+      "de": "in erster Linie",
+      "it": "principalmente"
+    }
+  },
+  {
+    "id": "ox-b2-716",
+    "word": "primary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öncelik",
+      "es": "primario",
+      "fr": "primaire",
+      "de": "primär",
+      "it": "primario"
+    }
+  },
+  {
+    "id": "ox-b2-717",
+    "word": "prime",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "astar vurmak",
+      "es": "principal",
+      "fr": "prime",
+      "de": "Primzahl",
+      "it": "primo"
+    }
+  },
+  {
+    "id": "ox-b2-718",
+    "word": "prince",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "prens",
+      "es": "príncipe",
+      "fr": "prince",
+      "de": "Prinz",
+      "it": "principe"
+    }
+  },
+  {
+    "id": "ox-b2-719",
+    "word": "princess",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "prenses",
+      "es": "princesa",
+      "fr": "princesse",
+      "de": "Prinzessin",
+      "it": "principessa"
+    }
+  },
+  {
+    "id": "ox-b2-720",
+    "word": "principal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "müdür",
+      "es": "principal",
+      "fr": "principal",
+      "de": "Rektor",
+      "it": "principale"
+    }
+  },
+  {
+    "id": "ox-b2-721",
+    "word": "principle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "prensip",
+      "es": "principio",
+      "fr": "principe",
+      "de": "Prinzip",
+      "it": "principio"
+    }
+  },
+  {
+    "id": "ox-b2-722",
+    "word": "print",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baskı",
+      "es": "imprimir",
+      "fr": "imprimer",
+      "de": "drucken",
+      "it": "stampa"
+    }
+  },
+  {
+    "id": "ox-b2-723",
+    "word": "printer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yazıcı",
+      "es": "impresora",
+      "fr": "imprimante",
+      "de": "Drucker",
+      "it": "stampante"
+    }
+  },
+  {
+    "id": "ox-b2-724",
+    "word": "printing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baskı",
+      "es": "impresión",
+      "fr": "impression",
+      "de": "Drucken",
+      "it": "stampa"
+    }
+  },
+  {
+    "id": "ox-b2-725",
+    "word": "prior",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önceki",
+      "es": "previo",
+      "fr": "avant",
+      "de": "vor",
+      "it": "precedente"
+    }
+  },
+  {
+    "id": "ox-b2-726",
+    "word": "priority",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öncelik",
+      "es": "prioridad",
+      "fr": "priorité",
+      "de": "Priorität",
+      "it": "priorità"
+    }
+  },
+  {
+    "id": "ox-b2-727",
+    "word": "prison",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hapishane",
+      "es": "prisión",
+      "fr": "prison",
+      "de": "Gefängnis",
+      "it": "prigione"
+    }
+  },
+  {
+    "id": "ox-b2-728",
+    "word": "prisoner",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mahkum",
+      "es": "prisionero",
+      "fr": "prisonnier",
+      "de": "Gefangene",
+      "it": "prigioniero"
+    }
+  },
+  {
+    "id": "ox-b2-729",
+    "word": "private",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özel",
+      "es": "privado",
+      "fr": "privé",
+      "de": "Privat",
+      "it": "privato"
+    }
+  },
+  {
+    "id": "ox-b2-730",
+    "word": "privately",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özel olarak",
+      "es": "en privado",
+      "fr": "en privé",
+      "de": "privat",
+      "it": "privatamente"
+    }
+  },
+  {
+    "id": "ox-b2-731",
+    "word": "prize",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ödül",
+      "es": "premio",
+      "fr": "prix",
+      "de": "Preis",
+      "it": "premio"
+    }
+  },
+  {
+    "id": "ox-b2-732",
+    "word": "procedure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "prosedür",
+      "es": "procedimiento",
+      "fr": "procédure",
+      "de": "Verfahren",
+      "it": "procedura"
+    }
+  },
+  {
+    "id": "ox-b2-733",
+    "word": "proceed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilerlemek",
+      "es": "proceder",
+      "fr": "procéder",
+      "de": "fortfahren",
+      "it": "procedere"
+    }
+  },
+  {
+    "id": "ox-b2-734",
+    "word": "process",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işlem",
+      "es": "proceso",
+      "fr": "processus",
+      "de": "Verfahren",
+      "it": "processo"
+    }
+  },
+  {
+    "id": "ox-b2-735",
+    "word": "produce",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üretmek",
+      "es": "producir",
+      "fr": "produire",
+      "de": "produzieren",
+      "it": "produrre"
+    }
+  },
+  {
+    "id": "ox-b2-736",
+    "word": "producer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapımcı",
+      "es": "productor",
+      "fr": "producteur",
+      "de": "Produzent",
+      "it": "produttore"
+    }
+  },
+  {
+    "id": "ox-b2-737",
+    "word": "production",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üretme",
+      "es": "producción",
+      "fr": "production",
+      "de": "Produktion",
+      "it": "produzione"
+    }
+  },
+  {
+    "id": "ox-b2-738",
+    "word": "profession",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "meslek",
+      "es": "profesión",
+      "fr": "profession",
+      "de": "Beruf",
+      "it": "professione"
+    }
+  },
+  {
+    "id": "ox-b2-739",
+    "word": "professional",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "profesyonel",
+      "es": "profesional",
+      "fr": "professionnel",
+      "de": "Professional",
+      "it": "professionale"
+    }
+  },
+  {
+    "id": "ox-b2-740",
+    "word": "professor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "profesör",
+      "es": "profesor",
+      "fr": "professeur",
+      "de": "Professor",
+      "it": "professore"
+    }
+  },
+  {
+    "id": "ox-b2-741",
+    "word": "profile",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "profil",
+      "es": "perfil",
+      "fr": "profil",
+      "de": "Profil",
+      "it": "profilo"
+    }
+  },
+  {
+    "id": "ox-b2-742",
+    "word": "profit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kâr",
+      "es": "ganancia",
+      "fr": "profit",
+      "de": "profitieren",
+      "it": "profitto"
+    }
+  },
+  {
+    "id": "ox-b2-743",
+    "word": "program",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "programı",
+      "es": "programa",
+      "fr": "programme",
+      "de": "Programm",
+      "it": "programma"
+    }
+  },
+  {
+    "id": "ox-b2-744",
+    "word": "progress",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilerlemek",
+      "es": "progreso",
+      "fr": "progrès",
+      "de": "Fortschritt",
+      "it": "progressi"
+    }
+  },
+  {
+    "id": "ox-b2-745",
+    "word": "progressive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilerici",
+      "es": "progresivo",
+      "fr": "progressif",
+      "de": "progressiv",
+      "it": "progressivo"
+    }
+  },
+  {
+    "id": "ox-b2-746",
+    "word": "promise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "söz",
+      "es": "promesa",
+      "fr": "promesse",
+      "de": "versprechen",
+      "it": "promessa"
+    }
+  },
+  {
+    "id": "ox-b2-747",
+    "word": "promote",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "terfi",
+      "es": "promover",
+      "fr": "promouvoir",
+      "de": "fördern",
+      "it": "promuovere"
+    }
+  },
+  {
+    "id": "ox-b2-748",
+    "word": "promotion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "terfi",
+      "es": "promoción",
+      "fr": "promotion",
+      "de": "Förderung",
+      "it": "promozione"
+    }
+  },
+  {
+    "id": "ox-b2-749",
+    "word": "prompt",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çabuk",
+      "es": "inmediato",
+      "fr": "rapide",
+      "de": "prompt",
+      "it": "richiesta"
+    }
+  },
+  {
+    "id": "ox-b2-750",
+    "word": "promptly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "derhal",
+      "es": "inmediatamente",
+      "fr": "rapidement",
+      "de": "sofort",
+      "it": "tempestivamente"
+    }
+  },
+  {
+    "id": "ox-b2-751",
+    "word": "pronounce",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "telaffuz etmek",
+      "es": "pronunciar",
+      "fr": "prononcer",
+      "de": "aussprechen",
+      "it": "pronunciare"
+    }
+  },
+  {
+    "id": "ox-b2-752",
+    "word": "pronunciation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "telaffuz",
+      "es": "pronunciación",
+      "fr": "prononciation",
+      "de": "Aussprache",
+      "it": "pronuncia"
+    }
+  },
+  {
+    "id": "ox-b2-753",
+    "word": "proof",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kanıt",
+      "es": "prueba",
+      "fr": "preuve",
+      "de": "nachweisen",
+      "it": "prova"
+    }
+  },
+  {
+    "id": "ox-b2-754",
+    "word": "proper",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzgün",
+      "es": "adecuado",
+      "fr": "approprié",
+      "de": "richtig",
+      "it": "corretto"
+    }
+  },
+  {
+    "id": "ox-b2-755",
+    "word": "properly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzgün bir şekilde",
+      "es": "adecuadamente",
+      "fr": "correctement",
+      "de": "richtig",
+      "it": "correttamente"
+    }
+  },
+  {
+    "id": "ox-b2-756",
+    "word": "property",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mülk",
+      "es": "propiedad",
+      "fr": "propriété",
+      "de": "Eigentum",
+      "it": "proprietà"
+    }
+  },
+  {
+    "id": "ox-b2-757",
+    "word": "proportion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oran",
+      "es": "proporción",
+      "fr": "proportion",
+      "de": "Anteil",
+      "it": "proporzione"
+    }
+  },
+  {
+    "id": "ox-b2-758",
+    "word": "proposal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teklif",
+      "es": "propuesta",
+      "fr": "proposition",
+      "de": "Vorschlag",
+      "it": "proposta"
+    }
+  },
+  {
+    "id": "ox-b2-759",
+    "word": "propose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önermek",
+      "es": "proponer",
+      "fr": "proposer",
+      "de": "vorschlagen",
+      "it": "proporre"
+    }
+  },
+  {
+    "id": "ox-b2-760",
+    "word": "prospect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olasılık",
+      "es": "prospecto",
+      "fr": "perspective",
+      "de": "Aussicht",
+      "it": "prospettiva"
+    }
+  },
+  {
+    "id": "ox-b2-761",
+    "word": "protect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korumak",
+      "es": "proteger",
+      "fr": "protéger",
+      "de": "schützen",
+      "it": "proteggere"
+    }
+  },
+  {
+    "id": "ox-b2-762",
+    "word": "protection",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koruma",
+      "es": "protección",
+      "fr": "protection",
+      "de": "Schutz",
+      "it": "protezione"
+    }
+  },
+  {
+    "id": "ox-b2-763",
+    "word": "protein",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "protein",
+      "es": "proteína",
+      "fr": "protéine",
+      "de": "Protein",
+      "it": "proteina"
+    }
+  },
+  {
+    "id": "ox-b2-764",
+    "word": "protest",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "protesto",
+      "es": "protesta",
+      "fr": "protestation",
+      "de": "Protest",
+      "it": "protesta"
+    }
+  },
+  {
+    "id": "ox-b2-765",
+    "word": "proud",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gurur duymak",
+      "es": "orgulloso",
+      "fr": "fier",
+      "de": "stolz",
+      "it": "orgoglioso"
+    }
+  },
+  {
+    "id": "ox-b2-766",
+    "word": "proudly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gururla",
+      "es": "orgullosamente",
+      "fr": "fièrement",
+      "de": "stolz",
+      "it": "con orgoglio"
+    }
+  },
+  {
+    "id": "ox-b2-767",
+    "word": "prove",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kanıtlamak",
+      "es": "probar",
+      "fr": "prouver",
+      "de": "beweisen",
+      "it": "dimostrare"
+    }
+  },
+  {
+    "id": "ox-b2-768",
+    "word": "provide",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sağlamak",
+      "es": "proporcionar",
+      "fr": "fournir",
+      "de": "bieten",
+      "it": "fornire"
+    }
+  },
+  {
+    "id": "ox-b2-769",
+    "word": "provided",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tedarik edilen",
+      "es": "proporcionó",
+      "fr": "fourni",
+      "de": "bereitgestellt",
+      "it": "fornito"
+    }
+  },
+  {
+    "id": "ox-b2-770",
+    "word": "providing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sağlayan",
+      "es": "siempre que",
+      "fr": "fournir",
+      "de": "bereitstellen",
+      "it": "fornendo"
+    }
+  },
+  {
+    "id": "ox-b2-771",
+    "word": "provision",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşılık",
+      "es": "disposición",
+      "fr": "disposition",
+      "de": "Bestimmung",
+      "it": "disposizione"
+    }
+  },
+  {
+    "id": "ox-b2-772",
+    "word": "psychological",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "psikolojik",
+      "es": "psicológico",
+      "fr": "psychologique",
+      "de": "psychologisch",
+      "it": "psicologico"
+    }
+  },
+  {
+    "id": "ox-b2-773",
+    "word": "psychology",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "psikoloji",
+      "es": "psicología",
+      "fr": "psychologie",
+      "de": "Psychologie",
+      "it": "psicologia"
+    }
+  },
+  {
+    "id": "ox-b2-774",
+    "word": "pub",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birahane",
+      "es": "pub",
+      "fr": "pub",
+      "de": "Kneipe",
+      "it": "pub"
+    }
+  },
+  {
+    "id": "ox-b2-775",
+    "word": "public",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "halk",
+      "es": "público",
+      "fr": "publique",
+      "de": "öffentlich",
+      "it": "pubblico"
+    }
+  },
+  {
+    "id": "ox-b2-776",
+    "word": "publication",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yayın",
+      "es": "publicación",
+      "fr": "publication",
+      "de": "Veröffentlichung",
+      "it": "pubblicazione"
+    }
+  },
+  {
+    "id": "ox-b2-777",
+    "word": "publicity",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanıtım",
+      "es": "publicidad",
+      "fr": "publicité",
+      "de": "Werbung",
+      "it": "pubblicità"
+    }
+  },
+  {
+    "id": "ox-b2-778",
+    "word": "publicly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "halka açık",
+      "es": "en público",
+      "fr": "publiquement",
+      "de": "öffentlich",
+      "it": "pubblicamente"
+    }
+  },
+  {
+    "id": "ox-b2-779",
+    "word": "publish",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yayınlamak",
+      "es": "publicar",
+      "fr": "publier",
+      "de": "veröffentlichen",
+      "it": "pubblicare"
+    }
+  },
+  {
+    "id": "ox-b2-780",
+    "word": "publisher",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yayıncı",
+      "es": "editor",
+      "fr": "éditeur",
+      "de": "Herausgeber",
+      "it": "editore"
+    }
+  },
+  {
+    "id": "ox-b2-781",
+    "word": "publishing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yayınlama",
+      "es": "publicación",
+      "fr": "édition",
+      "de": "Veröffentlichung",
+      "it": "pubblicazione"
+    }
+  },
+  {
+    "id": "ox-b2-782",
+    "word": "pull",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çekmek",
+      "es": "jalar",
+      "fr": "tirer",
+      "de": "ziehen",
+      "it": "tiro"
+    }
+  },
+  {
+    "id": "ox-b2-783",
+    "word": "pump",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pompa",
+      "es": "bomba",
+      "fr": "pompe",
+      "de": "Pumpe",
+      "it": "pompa"
+    }
+  },
+  {
+    "id": "ox-b2-784",
+    "word": "punch",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yumruk",
+      "es": "puñetazo",
+      "fr": "punch",
+      "de": "Stempel",
+      "it": "punch"
+    }
+  },
+  {
+    "id": "ox-b2-785",
+    "word": "punish",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cezalandırmak",
+      "es": "castigar",
+      "fr": "punir",
+      "de": "bestrafen",
+      "it": "punire"
+    }
+  },
+  {
+    "id": "ox-b2-786",
+    "word": "punishment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ceza",
+      "es": "castigo",
+      "fr": "punition",
+      "de": "Bestrafung",
+      "it": "punizione"
+    }
+  },
+  {
+    "id": "ox-b2-787",
+    "word": "pupil",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öğrenci",
+      "es": "alumno",
+      "fr": "élève",
+      "de": "Schüler",
+      "it": "pupilla"
+    }
+  },
+  {
+    "id": "ox-b2-788",
+    "word": "purchase",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "satın almak",
+      "es": "compra",
+      "fr": "achat",
+      "de": "kaufen",
+      "it": "acquistare"
+    }
+  },
+  {
+    "id": "ox-b2-789",
+    "word": "pure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "saf",
+      "es": "puro",
+      "fr": "pur",
+      "de": "rein",
+      "it": "puro"
+    }
+  },
+  {
+    "id": "ox-b2-790",
+    "word": "purely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamamen",
+      "es": "puramente",
+      "fr": "purement",
+      "de": "rein",
+      "it": "puramente"
+    }
+  },
+  {
+    "id": "ox-b2-791",
+    "word": "purpose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "amaç",
+      "es": "objetivo",
+      "fr": "but",
+      "de": "Zweck",
+      "it": "scopo"
+    }
+  },
+  {
+    "id": "ox-b2-792",
+    "word": "pursue",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "izlemek",
+      "es": "buscar",
+      "fr": "poursuivre",
+      "de": "verfolgen",
+      "it": "perseguire"
+    }
+  },
+  {
+    "id": "ox-b2-793",
+    "word": "push",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "itmek",
+      "es": "empujar",
+      "fr": "pousser",
+      "de": "drücken",
+      "it": "spingere"
+    }
+  },
+  {
+    "id": "ox-b2-794",
+    "word": "qualification",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vasıf",
+      "es": "calificación",
+      "fr": "qualification",
+      "de": "Qualifikation",
+      "it": "qualificazione"
+    }
+  },
+  {
+    "id": "ox-b2-795",
+    "word": "qualified",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nitelikli",
+      "es": "calificado",
+      "fr": "qualifié",
+      "de": "qualifiziert",
+      "it": "qualificato"
+    }
+  },
+  {
+    "id": "ox-b2-796",
+    "word": "qualify",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hak kazanmak",
+      "es": "calificar",
+      "fr": "qualifier",
+      "de": "qualifizieren",
+      "it": "qualificarsi"
+    }
+  },
+  {
+    "id": "ox-b2-797",
+    "word": "quality",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalite",
+      "es": "calidad",
+      "fr": "qualité",
+      "de": "Qualität",
+      "it": "qualità"
+    }
+  },
+  {
+    "id": "ox-b2-798",
+    "word": "quantity",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "miktar",
+      "es": "cantidad",
+      "fr": "quantité",
+      "de": "Menge",
+      "it": "quantità"
+    }
+  },
+  {
+    "id": "ox-b2-799",
+    "word": "queen",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kraliçe",
+      "es": "reina",
+      "fr": "reine",
+      "de": "Königin",
+      "it": "regina"
+    }
+  },
+  {
+    "id": "ox-b2-800",
+    "word": "quietly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sessizce",
+      "es": "en silencio",
+      "fr": "tranquillement",
+      "de": "ruhig",
+      "it": "tranquillamente"
+    }
+  },
+  {
+    "id": "ox-b2-801",
+    "word": "quit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıkış yapmak",
+      "es": "abandonar",
+      "fr": "quitter",
+      "de": "aufhören",
+      "it": "esentato"
+    }
+  },
+  {
+    "id": "ox-b2-802",
+    "word": "quote",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alıntı",
+      "es": "cita",
+      "fr": "citation",
+      "de": "Zitat",
+      "it": "citazione"
+    }
+  },
+  {
+    "id": "ox-b2-803",
+    "word": "race",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ırk",
+      "es": "carrera",
+      "fr": "course",
+      "de": "Wettrennen",
+      "it": "gara"
+    }
+  },
+  {
+    "id": "ox-b2-804",
+    "word": "racing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yarışma",
+      "es": "carreras",
+      "fr": "courses",
+      "de": "Rennen",
+      "it": "corsa"
+    }
+  },
+  {
+    "id": "ox-b2-805",
+    "word": "radical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "radikal",
+      "es": "radical",
+      "fr": "radical",
+      "de": "Radikale",
+      "it": "radicale"
+    }
+  },
+  {
+    "id": "ox-b2-806",
+    "word": "rail",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demiryolu",
+      "es": "carril",
+      "fr": "rail",
+      "de": "Schiene",
+      "it": "sbarra"
+    }
+  },
+  {
+    "id": "ox-b2-807",
+    "word": "railway",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demiryolu",
+      "es": "ferrocarril",
+      "fr": "chemin de fer",
+      "de": "Eisenbahn",
+      "it": "ferrovia"
+    }
+  },
+  {
+    "id": "ox-b2-808",
+    "word": "raise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "artırmak",
+      "es": "aumentar",
+      "fr": "augmenter",
+      "de": "erheben",
+      "it": "aumentare"
+    }
+  },
+  {
+    "id": "ox-b2-809",
+    "word": "range",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "menzil",
+      "es": "rango",
+      "fr": "gamme",
+      "de": "Reichweite",
+      "it": "allineare"
+    }
+  },
+  {
+    "id": "ox-b2-810",
+    "word": "rank",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rütbe",
+      "es": "rango",
+      "fr": "rang",
+      "de": "Rang",
+      "it": "rango"
+    }
+  },
+  {
+    "id": "ox-b2-811",
+    "word": "rapid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ani",
+      "es": "rápido",
+      "fr": "rapide",
+      "de": "schnell",
+      "it": "rapido"
+    }
+  },
+  {
+    "id": "ox-b2-812",
+    "word": "rapidly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hızlıca",
+      "es": "rápidamente",
+      "fr": "rapidement",
+      "de": "schnell",
+      "it": "rapidamente"
+    }
+  },
+  {
+    "id": "ox-b2-813",
+    "word": "rare",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nadir",
+      "es": "extraño",
+      "fr": "rare",
+      "de": "selten",
+      "it": "raro"
+    }
+  },
+  {
+    "id": "ox-b2-814",
+    "word": "rarely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nadiren",
+      "es": "casi nunca",
+      "fr": "rarement",
+      "de": "selten",
+      "it": "raramente"
+    }
+  },
+  {
+    "id": "ox-b2-815",
+    "word": "rate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oran",
+      "es": "tasa",
+      "fr": "taux",
+      "de": "Rate",
+      "it": "valutare"
+    }
+  },
+  {
+    "id": "ox-b2-816",
+    "word": "rather",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerine",
+      "es": "bastante",
+      "fr": "plutôt",
+      "de": "eher",
+      "it": "Piuttosto"
+    }
+  },
+  {
+    "id": "ox-b2-817",
+    "word": "raw",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çiğ",
+      "es": "crudo",
+      "fr": "brut",
+      "de": "roh",
+      "it": "crudo"
+    }
+  },
+  {
+    "id": "ox-b2-818",
+    "word": "reach",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ulaşmak",
+      "es": "alcanzar",
+      "fr": "atteindre",
+      "de": "erreichen",
+      "it": "portata"
+    }
+  },
+  {
+    "id": "ox-b2-819",
+    "word": "react",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tepki vermek",
+      "es": "reaccionar",
+      "fr": "réagir",
+      "de": "reagieren",
+      "it": "reagire"
+    }
+  },
+  {
+    "id": "ox-b2-820",
+    "word": "reaction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tepki",
+      "es": "reacción",
+      "fr": "réaction",
+      "de": "Reaktion",
+      "it": "reazione"
+    }
+  },
+  {
+    "id": "ox-b2-821",
+    "word": "realistic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçekçi",
+      "es": "realista",
+      "fr": "réaliste",
+      "de": "realistisch",
+      "it": "realistico"
+    }
+  },
+  {
+    "id": "ox-b2-822",
+    "word": "reality",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçeklik",
+      "es": "realidad",
+      "fr": "réalité",
+      "de": "Wirklichkeit",
+      "it": "realtà"
+    }
+  },
+  {
+    "id": "ox-b2-823",
+    "word": "realize",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fark etmek",
+      "es": "darse cuenta",
+      "fr": "réaliser",
+      "de": "realisieren",
+      "it": "realizzare"
+    }
+  },
+  {
+    "id": "ox-b2-824",
+    "word": "rear",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "arka",
+      "es": "trasero",
+      "fr": "arrière",
+      "de": "hinteren",
+      "it": "posteriore"
+    }
+  },
+  {
+    "id": "ox-b2-825",
+    "word": "reasonable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mantıklı",
+      "es": "razonable",
+      "fr": "raisonnable",
+      "de": "vernünftig",
+      "it": "ragionevole"
+    }
+  },
+  {
+    "id": "ox-b2-826",
+    "word": "reasonably",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "makul olarak",
+      "es": "razonablemente",
+      "fr": "raisonnablement",
+      "de": "vernünftigerweise",
+      "it": "ragionevolmente"
+    }
+  },
+  {
+    "id": "ox-b2-827",
+    "word": "recall",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hatırlamak",
+      "es": "recordar",
+      "fr": "rappel",
+      "de": "abrufen",
+      "it": "richiamo"
+    }
+  },
+  {
+    "id": "ox-b2-828",
+    "word": "receipt",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fiş",
+      "es": "recibo",
+      "fr": "reçu",
+      "de": "Quittung",
+      "it": "ricevuta"
+    }
+  },
+  {
+    "id": "ox-b2-829",
+    "word": "receive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "almak",
+      "es": "recibir",
+      "fr": "recevoir",
+      "de": "erhalten",
+      "it": "ricevere"
+    }
+  },
+  {
+    "id": "ox-b2-830",
+    "word": "recent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "son",
+      "es": "reciente",
+      "fr": "récent",
+      "de": "jüngste",
+      "it": "recente"
+    }
+  },
+  {
+    "id": "ox-b2-831",
+    "word": "recently",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "son zamanlarda",
+      "es": "recientemente",
+      "fr": "récemment",
+      "de": "kürzlich",
+      "it": "recentemente"
+    }
+  },
+  {
+    "id": "ox-b2-832",
+    "word": "reception",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "resepsiyon",
+      "es": "recepción",
+      "fr": "réception",
+      "de": "Rezeption",
+      "it": "reception"
+    }
+  },
+  {
+    "id": "ox-b2-833",
+    "word": "reckon",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tahmin temek",
+      "es": "contar",
+      "fr": "compter",
+      "de": "rechnen",
+      "it": "considerare"
+    }
+  },
+  {
+    "id": "ox-b2-834",
+    "word": "recognition",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanıma",
+      "es": "reconocimiento",
+      "fr": "reconnaissance",
+      "de": "Erkennung",
+      "it": "riconoscimento"
+    }
+  },
+  {
+    "id": "ox-b2-835",
+    "word": "recognize",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanımak",
+      "es": "reconocer",
+      "fr": "reconnaître",
+      "de": "erkennen",
+      "it": "riconoscere"
+    }
+  },
+  {
+    "id": "ox-b2-836",
+    "word": "recommend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tavsiye etmek",
+      "es": "recomendar",
+      "fr": "recommander",
+      "de": "empfehlen",
+      "it": "consigliare"
+    }
+  },
+  {
+    "id": "ox-b2-837",
+    "word": "recommendation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tavsiye",
+      "es": "recomendación",
+      "fr": "recommandation",
+      "de": "Empfehlung",
+      "it": "raccomandazione"
+    }
+  },
+  {
+    "id": "ox-b2-838",
+    "word": "record",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt",
+      "es": "registro",
+      "fr": "enregistrer",
+      "de": "aufzeichnen",
+      "it": "documentazione"
+    }
+  },
+  {
+    "id": "ox-b2-839",
+    "word": "recording",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt",
+      "es": "grabación",
+      "fr": "enregistrement",
+      "de": "Aufnahme",
+      "it": "registrazione"
+    }
+  },
+  {
+    "id": "ox-b2-840",
+    "word": "recover",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyileşmek",
+      "es": "recuperar",
+      "fr": "récupérer",
+      "de": "genesen",
+      "it": "recuperare"
+    }
+  },
+  {
+    "id": "ox-b2-841",
+    "word": "recovery",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyileşmek",
+      "es": "recuperación",
+      "fr": "récupération",
+      "de": "Erholung",
+      "it": "recupero"
+    }
+  },
+  {
+    "id": "ox-b2-842",
+    "word": "reduce",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "azaltmak",
+      "es": "reducir",
+      "fr": "réduire",
+      "de": "reduzieren",
+      "it": "ridurre"
+    }
+  },
+  {
+    "id": "ox-b2-843",
+    "word": "reduction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kesinti",
+      "es": "reducción",
+      "fr": "réduction",
+      "de": "Reduktion",
+      "it": "riduzione"
+    }
+  },
+  {
+    "id": "ox-b2-844",
+    "word": "refer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bahsetmek",
+      "es": "referirse",
+      "fr": "référer",
+      "de": "verweisen",
+      "it": "fare riferimento"
+    }
+  },
+  {
+    "id": "ox-b2-845",
+    "word": "reference",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "referans",
+      "es": "referencia",
+      "fr": "référence",
+      "de": "Referenz",
+      "it": "riferimento"
+    }
+  },
+  {
+    "id": "ox-b2-846",
+    "word": "reflect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yansıtmak",
+      "es": "reflejar",
+      "fr": "refléter",
+      "de": "reflektieren",
+      "it": "riflettere"
+    }
+  },
+  {
+    "id": "ox-b2-847",
+    "word": "reform",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "reform",
+      "es": "reforma",
+      "fr": "réforme",
+      "de": "Reform",
+      "it": "riforma"
+    }
+  },
+  {
+    "id": "ox-b2-848",
+    "word": "refrigerator",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "buzdolabı",
+      "es": "refrigerador",
+      "fr": "réfrigérateur",
+      "de": "Kühlschrank",
+      "it": "frigorifero"
+    }
+  },
+  {
+    "id": "ox-b2-849",
+    "word": "refusal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ret",
+      "es": "negativa",
+      "fr": "refus",
+      "de": "Ablehnung",
+      "it": "rifiuto"
+    }
+  },
+  {
+    "id": "ox-b2-850",
+    "word": "refuse",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "reddetmek",
+      "es": "rechazar",
+      "fr": "refuser",
+      "de": "verweigern",
+      "it": "rifiutare"
+    }
+  },
+  {
+    "id": "ox-b2-851",
+    "word": "regard",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "saygınlık",
+      "es": "respecto",
+      "fr": "égard",
+      "de": "betrachten",
+      "it": "considerare"
+    }
+  },
+  {
+    "id": "ox-b2-852",
+    "word": "regarding",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişkin",
+      "es": "acerca de",
+      "fr": "concernant",
+      "de": "hinsichtlich",
+      "it": "per quanto riguarda"
+    }
+  },
+  {
+    "id": "ox-b2-853",
+    "word": "region",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bölge",
+      "es": "región",
+      "fr": "région",
+      "de": "Region",
+      "it": "regione"
+    }
+  },
+  {
+    "id": "ox-b2-854",
+    "word": "regional",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bölgesel",
+      "es": "regional",
+      "fr": "régional",
+      "de": "regional",
+      "it": "regionale"
+    }
+  },
+  {
+    "id": "ox-b2-855",
+    "word": "register",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt olmak",
+      "es": "registro",
+      "fr": "registre",
+      "de": "registrieren",
+      "it": "registro"
+    }
+  },
+  {
+    "id": "ox-b2-856",
+    "word": "registration",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayıt",
+      "es": "registro",
+      "fr": "inscription",
+      "de": "Anmeldung",
+      "it": "registrazione"
+    }
+  },
+  {
+    "id": "ox-b2-857",
+    "word": "regret",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "pişmanlık",
+      "es": "arrepentirse",
+      "fr": "regret",
+      "de": "Reue",
+      "it": "rimpianto"
+    }
+  },
+  {
+    "id": "ox-b2-858",
+    "word": "regular",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenli",
+      "es": "regular",
+      "fr": "régulier",
+      "de": "regulär",
+      "it": "regolare"
+    }
+  },
+  {
+    "id": "ox-b2-859",
+    "word": "regularly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenli olarak",
+      "es": "regularmente",
+      "fr": "régulièrement",
+      "de": "regelmäßig",
+      "it": "regolarmente"
+    }
+  },
+  {
+    "id": "ox-b2-860",
+    "word": "regulation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenleme",
+      "es": "regulación",
+      "fr": "règlement",
+      "de": "Verordnung",
+      "it": "regolamento"
+    }
+  },
+  {
+    "id": "ox-b2-861",
+    "word": "reject",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "reddetmek",
+      "es": "rechazar",
+      "fr": "rejeter",
+      "de": "ablehnen",
+      "it": "rifiutare"
+    }
+  },
+  {
+    "id": "ox-b2-862",
+    "word": "relate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilgili olmak",
+      "es": "relatar",
+      "fr": "se rapporter",
+      "de": "betreffen",
+      "it": "relazionare"
+    }
+  },
+  {
+    "id": "ox-b2-863",
+    "word": "related",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilgili",
+      "es": "relacionado",
+      "fr": "en rapport",
+      "de": "verwandt",
+      "it": "imparentato"
+    }
+  },
+  {
+    "id": "ox-b2-864",
+    "word": "relation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişki",
+      "es": "relación",
+      "fr": "relation",
+      "de": "Beziehung",
+      "it": "relazione"
+    }
+  },
+  {
+    "id": "ox-b2-865",
+    "word": "relationship",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişki",
+      "es": "relación",
+      "fr": "relation",
+      "de": "Beziehung",
+      "it": "relazione"
+    }
+  },
+  {
+    "id": "ox-b2-866",
+    "word": "relative",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akraba",
+      "es": "relativo",
+      "fr": "relatif",
+      "de": "relativ",
+      "it": "relativo"
+    }
+  },
+  {
+    "id": "ox-b2-867",
+    "word": "relatively",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nispeten",
+      "es": "relativamente",
+      "fr": "relativement",
+      "de": "relativ",
+      "it": "relativamente"
+    }
+  },
+  {
+    "id": "ox-b2-868",
+    "word": "relaxed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahat",
+      "es": "relajado",
+      "fr": "détendu",
+      "de": "entspannt",
+      "it": "rilassato"
+    }
+  },
+  {
+    "id": "ox-b2-869",
+    "word": "relaxing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahatlatıcı",
+      "es": "relajante",
+      "fr": "relaxant",
+      "de": "entspannend",
+      "it": "rilassante"
+    }
+  },
+  {
+    "id": "ox-b2-870",
+    "word": "release",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "serbest bırakmak",
+      "es": "liberar",
+      "fr": "libérer",
+      "de": "freigeben",
+      "it": "pubblicazione"
+    }
+  },
+  {
+    "id": "ox-b2-871",
+    "word": "relevant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilgili",
+      "es": "importante",
+      "fr": "pertinent",
+      "de": "relevant",
+      "it": "pertinente"
+    }
+  },
+  {
+    "id": "ox-b2-872",
+    "word": "reliable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenilir",
+      "es": "confiable",
+      "fr": "fiable",
+      "de": "zuverlässig",
+      "it": "affidabile"
+    }
+  },
+  {
+    "id": "ox-b2-873",
+    "word": "relief",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahatlama",
+      "es": "alivio",
+      "fr": "relief",
+      "de": "Erleichterung",
+      "it": "sollievo"
+    }
+  },
+  {
+    "id": "ox-b2-874",
+    "word": "religion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "din",
+      "es": "religión",
+      "fr": "religion",
+      "de": "Religion",
+      "it": "religione"
+    }
+  },
+  {
+    "id": "ox-b2-875",
+    "word": "religious",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "din",
+      "es": "religioso",
+      "fr": "religieux",
+      "de": "religiös",
+      "it": "religioso"
+    }
+  },
+  {
+    "id": "ox-b2-876",
+    "word": "rely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenmek",
+      "es": "confiar",
+      "fr": "compter sur",
+      "de": "verlassen",
+      "it": "fare affidamento"
+    }
+  },
+  {
+    "id": "ox-b2-877",
+    "word": "remain",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geriye kalmak",
+      "es": "permanecer",
+      "fr": "rester",
+      "de": "bleiben",
+      "it": "rimanere"
+    }
+  },
+  {
+    "id": "ox-b2-878",
+    "word": "remaining",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geriye kalan",
+      "es": "restante",
+      "fr": "restant",
+      "de": "übrig",
+      "it": "rimanente"
+    }
+  },
+  {
+    "id": "ox-b2-879",
+    "word": "remains",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalıntılar",
+      "es": "restos",
+      "fr": "restes",
+      "de": "Überreste",
+      "it": "resti"
+    }
+  },
+  {
+    "id": "ox-b2-880",
+    "word": "remark",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açıklama",
+      "es": "observación",
+      "fr": "remarque",
+      "de": "Bemerkung",
+      "it": "osservazione"
+    }
+  },
+  {
+    "id": "ox-b2-881",
+    "word": "remarkable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dikkat çekici",
+      "es": "notable",
+      "fr": "remarquable",
+      "de": "bemerkenswert",
+      "it": "notevole"
+    }
+  },
+  {
+    "id": "ox-b2-882",
+    "word": "remind",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hatırlatmak",
+      "es": "recordar",
+      "fr": "rappeler",
+      "de": "erinnern",
+      "it": "ricordare"
+    }
+  },
+  {
+    "id": "ox-b2-883",
+    "word": "remote",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uzak",
+      "es": "remoto",
+      "fr": "télécommande",
+      "de": "Fernbedienung",
+      "it": "remoto"
+    }
+  },
+  {
+    "id": "ox-b2-884",
+    "word": "removal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaldırma",
+      "es": "eliminación",
+      "fr": "suppression",
+      "de": "Entfernung",
+      "it": "rimozione"
+    }
+  },
+  {
+    "id": "ox-b2-885",
+    "word": "remove",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaldırmak",
+      "es": "eliminar",
+      "fr": "retirer",
+      "de": "entfernen",
+      "it": "rimuovere"
+    }
+  },
+  {
+    "id": "ox-b2-886",
+    "word": "rent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kira",
+      "es": "alquilar",
+      "fr": "louer",
+      "de": "mieten",
+      "it": "affitto"
+    }
+  },
+  {
+    "id": "ox-b2-887",
+    "word": "repair",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamirat",
+      "es": "reparar",
+      "fr": "réparation",
+      "de": "reparieren",
+      "it": "riparazione"
+    }
+  },
+  {
+    "id": "ox-b2-888",
+    "word": "repeated",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tekrarlandı",
+      "es": "repetido",
+      "fr": "répété",
+      "de": "repeated",
+      "it": "ripetuto"
+    }
+  },
+  {
+    "id": "ox-b2-889",
+    "word": "replace",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yer değiştirmek",
+      "es": "reemplazar",
+      "fr": "remplacer",
+      "de": "ersetzen",
+      "it": "sostituire"
+    }
+  },
+  {
+    "id": "ox-b2-890",
+    "word": "reply",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cevap vermek",
+      "es": "responder",
+      "fr": "répondre",
+      "de": "Antwort",
+      "it": "rispondere"
+    }
+  },
+  {
+    "id": "ox-b2-891",
+    "word": "reporter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "muhabir",
+      "es": "reportero",
+      "fr": "journaliste",
+      "de": "Reporter",
+      "it": "reporter"
+    }
+  },
+  {
+    "id": "ox-b2-892",
+    "word": "represent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "temsil etmek",
+      "es": "representar",
+      "fr": "représenter",
+      "de": "darstellen",
+      "it": "rappresentare"
+    }
+  },
+  {
+    "id": "ox-b2-893",
+    "word": "representation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "temsil",
+      "es": "representación",
+      "fr": "représentation",
+      "de": "Darstellung",
+      "it": "rappresentazione"
+    }
+  },
+  {
+    "id": "ox-b2-894",
+    "word": "representative",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "temsilci",
+      "es": "representante",
+      "fr": "représentant",
+      "de": "Vertreter",
+      "it": "rappresentante"
+    }
+  },
+  {
+    "id": "ox-b2-895",
+    "word": "reproduce",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeniden üretmek",
+      "es": "reproducir",
+      "fr": "reproduire",
+      "de": "reproduzieren",
+      "it": "riprodurre"
+    }
+  },
+  {
+    "id": "ox-b2-896",
+    "word": "reproduction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üreme",
+      "es": "reproducción",
+      "fr": "reproduction",
+      "de": "Reproduktion",
+      "it": "riproduzione"
+    }
+  },
+  {
+    "id": "ox-b2-897",
+    "word": "reputation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "itibar",
+      "es": "reputación",
+      "fr": "réputation",
+      "de": "Ruf",
+      "it": "reputazione"
+    }
+  },
+  {
+    "id": "ox-b2-898",
+    "word": "request",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rica etmek",
+      "es": "pedido",
+      "fr": "demande",
+      "de": "Anfrage",
+      "it": "richiesta"
+    }
+  },
+  {
+    "id": "ox-b2-899",
+    "word": "require",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerekmek",
+      "es": "requerir",
+      "fr": "exiger",
+      "de": "erfordern",
+      "it": "richiedere"
+    }
+  },
+  {
+    "id": "ox-b2-900",
+    "word": "requirement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gereklilik",
+      "es": "requisito",
+      "fr": "exigence",
+      "de": "Erfordernis",
+      "it": "requisito"
+    }
+  },
+  {
+    "id": "ox-b2-901",
+    "word": "rescue",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurtarmak",
+      "es": "rescate",
+      "fr": "sauvetage",
+      "de": "Rettung",
+      "it": "salvare"
+    }
+  },
+  {
+    "id": "ox-b2-902",
+    "word": "research",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "araştırma",
+      "es": "investigación",
+      "fr": "recherche",
+      "de": "Forschung",
+      "it": "ricerca"
+    }
+  },
+  {
+    "id": "ox-b2-903",
+    "word": "reservation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rezervasyon",
+      "es": "reserva",
+      "fr": "réservation",
+      "de": "Reservierung",
+      "it": "prenotazione"
+    }
+  },
+  {
+    "id": "ox-b2-904",
+    "word": "reserve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rezerv",
+      "es": "reservar",
+      "fr": "réserve",
+      "de": "reservieren",
+      "it": "prenotare"
+    }
+  },
+  {
+    "id": "ox-b2-905",
+    "word": "residence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikamet",
+      "es": "residencia",
+      "fr": "résidence",
+      "de": "Residenz",
+      "it": "residenza"
+    }
+  },
+  {
+    "id": "ox-b2-906",
+    "word": "resident",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikamet eden kişi",
+      "es": "residente",
+      "fr": "résident",
+      "de": "Einwohner",
+      "it": "residente"
+    }
+  },
+  {
+    "id": "ox-b2-907",
+    "word": "resist",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "direnmek",
+      "es": "resistir",
+      "fr": "résister",
+      "de": "widerstehen",
+      "it": "resistere"
+    }
+  },
+  {
+    "id": "ox-b2-908",
+    "word": "resistance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rezistans",
+      "es": "resistencia",
+      "fr": "résistance",
+      "de": "Widerstand",
+      "it": "resistenza"
+    }
+  },
+  {
+    "id": "ox-b2-909",
+    "word": "resolve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çözmek",
+      "es": "resolver",
+      "fr": "résoudre",
+      "de": "lösen",
+      "it": "risolvere"
+    }
+  },
+  {
+    "id": "ox-b2-910",
+    "word": "resort",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatil yeri",
+      "es": "complejo",
+      "fr": "station balnéaire",
+      "de": "Resort",
+      "it": "ricorrere"
+    }
+  },
+  {
+    "id": "ox-b2-911",
+    "word": "resource",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaynak",
+      "es": "recurso",
+      "fr": "ressource",
+      "de": "Ressource",
+      "it": "risorsa"
+    }
+  },
+  {
+    "id": "ox-b2-912",
+    "word": "respect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Saygı",
+      "es": "respeto",
+      "fr": "respect",
+      "de": "respektieren",
+      "it": "rispetto"
+    }
+  },
+  {
+    "id": "ox-b2-913",
+    "word": "respond",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yanıtlamak",
+      "es": "responder",
+      "fr": "répondre",
+      "de": "antworten",
+      "it": "rispondere"
+    }
+  },
+  {
+    "id": "ox-b2-914",
+    "word": "response",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cevap",
+      "es": "respuesta",
+      "fr": "réponse",
+      "de": "Antwort",
+      "it": "risposta"
+    }
+  },
+  {
+    "id": "ox-b2-915",
+    "word": "responsibility",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sorumluluk",
+      "es": "responsabilidad",
+      "fr": "responsabilité",
+      "de": "Verantwortung",
+      "it": "responsabilità"
+    }
+  },
+  {
+    "id": "ox-b2-916",
+    "word": "responsible",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sorumlu",
+      "es": "responsable",
+      "fr": "responsable",
+      "de": "verantwortlich",
+      "it": "responsabile"
+    }
+  },
+  {
+    "id": "ox-b2-917",
+    "word": "rest",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dinlenmek",
+      "es": "descansar",
+      "fr": "repos",
+      "de": "ausruhen",
+      "it": "riposo"
+    }
+  },
+  {
+    "id": "ox-b2-918",
+    "word": "restore",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eski haline getirmek",
+      "es": "restaurar",
+      "fr": "restaurer",
+      "de": "wiederherstellen",
+      "it": "ripristinare"
+    }
+  },
+  {
+    "id": "ox-b2-919",
+    "word": "restrict",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısıtlamak",
+      "es": "restringir",
+      "fr": "limiter",
+      "de": "beschränken",
+      "it": "limitare"
+    }
+  },
+  {
+    "id": "ox-b2-920",
+    "word": "restricted",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sınırlı",
+      "es": "restringido",
+      "fr": "limité",
+      "de": "eingeschränkt",
+      "it": "limitato"
+    }
+  },
+  {
+    "id": "ox-b2-921",
+    "word": "restriction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısıtlama",
+      "es": "restricción",
+      "fr": "restriction",
+      "de": "Beschränkung",
+      "it": "restrizione"
+    }
+  },
+  {
+    "id": "ox-b2-922",
+    "word": "retain",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sürdürmek",
+      "es": "retener",
+      "fr": "retenir",
+      "de": "zurückbehalten",
+      "it": "conservare"
+    }
+  },
+  {
+    "id": "ox-b2-923",
+    "word": "retire",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emekli olmak",
+      "es": "retirarse",
+      "fr": "se retirer",
+      "de": "ausscheiden",
+      "it": "andare in pensione"
+    }
+  },
+  {
+    "id": "ox-b2-924",
+    "word": "retired",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emekli",
+      "es": "jubilado",
+      "fr": "à la retraite",
+      "de": "im Ruhestand",
+      "it": "pensionato"
+    }
+  },
+  {
+    "id": "ox-b2-925",
+    "word": "retirement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emeklilik",
+      "es": "jubilación",
+      "fr": "retraite",
+      "de": "Ruhestand",
+      "it": "pensionamento"
+    }
+  },
+  {
+    "id": "ox-b2-926",
+    "word": "reveal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ortaya çıkarmak",
+      "es": "revelar",
+      "fr": "révéler",
+      "de": "aufdecken",
+      "it": "svelare"
+    }
+  },
+  {
+    "id": "ox-b2-927",
+    "word": "reverse",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tersi",
+      "es": "contrarrestar",
+      "fr": "inverse",
+      "de": "umkehren",
+      "it": "inversione"
+    }
+  },
+  {
+    "id": "ox-b2-928",
+    "word": "review",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gözden geçirmek",
+      "es": "revisar",
+      "fr": "revoir",
+      "de": "Rezension",
+      "it": "revisione"
+    }
+  },
+  {
+    "id": "ox-b2-929",
+    "word": "revise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tekrar düzeltme yapmak",
+      "es": "revisar",
+      "fr": "réviser",
+      "de": "überarbeiten",
+      "it": "rivedere"
+    }
+  },
+  {
+    "id": "ox-b2-930",
+    "word": "revision",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "revizyon",
+      "es": "revisión",
+      "fr": "révision",
+      "de": "Revision",
+      "it": "revisione"
+    }
+  },
+  {
+    "id": "ox-b2-931",
+    "word": "revolution",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "devrim",
+      "es": "revolución",
+      "fr": "révolution",
+      "de": "Revolution",
+      "it": "rivoluzione"
+    }
+  },
+  {
+    "id": "ox-b2-932",
+    "word": "reward",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ödül",
+      "es": "premio",
+      "fr": "récompense",
+      "de": "belohnen",
+      "it": "ricompensa"
+    }
+  },
+  {
+    "id": "ox-b2-933",
+    "word": "rhythm",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ritim",
+      "es": "ritmo",
+      "fr": "rythme",
+      "de": "Rhythmus",
+      "it": "ritmo"
+    }
+  },
+  {
+    "id": "ox-b2-934",
+    "word": "rid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurtulmak",
+      "es": "deshacerse",
+      "fr": "débarrasser",
+      "de": "loswerden",
+      "it": "sbarazzarsi"
+    }
+  },
+  {
+    "id": "ox-b2-935",
+    "word": "rider",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "binici",
+      "es": "jinete",
+      "fr": "cavalier",
+      "de": "Fahrer",
+      "it": "cavaliere"
+    }
+  },
+  {
+    "id": "ox-b2-936",
+    "word": "ridiculous",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "saçma",
+      "es": "ridículo",
+      "fr": "ridicule",
+      "de": "lächerlich",
+      "it": "ridicolo"
+    }
+  },
+  {
+    "id": "ox-b2-937",
+    "word": "rightly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haklı olarak",
+      "es": "correctamente",
+      "fr": "justement",
+      "de": "zu Recht",
+      "it": "giustamente"
+    }
+  },
+  {
+    "id": "ox-b2-938",
+    "word": "ring",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzük",
+      "es": "anillo",
+      "fr": "anneau",
+      "de": "Ring",
+      "it": "squillo"
+    }
+  },
+  {
+    "id": "ox-b2-939",
+    "word": "rise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yükselmek",
+      "es": "elevar",
+      "fr": "augmenter",
+      "de": "erheben",
+      "it": "salita"
+    }
+  },
+  {
+    "id": "ox-b2-940",
+    "word": "risk",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "risk",
+      "es": "riesgo",
+      "fr": "risque",
+      "de": "Risiko",
+      "it": "rischio"
+    }
+  },
+  {
+    "id": "ox-b2-941",
+    "word": "rival",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rakip",
+      "es": "rival",
+      "fr": "rival",
+      "de": "Rivale",
+      "it": "rivale"
+    }
+  },
+  {
+    "id": "ox-b2-942",
+    "word": "rob",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soymak",
+      "es": "robar",
+      "fr": "voler",
+      "de": "rauben",
+      "it": "rapinare"
+    }
+  },
+  {
+    "id": "ox-b2-943",
+    "word": "rock",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaynak",
+      "es": "roca",
+      "fr": "rocher",
+      "de": "Felsen",
+      "it": "roccia"
+    }
+  },
+  {
+    "id": "ox-b2-944",
+    "word": "role",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rol",
+      "es": "role",
+      "fr": "rôle",
+      "de": "Rolle",
+      "it": "ruolo"
+    }
+  },
+  {
+    "id": "ox-b2-945",
+    "word": "roll",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rulo",
+      "es": "rollo",
+      "fr": "rouler",
+      "de": "rollen",
+      "it": "rotolo"
+    }
+  },
+  {
+    "id": "ox-b2-946",
+    "word": "romantic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "romantik",
+      "es": "romántico",
+      "fr": "romantique",
+      "de": "romantisch",
+      "it": "romantico"
+    }
+  },
+  {
+    "id": "ox-b2-947",
+    "word": "roof",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çatı",
+      "es": "techo",
+      "fr": "toit",
+      "de": "Dach",
+      "it": "tetto"
+    }
+  },
+  {
+    "id": "ox-b2-948",
+    "word": "root",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kök",
+      "es": "raíz",
+      "fr": "racine",
+      "de": "Wurzel",
+      "it": "radice"
+    }
+  },
+  {
+    "id": "ox-b2-949",
+    "word": "rope",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "halat",
+      "es": "soga",
+      "fr": "corde",
+      "de": "Seil",
+      "it": "corda"
+    }
+  },
+  {
+    "id": "ox-b2-950",
+    "word": "rough",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaba ",
+      "es": "bruto",
+      "fr": "rugueux",
+      "de": "rauh",
+      "it": "ruvido"
+    }
+  },
+  {
+    "id": "ox-b2-951",
+    "word": "roughly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kabaca",
+      "es": "apenas",
+      "fr": "à peu près",
+      "de": "rund",
+      "it": "all'incirca"
+    }
+  },
+  {
+    "id": "ox-b2-952",
+    "word": "round",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yuvarlak",
+      "es": "redondo",
+      "fr": "rond",
+      "de": "runden",
+      "it": "girare"
+    }
+  },
+  {
+    "id": "ox-b2-953",
+    "word": "route",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rota",
+      "es": "ruta",
+      "fr": "itinéraire",
+      "de": "Route",
+      "it": "itinerario"
+    }
+  },
+  {
+    "id": "ox-b2-954",
+    "word": "row",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıra",
+      "es": "fila",
+      "fr": "rangée",
+      "de": "Reihe",
+      "it": "riga"
+    }
+  },
+  {
+    "id": "ox-b2-955",
+    "word": "royal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "asil",
+      "es": "real",
+      "fr": "royal",
+      "de": "königlich",
+      "it": "reale"
+    }
+  },
+  {
+    "id": "ox-b2-956",
+    "word": "rub",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ovmak",
+      "es": "frotar",
+      "fr": "frotter",
+      "de": "reiben",
+      "it": "strofinare"
+    }
+  },
+  {
+    "id": "ox-b2-957",
+    "word": "rubber",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "lastik",
+      "es": "goma",
+      "fr": "caoutchouc",
+      "de": "Gummi",
+      "it": "gomma"
+    }
+  },
+  {
+    "id": "ox-b2-958",
+    "word": "rubbish",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zırva",
+      "es": "basura",
+      "fr": "déchets",
+      "de": "Müll",
+      "it": "spazzatura"
+    }
+  },
+  {
+    "id": "ox-b2-959",
+    "word": "rude",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaba",
+      "es": "brusco",
+      "fr": "grossier",
+      "de": "unhöflich",
+      "it": "maleducato"
+    }
+  },
+  {
+    "id": "ox-b2-960",
+    "word": "rudely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "terbiyesizce",
+      "es": "groseramente",
+      "fr": "grossièrement",
+      "de": "grob",
+      "it": "rudemente"
+    }
+  },
+  {
+    "id": "ox-b2-961",
+    "word": "ruin",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mahvetmek",
+      "es": "ruina",
+      "fr": "ruine",
+      "de": "Ruine",
+      "it": "rovina"
+    }
+  },
+  {
+    "id": "ox-b2-962",
+    "word": "ruined",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "harap",
+      "es": "arruinado",
+      "fr": "ruiné",
+      "de": "ruiniert",
+      "it": "rovinato"
+    }
+  },
+  {
+    "id": "ox-b2-963",
+    "word": "ruler",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cetvel",
+      "es": "gobernante",
+      "fr": "règle",
+      "de": "Herrscher",
+      "it": "governate"
+    }
+  },
+  {
+    "id": "ox-b2-964",
+    "word": "rumour",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "söylenti",
+      "es": "rumor",
+      "fr": "rumeur",
+      "de": "Gerücht",
+      "it": "voce"
+    }
+  },
+  {
+    "id": "ox-b2-965",
+    "word": "runner",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koşucu",
+      "es": "corredor",
+      "fr": "coureur",
+      "de": "Läufer",
+      "it": "corridore"
+    }
+  },
+  {
+    "id": "ox-b2-966",
+    "word": "running",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koşma",
+      "es": "correr",
+      "fr": "en cours d'exécution",
+      "de": "läuft",
+      "it": "corsa"
+    }
+  },
+  {
+    "id": "ox-b2-967",
+    "word": "rural",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kırsal",
+      "es": "rural",
+      "fr": "rural",
+      "de": "ländlich",
+      "it": "rurale"
+    }
+  },
+  {
+    "id": "ox-b2-968",
+    "word": "rush",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acele etmek",
+      "es": "correr",
+      "fr": "se précipiter",
+      "de": "eilen",
+      "it": "fretta"
+    }
+  },
+  {
+    "id": "ox-b2-969",
+    "word": "sack",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çuval",
+      "es": "bolsa",
+      "fr": "sac",
+      "de": "Sack",
+      "it": "sacco"
+    }
+  },
+  {
+    "id": "ox-b2-970",
+    "word": "sacred",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kutsal",
+      "es": "sagrado",
+      "fr": "sacré",
+      "de": "heilig",
+      "it": "sacro"
+    }
+  },
+  {
+    "id": "ox-b2-971",
+    "word": "sadly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ne yazık ki",
+      "es": "desafortunadamente",
+      "fr": "malheureusement",
+      "de": "leider",
+      "it": "purtroppo"
+    }
+  },
+  {
+    "id": "ox-b2-972",
+    "word": "safe",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenli",
+      "es": "seguro",
+      "fr": "sûr",
+      "de": "sicher",
+      "it": "sicuro"
+    }
+  },
+  {
+    "id": "ox-b2-973",
+    "word": "safety",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emniyet",
+      "es": "seguridad",
+      "fr": "sécurité",
+      "de": "Sicherheit",
+      "it": "sicurezza"
+    }
+  },
+  {
+    "id": "ox-b2-974",
+    "word": "sail",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "denize açılmak",
+      "es": "navegar",
+      "fr": "naviguer",
+      "de": "Segel",
+      "it": "vela"
+    }
+  },
+  {
+    "id": "ox-b2-975",
+    "word": "sailing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yelkencilik",
+      "es": "navegación",
+      "fr": "voile",
+      "de": "Segeln",
+      "it": "navigazione"
+    }
+  },
+  {
+    "id": "ox-b2-976",
+    "word": "sailor",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "denizci",
+      "es": "marinero",
+      "fr": "marin",
+      "de": "Seemann",
+      "it": "marinaio"
+    }
+  },
+  {
+    "id": "ox-b2-977",
+    "word": "salary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "maaş",
+      "es": "salario",
+      "fr": "salaire",
+      "de": "Gehalt",
+      "it": "stipendio"
+    }
+  },
+  {
+    "id": "ox-b2-978",
+    "word": "sale",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "satış",
+      "es": "venta",
+      "fr": "vente",
+      "de": "Verkauf",
+      "it": "vendita"
+    }
+  },
+  {
+    "id": "ox-b2-979",
+    "word": "salty",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tuzlu",
+      "es": "salado",
+      "fr": "salé",
+      "de": "salzig",
+      "it": "salato"
+    }
+  },
+  {
+    "id": "ox-b2-980",
+    "word": "sample",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "örnek",
+      "es": "muestra",
+      "fr": "échantillon",
+      "de": "Probe",
+      "it": "campione"
+    }
+  },
+  {
+    "id": "ox-b2-981",
+    "word": "sand",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kum",
+      "es": "arena",
+      "fr": "sable",
+      "de": "Sand",
+      "it": "sabbia"
+    }
+  },
+  {
+    "id": "ox-b2-982",
+    "word": "satisfaction",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "memnuniyet",
+      "es": "satisfacción",
+      "fr": "satisfaction",
+      "de": "Zufriedenheit",
+      "it": "soddisfazione"
+    }
+  },
+  {
+    "id": "ox-b2-983",
+    "word": "satisfactory",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatmin edici",
+      "es": "satisfactorio",
+      "fr": "satisfaisant",
+      "de": "zufriedenstellend",
+      "it": "soddisfacente"
+    }
+  },
+  {
+    "id": "ox-b2-984",
+    "word": "satisfied",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "memnun",
+      "es": "satisfecho",
+      "fr": "satisfait",
+      "de": "befriedigt",
+      "it": "soddisfatto"
+    }
+  },
+  {
+    "id": "ox-b2-985",
+    "word": "satisfy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatmin etmek",
+      "es": "satisfacer",
+      "fr": "satisfaire",
+      "de": "erfüllen",
+      "it": "soddisfare"
+    }
+  },
+  {
+    "id": "ox-b2-986",
+    "word": "satisfying",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatmin edici",
+      "es": "satisfactorio",
+      "fr": "satisfaisant",
+      "de": "befriedigend",
+      "it": "soddisfacente"
+    }
+  },
+  {
+    "id": "ox-b2-987",
+    "word": "sauce",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sos",
+      "es": "salsa",
+      "fr": "sauce",
+      "de": "Sauce",
+      "it": "salsa"
+    }
+  },
+  {
+    "id": "ox-b2-988",
+    "word": "save",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaydetmek",
+      "es": "ahorrar",
+      "fr": "sauvegarder",
+      "de": "speichern",
+      "it": "salva"
+    }
+  },
+  {
+    "id": "ox-b2-989",
+    "word": "saving",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tasarruf",
+      "es": "ahorro",
+      "fr": "économie",
+      "de": "sparen",
+      "it": "risparmio"
+    }
+  },
+  {
+    "id": "ox-b2-990",
+    "word": "scale",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ölçek",
+      "es": "escala",
+      "fr": "échelle",
+      "de": "Skala",
+      "it": "scala"
+    }
+  },
+  {
+    "id": "ox-b2-991",
+    "word": "scare",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korkutmak",
+      "es": "susto",
+      "fr": "effrayer",
+      "de": "Schrecken",
+      "it": "spavento"
+    }
+  },
+  {
+    "id": "ox-b2-992",
+    "word": "scared",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korkmuş",
+      "es": "asustado",
+      "fr": "effrayé",
+      "de": "verängstigt",
+      "it": "impaurito"
+    }
+  },
+  {
+    "id": "ox-b2-993",
+    "word": "scene",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sahne",
+      "es": "escena",
+      "fr": "scène",
+      "de": "Szene",
+      "it": "scena"
+    }
+  },
+  {
+    "id": "ox-b2-994",
+    "word": "schedule",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "takvim",
+      "es": "cronograma",
+      "fr": "calendrier",
+      "de": "Zeitplan",
+      "it": "programma"
+    }
+  },
+  {
+    "id": "ox-b2-995",
+    "word": "scheme",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şema",
+      "es": "esquema",
+      "fr": "schème",
+      "de": "Schema",
+      "it": "schema"
+    }
+  },
+  {
+    "id": "ox-b2-996",
+    "word": "scientific",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilmi",
+      "es": "científico",
+      "fr": "scientifique",
+      "de": "wissenschaftlich",
+      "it": "scientifico"
+    }
+  },
+  {
+    "id": "ox-b2-997",
+    "word": "scissors",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "makas",
+      "es": "tijeras",
+      "fr": "ciseaux",
+      "de": "Schere",
+      "it": "forbici"
+    }
+  },
+  {
+    "id": "ox-b2-998",
+    "word": "score",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Gol",
+      "es": "puntaje",
+      "fr": "score",
+      "de": "Punktzahl",
+      "it": "punto"
+    }
+  },
+  {
+    "id": "ox-b2-999",
+    "word": "scratch",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çizik",
+      "es": "rascar",
+      "fr": "gratter",
+      "de": "kratzen",
+      "it": "graffio"
+    }
+  },
+  {
+    "id": "ox-b2-1000",
+    "word": "scream",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağırmak",
+      "es": "gritar",
+      "fr": "crier",
+      "de": "schreien",
+      "it": "grido"
+    }
+  },
+  {
+    "id": "ox-b2-1001",
+    "word": "screen",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ekran",
+      "es": "pantalla",
+      "fr": "écran",
+      "de": "Bildschirm",
+      "it": "schermo"
+    }
+  },
+  {
+    "id": "ox-b2-1002",
+    "word": "screw",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vida",
+      "es": "tornillo",
+      "fr": "vis",
+      "de": "schrauben",
+      "it": "vite"
+    }
+  },
+  {
+    "id": "ox-b2-1003",
+    "word": "seal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fok",
+      "es": "sello",
+      "fr": "joint",
+      "de": "Siegel",
+      "it": "foca"
+    }
+  },
+  {
+    "id": "ox-b2-1004",
+    "word": "search",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aramak",
+      "es": "buscar",
+      "fr": "recherche",
+      "de": "suchen",
+      "it": "ricerca"
+    }
+  },
+  {
+    "id": "ox-b2-1005",
+    "word": "season",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mevsim",
+      "es": "estación",
+      "fr": "saison",
+      "de": "Jahreszeit",
+      "it": "stagione"
+    }
+  },
+  {
+    "id": "ox-b2-1006",
+    "word": "seat",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koltuk",
+      "es": "asiento",
+      "fr": "siège",
+      "de": "Sitz",
+      "it": "posto a sedere"
+    }
+  },
+  {
+    "id": "ox-b2-1007",
+    "word": "secondary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikincil",
+      "es": "secundario",
+      "fr": "secondaire",
+      "de": "sekundär",
+      "it": "secondario"
+    }
+  },
+  {
+    "id": "ox-b2-1008",
+    "word": "secret",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gizli",
+      "es": "secreto",
+      "fr": "secrète",
+      "de": "Geheimnis",
+      "it": "segreto"
+    }
+  },
+  {
+    "id": "ox-b2-1009",
+    "word": "secretary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sekreter",
+      "es": "secretario",
+      "fr": "secrétaire",
+      "de": "Sekretär",
+      "it": "segretario"
+    }
+  },
+  {
+    "id": "ox-b2-1010",
+    "word": "sector",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sektör",
+      "es": "sector",
+      "fr": "secteur",
+      "de": "Sektor",
+      "it": "settore"
+    }
+  },
+  {
+    "id": "ox-b2-1011",
+    "word": "secure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenli",
+      "es": "seguro",
+      "fr": "sécurisé",
+      "de": "sicher",
+      "it": "sicuro"
+    }
+  },
+  {
+    "id": "ox-b2-1012",
+    "word": "security",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenlik",
+      "es": "seguridad",
+      "fr": "sécurité",
+      "de": "Sicherheit",
+      "it": "sicurezza"
+    }
+  },
+  {
+    "id": "ox-b2-1013",
+    "word": "seed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tohum",
+      "es": "semilla",
+      "fr": "graine",
+      "de": "Samen",
+      "it": "seme"
+    }
+  },
+  {
+    "id": "ox-b2-1014",
+    "word": "seek",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aramak",
+      "es": "buscar",
+      "fr": "chercher",
+      "de": "suchen",
+      "it": "cercare"
+    }
+  },
+  {
+    "id": "ox-b2-1015",
+    "word": "seem",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gözükmek",
+      "es": "parecer",
+      "fr": "sembler",
+      "de": "erscheinen",
+      "it": "sembrare"
+    }
+  },
+  {
+    "id": "ox-b2-1016",
+    "word": "select",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seçme",
+      "es": "seleccionar",
+      "fr": "sélectionner",
+      "de": "wählen",
+      "it": "selezionare"
+    }
+  },
+  {
+    "id": "ox-b2-1017",
+    "word": "selection",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seçim",
+      "es": "selección",
+      "fr": "sélection",
+      "de": "Auswahl",
+      "it": "selezione"
+    }
+  },
+  {
+    "id": "ox-b2-1018",
+    "word": "self",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öz",
+      "es": "ser",
+      "fr": "soi",
+      "de": "selbst",
+      "it": "se stesso"
+    }
+  },
+  {
+    "id": "ox-b2-1019",
+    "word": "semester",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dönem",
+      "es": "semestre",
+      "fr": "semestre",
+      "de": "Semester",
+      "it": "semestre"
+    }
+  },
+  {
+    "id": "ox-b2-1020",
+    "word": "senate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "senato",
+      "es": "senado",
+      "fr": "sénat",
+      "de": "Senat",
+      "it": "senato"
+    }
+  },
+  {
+    "id": "ox-b2-1021",
+    "word": "senator",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "senatör",
+      "es": "senador",
+      "fr": "sénateur",
+      "de": "Senator",
+      "it": "senatore"
+    }
+  },
+  {
+    "id": "ox-b2-1022",
+    "word": "senior",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kıdemli",
+      "es": "sénior",
+      "fr": "senior",
+      "de": "Senior",
+      "it": "anziano"
+    }
+  },
+  {
+    "id": "ox-b2-1023",
+    "word": "sense",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "algı",
+      "es": "sentido",
+      "fr": "sens",
+      "de": "Sinn",
+      "it": "senso"
+    }
+  },
+  {
+    "id": "ox-b2-1024",
+    "word": "sensible",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mantıklı",
+      "es": "sensitivo",
+      "fr": "sensible",
+      "de": "vernünftig",
+      "it": "sensato"
+    }
+  },
+  {
+    "id": "ox-b2-1025",
+    "word": "sensitive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hassas",
+      "es": "sensible",
+      "fr": "sensible",
+      "de": "empfindlich",
+      "it": "sensibile"
+    }
+  },
+  {
+    "id": "ox-b2-1026",
+    "word": "separate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayırmak",
+      "es": "separado",
+      "fr": "séparé",
+      "de": "separate",
+      "it": "separato"
+    }
+  },
+  {
+    "id": "ox-b2-1027",
+    "word": "separated",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayrılmış",
+      "es": "apartado",
+      "fr": "séparé",
+      "de": "getrennt",
+      "it": "separato"
+    }
+  },
+  {
+    "id": "ox-b2-1028",
+    "word": "separately",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayrı ayrı",
+      "es": "por separado",
+      "fr": "séparément",
+      "de": "separat",
+      "it": "separatamente"
+    }
+  },
+  {
+    "id": "ox-b2-1029",
+    "word": "separation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayrılma",
+      "es": "separación",
+      "fr": "séparation",
+      "de": "Trennung",
+      "it": "separazione"
+    }
+  },
+  {
+    "id": "ox-b2-1030",
+    "word": "series",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seri",
+      "es": "serie",
+      "fr": "série",
+      "de": "Serie",
+      "it": "serie"
+    }
+  },
+  {
+    "id": "ox-b2-1031",
+    "word": "serious",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cidden",
+      "es": "grave",
+      "fr": "sérieux",
+      "de": "ernst",
+      "it": "serio"
+    }
+  },
+  {
+    "id": "ox-b2-1032",
+    "word": "seriously",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Cidden",
+      "es": "en serio",
+      "fr": "sérieusement",
+      "de": "ernsthaft",
+      "it": "sul serio"
+    }
+  },
+  {
+    "id": "ox-b2-1033",
+    "word": "servant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hizmetkar",
+      "es": "servidor",
+      "fr": "serviteur",
+      "de": "Diener",
+      "it": "servitore"
+    }
+  },
+  {
+    "id": "ox-b2-1034",
+    "word": "serve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sert",
+      "es": "atender",
+      "fr": "servir",
+      "de": "Aufschlag",
+      "it": "servire"
+    }
+  },
+  {
+    "id": "ox-b2-1035",
+    "word": "service",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hizmet",
+      "es": "servicio",
+      "fr": "service",
+      "de": "Service",
+      "it": "servizio"
+    }
+  },
+  {
+    "id": "ox-b2-1036",
+    "word": "session",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oturum",
+      "es": "sesión",
+      "fr": "session",
+      "de": "Sitzung",
+      "it": "sessione"
+    }
+  },
+  {
+    "id": "ox-b2-1037",
+    "word": "set",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayarlamak",
+      "es": "colocar",
+      "fr": "ensemble",
+      "de": "Satz",
+      "it": "impostato"
+    }
+  },
+  {
+    "id": "ox-b2-1038",
+    "word": "setting",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayar",
+      "es": "configuración",
+      "fr": "paramètre",
+      "de": "Einstellung",
+      "it": "collocamento"
+    }
+  },
+  {
+    "id": "ox-b2-1039",
+    "word": "settle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerleşmek",
+      "es": "asentarse",
+      "fr": "régler",
+      "de": "siedeln",
+      "it": "fissare"
+    }
+  },
+  {
+    "id": "ox-b2-1040",
+    "word": "settlement",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerleşim",
+      "es": "asentamiento",
+      "fr": "règlement",
+      "de": "Siedlung",
+      "it": "insediamento"
+    }
+  },
+  {
+    "id": "ox-b2-1041",
+    "word": "several",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birçok",
+      "es": "varios",
+      "fr": "plusieurs",
+      "de": "mehrere",
+      "it": "parecchi"
+    }
+  },
+  {
+    "id": "ox-b2-1042",
+    "word": "severe",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haşin",
+      "es": "severo",
+      "fr": "grave",
+      "de": "schwer",
+      "it": "acuto"
+    }
+  },
+  {
+    "id": "ox-b2-1043",
+    "word": "sew",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dikmek",
+      "es": "coser",
+      "fr": "coudre",
+      "de": "nähen",
+      "it": "cucire"
+    }
+  },
+  {
+    "id": "ox-b2-1044",
+    "word": "sex",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "seks",
+      "es": "sexo",
+      "fr": "sexe",
+      "de": "Sex",
+      "it": "sesso"
+    }
+  },
+  {
+    "id": "ox-b2-1045",
+    "word": "sexual",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cinsel",
+      "es": "sexual",
+      "fr": "sexuel",
+      "de": "sexuell",
+      "it": "sessuale"
+    }
+  },
+  {
+    "id": "ox-b2-1046",
+    "word": "shade",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gölge",
+      "es": "sombra",
+      "fr": "ombre",
+      "de": "Schatten",
+      "it": "ombra"
+    }
+  },
+  {
+    "id": "ox-b2-1047",
+    "word": "shadow",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gölge",
+      "es": "sombra",
+      "fr": "ombre",
+      "de": "Schatten",
+      "it": "ombra"
+    }
+  },
+  {
+    "id": "ox-b2-1048",
+    "word": "shake",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sallamak",
+      "es": "agitar",
+      "fr": "secouer",
+      "de": "Shake",
+      "it": "scuotere"
+    }
+  },
+  {
+    "id": "ox-b2-1049",
+    "word": "shall",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olacak",
+      "es": "deber",
+      "fr": "devoir",
+      "de": "soll",
+      "it": "deve"
+    }
+  },
+  {
+    "id": "ox-b2-1050",
+    "word": "shallow",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sığ",
+      "es": "poco profundo",
+      "fr": "peu profond",
+      "de": "seicht",
+      "it": "poco profondo"
+    }
+  },
+  {
+    "id": "ox-b2-1051",
+    "word": "shame",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "utanç",
+      "es": "lástima",
+      "fr": "honte",
+      "de": "Scham",
+      "it": "vergogna"
+    }
+  },
+  {
+    "id": "ox-b2-1052",
+    "word": "shape",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şekil",
+      "es": "forma",
+      "fr": "forme",
+      "de": "Form",
+      "it": "forma"
+    }
+  },
+  {
+    "id": "ox-b2-1053",
+    "word": "shaped",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şekilli",
+      "es": "conformado",
+      "fr": "en forme",
+      "de": "geformt",
+      "it": "sagomato"
+    }
+  },
+  {
+    "id": "ox-b2-1054",
+    "word": "sharp",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "keskin",
+      "es": "afilado",
+      "fr": "pointu",
+      "de": "scharf",
+      "it": "affilato"
+    }
+  },
+  {
+    "id": "ox-b2-1055",
+    "word": "sharply",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "keskin bir şekilde",
+      "es": "bruscamente",
+      "fr": "nettement",
+      "de": "scharf",
+      "it": "bruscamente"
+    }
+  },
+  {
+    "id": "ox-b2-1056",
+    "word": "shave",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tıraş olmak",
+      "es": "afeitar",
+      "fr": "raser",
+      "de": "Rasur",
+      "it": "farsi la barba"
+    }
+  },
+  {
+    "id": "ox-b2-1057",
+    "word": "sheet",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çarşaf",
+      "es": "hoja",
+      "fr": "feuille",
+      "de": "Blatt",
+      "it": "foglio"
+    }
+  },
+  {
+    "id": "ox-b2-1058",
+    "word": "shelf",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "raf",
+      "es": "estante",
+      "fr": "étagère",
+      "de": "Regal",
+      "it": "mensola"
+    }
+  },
+  {
+    "id": "ox-b2-1059",
+    "word": "shell",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kabuk",
+      "es": "caparazón",
+      "fr": "coquille",
+      "de": "Hülse",
+      "it": "conchiglia"
+    }
+  },
+  {
+    "id": "ox-b2-1060",
+    "word": "shelter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "barınak",
+      "es": "refugio",
+      "fr": "abri",
+      "de": "Unterschlupf",
+      "it": "riparo"
+    }
+  },
+  {
+    "id": "ox-b2-1061",
+    "word": "shift",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vardiya",
+      "es": "cambio",
+      "fr": "changement",
+      "de": "Schicht",
+      "it": "spostare"
+    }
+  },
+  {
+    "id": "ox-b2-1062",
+    "word": "shine",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "parlamak",
+      "es": "brillar",
+      "fr": "briller",
+      "de": "Glanz",
+      "it": "splendore"
+    }
+  },
+  {
+    "id": "ox-b2-1063",
+    "word": "shiny",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "parlak",
+      "es": "brillante",
+      "fr": "brillant",
+      "de": "glänzend",
+      "it": "lucido"
+    }
+  },
+  {
+    "id": "ox-b2-1064",
+    "word": "ship",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gemi",
+      "es": "barco",
+      "fr": "bateau",
+      "de": "Schiff",
+      "it": "nave"
+    }
+  },
+  {
+    "id": "ox-b2-1065",
+    "word": "shock",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şok",
+      "es": "choque",
+      "fr": "choc",
+      "de": "Schock",
+      "it": "shock"
+    }
+  },
+  {
+    "id": "ox-b2-1066",
+    "word": "shocked",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şok",
+      "es": "sorprendido",
+      "fr": "choqué",
+      "de": "schockiert",
+      "it": "scioccato"
+    }
+  },
+  {
+    "id": "ox-b2-1067",
+    "word": "shocking",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şok edici",
+      "es": "chocante",
+      "fr": "choquant",
+      "de": "schockierend",
+      "it": "scioccante"
+    }
+  },
+  {
+    "id": "ox-b2-1068",
+    "word": "shoot",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "film çekmek",
+      "es": "disparar",
+      "fr": "tirer",
+      "de": "schießen",
+      "it": "sparare"
+    }
+  },
+  {
+    "id": "ox-b2-1069",
+    "word": "shooting",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çekim",
+      "es": "tiroteo",
+      "fr": "tournage",
+      "de": "Schießen",
+      "it": "tiro"
+    }
+  },
+  {
+    "id": "ox-b2-1070",
+    "word": "shore",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sahil",
+      "es": "costa",
+      "fr": "rive",
+      "de": "Ufer",
+      "it": "costa"
+    }
+  },
+  {
+    "id": "ox-b2-1071",
+    "word": "shortly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısaca",
+      "es": "dentro de poco",
+      "fr": "prochainement",
+      "de": "kurz",
+      "it": "a breve"
+    }
+  },
+  {
+    "id": "ox-b2-1072",
+    "word": "shot",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atış",
+      "es": "disparo",
+      "fr": "tir",
+      "de": "Schuss",
+      "it": "sparo"
+    }
+  },
+  {
+    "id": "ox-b2-1073",
+    "word": "shoulder",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "omuz",
+      "es": "hombro",
+      "fr": "épaule",
+      "de": "Schulter",
+      "it": "spalla"
+    }
+  },
+  {
+    "id": "ox-b2-1074",
+    "word": "shout",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağırmak",
+      "es": "gritar",
+      "fr": "crier",
+      "de": "schreien",
+      "it": "gridare"
+    }
+  },
+  {
+    "id": "ox-b2-1075",
+    "word": "shut",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapat",
+      "es": "cerrar",
+      "fr": "fermer",
+      "de": "schließen",
+      "it": "chiuso"
+    }
+  },
+  {
+    "id": "ox-b2-1076",
+    "word": "shy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "utangaç",
+      "es": "tímido",
+      "fr": "timide",
+      "de": "schüchtern",
+      "it": "Timido"
+    }
+  },
+  {
+    "id": "ox-b2-1077",
+    "word": "side",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "taraf",
+      "es": "lado",
+      "fr": "côté",
+      "de": "Seite",
+      "it": "lato"
+    }
+  },
+  {
+    "id": "ox-b2-1078",
+    "word": "sight",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görünüş",
+      "es": "vista",
+      "fr": "vue",
+      "de": "Sicht",
+      "it": "vista"
+    }
+  },
+  {
+    "id": "ox-b2-1079",
+    "word": "signal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sinyal",
+      "es": "señal",
+      "fr": "signal",
+      "de": "Signal",
+      "it": "segnale"
+    }
+  },
+  {
+    "id": "ox-b2-1080",
+    "word": "signature",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "imza",
+      "es": "firma",
+      "fr": "signature",
+      "de": "Unterschrift",
+      "it": "firma"
+    }
+  },
+  {
+    "id": "ox-b2-1081",
+    "word": "significant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önemli",
+      "es": "significativo",
+      "fr": "significatif",
+      "de": "bedeutsam",
+      "it": "significativo"
+    }
+  },
+  {
+    "id": "ox-b2-1082",
+    "word": "significantly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "önemli ölçüde",
+      "es": "de modo significativo",
+      "fr": "de manière significative",
+      "de": "deutlich",
+      "it": "in modo significativo"
+    }
+  },
+  {
+    "id": "ox-b2-1083",
+    "word": "silence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sessizlik",
+      "es": "silencio",
+      "fr": "silence",
+      "de": "Schweigen",
+      "it": "silenzio"
+    }
+  },
+  {
+    "id": "ox-b2-1084",
+    "word": "silent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sessiz",
+      "es": "silencioso",
+      "fr": "silencieux",
+      "de": "still",
+      "it": "silenzioso"
+    }
+  },
+  {
+    "id": "ox-b2-1085",
+    "word": "silk",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ipek",
+      "es": "seda",
+      "fr": "soie",
+      "de": "Seide",
+      "it": "seta"
+    }
+  },
+  {
+    "id": "ox-b2-1086",
+    "word": "silly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şapşal",
+      "es": "tonto",
+      "fr": "idiot",
+      "de": "dumm",
+      "it": "sciocco"
+    }
+  },
+  {
+    "id": "ox-b2-1087",
+    "word": "silver",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gümüş",
+      "es": "plata",
+      "fr": "argent",
+      "de": "Silber",
+      "it": "argento"
+    }
+  },
+  {
+    "id": "ox-b2-1088",
+    "word": "similarly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "benzer şekilde",
+      "es": "similarmente",
+      "fr": "de la même manière",
+      "de": "ähnlich",
+      "it": "allo stesso modo"
+    }
+  },
+  {
+    "id": "ox-b2-1089",
+    "word": "simple",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "basit",
+      "es": "simple",
+      "fr": "simple",
+      "de": "einfach",
+      "it": "semplice"
+    }
+  },
+  {
+    "id": "ox-b2-1090",
+    "word": "simply",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "basitçe",
+      "es": "simplemente",
+      "fr": "simplement",
+      "de": "einfach",
+      "it": "semplicemente"
+    }
+  },
+  {
+    "id": "ox-b2-1091",
+    "word": "since",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "o zamandan beri",
+      "es": "desde",
+      "fr": "depuis",
+      "de": "seit",
+      "it": "Da"
+    }
+  },
+  {
+    "id": "ox-b2-1092",
+    "word": "sincere",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içten",
+      "es": "sincero",
+      "fr": "sincère",
+      "de": "aufrichtig",
+      "it": "sincero"
+    }
+  },
+  {
+    "id": "ox-b2-1093",
+    "word": "sincerely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "samimi olarak",
+      "es": "atentamente",
+      "fr": "sincèrement",
+      "de": "aufrichtig",
+      "it": "sinceramente"
+    }
+  },
+  {
+    "id": "ox-b2-1094",
+    "word": "singing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şarkı söylemek",
+      "es": "cantando",
+      "fr": "chant",
+      "de": "Singen",
+      "it": "canto"
+    }
+  },
+  {
+    "id": "ox-b2-1095",
+    "word": "single",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Bekar",
+      "es": "soltero",
+      "fr": "célibataire",
+      "de": "einzel",
+      "it": "separare"
+    }
+  },
+  {
+    "id": "ox-b2-1096",
+    "word": "sink",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atmak",
+      "es": "hundir",
+      "fr": "couler",
+      "de": "Waschbecken",
+      "it": "lavello"
+    }
+  },
+  {
+    "id": "ox-b2-1097",
+    "word": "sir",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Sayın",
+      "es": "Señor",
+      "fr": "Monsieur",
+      "de": "Herr",
+      "it": "Signore"
+    }
+  },
+  {
+    "id": "ox-b2-1098",
+    "word": "site",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alan",
+      "es": "sitio",
+      "fr": "site",
+      "de": "Website",
+      "it": "sito"
+    }
+  },
+  {
+    "id": "ox-b2-1099",
+    "word": "size",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boyut",
+      "es": "tamaño",
+      "fr": "taille",
+      "de": "Größe",
+      "it": "misurare"
+    }
+  },
+  {
+    "id": "ox-b2-1100",
+    "word": "skilful",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "becerikli",
+      "es": "hábil",
+      "fr": "habile",
+      "de": "geschickt",
+      "it": "abile"
+    }
+  },
+  {
+    "id": "ox-b2-1101",
+    "word": "skilled",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yetenekli",
+      "es": "experto",
+      "fr": "qualifié",
+      "de": "kompetent",
+      "it": "esperto"
+    }
+  },
+  {
+    "id": "ox-b2-1102",
+    "word": "skin",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "deri",
+      "es": "piel",
+      "fr": "peau",
+      "de": "Haut",
+      "it": "pelle"
+    }
+  },
+  {
+    "id": "ox-b2-1103",
+    "word": "sky",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gökyüzü",
+      "es": "cielo",
+      "fr": "ciel",
+      "de": "Himmel",
+      "it": "cielo"
+    }
+  },
+  {
+    "id": "ox-b2-1104",
+    "word": "sleeve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elbise kolu",
+      "es": "manga",
+      "fr": "manche",
+      "de": "Ärmel",
+      "it": "manica"
+    }
+  },
+  {
+    "id": "ox-b2-1105",
+    "word": "slice",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dilim",
+      "es": "rebanada",
+      "fr": "tranche",
+      "de": "Scheibe",
+      "it": "fetta"
+    }
+  },
+  {
+    "id": "ox-b2-1106",
+    "word": "slide",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "slayt",
+      "es": "deslizar",
+      "fr": "glisser",
+      "de": "gleiten",
+      "it": "diapositiva"
+    }
+  },
+  {
+    "id": "ox-b2-1107",
+    "word": "slight",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hafif",
+      "es": "leve",
+      "fr": "léger",
+      "de": "leicht",
+      "it": "lieve"
+    }
+  },
+  {
+    "id": "ox-b2-1108",
+    "word": "slightly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "biraz",
+      "es": "levemente",
+      "fr": "légèrement",
+      "de": "leicht",
+      "it": "leggermente"
+    }
+  },
+  {
+    "id": "ox-b2-1109",
+    "word": "slip",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kayma",
+      "es": "deslizar",
+      "fr": "glisser",
+      "de": "Beleg",
+      "it": "scontrino"
+    }
+  },
+  {
+    "id": "ox-b2-1110",
+    "word": "slope",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğim",
+      "es": "pendiente",
+      "fr": "pente",
+      "de": "Neigung",
+      "it": "pendenza"
+    }
+  },
+  {
+    "id": "ox-b2-1111",
+    "word": "slowly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yavaşça",
+      "es": "despacio",
+      "fr": "lentement",
+      "de": "langsam",
+      "it": "lentamente"
+    }
+  },
+  {
+    "id": "ox-b2-1112",
+    "word": "smart",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akıllı",
+      "es": "elegante",
+      "fr": "intelligent",
+      "de": "schlau",
+      "it": "accorto"
+    }
+  },
+  {
+    "id": "ox-b2-1113",
+    "word": "smash",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paramparça etmek",
+      "es": "smash",
+      "fr": "fracasser",
+      "de": "zerschlagen",
+      "it": "distruggere"
+    }
+  },
+  {
+    "id": "ox-b2-1114",
+    "word": "smell",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "koku",
+      "es": "oler",
+      "fr": "odeur",
+      "de": "Geruch",
+      "it": "odore"
+    }
+  },
+  {
+    "id": "ox-b2-1115",
+    "word": "smile",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gülümsemek",
+      "es": "sonrisa",
+      "fr": "sourire",
+      "de": "lächeln",
+      "it": "sorriso"
+    }
+  },
+  {
+    "id": "ox-b2-1116",
+    "word": "smoke",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "duman",
+      "es": "fumar",
+      "fr": "fumée",
+      "de": "Rauch",
+      "it": "fumo"
+    }
+  },
+  {
+    "id": "ox-b2-1117",
+    "word": "smoking",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sigara içmek",
+      "es": "de fumar",
+      "fr": "fumeur",
+      "de": "Rauchen",
+      "it": "fumare"
+    }
+  },
+  {
+    "id": "ox-b2-1118",
+    "word": "smooth",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düz",
+      "es": "liso",
+      "fr": "lisse",
+      "de": "glatt",
+      "it": "liscio"
+    }
+  },
+  {
+    "id": "ox-b2-1119",
+    "word": "smoothly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sorunsuz",
+      "es": "suavemente",
+      "fr": "doucement",
+      "de": "glatt",
+      "it": "senza intoppi"
+    }
+  },
+  {
+    "id": "ox-b2-1120",
+    "word": "soap",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sabun",
+      "es": "jabón",
+      "fr": "savon",
+      "de": "Seife",
+      "it": "sapone"
+    }
+  },
+  {
+    "id": "ox-b2-1121",
+    "word": "social",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sosyal",
+      "es": "social",
+      "fr": "sociale",
+      "de": "sozial",
+      "it": "sociale"
+    }
+  },
+  {
+    "id": "ox-b2-1122",
+    "word": "society",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplum",
+      "es": "sociedad",
+      "fr": "société",
+      "de": "Gesellschaft",
+      "it": "società"
+    }
+  },
+  {
+    "id": "ox-b2-1123",
+    "word": "soft",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yumuşak",
+      "es": "suave",
+      "fr": "doux",
+      "de": "weich",
+      "it": "morbido"
+    }
+  },
+  {
+    "id": "ox-b2-1124",
+    "word": "softly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "usulca",
+      "es": "suavemente",
+      "fr": "doucement",
+      "de": "leise",
+      "it": "dolcemente"
+    }
+  },
+  {
+    "id": "ox-b2-1125",
+    "word": "software",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yazılım",
+      "es": "software",
+      "fr": "logiciel",
+      "de": "Software",
+      "it": "software"
+    }
+  },
+  {
+    "id": "ox-b2-1126",
+    "word": "soil",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toprak",
+      "es": "suelo",
+      "fr": "sol",
+      "de": "Boden",
+      "it": "suolo"
+    }
+  },
+  {
+    "id": "ox-b2-1127",
+    "word": "solar",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güneş",
+      "es": "solar",
+      "fr": "solaire",
+      "de": "Solar-",
+      "it": "solare"
+    }
+  },
+  {
+    "id": "ox-b2-1128",
+    "word": "soldier",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "asker",
+      "es": "soldado",
+      "fr": "soldat",
+      "de": "Soldat",
+      "it": "soldato"
+    }
+  },
+  {
+    "id": "ox-b2-1129",
+    "word": "solid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sağlam",
+      "es": "sólido",
+      "fr": "solide",
+      "de": "solide",
+      "it": "solido"
+    }
+  },
+  {
+    "id": "ox-b2-1130",
+    "word": "solution",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çözüm",
+      "es": "solución",
+      "fr": "solution",
+      "de": "Lösung",
+      "it": "soluzione"
+    }
+  },
+  {
+    "id": "ox-b2-1131",
+    "word": "solve",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çözmek",
+      "es": "resolver",
+      "fr": "résoudre",
+      "de": "lösen",
+      "it": "risolvere"
+    }
+  },
+  {
+    "id": "ox-b2-1132",
+    "word": "somehow",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bir şekilde",
+      "es": "de alguna manera",
+      "fr": "d'une manière ou d'une autre",
+      "de": "irgendwie",
+      "it": "in qualche modo"
+    }
+  },
+  {
+    "id": "ox-b2-1133",
+    "word": "somewhat",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "biraz",
+      "es": "un poco",
+      "fr": "quelque peu",
+      "de": "etwas",
+      "it": "un po'"
+    }
+  },
+  {
+    "id": "ox-b2-1134",
+    "word": "somewhere",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bir yerde",
+      "es": "en algún lugar",
+      "fr": "quelque part",
+      "de": "irgendwo",
+      "it": "in qualche luogo"
+    }
+  },
+  {
+    "id": "ox-b2-1135",
+    "word": "sore",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yara",
+      "es": "doloroso",
+      "fr": "douloureux",
+      "de": "wund",
+      "it": "irritato"
+    }
+  },
+  {
+    "id": "ox-b2-1136",
+    "word": "sort",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenlemek",
+      "es": "clasificar",
+      "fr": "trier",
+      "de": "Sortieren",
+      "it": "ordinare"
+    }
+  },
+  {
+    "id": "ox-b2-1137",
+    "word": "soul",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ruh",
+      "es": "alma",
+      "fr": "âme",
+      "de": "Seele",
+      "it": "anima"
+    }
+  },
+  {
+    "id": "ox-b2-1138",
+    "word": "soup",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çorba",
+      "es": "sopa",
+      "fr": "soupe",
+      "de": "Suppe",
+      "it": "minestra"
+    }
+  },
+  {
+    "id": "ox-b2-1139",
+    "word": "sour",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ekşi",
+      "es": "agrio",
+      "fr": "aigre",
+      "de": "sauer",
+      "it": "acido"
+    }
+  },
+  {
+    "id": "ox-b2-1140",
+    "word": "source",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaynak",
+      "es": "fuente",
+      "fr": "source",
+      "de": "Quelle",
+      "it": "fonte"
+    }
+  },
+  {
+    "id": "ox-b2-1141",
+    "word": "southern",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güney",
+      "es": "del sur",
+      "fr": "du sud",
+      "de": "Süd-",
+      "it": "meridionale"
+    }
+  },
+  {
+    "id": "ox-b2-1142",
+    "word": "spare",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kıyamamak",
+      "es": "repuesto",
+      "fr": "de rechange",
+      "de": "Ersatzteil",
+      "it": "ricambio"
+    }
+  },
+  {
+    "id": "ox-b2-1143",
+    "word": "speaker",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hoparlör",
+      "es": "vocero",
+      "fr": "conférencier",
+      "de": "Lautsprecher",
+      "it": "altoparlante"
+    }
+  },
+  {
+    "id": "ox-b2-1144",
+    "word": "specialist",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uzman",
+      "es": "especialista",
+      "fr": "spécialiste",
+      "de": "Spezialist",
+      "it": "specialista"
+    }
+  },
+  {
+    "id": "ox-b2-1145",
+    "word": "specially",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özel olarak",
+      "es": "especialmente",
+      "fr": "spécialement",
+      "de": "speziell",
+      "it": "appositamente"
+    }
+  },
+  {
+    "id": "ox-b2-1146",
+    "word": "species",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "türler",
+      "es": "especies",
+      "fr": "espèces",
+      "de": "Spezies",
+      "it": "specie"
+    }
+  },
+  {
+    "id": "ox-b2-1147",
+    "word": "specific",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özel",
+      "es": "específico",
+      "fr": "spécifique",
+      "de": "spezifisch",
+      "it": "specifico"
+    }
+  },
+  {
+    "id": "ox-b2-1148",
+    "word": "specifically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özellikle",
+      "es": "específicamente",
+      "fr": "spécifiquement",
+      "de": "speziell",
+      "it": "specificamente"
+    }
+  },
+  {
+    "id": "ox-b2-1149",
+    "word": "speech",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "konuşma",
+      "es": "discurso",
+      "fr": "discours",
+      "de": "Rede",
+      "it": "discorso"
+    }
+  },
+  {
+    "id": "ox-b2-1150",
+    "word": "speed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hız",
+      "es": "velocidad",
+      "fr": "vitesse",
+      "de": "Geschwindigkeit",
+      "it": "velocità"
+    }
+  },
+  {
+    "id": "ox-b2-1151",
+    "word": "spice",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baharat",
+      "es": "condimentar",
+      "fr": "pimenter",
+      "de": "würzen",
+      "it": "spezia"
+    }
+  },
+  {
+    "id": "ox-b2-1152",
+    "word": "spicy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baharatlı",
+      "es": "picante",
+      "fr": "épicé",
+      "de": "scharf",
+      "it": "speziato"
+    }
+  },
+  {
+    "id": "ox-b2-1153",
+    "word": "spider",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "örümcek",
+      "es": "araña",
+      "fr": "araignée",
+      "de": "Spinne",
+      "it": "ragno"
+    }
+  },
+  {
+    "id": "ox-b2-1154",
+    "word": "spill",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dökülme",
+      "es": "derramar",
+      "fr": "répandre",
+      "de": "verschütten",
+      "it": "fuoriuscita"
+    }
+  },
+  {
+    "id": "ox-b2-1155",
+    "word": "spin",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "döndürmek",
+      "es": "girar",
+      "fr": "rotation",
+      "de": "drehen",
+      "it": "rotazione"
+    }
+  },
+  {
+    "id": "ox-b2-1156",
+    "word": "spirit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ruh",
+      "es": "espíritu",
+      "fr": "esprit",
+      "de": "Geist",
+      "it": "spirito"
+    }
+  },
+  {
+    "id": "ox-b2-1157",
+    "word": "spiritual",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "manevi",
+      "es": "espiritual",
+      "fr": "spirituel",
+      "de": "spirituell",
+      "it": "spirituale"
+    }
+  },
+  {
+    "id": "ox-b2-1158",
+    "word": "spite",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kin",
+      "es": "despecho",
+      "fr": "dépit",
+      "de": "Trotz",
+      "it": "dispetto"
+    }
+  },
+  {
+    "id": "ox-b2-1159",
+    "word": "split",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bölmek",
+      "es": "dividir",
+      "fr": "diviser",
+      "de": "Teilt",
+      "it": "diviso"
+    }
+  },
+  {
+    "id": "ox-b2-1160",
+    "word": "spoil",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şımartmak",
+      "es": "arruinar",
+      "fr": "gâcher",
+      "de": "verderben",
+      "it": "rovinare"
+    }
+  },
+  {
+    "id": "ox-b2-1161",
+    "word": "spoken",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "konuşulan",
+      "es": "hablado",
+      "fr": "parlé",
+      "de": "gesprochen",
+      "it": "parlato"
+    }
+  },
+  {
+    "id": "ox-b2-1162",
+    "word": "spoon",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaşık",
+      "es": "cuchara",
+      "fr": "cuillère",
+      "de": "Löffel",
+      "it": "cucchiaio"
+    }
+  },
+  {
+    "id": "ox-b2-1163",
+    "word": "spot",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "leke",
+      "es": "lugar",
+      "fr": "place",
+      "de": "Stelle",
+      "it": "macchiare"
+    }
+  },
+  {
+    "id": "ox-b2-1164",
+    "word": "spread",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaymak",
+      "es": "desparramar",
+      "fr": "propagé",
+      "de": "verbreiten",
+      "it": "diffusione"
+    }
+  },
+  {
+    "id": "ox-b2-1165",
+    "word": "square",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kare",
+      "es": "cuadrado",
+      "fr": "carré",
+      "de": "Quadrat",
+      "it": "piazza"
+    }
+  },
+  {
+    "id": "ox-b2-1166",
+    "word": "squeeze",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıkmak",
+      "es": "estrujar",
+      "fr": "presser",
+      "de": "quetschen",
+      "it": "stretta"
+    }
+  },
+  {
+    "id": "ox-b2-1167",
+    "word": "stable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stabil",
+      "es": "estable",
+      "fr": "écurie",
+      "de": "stabil",
+      "it": "stabile"
+    }
+  },
+  {
+    "id": "ox-b2-1168",
+    "word": "staff",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kadro",
+      "es": "personal",
+      "fr": "personnel",
+      "de": "Personal",
+      "it": "personale"
+    }
+  },
+  {
+    "id": "ox-b2-1169",
+    "word": "stage",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sahne",
+      "es": "escenario",
+      "fr": "scène",
+      "de": "Bühne",
+      "it": "palcoscenico"
+    }
+  },
+  {
+    "id": "ox-b2-1170",
+    "word": "stair",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "merdiven",
+      "es": "escalera",
+      "fr": "marche",
+      "de": "Treppe",
+      "it": "scala"
+    }
+  },
+  {
+    "id": "ox-b2-1171",
+    "word": "stamp",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "damga vurmak",
+      "es": "estampilla",
+      "fr": "timbre",
+      "de": "Stempel",
+      "it": "timbro"
+    }
+  },
+  {
+    "id": "ox-b2-1172",
+    "word": "standard",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "standart",
+      "es": "estándar",
+      "fr": "standard",
+      "de": "Standard",
+      "it": "standard"
+    }
+  },
+  {
+    "id": "ox-b2-1173",
+    "word": "stare",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bakmak",
+      "es": "mirada fija",
+      "fr": "regard",
+      "de": "starren",
+      "it": "fissare"
+    }
+  },
+  {
+    "id": "ox-b2-1174",
+    "word": "state",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "durum",
+      "es": "estado",
+      "fr": "État",
+      "de": "Zustand",
+      "it": "stato"
+    }
+  },
+  {
+    "id": "ox-b2-1175",
+    "word": "statistic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "istatistik",
+      "es": "estadística",
+      "fr": "statistique",
+      "de": "Statistik",
+      "it": "statistica"
+    }
+  },
+  {
+    "id": "ox-b2-1176",
+    "word": "status",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "durum",
+      "es": "estado",
+      "fr": "statut",
+      "de": "Status",
+      "it": "stato"
+    }
+  },
+  {
+    "id": "ox-b2-1177",
+    "word": "steady",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sabit durmak",
+      "es": "estable",
+      "fr": "constant",
+      "de": "stetig",
+      "it": "costante"
+    }
+  },
+  {
+    "id": "ox-b2-1178",
+    "word": "steadily",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "istikrarlı bir şekilde",
+      "es": "continuamente",
+      "fr": "régulièrement",
+      "de": "ständig",
+      "it": "costantemente"
+    }
+  },
+  {
+    "id": "ox-b2-1179",
+    "word": "steal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hırsızlık yapmak",
+      "es": "robar",
+      "fr": "voler",
+      "de": "stehlen",
+      "it": "rubare"
+    }
+  },
+  {
+    "id": "ox-b2-1180",
+    "word": "steam",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "buhar",
+      "es": "vapor",
+      "fr": "vapeur",
+      "de": "Dampf",
+      "it": "vapore"
+    }
+  },
+  {
+    "id": "ox-b2-1181",
+    "word": "steel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çelik",
+      "es": "acero",
+      "fr": "acier",
+      "de": "Stahl",
+      "it": "acciaio"
+    }
+  },
+  {
+    "id": "ox-b2-1182",
+    "word": "steep",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dik",
+      "es": "empinado",
+      "fr": "raide",
+      "de": "steil",
+      "it": "ripido"
+    }
+  },
+  {
+    "id": "ox-b2-1183",
+    "word": "steer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönlendirmek",
+      "es": "buey",
+      "fr": "diriger",
+      "de": "steuern",
+      "it": "sterzare"
+    }
+  },
+  {
+    "id": "ox-b2-1184",
+    "word": "step",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "adım",
+      "es": "paso",
+      "fr": "étape",
+      "de": "Schritt",
+      "it": "fare un passo"
+    }
+  },
+  {
+    "id": "ox-b2-1185",
+    "word": "stick",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sopa",
+      "es": "palo",
+      "fr": "bâton",
+      "de": "Stock",
+      "it": "bastone"
+    }
+  },
+  {
+    "id": "ox-b2-1186",
+    "word": "sticky",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapışkan",
+      "es": "pegajoso",
+      "fr": "collant",
+      "de": "klebrig",
+      "it": "appiccicoso"
+    }
+  },
+  {
+    "id": "ox-b2-1187",
+    "word": "stiff",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sert",
+      "es": "rígido",
+      "fr": "rigide",
+      "de": "steif",
+      "it": "rigido"
+    }
+  },
+  {
+    "id": "ox-b2-1188",
+    "word": "stiffly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katı bir şekilde",
+      "es": "rígidamente",
+      "fr": "avec raideur",
+      "de": "steif",
+      "it": "rigidamente"
+    }
+  },
+  {
+    "id": "ox-b2-1189",
+    "word": "sting",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acı",
+      "es": "picadura",
+      "fr": "piquer",
+      "de": "stechen",
+      "it": "pungere"
+    }
+  },
+  {
+    "id": "ox-b2-1190",
+    "word": "stir",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karıştırmak",
+      "es": "remover",
+      "fr": "remuer",
+      "de": "Aufsehen",
+      "it": "mescolata"
+    }
+  },
+  {
+    "id": "ox-b2-1191",
+    "word": "stock",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stoklamak",
+      "es": "existencias",
+      "fr": "action",
+      "de": "Aktie",
+      "it": "azione"
+    }
+  },
+  {
+    "id": "ox-b2-1192",
+    "word": "stomach",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karın",
+      "es": "estómago",
+      "fr": "estomac",
+      "de": "Magen",
+      "it": "stomaco"
+    }
+  },
+  {
+    "id": "ox-b2-1193",
+    "word": "stone",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "taş",
+      "es": "piedra",
+      "fr": "pierre",
+      "de": "Stein",
+      "it": "calcolo"
+    }
+  },
+  {
+    "id": "ox-b2-1194",
+    "word": "store",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mağaza",
+      "es": "almacenar",
+      "fr": "magasin",
+      "de": "speichern",
+      "it": "negozio"
+    }
+  },
+  {
+    "id": "ox-b2-1195",
+    "word": "storm",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fırtına",
+      "es": "tormenta",
+      "fr": "tempête",
+      "de": "Sturm",
+      "it": "tempesta"
+    }
+  },
+  {
+    "id": "ox-b2-1196",
+    "word": "straight",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dümdüz",
+      "es": "derecho",
+      "fr": "droit",
+      "de": "gerade",
+      "it": "Dritto"
+    }
+  },
+  {
+    "id": "ox-b2-1197",
+    "word": "strange",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "garip",
+      "es": "extraño",
+      "fr": "étrange",
+      "de": "seltsam",
+      "it": "strano"
+    }
+  },
+  {
+    "id": "ox-b2-1198",
+    "word": "strangely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "garip bir şekilde",
+      "es": "extrañamente",
+      "fr": "étrangement",
+      "de": "seltsam",
+      "it": "stranamente"
+    }
+  },
+  {
+    "id": "ox-b2-1199",
+    "word": "stranger",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yabancı",
+      "es": "extraño",
+      "fr": "étranger",
+      "de": "Fremder",
+      "it": "sconosciuto"
+    }
+  },
+  {
+    "id": "ox-b2-1200",
+    "word": "strategy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "strateji",
+      "es": "estrategia",
+      "fr": "stratégie",
+      "de": "Strategie",
+      "it": "strategia"
+    }
+  },
+  {
+    "id": "ox-b2-1201",
+    "word": "stream",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aktarım",
+      "es": "arroyo",
+      "fr": "flux",
+      "de": "Strom",
+      "it": "flusso"
+    }
+  },
+  {
+    "id": "ox-b2-1202",
+    "word": "strength",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kuvvet",
+      "es": "fortaleza",
+      "fr": "force",
+      "de": "Stärke",
+      "it": "forza"
+    }
+  },
+  {
+    "id": "ox-b2-1203",
+    "word": "stress",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stres",
+      "es": "estrés",
+      "fr": "stresser",
+      "de": "Stress",
+      "it": "stress"
+    }
+  },
+  {
+    "id": "ox-b2-1204",
+    "word": "stressed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stresli",
+      "es": "estresado",
+      "fr": "stressé",
+      "de": "betont",
+      "it": "sottolineato"
+    }
+  },
+  {
+    "id": "ox-b2-1205",
+    "word": "stretch",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uzatmak",
+      "es": "estirar",
+      "fr": "extensible",
+      "de": "strecken",
+      "it": "stirata"
+    }
+  },
+  {
+    "id": "ox-b2-1206",
+    "word": "strict",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıkı",
+      "es": "estricto",
+      "fr": "strict",
+      "de": "strikt",
+      "it": "rigoroso"
+    }
+  },
+  {
+    "id": "ox-b2-1207",
+    "word": "strictly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kesinlikle",
+      "es": "estrictamente",
+      "fr": "strictement",
+      "de": "streng",
+      "it": "rigorosamente"
+    }
+  },
+  {
+    "id": "ox-b2-1208",
+    "word": "strike",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çarpmak",
+      "es": "huelga",
+      "fr": "grève",
+      "de": "schlagen",
+      "it": "sciopero"
+    }
+  },
+  {
+    "id": "ox-b2-1209",
+    "word": "striking",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çarpıcı",
+      "es": "llamativo",
+      "fr": "frappant",
+      "de": "auffällig",
+      "it": "sorprendente"
+    }
+  },
+  {
+    "id": "ox-b2-1210",
+    "word": "string",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sicim",
+      "es": "cadena",
+      "fr": "chaîne",
+      "de": "Zeichenfolge",
+      "it": "corda"
+    }
+  },
+  {
+    "id": "ox-b2-1211",
+    "word": "strip",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şerit",
+      "es": "banda",
+      "fr": "bande",
+      "de": "Streifen",
+      "it": "striscia"
+    }
+  },
+  {
+    "id": "ox-b2-1212",
+    "word": "stripe",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şerit",
+      "es": "raya",
+      "fr": "bande",
+      "de": "Streifen",
+      "it": "banda"
+    }
+  },
+  {
+    "id": "ox-b2-1213",
+    "word": "striped",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çizgili",
+      "es": "a rayas",
+      "fr": "rayé",
+      "de": "gestreift",
+      "it": "a strisce"
+    }
+  },
+  {
+    "id": "ox-b2-1214",
+    "word": "stroke",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "felç",
+      "es": "ataque",
+      "fr": "accident vasculaire cérébral",
+      "de": "Schlaganfall",
+      "it": "colpo"
+    }
+  },
+  {
+    "id": "ox-b2-1215",
+    "word": "strongly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şiddetle",
+      "es": "fuertemente",
+      "fr": "fortement",
+      "de": "stark",
+      "it": "fortemente"
+    }
+  },
+  {
+    "id": "ox-b2-1216",
+    "word": "structure",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapı",
+      "es": "estructura",
+      "fr": "structure",
+      "de": "Struktur",
+      "it": "struttura"
+    }
+  },
+  {
+    "id": "ox-b2-1217",
+    "word": "struggle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çabalamak",
+      "es": "lucha",
+      "fr": "lutte",
+      "de": "Kampf",
+      "it": "lotta"
+    }
+  },
+  {
+    "id": "ox-b2-1218",
+    "word": "studio",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "stüdyo",
+      "es": "estudio",
+      "fr": "studio",
+      "de": "Studio",
+      "it": "studio"
+    }
+  },
+  {
+    "id": "ox-b2-1219",
+    "word": "stuff",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şey",
+      "es": "cosa",
+      "fr": "truc",
+      "de": "Sachen",
+      "it": "cose"
+    }
+  },
+  {
+    "id": "ox-b2-1220",
+    "word": "stupid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aptal",
+      "es": "estúpido",
+      "fr": "stupide",
+      "de": "dumm",
+      "it": "stupido"
+    }
+  },
+  {
+    "id": "ox-b2-1221",
+    "word": "substance",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "madde",
+      "es": "sustancia",
+      "fr": "substance",
+      "de": "Substanz",
+      "it": "sostanza"
+    }
+  },
+  {
+    "id": "ox-b2-1222",
+    "word": "substantial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varlıklı",
+      "es": "sustancial",
+      "fr": "substantiel",
+      "de": "erheblich",
+      "it": "sostanziale"
+    }
+  },
+  {
+    "id": "ox-b2-1223",
+    "word": "substantially",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büyük ölçüde",
+      "es": "sustancialmente",
+      "fr": "substantiellement",
+      "de": "im Wesentlichen",
+      "it": "sostanzialmente"
+    }
+  },
+  {
+    "id": "ox-b2-1224",
+    "word": "substitute",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerine geçmek",
+      "es": "sustituto",
+      "fr": "remplaçant",
+      "de": "Ersatz",
+      "it": "sostituire"
+    }
+  },
+  {
+    "id": "ox-b2-1225",
+    "word": "succeed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başarmak",
+      "es": "tener éxito",
+      "fr": "réussir",
+      "de": "gelingen",
+      "it": "avere successo"
+    }
+  },
+  {
+    "id": "ox-b2-1226",
+    "word": "successful",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başarılı",
+      "es": "exitoso",
+      "fr": "réussi",
+      "de": "erfolgreich",
+      "it": "riuscito"
+    }
+  },
+  {
+    "id": "ox-b2-1227",
+    "word": "successfully",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başarıyla",
+      "es": "exitosamente",
+      "fr": "avec succès",
+      "de": "erfolgreich",
+      "it": "con successo"
+    }
+  },
+  {
+    "id": "ox-b2-1228",
+    "word": "such",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çok",
+      "es": "semejante",
+      "fr": "tel",
+      "de": "solch",
+      "it": "come"
+    }
+  },
+  {
+    "id": "ox-b2-1229",
+    "word": "suck",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emmek",
+      "es": "chupar",
+      "fr": "sucer",
+      "de": "saugen",
+      "it": "succhiare"
+    }
+  },
+  {
+    "id": "ox-b2-1230",
+    "word": "sudden",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birden",
+      "es": "repentino",
+      "fr": "soudain",
+      "de": "plötzlich",
+      "it": "improvviso"
+    }
+  },
+  {
+    "id": "ox-b2-1231",
+    "word": "suddenly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Birden",
+      "es": "de repente",
+      "fr": "soudainement",
+      "de": "plötzlich",
+      "it": "All'improvviso"
+    }
+  },
+  {
+    "id": "ox-b2-1232",
+    "word": "suffer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acı çekmek",
+      "es": "sufrir",
+      "fr": "souffrir",
+      "de": "leiden",
+      "it": "soffrire"
+    }
+  },
+  {
+    "id": "ox-b2-1233",
+    "word": "suffering",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cefa",
+      "es": "sufrimiento",
+      "fr": "souffrance",
+      "de": "leiden",
+      "it": "sofferenza"
+    }
+  },
+  {
+    "id": "ox-b2-1234",
+    "word": "sufficient",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeterli",
+      "es": "suficiente",
+      "fr": "suffisant",
+      "de": "ausreichend",
+      "it": "sufficiente"
+    }
+  },
+  {
+    "id": "ox-b2-1235",
+    "word": "sufficiently",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeterince",
+      "es": "suficientemente",
+      "fr": "suffisamment",
+      "de": "ausreichend",
+      "it": "sufficientemente"
+    }
+  },
+  {
+    "id": "ox-b2-1236",
+    "word": "suggest",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tavsiye etmek",
+      "es": "sugerir",
+      "fr": "suggérer",
+      "de": "vorschlagen",
+      "it": "suggerire"
+    }
+  },
+  {
+    "id": "ox-b2-1237",
+    "word": "suggestion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "telkin",
+      "es": "sugerencia",
+      "fr": "suggestion",
+      "de": "Anregung",
+      "it": "suggerimento"
+    }
+  },
+  {
+    "id": "ox-b2-1238",
+    "word": "suit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygun olmak",
+      "es": "traje",
+      "fr": "costume",
+      "de": "Anzug",
+      "it": "abito"
+    }
+  },
+  {
+    "id": "ox-b2-1239",
+    "word": "suitable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygun",
+      "es": "adecuado",
+      "fr": "approprié",
+      "de": "geeignet",
+      "it": "adatto"
+    }
+  },
+  {
+    "id": "ox-b2-1240",
+    "word": "suitcase",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bavul",
+      "es": "maleta",
+      "fr": "valise",
+      "de": "Koffer",
+      "it": "valigia"
+    }
+  },
+  {
+    "id": "ox-b2-1241",
+    "word": "suited",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygun",
+      "es": "adecuado",
+      "fr": "adapté",
+      "de": "geeignet",
+      "it": "adatto"
+    }
+  },
+  {
+    "id": "ox-b2-1242",
+    "word": "sum",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplam",
+      "es": "suma",
+      "fr": "somme",
+      "de": "Summe",
+      "it": "somma"
+    }
+  },
+  {
+    "id": "ox-b2-1243",
+    "word": "summary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özet",
+      "es": "resumen",
+      "fr": "résumé",
+      "de": "Zusammenfassung",
+      "it": "riepilogo"
+    }
+  },
+  {
+    "id": "ox-b2-1244",
+    "word": "superior",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üst",
+      "es": "superior",
+      "fr": "supérieur",
+      "de": "Vorgesetzter",
+      "it": "superiore"
+    }
+  },
+  {
+    "id": "ox-b2-1245",
+    "word": "supply",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tedarik",
+      "es": "suministrar",
+      "fr": "fournir",
+      "de": "liefern",
+      "it": "fornitura"
+    }
+  },
+  {
+    "id": "ox-b2-1246",
+    "word": "support",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Destek",
+      "es": "apoyo",
+      "fr": "soutien",
+      "de": "Unterstützung",
+      "it": "supporto"
+    }
+  },
+  {
+    "id": "ox-b2-1247",
+    "word": "supporter",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "destekçi",
+      "es": "seguidor",
+      "fr": "supporter",
+      "de": "Fan",
+      "it": "sostenitore"
+    }
+  },
+  {
+    "id": "ox-b2-1248",
+    "word": "suppose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sanmak",
+      "es": "suponer",
+      "fr": "supposer",
+      "de": "vermuten",
+      "it": "supponiamo"
+    }
+  },
+  {
+    "id": "ox-b2-1249",
+    "word": "surely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kesinlikle",
+      "es": "seguramente",
+      "fr": "sûrement",
+      "de": "sicherlich",
+      "it": "sicuramente"
+    }
+  },
+  {
+    "id": "ox-b2-1250",
+    "word": "surface",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yüzey",
+      "es": "superficie",
+      "fr": "surface",
+      "de": "Oberfläche",
+      "it": "superficie"
+    }
+  },
+  {
+    "id": "ox-b2-1251",
+    "word": "surname",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soyadı",
+      "es": "apellido",
+      "fr": "nom de famille",
+      "de": "Nachname",
+      "it": "cognome"
+    }
+  },
+  {
+    "id": "ox-b2-1252",
+    "word": "surprise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sürpriz",
+      "es": "sorpresa",
+      "fr": "surprendre",
+      "de": "Überraschung",
+      "it": "sorpresa"
+    }
+  },
+  {
+    "id": "ox-b2-1253",
+    "word": "surprised",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şaşırmış",
+      "es": "sorprendido",
+      "fr": "surpris",
+      "de": "überrascht",
+      "it": "sorpreso"
+    }
+  },
+  {
+    "id": "ox-b2-1254",
+    "word": "surprising",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şaşırtıcı",
+      "es": "sorprendente",
+      "fr": "surprenant",
+      "de": "überraschend",
+      "it": "sorprendente"
+    }
+  },
+  {
+    "id": "ox-b2-1255",
+    "word": "surprisingly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şaşırtıcı bir şekilde",
+      "es": "asombrosamente",
+      "fr": "étonnamment",
+      "de": "überraschenderweise",
+      "it": "sorprendentemente"
+    }
+  },
+  {
+    "id": "ox-b2-1256",
+    "word": "surround",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çevrelemek",
+      "es": "rodear",
+      "fr": "entourer",
+      "de": "umgeben",
+      "it": "circondare"
+    }
+  },
+  {
+    "id": "ox-b2-1257",
+    "word": "surrounding",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çevreleyen",
+      "es": "circundante",
+      "fr": "environnant",
+      "de": "Umgebung",
+      "it": "circostante"
+    }
+  },
+  {
+    "id": "ox-b2-1258",
+    "word": "surroundings",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çevre",
+      "es": "alrededores",
+      "fr": "alentours",
+      "de": "Umgebung",
+      "it": "dintorni"
+    }
+  },
+  {
+    "id": "ox-b2-1259",
+    "word": "survey",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anket",
+      "es": "encuesta",
+      "fr": "enquête",
+      "de": "Umfrage",
+      "it": "sondaggio"
+    }
+  },
+  {
+    "id": "ox-b2-1260",
+    "word": "survive",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hayatta kalmak",
+      "es": "sobrevivir",
+      "fr": "survivre",
+      "de": "überleben",
+      "it": "sopravvivere"
+    }
+  },
+  {
+    "id": "ox-b2-1261",
+    "word": "suspect",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şüphelenmek",
+      "es": "sospechar",
+      "fr": "suspect",
+      "de": "verdächtig",
+      "it": "sospettare"
+    }
+  },
+  {
+    "id": "ox-b2-1262",
+    "word": "suspicion",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şüphe",
+      "es": "sospecha",
+      "fr": "soupçon",
+      "de": "Verdacht",
+      "it": "sospetto"
+    }
+  },
+  {
+    "id": "ox-b2-1263",
+    "word": "suspicious",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şüpheli",
+      "es": "sospechoso",
+      "fr": "suspect",
+      "de": "verdächtig",
+      "it": "sospettoso"
+    }
+  },
+  {
+    "id": "ox-b2-1264",
+    "word": "swallow",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yutmak",
+      "es": "tragar",
+      "fr": "avaler",
+      "de": "schlucken",
+      "it": "rondine"
+    }
+  },
+  {
+    "id": "ox-b2-1265",
+    "word": "swear",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "küfür",
+      "es": "jurar",
+      "fr": "jurer",
+      "de": "schwören",
+      "it": "imprecare"
+    }
+  },
+  {
+    "id": "ox-b2-1266",
+    "word": "sweat",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ter",
+      "es": "sudor",
+      "fr": "transpirer",
+      "de": "Schweiß",
+      "it": "sudore"
+    }
+  },
+  {
+    "id": "ox-b2-1267",
+    "word": "sweep",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "süpürmek",
+      "es": "barrer",
+      "fr": "balayer",
+      "de": "fegen",
+      "it": "spazzare"
+    }
+  },
+  {
+    "id": "ox-b2-1268",
+    "word": "sweet",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatlı",
+      "es": "dulce",
+      "fr": "doux",
+      "de": "süß",
+      "it": "dolce"
+    }
+  },
+  {
+    "id": "ox-b2-1269",
+    "word": "swell",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şişmek",
+      "es": "hinchar",
+      "fr": "gonfler",
+      "de": "quellen",
+      "it": "rigonfiamento"
+    }
+  },
+  {
+    "id": "ox-b2-1270",
+    "word": "swelling",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şişme",
+      "es": "hinchazón",
+      "fr": "gonflement",
+      "de": "Schwellung",
+      "it": "rigonfiamento"
+    }
+  },
+  {
+    "id": "ox-b2-1271",
+    "word": "swing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sallanmak",
+      "es": "balancearse",
+      "fr": "balançoire",
+      "de": "Swing",
+      "it": "oscillazione"
+    }
+  },
+  {
+    "id": "ox-b2-1272",
+    "word": "switch",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anahtar",
+      "es": "cambiar",
+      "fr": "changer",
+      "de": "schalten",
+      "it": "interruttore"
+    }
+  },
+  {
+    "id": "ox-b2-1273",
+    "word": "swollen",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şişmiş",
+      "es": "hinchado",
+      "fr": "gonflé",
+      "de": "geschwollen",
+      "it": "gonfio"
+    }
+  },
+  {
+    "id": "ox-b2-1274",
+    "word": "symbol",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sembol",
+      "es": "símbolo",
+      "fr": "symbole",
+      "de": "Symbol",
+      "it": "simbolo"
+    }
+  },
+  {
+    "id": "ox-b2-1275",
+    "word": "sympathetic",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sempatik",
+      "es": "simpático",
+      "fr": "sympathique",
+      "de": "sympathisch",
+      "it": "simpatico"
+    }
+  },
+  {
+    "id": "ox-b2-1276",
+    "word": "sympathy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sempati",
+      "es": "compasión",
+      "fr": "sympathie",
+      "de": "Sympathie",
+      "it": "simpatia"
+    }
+  },
+  {
+    "id": "ox-b2-1277",
+    "word": "system",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sistem",
+      "es": "sistema",
+      "fr": "système",
+      "de": "System",
+      "it": "sistema"
+    }
+  },
+  {
+    "id": "ox-b2-1278",
+    "word": "tablet",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tablet",
+      "es": "tableta",
+      "fr": "comprimé",
+      "de": "Tablette",
+      "it": "tavoletta"
+    }
+  },
+  {
+    "id": "ox-b2-1279",
+    "word": "tackle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olta takımı",
+      "es": "abordar",
+      "fr": "tacle",
+      "de": "angehen",
+      "it": "attrezzatura"
+    }
+  },
+  {
+    "id": "ox-b2-1280",
+    "word": "tail",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kuyruk",
+      "es": "cola",
+      "fr": "queue",
+      "de": "Schwanz",
+      "it": "coda"
+    }
+  },
+  {
+    "id": "ox-b2-1281",
+    "word": "tale",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "masal",
+      "es": "cuento",
+      "fr": "conte",
+      "de": "Geschichte",
+      "it": "racconto"
+    }
+  },
+  {
+    "id": "ox-b2-1282",
+    "word": "talent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yetenek",
+      "es": "talento",
+      "fr": "talent",
+      "de": "Talent",
+      "it": "talento"
+    }
+  },
+  {
+    "id": "ox-b2-1283",
+    "word": "tank",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tankı",
+      "es": "tanque",
+      "fr": "réservoir",
+      "de": "Tank",
+      "it": "cisterna"
+    }
+  },
+  {
+    "id": "ox-b2-1284",
+    "word": "tap",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "musluk",
+      "es": "grifo",
+      "fr": "robinet",
+      "de": "klopfen",
+      "it": "rubinetto"
+    }
+  },
+  {
+    "id": "ox-b2-1285",
+    "word": "tape",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaset",
+      "es": "cinta",
+      "fr": "ruban adhésif",
+      "de": "Band",
+      "it": "nastro"
+    }
+  },
+  {
+    "id": "ox-b2-1286",
+    "word": "target",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hedef",
+      "es": "objetivo",
+      "fr": "cible",
+      "de": "Ziel",
+      "it": "bersaglio"
+    }
+  },
+  {
+    "id": "ox-b2-1287",
+    "word": "task",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görev",
+      "es": "tarea",
+      "fr": "tâche",
+      "de": "Aufgabe",
+      "it": "compito"
+    }
+  },
+  {
+    "id": "ox-b2-1288",
+    "word": "taste",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatmak",
+      "es": "gusto",
+      "fr": "goût",
+      "de": "schmecken",
+      "it": "gusto"
+    }
+  },
+  {
+    "id": "ox-b2-1289",
+    "word": "tax",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vergi",
+      "es": "impuesto",
+      "fr": "impôt",
+      "de": "Steuer",
+      "it": "tassare"
+    }
+  },
+  {
+    "id": "ox-b2-1290",
+    "word": "teaching",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "öğretim",
+      "es": "enseñanza",
+      "fr": "enseignement",
+      "de": "Lehre",
+      "it": "insegnamento"
+    }
+  },
+  {
+    "id": "ox-b2-1291",
+    "word": "tear",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "göz yaşı",
+      "es": "lágrima",
+      "fr": "larme",
+      "de": "Träne",
+      "it": "lacrima"
+    }
+  },
+  {
+    "id": "ox-b2-1292",
+    "word": "technical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teknik",
+      "es": "técnico",
+      "fr": "technique",
+      "de": "technisch",
+      "it": "tecnico"
+    }
+  },
+  {
+    "id": "ox-b2-1293",
+    "word": "technique",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teknik",
+      "es": "técnica",
+      "fr": "technique",
+      "de": "Technik",
+      "it": "tecnica"
+    }
+  },
+  {
+    "id": "ox-b2-1294",
+    "word": "technology",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teknoloji",
+      "es": "tecnología",
+      "fr": "technologie",
+      "de": "Technologie",
+      "it": "tecnologia"
+    }
+  },
+  {
+    "id": "ox-b2-1295",
+    "word": "temperature",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıcaklık",
+      "es": "temperatura",
+      "fr": "température",
+      "de": "Temperatur",
+      "it": "temperatura"
+    }
+  },
+  {
+    "id": "ox-b2-1296",
+    "word": "temporary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geçici",
+      "es": "temporario",
+      "fr": "temporaire",
+      "de": "vorübergehend",
+      "it": "temporaneo"
+    }
+  },
+  {
+    "id": "ox-b2-1297",
+    "word": "tend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğilimli olma",
+      "es": "tender",
+      "fr": "tendre",
+      "de": "neigen",
+      "it": "tendere"
+    }
+  },
+  {
+    "id": "ox-b2-1298",
+    "word": "tendency",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğilim",
+      "es": "tendencia",
+      "fr": "tendance",
+      "de": "Tendenz",
+      "it": "tendenza"
+    }
+  },
+  {
+    "id": "ox-b2-1299",
+    "word": "tension",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tansiyon",
+      "es": "tensión",
+      "fr": "tension",
+      "de": "Spannung",
+      "it": "tensione"
+    }
+  },
+  {
+    "id": "ox-b2-1300",
+    "word": "tent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çadır",
+      "es": "carpa",
+      "fr": "tente",
+      "de": "Zelt",
+      "it": "tenda"
+    }
+  },
+  {
+    "id": "ox-b2-1301",
+    "word": "term",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "terim",
+      "es": "término",
+      "fr": "terme",
+      "de": "Begriff",
+      "it": "termine"
+    }
+  },
+  {
+    "id": "ox-b2-1302",
+    "word": "terribly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "korkunç derecede",
+      "es": "terriblemente",
+      "fr": "terriblement",
+      "de": "schrecklich",
+      "it": "terribilmente"
+    }
+  },
+  {
+    "id": "ox-b2-1303",
+    "word": "territory",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bölge",
+      "es": "territorio",
+      "fr": "territoire",
+      "de": "Gebiet",
+      "it": "territorio"
+    }
+  },
+  {
+    "id": "ox-b2-1304",
+    "word": "theirs",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onlarınki",
+      "es": "suyo",
+      "fr": "la leur",
+      "de": "ihre",
+      "it": "loro"
+    }
+  },
+  {
+    "id": "ox-b2-1305",
+    "word": "theme",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tema",
+      "es": "tema",
+      "fr": "thème",
+      "de": "Thema",
+      "it": "tema"
+    }
+  },
+  {
+    "id": "ox-b2-1306",
+    "word": "themselves",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kendileri",
+      "es": "ellos mismos",
+      "fr": "eux-mêmes",
+      "de": "selbst",
+      "it": "loro stessi"
+    }
+  },
+  {
+    "id": "ox-b2-1307",
+    "word": "theory",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teori",
+      "es": "teoría",
+      "fr": "théorie",
+      "de": "Theorie",
+      "it": "teoria"
+    }
+  },
+  {
+    "id": "ox-b2-1308",
+    "word": "therefore",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Öyleyse",
+      "es": "por lo tanto",
+      "fr": "donc",
+      "de": "daher",
+      "it": "Perciò"
+    }
+  },
+  {
+    "id": "ox-b2-1309",
+    "word": "these",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bunlar",
+      "es": "estos",
+      "fr": "ces",
+      "de": "diese",
+      "it": "questi"
+    }
+  },
+  {
+    "id": "ox-b2-1310",
+    "word": "thick",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalın",
+      "es": "grueso",
+      "fr": "épais",
+      "de": "dick",
+      "it": "spesso"
+    }
+  },
+  {
+    "id": "ox-b2-1311",
+    "word": "thickly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalın",
+      "es": "espesamente",
+      "fr": "épaissement",
+      "de": "dick",
+      "it": "fittamente"
+    }
+  },
+  {
+    "id": "ox-b2-1312",
+    "word": "thickness",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalınlık",
+      "es": "espesor",
+      "fr": "épaisseur",
+      "de": "Dicke",
+      "it": "spessore"
+    }
+  },
+  {
+    "id": "ox-b2-1313",
+    "word": "thief",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hırsız",
+      "es": "ladrón",
+      "fr": "voleur",
+      "de": "Dieb",
+      "it": "ladro"
+    }
+  },
+  {
+    "id": "ox-b2-1314",
+    "word": "thin",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ince",
+      "es": "delgado",
+      "fr": "mince",
+      "de": "dünn",
+      "it": "magro"
+    }
+  },
+  {
+    "id": "ox-b2-1315",
+    "word": "thinking",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düşünme",
+      "es": "pensamiento",
+      "fr": "pensée",
+      "de": "Denken",
+      "it": "pensiero"
+    }
+  },
+  {
+    "id": "ox-b2-1316",
+    "word": "thorough",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapsamlı",
+      "es": "exhaustivo",
+      "fr": "complet",
+      "de": "gründlich",
+      "it": "completo"
+    }
+  },
+  {
+    "id": "ox-b2-1317",
+    "word": "thoroughly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iyice",
+      "es": "minuciosamente",
+      "fr": "soigneusement",
+      "de": "gründlich",
+      "it": "completamente"
+    }
+  },
+  {
+    "id": "ox-b2-1318",
+    "word": "those",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onlar",
+      "es": "aquellos",
+      "fr": "ceux",
+      "de": "diese",
+      "it": "quelli"
+    }
+  },
+  {
+    "id": "ox-b2-1319",
+    "word": "though",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Yine de",
+      "es": "aunque",
+      "fr": "cependant",
+      "de": "obwohl",
+      "it": "Anche se"
+    }
+  },
+  {
+    "id": "ox-b2-1320",
+    "word": "thought",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düşünce",
+      "es": "pensamiento",
+      "fr": "pensée",
+      "de": "Gedanke",
+      "it": "Pensiero"
+    }
+  },
+  {
+    "id": "ox-b2-1321",
+    "word": "thread",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iplik",
+      "es": "hilo",
+      "fr": "fil",
+      "de": "Faden",
+      "it": "filo"
+    }
+  },
+  {
+    "id": "ox-b2-1322",
+    "word": "threat",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tehdit",
+      "es": "amenaza",
+      "fr": "menace",
+      "de": "Gefahr",
+      "it": "minaccia"
+    }
+  },
+  {
+    "id": "ox-b2-1323",
+    "word": "threaten",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tehdit etmek",
+      "es": "amenazar",
+      "fr": "menacer",
+      "de": "drohen",
+      "it": "minacciare"
+    }
+  },
+  {
+    "id": "ox-b2-1324",
+    "word": "threatening",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tehdit edici",
+      "es": "amenazante",
+      "fr": "menaçant",
+      "de": "bedrohlich",
+      "it": "minaccioso"
+    }
+  },
+  {
+    "id": "ox-b2-1325",
+    "word": "throat",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boğaz",
+      "es": "garganta",
+      "fr": "gorge",
+      "de": "Kehle",
+      "it": "gola"
+    }
+  },
+  {
+    "id": "ox-b2-1326",
+    "word": "throughout",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boyunca",
+      "es": "a lo largo de",
+      "fr": "tout au long de",
+      "de": "hindurch",
+      "it": "per tutto"
+    }
+  },
+  {
+    "id": "ox-b2-1327",
+    "word": "throw",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fırlatmak",
+      "es": "tirar",
+      "fr": "lancer",
+      "de": "werfen",
+      "it": "gettare"
+    }
+  },
+  {
+    "id": "ox-b2-1328",
+    "word": "thumb",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baş parmak",
+      "es": "pulgar",
+      "fr": "pouce",
+      "de": "Daumen",
+      "it": "pollice"
+    }
+  },
+  {
+    "id": "ox-b2-1329",
+    "word": "thunder",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gök gürültüsü",
+      "es": "trueno",
+      "fr": "tonnerre",
+      "de": "Donner",
+      "it": "tuono"
+    }
+  },
+  {
+    "id": "ox-b2-1330",
+    "word": "thus",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Böylece",
+      "es": "de este modo",
+      "fr": "ainsi",
+      "de": "daher",
+      "it": "così"
+    }
+  },
+  {
+    "id": "ox-b2-1331",
+    "word": "tidy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düzenli",
+      "es": "ordenado",
+      "fr": "rangé",
+      "de": "ordentlich",
+      "it": "Ordinato"
+    }
+  },
+  {
+    "id": "ox-b2-1332",
+    "word": "tie",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlamak",
+      "es": "atar",
+      "fr": "cravate",
+      "de": "binden",
+      "it": "cravatta"
+    }
+  },
+  {
+    "id": "ox-b2-1333",
+    "word": "tight",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıkı",
+      "es": "ajustado",
+      "fr": "serré",
+      "de": "eng",
+      "it": "stretto"
+    }
+  },
+  {
+    "id": "ox-b2-1334",
+    "word": "tightly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıkıca",
+      "es": "estrechamente",
+      "fr": "fermement",
+      "de": "dicht",
+      "it": "strettamente"
+    }
+  },
+  {
+    "id": "ox-b2-1335",
+    "word": "till",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kadar",
+      "es": "hasta",
+      "fr": "jusqu'à",
+      "de": "bis",
+      "it": "fino"
+    }
+  },
+  {
+    "id": "ox-b2-1336",
+    "word": "timetable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zaman çizelgesi",
+      "es": "calendario",
+      "fr": "calendrier",
+      "de": "Zeitplan",
+      "it": "orario"
+    }
+  },
+  {
+    "id": "ox-b2-1337",
+    "word": "tin",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kalay",
+      "es": "estaño",
+      "fr": "étain",
+      "de": "Zinn",
+      "it": "stagno"
+    }
+  },
+  {
+    "id": "ox-b2-1338",
+    "word": "tiny",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "minik",
+      "es": "diminuto",
+      "fr": "minuscule",
+      "de": "winzig",
+      "it": "minuscolo"
+    }
+  },
+  {
+    "id": "ox-b2-1339",
+    "word": "tip",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uç",
+      "es": "consejo",
+      "fr": "conseil",
+      "de": "Tipp",
+      "it": "mancia"
+    }
+  },
+  {
+    "id": "ox-b2-1340",
+    "word": "tire",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yorulmak",
+      "es": "neumático",
+      "fr": "pneu",
+      "de": "Reifen",
+      "it": "pneumatico"
+    }
+  },
+  {
+    "id": "ox-b2-1341",
+    "word": "tiring",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yorucu",
+      "es": "agotador",
+      "fr": "fatigant",
+      "de": "ermüdend",
+      "it": "stancante"
+    }
+  },
+  {
+    "id": "ox-b2-1342",
+    "word": "toast",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tost",
+      "es": "tostada",
+      "fr": "griller",
+      "de": "Toast",
+      "it": "pane abbrustolito"
+    }
+  },
+  {
+    "id": "ox-b2-1343",
+    "word": "toe",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayak parmağı",
+      "es": "dedo del pie",
+      "fr": "orteil",
+      "de": "Zehe",
+      "it": "punta"
+    }
+  },
+  {
+    "id": "ox-b2-1344",
+    "word": "tone",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ton",
+      "es": "tono",
+      "fr": "tonifier",
+      "de": "Ton",
+      "it": "tono"
+    }
+  },
+  {
+    "id": "ox-b2-1345",
+    "word": "tongue",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dil",
+      "es": "lengua",
+      "fr": "langue",
+      "de": "Zunge",
+      "it": "lingua"
+    }
+  },
+  {
+    "id": "ox-b2-1346",
+    "word": "tool",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alet",
+      "es": "herramienta",
+      "fr": "outil",
+      "de": "Werkzeug",
+      "it": "attrezzo"
+    }
+  },
+  {
+    "id": "ox-b2-1347",
+    "word": "top",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tepe",
+      "es": "arriba",
+      "fr": "haut",
+      "de": "Spitze",
+      "it": "superiore"
+    }
+  },
+  {
+    "id": "ox-b2-1348",
+    "word": "total",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplam",
+      "es": "total",
+      "fr": "total",
+      "de": "gesamt",
+      "it": "totale"
+    }
+  },
+  {
+    "id": "ox-b2-1349",
+    "word": "totally",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamamen",
+      "es": "totalmente",
+      "fr": "totalement",
+      "de": "völlig",
+      "it": "totalmente"
+    }
+  },
+  {
+    "id": "ox-b2-1350",
+    "word": "touch",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dokunmak",
+      "es": "tocar",
+      "fr": "touche",
+      "de": "berühren",
+      "it": "tocco"
+    }
+  },
+  {
+    "id": "ox-b2-1351",
+    "word": "tough",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zorlu",
+      "es": "difícil",
+      "fr": "difficile",
+      "de": "hart",
+      "it": "difficile"
+    }
+  },
+  {
+    "id": "ox-b2-1352",
+    "word": "tour",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tur",
+      "es": "recorrido",
+      "fr": "tournée",
+      "de": "Tour",
+      "it": "tour"
+    }
+  },
+  {
+    "id": "ox-b2-1353",
+    "word": "towards",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşı",
+      "es": "hacia",
+      "fr": "vers",
+      "de": "in Richtung",
+      "it": "in direzione"
+    }
+  },
+  {
+    "id": "ox-b2-1354",
+    "word": "towel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "havlu",
+      "es": "toalla",
+      "fr": "serviette",
+      "de": "Handtuch",
+      "it": "asciugamano"
+    }
+  },
+  {
+    "id": "ox-b2-1355",
+    "word": "tower",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kule",
+      "es": "torre",
+      "fr": "tour",
+      "de": "Turm",
+      "it": "torre"
+    }
+  },
+  {
+    "id": "ox-b2-1356",
+    "word": "toy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oyuncak",
+      "es": "juguete",
+      "fr": "jouet",
+      "de": "Spielzeug",
+      "it": "giocattolo"
+    }
+  },
+  {
+    "id": "ox-b2-1357",
+    "word": "trace",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iz",
+      "es": "rastro",
+      "fr": "tracer",
+      "de": "verfolgen",
+      "it": "traccia"
+    }
+  },
+  {
+    "id": "ox-b2-1358",
+    "word": "track",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "izlemek",
+      "es": "pista",
+      "fr": "piste",
+      "de": "Schiene",
+      "it": "traccia"
+    }
+  },
+  {
+    "id": "ox-b2-1359",
+    "word": "trade",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ticaret",
+      "es": "comercio",
+      "fr": "commerce",
+      "de": "Handel",
+      "it": "commercio"
+    }
+  },
+  {
+    "id": "ox-b2-1360",
+    "word": "trading",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ticaret",
+      "es": "comercio",
+      "fr": "commerce",
+      "de": "Handel",
+      "it": "commercio"
+    }
+  },
+  {
+    "id": "ox-b2-1361",
+    "word": "tradition",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gelenek",
+      "es": "tradición",
+      "fr": "tradition",
+      "de": "Tradition",
+      "it": "tradizione"
+    }
+  },
+  {
+    "id": "ox-b2-1362",
+    "word": "traditional",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geleneksel",
+      "es": "tradicional",
+      "fr": "traditionnel",
+      "de": "traditionell",
+      "it": "tradizionale"
+    }
+  },
+  {
+    "id": "ox-b2-1363",
+    "word": "traditionally",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geleneksel olarak",
+      "es": "tradicionalmente",
+      "fr": "traditionnellement",
+      "de": "traditionell",
+      "it": "tradizionalmente"
+    }
+  },
+  {
+    "id": "ox-b2-1364",
+    "word": "training",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğitim",
+      "es": "capacitación",
+      "fr": "entraînement",
+      "de": "Ausbildung",
+      "it": "formazione"
+    }
+  },
+  {
+    "id": "ox-b2-1365",
+    "word": "transfer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aktarma",
+      "es": "transferir",
+      "fr": "transfert",
+      "de": "überweisen",
+      "it": "trasferire"
+    }
+  },
+  {
+    "id": "ox-b2-1366",
+    "word": "transform",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dönüştürmek",
+      "es": "transformar",
+      "fr": "transformer",
+      "de": "verwandeln",
+      "it": "trasformare"
+    }
+  },
+  {
+    "id": "ox-b2-1367",
+    "word": "transition",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geçiş",
+      "es": "transición",
+      "fr": "transition",
+      "de": "Übergang",
+      "it": "transizione"
+    }
+  },
+  {
+    "id": "ox-b2-1368",
+    "word": "translate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tercüme etmek",
+      "es": "traducir",
+      "fr": "traduire",
+      "de": "übersetzen",
+      "it": "tradurre"
+    }
+  },
+  {
+    "id": "ox-b2-1369",
+    "word": "translation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeviri",
+      "es": "traducción",
+      "fr": "traduction",
+      "de": "Übersetzung",
+      "it": "traduzione"
+    }
+  },
+  {
+    "id": "ox-b2-1370",
+    "word": "transparent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şeffaf",
+      "es": "transparente",
+      "fr": "transparent",
+      "de": "transparent",
+      "it": "trasparente"
+    }
+  },
+  {
+    "id": "ox-b2-1371",
+    "word": "transport",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ulaşım",
+      "es": "transporte",
+      "fr": "transport",
+      "de": "Transport",
+      "it": "trasporto"
+    }
+  },
+  {
+    "id": "ox-b2-1372",
+    "word": "transportation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplu taşıma",
+      "es": "transporte",
+      "fr": "transport",
+      "de": "Transport",
+      "it": "trasporto"
+    }
+  },
+  {
+    "id": "ox-b2-1373",
+    "word": "trap",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tuzak",
+      "es": "trampa",
+      "fr": "piège",
+      "de": "fangen",
+      "it": "trappola"
+    }
+  },
+  {
+    "id": "ox-b2-1374",
+    "word": "traveller",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gezgin",
+      "es": "viajero",
+      "fr": "voyageur",
+      "de": "Reisender",
+      "it": "viaggiatore"
+    }
+  },
+  {
+    "id": "ox-b2-1375",
+    "word": "treat",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "davranmak",
+      "es": "tratar",
+      "fr": "traiter",
+      "de": "behandeln",
+      "it": "trattare"
+    }
+  },
+  {
+    "id": "ox-b2-1376",
+    "word": "treatment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tedavi",
+      "es": "tratamiento",
+      "fr": "traitement",
+      "de": "Behandlung",
+      "it": "trattamento"
+    }
+  },
+  {
+    "id": "ox-b2-1377",
+    "word": "trend",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğilim",
+      "es": "tendencia",
+      "fr": "s'orienter",
+      "de": "Trend",
+      "it": "tendenza"
+    }
+  },
+  {
+    "id": "ox-b2-1378",
+    "word": "trial",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "duruşma",
+      "es": "ensayo",
+      "fr": "procès",
+      "de": "Versuch",
+      "it": "prova"
+    }
+  },
+  {
+    "id": "ox-b2-1379",
+    "word": "triangle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üçgen",
+      "es": "triángulo",
+      "fr": "triangle",
+      "de": "Dreieck",
+      "it": "triangolo"
+    }
+  },
+  {
+    "id": "ox-b2-1380",
+    "word": "trick",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kandırmak",
+      "es": "truco",
+      "fr": "astuce",
+      "de": "Trick",
+      "it": "trucco"
+    }
+  },
+  {
+    "id": "ox-b2-1381",
+    "word": "troop",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birlik",
+      "es": "tropa",
+      "fr": "troupe",
+      "de": "Truppe",
+      "it": "truppe"
+    }
+  },
+  {
+    "id": "ox-b2-1382",
+    "word": "tropical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tropikal",
+      "es": "tropical",
+      "fr": "tropical",
+      "de": "tropisch",
+      "it": "tropicale"
+    }
+  },
+  {
+    "id": "ox-b2-1383",
+    "word": "trouble",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bela",
+      "es": "problema",
+      "fr": "inquiéter",
+      "de": "Problem",
+      "it": "guaio"
+    }
+  },
+  {
+    "id": "ox-b2-1384",
+    "word": "truck",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kamyon",
+      "es": "camión",
+      "fr": "camion",
+      "de": "LKW",
+      "it": "camion"
+    }
+  },
+  {
+    "id": "ox-b2-1385",
+    "word": "true",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "doğru",
+      "es": "verdadero",
+      "fr": "vrai",
+      "de": "WAHR",
+      "it": "VERO"
+    }
+  },
+  {
+    "id": "ox-b2-1386",
+    "word": "truly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamamen",
+      "es": "realmente",
+      "fr": "vraiment",
+      "de": "wirklich",
+      "it": "veramente"
+    }
+  },
+  {
+    "id": "ox-b2-1387",
+    "word": "trust",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güven",
+      "es": "confianza",
+      "fr": "confiance",
+      "de": "Vertrauen",
+      "it": "Fiducia"
+    }
+  },
+  {
+    "id": "ox-b2-1388",
+    "word": "truth",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gerçek",
+      "es": "verdad",
+      "fr": "vérité",
+      "de": "Wahrheit",
+      "it": "verità"
+    }
+  },
+  {
+    "id": "ox-b2-1389",
+    "word": "tube",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tüp",
+      "es": "tubo",
+      "fr": "tube",
+      "de": "Rohr",
+      "it": "tubo"
+    }
+  },
+  {
+    "id": "ox-b2-1390",
+    "word": "tune",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "melodi",
+      "es": "melodía",
+      "fr": "régler",
+      "de": "Melodie",
+      "it": "sintonizzare"
+    }
+  },
+  {
+    "id": "ox-b2-1391",
+    "word": "tunnel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tünel",
+      "es": "túnel",
+      "fr": "tunnel",
+      "de": "Tunnel",
+      "it": "tunnel"
+    }
+  },
+  {
+    "id": "ox-b2-1392",
+    "word": "twin",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikiz",
+      "es": "mellizo",
+      "fr": "double",
+      "de": "Zwilling",
+      "it": "gemello"
+    }
+  },
+  {
+    "id": "ox-b2-1393",
+    "word": "twist",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büküm",
+      "es": "girar",
+      "fr": "torsion",
+      "de": "Twist",
+      "it": "intrecciare"
+    }
+  },
+  {
+    "id": "ox-b2-1394",
+    "word": "twisted",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bükülmüş",
+      "es": "retorcido",
+      "fr": "tordu",
+      "de": "verdreht",
+      "it": "contorto"
+    }
+  },
+  {
+    "id": "ox-b2-1395",
+    "word": "typical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tipik",
+      "es": "típico",
+      "fr": "typique",
+      "de": "typisch",
+      "it": "tipico"
+    }
+  },
+  {
+    "id": "ox-b2-1396",
+    "word": "typically",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tipik olarak",
+      "es": "típicamente",
+      "fr": "typiquement",
+      "de": "typischerweise",
+      "it": "tipicamente"
+    }
+  },
+  {
+    "id": "ox-b2-1397",
+    "word": "ugly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çirkin",
+      "es": "feo",
+      "fr": "laid",
+      "de": "hässlich",
+      "it": "brutto"
+    }
+  },
+  {
+    "id": "ox-b2-1398",
+    "word": "ultimate",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nihai",
+      "es": "último",
+      "fr": "ultime",
+      "de": "ultimativ",
+      "it": "ultimo"
+    }
+  },
+  {
+    "id": "ox-b2-1399",
+    "word": "ultimately",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonuçta",
+      "es": "al final",
+      "fr": "finalement",
+      "de": "letztlich",
+      "it": "in definitiva"
+    }
+  },
+  {
+    "id": "ox-b2-1400",
+    "word": "unable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aciz",
+      "es": "incapaz",
+      "fr": "incapable",
+      "de": "unfähig",
+      "it": "incapace"
+    }
+  },
+  {
+    "id": "ox-b2-1401",
+    "word": "unacceptable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kabul edilemez",
+      "es": "inaceptable",
+      "fr": "inacceptable",
+      "de": "inakzeptabel",
+      "it": "inaccettabile"
+    }
+  },
+  {
+    "id": "ox-b2-1402",
+    "word": "uncertain",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belirsiz",
+      "es": "incierto",
+      "fr": "incertain",
+      "de": "unsicher",
+      "it": "incerto"
+    }
+  },
+  {
+    "id": "ox-b2-1403",
+    "word": "uncomfortable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rahatsız",
+      "es": "incómodo",
+      "fr": "inconfortable",
+      "de": "unbequem",
+      "it": "scomodo"
+    }
+  },
+  {
+    "id": "ox-b2-1404",
+    "word": "unconscious",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilinçsiz",
+      "es": "inconsciente",
+      "fr": "inconscient",
+      "de": "unbewusst",
+      "it": "inconscio"
+    }
+  },
+  {
+    "id": "ox-b2-1405",
+    "word": "undergo",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katlanmak",
+      "es": "someterse",
+      "fr": "subir",
+      "de": "unterziehen",
+      "it": "subire"
+    }
+  },
+  {
+    "id": "ox-b2-1406",
+    "word": "underground",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeraltı",
+      "es": "subterráneo",
+      "fr": "souterrain",
+      "de": "unterirdisch",
+      "it": "metropolitana"
+    }
+  },
+  {
+    "id": "ox-b2-1407",
+    "word": "underneath",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "altında",
+      "es": "debajo",
+      "fr": "dessous",
+      "de": "darunter",
+      "it": "sotto"
+    }
+  },
+  {
+    "id": "ox-b2-1408",
+    "word": "understanding",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "anlayış",
+      "es": "comprensión",
+      "fr": "compréhension",
+      "de": "Verständnis",
+      "it": "comprensione"
+    }
+  },
+  {
+    "id": "ox-b2-1409",
+    "word": "underwater",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sualtı",
+      "es": "submarino",
+      "fr": "sous l'eau",
+      "de": "unter Wasser",
+      "it": "sott'acqua"
+    }
+  },
+  {
+    "id": "ox-b2-1410",
+    "word": "underwear",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iç çamaşırı",
+      "es": "ropa interior",
+      "fr": "sous-vêtement",
+      "de": "Unterwäsche",
+      "it": "biancheria intima"
+    }
+  },
+  {
+    "id": "ox-b2-1411",
+    "word": "undo",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geri almak",
+      "es": "deshacer",
+      "fr": "défaire",
+      "de": "rückgängig machen",
+      "it": "disfare"
+    }
+  },
+  {
+    "id": "ox-b2-1412",
+    "word": "unemployed",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işsiz",
+      "es": "desempleados",
+      "fr": "sans emploi",
+      "de": "arbeitslos",
+      "it": "disoccupato"
+    }
+  },
+  {
+    "id": "ox-b2-1413",
+    "word": "unemployment",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "işsizlik",
+      "es": "desempleo",
+      "fr": "chômage",
+      "de": "Arbeitslosigkeit",
+      "it": "disoccupazione"
+    }
+  },
+  {
+    "id": "ox-b2-1414",
+    "word": "unexpected",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beklenmedik",
+      "es": "inesperado",
+      "fr": "inattendu",
+      "de": "unerwartet",
+      "it": "inaspettato"
+    }
+  },
+  {
+    "id": "ox-b2-1415",
+    "word": "unfair",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haksız",
+      "es": "injusto",
+      "fr": "injuste",
+      "de": "unfair",
+      "it": "sleale"
+    }
+  },
+  {
+    "id": "ox-b2-1416",
+    "word": "unfortunately",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Ne yazık ki",
+      "es": "desafortunadamente",
+      "fr": "malheureusement",
+      "de": "Leider",
+      "it": "Purtroppo"
+    }
+  },
+  {
+    "id": "ox-b2-1417",
+    "word": "unhappy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mutsuz",
+      "es": "infeliz",
+      "fr": "malheureux",
+      "de": "unzufrieden",
+      "it": "infelice"
+    }
+  },
+  {
+    "id": "ox-b2-1418",
+    "word": "uniform",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üniforma",
+      "es": "uniforme",
+      "fr": "uniforme",
+      "de": "Uniform",
+      "it": "uniforme"
+    }
+  },
+  {
+    "id": "ox-b2-1419",
+    "word": "union",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birlik",
+      "es": "unión",
+      "fr": "union",
+      "de": "Union",
+      "it": "unione"
+    }
+  },
+  {
+    "id": "ox-b2-1420",
+    "word": "unique",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eşsiz",
+      "es": "único",
+      "fr": "unique",
+      "de": "einzigartig",
+      "it": "unico"
+    }
+  },
+  {
+    "id": "ox-b2-1421",
+    "word": "unit",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birim",
+      "es": "unidad",
+      "fr": "unité",
+      "de": "Einheit",
+      "it": "unità"
+    }
+  },
+  {
+    "id": "ox-b2-1422",
+    "word": "unite",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birleşmek",
+      "es": "unir",
+      "fr": "unir",
+      "de": "vereinigen",
+      "it": "unire"
+    }
+  },
+  {
+    "id": "ox-b2-1423",
+    "word": "united",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birleşik",
+      "es": "unido",
+      "fr": "uni",
+      "de": "vereinigt",
+      "it": "unito"
+    }
+  },
+  {
+    "id": "ox-b2-1424",
+    "word": "universal",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "evrensel",
+      "es": "universal",
+      "fr": "universel",
+      "de": "Universal-",
+      "it": "universale"
+    }
+  },
+  {
+    "id": "ox-b2-1425",
+    "word": "universe",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "evren",
+      "es": "universo",
+      "fr": "univers",
+      "de": "Universum",
+      "it": "universo"
+    }
+  },
+  {
+    "id": "ox-b2-1426",
+    "word": "unkind",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kaba",
+      "es": "cruel",
+      "fr": "méchant",
+      "de": "unfreundlich",
+      "it": "scortese"
+    }
+  },
+  {
+    "id": "ox-b2-1427",
+    "word": "unknown",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilinmiyor",
+      "es": "desconocido",
+      "fr": "inconnu",
+      "de": "unbekannt",
+      "it": "sconosciuto"
+    }
+  },
+  {
+    "id": "ox-b2-1428",
+    "word": "unless",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "meğer ki",
+      "es": "a menos que",
+      "fr": "sauf si",
+      "de": "es sei denn",
+      "it": "salvo che"
+    }
+  },
+  {
+    "id": "ox-b2-1429",
+    "word": "unlike",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "farklı",
+      "es": "a diferencia de",
+      "fr": "contrairement à",
+      "de": "im Gegensatz zu",
+      "it": "a differenza di"
+    }
+  },
+  {
+    "id": "ox-b2-1430",
+    "word": "unlikely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olası değil",
+      "es": "improbable",
+      "fr": "peu probable",
+      "de": "unwahrscheinlich",
+      "it": "improbabile"
+    }
+  },
+  {
+    "id": "ox-b2-1431",
+    "word": "unload",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "boşaltmak",
+      "es": "descargar",
+      "fr": "décharger",
+      "de": "entladen",
+      "it": "scaricare"
+    }
+  },
+  {
+    "id": "ox-b2-1432",
+    "word": "unlucky",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şanssız",
+      "es": "desafortunado",
+      "fr": "malchanceux",
+      "de": "unglücklich",
+      "it": "sfortunato"
+    }
+  },
+  {
+    "id": "ox-b2-1433",
+    "word": "unnecessary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gereksiz",
+      "es": "innecesario",
+      "fr": "inutile",
+      "de": "unnötig",
+      "it": "inutile"
+    }
+  },
+  {
+    "id": "ox-b2-1434",
+    "word": "unpleasant",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tatsız",
+      "es": "desagradable",
+      "fr": "désagréable",
+      "de": "unangenehm",
+      "it": "sgradevole"
+    }
+  },
+  {
+    "id": "ox-b2-1435",
+    "word": "unreasonable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "mantıksız",
+      "es": "irrazonable",
+      "fr": "déraisonnable",
+      "de": "unvernünftig",
+      "it": "irragionevole"
+    }
+  },
+  {
+    "id": "ox-b2-1436",
+    "word": "unsteady",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kararsız",
+      "es": "inestable",
+      "fr": "instable",
+      "de": "unsicher",
+      "it": "instabile"
+    }
+  },
+  {
+    "id": "ox-b2-1437",
+    "word": "unsuccessful",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başarısız",
+      "es": "fracasado",
+      "fr": "infructueux",
+      "de": "erfolglos",
+      "it": "senza successo"
+    }
+  },
+  {
+    "id": "ox-b2-1438",
+    "word": "unusual",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olağan dışı",
+      "es": "inusual",
+      "fr": "inhabituel",
+      "de": "ungewöhnlich",
+      "it": "insolito"
+    }
+  },
+  {
+    "id": "ox-b2-1439",
+    "word": "unusually",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alışılmadık biçimde",
+      "es": "extraordinariamente",
+      "fr": "exceptionnellement",
+      "de": "ungewöhnlich",
+      "it": "insolitamente"
+    }
+  },
+  {
+    "id": "ox-b2-1440",
+    "word": "unwilling",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "isteksiz",
+      "es": "reacio",
+      "fr": "ne voulant pas",
+      "de": "unwillig",
+      "it": "riluttante"
+    }
+  },
+  {
+    "id": "ox-b2-1441",
+    "word": "upon",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üzerine",
+      "es": "al",
+      "fr": "sur",
+      "de": "auf",
+      "it": "su"
+    }
+  },
+  {
+    "id": "ox-b2-1442",
+    "word": "upper",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üst",
+      "es": "superior",
+      "fr": "supérieur",
+      "de": "obere",
+      "it": "superiore"
+    }
+  },
+  {
+    "id": "ox-b2-1443",
+    "word": "upset",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üzgün",
+      "es": "decepcionado",
+      "fr": "bouleversé",
+      "de": "verärgern",
+      "it": "Rovesciato"
+    }
+  },
+  {
+    "id": "ox-b2-1444",
+    "word": "upsetting",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üzücü",
+      "es": "perturbar",
+      "fr": "bouleversant",
+      "de": "verstörend",
+      "it": "sconvolgente"
+    }
+  },
+  {
+    "id": "ox-b2-1445",
+    "word": "upward",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yukarı",
+      "es": "hacia arriba",
+      "fr": "vers le haut",
+      "de": "nach oben",
+      "it": "verso l'alto"
+    }
+  },
+  {
+    "id": "ox-b2-1446",
+    "word": "urban",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kentsel",
+      "es": "urbano",
+      "fr": "urbain",
+      "de": "urban",
+      "it": "urbano"
+    }
+  },
+  {
+    "id": "ox-b2-1447",
+    "word": "urge",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dürtü",
+      "es": "urgir",
+      "fr": "exhorter",
+      "de": "Drang",
+      "it": "sollecitare"
+    }
+  },
+  {
+    "id": "ox-b2-1448",
+    "word": "urgent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "acil",
+      "es": "urgente",
+      "fr": "urgent",
+      "de": "dringend",
+      "it": "urgente"
+    }
+  },
+  {
+    "id": "ox-b2-1449",
+    "word": "used",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kullanılmış",
+      "es": "usado",
+      "fr": "utilisé",
+      "de": "gebraucht",
+      "it": "usato"
+    }
+  },
+  {
+    "id": "ox-b2-1450",
+    "word": "useless",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kullanışsız",
+      "es": "inútil",
+      "fr": "inutile",
+      "de": "nutzlos",
+      "it": "inutile"
+    }
+  },
+  {
+    "id": "ox-b2-1451",
+    "word": "user",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kullanıcı",
+      "es": "usuario",
+      "fr": "utilisateur",
+      "de": "Benutzer",
+      "it": "utente"
+    }
+  },
+  {
+    "id": "ox-b2-1452",
+    "word": "usual",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olağan",
+      "es": "habitual",
+      "fr": "habituel",
+      "de": "üblich",
+      "it": "al solito"
+    }
+  },
+  {
+    "id": "ox-b2-1453",
+    "word": "vague",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başıboş dolaşmak",
+      "es": "impreciso",
+      "fr": "vague",
+      "de": "vage",
+      "it": "vago"
+    }
+  },
+  {
+    "id": "ox-b2-1454",
+    "word": "valid",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geçerli",
+      "es": "válido",
+      "fr": "valide",
+      "de": "gültig",
+      "it": "valido"
+    }
+  },
+  {
+    "id": "ox-b2-1455",
+    "word": "valley",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vadi",
+      "es": "valle",
+      "fr": "vallée",
+      "de": "Schlucht",
+      "it": "valle"
+    }
+  },
+  {
+    "id": "ox-b2-1456",
+    "word": "valuable",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değerli",
+      "es": "valioso",
+      "fr": "précieux",
+      "de": "wertvoll",
+      "it": "prezioso"
+    }
+  },
+  {
+    "id": "ox-b2-1457",
+    "word": "value",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değer",
+      "es": "valor",
+      "fr": "valeur",
+      "de": "Wert",
+      "it": "valore"
+    }
+  },
+  {
+    "id": "ox-b2-1458",
+    "word": "van",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kamyonet",
+      "es": "furgoneta",
+      "fr": "van",
+      "de": "Transporter",
+      "it": "furgone"
+    }
+  },
+  {
+    "id": "ox-b2-1459",
+    "word": "variation",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varyasyon",
+      "es": "variación",
+      "fr": "variation",
+      "de": "Variation",
+      "it": "variazione"
+    }
+  },
+  {
+    "id": "ox-b2-1460",
+    "word": "varied",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeşitli",
+      "es": "variado",
+      "fr": "varié",
+      "de": "abwechslungsreich",
+      "it": "vario"
+    }
+  },
+  {
+    "id": "ox-b2-1461",
+    "word": "variety",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeşitlilik",
+      "es": "variedad",
+      "fr": "variété",
+      "de": "Vielfalt",
+      "it": "varietà"
+    }
+  },
+  {
+    "id": "ox-b2-1462",
+    "word": "various",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeşitli",
+      "es": "varios",
+      "fr": "divers",
+      "de": "verschieden",
+      "it": "vari"
+    }
+  },
+  {
+    "id": "ox-b2-1463",
+    "word": "vary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çeşitli",
+      "es": "variar",
+      "fr": "varier",
+      "de": "variieren",
+      "it": "variare"
+    }
+  },
+  {
+    "id": "ox-b2-1464",
+    "word": "vast",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "büyüklük",
+      "es": "vasto",
+      "fr": "vaste",
+      "de": "groß",
+      "it": "vasto"
+    }
+  },
+  {
+    "id": "ox-b2-1465",
+    "word": "vehicle",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "araç",
+      "es": "vehículo",
+      "fr": "véhicule",
+      "de": "Fahrzeug",
+      "it": "veicolo"
+    }
+  },
+  {
+    "id": "ox-b2-1466",
+    "word": "venture",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "girişim",
+      "es": "empresa",
+      "fr": "aventure",
+      "de": "wagen",
+      "it": "avventurarsi"
+    }
+  },
+  {
+    "id": "ox-b2-1467",
+    "word": "version",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "versiyon",
+      "es": "versión",
+      "fr": "version",
+      "de": "Version",
+      "it": "versione"
+    }
+  },
+  {
+    "id": "ox-b2-1468",
+    "word": "vertical",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dikey",
+      "es": "vertical",
+      "fr": "verticale",
+      "de": "Vertikale",
+      "it": "verticale"
+    }
+  },
+  {
+    "id": "ox-b2-1469",
+    "word": "vessel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gemi",
+      "es": "buque",
+      "fr": "navire",
+      "de": "Schiff",
+      "it": "nave"
+    }
+  },
+  {
+    "id": "ox-b2-1470",
+    "word": "via",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aracılığıyla",
+      "es": "a través de",
+      "fr": "via",
+      "de": "über",
+      "it": "tramite"
+    }
+  },
+  {
+    "id": "ox-b2-1471",
+    "word": "victim",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kurban",
+      "es": "víctima",
+      "fr": "victime",
+      "de": "Opfer",
+      "it": "vittima"
+    }
+  },
+  {
+    "id": "ox-b2-1472",
+    "word": "victory",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zafer",
+      "es": "victoria",
+      "fr": "victoire",
+      "de": "Sieg",
+      "it": "vittoria"
+    }
+  },
+  {
+    "id": "ox-b2-1473",
+    "word": "view",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görüş",
+      "es": "vista",
+      "fr": "voir",
+      "de": "Sicht",
+      "it": "visualizzazione"
+    }
+  },
+  {
+    "id": "ox-b2-1474",
+    "word": "viewer",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "izleyici",
+      "es": "espectador",
+      "fr": "téléspectateur",
+      "de": "Zuschauer",
+      "it": "spettatore"
+    }
+  },
+  {
+    "id": "ox-b2-1475",
+    "word": "violence",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şiddet",
+      "es": "violencia",
+      "fr": "violence",
+      "de": "Gewalt",
+      "it": "violenza"
+    }
+  },
+  {
+    "id": "ox-b2-1476",
+    "word": "violent",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "şiddetli",
+      "es": "violento",
+      "fr": "violent",
+      "de": "gewalttätig",
+      "it": "violento"
+    }
+  },
+  {
+    "id": "ox-b2-1477",
+    "word": "virtually",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sanal olarak",
+      "es": "prácticamente",
+      "fr": "pratiquement",
+      "de": "praktisch",
+      "it": "virtualmente"
+    }
+  },
+  {
+    "id": "ox-b2-1478",
+    "word": "virus",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "virüs",
+      "es": "virus",
+      "fr": "virus",
+      "de": "Virus",
+      "it": "virus"
+    }
+  },
+  {
+    "id": "ox-b2-1479",
+    "word": "visible",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görünür",
+      "es": "visible",
+      "fr": "visible",
+      "de": "sichtbar",
+      "it": "visibile"
+    }
+  },
+  {
+    "id": "ox-b2-1480",
+    "word": "vision",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görüş",
+      "es": "visión",
+      "fr": "vision",
+      "de": "Vision",
+      "it": "visione"
+    }
+  },
+  {
+    "id": "ox-b2-1481",
+    "word": "vital",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hayati",
+      "es": "vital",
+      "fr": "vital",
+      "de": "lebenswichtig",
+      "it": "vitale"
+    }
+  },
+  {
+    "id": "ox-b2-1482",
+    "word": "vocabulary",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kelime bilgisi",
+      "es": "vocabulario",
+      "fr": "vocabulaire",
+      "de": "Vokabular",
+      "it": "vocabolario"
+    }
+  },
+  {
+    "id": "ox-b2-1483",
+    "word": "voice",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ses",
+      "es": "voz",
+      "fr": "voix",
+      "de": "Stimme",
+      "it": "voce"
+    }
+  },
+  {
+    "id": "ox-b2-1484",
+    "word": "volume",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hacim",
+      "es": "volumen",
+      "fr": "volume",
+      "de": "Volumen",
+      "it": "volume"
+    }
+  },
+  {
+    "id": "ox-b2-1485",
+    "word": "vote",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "oy",
+      "es": "votar",
+      "fr": "voter",
+      "de": "Abstimmung",
+      "it": "votare"
+    }
+  },
+  {
+    "id": "ox-b2-1486",
+    "word": "wage",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "maaş",
+      "es": "salario",
+      "fr": "salaire",
+      "de": "Lohn",
+      "it": "salario"
+    }
+  },
+  {
+    "id": "ox-b2-1487",
+    "word": "waist",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bel",
+      "es": "cintura",
+      "fr": "taille",
+      "de": "Taille",
+      "it": "Vita"
+    }
+  },
+  {
+    "id": "ox-b2-1488",
+    "word": "walking",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yürüme",
+      "es": "caminando",
+      "fr": "marche",
+      "de": "gehen",
+      "it": "a piedi"
+    }
+  },
+  {
+    "id": "ox-b2-1489",
+    "word": "wallet",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "cüzdan",
+      "es": "billetera",
+      "fr": "portefeuille",
+      "de": "Geldbörse",
+      "it": "portafoglio"
+    }
+  },
+  {
+    "id": "ox-b2-1490",
+    "word": "wander",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dolaşmak",
+      "es": "deambular",
+      "fr": "errer",
+      "de": "wandern",
+      "it": "passeggiata"
+    }
+  },
+  {
+    "id": "ox-b2-1491",
+    "word": "war",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "savaş",
+      "es": "guerra",
+      "fr": "guerre",
+      "de": "Krieg",
+      "it": "guerra"
+    }
+  },
+  {
+    "id": "ox-b2-1492",
+    "word": "warmth",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıcaklık",
+      "es": "calor",
+      "fr": "chaleur",
+      "de": "Wärme",
+      "it": "calore"
+    }
+  },
+  {
+    "id": "ox-b2-1493",
+    "word": "warn",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyarmak",
+      "es": "advertir",
+      "fr": "avertir",
+      "de": "warnen",
+      "it": "avvisare"
+    }
+  },
+  {
+    "id": "ox-b2-1494",
+    "word": "warning",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyarı",
+      "es": "advertencia",
+      "fr": "avertissement",
+      "de": "Warnung",
+      "it": "avvertimento"
+    }
+  },
+  {
+    "id": "ox-b2-1495",
+    "word": "washing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yıkama",
+      "es": "lavado",
+      "fr": "lavage",
+      "de": "Waschen",
+      "it": "lavaggio"
+    }
+  },
+  {
+    "id": "ox-b2-1496",
+    "word": "waste",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atık",
+      "es": "desperdiciar",
+      "fr": "déchets",
+      "de": "Abfall",
+      "it": "sciupare"
+    }
+  },
+  {
+    "id": "ox-b2-1497",
+    "word": "wave",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dalga",
+      "es": "ola",
+      "fr": "vague",
+      "de": "Welle",
+      "it": "onda"
+    }
+  },
+  {
+    "id": "ox-b2-1498",
+    "word": "weak",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zayıf",
+      "es": "débil",
+      "fr": "faible",
+      "de": "schwach",
+      "it": "Debole"
+    }
+  },
+  {
+    "id": "ox-b2-1499",
+    "word": "weakness",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zayıflık",
+      "es": "debilidad",
+      "fr": "faiblesse",
+      "de": "Schwäche",
+      "it": "debolezza"
+    }
+  },
+  {
+    "id": "ox-b2-1500",
+    "word": "wealth",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varlık",
+      "es": "poder",
+      "fr": "richesse",
+      "de": "Reichtum",
+      "it": "ricchezza"
+    }
+  },
+  {
+    "id": "ox-b2-1501",
+    "word": "wealthy",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "zengin",
+      "es": "adinerado",
+      "fr": "riche",
+      "de": "reich",
+      "it": "ricco"
+    }
+  },
+  {
+    "id": "ox-b2-1502",
+    "word": "weapon",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "silah",
+      "es": "arma",
+      "fr": "arme",
+      "de": "Waffe",
+      "it": "arma"
+    }
+  },
+  {
+    "id": "ox-b2-1503",
+    "word": "web",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ağ",
+      "es": "web",
+      "fr": "la toile",
+      "de": "Web",
+      "it": "web"
+    }
+  },
+  {
+    "id": "ox-b2-1504",
+    "word": "wedding",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "düğün",
+      "es": "boda",
+      "fr": "mariage",
+      "de": "Hochzeit",
+      "it": "nozze"
+    }
+  },
+  {
+    "id": "ox-b2-1505",
+    "word": "weekly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "haftalık",
+      "es": "semanalmente",
+      "fr": "hebdomadaire",
+      "de": "wöchentlich",
+      "it": "settimanale"
+    }
+  },
+  {
+    "id": "ox-b2-1506",
+    "word": "weigh",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tartmak",
+      "es": "pesar",
+      "fr": "peser",
+      "de": "wiegen",
+      "it": "pesare"
+    }
+  },
+  {
+    "id": "ox-b2-1507",
+    "word": "weight",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ağırlık",
+      "es": "peso",
+      "fr": "poids",
+      "de": "Gewicht",
+      "it": "peso"
+    }
+  },
+  {
+    "id": "ox-b2-1508",
+    "word": "western",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "batılı",
+      "es": "occidental",
+      "fr": "occidental",
+      "de": "Western",
+      "it": "occidentale"
+    }
+  },
+  {
+    "id": "ox-b2-1509",
+    "word": "wet",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ıslak",
+      "es": "húmedo",
+      "fr": "mouillé",
+      "de": "nass",
+      "it": "Bagnato"
+    }
+  },
+  {
+    "id": "ox-b2-1510",
+    "word": "whatever",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Her neyse",
+      "es": "lo que",
+      "fr": "peu importe",
+      "de": "was auch immer",
+      "it": "Qualunque cosa"
+    }
+  },
+  {
+    "id": "ox-b2-1511",
+    "word": "wheel",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teker",
+      "es": "rueda",
+      "fr": "roue",
+      "de": "Rad",
+      "it": "ruota"
+    }
+  },
+  {
+    "id": "ox-b2-1512",
+    "word": "whenever",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "her ne zaman",
+      "es": "cuando sea",
+      "fr": "chaque fois que",
+      "de": "wann immer",
+      "it": "ogni volta"
+    }
+  },
+  {
+    "id": "ox-b2-1513",
+    "word": "whereas",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "halbuki",
+      "es": "mientras",
+      "fr": "alors que",
+      "de": "wohingegen",
+      "it": "mentre"
+    }
+  },
+  {
+    "id": "ox-b2-1514",
+    "word": "wherever",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "her yerde",
+      "es": "lo que sea",
+      "fr": "partout où",
+      "de": "wo immer",
+      "it": "ovunque"
+    }
+  },
+  {
+    "id": "ox-b2-1515",
+    "word": "whether",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ikisinden biri",
+      "es": "si",
+      "fr": "si",
+      "de": "ob",
+      "it": "se"
+    }
+  },
+  {
+    "id": "ox-b2-1516",
+    "word": "while",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sırasında",
+      "es": "mientras",
+      "fr": "alors que",
+      "de": "während",
+      "it": "Mentre"
+    }
+  },
+  {
+    "id": "ox-b2-1517",
+    "word": "whisper",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fısıltı",
+      "es": "susurro",
+      "fr": "chuchoter",
+      "de": "flüstern",
+      "it": "sussurro"
+    }
+  },
+  {
+    "id": "ox-b2-1518",
+    "word": "whoever",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kim olursa olsun",
+      "es": "quien",
+      "fr": "quiconque",
+      "de": "wer auch immer",
+      "it": "chi"
+    }
+  },
+  {
+    "id": "ox-b2-1519",
+    "word": "whole",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tüm",
+      "es": "entero",
+      "fr": "entier",
+      "de": "ganz",
+      "it": "Totale"
+    }
+  },
+  {
+    "id": "ox-b2-1520",
+    "word": "wholly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamamen",
+      "es": "totalmente",
+      "fr": "entièrement",
+      "de": "ganz",
+      "it": "interamente"
+    }
+  },
+  {
+    "id": "ox-b2-1521",
+    "word": "whom",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kime",
+      "es": "a quien",
+      "fr": "qui",
+      "de": "dem",
+      "it": "chi"
+    }
+  },
+  {
+    "id": "ox-b2-1522",
+    "word": "whose",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kimin",
+      "es": "cuyo",
+      "fr": "dont",
+      "de": "wessen",
+      "it": "di chi"
+    }
+  },
+  {
+    "id": "ox-b2-1523",
+    "word": "wide",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geniş",
+      "es": "ancho",
+      "fr": "large",
+      "de": "breit",
+      "it": "Largo"
+    }
+  },
+  {
+    "id": "ox-b2-1524",
+    "word": "widely",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaygın olarak",
+      "es": "ampliamente",
+      "fr": "largement",
+      "de": "weit",
+      "it": "ampiamente"
+    }
+  },
+  {
+    "id": "ox-b2-1525",
+    "word": "width",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "Genişlik",
+      "es": "ancho",
+      "fr": "largeur",
+      "de": "Breite",
+      "it": "larghezza"
+    }
+  },
+  {
+    "id": "ox-b2-1526",
+    "word": "wild",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "vahşi",
+      "es": "salvaje",
+      "fr": "sauvage",
+      "de": "wild",
+      "it": "selvaggio"
+    }
+  },
+  {
+    "id": "ox-b2-1527",
+    "word": "wildly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çılgınca",
+      "es": "salvajemente",
+      "fr": "sauvagement",
+      "de": "wild",
+      "it": "selvaggiamente"
+    }
+  },
+  {
+    "id": "ox-b2-1528",
+    "word": "willing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hevesli",
+      "es": "deseoso",
+      "fr": "disposé",
+      "de": "bereit",
+      "it": "disposto"
+    }
+  },
+  {
+    "id": "ox-b2-1529",
+    "word": "willingness",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "isteklilik",
+      "es": "voluntad",
+      "fr": "volonté",
+      "de": "Bereitschaft",
+      "it": "buona volontà"
+    }
+  },
+  {
+    "id": "ox-b2-1530",
+    "word": "wind",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rüzgâr",
+      "es": "viento",
+      "fr": "vent",
+      "de": "Wind",
+      "it": "vento"
+    }
+  },
+  {
+    "id": "ox-b2-1531",
+    "word": "wing",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kanat",
+      "es": "ala",
+      "fr": "aile",
+      "de": "Flügel",
+      "it": "ala"
+    }
+  },
+  {
+    "id": "ox-b2-1532",
+    "word": "winner",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kazanan",
+      "es": "ganador",
+      "fr": "gagnant",
+      "de": "Gewinner",
+      "it": "vincitore"
+    }
+  },
+  {
+    "id": "ox-b2-1533",
+    "word": "winning",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kazanan",
+      "es": "victorioso",
+      "fr": "gagnant",
+      "de": "gewinnen",
+      "it": "vincere"
+    }
+  },
+  {
+    "id": "ox-b2-1534",
+    "word": "wire",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tel",
+      "es": "cable",
+      "fr": "fil",
+      "de": "Draht",
+      "it": "filo"
+    }
+  },
+  {
+    "id": "ox-b2-1535",
+    "word": "wise",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilge",
+      "es": "inteligente",
+      "fr": "sage",
+      "de": "weise",
+      "it": "saggio"
+    }
+  },
+  {
+    "id": "ox-b2-1536",
+    "word": "wish",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dilek",
+      "es": "desear",
+      "fr": "souhait",
+      "de": "Wunsch",
+      "it": "desiderio"
+    }
+  },
+  {
+    "id": "ox-b2-1537",
+    "word": "withdraw",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "geri çekilmek",
+      "es": "retirar",
+      "fr": "retirer",
+      "de": "zurückziehen",
+      "it": "ritirare"
+    }
+  },
+  {
+    "id": "ox-b2-1538",
+    "word": "within",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içinde",
+      "es": "dentro",
+      "fr": "dans",
+      "de": "innerhalb",
+      "it": "entro"
+    }
+  },
+  {
+    "id": "ox-b2-1539",
+    "word": "witness",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tanık",
+      "es": "testigo",
+      "fr": "témoin",
+      "de": "Zeuge",
+      "it": "testimone"
+    }
+  },
+  {
+    "id": "ox-b2-1540",
+    "word": "wonder",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "merak etmek",
+      "es": "preguntarse",
+      "fr": "merveille",
+      "de": "Wunder",
+      "it": "Meraviglia"
+    }
+  },
+  {
+    "id": "ox-b2-1541",
+    "word": "wood",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "odun",
+      "es": "madera",
+      "fr": "bois",
+      "de": "Holz",
+      "it": "legna"
+    }
+  },
+  {
+    "id": "ox-b2-1542",
+    "word": "wooden",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ahşap",
+      "es": "de madera",
+      "fr": "en bois",
+      "de": "aus Holz",
+      "it": "di legno"
+    }
+  },
+  {
+    "id": "ox-b2-1543",
+    "word": "wool",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yün",
+      "es": "lana",
+      "fr": "laine",
+      "de": "Wolle",
+      "it": "lana"
+    }
+  },
+  {
+    "id": "ox-b2-1544",
+    "word": "working",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çalışma",
+      "es": "laboral",
+      "fr": "fonctionnement",
+      "de": "Arbeiten",
+      "it": "lavorando"
+    }
+  },
+  {
+    "id": "ox-b2-1545",
+    "word": "workshop",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atölye",
+      "es": "taller",
+      "fr": "atelier",
+      "de": "Werkstatt",
+      "it": "officina"
+    }
+  },
+  {
+    "id": "ox-b2-1546",
+    "word": "worldwide",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dünya çapında",
+      "es": "mundial",
+      "fr": "mondial",
+      "de": "weltweit",
+      "it": "in tutto il mondo"
+    }
+  },
+  {
+    "id": "ox-b2-1547",
+    "word": "worry",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "endişelenmek",
+      "es": "preocuparse",
+      "fr": "inquiétude",
+      "de": "Sorge",
+      "it": "preoccupazione"
+    }
+  },
+  {
+    "id": "ox-b2-1548",
+    "word": "worse",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "daha kötüsü",
+      "es": "peor",
+      "fr": "pire",
+      "de": "schlechter",
+      "it": "peggio"
+    }
+  },
+  {
+    "id": "ox-b2-1549",
+    "word": "worst",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "en kötüsü",
+      "es": "el peor",
+      "fr": "pire",
+      "de": "am schlimmsten",
+      "it": "peggio"
+    }
+  },
+  {
+    "id": "ox-b2-1550",
+    "word": "worth",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değer",
+      "es": "valer",
+      "fr": "valeur",
+      "de": "Wert",
+      "it": "Di valore"
+    }
+  },
+  {
+    "id": "ox-b2-1551",
+    "word": "wound",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yara",
+      "es": "herida",
+      "fr": "blesser",
+      "de": "Wunde",
+      "it": "ferita"
+    }
+  },
+  {
+    "id": "ox-b2-1552",
+    "word": "wounded",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaralı",
+      "es": "herido",
+      "fr": "blessés",
+      "de": "verwundet",
+      "it": "ferito"
+    }
+  },
+  {
+    "id": "ox-b2-1553",
+    "word": "wrap",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dürüm",
+      "es": "envoltura",
+      "fr": "envelopper",
+      "de": "wickeln",
+      "it": "avvolgere"
+    }
+  },
+  {
+    "id": "ox-b2-1554",
+    "word": "wrist",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bilek",
+      "es": "muñeca",
+      "fr": "poignet",
+      "de": "Handgelenk",
+      "it": "polso"
+    }
+  },
+  {
+    "id": "ox-b2-1555",
+    "word": "written",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yazılı",
+      "es": "escrito",
+      "fr": "écrit",
+      "de": "geschrieben",
+      "it": "scritto"
+    }
+  },
+  {
+    "id": "ox-b2-1556",
+    "word": "wrongly",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yanlış",
+      "es": "incorrectamente",
+      "fr": "à tort",
+      "de": "zu Unrecht",
+      "it": "erroneamente"
+    }
+  },
+  {
+    "id": "ox-b2-1557",
+    "word": "yard",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bahçe",
+      "es": "patio",
+      "fr": "cour",
+      "de": "Hof",
+      "it": "cortile"
+    }
+  },
+  {
+    "id": "ox-b2-1558",
+    "word": "yawn",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "esnemek",
+      "es": "bostezo",
+      "fr": "bâillement",
+      "de": "gähnen",
+      "it": "sbadiglio"
+    }
+  },
+  {
+    "id": "ox-b2-1559",
+    "word": "yet",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "henüz",
+      "es": "todavía",
+      "fr": "encore",
+      "de": "noch",
+      "it": "Ancora"
+    }
+  },
+  {
+    "id": "ox-b2-1560",
+    "word": "yours",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "senin",
+      "es": "tuyo",
+      "fr": "le vôtre",
+      "de": "dein",
+      "it": "il tuo"
+    }
+  },
+  {
+    "id": "ox-b2-1561",
+    "word": "youth",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gençlik",
+      "es": "juventud",
+      "fr": "jeunesse",
+      "de": "Jugend",
+      "it": "gioventù"
+    }
+  },
+  {
+    "id": "ox-b2-1562",
+    "word": "zero",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıfır",
+      "es": "cero",
+      "fr": "zéro",
+      "de": "null",
+      "it": "zero"
+    }
+  },
+  {
+    "id": "ox-b2-1563",
+    "word": "zone",
+    "level": "B2",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alan",
+      "es": "zona",
+      "fr": "zone",
+      "de": "Zone",
+      "it": "zona"
+    }
+  },
+  {
+    "id": "ox-c1-1",
+    "word": "abolish",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ortadan kaldırmak",
+      "es": "abolir",
+      "fr": "abolir",
+      "de": "abschaffen",
+      "it": "abolire"
+    }
+  },
+  {
+    "id": "ox-c1-2",
+    "word": "abundant",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bolluk",
+      "es": "abundante",
+      "fr": "abondant",
+      "de": "reichlich",
+      "it": "abbondante"
+    }
+  },
+  {
+    "id": "ox-c1-3",
+    "word": "accuracy",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kesinlik",
+      "es": "exactitud",
+      "fr": "précision",
+      "de": "Genauigkeit",
+      "it": "precisione"
+    }
+  },
+  {
+    "id": "ox-c1-4",
+    "word": "acquisition",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kazanma",
+      "es": "adquisición",
+      "fr": "acquisition",
+      "de": "Erwerb",
+      "it": "acquisizione"
+    }
+  },
+  {
+    "id": "ox-c1-5",
+    "word": "adequate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeterli",
+      "es": "adecuado",
+      "fr": "adéquat",
+      "de": "angemessen",
+      "it": "adeguato"
+    }
+  },
+  {
+    "id": "ox-c1-6",
+    "word": "adjacent",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bitişik",
+      "es": "adyacente",
+      "fr": "adjacent",
+      "de": "benachbart",
+      "it": "adiacente"
+    }
+  },
+  {
+    "id": "ox-c1-7",
+    "word": "adolescent",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ergen",
+      "es": "adolescente",
+      "fr": "adolescent",
+      "de": "Jugendlicher",
+      "it": "adolescente"
+    }
+  },
+  {
+    "id": "ox-c1-8",
+    "word": "advocate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "avukat",
+      "es": "defensor",
+      "fr": "avocat",
+      "de": "Fürsprecher",
+      "it": "avvocato"
+    }
+  },
+  {
+    "id": "ox-c1-9",
+    "word": "allocate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tahsis etmek",
+      "es": "asignar",
+      "fr": "allouer",
+      "de": "zuordnen",
+      "it": "allocare"
+    }
+  },
+  {
+    "id": "ox-c1-10",
+    "word": "ambiguous",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belirsiz",
+      "es": "ambiguo",
+      "fr": "ambiguë",
+      "de": "mehrdeutig",
+      "it": "ambiguo"
+    }
+  },
+  {
+    "id": "ox-c1-11",
+    "word": "amend",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değiştirmek",
+      "es": "enmendar",
+      "fr": "modifier",
+      "de": "ändern",
+      "it": "modificare"
+    }
+  },
+  {
+    "id": "ox-c1-12",
+    "word": "analogy",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "benzetme",
+      "es": "analogía",
+      "fr": "analogie",
+      "de": "Analogie",
+      "it": "analogia"
+    }
+  },
+  {
+    "id": "ox-c1-13",
+    "word": "anticipate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "beklemek",
+      "es": "anticipar",
+      "fr": "anticiper",
+      "de": "antizipieren",
+      "it": "anticipare"
+    }
+  },
+  {
+    "id": "ox-c1-14",
+    "word": "apparatus",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aparat",
+      "es": "aparato",
+      "fr": "appareil",
+      "de": "Gerät",
+      "it": "apparato"
+    }
+  },
+  {
+    "id": "ox-c1-15",
+    "word": "arbitrary",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "keyfi",
+      "es": "arbitrario",
+      "fr": "arbitraire",
+      "de": "willkürlich",
+      "it": "arbitrario"
+    }
+  },
+  {
+    "id": "ox-c1-16",
+    "word": "assemble",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bir araya getirmek",
+      "es": "armar",
+      "fr": "assembler",
+      "de": "montieren",
+      "it": "assemblare"
+    }
+  },
+  {
+    "id": "ox-c1-17",
+    "word": "assert",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ileri sürmek",
+      "es": "afirmar",
+      "fr": "affirmer",
+      "de": "behaupten",
+      "it": "affermare"
+    }
+  },
+  {
+    "id": "ox-c1-18",
+    "word": "asset",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varlık",
+      "es": "activo",
+      "fr": "actif",
+      "de": "Vermögenswert",
+      "it": "risorsa"
+    }
+  },
+  {
+    "id": "ox-c1-19",
+    "word": "assign",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "atamak",
+      "es": "asignar",
+      "fr": "attribuer",
+      "de": "zuordnen",
+      "it": "assegnare"
+    }
+  },
+  {
+    "id": "ox-c1-20",
+    "word": "boom",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "patlama",
+      "es": "auge",
+      "fr": "boom",
+      "de": "Boom",
+      "it": "boom"
+    }
+  },
+  {
+    "id": "ox-c1-21",
+    "word": "bounce",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıçrama",
+      "es": "rebotar",
+      "fr": "rebond",
+      "de": "prallen",
+      "it": "rimbalzo"
+    }
+  },
+  {
+    "id": "ox-c1-22",
+    "word": "bulk",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "toplu",
+      "es": "a granel",
+      "fr": "en gros",
+      "de": "Schüttgut",
+      "it": "massa"
+    }
+  },
+  {
+    "id": "ox-c1-23",
+    "word": "bypass",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "baypas",
+      "es": "derivación",
+      "fr": "by-pass",
+      "de": "Bypass",
+      "it": "bypassare"
+    }
+  },
+  {
+    "id": "ox-c1-24",
+    "word": "chronicle",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kronik",
+      "es": "crónica",
+      "fr": "chronique",
+      "de": "Chronik",
+      "it": "cronaca"
+    }
+  },
+  {
+    "id": "ox-c1-25",
+    "word": "clarify",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açıklamak",
+      "es": "aclarar",
+      "fr": "clarifier",
+      "de": "klären",
+      "it": "chiarire"
+    }
+  },
+  {
+    "id": "ox-c1-26",
+    "word": "coherent",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tutarlı",
+      "es": "coherente",
+      "fr": "cohérent",
+      "de": "kohärent",
+      "it": "coerente"
+    }
+  },
+  {
+    "id": "ox-c1-27",
+    "word": "coincide",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çakışmak",
+      "es": "coincidir",
+      "fr": "coïncider",
+      "de": "übereinstimmen",
+      "it": "coincidere"
+    }
+  },
+  {
+    "id": "ox-c1-28",
+    "word": "commence",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başlamak",
+      "es": "comenzar",
+      "fr": "commencer",
+      "de": "beginnen",
+      "it": "iniziare"
+    }
+  },
+  {
+    "id": "ox-c1-29",
+    "word": "commodity",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emtia",
+      "es": "producto",
+      "fr": "marchandise",
+      "de": "Ware",
+      "it": "merce"
+    }
+  },
+  {
+    "id": "ox-c1-30",
+    "word": "compile",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "derlemek",
+      "es": "compilar",
+      "fr": "compiler",
+      "de": "kompilieren",
+      "it": "compilare"
+    }
+  },
+  {
+    "id": "ox-c1-31",
+    "word": "complement",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tamamlayıcı",
+      "es": "complementar",
+      "fr": "complément",
+      "de": "ergänzen",
+      "it": "complemento"
+    }
+  },
+  {
+    "id": "ox-c1-32",
+    "word": "comply",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uymak",
+      "es": "cumplir",
+      "fr": "se conformer",
+      "de": "einhalten",
+      "it": "conformarsi"
+    }
+  },
+  {
+    "id": "ox-c1-33",
+    "word": "conceive",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hamile kalmak",
+      "es": "concebir",
+      "fr": "concevoir",
+      "de": "begreifen",
+      "it": "concepire"
+    }
+  },
+  {
+    "id": "ox-c1-34",
+    "word": "consensus",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fikir birliği",
+      "es": "consenso",
+      "fr": "consensus",
+      "de": "Konsens",
+      "it": "consenso"
+    }
+  },
+  {
+    "id": "ox-c1-35",
+    "word": "consent",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onay",
+      "es": "consentir",
+      "fr": "consentement",
+      "de": "Zustimmung",
+      "it": "consenso"
+    }
+  },
+  {
+    "id": "ox-c1-36",
+    "word": "constrain",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısıtlamak",
+      "es": "constreñir",
+      "fr": "contraindre",
+      "de": "einschränken",
+      "it": "vincolare"
+    }
+  },
+  {
+    "id": "ox-c1-37",
+    "word": "contradict",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yalanlamak",
+      "es": "contradecir",
+      "fr": "contredire",
+      "de": "widersprechen",
+      "it": "contraddire"
+    }
+  },
+  {
+    "id": "ox-c1-38",
+    "word": "correlate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ilişkilendirmek",
+      "es": "correlación",
+      "fr": "corrélatif",
+      "de": "Korrelat",
+      "it": "correlare"
+    }
+  },
+  {
+    "id": "ox-c1-39",
+    "word": "crude",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ham",
+      "es": "crudo",
+      "fr": "brut",
+      "de": "grob",
+      "it": "greggio"
+    }
+  },
+  {
+    "id": "ox-c1-40",
+    "word": "deduce",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonuç çıkarmak",
+      "es": "deducir",
+      "fr": "déduire",
+      "de": "ableiten",
+      "it": "dedurre"
+    }
+  },
+  {
+    "id": "ox-c1-41",
+    "word": "demographic",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "demografik",
+      "es": "demográfico",
+      "fr": "démographique",
+      "de": "demografisch",
+      "it": "demografico"
+    }
+  },
+  {
+    "id": "ox-c1-42",
+    "word": "designate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "belirlemek",
+      "es": "designado",
+      "fr": "désigner",
+      "de": "benennen",
+      "it": "designare"
+    }
+  },
+  {
+    "id": "ox-c1-43",
+    "word": "deviate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sapmak",
+      "es": "desviarse",
+      "fr": "dévier",
+      "de": "abweichen",
+      "it": "deviare"
+    }
+  },
+  {
+    "id": "ox-c1-44",
+    "word": "diagnose",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teşhis etmek",
+      "es": "diagnosticar",
+      "fr": "diagnostiquer",
+      "de": "diagnostizieren",
+      "it": "diagnosticare"
+    }
+  },
+  {
+    "id": "ox-c1-45",
+    "word": "dictate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dikte",
+      "es": "dictar",
+      "fr": "dicter",
+      "de": "diktieren",
+      "it": "dettare"
+    }
+  },
+  {
+    "id": "ox-c1-46",
+    "word": "diminish",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "azaltmak",
+      "es": "disminuir",
+      "fr": "diminuer",
+      "de": "verringern",
+      "it": "diminuire"
+    }
+  },
+  {
+    "id": "ox-c1-47",
+    "word": "disclose",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ifşa etmek",
+      "es": "revelar",
+      "fr": "divulguer",
+      "de": "offenbaren",
+      "it": "rivelare"
+    }
+  },
+  {
+    "id": "ox-c1-48",
+    "word": "discriminate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayrımcılık yapmak",
+      "es": "discriminar",
+      "fr": "discriminer",
+      "de": "diskriminieren",
+      "it": "discriminare"
+    }
+  },
+  {
+    "id": "ox-c1-49",
+    "word": "displace",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yerinden etmek",
+      "es": "desplazar",
+      "fr": "déplacer",
+      "de": "verdrängen",
+      "it": "spostare"
+    }
+  },
+  {
+    "id": "ox-c1-50",
+    "word": "dispose",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "elden çıkarmak",
+      "es": "disponer",
+      "fr": "disposer",
+      "de": "entsorgen",
+      "it": "smaltire"
+    }
+  },
+  {
+    "id": "ox-c1-51",
+    "word": "distort",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çarpıtmak",
+      "es": "distorsionar",
+      "fr": "fausser",
+      "de": "verzerren",
+      "it": "distorcere"
+    }
+  },
+  {
+    "id": "ox-c1-52",
+    "word": "diverse",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "türlü",
+      "es": "diverso",
+      "fr": "divers",
+      "de": "vielfältig",
+      "it": "diversificato"
+    }
+  },
+  {
+    "id": "ox-c1-53",
+    "word": "domain",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ihtisas",
+      "es": "dominio",
+      "fr": "domaine",
+      "de": "Domain",
+      "it": "dominio"
+    }
+  },
+  {
+    "id": "ox-c1-54",
+    "word": "eclipse",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tutulma",
+      "es": "eclipse",
+      "fr": "éclipse",
+      "de": "Finsternis",
+      "it": "eclissi"
+    }
+  },
+  {
+    "id": "ox-c1-55",
+    "word": "ecology",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ekoloji",
+      "es": "ecología",
+      "fr": "écologie",
+      "de": "Ökologie",
+      "it": "ecologia"
+    }
+  },
+  {
+    "id": "ox-c1-56",
+    "word": "elaborate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "detaylandırmak",
+      "es": "elaborar",
+      "fr": "élaborer",
+      "de": "durchdacht",
+      "it": "elaborare"
+    }
+  },
+  {
+    "id": "ox-c1-57",
+    "word": "empirical",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ampirik",
+      "es": "empírico",
+      "fr": "empirique",
+      "de": "empirisch",
+      "it": "empirico"
+    }
+  },
+  {
+    "id": "ox-c1-58",
+    "word": "entity",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "varlık",
+      "es": "entidad",
+      "fr": "entité",
+      "de": "juristische Person",
+      "it": "entità"
+    }
+  },
+  {
+    "id": "ox-c1-59",
+    "word": "equate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eşitlemek",
+      "es": "equiparar",
+      "fr": "assimiler",
+      "de": "gleichsetzen",
+      "it": "equiparare"
+    }
+  },
+  {
+    "id": "ox-c1-60",
+    "word": "erode",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aşındırmak",
+      "es": "erosionar",
+      "fr": "éroder",
+      "de": "erodieren",
+      "it": "erodere"
+    }
+  },
+  {
+    "id": "ox-c1-61",
+    "word": "ethic",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etik",
+      "es": "ética",
+      "fr": "éthique",
+      "de": "Ethik",
+      "it": "etica"
+    }
+  },
+  {
+    "id": "ox-c1-62",
+    "word": "evaluate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "değerlendirmek",
+      "es": "evaluar",
+      "fr": "évaluer",
+      "de": "auswerten",
+      "it": "valutare"
+    }
+  },
+  {
+    "id": "ox-c1-63",
+    "word": "exceed",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aşmak",
+      "es": "superar",
+      "fr": "dépasser",
+      "de": "überschreiten",
+      "it": "superare"
+    }
+  },
+  {
+    "id": "ox-c1-64",
+    "word": "explicit",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "açık",
+      "es": "explícito",
+      "fr": "explicite",
+      "de": "explizit",
+      "it": "esplicito"
+    }
+  },
+  {
+    "id": "ox-c1-65",
+    "word": "exploit",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "faydalanmak",
+      "es": "explotar",
+      "fr": "exploiter",
+      "de": "ausbeuten",
+      "it": "impresa"
+    }
+  },
+  {
+    "id": "ox-c1-66",
+    "word": "extract",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıkarmak",
+      "es": "extracto",
+      "fr": "extrait",
+      "de": "Extrakt",
+      "it": "estrarre"
+    }
+  },
+  {
+    "id": "ox-c1-67",
+    "word": "facilitate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kolaylaştırmak",
+      "es": "facilitar",
+      "fr": "faciliter",
+      "de": "erleichtern",
+      "it": "facilitare"
+    }
+  },
+  {
+    "id": "ox-c1-68",
+    "word": "format",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "biçim",
+      "es": "formato",
+      "fr": "format",
+      "de": "Format",
+      "it": "formato"
+    }
+  },
+  {
+    "id": "ox-c1-69",
+    "word": "framework",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çerçeve",
+      "es": "estructura",
+      "fr": "cadre",
+      "de": "Rahmen",
+      "it": "struttura"
+    }
+  },
+  {
+    "id": "ox-c1-70",
+    "word": "hierarchy",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hiyerarşi",
+      "es": "jerarquía",
+      "fr": "hiérarchie",
+      "de": "Hierarchie",
+      "it": "gerarchia"
+    }
+  },
+  {
+    "id": "ox-c1-71",
+    "word": "implement",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygulamak",
+      "es": "implementar",
+      "fr": "mettre en œuvre",
+      "de": "implementieren",
+      "it": "attrezzo"
+    }
+  },
+  {
+    "id": "ox-c1-72",
+    "word": "implication",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ima",
+      "es": "implicación",
+      "fr": "implication",
+      "de": "Implikation",
+      "it": "implicazione"
+    }
+  },
+  {
+    "id": "ox-c1-73",
+    "word": "implicit",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "örtülü",
+      "es": "implícito",
+      "fr": "implicite",
+      "de": "implizit",
+      "it": "implicito"
+    }
+  },
+  {
+    "id": "ox-c1-74",
+    "word": "incentive",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teşvik",
+      "es": "incentivo",
+      "fr": "incitation",
+      "de": "Anreiz",
+      "it": "incentivo"
+    }
+  },
+  {
+    "id": "ox-c1-75",
+    "word": "incline",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "eğim",
+      "es": "inclinación",
+      "fr": "inclinaison",
+      "de": "Neigung",
+      "it": "inclinazione"
+    }
+  },
+  {
+    "id": "ox-c1-76",
+    "word": "incorporate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "firma kurmak",
+      "es": "incorporar",
+      "fr": "intégrer",
+      "de": "einarbeiten",
+      "it": "incorporare"
+    }
+  },
+  {
+    "id": "ox-c1-77",
+    "word": "induce",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teşvik etmek",
+      "es": "inducir",
+      "fr": "induire",
+      "de": "induzieren",
+      "it": "indurre"
+    }
+  },
+  {
+    "id": "ox-c1-78",
+    "word": "infer",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çıkarım yapmak",
+      "es": "inferir",
+      "fr": "déduire",
+      "de": "schließen",
+      "it": "dedurre"
+    }
+  },
+  {
+    "id": "ox-c1-79",
+    "word": "infrastructure",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "altyapı",
+      "es": "infraestructura",
+      "fr": "infrastructure",
+      "de": "Infrastruktur",
+      "it": "infrastrutture"
+    }
+  },
+  {
+    "id": "ox-c1-80",
+    "word": "inherent",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "doğuştan",
+      "es": "inherente",
+      "fr": "inhérent",
+      "de": "inhärent",
+      "it": "inerente"
+    }
+  },
+  {
+    "id": "ox-c1-81",
+    "word": "inhibit",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "engellemek",
+      "es": "inhibir",
+      "fr": "inhiber",
+      "de": "hemmen",
+      "it": "inibire"
+    }
+  },
+  {
+    "id": "ox-c1-82",
+    "word": "initiate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başlatmak",
+      "es": "iniciado",
+      "fr": "initié",
+      "de": "einleiten",
+      "it": "iniziato"
+    }
+  },
+  {
+    "id": "ox-c1-83",
+    "word": "innovate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yenilik yapmak",
+      "es": "innovar",
+      "fr": "innover",
+      "de": "innovieren",
+      "it": "innovare"
+    }
+  },
+  {
+    "id": "ox-c1-84",
+    "word": "insight",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iç yüzü",
+      "es": "conocimiento",
+      "fr": "aperçu",
+      "de": "Einblick",
+      "it": "intuizione"
+    }
+  },
+  {
+    "id": "ox-c1-85",
+    "word": "integral",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "integral",
+      "es": "integral",
+      "fr": "intégral",
+      "de": "Integral",
+      "it": "integrante"
+    }
+  },
+  {
+    "id": "ox-c1-86",
+    "word": "integrity",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bütünlük",
+      "es": "integridad",
+      "fr": "intégrité",
+      "de": "Integrität",
+      "it": "integrità"
+    }
+  },
+  {
+    "id": "ox-c1-87",
+    "word": "intervene",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "müdahale etmek",
+      "es": "intervenir",
+      "fr": "intervenir",
+      "de": "eingreifen",
+      "it": "intervenire"
+    }
+  },
+  {
+    "id": "ox-c1-88",
+    "word": "intrinsic",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "içsel",
+      "es": "intrínseco",
+      "fr": "intrinsèque",
+      "de": "intrinsisch",
+      "it": "intrinseco"
+    }
+  },
+  {
+    "id": "ox-c1-89",
+    "word": "invoke",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "çağırmak",
+      "es": "invocar",
+      "fr": "invoquer",
+      "de": "aufrufen",
+      "it": "invocare"
+    }
+  },
+  {
+    "id": "ox-c1-90",
+    "word": "margin",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "marj",
+      "es": "margen",
+      "fr": "marge",
+      "de": "Marge",
+      "it": "margine"
+    }
+  },
+  {
+    "id": "ox-c1-91",
+    "word": "mediate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "arabuluculuk yapmak",
+      "es": "mediar",
+      "fr": "médiat",
+      "de": "vermitteln",
+      "it": "mediare"
+    }
+  },
+  {
+    "id": "ox-c1-92",
+    "word": "metaphor",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "metafor",
+      "es": "metáfora",
+      "fr": "métaphore",
+      "de": "Metapher",
+      "it": "metafora"
+    }
+  },
+  {
+    "id": "ox-c1-93",
+    "word": "norm",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "norm",
+      "es": "norma",
+      "fr": "norme",
+      "de": "Norm",
+      "it": "norma"
+    }
+  },
+  {
+    "id": "ox-c1-94",
+    "word": "paradigm",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "paradigma",
+      "es": "paradigma",
+      "fr": "paradigme",
+      "de": "Paradigma",
+      "it": "paradigma"
+    }
+  },
+  {
+    "id": "ox-c1-95",
+    "word": "persist",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ısrar etmek",
+      "es": "persistir",
+      "fr": "persister",
+      "de": "bestehen",
+      "it": "perseverare"
+    }
+  },
+  {
+    "id": "ox-c1-96",
+    "word": "phenomenon",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fenomen",
+      "es": "fenómeno",
+      "fr": "phénomène",
+      "de": "Phänomen",
+      "it": "fenomeno"
+    }
+  },
+  {
+    "id": "ox-c1-97",
+    "word": "plausible",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "makul",
+      "es": "plausible",
+      "fr": "plausible",
+      "de": "plausibel",
+      "it": "plausibile"
+    }
+  },
+  {
+    "id": "ox-c1-98",
+    "word": "preliminary",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ön",
+      "es": "preliminar",
+      "fr": "préliminaire",
+      "de": "vorläufig",
+      "it": "preliminare"
+    }
+  },
+  {
+    "id": "ox-c1-99",
+    "word": "prevail",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hakim olmak",
+      "es": "prevalecer",
+      "fr": "prévaloir",
+      "de": "sich durchsetzen",
+      "it": "prevalere"
+    }
+  },
+  {
+    "id": "ox-c1-100",
+    "word": "profound",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "engin",
+      "es": "profundo",
+      "fr": "profond",
+      "de": "tiefgreifend",
+      "it": "profondo"
+    }
+  },
+  {
+    "id": "ox-c1-101",
+    "word": "prohibit",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yasaklamak",
+      "es": "prohibir",
+      "fr": "interdire",
+      "de": "verbieten",
+      "it": "vietare"
+    }
+  },
+  {
+    "id": "ox-c1-102",
+    "word": "qualitative",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nitel",
+      "es": "cualitativo",
+      "fr": "qualitatif",
+      "de": "qualitativ",
+      "it": "qualitativo"
+    }
+  },
+  {
+    "id": "ox-c1-103",
+    "word": "quantitative",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "nicel",
+      "es": "cuantitativo",
+      "fr": "quantitatif",
+      "de": "quantitativ",
+      "it": "quantitativo"
+    }
+  },
+  {
+    "id": "ox-c1-104",
+    "word": "random",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rastgele",
+      "es": "aleatorio",
+      "fr": "aléatoire",
+      "de": "zufällig",
+      "it": "casuale"
+    }
+  },
+  {
+    "id": "ox-c1-105",
+    "word": "regime",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "rejim",
+      "es": "régimen",
+      "fr": "régime",
+      "de": "Regime",
+      "it": "regime"
+    }
+  },
+  {
+    "id": "ox-c1-106",
+    "word": "rigid",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "katı",
+      "es": "rígido",
+      "fr": "rigide",
+      "de": "starr",
+      "it": "rigido"
+    }
+  },
+  {
+    "id": "ox-c1-107",
+    "word": "scope",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapsam",
+      "es": "alcance",
+      "fr": "portée",
+      "de": "Umfang",
+      "it": "ambito"
+    }
+  },
+  {
+    "id": "ox-c1-108",
+    "word": "simulate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "benzetmek",
+      "es": "simular",
+      "fr": "simuler",
+      "de": "simulieren",
+      "it": "simulare"
+    }
+  },
+  {
+    "id": "ox-c1-109",
+    "word": "scenario",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "senaryo",
+      "es": "guión",
+      "fr": "scénario",
+      "de": "Szenario",
+      "it": "scenario"
+    }
+  },
+  {
+    "id": "ox-c1-110",
+    "word": "subordinate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ast",
+      "es": "subordinar",
+      "fr": "subalterne",
+      "de": "untergeordnet",
+      "it": "subordinare"
+    }
+  },
+  {
+    "id": "ox-c1-111",
+    "word": "subsidy",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sübvansiyon",
+      "es": "subvención",
+      "fr": "subvention",
+      "de": "Subvention",
+      "it": "sovvenzione"
+    }
+  },
+  {
+    "id": "ox-c1-112",
+    "word": "successive",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ardışık",
+      "es": "sucesivo",
+      "fr": "successif",
+      "de": "sukzessive",
+      "it": "successivi"
+    }
+  },
+  {
+    "id": "ox-c1-113",
+    "word": "supplement",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ek",
+      "es": "suplemento",
+      "fr": "supplément",
+      "de": "ergänzen",
+      "it": "supplemento"
+    }
+  },
+  {
+    "id": "ox-c1-114",
+    "word": "suspend",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "askıya almak",
+      "es": "suspender",
+      "fr": "suspendre",
+      "de": "aussetzen",
+      "it": "sospendere"
+    }
+  },
+  {
+    "id": "ox-c1-115",
+    "word": "sustain",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güç vermek",
+      "es": "sostener",
+      "fr": "soutenir",
+      "de": "aufrechterhalten",
+      "it": "sostenere"
+    }
+  },
+  {
+    "id": "ox-c1-116",
+    "word": "tangible",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "somut",
+      "es": "tangible",
+      "fr": "tangible",
+      "de": "greifbar",
+      "it": "tangibile"
+    }
+  },
+  {
+    "id": "ox-c1-117",
+    "word": "terminate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonlandırmak",
+      "es": "terminar",
+      "fr": "mettre fin",
+      "de": "beenden",
+      "it": "terminare"
+    }
+  },
+  {
+    "id": "ox-c1-118",
+    "word": "thereby",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "böylece",
+      "es": "así",
+      "fr": "ainsi",
+      "de": "dadurch",
+      "it": "quindi"
+    }
+  },
+  {
+    "id": "ox-c1-119",
+    "word": "thesis",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tez",
+      "es": "tesis",
+      "fr": "thèse",
+      "de": "These",
+      "it": "tesi"
+    }
+  },
+  {
+    "id": "ox-c1-120",
+    "word": "transmit",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "iletmek",
+      "es": "transmitir",
+      "fr": "transmettre",
+      "de": "übertragen",
+      "it": "trasmettere"
+    }
+  },
+  {
+    "id": "ox-c1-121",
+    "word": "underlie",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "altta yatan",
+      "es": "estar debajo de",
+      "fr": "sous-tendre",
+      "de": "zugrunde liegen",
+      "it": "sottostante"
+    }
+  },
+  {
+    "id": "ox-c1-122",
+    "word": "undertake",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "üstlenmek",
+      "es": "emprender",
+      "fr": "entreprendre",
+      "de": "unternehmen",
+      "it": "intraprendere"
+    }
+  },
+  {
+    "id": "ox-c1-123",
+    "word": "unify",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birleştirmek",
+      "es": "unificar",
+      "fr": "unifier",
+      "de": "vereinheitlichen",
+      "it": "unificare"
+    }
+  },
+  {
+    "id": "ox-c1-124",
+    "word": "utilize",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "faydalanmak",
+      "es": "utilizar",
+      "fr": "utiliser",
+      "de": "nutzen",
+      "it": "utilizzare"
+    }
+  },
+  {
+    "id": "ox-c1-125",
+    "word": "violate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ihlal etmek",
+      "es": "violar",
+      "fr": "violer",
+      "de": "verletzen",
+      "it": "violare"
+    }
+  },
+  {
+    "id": "ox-c1-126",
+    "word": "virtual",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sanal",
+      "es": "virtual",
+      "fr": "virtuel",
+      "de": "virtuell",
+      "it": "virtuale"
+    }
+  },
+  {
+    "id": "ox-c1-127",
+    "word": "visual",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görsel",
+      "es": "visual",
+      "fr": "visuel",
+      "de": "visuell",
+      "it": "visivo"
+    }
+  },
+  {
+    "id": "ox-c1-128",
+    "word": "voluntary",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "gönüllü",
+      "es": "voluntario",
+      "fr": "volontaire",
+      "de": "freiwillig",
+      "it": "volontario"
+    }
+  },
+  {
+    "id": "ox-c1-129",
+    "word": "welfare",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "refah",
+      "es": "bienestar",
+      "fr": "bien-être",
+      "de": "Wohlfahrt",
+      "it": "benessere"
+    }
+  },
+  {
+    "id": "ox-c1-130",
+    "word": "whereby",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bu sayede",
+      "es": "por lo cual",
+      "fr": "par lequel",
+      "de": "wodurch",
+      "it": "per cui"
+    }
+  },
+  {
+    "id": "ox-c1-131",
+    "word": "widespread",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yaygın",
+      "es": "generalizado",
+      "fr": "répandu",
+      "de": "weit verbreitet",
+      "it": "esteso"
+    }
+  },
+  {
+    "id": "ox-c1-132",
+    "word": "withhold",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alıkoymak",
+      "es": "retener",
+      "fr": "retenir",
+      "de": "zurückhalten",
+      "it": "trattenere"
+    }
+  },
+  {
+    "id": "ox-c1-133",
+    "word": "accumulate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "biriktirmek",
+      "es": "acumular",
+      "fr": "accumuler",
+      "de": "akkumulieren",
+      "it": "accumulare"
+    }
+  },
+  {
+    "id": "ox-c1-134",
+    "word": "aggregate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "agrega",
+      "es": "agregar",
+      "fr": "agrégat",
+      "de": "Aggregat",
+      "it": "aggregato"
+    }
+  },
+  {
+    "id": "ox-c1-135",
+    "word": "align",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hizalamak",
+      "es": "alinear",
+      "fr": "aligner",
+      "de": "ausrichten",
+      "it": "allineare"
+    }
+  },
+  {
+    "id": "ox-c1-136",
+    "word": "albeit",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yine de",
+      "es": "aunque",
+      "fr": "quoique",
+      "de": "obwohl",
+      "it": "anche se"
+    }
+  },
+  {
+    "id": "ox-c1-137",
+    "word": "array",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sıralamak",
+      "es": "formación",
+      "fr": "tableau",
+      "de": "Array",
+      "it": "vettore"
+    }
+  },
+  {
+    "id": "ox-c1-138",
+    "word": "assimilation",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "asimilasyon",
+      "es": "asimilación",
+      "fr": "assimilation",
+      "de": "Assimilation",
+      "it": "assimilazione"
+    }
+  },
+  {
+    "id": "ox-c1-139",
+    "word": "autonomy",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "özerklik",
+      "es": "autonomía",
+      "fr": "autonomie",
+      "de": "Autonomie",
+      "it": "autonomia"
+    }
+  },
+  {
+    "id": "ox-c1-140",
+    "word": "civilian",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sivil",
+      "es": "civil",
+      "fr": "civil",
+      "de": "Zivilist",
+      "it": "civile"
+    }
+  },
+  {
+    "id": "ox-c1-141",
+    "word": "closure",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kapanış",
+      "es": "cierre",
+      "fr": "fermeture",
+      "de": "Schließung",
+      "it": "chiusura"
+    }
+  },
+  {
+    "id": "ox-c1-142",
+    "word": "cohesion",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyum",
+      "es": "cohesión",
+      "fr": "cohésion",
+      "de": "Zusammenhalt",
+      "it": "coesione"
+    }
+  },
+  {
+    "id": "ox-c1-143",
+    "word": "commodity",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emtia",
+      "es": "producto",
+      "fr": "marchandise",
+      "de": "Ware",
+      "it": "merce"
+    }
+  },
+  {
+    "id": "ox-c1-144",
+    "word": "competence",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yeterlilik",
+      "es": "competencia",
+      "fr": "compétence",
+      "de": "Kompetenz",
+      "it": "competenza"
+    }
+  },
+  {
+    "id": "ox-c1-145",
+    "word": "complexity",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karmaşıklık",
+      "es": "complejidad",
+      "fr": "complexité",
+      "de": "Komplexität",
+      "it": "complessità"
+    }
+  },
+  {
+    "id": "ox-c1-146",
+    "word": "concede",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "teslim olmak",
+      "es": "conceder",
+      "fr": "concéder",
+      "de": "zugeben",
+      "it": "concedere"
+    }
+  },
+  {
+    "id": "ox-c1-147",
+    "word": "conceive",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hamile kalmak",
+      "es": "concebir",
+      "fr": "concevoir",
+      "de": "begreifen",
+      "it": "concepire"
+    }
+  },
+  {
+    "id": "ox-c1-148",
+    "word": "confer",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "görüşmek",
+      "es": "conferir",
+      "fr": "conférer",
+      "de": "verleihen",
+      "it": "conferire"
+    }
+  },
+  {
+    "id": "ox-c1-149",
+    "word": "configuration",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yapılandırma",
+      "es": "configuración",
+      "fr": "configuration",
+      "de": "Konfiguration",
+      "it": "configurazione"
+    }
+  },
+  {
+    "id": "ox-c1-150",
+    "word": "consensus",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "fikir birliği",
+      "es": "consenso",
+      "fr": "consensus",
+      "de": "Konsens",
+      "it": "consenso"
+    }
+  },
+  {
+    "id": "ox-c1-151",
+    "word": "constraint",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kısıtlama",
+      "es": "restricción",
+      "fr": "contrainte",
+      "de": "Zwang",
+      "it": "vincolo"
+    }
+  },
+  {
+    "id": "ox-c1-152",
+    "word": "converge",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yakınlaşmak",
+      "es": "converger",
+      "fr": "converger",
+      "de": "konvergieren",
+      "it": "convergere"
+    }
+  },
+  {
+    "id": "ox-c1-153",
+    "word": "corpus",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "külliyat",
+      "es": "cuerpo",
+      "fr": "corpus",
+      "de": "Korpus",
+      "it": "corpo"
+    }
+  },
+  {
+    "id": "ox-c1-154",
+    "word": "credibility",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "güvenilirlik",
+      "es": "credibilidad",
+      "fr": "crédibilité",
+      "de": "Glaubwürdigkeit",
+      "it": "credibilità"
+    }
+  },
+  {
+    "id": "ox-c1-155",
+    "word": "abortion",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kürtaj",
+      "es": "aborto provocado",
+      "fr": "avortement",
+      "de": "Abtreibung",
+      "it": "aborto"
+    }
+  },
+  {
+    "id": "ox-c1-156",
+    "word": "absence",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yokluk",
+      "es": "ausencia",
+      "fr": "absence",
+      "de": "Abwesenheit",
+      "it": "assenza"
+    }
+  },
+  {
+    "id": "ox-c1-157",
+    "word": "absorb",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "emmek",
+      "es": "absorber",
+      "fr": "absorber",
+      "de": "absorbieren",
+      "it": "assorbire"
+    }
+  },
+  {
+    "id": "ox-c1-158",
+    "word": "abstract",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "soyut",
+      "es": "abstracto",
+      "fr": "abstrait",
+      "de": "Abstrakt",
+      "it": "astratto"
+    }
+  },
+  {
+    "id": "ox-c1-159",
+    "word": "absurd",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "saçma",
+      "es": "absurdo",
+      "fr": "absurde",
+      "de": "absurd",
+      "it": "assurdo"
+    }
+  },
+  {
+    "id": "ox-c1-160",
+    "word": "abuse",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "suistimal etmek",
+      "es": "abuso",
+      "fr": "abus",
+      "de": "Missbrauch",
+      "it": "abuso"
+    }
+  },
+  {
+    "id": "ox-c1-161",
+    "word": "academy",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akademi",
+      "es": "academia",
+      "fr": "académie",
+      "de": "Akademie",
+      "it": "accademia"
+    }
+  },
+  {
+    "id": "ox-c1-162",
+    "word": "accelerate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "hızlanmak",
+      "es": "acelerar",
+      "fr": "accélérer",
+      "de": "beschleunigen",
+      "it": "accelerare"
+    }
+  },
+  {
+    "id": "ox-c1-163",
+    "word": "acceptance",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kabul",
+      "es": "aceptación",
+      "fr": "acceptation",
+      "de": "Annahme",
+      "it": "accettazione"
+    }
+  },
+  {
+    "id": "ox-c1-164",
+    "word": "accessible",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "erişilebilir",
+      "es": "accesible",
+      "fr": "accessible",
+      "de": "zugänglich",
+      "it": "accessibile"
+    }
+  },
+  {
+    "id": "ox-c1-165",
+    "word": "accidentally",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "kazara",
+      "es": "accidentalmente",
+      "fr": "accidentellement",
+      "de": "versehentlich",
+      "it": "accidentalmente"
+    }
+  },
+  {
+    "id": "ox-c1-166",
+    "word": "accommodate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "karşılamak",
+      "es": "acomodar",
+      "fr": "accommoder",
+      "de": "unterbringen",
+      "it": "ospitare"
+    }
+  },
+  {
+    "id": "ox-c1-167",
+    "word": "accomplish",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonuçlandırmak",
+      "es": "lograr",
+      "fr": "accomplir",
+      "de": "erreichen",
+      "it": "compiere"
+    }
+  },
+  {
+    "id": "ox-c1-168",
+    "word": "accomplishment",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "başarı",
+      "es": "logro",
+      "fr": "accomplissement",
+      "de": "Leistung",
+      "it": "realizzazione"
+    }
+  },
+  {
+    "id": "ox-c1-169",
+    "word": "accordance",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uygunluk",
+      "es": "conformidad",
+      "fr": "conformité",
+      "de": "Übereinstimmung",
+      "it": "accordo"
+    }
+  },
+  {
+    "id": "ox-c1-170",
+    "word": "accordingly",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "buna göre",
+      "es": "respectivamente",
+      "fr": "par conséquent",
+      "de": "entsprechend",
+      "it": "di conseguenza"
+    }
+  },
+  {
+    "id": "ox-c1-171",
+    "word": "accountability",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sorumluluk",
+      "es": "responsabilidad",
+      "fr": "responsabilité",
+      "de": "Rechenschaftspflicht",
+      "it": "responsabilità"
+    }
+  },
+  {
+    "id": "ox-c1-172",
+    "word": "accountable",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sorumlu",
+      "es": "responsable",
+      "fr": "responsable",
+      "de": "verantwortlich",
+      "it": "responsabile"
+    }
+  },
+  {
+    "id": "ox-c1-173",
+    "word": "accumulation",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "birikim",
+      "es": "acumulación",
+      "fr": "accumulation",
+      "de": "Akkumulation",
+      "it": "accumulo"
+    }
+  },
+  {
+    "id": "ox-c1-174",
+    "word": "accusation",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "suçlama",
+      "es": "acusación",
+      "fr": "accusation",
+      "de": "Anklage",
+      "it": "accusa"
+    }
+  },
+  {
+    "id": "ox-c1-175",
+    "word": "accustomed",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alışılmış",
+      "es": "acostumbrado",
+      "fr": "habitué",
+      "de": "gewohnt",
+      "it": "abituato"
+    }
+  },
+  {
+    "id": "ox-c1-176",
+    "word": "acre",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "dönüm",
+      "es": "acre",
+      "fr": "acre",
+      "de": "Acre",
+      "it": "acro"
+    }
+  },
+  {
+    "id": "ox-c1-177",
+    "word": "activate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "etkinleştir",
+      "es": "activar",
+      "fr": "activer",
+      "de": "aktivieren",
+      "it": "attivare"
+    }
+  },
+  {
+    "id": "ox-c1-178",
+    "word": "activation",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aktivasyon",
+      "es": "activación",
+      "fr": "activation",
+      "de": "Aktivierung",
+      "it": "attivazione"
+    }
+  },
+  {
+    "id": "ox-c1-179",
+    "word": "activist",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "aktivist",
+      "es": "activista",
+      "fr": "activiste",
+      "de": "Aktivist",
+      "it": "attivista"
+    }
+  },
+  {
+    "id": "ox-c1-180",
+    "word": "acute",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "akut",
+      "es": "agudo",
+      "fr": "aigu",
+      "de": "akut",
+      "it": "acuto"
+    }
+  },
+  {
+    "id": "ox-c1-181",
+    "word": "adaptation",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "adaptasyon",
+      "es": "adaptación",
+      "fr": "adaptation",
+      "de": "Anpassung",
+      "it": "adattamento"
+    }
+  },
+  {
+    "id": "ox-c1-182",
+    "word": "adhere",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlı kalmak",
+      "es": "adherirse",
+      "fr": "adhérer",
+      "de": "haften",
+      "it": "aderire"
+    }
+  },
+  {
+    "id": "ox-c1-183",
+    "word": "adjust",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayarlamak",
+      "es": "ajustar",
+      "fr": "ajuster",
+      "de": "anpassen",
+      "it": "regolare"
+    }
+  },
+  {
+    "id": "ox-c1-184",
+    "word": "adjustment",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "ayar",
+      "es": "ajuste",
+      "fr": "ajustement",
+      "de": "Einstellung",
+      "it": "regolazione"
+    }
+  },
+  {
+    "id": "ox-c1-185",
+    "word": "administer",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönetmek",
+      "es": "administrar",
+      "fr": "administrer",
+      "de": "verwalten",
+      "it": "amministrare"
+    }
+  },
+  {
+    "id": "ox-c1-186",
+    "word": "administrative",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "idari",
+      "es": "administrativo",
+      "fr": "administratif",
+      "de": "administrativ",
+      "it": "amministrativo"
+    }
+  },
+  {
+    "id": "ox-c1-187",
+    "word": "administrator",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yönetici",
+      "es": "administrador",
+      "fr": "administrateur",
+      "de": "Administrator",
+      "it": "amministratore"
+    }
+  },
+  {
+    "id": "ox-c1-188",
+    "word": "adoption",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "evlat edinme",
+      "es": "adopción",
+      "fr": "adoption",
+      "de": "Annahme",
+      "it": "adozione"
+    }
+  },
+  {
+    "id": "ox-c1-189",
+    "word": "adverse",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "olumsuz",
+      "es": "adverso",
+      "fr": "négatif",
+      "de": "nachteilig",
+      "it": "avverso"
+    }
+  },
+  {
+    "id": "ox-c1-190",
+    "word": "aesthetic",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "estetik",
+      "es": "estético",
+      "fr": "esthétique",
+      "de": "ästhetisch",
+      "it": "estetico"
+    }
+  },
+  {
+    "id": "ox-c1-191",
+    "word": "affection",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "alaka",
+      "es": "afecto",
+      "fr": "affection",
+      "de": "Zuneigung",
+      "it": "affetto"
+    }
+  },
+  {
+    "id": "ox-c1-192",
+    "word": "affiliate",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "bağlı kuruluş",
+      "es": "filial",
+      "fr": "filiale",
+      "de": "Partner",
+      "it": "affiliato"
+    }
+  },
+  {
+    "id": "ox-c1-193",
+    "word": "affirm",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "onaylamak",
+      "es": "afirmar",
+      "fr": "affirmer",
+      "de": "bestätigen",
+      "it": "affermare"
+    }
+  },
+  {
+    "id": "ox-c1-194",
+    "word": "aftermath",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "sonrası",
+      "es": "secuelas",
+      "fr": "conséquences",
+      "de": "Nachwirkungen",
+      "it": "conseguenze"
+    }
+  },
+  {
+    "id": "ox-c1-195",
+    "word": "aggression",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "saldırganlık",
+      "es": "agresión",
+      "fr": "agression",
+      "de": "Aggression",
+      "it": "aggressione"
+    }
+  },
+  {
+    "id": "ox-c1-196",
+    "word": "agricultural",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "tarımsal",
+      "es": "agrícola",
+      "fr": "agricole",
+      "de": "landwirtschaftlich",
+      "it": "agricolo"
+    }
+  },
+  {
+    "id": "ox-c1-197",
+    "word": "aide",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yardımcı",
+      "es": "ayudante",
+      "fr": "aide",
+      "de": "Berater",
+      "it": "aiutante"
+    }
+  },
+  {
+    "id": "ox-c1-198",
+    "word": "alert",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "uyarı",
+      "es": "alerta",
+      "fr": "alerte",
+      "de": "Alarm",
+      "it": "avviso"
+    }
+  },
+  {
+    "id": "ox-c1-199",
+    "word": "alien",
+    "level": "C1",
+    "isOxford": true,
+    "meanings": {
+      "tr": "yabancı",
+      "es": "extranjero",
+      "fr": "étranger",
+      "de": "Ausländer",
+      "it": "alieno"
+    }
   }
 ];
