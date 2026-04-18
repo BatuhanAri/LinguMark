@@ -59,13 +59,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   chrome.storage.onChanged.addListener((changes, areaName) => {
-    if (areaName === 'sync' && changes.targetLang) {
+    if (areaName === 'local' && changes.targetLang) {
        updateLocalUI(changes.targetLang.newValue);
     }
   });
 
   // Feature 2: Web Röntgen Trigger
   const rontgenBtn = document.getElementById('rontgenBtn');
+  const clearRontgenBtn = document.getElementById('clearRontgenBtn');
   const levelCheckboxes = document.querySelectorAll('.rontgen-lv');
 
   // Handle visual feedback for levels
@@ -99,10 +100,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
       if (tab) {
-        chrome.tabs.sendMessage(tab.id, { 
-          type: "RONTGEN_SCAN", 
-          levels: selectedLevels 
-        });
+        try {
+          chrome.tabs.sendMessage(tab.id, { 
+            type: "RONTGEN_SCAN", 
+            levels: selectedLevels 
+          });
+        } catch(e) {
+          // Content script may not be injected on this particular page (e.g., chrome:// pages)
+          console.warn("LinguMark: Cannot send message to tab.", e);
+        }
         
         // Visual feedback for the button
         const originalText = rontgenBtn.textContent;
@@ -113,6 +119,20 @@ document.addEventListener('DOMContentLoaded', async () => {
           rontgenBtn.classList.remove('bg-purple-600/50');
           window.close(); // Close popup to let user see highlights
         }, 1000);
+      }
+    });
+  }
+
+  if (clearRontgenBtn) {
+    clearRontgenBtn.addEventListener('click', async () => {
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      if (tab) {
+        try {
+          chrome.tabs.sendMessage(tab.id, { type: "CLEAR_SCAN" });
+        } catch(e) {
+          console.warn("LinguMark: Cannot send clear message.", e);
+        }
+        window.close();
       }
     });
   }
