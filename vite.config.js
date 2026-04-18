@@ -14,13 +14,15 @@ export default defineConfig({
         popup: resolve(__dirname, 'index.html'),
         dashboard: resolve(__dirname, 'dashboard.html'),
         background: resolve(__dirname, 'src/background/background.js'),
-        content: resolve(__dirname, 'src/content/content.js'),
+        contentLoader: resolve(__dirname, 'public/content-loader.js'),
+        contentInjected: resolve(__dirname, 'src/content/content-injected.js'),
         contentStyle: resolve(__dirname, 'src/content/content.css'),
       },
       output: {
         entryFileNames: (chunkInfo) => {
           if (chunkInfo.name === 'background') return 'background.js';
-          if (chunkInfo.name === 'content') return 'content.js';
+          if (chunkInfo.name === 'contentLoader') return 'content-loader.js';
+          if (chunkInfo.name === 'contentInjected') return 'content-injected.js';
           return '[name].js';
         },
         assetFileNames: (assetInfo) => {
