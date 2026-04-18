@@ -175,6 +175,11 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       const sup = document.createElement('sup');
       sup.className = 'lingumark-badge';
       sup.textContent = 'L';
+      sup.style.margin = '0';
+      sup.style.padding = '0';
+      sup.style.background = 'none';
+      sup.style.border = 'none';
+      sup.style.display = 'inline';
       span.appendChild(sup);
     } else {
       // Add small level badge for rontgen
