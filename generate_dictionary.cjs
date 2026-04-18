@@ -23,12 +23,24 @@ async function start() {
   const wordLevels = JSON.parse(fs.readFileSync(wordsFile, 'utf8'));
   const langs = ['tr', 'es', 'fr', 'de', 'it'];
   
-  const finalDictionary = [];
+  let finalDictionary = [];
+  try {
+    const content = fs.readFileSync(outFile, 'utf8');
+    const match = content.match(/export const oxfordDictionary = (\[[\s\S]*\]);\s*$/);
+    if (match) {
+       finalDictionary = JSON.parse(match[1]);
+       console.log(`Resuming: found ${finalDictionary.length} already translated words.`);
+    }
+  } catch(e) {}
   
+  const processedWords = new Set(finalDictionary.map(w => w.word));
+
   for (const [level, words] of Object.entries(wordLevels)) {
     console.log(`Processing Level ${level}... (${words.length} words)`);
-    let idx = 1;
+    let idx = finalDictionary.filter(w => w.level === level).length + 1;
     for (const word of words) {
+      if (processedWords.has(word)) continue;
+
       const meanings = {};
       
       // Translate sequentially to avoid 429 Too Many Requests IP Ban (50,000 requests total)
