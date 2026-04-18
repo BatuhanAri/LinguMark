@@ -401,6 +401,28 @@ function renderWordListItems(words, gridElement) {
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
       </button>`;
 
+    const contextHtml = (wordObj.context || wordObj.sourceUrl) ? `
+      <div class="mt-3 flex items-center justify-between pointer-events-auto">
+        ${wordObj.context ? `
+          <div class="group/ctx relative">
+            <button class="p-1 px-2 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 text-[10px] font-bold text-purple-300 transition-colors flex items-center gap-1.5 border border-purple-500/20">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+              ${t('context', currentGameLang)}
+            </button>
+            <div class="absolute bottom-full left-0 mb-2 w-48 p-3 bg-[#0b0e14] border border-white/10 rounded-xl shadow-2xl opacity-0 invisible group-hover/ctx:opacity-100 group-hover/ctx:visible transition-all z-50 pointer-events-none">
+              <p class="text-[11px] text-slate-300 leading-relaxed italic">"${wordObj.context}"</p>
+            </div>
+          </div>
+        ` : '<div></div>'}
+        ${wordObj.sourceUrl ? `
+          <a href="${wordObj.sourceUrl}" target="_blank" class="p-1 px-2 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-[10px] font-bold text-cyan-300 transition-colors flex items-center gap-1.5 border border-cyan-500/20" title="${t('view_source', currentGameLang)}">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            ${t('view_source', currentGameLang)}
+          </a>
+        ` : ''}
+      </div>
+    ` : '';
+
     card.innerHTML = `
       <div class="flex justify-between items-start mb-3 z-10 relative">
         <h3 class="text-xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors flex-1 pr-2 truncate" title="${wordObj.word}">${wordObj.word}</h3>
@@ -413,6 +435,7 @@ function renderWordListItems(words, gridElement) {
       </div>
       <div class="bg-black/40 backdrop-blur-md p-3 rounded-xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none w-full">
         <p class="text-[14px] text-slate-200 font-bold leading-relaxed line-clamp-2 hover:line-clamp-none">${wordObj.meaning}</p>
+        ${contextHtml}
       </div>
     `;
     

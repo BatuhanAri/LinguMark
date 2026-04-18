@@ -63,6 +63,59 @@ document.addEventListener('DOMContentLoaded', async () => {
        updateLocalUI(changes.targetLang.newValue);
     }
   });
+
+  // Feature 2: Web Röntgen Trigger
+  const rontgenBtn = document.getElementById('rontgenBtn');
+  const levelCheckboxes = document.querySelectorAll('.rontgen-lv');
+
+  // Handle visual feedback for levels
+  function updateLevelVisuals() {
+    levelCheckboxes.forEach(cb => {
+      const label = cb.closest('label');
+      if (cb.checked) {
+        label.classList.replace('bg-white/5', 'bg-purple-500/20');
+        label.classList.replace('border-white/5', 'border-purple-400/40');
+        label.querySelector('span').classList.replace('text-slate-400', 'text-purple-200');
+      } else {
+        label.classList.replace('bg-purple-500/20', 'bg-white/5');
+        label.classList.replace('border-purple-400/40', 'border-white/5');
+        label.querySelector('span').classList.replace('text-purple-200', 'text-slate-400');
+      }
+    });
+  }
+
+  levelCheckboxes.forEach(cb => {
+    cb.addEventListener('change', updateLevelVisuals);
+  });
+  updateLevelVisuals(); // Initial state
+
+  if (rontgenBtn) {
+    rontgenBtn.addEventListener('click', async () => {
+      const selectedLevels = Array.from(levelCheckboxes)
+        .filter(cb => cb.checked)
+        .map(cb => cb.value);
+      
+      if (selectedLevels.length === 0) return;
+
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      if (tab) {
+        chrome.tabs.sendMessage(tab.id, { 
+          type: "RONTGEN_SCAN", 
+          levels: selectedLevels 
+        });
+        
+        // Visual feedback for the button
+        const originalText = rontgenBtn.textContent;
+        rontgenBtn.textContent = "TARANIYOR...";
+        rontgenBtn.classList.add('bg-purple-600/50');
+        setTimeout(() => {
+          rontgenBtn.textContent = originalText;
+          rontgenBtn.classList.remove('bg-purple-600/50');
+          window.close(); // Close popup to let user see highlights
+        }, 1000);
+      }
+    });
+  }
 });
 
 function updateSwitchVisuals(isOn) {
