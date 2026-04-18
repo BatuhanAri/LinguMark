@@ -1,18 +1,23 @@
-import { oxfordDictionary } from '../shared/oxford.js';
-
 let isMasterSwitchEnabled = true;
 let savedWords = [];
+let oxfordDictionary = []; // Loaded dynamically via fetch
 
 const tagsToIgnore = new Set([
   'SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA', 'INPUT', 'CODE', 'PRE'
 ]);
 
 async function init() {
-  const syncData = await chrome.storage.local.get(['masterSwitch']);
+  const syncData = await chrome.storage.local.get(['masterSwitch', 'words']);
   isMasterSwitchEnabled = syncData.masterSwitch ?? true;
+  savedWords = syncData.words || [];
 
-  const syncDataWords = await chrome.storage.local.get(['words']);
-  savedWords = syncDataWords.words || [];
+  // Load Oxford Dictionary for Rontgen feature locally (large file)
+  try {
+    const res = await fetch(chrome.runtime.getURL('oxford.json'));
+    oxfordDictionary = await res.json();
+  } catch (e) {
+    console.warn("LinguMark: Failed to load oxford.json", e);
+  }
 
   if (isMasterSwitchEnabled && savedWords.length > 0) {
     highlightWords();

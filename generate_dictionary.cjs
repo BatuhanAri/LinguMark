@@ -68,7 +68,13 @@ async function start() {
 
   const output = `export const oxfordDictionary = ${JSON.stringify(finalDictionary, null, 2)};\n`;
   fs.writeFileSync(outFile, output, 'utf8');
-  console.log(`✅ Dictionary Generation Complete! Successfully wrote ${finalDictionary.length} words to src/shared/oxford.js`);
+  
+  // Also save as JSON in public folder for fetch() support in content scripts
+  const publicDir = path.join(__dirname, 'public');
+  if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir);
+  fs.writeFileSync(path.join(publicDir, 'oxford.json'), JSON.stringify(finalDictionary), 'utf8');
+
+  console.log(`✅ Dictionary Generation Complete! Successfully wrote ${finalDictionary.length} words to src/shared/oxford.js and public/oxford.json`);
 }
 
 start();
