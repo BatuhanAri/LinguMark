@@ -21,7 +21,27 @@ chrome.runtime.onInstalled.addListener(() => {
             console.log("LinguMark: Migrated words from local to sync storage.");
         }
       } else if (syncData.words === undefined) {
-         toSet.words = [];
+         // Test için example kelimeler ekle
+         toSet.words = [
+          {
+            "id": "test-1",
+            "word": "about",
+            "meaning": "hakkında",
+            "lang": "tr",
+            "dateAdded": new Date().toISOString(),
+            "isOxford": true,
+            "context": "Test word"
+          },
+          {
+            "id": "test-2",
+            "word": "learning",
+            "meaning": "öğrenme",
+            "lang": "tr",
+            "dateAdded": new Date().toISOString(),
+            "isOxford": true,
+            "context": "Test word"
+          }
+         ];
       }
 
       if (Object.keys(toSet).length > 0) {
@@ -38,12 +58,26 @@ let lastCapturedData = {
 };
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.type === "GET_STORAGE") {
+    // Content script'ten storage verisi istemi
+    chrome.storage.local.get(['masterSwitch', 'words'], (data) => {
+      const response = {
+        masterSwitch: data.masterSwitch ?? true,
+        words: data.words || []
+      };
+      sendResponse(response);
+    });
+    // Async response için true dön
+    return true;
+  }
+  
   if (message.type === "UPDATE_CONTEXT") {
     lastCapturedData = {
       sentence: message.sentence,
       sourceUrl: message.sourceUrl
     };
   }
+  
   if (message.type === "QUICK_ADD") {
      saveWord(message.word, message.id, message.meanings || {});
   }

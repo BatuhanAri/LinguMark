@@ -3,6 +3,31 @@
 
 console.log("LinguMark: Content-loader script başlatıldı");
 
+// Background'dan storage verilerini al
+async function loadStorageData() {
+  try {
+    const response = await new Promise((resolve, reject) => {
+      chrome.runtime.sendMessage({ type: 'GET_STORAGE' }, (response) => {
+        if (chrome.runtime.lastError) {
+          reject(chrome.runtime.lastError);
+        } else {
+          resolve(response);
+        }
+      });
+    });
+    
+    // Storage verilerini injected script'e gönder
+    window.postMessage({
+      type: 'LINGUMARK_INIT_STORAGE',
+      data: response
+    }, '*');
+    
+    console.log("LinguMark: Storage verileri injected script'e gönderildi");
+  } catch (error) {
+    console.warn("LinguMark: Failed to load storage data:", error);
+  }
+}
+
 // Oxford.json'u önceden yükle ve injected script'e gönder
 async function loadOxfordDict() {
   try {
@@ -30,14 +55,24 @@ window.addEventListener('message', (event) => {
     console.log("LinguMark: Page script'ten mesaj alındı:", event.data);
     
     // Page script'ten gelen mesajı background'a gönder
-    chrome.runtime.sendMessage(event.data, (response) => {
-      // Background'dan cevap gelirse, page script'e ilet
-      window.postMessage({
-        type: 'LINGUMARK_RESPONSE',
-        originalType: event.data.type,
-        response: response
-      }, '*');
-    });
+    try {
+      chrome.runtime.sendMessage(event.data, (response) => {
+        // Service worker restart hatalarını yakala
+        if (chrome.runtime.lastError) {
+          console.warn("LinguMark: Chrome runtime error:", chrome.runtime.lastError);
+          return;
+        }
+        
+        // Background'dan cevap gelirse, page script'e ilet
+        window.postMessage({
+          type: 'LINGUMARK_RESPONSE',
+          originalType: event.data.type,
+          response: response
+        }, '*');
+      });
+    } catch (error) {
+      console.error("LinguMark: Failed to send message to background:", error);
+    }
   }
 });
 
@@ -58,8 +93,9 @@ script.src = chrome.runtime.getURL('content-injected.js');
 script.onload = function() {
   console.log("LinguMark: Content-injected script başarıyla yüklendi");
   this.remove();
-  // Oxford dict'i yükle ve gönder
+  // Oxford dict'i ve storage verilerini yükle
   loadOxfordDict();
+  loadStorageData();
 };
 script.onerror = function() {
   console.error("LinguMark: Content-injected script yükleme hatası");
