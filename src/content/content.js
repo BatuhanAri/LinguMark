@@ -2,6 +2,11 @@ let isMasterSwitchEnabled = true;
 let savedWords = [];
 let oxfordDictionary = []; // Loaded dynamically via fetch
 
+// Verify chrome API is available
+if (typeof chrome === 'undefined') {
+  console.error("LinguMark: Chrome API not available. This script should run as a content script.");
+}
+
 const tagsToIgnore = new Set([
   'SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA', 'INPUT', 'CODE', 'PRE'
 ]);
@@ -44,22 +49,30 @@ window.addEventListener('contextmenu', () => {
   const sentences = fullText.match(/[^\.!\?]+[\.!\?]+/g) || [fullText];
   const sentence = sentences.find(s => s.toLowerCase().includes(selectedText.toLowerCase())) || selectedText;
 
-  chrome.runtime.sendMessage({
-    type: "UPDATE_CONTEXT",
-    sentence: sentence.trim().substring(0, 300), // Limit to 300 chars for safety
-    sourceUrl: window.location.href
-  });
+  try {
+    if (typeof chrome !== 'undefined' && chrome.runtime) {
+      chrome.runtime.sendMessage({
+        type: "UPDATE_CONTEXT",
+        sentence: sentence.trim().substring(0, 300), // Limit to 300 chars for safety
+        sourceUrl: window.location.href
+      });
+    }
+  } catch (error) {
+    console.warn("LinguMark: Failed to send context message:", error);
+  }
 });
 
 // Feature 2: Web Röntgen - Receive scan request
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.type === "RONTGEN_SCAN") {
-    handleRontgenScan(message.levels);
-  }
-  if (message.type === "CLEAR_SCAN") {
-    removeRontgenHighlights();
-  }
-});
+if (typeof chrome !== 'undefined' && chrome.runtime) {
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    if (message.type === "RONTGEN_SCAN") {
+      handleRontgenScan(message.levels);
+    }
+    if (message.type === "CLEAR_SCAN") {
+      removeRontgenHighlights();
+    }
+  });
+}
 
 function removeRontgenHighlights() {
   const marks = document.querySelectorAll('span.lingumark-rontgen');
@@ -89,25 +102,27 @@ function handleRontgenScan(levels) {
   highlightWords(filtered, "rontgen");
 }
 
-chrome.storage.onChanged.addListener((changes, areaName) => {
-  if (areaName === 'local' && changes.masterSwitch) {
-    isMasterSwitchEnabled = changes.masterSwitch.newValue;
-    if (isMasterSwitchEnabled) {
-      highlightWords();
-    } else {
-      removeHighlights();
+if (typeof chrome !== 'undefined' && chrome.storage) {
+  chrome.storage.onChanged.addListener((changes, areaName) => {
+    if (areaName === 'local' && changes.masterSwitch) {
+      isMasterSwitchEnabled = changes.masterSwitch.newValue;
+      if (isMasterSwitchEnabled) {
+        highlightWords();
+      } else {
+        removeHighlights();
+      }
     }
-  }
 
-  // Handle words changes in local
-  if (areaName === 'local' && changes.words) {
-    savedWords = changes.words.newValue || [];
-    if (isMasterSwitchEnabled) {
-      removeHighlights();
-      if (savedWords.length > 0) highlightWords();
+    // Handle words changes in local
+    if (areaName === 'local' && changes.words) {
+      savedWords = changes.words.newValue || [];
+      if (isMasterSwitchEnabled) {
+        removeHighlights();
+        if (savedWords.length > 0) highlightWords();
+      }
     }
-  }
-});
+  });
+}
 
 function removeHighlights() {
   const marks = document.querySelectorAll('span.lingumark-word');
@@ -172,12 +187,18 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Çift tıkla kütüphanene ekle!`;
       span.addEventListener('dblclick', async (e) => {
          e.preventDefault();
-         chrome.runtime.sendMessage({ 
-           type: "QUICK_ADD", 
-           word: wordObjMatch.word, 
-           id: wordObjMatch.id,
-           meanings: wordObjMatch.meanings // Pass all language meanings
-         });
+         try {
+           if (typeof chrome !== 'undefined' && chrome.runtime) {
+             chrome.runtime.sendMessage({ 
+               type: "QUICK_ADD", 
+               word: wordObjMatch.word, 
+               id: wordObjMatch.id,
+               meanings: wordObjMatch.meanings // Pass all language meanings
+             });
+           }
+         } catch (error) {
+           console.warn("LinguMark: Failed to send QUICK_ADD message:", error);
+         }
          showToast(`✓ ${wordObjMatch.word} eklendi!`);
          span.classList.remove('lingumark-rontgen');
          span.classList.add('lingumark-word');
