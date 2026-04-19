@@ -402,20 +402,18 @@ function renderWordListItems(words, gridElement) {
       </button>`;
 
     const contextHtml = (wordObj.context || wordObj.sourceUrl) ? `
-      <div class="mt-3 flex items-center justify-between pointer-events-auto">
+      <div class="mt-4 flex flex-col gap-3 pointer-events-auto">
         ${wordObj.context ? `
-          <div class="group/ctx relative">
-            <button class="p-1 px-2 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 text-[10px] font-bold text-purple-300 transition-colors flex items-center gap-1.5 border border-purple-500/20">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-              ${t('context', currentGameLang)}
-            </button>
-            <div class="absolute bottom-full left-0 mb-2 w-48 p-3 bg-[#0b0e14] border border-white/10 rounded-xl shadow-2xl opacity-0 invisible group-hover/ctx:opacity-100 group-hover/ctx:visible transition-all z-50 pointer-events-none">
-              <p class="text-[11px] text-slate-300 leading-relaxed italic">"${wordObj.context}"</p>
+          <div class="bg-purple-500/5 rounded-xl p-3.5 border border-purple-500/10 group/ctx transition-all hover:bg-purple-500/10">
+            <div class="flex items-center gap-2 mb-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <span class="text-[9px] font-black text-purple-400 uppercase tracking-widest">${t('context', currentGameLang)}</span>
             </div>
+            <p class="text-[12px] text-slate-300 leading-relaxed italic font-medium">"${wordObj.context}"</p>
           </div>
-        ` : '<div></div>'}
+        ` : ''}
         ${wordObj.sourceUrl ? `
-          <a href="${wordObj.sourceUrl}" target="_blank" class="p-1 px-2 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-[10px] font-bold text-cyan-300 transition-colors flex items-center gap-1.5 border border-cyan-500/20" title="${t('view_source', currentGameLang)}">
+          <a href="${wordObj.sourceUrl}" target="_blank" class="w-fit p-1 px-3 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-[10px] font-bold text-cyan-300 transition-colors flex items-center gap-2 border border-cyan-500/20" title="${t('view_source', currentGameLang)}">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
             ${t('view_source', currentGameLang)}
           </a>

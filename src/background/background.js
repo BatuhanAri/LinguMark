@@ -107,7 +107,22 @@ async function saveWord(word, oxfordId, meanings) {
       easeFactor: 2.5
    };
    words.push(newEntry);
-   chrome.storage.local.set({ words });
+   await chrome.storage.local.set({ words });
+
+   // Notification: Instant Highlight Update
+   notifyTabsToReload();
+}
+
+function notifyTabsToReload() {
+  chrome.tabs.query({}, (tabs) => {
+    tabs.forEach(tab => {
+      try {
+        chrome.tabs.sendMessage(tab.id, { type: "RELOAD_HIGHLIGHTS" }, () => {
+          if (chrome.runtime.lastError) { /* ignore tabs without script */ }
+        });
+      } catch (e) { /* ignore */ }
+    });
+  });
 }
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
@@ -164,7 +179,9 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
           words.push(newEntry);
         }
 
-        chrome.storage.local.set({ words: words });
+        chrome.storage.local.set({ words: words }, () => {
+          notifyTabsToReload();
+        });
       });
 
     } catch (error) {

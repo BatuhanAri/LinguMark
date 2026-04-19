@@ -84,6 +84,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     type: 'LINGUMARK_FROM_BACKGROUND',
     data: message
   }, '*');
+
+  // Handle reload highlights specifically
+  if (message.type === "RELOAD_HIGHLIGHTS") {
+     window.postMessage({ type: 'LINGUMARK_RELOAD_REQ' }, '*');
+  }
 });
 
 // Injected script'i DOM'a inject et
