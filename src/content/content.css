@@ -17,6 +17,7 @@
   margin-left: 1px;
   line-height: 1;
   vertical-align: super;
+  transform: translateY(-4px); /* Moved higher */
   text-transform: uppercase;
   font-family: serif; /* Serif style as requested */
   user-select: none;
@@ -72,6 +73,7 @@
   margin-left: 1px;
   user-select: none;
   vertical-align: super;
+  transform: translateY(-4px); /* Moved higher */
   font-family: serif; /* Serif style */
 }
 
