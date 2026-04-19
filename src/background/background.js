@@ -58,7 +58,7 @@ let lastCapturedData = {
 };
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.type === "GET_STORAGE") {
+  if (message.type === "GET_STORAGE" || message.type === "LINGUMARK_GET_STORAGE") {
     // Content script'ten storage verisi istemi
     chrome.storage.local.get(['masterSwitch', 'words'], (data) => {
       const response = {
@@ -71,14 +71,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     return true;
   }
   
-  if (message.type === "UPDATE_CONTEXT") {
+  if (message.type === "UPDATE_CONTEXT" || message.type === "LINGUMARK_UPDATE_CONTEXT") {
     lastCapturedData = {
       sentence: message.sentence,
       sourceUrl: message.sourceUrl
     };
   }
   
-  if (message.type === "QUICK_ADD") {
+  if (message.type === "QUICK_ADD" || message.type === "LINGUMARK_QUICK_ADD") {
      saveWord(message.word, message.id, message.meanings || {});
   }
 });
