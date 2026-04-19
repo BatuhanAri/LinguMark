@@ -56,6 +56,11 @@ window.addEventListener('message', (event) => {
     
     // Page script'ten gelen mesajı background'a gönder
     try {
+      if (event.data.type === 'LINGUMARK_GET_STORAGE_REQ') {
+        loadStorageData(); // Reuse existing storage loader
+        return;
+      }
+
       chrome.runtime.sendMessage(event.data, (response) => {
         // Service worker restart hatalarını yakala
         if (chrome.runtime.lastError) {

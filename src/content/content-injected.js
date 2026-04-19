@@ -34,12 +34,8 @@ window.addEventListener('message', (event) => {
   
   // Instant Reload Request from content-loader (who got it from background)
   if (event.data.type === 'LINGUMARK_RELOAD_REQ') {
-    chrome.storage.local.get(['words'], (data) => {
-      savedWords = data.words || [];
-      updateRegexCache();
-      removeHighlights();
-      highlightWords();
-    });
+    // Page script cannot access storage, ask loader to fetch it
+    window.postMessage({ type: 'LINGUMARK_GET_STORAGE_REQ' }, '*');
   }
   
   // Oxford dictionary'yi content-loader'dan al
@@ -211,7 +207,7 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       sup.textContent = 'L';
       span.appendChild(sup);
     } else {
-      const levelBadge = document.createElement('sub');
+      const levelBadge = document.createElement('sup');
       levelBadge.className = 'rontgen-level-badge';
       levelBadge.textContent = wordObjMatch.level;
       span.appendChild(levelBadge);

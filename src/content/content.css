@@ -1,41 +1,28 @@
 .lingumark-rontgen {
   position: relative;
-  background-color: rgba(168, 85, 247, 0.08); /* Extremely Subtle Purple */
-  border-bottom: none; /* Removed underline */
+  background-color: transparent; /* No background for soft look */
+  border-bottom: none;
   cursor: help;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 0 4px;
-  margin: 0 -2px;
-  border-radius: 6px;
-  box-shadow: 0 0 0 1px rgba(168, 85, 247, 0.05);
+  transition: all 0.3s ease;
 }
 
 .lingumark-rontgen:hover {
-  background-color: rgba(168, 85, 247, 0.15);
-  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.1), 0 0 0 1px rgba(168, 85, 247, 0.2);
+  background-color: rgba(59, 130, 246, 0.05);
 }
 
 .rontgen-level-badge {
-  font-size: 8px;
-  font-weight: 900;
-  background: linear-gradient(135deg, #a855f7, #6366f1);
-  color: white;
-  padding: 1px 4px;
-  border-radius: 4px;
-  margin-left: 3px;
+  font-size: 0.7em;
+  font-weight: 700;
+  color: #0000FF; /* Solid blue */
+  margin-left: 1px;
   line-height: 1;
-  vertical-align: middle;
+  vertical-align: super;
   text-transform: uppercase;
-  opacity: 0.7;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-family: serif; /* Serif style as requested */
+  user-select: none;
 }
 
-.lingumark-rontgen:hover .rontgen-level-badge {
-  opacity: 1;
-  transform: scale(1.1);
-}
-
-/* Toast Notifications */
+/* Toast Notifications - Blue theme */
 .lingumark-toast {
   position: fixed;
   bottom: 40px;
@@ -55,7 +42,6 @@
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   opacity: 0;
   pointer-events: none;
-  letter-spacing: -0.02em;
 }
 
 .lingumark-toast.show {
@@ -63,9 +49,9 @@
   opacity: 1;
 }
 
-/* Saved Word Highlights (Premium Blue 'L' Badge) */
+/* Saved Word Highlights (Premium Solid Blue 'L' Badge) */
 .lingumark-word {
-  border-bottom: none; /* Removed underline */
+  border-bottom: none;
   cursor: pointer;
   transition: all 0.2s ease;
   text-decoration: none !important;
@@ -75,25 +61,17 @@
 }
 
 .lingumark-word:hover {
-  background-color: rgba(34, 211, 238, 0.08);
+  background-color: rgba(59, 130, 246, 0.05);
   border-radius: 4px;
 }
 
 .lingumark-badge {
-  color: #3b82f6;
-  font-weight: 900;
+  color: #0000FF; /* Solid Blue as per image */
+  font-weight: 700;
   font-size: 0.75em;
   margin-left: 1px;
-  opacity: 0.9;
   user-select: none;
-  transition: all 0.2s ease;
   vertical-align: super;
-  text-shadow: 0 0 8px rgba(59, 130, 246, 0.2);
-}
-
-.lingumark-word:hover .lingumark-badge {
-  color: #60a5fa;
-  transform: translateY(-2px) scale(1.1);
-  opacity: 1;
+  font-family: serif; /* Serif style */
 }
 
