@@ -4,6 +4,7 @@
 let isMasterSwitchEnabled = true;
 let savedWords = [];
 let oxfordDictionary = [];
+let precompiledRegex = null;
 
 const tagsToIgnore = new Set([
   'SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA', 'INPUT', 'CODE', 'PRE'
@@ -22,9 +23,7 @@ window.addEventListener('message', (event) => {
   
   if (event.data.type === 'LINGUMARK_FROM_BACKGROUND') {
     const message = event.data.data;
-    console.log("LinguMark: Background'dan mesaj alındı:", message);
     
-    // Background'dan Röntgen scan mesajı geldi
     if (message.type === "RONTGEN_SCAN") {
       handleRontgenScan(message.levels);
     }
@@ -33,10 +32,19 @@ window.addEventListener('message', (event) => {
     }
   }
   
+  // Instant Reload Request from content-loader (who got it from background)
+  if (event.data.type === 'LINGUMARK_RELOAD_REQ') {
+    chrome.storage.local.get(['words'], (data) => {
+      savedWords = data.words || [];
+      updateRegexCache();
+      removeHighlights();
+      highlightWords();
+    });
+  }
+  
   // Oxford dictionary'yi content-loader'dan al
   if (event.data.type === 'LINGUMARK_INIT_OXFORD') {
     oxfordDictionary = event.data.data;
-    console.log("LinguMark: Oxford dictionary yüklendi, kelime sayısı:", oxfordDictionary.length);
     dataLoaded.oxford = true;
     checkAndInit();
   }
@@ -44,11 +52,9 @@ window.addEventListener('message', (event) => {
   // Storage verileri content-loader'dan al
   if (event.data.type === 'LINGUMARK_INIT_STORAGE') {
     const storageData = event.data.data;
-    console.log("LinguMark: Storage verileri alındı:", storageData);
-    
     isMasterSwitchEnabled = storageData.masterSwitch ?? true;
     savedWords = storageData.words || [];
-    
+    updateRegexCache();
     dataLoaded.storage = true;
     checkAndInit();
   }
@@ -60,6 +66,7 @@ window.addEventListener('message', (event) => {
     }
     if (event.data.savedWords) {
       savedWords = event.data.savedWords;
+      updateRegexCache();
       if (isMasterSwitchEnabled && savedWords.length > 0) {
         removeHighlights();
         highlightWords();
@@ -68,17 +75,24 @@ window.addEventListener('message', (event) => {
   }
 });
 
-// Tüm veriler yüklendikten sonra init yap
+function updateRegexCache() {
+  if (!savedWords.length) {
+    precompiledRegex = null;
+    return;
+  }
+  // Sort by length descending to match longer phrases first
+  const sorted = [...savedWords].sort((a, b) => b.word.length - a.word.length);
+  const pattern = sorted.map(w => escapeRegExp(w.word)).join('|');
+  precompiledRegex = new RegExp(`\\b(${pattern})\\b`, 'gi');
+}
+
 function checkAndInit() {
   if (dataLoaded.oxford && dataLoaded.storage) {
     initWithData();
   }
 }
 
-// Gerçek veri ile initialize et
 async function initWithData() {
-  console.log("LinguMark: Init başlatıldı - masterSwitch:", isMasterSwitchEnabled, "savedWords:", savedWords.length);
-  
   if (isMasterSwitchEnabled && savedWords.length > 0) {
     highlightWords();
   }
@@ -101,7 +115,6 @@ window.addEventListener('contextmenu', () => {
   const sentences = fullText.match(/[^\.!\?]+[\.!\?]+/g) || [fullText];
   const sentence = sentences.find(s => s.toLowerCase().includes(selectedText.toLowerCase())) || selectedText;
 
-  // Content-loader aracılığıyla background'a mesaj gönder
   window.postMessage({
     type: "LINGUMARK_UPDATE_CONTEXT",
     sentence: sentence.trim().substring(0, 300),
@@ -134,13 +147,18 @@ function showToast(text) {
 function handleRontgenScan(levels) {
   const filtered = oxfordDictionary.filter(w => levels.includes(w.level));
   highlightWords(filtered, "rontgen");
+  
+  // Notify Loader that scan is complete so Popup can close
+  window.postMessage({ type: "LINGUMARK_SCAN_DONE" }, "*");
 }
 
 function removeHighlights() {
   const marks = document.querySelectorAll('span.lingumark-word');
   marks.forEach(span => {
     const parent = span.parentNode;
-    parent.replaceChild(document.createTextNode(span.textContent.replace(/L$/, '')), span);
+    // Premium remove logic: just keep the primary text node, remove the badge
+    const text = span.childNodes[0].nodeValue;
+    parent.replaceChild(document.createTextNode(text), span);
     parent.normalize();
   });
 }
@@ -149,34 +167,42 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
   const content = node.nodeValue;
   if (!content || !content.trim()) return null;
 
+  let matchArr;
+  let wordObjMatch = null;
   let earliestMatch = null;
   let textMatch = null;
-  let wordObjMatch = null;
 
-  for (const wordObj of wordsToHighlight) {
-    const word = wordObj.word;
-    const regex = new RegExp(`\\b${escapeRegExp(word)}\\b`, 'gi');
-    let matchArr;
-    while ((matchArr = regex.exec(content)) !== null) {
-      if (earliestMatch === null || matchArr.index < earliestMatch) {
-        if (node.parentNode && node.parentNode.classList && node.parentNode.classList.contains('lingumark-word')) continue;
-        
-        earliestMatch = matchArr.index;
-        textMatch = matchArr[0];
-        wordObjMatch = wordObj;
+  if (type === "normal") {
+    if (!precompiledRegex) return null;
+    precompiledRegex.lastIndex = 0;
+    matchArr = precompiledRegex.exec(content);
+    if (matchArr) {
+      earliestMatch = matchArr.index;
+      textMatch = matchArr[0];
+      wordObjMatch = savedWords.find(w => w.word.toLowerCase() === textMatch.toLowerCase());
+    }
+  } else {
+    // For Röntgen, we still use individual check or a temporary regex
+    for (const wordObj of wordsToHighlight) {
+      const regex = new RegExp(`\\b${escapeRegExp(wordObj.word)}\\b`, 'gi');
+      const m = regex.exec(content);
+      if (m) {
+        if (earliestMatch === null || m.index < earliestMatch) {
+          earliestMatch = m.index;
+          textMatch = m[0];
+          wordObjMatch = wordObj;
+        }
       }
     }
   }
 
   if (earliestMatch !== null) {
     const matchLength = textMatch.length;
-    const beforeNode = node;
-    const matchNode = beforeNode.splitText(earliestMatch);
+    const matchNode = node.splitText(earliestMatch);
     const afterNode = matchNode.splitText(matchLength);
 
     const span = document.createElement('span');
     span.className = type === "rontgen" ? 'lingumark-rontgen' : 'lingumark-word';
-    
     span.appendChild(document.createTextNode(matchNode.nodeValue));
 
     if (type === "normal") {
@@ -193,16 +219,26 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Çift tıkla kütüphanene ekle!`;
       span.addEventListener('dblclick', async (e) => {
         e.preventDefault();
-        // Content-loader aracılığıyla background'a mesaj gönder
         window.postMessage({
           type: "LINGUMARK_QUICK_ADD",
           word: wordObjMatch.word,
           id: wordObjMatch.id,
           meanings: wordObjMatch.meanings
         }, '*');
+        
         showToast(`✓ ${wordObjMatch.word} eklendi!`);
+        
+        // INSTANT TRANSITION
         span.classList.remove('lingumark-rontgen');
         span.classList.add('lingumark-word');
+        const sub = span.querySelector('.rontgen-level-badge');
+        if (sub) sub.remove();
+        
+        const sup = document.createElement('sup');
+        sup.className = 'lingumark-badge';
+        sup.textContent = 'L';
+        span.appendChild(sup);
+        span.title = ""; // Clear tooltip
       });
     }
 
@@ -217,25 +253,21 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       if (!isTranslated) {
         span.innerHTML = "";
         span.appendChild(document.createTextNode(translation));
-        span.classList.remove("lingumark-word");
-        span.style.color = "#10b981";
-        span.style.fontWeight = "700";
+        // Keep special styling but remove "L" badge temporarily
+        span.style.color = "#3b82f6";
+        span.style.fontWeight = "900";
         span.style.cursor = "pointer";
-        span.style.textDecoration = "none";
-        span.title = `Original: ${wordObjMatch.word} (Sağ tıkla eski haline döndür)`;
+        span.title = `Orijinal: ${wordObjMatch.word}`;
         isTranslated = true;
       } else {
         span.innerHTML = "";
+        span.style.color = "";
+        span.style.fontWeight = "";
         span.appendChild(document.createTextNode(originalNodeText));
         const sup = document.createElement('sup');
         sup.className = 'lingumark-badge';
         sup.textContent = 'L';
         span.appendChild(sup);
-        span.classList.add("lingumark-word");
-        span.style.color = "";
-        span.style.fontWeight = "";
-        span.style.cursor = "";
-        span.style.textDecoration = "";
         span.title = "";
         isTranslated = false;
       }
@@ -248,7 +280,7 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
 }
 
 function highlightWords(words = savedWords, type = "normal") {
-  if (!words.length) return;
+  if (!words.length && type === "normal") return;
   const walker = document.createTreeWalker(
     document.body,
     NodeFilter.SHOW_TEXT,

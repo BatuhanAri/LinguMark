@@ -1,32 +1,33 @@
 .lingumark-rontgen {
   position: relative;
-  background-color: rgba(147, 51, 234, 0.1); /* Subtle Purple */
-  border-bottom: 2px dashed rgba(168, 85, 247, 0.5);
+  background-color: rgba(168, 85, 247, 0.08); /* Extremely Subtle Purple */
+  border-bottom: none; /* Removed underline */
   cursor: help;
-  transition: all 0.3s ease;
-  padding: 0 2px;
-  border-radius: 4px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 4px;
+  margin: 0 -2px;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgba(168, 85, 247, 0.05);
 }
 
 .lingumark-rontgen:hover {
-  background-color: rgba(147, 51, 234, 0.2);
-  border-bottom-style: solid;
-  border-bottom-color: rgba(168, 85, 247, 0.8);
-  box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+  background-color: rgba(168, 85, 247, 0.15);
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.1), 0 0 0 1px rgba(168, 85, 247, 0.2);
 }
 
 .rontgen-level-badge {
   font-size: 8px;
   font-weight: 900;
-  background: linear-gradient(to tr, #9333ea, #3b82f6);
+  background: linear-gradient(135deg, #a855f7, #6366f1);
   color: white;
-  padding: 1px 3px;
+  padding: 1px 4px;
   border-radius: 4px;
-  margin-left: 2px;
+  margin-left: 3px;
   line-height: 1;
   vertical-align: middle;
   text-transform: uppercase;
-  opacity: 0.8;
+  opacity: 0.7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .lingumark-rontgen:hover .rontgen-level-badge {
@@ -37,23 +38,24 @@
 /* Toast Notifications */
 .lingumark-toast {
   position: fixed;
-  bottom: 32px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%) translateY(100px);
-  background: rgba(15, 23, 42, 0.95);
-  backdrop-filter: blur(12px);
-  color: #a855f7;
-  padding: 12px 24px;
-  border-radius: 16px;
-  border: 1px solid rgba(168, 85, 247, 0.4);
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(16px);
+  color: #3b82f6; 
+  padding: 14px 28px;
+  border-radius: 20px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
   font-family: 'Outfit', sans-serif;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 800;
+  font-size: 15px;
   z-index: 999999;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   opacity: 0;
   pointer-events: none;
+  letter-spacing: -0.02em;
 }
 
 .lingumark-toast.show {
@@ -61,23 +63,37 @@
   opacity: 1;
 }
 
-/* Saved Word Highlights (Blue 'L' Badge) */
+/* Saved Word Highlights (Premium Blue 'L' Badge) */
 .lingumark-word {
-  border-bottom: 2px solid rgba(34, 211, 238, 0.4);
+  border-bottom: none; /* Removed underline */
   cursor: pointer;
   transition: all 0.2s ease;
   text-decoration: none !important;
   position: relative;
+  display: inline-flex;
+  align-items: baseline;
 }
 
 .lingumark-word:hover {
-  color: #67e8f9;
-  border-bottom-color: #22d3ee;
-  background-color: rgba(34, 211, 238, 0.1);
-  border-radius: 2px;
+  background-color: rgba(34, 211, 238, 0.08);
+  border-radius: 4px;
 }
 
 .lingumark-badge {
   color: #3b82f6;
+  font-weight: 900;
+  font-size: 0.75em;
+  margin-left: 1px;
+  opacity: 0.9;
+  user-select: none;
+  transition: all 0.2s ease;
+  vertical-align: super;
+  text-shadow: 0 0 8px rgba(59, 130, 246, 0.2);
+}
+
+.lingumark-word:hover .lingumark-badge {
+  color: #60a5fa;
+  transform: translateY(-2px) scale(1.1);
+  opacity: 1;
 }
 

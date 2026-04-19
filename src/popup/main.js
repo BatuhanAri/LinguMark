@@ -100,25 +100,30 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
       if (tab) {
+        // Prepare listener for scan done signal
+        const doneHandler = (event) => {
+          if (event.data.type === "LINGUMARK_SCAN_DONE") {
+            window.removeEventListener('message', doneHandler);
+            // Scan is really done, we can close
+            window.close();
+          }
+        };
+        window.addEventListener('message', doneHandler);
+
         try {
           chrome.tabs.sendMessage(tab.id, { 
             type: "RONTGEN_SCAN", 
             levels: selectedLevels 
           });
         } catch(e) {
-          // Content script may not be injected on this particular page (e.g., chrome:// pages)
           console.warn("LinguMark: Cannot send message to tab.", e);
+          window.removeEventListener('message', doneHandler);
         }
         
         // Visual feedback for the button
-        const originalText = rontgenBtn.textContent;
         rontgenBtn.textContent = "TARANIYOR...";
         rontgenBtn.classList.add('bg-purple-600/50');
-        setTimeout(() => {
-          rontgenBtn.textContent = originalText;
-          rontgenBtn.classList.remove('bg-purple-600/50');
-          window.close(); // Close popup to let user see highlights
-        }, 1000);
+        rontgenBtn.disabled = true; // Prevent double clicks
       }
     });
   }
