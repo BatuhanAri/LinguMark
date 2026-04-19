@@ -176,6 +176,7 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       sup.style.color = 'blue';
       sup.style.fontFamily = '"Cambria Math", "STIX Two Math", serif';
       sup.style.fontStyle = 'italic';
+      sup.style.fontWeight = 'bold';
       span.appendChild(sup);
     } else {
       // Add small level badge for rontgen
