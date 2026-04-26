@@ -81,6 +81,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === "QUICK_ADD" || message.type === "LINGUMARK_QUICK_ADD") {
      saveWord(message.word, message.id, message.meanings || {});
   }
+
+  if (message.type === "TOGGLE_MENU") {
+    chrome.contextMenus.update("add-to-lingumark", {
+      visible: message.visible
+    });
+  }
 });
 
 async function saveWord(word, oxfordId, meanings) {
@@ -127,23 +133,10 @@ function getWordCount(text) {
 }
 
 /**
- * Dynamic Visibility Handler:
- * Triggered exactly when the context menu is requested.
+ * Dynamic Visibility Handler (Fallback if onShown fails):
+ * Triggered via messages from content scripts.
  */
-chrome.contextMenus.onShown.addListener((info, tab) => {
-  const selection = (info.selectionText || "").trim();
-  const wordCount = getWordCount(selection);
-  const isSingleWord = wordCount === 1;
-
-  chrome.contextMenus.update("add-to-lingumark", {
-    visible: isSingleWord
-  });
-  
-  // Refresh UI state if supported
-  if (typeof chrome.contextMenus.refresh === 'function') {
-    chrome.contextMenus.refresh();
-  }
-});
+// onShown is unreliable in some MV3 environments, we use message-based toggling instead.
 
 function notifyTabsToReload() {
   chrome.tabs.query({}, (tabs) => {
