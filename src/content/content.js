@@ -29,23 +29,24 @@ async function init() {
   }
 }
 
-// Feature 1: Contextual Memory - Capture sentence on right-click
+// Feature 1: Contextual Memory & Context Menu Visibility - Capture sentence on right-click
 window.addEventListener('contextmenu', () => {
+  // 1. Context Menu Visibility Update
+  updateMenuVisibility();
+
+  // 2. Contextual Memory Update
   const selection = window.getSelection();
   if (!selection.rangeCount) return;
 
   const range = selection.getRangeAt(0);
   const container = range.commonAncestorContainer;
   
-  // Find surrounding sentence
-  // We look at the parent element of the selection to find text
   const parent = container.nodeType === 3 ? container.parentNode : container;
   const fullText = parent.innerText || "";
   const selectedText = selection.toString().trim();
   
   if (!selectedText) return;
 
-  // Simple sentence splitter logic
   const sentences = fullText.match(/[^\.!\?]+[\.!\?]+/g) || [fullText];
   const sentence = sentences.find(s => s.toLowerCase().includes(selectedText.toLowerCase())) || selectedText;
 
@@ -53,7 +54,7 @@ window.addEventListener('contextmenu', () => {
     if (typeof chrome !== 'undefined' && chrome.runtime) {
       chrome.runtime.sendMessage({
         type: "UPDATE_CONTEXT",
-        sentence: sentence.trim().substring(0, 300), // Limit to 300 chars for safety
+        sentence: sentence.trim().substring(0, 300), 
         sourceUrl: window.location.href
       });
     }
@@ -61,6 +62,34 @@ window.addEventListener('contextmenu', () => {
     console.warn("LinguMark: Failed to send context message:", error);
   }
 });
+
+/**
+ * Robust word counting logic (Synced with background.js)
+ */
+function getWordCount(text) {
+  if (!text) return 0;
+  const cleanText = text.replace(/[\p{P}\p{S}]/gu, ' ');
+  const tokens = cleanText.trim().split(/\s+/).filter(t => t.length > 0);
+  return tokens.length;
+}
+
+let lastMenuState = null;
+function updateMenuVisibility() {
+  const selection = window.getSelection().toString().trim();
+  const isSingleWord = getWordCount(selection) === 1;
+
+  if (isSingleWord !== lastMenuState) {
+    lastMenuState = isSingleWord;
+    try {
+      if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.id) {
+        chrome.runtime.sendMessage({ type: "TOGGLE_MENU", visible: isSingleWord });
+      }
+    } catch (e) { /* Tab context might be dead */ }
+  }
+}
+
+// Global selection tracking
+document.addEventListener('selectionchange', updateMenuVisibility);
 
 // Feature 2: Web Röntgen - Receive scan request
 if (typeof chrome !== 'undefined' && chrome.runtime) {
