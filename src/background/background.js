@@ -113,6 +113,38 @@ async function saveWord(word, oxfordId, meanings) {
    notifyTabsToReload();
 }
 
+/**
+ * Robust word counting logic:
+ * 1. Remove punctuation using Unicode-safe regex (\p{P} is punctuation, \p{S} is symbols)
+ * 2. Split by whitespace
+ * 3. Filter empty tokens
+ */
+function getWordCount(text) {
+  if (!text) return 0;
+  const cleanText = text.replace(/[\p{P}\p{S}]/gu, ' ');
+  const tokens = cleanText.trim().split(/\s+/).filter(t => t.length > 0);
+  return tokens.length;
+}
+
+/**
+ * Dynamic Visibility Handler:
+ * Triggered exactly when the context menu is requested.
+ */
+chrome.contextMenus.onShown.addListener((info, tab) => {
+  const selection = (info.selectionText || "").trim();
+  const wordCount = getWordCount(selection);
+  const isSingleWord = wordCount === 1;
+
+  chrome.contextMenus.update("add-to-lingumark", {
+    visible: isSingleWord
+  });
+  
+  // Refresh UI state if supported
+  if (typeof chrome.contextMenus.refresh === 'function') {
+    chrome.contextMenus.refresh();
+  }
+});
+
 function notifyTabsToReload() {
   chrome.tabs.query({}, (tabs) => {
     tabs.forEach(tab => {
@@ -127,15 +159,15 @@ function notifyTabsToReload() {
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   if (info.menuItemId === "add-to-lingumark" && info.selectionText) {
-    const word = info.selectionText.trim(); 
+    const rawText = info.selectionText.trim(); 
     
-    if (!word) return;
-    
-    // Single word constraint (Reject multi-word selections like sentences)
-    if (word.split(/\s+/).length > 1) {
-      console.warn("LinguMark: Cannot add multiple words.", word);
+    // Safety check: Final verification before processing
+    if (!rawText || getWordCount(rawText) !== 1) {
+      console.warn("LinguMark: Action cancelled. Only single words can be added.");
       return;
     }
+
+    const word = rawText; 
 
     try {
       const syncData = await chrome.storage.local.get(['targetLang']);
