@@ -20,7 +20,18 @@ chrome.runtime.onInstalled.addListener(() => {
             chrome.storage.local.remove(['words']);
             console.log("LinguMark: Migrated words from local to sync storage.");
         }
-      } else if (syncData.words === undefined) {
+      }
+      
+      // Feature: Migrate words. Delete non-Oxford words (examples), keep Oxford words.
+      if (syncData.words) {
+         const migratedWords = syncData.words.filter(w => w.isOxford);
+         if (migratedWords.length !== syncData.words.length) {
+            toSet.words = migratedWords;
+            console.log("LinguMark: Removed non-Oxford example words.");
+         }
+      }
+      
+      if (!localData.words && !syncData.words) {
          // Test için example kelimeler ekle
          toSet.words = [
           {
@@ -93,8 +104,10 @@ async function saveWord(word, oxfordId, meanings) {
    const syncData = await chrome.storage.local.get(['targetLang', 'words']);
    const targetLang = syncData.targetLang || 'tr';
    const words = syncData.words || [];
-   
-   if (words.some(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === targetLang)) return;
+   // Web Röntgen explicitly only supports English right now.
+   const lang = 'en';
+
+   if (words.some(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === lang)) return;
 
    // Use meanings passed from content script (no dynamic import needed)
    const meaning = (meanings && meanings[targetLang]) || (meanings && meanings['tr']) || '';
@@ -103,7 +116,7 @@ async function saveWord(word, oxfordId, meanings) {
       id: Date.now().toString(),
       word: word.toLowerCase(),
       meaning: meaning,
-      lang: targetLang,
+      lang: lang,
       dateAdded: new Date().toISOString(),
       isOxford: true,
       context: "Added via Web Röntgen",
@@ -169,22 +182,26 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
       const response = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(word)}`);
       
       let meaning = "No translation found.";
+      let detectedLang = 'en'; // default source lang
       if (response.ok) {
         const data = await response.json();
         if (data && data[0] && data[0][0] && data[0][0][0]) {
           meaning = data[0].map(item => item[0]).join(''); 
+        }
+        if (data && data[2]) {
+           detectedLang = data[2];
         }
       }
 
       chrome.storage.local.get({ words: [] }, (result) => {
         const words = result.words;
         
-        const existingIndex = words.findIndex(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === targetLang);
+        const existingIndex = words.findIndex(w => w.word.toLowerCase() === word.toLowerCase() && w.lang === detectedLang);
         const newEntry = {
           id: Date.now().toString(),
           word: word.toLowerCase(),
           meaning: meaning,
-          lang: targetLang,
+          lang: detectedLang,
           dateAdded: new Date().toISOString(),
           // Premium: Contextual Memory fields
           context: (lastCapturedData.sentence && lastCapturedData.sentence.toLowerCase().includes(word.toLowerCase())) ? lastCapturedData.sentence : "",
@@ -206,6 +223,16 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 
         chrome.storage.local.set({ words: words }, () => {
           notifyTabsToReload();
+          // Show toast with language badge to allow edit
+          chrome.tabs.sendMessage(tab.id, {
+             type: "SHOW_SAVE_TOAST",
+             id: newEntry.id,
+             word: newEntry.word,
+             lang: newEntry.lang,
+             meaning: newEntry.meaning
+          }, () => {
+             if (chrome.runtime.lastError) { /* ignore */ }
+          });
         });
       });
 

@@ -9,7 +9,8 @@ import { oxfordDictionary } from '../shared/oxford.js';
 // Global state
 window.linguWords = [];
 let allWords = [];
-let currentGameLang = 'tr';
+let nativeLang = 'tr';
+let learningLang = 'en';
 let currentOxfordLevel = null;
 
 // Pagination state
@@ -70,12 +71,11 @@ let fcCurrentIndex = 0;
 let fcIsFlipped = false;
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const syncData = await chrome.storage.local.get(['targetLang']);
-  currentGameLang = syncData.targetLang || 'tr';
+  const syncData = await chrome.storage.local.get(['targetLang', 'learningLang']);
+  nativeLang = syncData.targetLang || 'tr';
+  learningLang = syncData.learningLang || 'en';
   
-  updateDashUI(currentGameLang);
-  
-  // Toggle Oxford (removed - now handled in initOxford)
+  updateDashUI(nativeLang);
   
   // Lang Dropdown
   dashLangBtn.addEventListener('click', (e) => {
@@ -86,22 +86,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.addEventListener('click', () => {
     dashLangMenu.classList.add('hidden');
   });
-  
-  dashLangOptions.forEach(opt => {
-    opt.addEventListener('click', async (e) => {
-      const val = e.target.getAttribute('data-value');
-      currentGameLang = val;
-      updateDashUI(val);
-      filterAndRefresh(val);
-      await chrome.storage.local.set({ targetLang: val });
-      window.location.reload();
-    });
-  });
 
   // Load Initial Data
   chrome.storage.local.get(['words'], (result) => {
     allWords = result.words || [];
-    filterAndRefresh(currentGameLang);
+    buildLangDropdown();
+    filterAndRefresh(learningLang, nativeLang);
   });
 
   // Navigation Logic
@@ -124,21 +114,46 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.getElementById(targetId).classList.add('flex');
       
       // Re-init apps if needed when switching
-      if (targetId === 'view-matching') initMatch();
-      if (targetId === 'view-quiz') initQuiz();
-      if (targetId === 'view-typing') initTyping();
-      if (targetId === 'view-remember') initRemember(currentGameLang);
-      if (targetId === 'view-oxford') initOxford(currentGameLang);
-      if (targetId === 'view-stats') initStats(currentGameLang);
+      if (targetId === 'view-matching') initMatch(nativeLang);
+      if (targetId === 'view-quiz') initQuiz(nativeLang);
+      if (targetId === 'view-typing') initTyping(nativeLang);
+      if (targetId === 'view-remember') initRemember(nativeLang);
+      if (targetId === 'view-oxford') initOxford(nativeLang);
+      if (targetId === 'view-stats') initStats(nativeLang);
     });
   });
 });
 
+function buildLangDropdown() {
+   const langs = new Set(allWords.map(w => w.lang).filter(Boolean));
+   if (langs.size === 0) langs.add('en');
+   if (!langs.has(learningLang)) learningLang = Array.from(langs)[0] || 'en';
+   
+   const langNames = {
+     en: 'English', es: 'Spanish', fr: 'French', de: 'German', it: 'Italian', tr: 'Turkish', pt: 'Portuguese', ru: 'Russian', zh: 'Chinese', ja: 'Japanese'
+   };
+   
+   dashLangMenu.innerHTML = '';
+   langs.forEach(l => {
+      const btn = document.createElement('button');
+      btn.className = 'dash-lang-option w-full text-left px-4 py-2 text-[11px] font-medium text-slate-300 hover:text-white hover:bg-purple-500/20 transition-all flex items-center justify-between';
+      btn.setAttribute('data-value', l);
+      btn.textContent = langNames[l] || l.toUpperCase();
+      btn.addEventListener('click', async (e) => {
+         const val = e.target.getAttribute('data-value');
+         learningLang = val;
+         dashLangText.textContent = langNames[val] || val.toUpperCase();
+         filterAndRefresh(val, nativeLang);
+         await chrome.storage.local.set({ learningLang: val });
+         dashLangMenu.classList.add('hidden');
+      });
+      dashLangMenu.appendChild(btn);
+   });
+   dashLangText.textContent = langNames[learningLang] || learningLang.toUpperCase();
+}
+
 function updateDashUI(lang) {
-  // Update Selector Text
-  const options = Array.from(dashLangOptions);
-  const selected = options.find(o => o.getAttribute('data-value') === lang);
-  if (selected) dashLangText.textContent = selected.textContent;
+  // Update Selector Text removed because it is handled by buildLangDropdown
 
   // Localize Static Text
   if (navTitle) navTitle.textContent = t('app_title', lang);
@@ -164,8 +179,8 @@ function updateDashUI(lang) {
   if (btnRemembered) btnRemembered.textContent = t('remembered', lang).toUpperCase();
 }
 
-function filterAndRefresh(lang) {
-  window.linguWords = allWords.filter(w => w.lang === lang);
+function filterAndRefresh(learnLang, natLang) {
+  window.linguWords = allWords.filter(w => w.lang === learnLang);
   const wordlistContent = document.getElementById('wordlistContent');
   
   if (window.linguWords.length === 0) {
@@ -177,19 +192,18 @@ function filterAndRefresh(lang) {
     
     // Split rendering
     const customWords = window.linguWords.filter(w => !w.isOxford);
-    const oxfordFound = window.linguWords.filter(w => w.isOxford);
     
     // wordCountBadge should reflect custom words
-    wordCountBadge.textContent = `${customWords.length} ${t('words_count', lang)}`;
-    renderWordListItems(customWords, wordListGrid);
+    wordCountBadge.textContent = `${customWords.length} ${t('words_count', natLang)}`;
+    renderWordListItems(customWords, wordListGrid, natLang);
     setupFlashcard();
     
     // Init others
-    initQuiz(lang);
-    initTyping(lang);
-    initMatch(lang);
-    initRemember(lang);
-    initStats(lang);
+    initQuiz(natLang);
+    initTyping(natLang);
+    initMatch(natLang);
+    initRemember(natLang);
+    initStats(natLang);
   }
 }
 
@@ -363,7 +377,7 @@ function updateOxfordToggleUI() {
 }
 
 // 1. Rendering Word List View
-function renderWordListItems(words, gridElement) {
+function renderWordListItems(words, gridElement, natLang) {
   if(!gridElement) return;
   gridElement.innerHTML = '';
   // Alphabetical sorting
@@ -381,8 +395,8 @@ function renderWordListItems(words, gridElement) {
      document.getElementById('btnPrevMyWords').disabled = myWordsPage === 1;
      document.getElementById('btnNextMyWords').disabled = myWordsPage === totalPages;
      
-     document.getElementById('btnPrevMyWords').onclick = () => { myWordsPage--; renderWordListItems(words, gridElement); };
-     document.getElementById('btnNextMyWords').onclick = () => { myWordsPage++; renderWordListItems(words, gridElement); };
+     document.getElementById('btnPrevMyWords').onclick = () => { myWordsPage--; renderWordListItems(words, gridElement, natLang); };
+     document.getElementById('btnNextMyWords').onclick = () => { myWordsPage++; renderWordListItems(words, gridElement, natLang); };
   }
 
   const paginatedWords = sortedWords.slice((myWordsPage - 1) * ITEMS_PER_PAGE, myWordsPage * ITEMS_PER_PAGE);
@@ -407,15 +421,15 @@ function renderWordListItems(words, gridElement) {
           <div class="bg-purple-500/5 rounded-xl p-3.5 border border-purple-500/10 group/ctx transition-all hover:bg-purple-500/10">
             <div class="flex items-center gap-2 mb-2">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-              <span class="text-[9px] font-black text-purple-400 uppercase tracking-widest">${t('context', currentGameLang)}</span>
+              <span class="text-[9px] font-black text-purple-400 uppercase tracking-widest">${t('context', natLang)}</span>
             </div>
             <p class="text-[12px] text-slate-300 leading-relaxed italic font-medium">"${wordObj.context}"</p>
           </div>
         ` : ''}
         ${wordObj.sourceUrl ? `
-          <a href="${wordObj.sourceUrl}" target="_blank" class="w-fit p-1 px-3 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-[10px] font-bold text-cyan-300 transition-colors flex items-center gap-2 border border-cyan-500/20" title="${t('view_source', currentGameLang)}">
+          <a href="${wordObj.sourceUrl}" target="_blank" class="w-fit p-1 px-3 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-[10px] font-bold text-cyan-300 transition-colors flex items-center gap-2 border border-cyan-500/20" title="${t('view_source', natLang)}">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            ${t('view_source', currentGameLang)}
+            ${t('view_source', natLang)}
           </a>
         ` : ''}
       </div>

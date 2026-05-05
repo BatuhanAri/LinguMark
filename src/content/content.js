@@ -100,6 +100,9 @@ if (typeof chrome !== 'undefined' && chrome.runtime) {
     if (message.type === "CLEAR_SCAN") {
       removeRontgenHighlights();
     }
+    if (message.type === "SHOW_SAVE_TOAST") {
+      showSaveToast(message.word, message.lang, message.id);
+    }
   });
 }
 
@@ -124,6 +127,66 @@ function showToast(text) {
     toast.classList.remove('show');
     setTimeout(() => toast.remove(), 300);
   }, 2500);
+}
+
+function showSaveToast(word, lang, wordId) {
+  // Remove existing toast if any
+  const existing = document.querySelector('.lingumark-toast.interactive');
+  if (existing) existing.remove();
+
+  const toast = document.createElement('div');
+  toast.className = 'lingumark-toast interactive';
+  toast.style.pointerEvents = 'auto'; // allow interacting with select
+  toast.style.zIndex = '2147483647';
+  
+  toast.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start; pointer-events: auto;">
+      <div><span style="font-weight: 900; color: #fff;">${word}</span> eklendi!</div>
+      <div style="font-size: 11px; display: flex; align-items: center; gap: 6px;">
+        <span style="color: #cbd5e1;">Dil (Oto):</span>
+        <select class="lingumark-lang-select" style="background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 4px; padding: 2px 4px; font-size: 11px; cursor: pointer; outline: none; pointer-events: auto;">
+          <option value="en" ${lang === 'en' ? 'selected' : ''}>English</option>
+          <option value="es" ${lang === 'es' ? 'selected' : ''}>Spanish</option>
+          <option value="fr" ${lang === 'fr' ? 'selected' : ''}>French</option>
+          <option value="de" ${lang === 'de' ? 'selected' : ''}>German</option>
+          <option value="it" ${lang === 'it' ? 'selected' : ''}>Italian</option>
+          <option value="tr" ${lang === 'tr' ? 'selected' : ''}>Turkish</option>
+        </select>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(toast);
+  
+  const select = toast.querySelector('.lingumark-lang-select');
+  select.addEventListener('change', (e) => {
+     const newLang = e.target.value;
+     if (typeof chrome !== 'undefined' && chrome.storage) {
+       chrome.storage.local.get(['words'], (res) => {
+          const words = res.words || [];
+          const idx = words.findIndex(w => w.id === wordId);
+          if (idx !== -1) {
+             words[idx].lang = newLang;
+             chrome.storage.local.set({ words });
+             e.target.style.borderColor = '#4ade80';
+             setTimeout(() => { if(e.target) e.target.style.borderColor = 'rgba(255,255,255,0.2)'; }, 1000);
+          }
+       });
+     }
+  });
+
+  setTimeout(() => toast.classList.add('show'), 10);
+  
+  let timeout;
+  const startTimeout = () => {
+    timeout = setTimeout(() => {
+      toast.classList.remove('show');
+      setTimeout(() => toast.remove(), 300);
+    }, 4000);
+  };
+  startTimeout();
+  
+  toast.addEventListener('mouseenter', () => clearTimeout(timeout));
+  toast.addEventListener('mouseleave', startTimeout);
 }
 
 function handleRontgenScan(levels) {
