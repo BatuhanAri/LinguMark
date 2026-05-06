@@ -451,8 +451,8 @@ function renderWordListItems(words, gridElement, natLang) {
     `;
     
     card.addEventListener('click', (e) => {
-      // Ignore click if it was on speaker button
-      if (e.target.closest('.speaker-btn')) return;
+      // Ignore click if it was on speaker button or a link (like view source)
+      if (e.target.closest('.speaker-btn') || e.target.closest('a')) return;
       const searchUrl = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(wordObj.word)}`;
       window.open(searchUrl, '_blank');
     });
