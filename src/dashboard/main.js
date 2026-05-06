@@ -125,16 +125,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function buildLangDropdown() {
-   const langs = new Set(allWords.map(w => w.lang).filter(Boolean));
-   if (langs.size === 0) langs.add('en');
-   if (!langs.has(learningLang)) learningLang = Array.from(langs)[0] || 'en';
+   const supportedLangs = ['en', 'es', 'fr', 'de', 'it', 'tr', 'pt', 'ru', 'zh', 'ja'];
+   if (!supportedLangs.includes(learningLang)) learningLang = 'en';
    
    const langNames = {
      en: 'English', es: 'Spanish', fr: 'French', de: 'German', it: 'Italian', tr: 'Turkish', pt: 'Portuguese', ru: 'Russian', zh: 'Chinese', ja: 'Japanese'
    };
    
    dashLangMenu.innerHTML = '';
-   langs.forEach(l => {
+   supportedLangs.forEach(l => {
       const btn = document.createElement('button');
       btn.className = 'dash-lang-option w-full text-left px-4 py-2 text-[11px] font-medium text-slate-300 hover:text-white hover:bg-purple-500/20 transition-all flex items-center justify-between';
       btn.setAttribute('data-value', l);
