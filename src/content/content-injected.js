@@ -211,59 +211,45 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       levelBadge.className = 'rontgen-level-badge';
       levelBadge.textContent = wordObjMatch.level;
       span.appendChild(levelBadge);
-      
-      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Tıkla kütüphanene ekle!`;
-      span.addEventListener('click', async (e) => {
-        e.preventDefault();
-        window.postMessage({
-          type: "LINGUMARK_QUICK_ADD",
-          word: wordObjMatch.word,
-          id: wordObjMatch.id,
-          meanings: wordObjMatch.meanings
-        }, '*');
-        
-        showToast(`✓ ${wordObjMatch.word} eklendi!`);
-        
-        // INSTANT TRANSITION
-        span.classList.remove('lingumark-rontgen');
-        span.classList.add('lingumark-word');
-        const sub = span.querySelector('.rontgen-level-badge');
-        if (sub) sub.remove();
-        
-        const sup = document.createElement('sup');
-        sup.className = 'lingumark-badge';
-        sup.textContent = 'L';
-        span.appendChild(sup);
-        span.title = ""; // Clear tooltip
-      });
+      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Sağ tıkla çevir, seçerek ekle!`;
     }
 
     let isTranslated = false;
     const originalNodeText = matchNode.nodeValue;
 
     span.addEventListener('contextmenu', (e) => {
-      if (type === "rontgen") return;
+      if (window.getSelection().toString().trim().length > 0) return; // Allow selection menu
       e.preventDefault(); 
       
-      const translation = wordObjMatch.meaning || "Translating...";
+      const translation = wordObjMatch.meaning || (wordObjMatch.meanings && wordObjMatch.meanings['tr']) || "Translating...";
       if (!isTranslated) {
         span.innerHTML = "";
         span.appendChild(document.createTextNode(translation));
         // Keep special styling but remove "L" badge temporarily
+        span.classList.remove('lingumark-word', 'lingumark-rontgen');
         span.style.color = "#3b82f6";
         span.style.fontWeight = "900";
         span.style.cursor = "pointer";
-        span.title = `Orijinal: ${wordObjMatch.word}`;
+        span.title = `Orijinal: ${wordObjMatch.word} (Sağ tıkla eski haline döndür)`;
         isTranslated = true;
       } else {
         span.innerHTML = "";
+        span.appendChild(document.createTextNode(originalNodeText));
+        if (type === "normal") {
+          const sup = document.createElement('sup');
+          sup.className = 'lingumark-badge';
+          sup.textContent = 'L';
+          span.appendChild(sup);
+          span.classList.add('lingumark-word');
+        } else {
+          const levelBadge = document.createElement('sup');
+          levelBadge.className = 'rontgen-level-badge';
+          levelBadge.textContent = wordObjMatch.level;
+          span.appendChild(levelBadge);
+          span.classList.add('lingumark-rontgen');
+        }
         span.style.color = "";
         span.style.fontWeight = "";
-        span.appendChild(document.createTextNode(originalNodeText));
-        const sup = document.createElement('sup');
-        sup.className = 'lingumark-badge';
-        sup.textContent = 'L';
-        span.appendChild(sup);
         span.title = "";
         isTranslated = false;
       }

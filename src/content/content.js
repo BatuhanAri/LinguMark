@@ -277,26 +277,8 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       levelBadge.textContent = wordObjMatch.level;
       span.appendChild(levelBadge);
       
-      // Feature 1.1: Clicking rontgen word opens a quick-save toast or logic
-      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Tıkla kütüphanene ekle!`;
-      span.addEventListener('click', async (e) => {
-         e.preventDefault();
-         try {
-           if (typeof chrome !== 'undefined' && chrome.runtime) {
-             chrome.runtime.sendMessage({ 
-               type: "QUICK_ADD", 
-               word: wordObjMatch.word, 
-               id: wordObjMatch.id,
-               meanings: wordObjMatch.meanings // Pass all language meanings
-             });
-           }
-         } catch (error) {
-           console.warn("LinguMark: Failed to send QUICK_ADD message:", error);
-         }
-         showToast(`✓ ${wordObjMatch.word} eklendi!`);
-         span.classList.remove('lingumark-rontgen');
-         span.classList.add('lingumark-word');
-      });
+      // Feature 1.1: Right click translates, select & right click to add via context menu
+      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Sağ tıkla çevir, seçerek ekle!`;
     }
 
     let isTranslated = false;
@@ -304,15 +286,15 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
 
     // Right Cick Event to transform context
     span.addEventListener('contextmenu', (e) => {
-      if (type === "rontgen") return; // Handled differently
+      if (window.getSelection().toString().trim().length > 0) return; // Allow selection menu
       e.preventDefault(); 
       
-      const translation = wordObjMatch.meaning || "Translating...";
+      const translation = wordObjMatch.meaning || (wordObjMatch.meanings && wordObjMatch.meanings['tr']) || "Translating...";
       
       if (!isTranslated) {
         span.innerHTML = "";
         span.appendChild(document.createTextNode(translation));
-        span.classList.remove('lingumark-word');
+        span.classList.remove('lingumark-word', 'lingumark-rontgen');
         span.style.color = '#10b981'; 
         span.style.fontWeight = '700';
         span.style.cursor = 'pointer';
@@ -322,11 +304,19 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       } else {
         span.innerHTML = "";
         span.appendChild(document.createTextNode(originalNodeText));
-        const sup = document.createElement('sup');
-        sup.className = 'lingumark-badge';
-        sup.textContent = 'L';
-        span.appendChild(sup);
-        span.classList.add('lingumark-word');
+        if (type === "normal") {
+          const sup = document.createElement('sup');
+          sup.className = 'lingumark-badge';
+          sup.textContent = 'L';
+          span.appendChild(sup);
+          span.classList.add('lingumark-word');
+        } else {
+          const levelBadge = document.createElement('sub');
+          levelBadge.className = 'rontgen-level-badge';
+          levelBadge.textContent = wordObjMatch.level;
+          span.appendChild(levelBadge);
+          span.classList.add('lingumark-rontgen');
+        }
         span.style.color = '';
         span.style.fontWeight = '';
         span.style.cursor = '';
