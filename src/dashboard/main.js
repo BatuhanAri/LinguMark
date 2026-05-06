@@ -414,7 +414,6 @@ function renderWordListItems(words, gridElement, natLang) {
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
       </button>`;
 
-    const contextHtml = (wordObj.context || wordObj.sourceUrl) ? `
     const contextHtml = wordObj.context ? `
       <div class="mt-4 flex flex-col gap-3 pointer-events-auto">
         <div class="bg-purple-500/5 rounded-xl p-3.5 border border-purple-500/10 group/ctx transition-all hover:bg-purple-500/10">
