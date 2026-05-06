@@ -13,7 +13,8 @@
     "unlimitedStorage",
     "contextMenus",
     "activeTab",
-    "scripting"
+    "scripting",
+    "identity"
   ],
   "host_permissions": [
     "<all_urls>"
@@ -39,5 +40,12 @@
       "resources": ["content-injected.js", "oxford.json"],
       "matches": ["<all_urls>"]
     }
-  ]
+  ],
+  "oauth2": {
+    "client_id": "889957005532-6mpusls6m38fitio5p5c9j1quebaoh0p.apps.googleusercontent.com",
+    "scopes": [
+      "profile",
+      "email"
+    ]
+  }
 }

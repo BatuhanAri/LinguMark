@@ -13,6 +13,8 @@ export default defineConfig({
       input: {
         popup: resolve(__dirname, 'index.html'),
         dashboard: resolve(__dirname, 'dashboard.html'),
+        premium: resolve(__dirname, 'premium.html'),
+        welcome: resolve(__dirname, 'welcome.html'),
         background: resolve(__dirname, 'src/background/background.js'),
         contentLoader: resolve(__dirname, 'public/content-loader.js'),
         contentInjected: resolve(__dirname, 'src/content/content-injected.js'),
