@@ -1,4 +1,5 @@
 import { t } from '../shared/i18n.js';
+import { checkPremiumStatusAsync } from '../shared/premiumGuard.js';
 import { initQuiz } from './apps/quiz.js';
 import { initTyping } from './apps/typing.js';
 import { initMatch } from './apps/match.js';
@@ -96,8 +97,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // Navigation Logic
   navBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
+    btn.addEventListener('click', async (e) => {
       const targetId = e.currentTarget.getAttribute('data-target');
+
+      if (targetId === 'view-oxford') {
+        const isPremium = await checkPremiumStatusAsync();
+        if (!isPremium) {
+          window.open('premium.html', '_blank');
+          return;
+        }
+      }
 
       // Block games if 0 words, but ALWAYS allow wordlist, oxford, stats
       const allowedEmpty = ['view-wordlist', 'view-oxford', 'view-stats'];

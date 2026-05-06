@@ -1,4 +1,5 @@
 import { t } from '../shared/i18n.js';
+import { checkPremiumStatusAsync } from '../shared/premiumGuard.js';
 const masterSwitch = document.getElementById('masterSwitch');
 const langDropdownBtn = document.getElementById('langDropdownBtn');
 const langDropdownText = document.getElementById('langDropdownText');
@@ -97,6 +98,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         .map(cb => cb.value);
       
       if (selectedLevels.length === 0) return;
+
+      const isPremium = await checkPremiumStatusAsync();
+      if (!isPremium) {
+        chrome.tabs.create({ url: chrome.runtime.getURL('premium.html') });
+        window.close();
+        return;
+      }
 
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
       if (tab) {
