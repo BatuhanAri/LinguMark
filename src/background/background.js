@@ -118,7 +118,7 @@ async function saveWord(word, oxfordId, meanings) {
       meaning: meaning,
       lang: lang,
       dateAdded: new Date().toISOString(),
-      isOxford: true,
+      isOxford: false,
       context: "Added via Web Röntgen",
       sourceUrl: "", 
       nextReviewDate: new Date().toISOString(),

@@ -278,8 +278,8 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       span.appendChild(levelBadge);
       
       // Feature 1.1: Clicking rontgen word opens a quick-save toast or logic
-      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Çift tıkla kütüphanene ekle!`;
-      span.addEventListener('dblclick', async (e) => {
+      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Tıkla kütüphanene ekle!`;
+      span.addEventListener('click', async (e) => {
          e.preventDefault();
          try {
            if (typeof chrome !== 'undefined' && chrome.runtime) {

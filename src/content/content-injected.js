@@ -212,8 +212,8 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       levelBadge.textContent = wordObjMatch.level;
       span.appendChild(levelBadge);
       
-      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Çift tıkla kütüphanene ekle!`;
-      span.addEventListener('dblclick', async (e) => {
+      span.title = `Oxford ${wordObjMatch.level}: ${wordObjMatch.word}. Tıkla kütüphanene ekle!`;
+      span.addEventListener('click', async (e) => {
         e.preventDefault();
         window.postMessage({
           type: "LINGUMARK_QUICK_ADD",
