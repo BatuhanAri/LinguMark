@@ -415,24 +415,32 @@ function renderWordListItems(words, gridElement, natLang) {
       </button>`;
 
     const contextHtml = (wordObj.context || wordObj.sourceUrl) ? `
+    const contextHtml = wordObj.context ? `
       <div class="mt-4 flex flex-col gap-3 pointer-events-auto">
-        ${wordObj.context ? `
-          <div class="bg-purple-500/5 rounded-xl p-3.5 border border-purple-500/10 group/ctx transition-all hover:bg-purple-500/10">
-            <div class="flex items-center gap-2 mb-2">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-              <span class="text-[9px] font-black text-purple-400 uppercase tracking-widest">${t('context', natLang)}</span>
-            </div>
-            <p class="text-[12px] text-slate-300 leading-relaxed italic font-medium">"${wordObj.context}"</p>
+        <div class="bg-purple-500/5 rounded-xl p-3.5 border border-purple-500/10 group/ctx transition-all hover:bg-purple-500/10">
+          <div class="flex items-center gap-2 mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <span class="text-[9px] font-black text-purple-400 uppercase tracking-widest">${t('context', natLang)}</span>
           </div>
-        ` : ''}
+          <p class="text-[12px] text-slate-300 leading-relaxed italic font-medium">"${wordObj.context}"</p>
+        </div>
+      </div>
+    ` : '';
+
+    const buttonsHtml = `
+      <div class="mt-4 flex items-center gap-2 pointer-events-auto">
         ${wordObj.sourceUrl ? `
           <a href="${wordObj.sourceUrl}" target="_blank" class="w-fit p-1 px-3 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-[10px] font-bold text-cyan-300 transition-colors flex items-center gap-2 border border-cyan-500/20" title="${t('view_source', natLang)}">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
             ${t('view_source', natLang)}
           </a>
         ` : ''}
+        <button class="search-img-btn w-fit p-1 px-3 rounded-lg bg-pink-500/10 hover:bg-pink-500/20 text-[10px] font-bold text-pink-300 transition-colors flex items-center gap-2 border border-pink-500/20" data-word="${wordObj.word}" title="Görsellerde Ara">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Araştır
+        </button>
       </div>
-    ` : '';
+    `;
 
     card.innerHTML = `
       <div class="flex justify-between items-start mb-3 z-10 relative">
@@ -447,16 +455,10 @@ function renderWordListItems(words, gridElement, natLang) {
       <div class="bg-black/40 backdrop-blur-md p-3 rounded-xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none w-full">
         <p class="text-[14px] text-slate-200 font-bold leading-relaxed line-clamp-2 hover:line-clamp-none">${wordObj.meaning}</p>
         ${contextHtml}
+        ${buttonsHtml}
       </div>
     `;
     
-    card.addEventListener('click', (e) => {
-      // Ignore click if it was on speaker button or a link (like view source)
-      if (e.target.closest('.speaker-btn') || e.target.closest('a')) return;
-      const searchUrl = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(wordObj.word)}`;
-      window.open(searchUrl, '_blank');
-    });
-
     gridElement.appendChild(card);
   });
   
@@ -478,6 +480,16 @@ function renderWordListItems(words, gridElement, natLang) {
         deleteDashWord(id);
     });
   });
+  
+  // Attach search image event listeners
+  document.querySelectorAll('.search-img-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const word = btn.getAttribute('data-word');
+        const searchUrl = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(word)}`;
+        window.open(searchUrl, '_blank');
+    });
+  });
 }
 
 function deleteDashWord(id) {
@@ -486,7 +498,7 @@ function deleteDashWord(id) {
     words = words.filter(w => w.id !== id);
     chrome.storage.local.set({ words: words }, () => {
        allWords = words;
-       filterAndRefresh(currentGameLang);
+       filterAndRefresh(learningLang, nativeLang);
     });
   });
 }
@@ -566,7 +578,7 @@ function showFlashcard(index) {
 
   if (index >= flashcardWords.length) {
     fcW.textContent = "";
-    fcM.textContent = t('all_done', currentGameLang);
+    fcM.textContent = t('all_done', nativeLang);
     pText.textContent = `${flashcardWords.length} / ${flashcardWords.length}`;
     fcL.textContent = "✓";
     buttons.classList.add('hidden');
@@ -578,7 +590,7 @@ function showFlashcard(index) {
     const returnBtn = document.createElement('button');
     returnBtn.id = 'restartFC';
     returnBtn.className = 'mt-10 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-black py-4 px-12 rounded-[28px] shadow-2xl transition-all hover:scale-105 active:scale-95';
-    returnBtn.textContent = t('back_to_start', currentGameLang).toUpperCase();
+    returnBtn.textContent = t('back_to_start', nativeLang).toUpperCase();
     returnBtn.onclick = () => {
        fcCurrentIndex = 0;
        setupFlashcard();
