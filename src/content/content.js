@@ -1,6 +1,7 @@
 let isMasterSwitchEnabled = true;
 let savedWords = [];
 let oxfordDictionary = []; // Loaded dynamically via fetch
+let targetLang = 'tr';
 
 // Verify chrome API is available
 if (typeof chrome === 'undefined') {
@@ -12,9 +13,10 @@ const tagsToIgnore = new Set([
 ]);
 
 async function init() {
-  const syncData = await chrome.storage.local.get(['masterSwitch', 'words']);
+  const syncData = await chrome.storage.local.get(['masterSwitch', 'words', 'targetLang']);
   isMasterSwitchEnabled = syncData.masterSwitch ?? true;
   savedWords = syncData.words || [];
+  targetLang = syncData.targetLang || 'tr';
 
   // Load Oxford Dictionary for Rontgen feature locally (large file)
   try {
@@ -213,6 +215,10 @@ if (typeof chrome !== 'undefined' && chrome.storage) {
         if (savedWords.length > 0) highlightWords();
       }
     }
+    
+    if (areaName === 'local' && changes.targetLang) {
+      targetLang = changes.targetLang.newValue || 'tr';
+    }
   });
 }
 
@@ -289,7 +295,7 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       if (window.getSelection().toString().trim().length > 0) return; // Allow selection menu
       e.preventDefault(); 
       
-      const translation = wordObjMatch.meaning || (wordObjMatch.meanings && wordObjMatch.meanings['tr']) || "Translating...";
+      const translation = wordObjMatch.meaning || (wordObjMatch.meanings && wordObjMatch.meanings[targetLang]) || (wordObjMatch.meanings && wordObjMatch.meanings['tr']) || "Translating...";
       
       if (!isTranslated) {
         span.innerHTML = "";

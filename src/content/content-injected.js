@@ -5,6 +5,7 @@ let isMasterSwitchEnabled = true;
 let savedWords = [];
 let oxfordDictionary = [];
 let precompiledRegex = null;
+let targetLang = 'tr';
 
 const tagsToIgnore = new Set([
   'SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA', 'INPUT', 'CODE', 'PRE'
@@ -50,6 +51,7 @@ window.addEventListener('message', (event) => {
     const storageData = event.data.data;
     isMasterSwitchEnabled = storageData.masterSwitch ?? true;
     savedWords = storageData.words || [];
+    targetLang = storageData.targetLang || 'tr';
     updateRegexCache();
     dataLoaded.storage = true;
     checkAndInit();
@@ -59,6 +61,9 @@ window.addEventListener('message', (event) => {
   if (event.data.type === 'LINGUMARK_STORAGE_UPDATE') {
     if (event.data.masterSwitch !== undefined) {
       isMasterSwitchEnabled = event.data.masterSwitch;
+    }
+    if (event.data.targetLang !== undefined) {
+      targetLang = event.data.targetLang;
     }
     if (event.data.savedWords) {
       savedWords = event.data.savedWords;
@@ -221,7 +226,7 @@ function processTextNode(node, wordsToHighlight, type = "normal") {
       if (window.getSelection().toString().trim().length > 0) return; // Allow selection menu
       e.preventDefault(); 
       
-      const translation = wordObjMatch.meaning || (wordObjMatch.meanings && wordObjMatch.meanings['tr']) || "Translating...";
+      const translation = wordObjMatch.meaning || (wordObjMatch.meanings && wordObjMatch.meanings[targetLang]) || (wordObjMatch.meanings && wordObjMatch.meanings['tr']) || "Translating...";
       if (!isTranslated) {
         span.innerHTML = "";
         span.appendChild(document.createTextNode(translation));
