@@ -5,6 +5,7 @@ import { initTyping } from './apps/typing.js';
 import { initMatch } from './apps/match.js';
 import { initRemember } from './apps/remember.js';
 import { initStats } from './apps/stats.js';
+import { initFastPath } from './apps/fastpath.js';
 import { oxfordDictionary } from '../shared/oxford.js';
 
 // Global state
@@ -101,7 +102,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const currentBtn = e.currentTarget;
       const targetId = currentBtn.getAttribute('data-target');
 
-      if (targetId === 'view-oxford') {
+      if (targetId === 'view-oxford' || targetId === 'view-fastpath') {
         const isPremium = await checkPremiumStatusAsync();
         if (!isPremium) {
           window.open('premium.html', '_blank');
@@ -109,8 +110,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       }
 
-      // Block games if 0 words, but ALWAYS allow wordlist, oxford, stats
-      const allowedEmpty = ['view-wordlist', 'view-oxford', 'view-stats'];
+      // Block games if 0 words, but ALWAYS allow wordlist, oxford, fastpath, stats
+      const allowedEmpty = ['view-wordlist', 'view-oxford', 'view-fastpath', 'view-stats'];
       if (window.linguWords.length === 0 && !allowedEmpty.includes(targetId)) return;
 
       navBtns.forEach(b => b.classList.remove('active'));
@@ -129,6 +130,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (targetId === 'view-typing') initTyping(nativeLang);
       if (targetId === 'view-remember') initRemember(nativeLang);
       if (targetId === 'view-oxford') initOxford(nativeLang);
+      if (targetId === 'view-fastpath') initFastPath(learningLang, nativeLang);
       if (targetId === 'view-stats') initStats(nativeLang);
     });
   });
