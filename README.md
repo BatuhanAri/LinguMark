@@ -3,13 +3,15 @@
 LinguMark is a modern, lightweight Google Chrome Extension that allows you to easily save and translate words while browsing. 
 
 ## Features
+- **Multi-Language Architecture**: Decoupled UI/Native language from studied languages. Includes automatic source language detection via Google Translate API for highlighted words and language-specific filtering in the dashboard.
+- **SaaS Monetization & Auth**: Integrated Firebase authentication with a robust premium subscription gating mechanism (soft-lock) for advanced features.
+- **Web Röntgen (Premium)**: Advanced webpage scanning and complexity analysis tool, fully integrated with the premium subscription flow.
 - **Learning Center Dashboard**: A dedicated full-page dashboard with gamified learning modules including Flashcards, Typing Practice, Matching Games, and Spaced Repetition (Remember).
-- **Oxford CEFR Vocabulary Library**: Pre-built English vocabulary categorized by CEFR levels (A1, A2, B1, B2, C1) with dynamically tailored multi-language translations. Users can instantly inject entire levels into their personal dictionary.
-- **Unlimited Local Storage**: Built on `chrome.storage.local` with the `unlimitedStorage` permission, completely bypassing the standard 100KB sync quota to support essentially infinite vocabulary words (10,000+ words without a performance hiccup).
-- **0 Cost Translation API**: Uses Google Translate's free endpoint to reliably extract and translate words.
-- **Native Text-To-Speech (Web Speech API)**: Listen to native pronunciations in your target language natively right inside the Learning Center dashboard.
-- **Superscript Highlights**: Marked words appear with a sleek, non-intrusive superscript `L` instead of disruptive background highlights.
-- **Premium UI**: Enjoy a modern, glassmorphic UI integrated with Tailwind CSS v4, dynamic language dropdowns, and high-quality dark mode aesthetics.
+- **Oxford CEFR Vocabulary Library (Premium)**: Pre-built English vocabulary categorized by CEFR levels (A1-C1). Users can inject thousands of curated words directly into their personal dictionary.
+- **Unlimited Local Storage**: Built on `chrome.storage.local` with the `unlimitedStorage` permission, supporting essentially infinite vocabulary words (10,000+ words without performance hiccups).
+- **Native Text-To-Speech (Web Speech API)**: Listen to native pronunciations in your target language right inside the Learning Center.
+- **Superscript Highlights & Context Menu**: Sleek, non-intrusive superscript `L` highlights. Context menu optimized to appear exclusively for single-word selections to prevent clutter.
+- **Premium UI & Onboarding**: Modern, glassmorphic interface built with Tailwind CSS v4. Features a professional welcome onboarding flow and dynamic language dropdowns with high-quality dark mode aesthetics.
 
 ## Installation for Development
 
@@ -32,3 +34,4 @@ LinguMark is a modern, lightweight Google Chrome Extension that allows you to ea
 - Tailwind CSS v4
 - Vanilla JavaScript (ES6+)
 - Google Chrome Manifest V3
+- Firebase (Authentication)
