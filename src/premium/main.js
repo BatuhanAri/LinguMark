@@ -1,4 +1,6 @@
-import { loginWithGoogle, logout, listenAuthState } from '../shared/auth.js';
+import { loginWithGoogle, logout, listenAuthState, auth } from '../shared/auth.js';
+import { db } from '../shared/firebase.js';
+import { doc, updateDoc } from 'firebase/firestore';
 import { checkPremiumStatusAsync } from '../shared/premiumGuard.js';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -48,9 +50,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     // Mock Payment Process for local development
                     setTimeout(async () => {
-                        await chrome.storage.local.set({ isPremium: true });
-                        // A reload will trigger checkPremiumStatusAsync again
-                        window.location.reload();
+                        try {
+                            if (auth.currentUser) {
+                                const userRef = doc(db, 'users', auth.currentUser.uid);
+                                await updateDoc(userRef, { isPremium: true });
+                            }
+                            await chrome.storage.local.set({ isPremium: true });
+                            // A reload will trigger checkPremiumStatusAsync again
+                            window.location.reload();
+                        } catch (err) {
+                            console.error('Ödeme simülasyonunda hata:', err);
+                            btn.innerHTML = originalText;
+                            btn.disabled = false;
+                        }
                     }, 1500);
                 });
                 

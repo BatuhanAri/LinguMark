@@ -36,27 +36,7 @@ chrome.runtime.onInstalled.addListener((details) => {
       }
       
       if (!localData.words && !syncData.words) {
-         // Test için example kelimeler ekle
-         toSet.words = [
-          {
-            "id": "test-1",
-            "word": "about",
-            "meaning": "hakkında",
-            "lang": "tr",
-            "dateAdded": new Date().toISOString(),
-            "isOxford": true,
-            "context": "Test word"
-          },
-          {
-            "id": "test-2",
-            "word": "learning",
-            "meaning": "öğrenme",
-            "lang": "tr",
-            "dateAdded": new Date().toISOString(),
-            "isOxford": true,
-            "context": "Test word"
-          }
-         ];
+         toSet.words = [];
       }
 
       if (Object.keys(toSet).length > 0) {
