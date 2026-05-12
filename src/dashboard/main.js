@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     allWords = result.words || [];
     buildLangDropdown();
     filterAndRefresh(learningLang, nativeLang);
+    updateOxfordTabVisibility(learningLang);
   });
 
   // Navigation Logic
@@ -155,12 +156,31 @@ function buildLangDropdown() {
          learningLang = val;
          dashLangText.textContent = langNames[val] || val.toUpperCase();
          filterAndRefresh(val, nativeLang);
+         updateOxfordTabVisibility(val);
          await chrome.storage.local.set({ learningLang: val });
          dashLangMenu.classList.add('hidden');
       });
       dashLangMenu.appendChild(btn);
    });
    dashLangText.textContent = langNames[learningLang] || learningLang.toUpperCase();
+}
+
+function updateOxfordTabVisibility(lang) {
+  if (tabOxford) {
+    if (lang === 'en') {
+      tabOxford.classList.remove('hidden');
+      tabOxford.classList.add('flex');
+    } else {
+      tabOxford.classList.add('hidden');
+      tabOxford.classList.remove('flex');
+      
+      // If currently on Oxford tab, redirect to wordlist
+      if (tabOxford.classList.contains('active')) {
+         const wordlistBtn = document.getElementById('tab-words');
+         if (wordlistBtn) wordlistBtn.click();
+      }
+    }
+  }
 }
 
 function updateDashUI(lang) {
