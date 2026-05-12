@@ -98,7 +98,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Navigation Logic
   navBtns.forEach(btn => {
     btn.addEventListener('click', async (e) => {
-      const targetId = e.currentTarget.getAttribute('data-target');
+      const currentBtn = e.currentTarget;
+      const targetId = currentBtn.getAttribute('data-target');
 
       if (targetId === 'view-oxford') {
         const isPremium = await checkPremiumStatusAsync();
@@ -113,7 +114,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (window.linguWords.length === 0 && !allowedEmpty.includes(targetId)) return;
 
       navBtns.forEach(b => b.classList.remove('active'));
-      e.currentTarget.classList.add('active');
+      currentBtn.classList.add('active');
 
       appViews.forEach(view => {
         view.classList.add('hidden');
