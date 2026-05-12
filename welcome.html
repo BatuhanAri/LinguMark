@@ -54,9 +54,18 @@
     
     <!-- Left Text Content -->
     <div class="flex-1 text-left">
-      <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 mb-8 shadow-lg">
-        <span class="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse"></span>
-        <span class="text-sm font-bold text-slate-300 tracking-wide">Kurulum Başarılı</span>
+      <div class="flex items-center gap-4 mb-8">
+        <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 shadow-lg">
+          <span class="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse"></span>
+          <span class="text-sm font-bold text-slate-300 tracking-wide">Kurulum Başarılı</span>
+        </div>
+        <select id="nativeLangSelect" class="bg-white/5 border border-white/10 text-slate-300 text-sm font-bold rounded-full px-4 py-2.5 shadow-lg outline-none cursor-pointer hover:bg-white/10 transition-colors focus:border-cyan-500/50">
+          <option value="tr" class="bg-slate-900">🇹🇷 Türkçe</option>
+          <option value="en" class="bg-slate-900">🇬🇧 English</option>
+          <option value="es" class="bg-slate-900">🇪🇸 Español</option>
+          <option value="fr" class="bg-slate-900">🇫🇷 Français</option>
+          <option value="de" class="bg-slate-900">🇩🇪 Deutsch</option>
+        </select>
       </div>
       <h1 class="text-7xl font-black tracking-tighter mb-8 leading-[1.1]">İnternetteki her kelime <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">artık senin kütüphanen.</span></h1>
       <p class="text-2xl text-slate-400 font-medium leading-relaxed mb-12">Makale okurken, haber izlerken veya araştırma yaparken bilmediğin bir kelime mi gördün? Sadece seç, sağ tıkla ve LinguMark'a ekle.</p>
@@ -165,10 +174,23 @@
     const step4 = document.getElementById('step4');
     const testSentence = document.getElementById('testSentence');
     const startBtn = document.getElementById('startBtn');
+    const nativeLangSelect = document.getElementById('nativeLangSelect');
 
     let step3Revealed = false;
     let step4Revealed = false;
     let addedWord = null;
+
+    // Load initial language
+    if (typeof chrome !== 'undefined' && chrome.storage) {
+      chrome.storage.local.get(['targetLang'], (data) => {
+        if (data.targetLang) {
+          nativeLangSelect.value = data.targetLang;
+        }
+      });
+      nativeLangSelect.addEventListener('change', (e) => {
+        chrome.storage.local.set({ targetLang: e.target.value });
+      });
+    }
 
     // Sadece görsel efekt için seçimi dinle
     document.addEventListener('selectionchange', () => {
