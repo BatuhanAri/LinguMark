@@ -11,11 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (isPremium) {
                 authContainer.innerHTML = `
-                    <div class="text-center py-4 rounded-xl bg-green-500/10 border border-green-500/30">
-                        <p class="text-green-400 font-bold mb-1">Premium Aktif!</p>
-                        <p class="text-xs text-green-500/70">${user.email}</p>
+                    <div class="text-center py-8 rounded-2xl bg-gradient-to-b from-green-500/20 to-transparent border border-green-500/40 shadow-[0_0_40px_rgba(34,197,94,0.2)] relative overflow-hidden">
+                        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9IiMzNGQzOTkiIGZpbGwtb3BhY2l0eT0iMC4yIi8+PC9zdmc+')] opacity-50 pointer-events-none"></div>
+                        <div class="w-16 h-16 mx-auto bg-green-500/20 rounded-full flex items-center justify-center mb-4 border border-green-400/50 relative z-10">
+                            <svg class="w-8 h-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                        </div>
+                        <p class="text-2xl text-green-400 font-black mb-1 relative z-10">Premium Aktif!</p>
+                        <p class="text-sm text-green-300/80 font-medium mb-6 relative z-10">${user.email}</p>
+                        <button id="dashboardBtn" class="px-8 py-3 rounded-xl font-bold text-[#0b0e14] bg-green-400 hover:bg-green-300 transition-all shadow-[0_0_20px_rgba(74,222,128,0.4)] relative z-10">
+                            Öğrenmeye Başla
+                        </button>
                     </div>
                 `;
+
+                document.getElementById('dashboardBtn').addEventListener('click', () => {
+                    chrome.tabs.create({ url: chrome.runtime.getURL('dashboard.html') });
+                });
             } else {
                 authContainer.innerHTML = `
                     <p class="text-xs text-slate-400 mb-3 text-center">Giriş yapıldı: ${user.email}</p>
@@ -29,10 +40,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 document.getElementById('buyBtn').addEventListener('click', (e) => {
                     e.preventDefault();
-                    // BURAYA STRIPE/LEMONSQUEEZY LİNKİ GELECEK
-                    // E-posta adresini parametre olarak yolluyoruz ki ödeme sistemi hesabı tanısın
-                    alert('Satın alma sayfasına yönlendirileceksiniz (Entegrasyon Bekleniyor). Kullanıcı: ' + user.email);
-                    // window.open('https://your-payment-link.com?email=' + encodeURIComponent(user.email), '_blank');
+                    
+                    const btn = document.getElementById('buyBtn');
+                    const originalText = btn.innerHTML;
+                    btn.innerHTML = '<span class="animate-pulse">Ödeme İşleniyor...</span>';
+                    btn.disabled = true;
+                    
+                    // Mock Payment Process for local development
+                    setTimeout(async () => {
+                        await chrome.storage.local.set({ isPremium: true });
+                        // A reload will trigger checkPremiumStatusAsync again
+                        window.location.reload();
+                    }, 1500);
                 });
                 
                 document.getElementById('logoutBtn').addEventListener('click', () => {
