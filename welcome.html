@@ -57,7 +57,7 @@
       <div class="flex items-center gap-4 mb-8">
         <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/5 border border-white/10 shadow-lg">
           <span class="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse"></span>
-          <span class="text-sm font-bold text-slate-300 tracking-wide">Kurulum Başarılı</span>
+          <span id="t-success" class="text-sm font-bold text-slate-300 tracking-wide">Kurulum Başarılı</span>
         </div>
         <select id="nativeLangSelect" class="bg-white/5 border border-white/10 text-slate-300 text-sm font-bold rounded-full px-4 py-2.5 shadow-lg outline-none cursor-pointer hover:bg-white/10 transition-colors focus:border-cyan-500/50">
           <option value="tr" class="bg-slate-900">🇹🇷 Türkçe</option>
@@ -67,8 +67,8 @@
           <option value="de" class="bg-slate-900">🇩🇪 Deutsch</option>
         </select>
       </div>
-      <h1 class="text-7xl font-black tracking-tighter mb-8 leading-[1.1]">İnternetteki her kelime <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">artık senin kütüphanen.</span></h1>
-      <p class="text-2xl text-slate-400 font-medium leading-relaxed mb-12">Makale okurken, haber izlerken veya araştırma yaparken bilmediğin bir kelime mi gördün? Sadece seç, sağ tıkla ve LinguMark'a ekle.</p>
+      <h1 id="t-title1" class="text-7xl font-black tracking-tighter mb-8 leading-[1.1]">İnternetteki her kelime <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">artık senin kütüphanen.</span></h1>
+      <p id="t-desc" class="text-2xl text-slate-400 font-medium leading-relaxed mb-12">Makale okurken, haber izlerken veya araştırma yaparken bilmediğin bir kelime mi gördün? Sadece seç, sağ tıkla ve LinguMark'a ekle.</p>
       
       <!-- Step 1 -->
       <div id="step1" class="flex items-center gap-5 mt-10 mb-4 bg-white/[0.03] border border-white/10 rounded-2xl p-5 shadow-2xl backdrop-blur-md transition-all">
@@ -76,8 +76,8 @@
            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-300" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7 1.49 0 2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"/></svg>
         </div>
         <div>
-           <h3 class="text-white font-bold text-lg mb-1">Adım 1: Uzantıyı Sabitleyin</h3>
-           <p class="text-sm text-slate-400 font-medium">Sağ üstteki Yapboz ikonuna tıklayın ve LinguMark'ı sabitleyin (Pin).</p>
+           <h3 id="t-step1-title" class="text-white font-bold text-lg mb-1">Adım 1: Uzantıyı Sabitleyin</h3>
+           <p id="t-step1-desc" class="text-sm text-slate-400 font-medium">Sağ üstteki Yapboz ikonuna tıklayın ve LinguMark'ı sabitleyin (Pin).</p>
         </div>
       </div>
 
@@ -87,8 +87,8 @@
            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
         </div>
         <div class="flex-1">
-           <h3 class="text-white font-bold text-lg mb-2">Adım 2: Kelime Seçin ve Ekleyin</h3>
-           <p class="text-sm text-slate-400 font-medium mb-3">LinguMark'ın nasıl çalıştığını görmek için aşağıdaki test cümlesinden bilmediğiniz bir kelime seçin ve sağtık yaparak add to linguMark seçeneğini seçin.;</p>
+           <h3 id="t-step2-title" class="text-white font-bold text-lg mb-2">Adım 2: Kelime Seçin ve Ekleyin</h3>
+           <p id="t-step2-desc" class="text-sm text-slate-400 font-medium mb-3">LinguMark'ın nasıl çalıştığını görmek için aşağıdaki test cümlesinden bilmediğiniz bir kelime seçin ve sağtık yaparak add to linguMark seçeneğini seçin.;</p>
            <div id="testSentence" class="p-4 bg-black/40 rounded-xl border border-white/5 text-slate-200 font-medium text-sm select-text cursor-text relative overflow-hidden group">
              <div class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
              The universe is full of <span class="text-white font-bold">magical</span> things patiently waiting for our wits to grow sharper.
@@ -102,8 +102,8 @@
            <svg class="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/></svg>
         </div>
         <div>
-           <h3 class="text-cyan-400 font-bold text-lg mb-1">Adım 3: Çeviriyi Görün</h3>
-           <p class="text-sm text-cyan-100/70 font-medium">Harika! Kelime eklendi. Şimdi eklediğiniz kelimeye sağ tıklayarak sayfada nasıl çevrildiğini görün.</p>
+           <h3 id="t-step3-title" class="text-cyan-400 font-bold text-lg mb-1">Adım 3: Çeviriyi Görün</h3>
+           <p id="t-step3-desc" class="text-sm text-cyan-100/70 font-medium">Harika! Kelime eklendi. Şimdi eklediğiniz kelimeye sağ tıklayarak sayfada nasıl çevrildiğini görün.</p>
         </div>
       </div>
 
@@ -111,7 +111,7 @@
       <div id="step4" class="hidden flex-col items-start gap-4 mb-8 mt-4">
         <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-green-500/10 border border-green-500/30 mb-2">
           <span class="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse shadow-[0_0_10px_rgba(74,222,128,0.8)]"></span>
-          <span class="text-sm font-black text-green-400">Tebrikler! Eğitim bitti, artık hazırsınız.</span>
+          <span id="t-step4-desc" class="text-sm font-black text-green-400">Tebrikler! Eğitim bitti, artık hazırsınız.</span>
         </div>
         <button id="startBtn" class="px-10 py-5 rounded-2xl font-black text-lg text-[#0b0e14] bg-gradient-to-r from-cyan-400 to-cyan-300 hover:from-cyan-300 hover:to-cyan-200 transition-all shadow-[0_0_30px_rgba(6,182,212,0.4)] hover:shadow-[0_0_40px_rgba(6,182,212,0.6)] transform hover:-translate-y-1 w-full md:w-auto">
           Dashboard'u Aç ve Öğrenmeye Başla
@@ -139,10 +139,10 @@
 
         <!-- Fake Context Menu -->
         <div class="demo-menu absolute left-[45%] top-[30%] w-56 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl overflow-hidden z-20">
-          <div class="px-4 py-3 text-sm text-slate-400 border-b border-slate-700/50">Kopyala</div>
-          <div class="px-4 py-3 text-sm text-slate-400 border-b border-slate-700/50">Araştır</div>
+          <div id="t-menu-copy" class="px-4 py-3 text-sm text-slate-400 border-b border-slate-700/50">Kopyala</div>
+          <div id="t-menu-search" class="px-4 py-3 text-sm text-slate-400 border-b border-slate-700/50">Araştır</div>
           <div class="px-4 py-3.5 text-sm text-white font-bold bg-cyan-500/20 border-l-4 border-cyan-400 flex items-center justify-between">
-            LinguMark'a Ekle
+            <span id="t-menu-add">LinguMark'a Ekle</span>
             <img src="icons/logo.png" class="w-4 h-4">
           </div>
         </div>
@@ -159,7 +159,7 @@
           </div>
           <div>
             <h4 class="text-white font-bold text-base mb-1.5">ephemeral</h4>
-            <p class="text-cyan-300 text-sm">geçici, kısa ömürlü</p>
+            <p id="t-card-meaning" class="text-cyan-300 text-sm">geçici, kısa ömürlü</p>
           </div>
         </div>
 
@@ -180,15 +180,126 @@
     let step4Revealed = false;
     let addedWord = null;
 
+    const i18n = {
+      tr: {
+        success: "Kurulum Başarılı",
+        title1: "İnternetteki her kelime <br><span class=\"text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500\">artık senin kütüphanen.</span>",
+        desc: "Makale okurken, haber izlerken veya araştırma yaparken bilmediğin bir kelime mi gördün? Sadece seç, sağ tıkla ve LinguMark'a ekle.",
+        step1Title: "Adım 1: Uzantıyı Sabitleyin",
+        step1Desc: "Sağ üstteki Yapboz ikonuna tıklayın ve LinguMark'ı sabitleyin (Pin).",
+        step2Title: "Adım 2: Kelime Seçin ve Ekleyin",
+        step2Desc: "LinguMark'ın nasıl çalıştığını görmek için aşağıdaki test cümlesinden bilmediğiniz bir kelime seçin ve sağtık yaparak add to linguMark seçeneğini seçin.;",
+        step3Title: "Adım 3: Çeviriyi Görün",
+        step3Desc: "Harika! Kelime eklendi. Şimdi eklediğiniz kelimeye sağ tıklayarak sayfada nasıl çevrildiğini görün.",
+        step4Desc: "Tebrikler! Eğitim bitti, artık hazırsınız.",
+        startBtn: "Dashboard'u Aç ve Öğrenmeye Başla",
+        menuCopy: "Kopyala",
+        menuSearch: "Araştır",
+        menuAdd: "LinguMark'a Ekle",
+        cardMeaning: "geçici, kısa ömürlü"
+      },
+      en: {
+        success: "Installation Successful",
+        title1: "Every word on the internet <br><span class=\"text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500\">is now your library.</span>",
+        desc: "Saw an unknown word while reading an article or watching news? Just select it, right-click, and add it to LinguMark.",
+        step1Title: "Step 1: Pin the Extension",
+        step1Desc: "Click the Puzzle icon on the top right and pin LinguMark.",
+        step2Title: "Step 2: Select and Add a Word",
+        step2Desc: "To see how LinguMark works, select an unknown word from the test sentence below and right-click to add it.",
+        step3Title: "Step 3: See the Translation",
+        step3Desc: "Great! Word added. Now right-click on the added word to see how it is translated on the page.",
+        step4Desc: "Congratulations! Training is over, you are ready.",
+        startBtn: "Open Dashboard and Start Learning",
+        menuCopy: "Copy",
+        menuSearch: "Search",
+        menuAdd: "Add to LinguMark",
+        cardMeaning: "transitory, short-lived"
+      },
+      es: {
+        success: "Instalación Exitosa",
+        title1: "Cada palabra en internet <br><span class=\"text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500\">ahora es tu biblioteca.</span>",
+        desc: "¿Viste una palabra desconocida mientras leías un artículo? Solo selecciónala, haz clic derecho y agrégala a LinguMark.",
+        step1Title: "Paso 1: Fija la Extensión",
+        step1Desc: "Haz clic en el icono de Rompecabezas arriba a la derecha y fija LinguMark.",
+        step2Title: "Paso 2: Selecciona y Agrega",
+        step2Desc: "Para ver cómo funciona, selecciona una palabra desconocida de la oración de prueba abajo y haz clic derecho para agregarla.",
+        step3Title: "Paso 3: Mira la Traducción",
+        step3Desc: "¡Genial! Palabra agregada. Ahora haz clic derecho en la palabra agregada para ver su traducción.",
+        step4Desc: "¡Felicidades! El entrenamiento terminó, estás listo.",
+        startBtn: "Abrir Dashboard y Empezar a Aprender",
+        menuCopy: "Copiar",
+        menuSearch: "Buscar",
+        menuAdd: "Agregar a LinguMark",
+        cardMeaning: "efímero, transitorio"
+      },
+      fr: {
+        success: "Installation Réussie",
+        title1: "Chaque mot sur internet <br><span class=\"text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500\">est maintenant votre bibliothèque.</span>",
+        desc: "Vous avez vu un mot inconnu en lisant un article ? Sélectionnez-le, faites un clic droit et ajoutez-le à LinguMark.",
+        step1Title: "Étape 1: Épingler l'Extension",
+        step1Desc: "Cliquez sur l'icône Puzzle en haut à droite et épinglez LinguMark.",
+        step2Title: "Étape 2: Sélectionnez et Ajoutez",
+        step2Desc: "Pour voir comment ça marche, sélectionnez un mot inconnu dans la phrase test ci-dessous et faites un clic droit pour l'ajouter.",
+        step3Title: "Étape 3: Voir la Traduction",
+        step3Desc: "Super ! Mot ajouté. Maintenant, faites un clic droit sur le mot ajouté pour voir comment il est traduit.",
+        step4Desc: "Félicitations ! L'entraînement est terminé, vous êtes prêt.",
+        startBtn: "Ouvrir le Dashboard et Commencer",
+        menuCopy: "Copier",
+        menuSearch: "Rechercher",
+        menuAdd: "Ajouter à LinguMark",
+        cardMeaning: "éphémère, transitoire"
+      },
+      de: {
+        success: "Installation Erfolgreich",
+        title1: "Jedes Wort im Internet <br><span class=\"text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500\">ist jetzt deine Bibliothek.</span>",
+        desc: "Hast du ein unbekanntes Wort in einem Artikel gesehen? Wähle es einfach aus, klicke mit der rechten Maustaste und füge es zu LinguMark hinzu.",
+        step1Title: "Schritt 1: Erweiterung anheften",
+        step1Desc: "Klicke auf das Puzzle-Symbol oben rechts und hefte LinguMark an.",
+        step2Title: "Schritt 2: Auswählen und Hinzufügen",
+        step2Desc: "Um zu sehen, wie es funktioniert, wähle ein unbekanntes Wort aus dem folgenden Testsatz und klicke mit der rechten Maustaste, um es hinzuzufügen.",
+        step3Title: "Schritt 3: Übersetzung ansehen",
+        step3Desc: "Großartig! Wort hinzugefügt. Klicke nun mit der rechten Maustaste auf das hinzugefügte Wort, um die Übersetzung zu sehen.",
+        step4Desc: "Herzlichen Glückwunsch! Das Training ist beendet, du bist bereit.",
+        startBtn: "Dashboard öffnen und loslegen",
+        menuCopy: "Kopieren",
+        menuSearch: "Suchen",
+        menuAdd: "Zu LinguMark hinzufügen",
+        cardMeaning: "vergänglich, kurzlebig"
+      }
+    };
+
+    function updateLanguage(lang) {
+      const texts = i18n[lang] || i18n['en'];
+      document.getElementById('t-success').innerHTML = texts.success;
+      document.getElementById('t-title1').innerHTML = texts.title1;
+      document.getElementById('t-desc').innerHTML = texts.desc;
+      document.getElementById('t-step1-title').innerHTML = texts.step1Title;
+      document.getElementById('t-step1-desc').innerHTML = texts.step1Desc;
+      document.getElementById('t-step2-title').innerHTML = texts.step2Title;
+      document.getElementById('t-step2-desc').innerHTML = texts.step2Desc;
+      document.getElementById('t-step3-title').innerHTML = texts.step3Title;
+      document.getElementById('t-step3-desc').innerHTML = texts.step3Desc;
+      document.getElementById('t-step4-desc').innerHTML = texts.step4Desc;
+      document.getElementById('startBtn').innerText = texts.startBtn;
+      document.getElementById('t-menu-copy').innerHTML = texts.menuCopy;
+      document.getElementById('t-menu-search').innerHTML = texts.menuSearch;
+      document.getElementById('t-menu-add').innerHTML = texts.menuAdd;
+      document.getElementById('t-card-meaning').innerHTML = texts.cardMeaning;
+    }
+
     // Load initial language
     if (typeof chrome !== 'undefined' && chrome.storage) {
       chrome.storage.local.get(['targetLang'], (data) => {
         if (data.targetLang) {
           nativeLangSelect.value = data.targetLang;
+          updateLanguage(data.targetLang);
+        } else {
+          updateLanguage('tr'); // Default to TR
         }
       });
       nativeLangSelect.addEventListener('change', (e) => {
         chrome.storage.local.set({ targetLang: e.target.value });
+        updateLanguage(e.target.value);
       });
     }
 
