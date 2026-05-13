@@ -139,7 +139,7 @@ function playAudio(wordText) {
 async function fetchWordData(word) {
     if (activeLearningLang !== 'en') return null;
     try {
-        const res = await fetch(\`https://api.dictionaryapi.dev/api/v2/entries/en/\${word}\`);
+        const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
         if (!res.ok) return null;
         const data = await res.json();
         let phonetic = data[0].phonetic || '';
@@ -243,10 +243,10 @@ function hideAllZones() {
 }
 
 function setProgress(current, total, phaseName, phaseColor) {
-    document.getElementById('fpModalProgress').textContent = \`\${current} / \${total}\`;
+    document.getElementById('fpModalProgress').textContent = `${current} / ${total}`;
     const badge = document.getElementById('fpPhaseBadge');
     badge.textContent = phaseName;
-    badge.className = \`bg-\${phaseColor}-500/10 text-\${phaseColor}-400 font-black tracking-[0.2em] uppercase text-xs px-4 py-2 rounded-xl border border-\${phaseColor}-500/20\`;
+    badge.className = `bg-${phaseColor}-500/10 text-${phaseColor}-400 font-black tracking-[0.2em] uppercase text-xs px-4 py-2 rounded-xl border border-${phaseColor}-500/20`;
 }
 
 // ================= LEARN PHASE =================
@@ -284,7 +284,7 @@ async function showNextLearn() {
         if (apiData.partOfSpeech) document.getElementById('fpLearnPoS').textContent = apiData.partOfSpeech;
         if (apiData.example) {
             document.getElementById('fpLearnExampleBox').classList.remove('hidden');
-            document.getElementById('fpLearnExample').textContent = \`"\${apiData.example}"\`;
+            document.getElementById('fpLearnExample').textContent = `"${apiData.example}"`;
         }
     }
 }
@@ -401,7 +401,7 @@ function handleAnswer(isCorrect) {
         feedbackOverlay.className = "absolute inset-0 bg-red-900/95 backdrop-blur-xl rounded-[40px] flex flex-col items-center justify-center z-10 transition-all";
         fTitle.textContent = "Yanlış Cevap";
         fTitle.className = "text-5xl font-black text-red-300 tracking-tighter drop-shadow-lg";
-        fSub.textContent = \`Doğrusu: \${ls.currentItem.word}\`;
+        fSub.textContent = `Doğrusu: ${ls.currentItem.word}`;
         fSub.classList.remove('hidden');
         iWron.classList.remove('hidden');
         
@@ -445,7 +445,7 @@ function showResults() {
     const uniqueMistakes = ls.mistakesSet.size;
     const accuracy = ((ls.chunk.length - uniqueMistakes) / ls.chunk.length) * 100;
     
-    accuracyEl.textContent = \`%\${Math.round(accuracy)}\`;
+    accuracyEl.textContent = `%${Math.round(accuracy)}`;
     
     if (accuracy >= 90) {
         title.textContent = "Harika İş Çıkardın!";
