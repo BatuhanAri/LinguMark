@@ -37,15 +37,18 @@ export function initFastPath(learningLang, nativeLang) {
         steps.push(dictionary.slice(i, i + WORDS_PER_STEP));
     }
     
-    chrome.storage.local.get(['fastPathProgress', 'fastPathMistakes'], (result) => {
+    chrome.storage.local.get(['fastPathProgress', 'fastPathMistakes', 'fastPathMistakeHistory'], (result) => {
         let progressObj = result.fastPathProgress || {};
         let currentStepIndex = progressObj[learningLang] || 0; 
         
         let mistakesObj = result.fastPathMistakes || {};
         let mistakesForLang = mistakesObj[learningLang] || [];
         
+        let historyObj = result.fastPathMistakeHistory || {};
+        let historyForLang = historyObj[learningLang] || {};
+        
         updateMistakesUI(mistakesForLang);
-        renderMap(steps, currentStepIndex, learningLang, nativeLang);
+        renderMap(steps, currentStepIndex, historyForLang, learningLang, nativeLang);
     });
 }
 
@@ -67,7 +70,7 @@ function updateMistakesUI(mistakes) {
     }
 }
 
-function renderMap(steps, currentStepIndex, learningLang, nativeLang) {
+function renderMap(steps, currentStepIndex, historyForLang, learningLang, nativeLang) {
     const container = document.getElementById('fastpathContainer');
     container.innerHTML = '';
     
@@ -96,12 +99,19 @@ function renderMap(steps, currentStepIndex, learningLang, nativeLang) {
             iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
         }
         
+        let exclamations = '';
+        if (isCompleted && historyForLang[index] !== undefined) {
+            const m = historyForLang[index];
+            if (m >= 3) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">! !</span>`;
+            else if (m >= 1) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">!</span>`;
+        }
+        
         nodeDiv.innerHTML = `
            <button class="${btnClasses}" title="Adım ${index + 1}">
              ${iconHtml}
            </button>
-           <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg">
-             <span class="text-slate-400 font-bold text-xs tracking-widest uppercase">Adım ${index + 1}</span>
+           <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg flex items-center">
+             <span class="text-slate-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">Adım ${index + 1}</span>${exclamations}
            </div>
         `;
         
@@ -525,15 +535,29 @@ function showResults() {
     
     if (isPass) {
         errorNotice.classList.add('hidden');
-        // Save progress
-        chrome.storage.local.get(['fastPathProgress'], (res) => {
+        // Save progress and history
+        chrome.storage.local.get(['fastPathProgress', 'fastPathMistakeHistory'], (res) => {
             let p = res.fastPathProgress || {};
+            let h = res.fastPathMistakeHistory || {};
+            
+            if (!h[activeLearningLang]) h[activeLearningLang] = {};
+            
+            // Save or update mistake history (keep the best score if replaying)
+            let prevMistakes = h[activeLearningLang][ls.stepIndex];
+            if (prevMistakes === undefined || uniqueMistakes < prevMistakes) {
+                h[activeLearningLang][ls.stepIndex] = uniqueMistakes;
+            }
+            
             // Only advance if this was the latest unlocked step
             if (p[activeLearningLang] === undefined) p[activeLearningLang] = 0;
             if (ls.stepIndex === p[activeLearningLang]) {
                 p[activeLearningLang] = ls.stepIndex + 1;
-                chrome.storage.local.set({ fastPathProgress: p });
             }
+            
+            chrome.storage.local.set({ 
+                fastPathProgress: p,
+                fastPathMistakeHistory: h
+            });
         });
     } else {
         errorNotice.classList.remove('hidden');
