@@ -314,12 +314,12 @@ function showNextTest() {
     document.getElementById('fpTestFeedback').classList.add('hidden');
     document.getElementById('fpTestFeedback').classList.remove('flex');
     
-    // Randomly choose test type: 0 = Choice, 1 = Typing
-    const type = Math.random() > 0.5 ? 1 : 0;
+    // Randomly choose test type: 0 = Reading Choice, 1 = Listening Choice, 2 = Typing
+    const type = Math.floor(Math.random() * 3);
     hideAllZones();
     
-    if (type === 0) {
-        setupTestChoice();
+    if (type === 0 || type === 1) {
+        setupTestChoice(type);
     } else {
         setupTestTyping();
     }
@@ -327,13 +327,24 @@ function showNextTest() {
     playAudio(ls.currentItem.word);
 }
 
-function setupTestChoice() {
+function setupTestChoice(type) {
     const zone = document.getElementById('fpZoneTestChoice');
     zone.classList.remove('hidden');
     zone.classList.add('flex');
     
     const optionsContainer = document.getElementById('fpTestOptions');
+    const wordEl = document.getElementById('fpTestChoiceWord');
+    const promptEl = document.getElementById('fpTestChoicePrompt');
     optionsContainer.innerHTML = '';
+    
+    if (type === 0) {
+        wordEl.textContent = ls.currentItem.word;
+        wordEl.classList.remove('hidden');
+        promptEl.textContent = "Bu kelimenin anlamını seçin";
+    } else {
+        wordEl.classList.add('hidden');
+        promptEl.textContent = "Duyduğunuz kelimeyi seçin";
+    }
     
     let options = [ls.currentItem];
     // Pick 3 random distractors from the whole dictionary
@@ -347,7 +358,7 @@ function setupTestChoice() {
     options.forEach(opt => {
         const btn = document.createElement('button');
         btn.className = "bg-white/5 hover:bg-white/10 border border-white/10 px-8 py-6 rounded-3xl text-xl font-bold text-slate-300 transition-all shadow-lg hover:border-cyan-500/50 hover:text-white hover:scale-105 active:scale-95";
-        btn.textContent = opt.meanings[activeNativeLang] || opt.meanings['tr'];
+        btn.textContent = type === 0 ? (opt.meanings[activeNativeLang] || opt.meanings['tr']) : opt.word;
         btn.onclick = () => handleAnswer(opt.id === ls.currentItem.id);
         optionsContainer.appendChild(btn);
     });
@@ -425,6 +436,8 @@ function nextTestItem() {
 function showResults() {
     ls.currentPhase = 'RESULTS';
     hideAllZones();
+    document.getElementById('fpTestFeedback').classList.add('hidden');
+    document.getElementById('fpTestFeedback').classList.remove('flex');
     document.getElementById('fpZoneResults').classList.remove('hidden');
     document.getElementById('fpZoneResults').classList.add('flex');
     setProgress('-', '-', 'SONUÇ', 'emerald');
