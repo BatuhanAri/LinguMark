@@ -452,7 +452,7 @@ function showResults() {
         errorNotice.classList.add('hidden');
         accuracyEl.className = "text-emerald-400 font-black";
         iconDiv.className = "w-32 h-32 rounded-full bg-gradient-to-tr from-emerald-400 to-teal-400 flex items-center justify-center mb-8 shadow-[0_0_60px_rgba(16,185,129,0.5)]";
-        iconDiv.innerHTML = \`<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>\`;
+        iconDiv.innerHTML = `<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
         
         // Save progress
         chrome.storage.local.get(['fastPathProgress'], (res) => {
@@ -470,7 +470,7 @@ function showResults() {
         errorNotice.classList.remove('hidden');
         accuracyEl.className = "text-red-400 font-black";
         iconDiv.className = "w-32 h-32 rounded-full bg-gradient-to-tr from-red-500 to-orange-500 flex items-center justify-center mb-8 shadow-[0_0_60px_rgba(239,68,68,0.5)]";
-        iconDiv.innerHTML = \`<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>\`;
+        iconDiv.innerHTML = `<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>`;
     }
 }
 
