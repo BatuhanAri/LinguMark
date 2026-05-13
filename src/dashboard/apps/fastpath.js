@@ -160,6 +160,25 @@ async function fetchWordData(word) {
     }
 }
 
+async function fetchWikiImage(word) {
+    if (activeLearningLang !== 'en') return null;
+    try {
+        const res = await fetch(`https://en.wikipedia.org/w/api.php?action=query&titles=${word}&prop=pageimages&format=json&pithumbsize=400&origin=*`);
+        if (!res.ok) return null;
+        const data = await res.json();
+        const pages = data.query?.pages;
+        if (pages) {
+            const pageId = Object.keys(pages)[0];
+            if (pageId !== "-1" && pages[pageId].thumbnail?.source) {
+                return pages[pageId].thumbnail.source;
+            }
+        }
+        return null;
+    } catch(e) {
+        return null;
+    }
+}
+
 function startFixMistakes(mistakesArray) {
     ls.isFixMistakesMode = true;
     ls.chunk = mistakesArray.slice(0, 20); // Test up to 20 mistakes
@@ -276,15 +295,35 @@ async function showNextLearn() {
     document.getElementById('fpLearnPoS').textContent = '';
     document.getElementById('fpLearnExampleBox').classList.add('hidden');
     
+    // reset image
+    const imgContainer = document.getElementById('fpLearnImageContainer');
+    const imgEl = document.getElementById('fpLearnImage');
+    if (imgContainer && imgEl) {
+        imgContainer.classList.add('hidden');
+        imgEl.src = '';
+    }
+    
     playAudio(ls.currentItem.word);
     
-    const apiData = await fetchWordData(ls.currentItem.word);
-    if (apiData && ls.currentPhase === 'LEARN' && ls.currentItem.word === document.getElementById('fpLearnWord').textContent) {
-        if (apiData.phonetic) document.getElementById('fpLearnPhonetic').textContent = apiData.phonetic;
-        if (apiData.partOfSpeech) document.getElementById('fpLearnPoS').textContent = apiData.partOfSpeech;
-        if (apiData.example) {
-            document.getElementById('fpLearnExampleBox').classList.remove('hidden');
-            document.getElementById('fpLearnExample').textContent = `"${apiData.example}"`;
+    // Fetch parallel to save time
+    const [apiData, imgUrl] = await Promise.all([
+        fetchWordData(ls.currentItem.word),
+        fetchWikiImage(ls.currentItem.word)
+    ]);
+    
+    if (ls.currentPhase === 'LEARN' && ls.currentItem.word === document.getElementById('fpLearnWord').textContent) {
+        if (apiData) {
+            if (apiData.phonetic) document.getElementById('fpLearnPhonetic').textContent = apiData.phonetic;
+            if (apiData.partOfSpeech) document.getElementById('fpLearnPoS').textContent = apiData.partOfSpeech;
+            if (apiData.example) {
+                document.getElementById('fpLearnExampleBox').classList.remove('hidden');
+                document.getElementById('fpLearnExample').textContent = `"${apiData.example}"`;
+            }
+        }
+        
+        if (imgUrl && imgContainer && imgEl) {
+            imgEl.src = imgUrl;
+            imgContainer.classList.remove('hidden');
         }
     }
 }
@@ -456,17 +495,36 @@ function showResults() {
     }
     
     const uniqueMistakes = ls.mistakesSet.size;
-    const accuracy = ((ls.chunk.length - uniqueMistakes) / ls.chunk.length) * 100;
+    const isPass = uniqueMistakes <= 4;
     
-    accuracyEl.textContent = `%${Math.round(accuracy)}`;
-    
-    if (accuracy >= 90) {
+    if (uniqueMistakes === 0) {
         title.textContent = "Harika İş Çıkardın!";
-        errorNotice.classList.add('hidden');
+        accuracyEl.innerHTML = "0 Hata";
         accuracyEl.className = "text-emerald-400 font-black";
         iconDiv.className = "w-32 h-32 rounded-full bg-gradient-to-tr from-emerald-400 to-teal-400 flex items-center justify-center mb-8 shadow-[0_0_60px_rgba(16,185,129,0.5)]";
         iconDiv.innerHTML = `<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
-        
+    } else if (uniqueMistakes <= 2) {
+        title.textContent = "Tebrikler!";
+        accuracyEl.innerHTML = `${uniqueMistakes} Hata <span class="text-red-500 font-bold ml-1 text-4xl">!</span>`;
+        accuracyEl.className = "text-emerald-400 font-black flex items-center justify-center";
+        iconDiv.className = "w-32 h-32 rounded-full bg-gradient-to-tr from-emerald-400 to-teal-400 flex items-center justify-center mb-8 shadow-[0_0_60px_rgba(16,185,129,0.5)]";
+        iconDiv.innerHTML = `<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
+    } else if (uniqueMistakes <= 4) {
+        title.textContent = "Zorla Geçtin!";
+        accuracyEl.innerHTML = `${uniqueMistakes} Hata <span class="text-red-500 font-bold ml-1 text-4xl">! !</span>`;
+        accuracyEl.className = "text-orange-400 font-black flex items-center justify-center";
+        iconDiv.className = "w-32 h-32 rounded-full bg-gradient-to-tr from-orange-400 to-yellow-400 flex items-center justify-center mb-8 shadow-[0_0_60px_rgba(249,115,22,0.5)]";
+        iconDiv.innerHTML = `<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>`;
+    } else {
+        title.textContent = "Tekrar Denemelisin!";
+        accuracyEl.innerHTML = `${uniqueMistakes} Hata <span class="text-red-500 font-bold ml-1 text-4xl">! ! !</span>`;
+        accuracyEl.className = "text-red-400 font-black flex items-center justify-center";
+        iconDiv.className = "w-32 h-32 rounded-full bg-gradient-to-tr from-red-500 to-orange-500 flex items-center justify-center mb-8 shadow-[0_0_60px_rgba(239,68,68,0.5)]";
+        iconDiv.innerHTML = `<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>`;
+    }
+    
+    if (isPass) {
+        errorNotice.classList.add('hidden');
         // Save progress
         chrome.storage.local.get(['fastPathProgress'], (res) => {
             let p = res.fastPathProgress || {};
@@ -477,13 +535,8 @@ function showResults() {
                 chrome.storage.local.set({ fastPathProgress: p });
             }
         });
-        
     } else {
-        title.textContent = "Tekrar Denemelisin!";
         errorNotice.classList.remove('hidden');
-        accuracyEl.className = "text-red-400 font-black";
-        iconDiv.className = "w-32 h-32 rounded-full bg-gradient-to-tr from-red-500 to-orange-500 flex items-center justify-center mb-8 shadow-[0_0_60px_rgba(239,68,68,0.5)]";
-        iconDiv.innerHTML = `<svg class="w-16 h-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>`;
     }
 }
 
