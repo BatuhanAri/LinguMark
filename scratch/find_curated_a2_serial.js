@@ -1,4 +1,5 @@
 import fs from 'fs';
+import https from 'https';
 
 const oxfordPath = './src/shared/oxford.js';
 let oxfordContent = fs.readFileSync(oxfordPath, 'utf8');
@@ -8,19 +9,23 @@ if (oxfordContent.endsWith(';')) {
 }
 
 const dictionary = JSON.parse(oxfordContent);
-// We can shuffle a2Words so we get a variety of words, or just go linearly.
 const a2Words = dictionary.filter(w => w.level === 'A2');
 a2Words.sort(() => 0.5 - Math.random());
 
 async function fetchJson(url) {
-    try {
-        const res = await fetch(url, { headers: { 'User-Agent': 'LinguMark/1.0 (batuhan@example.com)' } });
-        if (!res.ok) {
+    while (true) {
+        try {
+            const res = await fetch(url, { headers: { 'User-Agent': 'LinguMark/1.0 (batuhan@example.com)' } });
+            if (res.status === 429) {
+                console.log(`Rate limited on ${url}, waiting 2 seconds...`);
+                await new Promise(r => setTimeout(r, 2000));
+                continue;
+            }
+            if (!res.ok) return null;
+            return await res.json();
+        } catch (e) {
             return null;
         }
-        return await res.json();
-    } catch (e) {
-        return null;
     }
 }
 
@@ -54,34 +59,27 @@ async function fetchWikiImage(word) {
 
 async function processWords() {
     const curatedIds = [];
-    const TARGET_COUNT = 240; 
+    const TARGET_COUNT = 120; // 10 steps
     let checked = 0;
-
-    console.log(`Starting to check ${a2Words.length} words...`);
-
+    
     for (const w of a2Words) {
-        checked++;
         if (curatedIds.length >= TARGET_COUNT) break;
         
-        // Wait 300ms to avoid rate limits
-        await new Promise(r => setTimeout(r, 300));
-        
         const hasExample = await fetchWordData(w.word);
-        if (!hasExample) continue;
+        if (hasExample) {
+            const hasImage = await fetchWikiImage(w.word);
+            if (hasImage) {
+                curatedIds.push(w.id);
+                console.log(`[${curatedIds.length}/${TARGET_COUNT}] Validated: ${w.word}`);
+            }
+        }
         
-        // Wait another 300ms
-        await new Promise(r => setTimeout(r, 300));
-        
-        const hasImage = await fetchWikiImage(w.word);
-        if (!hasImage) continue;
-        
-        // Success
-        curatedIds.push(w.id);
-        console.log(`[${curatedIds.length}/${TARGET_COUNT}] Found: ${w.word} (Checked: ${checked})`);
+        checked++;
+        // Small delay to be polite
+        await new Promise(r => setTimeout(r, 200));
     }
     
-    console.log('Finished processing.');
-    
+    console.log(`Finished processing. Checked ${checked} words.`);
     const outputContent = `export const curatedA2Ids = ${JSON.stringify(curatedIds, null, 2)};`;
     fs.writeFileSync('./src/dashboard/apps/fastpath_curated.js', outputContent);
     console.log('Successfully saved to fastpath_curated.js');
