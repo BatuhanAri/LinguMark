@@ -1,5 +1,6 @@
 import { oxfordDictionary } from '../../shared/oxford.js';
 import { t } from '../../shared/i18n.js';
+import { curatedA2Ids } from './fastpath_curated.js';
 
 let WORDS_PER_STEP = 12;
 
@@ -8,7 +9,7 @@ let activeNativeLang = 'tr';
 
 function getFastPathDictionary(lang) {
     if (lang === 'en') {
-        return oxfordDictionary.filter(w => w.level === 'A2');
+        return oxfordDictionary.filter(w => w.level === 'A2' && curatedA2Ids.includes(w.id));
     }
     return [];
 }
