@@ -1,41 +1,27 @@
 import { oxfordDictionary } from '../../shared/oxford.js';
 import { t } from '../../shared/i18n.js';
-import { curatedA2Ids } from './fastpath_curated.js';
+import { curatedA2Units } from './fastpath_curated.js';
 
 let WORDS_PER_STEP = 12;
 
 let activeLearningLang = 'en';
 let activeNativeLang = 'tr';
 
-function getFastPathDictionary(lang) {
-    if (lang === 'en') {
-        return oxfordDictionary.filter(w => w.level === 'A2' && curatedA2Ids.includes(w.id));
-    }
-    return [];
-}
-
 export function initFastPath(learningLang, nativeLang) {
     activeLearningLang = learningLang;
     activeNativeLang = nativeLang;
     
-    const dictionary = getFastPathDictionary(learningLang);
     const container = document.getElementById('fastpathContainer');
     if (!container) return;
     
     container.innerHTML = '';
     
-    if (dictionary.length === 0) {
+    if (learningLang !== 'en') {
         container.innerHTML = `<div class="text-center text-slate-400 mt-20 flex flex-col items-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-slate-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg>
             Şu an <b>${learningLang.toUpperCase()}</b> dili için FastPath kütüphanesi bulunmuyor.
         </div>`;
         return;
-    }
-    
-    // Chunk words dynamically
-    const steps = [];
-    for (let i = 0; i < dictionary.length; i += WORDS_PER_STEP) {
-        steps.push(dictionary.slice(i, i + WORDS_PER_STEP));
     }
     
     chrome.storage.local.get(['fastPathProgress', 'fastPathMistakes', 'fastPathMistakeHistory'], (result) => {
@@ -49,7 +35,7 @@ export function initFastPath(learningLang, nativeLang) {
         let historyForLang = historyObj[learningLang] || {};
         
         updateMistakesUI(mistakesForLang);
-        renderMap(steps, currentStepIndex, historyForLang, learningLang, nativeLang);
+        renderUnits(curatedA2Units, currentStepIndex, historyForLang, learningLang, nativeLang);
     });
 }
 
@@ -71,58 +57,91 @@ function updateMistakesUI(mistakes) {
     }
 }
 
-function renderMap(steps, currentStepIndex, historyForLang, learningLang, nativeLang) {
+function renderUnits(units, currentStepIndex, historyForLang, learningLang, nativeLang) {
     const container = document.getElementById('fastpathContainer');
     container.innerHTML = '';
     
-    steps.forEach((chunk, index) => {
-        const isLocked = index > currentStepIndex;
-        const isActive = index === currentStepIndex;
-        const isCompleted = index < currentStepIndex;
-        
-        const offset = Math.sin(index * 0.8) * 120;
-        
-        const nodeDiv = document.createElement('div');
-        nodeDiv.className = 'relative flex items-center justify-center my-4';
-        nodeDiv.style.transform = `translateX(${offset}px)`;
-        
-        let btnClasses = "w-20 h-20 rounded-full flex items-center justify-center font-black text-2xl transition-all shadow-xl z-10 border-[6px] ";
-        let iconHtml = '';
-        
-        if (isActive) {
-            btnClasses += "bg-purple-500 border-purple-300 text-white animate-pulse shadow-[0_0_30px_rgba(168,85,247,0.8)] cursor-pointer hover:scale-110";
-            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>`;
-        } else if (isCompleted) {
-            btnClasses += "bg-emerald-500 border-emerald-300 text-white shadow-[0_0_20px_rgba(16,185,129,0.5)] cursor-pointer hover:scale-105";
-            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
-        } else {
-            btnClasses += "bg-[#1e232e] border-slate-700 text-slate-500 cursor-not-allowed";
-            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
-        }
-        
-        let exclamations = '';
-        if (isCompleted && historyForLang[index] !== undefined) {
-            const m = historyForLang[index];
-            if (m >= 3) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">! !</span>`;
-            else if (m >= 1) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">!</span>`;
-        }
-        
-        nodeDiv.innerHTML = `
-           <button class="${btnClasses}" title="Adım ${index + 1}">
-             ${iconHtml}
-           </button>
-           <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg flex items-center">
-             <span class="text-slate-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">Adım ${index + 1}</span>${exclamations}
-           </div>
+    let globalStepCounter = 0;
+
+    units.forEach((unit, unitIdx) => {
+        // Render Unit Header
+        const header = document.createElement('div');
+        header.className = "w-full max-w-md mx-auto mt-12 mb-8 p-6 bg-white/5 border border-white/10 rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group";
+        header.innerHTML = `
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-16 h-16 bg-gradient-to-tr from-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg z-10">
+                ${unit.icon}
+            </div>
+            <div class="flex flex-col z-10 text-left">
+                <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">ÜNİTE ${unitIdx + 1}</span>
+                <h3 class="text-xl font-bold text-white tracking-tight">${unit.title}</h3>
+            </div>
         `;
-        
-        if (!isLocked) {
-            nodeDiv.querySelector('button').addEventListener('click', () => {
-                startLesson(chunk, index, false);
-            });
+        container.appendChild(header);
+
+        // Chunk words in this unit into steps
+        const unitWords = unit.ids.map(id => oxfordDictionary.find(x => x.id === id)).filter(Boolean);
+        const unitSteps = [];
+        for (let i = 0; i < unitWords.length; i += WORDS_PER_STEP) {
+            unitSteps.push(unitWords.slice(i, i + WORDS_PER_STEP));
         }
-        
-        container.appendChild(nodeDiv);
+
+        unitSteps.forEach((chunk, stepIdx) => {
+            const index = globalStepCounter;
+            const isLocked = index > currentStepIndex;
+            const isActive = index === currentStepIndex;
+            const isCompleted = index < currentStepIndex;
+            
+            const offset = Math.sin(index * 0.8) * 120;
+            
+            const nodeDiv = document.createElement('div');
+            nodeDiv.className = 'relative flex items-center justify-center my-4 w-full';
+            
+            // Inner wrapper for offset
+            const innerNode = document.createElement('div');
+            innerNode.className = 'relative flex items-center justify-center';
+            innerNode.style.transform = `translateX(${offset}px)`;
+            
+            let btnClasses = "w-20 h-20 rounded-full flex items-center justify-center font-black text-2xl transition-all shadow-xl z-10 border-[6px] ";
+            let iconHtml = '';
+            
+            if (isActive) {
+                btnClasses += "bg-purple-500 border-purple-300 text-white animate-pulse shadow-[0_0_30px_rgba(168,85,247,0.8)] cursor-pointer hover:scale-110";
+                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>`;
+            } else if (isCompleted) {
+                btnClasses += "bg-emerald-500 border-emerald-300 text-white shadow-[0_0_20px_rgba(16,185,129,0.5)] cursor-pointer hover:scale-105";
+                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
+            } else {
+                btnClasses += "bg-[#1e232e] border-slate-700 text-slate-500 cursor-not-allowed";
+                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
+            }
+            
+            let exclamations = '';
+            if (isCompleted && historyForLang[index] !== undefined) {
+                const m = historyForLang[index];
+                if (m >= 3) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">! !</span>`;
+                else if (m >= 1) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">!</span>`;
+            }
+            
+            innerNode.innerHTML = `
+               <button class="${btnClasses}" title="Adım ${index + 1}">
+                 ${iconHtml}
+               </button>
+               <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg flex items-center">
+                 <span class="text-slate-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">Adım ${index + 1}</span>${exclamations}
+               </div>
+            `;
+            
+            if (!isLocked) {
+                innerNode.querySelector('button').addEventListener('click', () => {
+                    startLesson(chunk, index, false);
+                });
+            }
+            
+            nodeDiv.appendChild(innerNode);
+            container.appendChild(nodeDiv);
+            globalStepCounter++;
+        });
     });
 }
 
