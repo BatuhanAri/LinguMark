@@ -1,151 +1,207 @@
-import { oxfordDictionary } from '../../shared/oxford.js';
+import { loadLevelData } from './fastpath_data.js';
+import { getLocalProgress, updateLevelProgress, setActiveLevel } from './fastpath_sync.js';
+import { LEVELS, CDN_BASE, IMAGE_TIMEOUT, PREFETCH_AHEAD, WORDS_PER_UNIT } from '../../shared/constants.js';
 import { t } from '../../shared/i18n.js';
-import { curatedA2Units } from './fastpath_curated.js';
+import { isUserPremium } from '../../shared/premiumGuard.js';
 
-let WORDS_PER_STEP = 12;
-
+// Memory Cleanup & State
+let activeObservers = [];
+let activeFetches = new AbortController();
+let loadedData = null;
 let activeLearningLang = 'en';
 let activeNativeLang = 'tr';
+let activeLevel = 'a2';
 
-export function initFastPath(learningLang, nativeLang) {
+export async function initFastPath(learningLang, nativeLang) {
     activeLearningLang = learningLang;
     activeNativeLang = nativeLang;
     
+    // Cleanup previous state
+    activeObservers.forEach(obs => obs.disconnect());
+    activeObservers = [];
+    activeFetches.abort();
+    activeFetches = new AbortController();
+
     const container = document.getElementById('fastpathContainer');
     if (!container) return;
     
     container.innerHTML = '';
+
+    // 1. Render Level Selector
+    renderLevelSelector(container);
+
+    // 2. Load Progress & Data
+    const progress = await getLocalProgress();
+    activeLevel = progress.activeLevel || 'a2';
     
-    if (learningLang !== 'en') {
-        container.innerHTML = `<div class="text-center text-slate-400 mt-20 flex flex-col items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-slate-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg>
-            Şu an <b>${learningLang.toUpperCase()}</b> dili için FastPath kütüphanesi bulunmuyor.
-        </div>`;
+    const loadingDiv = document.createElement('div');
+    loadingDiv.className = "text-center text-slate-400 mt-10 animate-pulse";
+    loadingDiv.textContent = "Yükleniyor...";
+    container.appendChild(loadingDiv);
+
+    loadedData = await loadLevelData(activeLevel);
+    loadingDiv.remove();
+
+    if (!loadedData) {
+        container.innerHTML += `<div class="text-center text-red-400 mt-10">Veri yüklenemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.</div>`;
         return;
     }
-    
-    chrome.storage.local.get(['fastPathProgress', 'fastPathMistakes', 'fastPathMistakeHistory'], (result) => {
-        let progressObj = result.fastPathProgress || {};
-        let currentStepIndex = progressObj[learningLang] || 0; 
-        
-        let mistakesObj = result.fastPathMistakes || {};
-        let mistakesForLang = mistakesObj[learningLang] || [];
-        
-        let historyObj = result.fastPathMistakeHistory || {};
-        let historyForLang = historyObj[learningLang] || {};
-        
-        updateMistakesUI(mistakesForLang);
-        renderUnits(curatedA2Units, currentStepIndex, historyForLang, learningLang, nativeLang);
-    });
+
+    const currentStepIndex = (progress.levels?.[activeLevel]?.progress) || 0;
+    const historyForLang = (progress.levels?.[activeLevel]?.history) || {};
+    const mistakesForLang = (progress.levels?.[activeLevel]?.mistakes) || [];
+
+    updateMistakesUI(mistakesForLang);
+    renderUnits(loadedData.units, currentStepIndex, historyForLang);
 }
 
-function updateMistakesUI(mistakes) {
-    const btn = document.getElementById('btnFixMistakes');
-    const count = document.getElementById('txtMistakeCount');
-    if (!btn || !count) return;
+function renderLevelSelector(container) {
+    const selector = document.createElement('div');
+    selector.className = "flex flex-wrap justify-center gap-3 mb-10 p-4 bg-white/5 border border-white/10 rounded-3xl sticky top-0 z-20 backdrop-blur-md";
     
-    if (mistakes.length > 0) {
-        btn.classList.remove('hidden');
-        btn.classList.add('flex');
-        count.textContent = mistakes.length;
-        btn.onclick = () => {
-            startFixMistakes(mistakes);
+    LEVELS.forEach(lvl => {
+        const isLocked = !lvl.free && !isUserPremium();
+        const isActive = lvl.id === activeLevel;
+        
+        const btn = document.createElement('button');
+        btn.className = `flex items-center gap-2 px-5 py-3 rounded-2xl font-bold transition-all border-2 ${
+            isActive 
+            ? "bg-purple-500 border-purple-400 text-white shadow-lg shadow-purple-500/30" 
+            : "bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-500"
+        } ${isLocked ? "opacity-70" : ""}`;
+        
+        btn.innerHTML = `
+            <span class="text-xl">${lvl.icon}</span>
+            <div class="flex flex-col items-start">
+                <span class="text-xs uppercase tracking-tighter opacity-70">${lvl.label}</span>
+                <span class="text-sm">${lvl.title}</span>
+            </div>
+            ${isLocked ? `<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-1 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>` : ""}
+        `;
+        
+        btn.onclick = async () => {
+            if (isLocked) {
+                window.location.href = 'premium.html';
+                return;
+            }
+            if (isActive) return;
+            
+            await setActiveLevel(lvl.id);
+            initFastPath(activeLearningLang, activeNativeLang);
         };
-    } else {
-        btn.classList.add('hidden');
-        btn.classList.remove('flex');
-    }
+        
+        selector.appendChild(btn);
+    });
+    
+    container.appendChild(selector);
 }
 
-function renderUnits(units, currentStepIndex, historyForLang, learningLang, nativeLang) {
+function renderUnits(units, currentStepIndex, historyForLang) {
     const container = document.getElementById('fastpathContainer');
-    container.innerHTML = '';
-    
     let globalStepCounter = 0;
 
     units.forEach((unit, unitIdx) => {
-        // Render Unit Header
-        const header = document.createElement('div');
-        header.className = "w-full max-w-md mx-auto mt-12 mb-8 p-6 bg-white/5 border border-white/10 rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group";
-        header.innerHTML = `
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <div class="w-16 h-16 bg-gradient-to-tr from-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg z-10">
-                ${unit.icon}
-            </div>
-            <div class="flex flex-col z-10 text-left">
-                <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">ÜNİTE ${unitIdx + 1}</span>
-                <h3 class="text-xl font-bold text-white tracking-tight">${unit.title}</h3>
-            </div>
-        `;
-        container.appendChild(header);
+        // Placeholder for Virtualization
+        const unitSection = document.createElement('div');
+        unitSection.className = "w-full mb-12 min-h-[200px]";
+        container.appendChild(unitSection);
 
-        // Chunk words in this unit into steps
-        const unitWords = unit.ids.map(id => oxfordDictionary.find(x => x.id === id)).filter(Boolean);
-        const unitSteps = [];
-        for (let i = 0; i < unitWords.length; i += WORDS_PER_STEP) {
-            unitSteps.push(unitWords.slice(i, i + WORDS_PER_STEP));
-        }
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                observer.disconnect();
+                renderUnitContent(unitSection, unit, unitIdx, globalStepCounter, currentStepIndex, historyForLang);
+            }
+        }, { rootMargin: '200px' });
 
-        unitSteps.forEach((chunk, stepIdx) => {
-            const index = globalStepCounter;
-            const isLocked = index > currentStepIndex;
-            const isActive = index === currentStepIndex;
-            const isCompleted = index < currentStepIndex;
-            
-            const offset = Math.sin(index * 0.8) * 120;
-            
-            const nodeDiv = document.createElement('div');
-            nodeDiv.className = 'relative flex items-center justify-center my-4 w-full';
-            
-            // Inner wrapper for offset
-            const innerNode = document.createElement('div');
-            innerNode.className = 'relative flex items-center justify-center';
-            innerNode.style.transform = `translateX(${offset}px)`;
-            
-            let btnClasses = "w-20 h-20 rounded-full flex items-center justify-center font-black text-2xl transition-all shadow-xl z-10 border-[6px] ";
-            let iconHtml = '';
-            
-            if (isActive) {
-                btnClasses += "bg-purple-500 border-purple-300 text-white animate-pulse shadow-[0_0_30px_rgba(168,85,247,0.8)] cursor-pointer hover:scale-110";
-                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>`;
-            } else if (isCompleted) {
-                btnClasses += "bg-emerald-500 border-emerald-300 text-white shadow-[0_0_20px_rgba(16,185,129,0.5)] cursor-pointer hover:scale-105";
-                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
-            } else {
-                btnClasses += "bg-[#1e232e] border-slate-700 text-slate-500 cursor-not-allowed";
-                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
-            }
-            
-            let exclamations = '';
-            if (isCompleted && historyForLang[index] !== undefined) {
-                const m = historyForLang[index];
-                if (m >= 3) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">! !</span>`;
-                else if (m >= 1) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">!</span>`;
-            }
-            
-            innerNode.innerHTML = `
-               <button class="${btnClasses}" title="Adım ${index + 1}">
-                 ${iconHtml}
-               </button>
-               <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg flex items-center">
-                 <span class="text-slate-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">Adım ${index + 1}</span>${exclamations}
-               </div>
-            `;
-            
-            if (!isLocked) {
-                innerNode.querySelector('button').addEventListener('click', () => {
-                    startLesson(chunk, index, false);
-                });
-            }
-            
-            nodeDiv.appendChild(innerNode);
-            container.appendChild(nodeDiv);
-            globalStepCounter++;
-        });
+        observer.observe(unitSection);
+        activeObservers.push(observer);
+        
+        // Update global counter for the next unit based on chunks
+        globalStepCounter += Math.ceil(unit.words.length / WORDS_PER_UNIT);
     });
 }
 
-// Global Lesson State
+function renderUnitContent(section, unit, unitIdx, unitStartStep, currentStepIndex, historyForLang) {
+    section.innerHTML = '';
+    
+    // Render Unit Header
+    const header = document.createElement('div');
+    header.className = "w-full max-w-md mx-auto mb-8 p-6 bg-white/5 border border-white/10 rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group";
+    header.innerHTML = `
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        <div class="w-16 h-16 bg-gradient-to-tr from-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg z-10">
+            ${unit.icon}
+        </div>
+        <div class="flex flex-col z-10 text-left">
+            <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">ÜNİTE ${unitIdx + 1}</span>
+            <h3 class="text-xl font-bold text-white tracking-tight">${unit.title}</h3>
+        </div>
+    `;
+    section.appendChild(header);
+
+    // Chunk words
+    const unitSteps = [];
+    for (let i = 0; i < unit.words.length; i += WORDS_PER_UNIT) {
+        unitSteps.push(unit.words.slice(i, i + WORDS_PER_UNIT));
+    }
+
+    unitSteps.forEach((chunk, stepOffset) => {
+        const index = unitStartStep + stepOffset;
+        const isLocked = index > currentStepIndex;
+        const isActive = index === currentStepIndex;
+        const isCompleted = index < currentStepIndex;
+        
+        const offset = Math.sin(index * 0.8) * 120;
+        
+        const nodeDiv = document.createElement('div');
+        nodeDiv.className = 'relative flex items-center justify-center my-4 w-full';
+        
+        const innerNode = document.createElement('div');
+        innerNode.className = 'relative flex items-center justify-center';
+        innerNode.style.transform = `translateX(${offset}px)`;
+        
+        let btnClasses = "w-20 h-20 rounded-full flex items-center justify-center font-black text-2xl transition-all shadow-xl z-10 border-[6px] ";
+        let iconHtml = '';
+        
+        if (isActive) {
+            btnClasses += "bg-purple-500 border-purple-300 text-white animate-pulse shadow-[0_0_30px_rgba(168,85,247,0.8)] cursor-pointer hover:scale-110";
+            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>`;
+        } else if (isCompleted) {
+            btnClasses += "bg-emerald-500 border-emerald-300 text-white shadow-[0_0_20px_rgba(16,185,129,0.5)] cursor-pointer hover:scale-105";
+            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
+        } else {
+            btnClasses += "bg-[#1e232e] border-slate-700 text-slate-500 cursor-not-allowed";
+            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
+        }
+        
+        let exclamations = '';
+        if (isCompleted && historyForLang[index] !== undefined) {
+            const m = historyForLang[index];
+            if (m >= 3) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">! !</span>`;
+            else if (m >= 1) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">!</span>`;
+        }
+        
+        innerNode.innerHTML = `
+           <button class="${btnClasses}" title="Adım ${index + 1}">
+             ${iconHtml}
+           </button>
+           <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg flex items-center">
+             <span class="text-slate-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">Adım ${index + 1}</span>${exclamations}
+           </div>
+        `;
+        
+        if (!isLocked) {
+            innerNode.querySelector('button').addEventListener('click', () => {
+                startLesson(chunk, index);
+            });
+        }
+        
+        nodeDiv.appendChild(innerNode);
+        section.appendChild(nodeDiv);
+    });
+}
+
+// Lesson State
 let ls = {
     isFixMistakesMode: false,
     chunk: [],
@@ -169,7 +225,7 @@ function playAudio(wordText) {
 async function fetchWordData(word) {
     if (activeLearningLang !== 'en') return null;
     try {
-        const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+        const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`, { signal: activeFetches.signal });
         if (!res.ok) return null;
         const data = await res.json();
         let phonetic = data[0].phonetic || '';
@@ -190,41 +246,7 @@ async function fetchWordData(word) {
     }
 }
 
-async function fetchWikiImage(word) {
-    if (activeLearningLang !== 'en') return null;
-    try {
-        const res = await fetch(`https://en.wikipedia.org/w/api.php?action=query&titles=${word}&prop=pageimages&format=json&pithumbsize=400&origin=*`);
-        if (!res.ok) return null;
-        const data = await res.json();
-        const pages = data.query?.pages;
-        if (pages) {
-            const pageId = Object.keys(pages)[0];
-            if (pageId !== "-1" && pages[pageId].thumbnail?.source) {
-                return pages[pageId].thumbnail.source;
-            }
-        }
-        return null;
-    } catch(e) {
-        return null;
-    }
-}
-
-function startFixMistakes(mistakesArray) {
-    ls.isFixMistakesMode = true;
-    ls.chunk = mistakesArray.slice(0, 20); // Test up to 20 mistakes
-    ls.stepIndex = -1;
-    ls.learnQueue = []; 
-    ls.testQueue = ls.chunk.map(w => ({ ...w, retried: false }));
-    // Shuffle testQueue
-    ls.testQueue.sort(() => Math.random() - 0.5);
-    ls.mistakesSet = new Set();
-    ls.totalInitialTestCount = ls.testQueue.length;
-    
-    openModal();
-    startTestPhase();
-}
-
-export function startLesson(chunk, stepIndex, isCurrentLevel) {
+function startLesson(chunk, stepIndex) {
     ls.isFixMistakesMode = false;
     ls.chunk = chunk;
     ls.stepIndex = stepIndex;
@@ -234,8 +256,24 @@ export function startLesson(chunk, stepIndex, isCurrentLevel) {
     ls.mistakesSet = new Set();
     ls.totalInitialTestCount = ls.testQueue.length;
     
+    // Prefetch next 2 images
+    prefetchNextImages(chunk, 0);
+    
     openModal();
     startLearnPhase();
+}
+
+function prefetchNextImages(chunk, startIndex) {
+    for (let i = 1; i <= PREFETCH_AHEAD; i++) {
+        const item = chunk[startIndex + i];
+        if (item && item.image) {
+            const link = document.createElement('link');
+            link.rel = 'prefetch';
+            link.as = 'image';
+            link.href = `${CDN_BASE}/${activeLevel}/${item.image}`;
+            document.head.appendChild(link);
+        }
+    }
 }
 
 function openModal() {
@@ -255,12 +293,10 @@ function openModal() {
     document.getElementById('fpBtnFeedbackNext').onclick = nextTestItem;
     document.getElementById('fpBtnFinish').onclick = completeSession;
     
-    // Audio buttons
     document.getElementById('fpBtnPlayAudio').onclick = () => playAudio(ls.currentItem.word);
     document.getElementById('fpBtnTestPlayAudio').onclick = () => playAudio(ls.currentItem.word);
     document.getElementById('fpBtnTestTypingAudio').onclick = () => playAudio(ls.currentItem.word);
     
-    // Input Enter key support
     const testInput = document.getElementById('fpTestInput');
     testInput.onkeyup = (e) => {
         if (e.key === 'Enter') submitTestTyping();
@@ -320,12 +356,14 @@ async function showNextLearn() {
     document.getElementById('fpLearnWord').textContent = ls.currentItem.word;
     document.getElementById('fpLearnMeaning').textContent = ls.currentItem.meanings[activeNativeLang] || ls.currentItem.meanings['tr'] || "Anlam bulunamadı";
     
-    // reset API fields
+    // Prefetch ahead
+    prefetchNextImages(ls.chunk, currentIndex);
+    
+    // reset UI fields
     document.getElementById('fpLearnPhonetic').textContent = '';
     document.getElementById('fpLearnPoS').textContent = '';
     document.getElementById('fpLearnExampleBox').classList.add('hidden');
     
-    // reset image
     const imgContainer = document.getElementById('fpLearnImageContainer');
     const imgEl = document.getElementById('fpLearnImage');
     if (imgContainer && imgEl) {
@@ -335,14 +373,19 @@ async function showNextLearn() {
     
     playAudio(ls.currentItem.word);
     
-    // Fetch parallel to save time
-    const [apiData, imgUrl] = await Promise.all([
-        fetchWordData(ls.currentItem.word),
-        fetchWikiImage(ls.currentItem.word)
-    ]);
+    // Load Image
+    if (ls.currentItem.image) {
+        imgEl.loading = 'lazy';
+        imgEl.decoding = 'async';
+        imgEl.onerror = () => { imgEl.src = 'icons/placeholder.svg'; };
+        imgEl.src = `${CDN_BASE}/${activeLevel}/${ls.currentItem.image}`;
+        imgContainer.classList.remove('hidden');
+    }
     
-    if (ls.currentPhase === 'LEARN' && ls.currentItem.word === document.getElementById('fpLearnWord').textContent) {
-        if (apiData) {
+    // Fetch word data only if example is missing
+    if (!ls.currentItem.example) {
+        const apiData = await fetchWordData(ls.currentItem.word);
+        if (apiData && ls.currentItem.word === document.getElementById('fpLearnWord').textContent) {
             if (apiData.phonetic) document.getElementById('fpLearnPhonetic').textContent = apiData.phonetic;
             if (apiData.partOfSpeech) document.getElementById('fpLearnPoS').textContent = apiData.partOfSpeech;
             if (apiData.example) {
@@ -350,11 +393,10 @@ async function showNextLearn() {
                 document.getElementById('fpLearnExample').textContent = `"${apiData.example}"`;
             }
         }
-        
-        if (imgUrl && imgContainer && imgEl) {
-            imgEl.src = imgUrl;
-            imgContainer.classList.remove('hidden');
-        }
+    } else {
+        document.getElementById('fpLearnExampleBox').classList.remove('hidden');
+        document.getElementById('fpLearnExample').textContent = `"${ls.currentItem.example}"`;
+        if (ls.currentItem.pos) document.getElementById('fpLearnPoS').textContent = ls.currentItem.pos;
     }
 }
 
@@ -379,11 +421,9 @@ function showNextTest() {
     const testProgress = ls.totalInitialTestCount - ls.testQueue.filter(w => !w.retried).length;
     setProgress(testProgress, ls.totalInitialTestCount, 'TEST AŞAMASI', 'cyan');
     
-    // Hide feedback
     document.getElementById('fpTestFeedback').classList.add('hidden');
     document.getElementById('fpTestFeedback').classList.remove('flex');
     
-    // Randomly choose test type: 0 = Reading Choice, 1 = Listening Choice, 2 = Typing
     const type = Math.floor(Math.random() * 3);
     hideAllZones();
     
@@ -416,9 +456,8 @@ function setupTestChoice(type) {
     }
     
     let options = [ls.currentItem];
-    // Pick 3 random distractors from the whole dictionary
-    let pool = oxfordDictionary.filter(w => w.id !== ls.currentItem.id);
-    // Shuffle pool briefly
+    let allWords = loadedData.units.flatMap(u => u.words);
+    let pool = allWords.filter(w => w.id !== ls.currentItem.id);
     pool.sort(() => 0.5 - Math.random());
     options.push(...pool.slice(0, 3));
     
@@ -464,20 +503,16 @@ function handleAnswer(isCorrect) {
     iWron.classList.add('hidden');
     
     if (isCorrect) {
-        // CORRECT
         feedbackOverlay.className = "absolute inset-0 bg-emerald-900/95 backdrop-blur-xl rounded-[40px] flex flex-col items-center justify-center z-10 transition-all";
         fTitle.textContent = "Harika!";
         fTitle.className = "text-5xl font-black text-emerald-300 tracking-tighter drop-shadow-lg";
         fSub.classList.add('hidden');
         iCorr.classList.remove('hidden');
         
-        // If in FixMistakes Mode, mark as correctly fixed
         if (ls.isFixMistakesMode && !ls.mistakesSet.has(ls.currentItem.id)) {
             removeMistakeFromStorage(ls.currentItem.id);
         }
-        
     } else {
-        // WRONG
         feedbackOverlay.className = "absolute inset-0 bg-red-900/95 backdrop-blur-xl rounded-[40px] flex flex-col items-center justify-center z-10 transition-all";
         fTitle.textContent = "Yanlış Cevap";
         fTitle.className = "text-5xl font-black text-red-300 tracking-tighter drop-shadow-lg";
@@ -485,12 +520,9 @@ function handleAnswer(isCorrect) {
         fSub.classList.remove('hidden');
         iWron.classList.remove('hidden');
         
-        // Add to global mistakes if not retried yet
         if (!ls.currentItem.retried) {
             ls.mistakesSet.add(ls.currentItem.id);
             addMistakeToStorage(ls.currentItem);
-            
-            // Push to end of queue ONCE
             ls.currentItem.retried = true;
             ls.testQueue.push(ls.currentItem);
         }
@@ -555,28 +587,20 @@ function showResults() {
     
     if (isPass) {
         errorNotice.classList.add('hidden');
-        // Save progress and history
-        chrome.storage.local.get(['fastPathProgress', 'fastPathMistakeHistory'], (res) => {
-            let p = res.fastPathProgress || {};
-            let h = res.fastPathMistakeHistory || {};
-            
-            if (!h[activeLearningLang]) h[activeLearningLang] = {};
-            
-            // Save or update mistake history (keep the best score if replaying)
-            let prevMistakes = h[activeLearningLang][ls.stepIndex];
+        getLocalProgress().then(local => {
+            let h = local.levels?.[activeLevel]?.history || {};
+            let prevMistakes = h[ls.stepIndex];
             if (prevMistakes === undefined || uniqueMistakes < prevMistakes) {
-                h[activeLearningLang][ls.stepIndex] = uniqueMistakes;
+                h[ls.stepIndex] = uniqueMistakes;
             }
             
-            // Only advance if this was the latest unlocked step
-            if (p[activeLearningLang] === undefined) p[activeLearningLang] = 0;
-            if (ls.stepIndex === p[activeLearningLang]) {
-                p[activeLearningLang] = ls.stepIndex + 1;
+            let p = local.levels?.[activeLevel]?.progress || 0;
+            if (ls.stepIndex === p) {
+                p = ls.stepIndex + 1;
             }
             
-            chrome.storage.local.set({ 
-                fastPathProgress: p,
-                fastPathMistakeHistory: h
+            updateLevelProgress(activeLevel, { progress: p, history: h }).then(() => {
+                pushToFirestore(); // Session End Sync
             });
         });
     } else {
@@ -584,30 +608,56 @@ function showResults() {
     }
 }
 
-function completeSession() {
+async function completeSession() {
     closeModal();
-    // Re-render map to reflect new progress and mistakes
     initFastPath(activeLearningLang, activeNativeLang);
 }
 
 // ================= MISTAKES STORAGE =================
-function addMistakeToStorage(wordObj) {
-    chrome.storage.local.get(['fastPathMistakes'], (result) => {
-        let m = result.fastPathMistakes || {};
-        if (!m[activeLearningLang]) m[activeLearningLang] = [];
-        // Avoid duplicates
-        if (!m[activeLearningLang].find(w => w.id === wordObj.id)) {
-            m[activeLearningLang].push(wordObj);
-            chrome.storage.local.set({ fastPathMistakes: m });
-        }
-    });
+async function addMistakeToStorage(wordObj) {
+    const local = await getLocalProgress();
+    let m = local.levels?.[activeLevel]?.mistakes || [];
+    if (!m.find(w => w.id === wordObj.id)) {
+        m.push(wordObj);
+        await updateLevelProgress(activeLevel, { mistakes: m });
+    }
 }
 
-function removeMistakeFromStorage(wordId) {
-    chrome.storage.local.get(['fastPathMistakes'], (result) => {
-        let m = result.fastPathMistakes || {};
-        if (!m[activeLearningLang]) return;
-        m[activeLearningLang] = m[activeLearningLang].filter(w => w.id !== wordId);
-        chrome.storage.local.set({ fastPathMistakes: m });
-    });
+async function removeMistakeFromStorage(wordId) {
+    const local = await getLocalProgress();
+    let m = local.levels?.[activeLevel]?.mistakes || [];
+    m = m.filter(w => w.id !== wordId);
+    await updateLevelProgress(activeLevel, { mistakes: m });
+}
+
+async function startFixMistakes(mistakesArray) {
+    ls.isFixMistakesMode = true;
+    ls.chunk = mistakesArray.slice(0, 20);
+    ls.stepIndex = -1;
+    ls.learnQueue = []; 
+    ls.testQueue = ls.chunk.map(w => ({ ...w, retried: false }));
+    ls.testQueue.sort(() => Math.random() - 0.5);
+    ls.mistakesSet = new Set();
+    ls.totalInitialTestCount = ls.testQueue.length;
+    
+    openModal();
+    startTestPhase();
+}
+
+function updateMistakesUI(mistakes) {
+    const btn = document.getElementById('btnFixMistakes');
+    const count = document.getElementById('txtMistakeCount');
+    if (!btn || !count) return;
+    
+    if (mistakes && mistakes.length > 0) {
+        btn.classList.remove('hidden');
+        btn.classList.add('flex');
+        count.textContent = mistakes.length;
+        btn.onclick = () => {
+            startFixMistakes(mistakes);
+        };
+    } else {
+        btn.classList.add('hidden');
+        btn.classList.remove('flex');
+    }
 }
