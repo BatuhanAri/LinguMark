@@ -128,7 +128,7 @@ function renderUnits(units, currentStepIndex, historyForLang) {
         
         // Placeholder for Virtualization
         const unitSection = document.createElement('div');
-        unitSection.className = "w-full mb-12 min-h-[200px]";
+        unitSection.className = "w-full mb-20 min-h-[200px]";
         container.appendChild(unitSection);
 
         const observer = new IntersectionObserver((entries) => {
@@ -151,7 +151,7 @@ function renderUnitContent(section, unit, unitIdx, unitStartStep, currentStepInd
     
     // Render Unit Header
     const header = document.createElement('div');
-    header.className = "w-full max-w-md mx-auto mb-8 p-6 bg-white/5 border border-white/10 rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group";
+    header.className = "w-full max-w-md mx-auto mt-10 mb-24 p-6 bg-white/5 border border-white/10 rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group";
     header.innerHTML = `
         <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
         <div class="w-16 h-16 bg-gradient-to-tr from-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg z-10">
@@ -179,7 +179,7 @@ function renderUnitContent(section, unit, unitIdx, unitStartStep, currentStepInd
         const offset = Math.sin(index * 0.8) * 120;
         
         const nodeDiv = document.createElement('div');
-        nodeDiv.className = 'relative flex items-center justify-center my-4 w-full';
+        nodeDiv.className = 'relative flex items-center justify-center my-10 w-full';
         
         const innerNode = document.createElement('div');
         innerNode.className = 'relative flex items-center justify-center';
