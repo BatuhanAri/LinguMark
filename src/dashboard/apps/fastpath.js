@@ -12,7 +12,7 @@ let activeLearningLang = 'en';
 let activeNativeLang = 'tr';
 let activeLevel = 'a2';
 
-export async function initFastPath(learningLang, nativeLang) {
+export async function initFastPath(learningLang, nativeLang, requestedLevel = null) {
     activeLearningLang = learningLang;
     activeNativeLang = nativeLang;
     
@@ -27,15 +27,23 @@ export async function initFastPath(learningLang, nativeLang) {
     if (!container) return;
     
     container.innerHTML = '';
-    if (errorState) errorState.classList.add('hidden');
+    if (errorState) {
+        errorState.classList.add('hidden');
+        errorState.classList.remove('flex');
+    }
 
-    // 1. Render Level Selector
+    // 1. Get Active Level
+    if (requestedLevel) {
+        activeLevel = requestedLevel;
+    } else {
+        const progress = await getLocalProgress();
+        activeLevel = progress.activeLevel || 'a2';
+    }
+
+    // 2. Render Level Selector (renders even if data fails)
     renderLevelSelector(container);
 
-    // 2. Load Progress & Data
-    const progress = await getLocalProgress();
-    activeLevel = progress.activeLevel || 'a2';
-    
+    // 3. Load Data
     const loadingDiv = document.createElement('div');
     loadingDiv.className = "text-center text-slate-400 mt-10 animate-pulse";
     loadingDiv.textContent = t('loading', activeNativeLang) || "Yükleniyor...";
@@ -49,13 +57,14 @@ export async function initFastPath(learningLang, nativeLang) {
             errorState.classList.remove('hidden');
             errorState.classList.add('flex');
             const retryBtn = document.getElementById('btnFpRetry');
-            if (retryBtn) retryBtn.onclick = () => initFastPath(activeLearningLang, activeNativeLang);
+            if (retryBtn) retryBtn.onclick = () => initFastPath(activeLearningLang, activeNativeLang, activeLevel);
         } else {
             container.innerHTML += `<div class="text-center text-red-400 mt-10">Veri yüklenemedi. Lütfen tekrar deneyin.</div>`;
         }
         return;
     }
 
+    const progress = await getLocalProgress();
     const currentStepIndex = (progress.levels?.[activeLevel]?.progress) || 0;
     const historyForLang = (progress.levels?.[activeLevel]?.history) || {};
     const mistakesForLang = (progress.levels?.[activeLevel]?.mistakes) || [];
@@ -96,7 +105,7 @@ function renderLevelSelector(container) {
             if (isActive) return;
             
             await setActiveLevel(lvl.id);
-            initFastPath(activeLearningLang, activeNativeLang);
+            initFastPath(activeLearningLang, activeNativeLang, lvl.id);
         };
         
         selector.appendChild(btn);
@@ -110,6 +119,8 @@ function renderUnits(units, currentStepIndex, historyForLang) {
     let globalStepCounter = 0;
 
     units.forEach((unit, unitIdx) => {
+        const unitStartStep = globalStepCounter; // Capture current counter for this unit
+        
         // Placeholder for Virtualization
         const unitSection = document.createElement('div');
         unitSection.className = "w-full mb-12 min-h-[200px]";
@@ -118,7 +129,7 @@ function renderUnits(units, currentStepIndex, historyForLang) {
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) {
                 observer.disconnect();
-                renderUnitContent(unitSection, unit, unitIdx, globalStepCounter, currentStepIndex, historyForLang);
+                renderUnitContent(unitSection, unit, unitIdx, unitStartStep, currentStepIndex, historyForLang);
             }
         }, { rootMargin: '200px' });
 
