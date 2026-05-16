@@ -38,7 +38,8 @@ export const translations = {
     ipucu: "İpucu",
     kontrol_et: "Kontrol Et",
     context: "Bağlam",
-    view_source: "Kaynağa Git"
+    view_source: "Kaynağa Git",
+    loading: "Yükleniyor..."
   },
   en: {
     app_title: "LinguMark",
@@ -79,7 +80,8 @@ export const translations = {
     ipucu: "Hint",
     kontrol_et: "Check",
     context: "Context",
-    view_source: "View Source"
+    view_source: "View Source",
+    loading: "Loading..."
   },
   es: {
     app_title: "LinguMark",
@@ -120,7 +122,8 @@ export const translations = {
     ipucu: "Pista",
     kontrol_et: "Comprobar",
     context: "Contexto",
-    view_source: "Ver Fuente"
+    view_source: "Ver Fuente",
+    loading: "Cargando..."
   },
   fr: {
     app_title: "LinguMark",
@@ -161,7 +164,8 @@ export const translations = {
     ipucu: "Indice",
     kontrol_et: "Vérifier",
     context: "Contexte",
-    view_source: "Voir la source"
+    view_source: "Voir la source",
+    loading: "Chargement..."
   },
   de: {
     app_title: "LinguMark",
@@ -202,7 +206,8 @@ export const translations = {
     ipucu: "Hinweis",
     kontrol_et: "Prüfen",
     context: "Kontext",
-    view_source: "Quelle ansehen"
+    view_source: "Quelle ansehen",
+    loading: "Laden..."
   },
   it: {
     app_title: "LinguMark",
@@ -243,7 +248,8 @@ export const translations = {
     ipucu: "Suggerimento",
     kontrol_et: "Controlla",
     context: "Contesto",
-    view_source: "Vedi Fonte"
+    view_source: "Vedi Fonte",
+    loading: "Caricamento..."
   }
 };
 

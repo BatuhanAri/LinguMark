@@ -23,9 +23,11 @@ export async function initFastPath(learningLang, nativeLang) {
     activeFetches = new AbortController();
 
     const container = document.getElementById('fastpathContainer');
+    const errorState = document.getElementById('fpErrorState');
     if (!container) return;
     
     container.innerHTML = '';
+    if (errorState) errorState.classList.add('hidden');
 
     // 1. Render Level Selector
     renderLevelSelector(container);
@@ -36,14 +38,21 @@ export async function initFastPath(learningLang, nativeLang) {
     
     const loadingDiv = document.createElement('div');
     loadingDiv.className = "text-center text-slate-400 mt-10 animate-pulse";
-    loadingDiv.textContent = "Yükleniyor...";
+    loadingDiv.textContent = t('loading', activeNativeLang) || "Yükleniyor...";
     container.appendChild(loadingDiv);
 
     loadedData = await loadLevelData(activeLevel);
     loadingDiv.remove();
 
     if (!loadedData) {
-        container.innerHTML += `<div class="text-center text-red-400 mt-10">Veri yüklenemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.</div>`;
+        if (errorState) {
+            errorState.classList.remove('hidden');
+            errorState.classList.add('flex');
+            const retryBtn = document.getElementById('btnFpRetry');
+            if (retryBtn) retryBtn.onclick = () => initFastPath(activeLearningLang, activeNativeLang);
+        } else {
+            container.innerHTML += `<div class="text-center text-red-400 mt-10">Veri yüklenemedi. Lütfen tekrar deneyin.</div>`;
+        }
         return;
     }
 
