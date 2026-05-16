@@ -242,29 +242,6 @@ function playAudio(wordText) {
     }
 }
 
-async function fetchWordData(word) {
-    if (activeLearningLang !== 'en') return null;
-    try {
-        const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`, { signal: activeFetches.signal });
-        if (!res.ok) return null;
-        const data = await res.json();
-        let phonetic = data[0].phonetic || '';
-        let partOfSpeech = '';
-        let example = '';
-        
-        const meanings = data[0].meanings;
-        if (meanings && meanings.length > 0) {
-            partOfSpeech = meanings[0].partOfSpeech || '';
-            const defs = meanings[0].definitions;
-            if (defs && defs.length > 0) {
-                example = defs[0].example || '';
-            }
-        }
-        return { phonetic, partOfSpeech, example };
-    } catch(e) {
-        return null;
-    }
-}
 
 function startLesson(chunk, stepIndex) {
     ls.isFixMistakesMode = false;
@@ -413,15 +390,34 @@ async function showNextLearn() {
     
     playAudio(ls.currentItem.word);
     
-    // Load Image
+    // Load Image - Triple Fallback Strategy
     imgContainer.classList.remove('hidden');
-    imgEl.src = 'icons/placeholder.svg'; // Default before loading
+    imgEl.src = 'icons/placeholder.svg'; // Step 1: Local placeholder immediately
+    
+    const word = ls.currentItem.word.toLowerCase();
     
     if (ls.currentItem.image) {
         imgEl.loading = 'lazy';
         imgEl.decoding = 'async';
-        imgEl.onerror = () => { imgEl.src = 'icons/placeholder.svg'; };
-        imgEl.src = `${CDN_BASE}/${activeLevel}/${ls.currentItem.image}`;
+        
+        // Step 2: Try CDN
+        const cdnUrl = `${CDN_BASE}/${activeLevel}/${ls.currentItem.image}`;
+        
+        imgEl.onerror = () => {
+            // Step 3: If CDN fails, try Placehold.co (Dynamic Placeholder)
+            // This ensures user ALWAYS sees something relevant
+            if (imgEl.src !== 'icons/placeholder.svg') {
+                imgEl.src = 'icons/placeholder.svg';
+            } else {
+                imgEl.src = `https://placehold.co/600x400/0f172a/white?text=${encodeURIComponent(word)}`;
+                imgEl.onerror = null; // Prevent loops
+            }
+        };
+        
+        imgEl.src = cdnUrl;
+    } else {
+        // No image defined in JSON? Show dynamic placeholder
+        imgEl.src = `https://placehold.co/600x400/0f172a/white?text=${encodeURIComponent(word)}`;
     }
     
     // Fetch word data only if example is missing
@@ -701,5 +697,34 @@ function updateMistakesUI(mistakes) {
     } else {
         btn.classList.add('hidden');
         btn.classList.remove('flex');
+    }
+}
+
+async function fetchWordData(word) {
+    try {
+        const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+        if (!res.ok) throw new Error('Not found');
+        const data = await res.json();
+        
+        const entry = data[0];
+        const phonetic = entry.phonetic || (entry.phonetics && entry.phonetics.find(p => p.text)?.text) || "";
+        const partOfSpeech = entry.meanings[0].partOfSpeech || "";
+        
+        // Find an example sentence
+        let example = "";
+        for (const m of entry.meanings) {
+            for (const d of m.definitions) {
+                if (d.example) {
+                    example = d.example;
+                    break;
+                }
+            }
+            if (example) break;
+        }
+
+        return { phonetic, partOfSpeech, example };
+    } catch (e) {
+        console.warn(`API failed for ${word}:`, e);
+        return null;
     }
 }

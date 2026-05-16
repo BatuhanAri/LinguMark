@@ -27,4 +27,4 @@ export const IMAGE_MAX_RETRIES = 2;
 export const PREFETCH_AHEAD = 2;      // Aktif karttan sonraki 2 görseli prefetch et
 
 // Ünite başına kelime sayısı
-export const WORDS_PER_UNIT = 24;
+export const WORDS_PER_UNIT = 8;
