@@ -299,10 +299,17 @@ function prefetchNextImages(chunk, startIndex) {
 function openModal() {
     const modal = document.getElementById('fpModal');
     const inner = document.getElementById('fpModalInner');
+    const header = document.getElementById('dashHeader');
+
     modal.classList.remove('hidden');
     modal.classList.add('flex');
     if (inner) inner.scrollTop = 0;
     
+    if (header) {
+        header.style.opacity = '0';
+        header.style.pointerEvents = 'none';
+    }
+
     setTimeout(() => {
         modal.classList.remove('opacity-0');
         inner.classList.remove('scale-95');
@@ -330,9 +337,17 @@ function openModal() {
 function closeModal() {
     const modal = document.getElementById('fpModal');
     const inner = document.getElementById('fpModalInner');
+    const header = document.getElementById('dashHeader');
+
     modal.classList.add('opacity-0');
     inner.classList.remove('scale-100');
     inner.classList.add('scale-95');
+
+    if (header) {
+        header.style.opacity = '1';
+        header.style.pointerEvents = 'auto';
+    }
+
     setTimeout(() => {
         modal.classList.remove('flex');
         modal.classList.add('hidden');
