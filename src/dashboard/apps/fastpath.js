@@ -40,8 +40,8 @@ export async function initFastPath(learningLang, nativeLang, requestedLevel = nu
         activeLevel = progress.activeLevel || 'a2';
     }
 
-    // 2. Render Level Selector (renders even if data fails)
-    renderLevelSelector(container);
+    // 2. Render Level Selector
+    renderLevelSelector();
 
     // 3. Load Data
     const loadingDiv = document.createElement('div');
@@ -73,28 +73,33 @@ export async function initFastPath(learningLang, nativeLang, requestedLevel = nu
     renderUnits(loadedData.units, currentStepIndex, historyForLang);
 }
 
-function renderLevelSelector(container) {
+function renderLevelSelector() {
+    const selectorContainer = document.getElementById('fpLevelSelectorContainer');
+    if (!selectorContainer) return;
+    
+    selectorContainer.innerHTML = '';
+    
     const selector = document.createElement('div');
-    selector.className = "flex flex-wrap justify-center gap-3 mb-10 p-4 bg-white/5 border border-white/10 rounded-3xl sticky top-0 z-20 backdrop-blur-md";
+    selector.className = "flex flex-wrap justify-center gap-2 p-3 bg-white/5 border border-white/10 rounded-3xl backdrop-blur-md shadow-lg";
     
     LEVELS.forEach(lvl => {
         const isLocked = !lvl.free && !isUserPremium();
         const isActive = lvl.id === activeLevel;
         
         const btn = document.createElement('button');
-        btn.className = `flex items-center gap-2 px-5 py-3 rounded-2xl font-bold transition-all border-2 ${
+        btn.className = `flex items-center gap-2 px-4 py-2 rounded-2xl font-bold transition-all border-2 ${
             isActive 
             ? "bg-purple-500 border-purple-400 text-white shadow-lg shadow-purple-500/30" 
             : "bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-500"
         } ${isLocked ? "opacity-70" : ""}`;
         
         btn.innerHTML = `
-            <span class="text-xl">${lvl.icon}</span>
-            <div class="flex flex-col items-start">
-                <span class="text-xs uppercase tracking-tighter opacity-70">${lvl.label}</span>
-                <span class="text-sm">${lvl.title}</span>
+            <span class="text-lg">${lvl.icon}</span>
+            <div class="flex flex-col items-start leading-tight">
+                <span class="text-[10px] uppercase tracking-tighter opacity-70">${lvl.label}</span>
+                <span class="text-[13px]">${lvl.title}</span>
             </div>
-            ${isLocked ? `<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-1 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>` : ""}
+            ${isLocked ? `<svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 ml-1 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>` : ""}
         `;
         
         btn.onclick = async () => {
@@ -111,7 +116,7 @@ function renderLevelSelector(container) {
         selector.appendChild(btn);
     });
     
-    container.appendChild(selector);
+    selectorContainer.appendChild(selector);
 }
 
 function renderUnits(units, currentStepIndex, historyForLang) {
