@@ -1,0 +1,5152 @@
+{
+  "version": 1,
+  "level": "A2",
+  "totalWords": 360,
+  "units": [
+    {
+      "id": "ev-günlük-yaşam",
+      "title": "Ev & Günlük Yaşam",
+      "icon": "🏠",
+      "words": [
+        {
+          "id": "a2_001",
+          "word": "apartment",
+          "meanings": {
+            "tr": "daire",
+            "es": "departamento",
+            "fr": "appartement",
+            "de": "Wohnung",
+            "it": "appartamento"
+          },
+          "example": "",
+          "image": "apartment.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_002",
+          "word": "bathroom",
+          "meanings": {
+            "tr": "banyo",
+            "es": "baño",
+            "fr": "salle de bain",
+            "de": "Badezimmer",
+            "it": "bagno"
+          },
+          "example": "",
+          "image": "bathroom.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_003",
+          "word": "bedroom",
+          "meanings": {
+            "tr": "yatak odası",
+            "es": "dormitorio",
+            "fr": "chambre à coucher",
+            "de": "Schlafzimmer",
+            "it": "camera da letto"
+          },
+          "example": "",
+          "image": "bedroom.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_004",
+          "word": "bed",
+          "meanings": {
+            "tr": "yatak",
+            "es": "cama",
+            "fr": "lit",
+            "de": "Bett",
+            "it": "letto"
+          },
+          "example": "",
+          "image": "bed.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_005",
+          "word": "chair",
+          "meanings": {
+            "tr": "sandalye",
+            "es": "silla",
+            "fr": "chaise",
+            "de": "Stuhl",
+            "it": "sedia"
+          },
+          "example": "",
+          "image": "chair.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_006",
+          "word": "clock",
+          "meanings": {
+            "tr": "saat",
+            "es": "reloj",
+            "fr": "horloge",
+            "de": "Uhr",
+            "it": "orologio"
+          },
+          "example": "",
+          "image": "clock.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_007",
+          "word": "door",
+          "meanings": {
+            "tr": "kapı",
+            "es": "puerta",
+            "fr": "porte",
+            "de": "Tür",
+            "it": "porta"
+          },
+          "example": "",
+          "image": "door.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_008",
+          "word": "flat",
+          "meanings": {
+            "tr": "düz",
+            "es": "departamento",
+            "fr": "plat",
+            "de": "Wohnung",
+            "it": "Piatto"
+          },
+          "example": "",
+          "image": "flat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_009",
+          "word": "floor",
+          "meanings": {
+            "tr": "zemin",
+            "es": "piso",
+            "fr": "sol",
+            "de": "Boden",
+            "it": "pavimento"
+          },
+          "example": "",
+          "image": "floor.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_010",
+          "word": "garden",
+          "meanings": {
+            "tr": "bahçe",
+            "es": "jardín",
+            "fr": "jardin",
+            "de": "Garten",
+            "it": "giardino"
+          },
+          "example": "",
+          "image": "garden.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_011",
+          "word": "house",
+          "meanings": {
+            "tr": "ev",
+            "es": "casa",
+            "fr": "maison",
+            "de": "Haus",
+            "it": "casa"
+          },
+          "example": "",
+          "image": "house.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_012",
+          "word": "key",
+          "meanings": {
+            "tr": "anahtar",
+            "es": "llave",
+            "fr": "clé",
+            "de": "Schlüssel",
+            "it": "chiave"
+          },
+          "example": "",
+          "image": "key.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_013",
+          "word": "kitchen",
+          "meanings": {
+            "tr": "mutfak",
+            "es": "cocina",
+            "fr": "cuisine",
+            "de": "Küche",
+            "it": "cucina"
+          },
+          "example": "",
+          "image": "kitchen.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_014",
+          "word": "upstairs",
+          "meanings": {
+            "tr": "üst katta",
+            "es": "piso superior",
+            "fr": "à l'étage",
+            "de": "oben",
+            "it": "di sopra"
+          },
+          "example": "",
+          "image": "upstairs.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_015",
+          "word": "light",
+          "meanings": {
+            "tr": "ışık",
+            "es": "luz",
+            "fr": "lumière",
+            "de": "Licht",
+            "it": "leggero"
+          },
+          "example": "",
+          "image": "light.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_016",
+          "word": "room",
+          "meanings": {
+            "tr": "oda",
+            "es": "habitación",
+            "fr": "chambre",
+            "de": "Zimmer",
+            "it": "camera"
+          },
+          "example": "",
+          "image": "room.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_017",
+          "word": "shower",
+          "meanings": {
+            "tr": "duş",
+            "es": "ducha",
+            "fr": "douche",
+            "de": "Dusche",
+            "it": "doccia"
+          },
+          "example": "",
+          "image": "shower.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_018",
+          "word": "table",
+          "meanings": {
+            "tr": "masa",
+            "es": "mesa",
+            "fr": "tableau",
+            "de": "Tisch",
+            "it": "tavolo"
+          },
+          "example": "",
+          "image": "table.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_019",
+          "word": "toilet",
+          "meanings": {
+            "tr": "tuvalet",
+            "es": "baño",
+            "fr": "toilettes",
+            "de": "Toilette",
+            "it": "toilette"
+          },
+          "example": "",
+          "image": "toilet.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_020",
+          "word": "wall",
+          "meanings": {
+            "tr": "duvar",
+            "es": "muro",
+            "fr": "mur",
+            "de": "Wand",
+            "it": "parete"
+          },
+          "example": "",
+          "image": "wall.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_021",
+          "word": "window",
+          "meanings": {
+            "tr": "pencere",
+            "es": "ventana",
+            "fr": "fenêtre",
+            "de": "Fenster",
+            "it": "finestra"
+          },
+          "example": "",
+          "image": "window.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_022",
+          "word": "clean",
+          "meanings": {
+            "tr": "temiz",
+            "es": "limpio",
+            "fr": "faire le ménage",
+            "de": "sauber",
+            "it": "pulito"
+          },
+          "example": "",
+          "image": "clean.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_023",
+          "word": "wash",
+          "meanings": {
+            "tr": "yıkamak",
+            "es": "lavar",
+            "fr": "laver",
+            "de": "waschen",
+            "it": "lavare"
+          },
+          "example": "",
+          "image": "wash.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_024",
+          "word": "bath",
+          "meanings": {
+            "tr": "banyo",
+            "es": "baño",
+            "fr": "bain",
+            "de": "Bad",
+            "it": "bagno"
+          },
+          "example": "",
+          "image": "bath.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "aile-i-lişkiler",
+      "title": "Aile & İlişkiler",
+      "icon": "👨‍👩‍👧‍👦",
+      "words": [
+        {
+          "id": "a2_025",
+          "word": "baby",
+          "meanings": {
+            "tr": "Bebek",
+            "es": "bebé",
+            "fr": "bébé",
+            "de": "Baby",
+            "it": "Bambino"
+          },
+          "example": "",
+          "image": "baby.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_026",
+          "word": "boy",
+          "meanings": {
+            "tr": "erkek çocuk",
+            "es": "chico",
+            "fr": "garçon",
+            "de": "Junge",
+            "it": "ragazzo"
+          },
+          "example": "",
+          "image": "boy.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_027",
+          "word": "girl",
+          "meanings": {
+            "tr": "kız",
+            "es": "chica",
+            "fr": "fille",
+            "de": "Mädchen",
+            "it": "ragazza"
+          },
+          "example": "",
+          "image": "girl.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_028",
+          "word": "man",
+          "meanings": {
+            "tr": "Adam",
+            "es": "hombre",
+            "fr": "homme",
+            "de": "Mann",
+            "it": "Uomo"
+          },
+          "example": "",
+          "image": "man.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_029",
+          "word": "woman",
+          "meanings": {
+            "tr": "kadın",
+            "es": "mujer",
+            "fr": "femme",
+            "de": "Frau",
+            "it": "donna"
+          },
+          "example": "",
+          "image": "woman.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_030",
+          "word": "child",
+          "meanings": {
+            "tr": "çocuk",
+            "es": "niño",
+            "fr": "enfant",
+            "de": "Kind",
+            "it": "bambino"
+          },
+          "example": "",
+          "image": "child.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_031",
+          "word": "adult",
+          "meanings": {
+            "tr": "yetişkin",
+            "es": "adulto",
+            "fr": "adulte",
+            "de": "Erwachsene",
+            "it": "adulto"
+          },
+          "example": "",
+          "image": "adult.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_032",
+          "word": "brother",
+          "meanings": {
+            "tr": "Erkek kardeş",
+            "es": "hermano",
+            "fr": "frère",
+            "de": "Bruder",
+            "it": "fratello"
+          },
+          "example": "",
+          "image": "brother.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_033",
+          "word": "sister",
+          "meanings": {
+            "tr": "kız kardeş",
+            "es": "hermana",
+            "fr": "sœur",
+            "de": "Schwester",
+            "it": "sorella"
+          },
+          "example": "",
+          "image": "sister.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_034",
+          "word": "mother",
+          "meanings": {
+            "tr": "anne",
+            "es": "madre",
+            "fr": "mère",
+            "de": "Mutter",
+            "it": "madre"
+          },
+          "example": "",
+          "image": "mother.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_035",
+          "word": "father",
+          "meanings": {
+            "tr": "baba",
+            "es": "padre",
+            "fr": "père",
+            "de": "Vater",
+            "it": "padre"
+          },
+          "example": "",
+          "image": "father.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_036",
+          "word": "daughter",
+          "meanings": {
+            "tr": "kız çocuğu",
+            "es": "hija",
+            "fr": "fille",
+            "de": "Tochter",
+            "it": "figlia"
+          },
+          "example": "",
+          "image": "daughter.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_037",
+          "word": "son",
+          "meanings": {
+            "tr": "oğul",
+            "es": "hijo",
+            "fr": "fils",
+            "de": "Sohn",
+            "it": "figlio"
+          },
+          "example": "",
+          "image": "son.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_038",
+          "word": "aunt",
+          "meanings": {
+            "tr": "hala",
+            "es": "tía",
+            "fr": "tante",
+            "de": "Tante",
+            "it": "zia"
+          },
+          "example": "",
+          "image": "aunt.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_039",
+          "word": "uncle",
+          "meanings": {
+            "tr": "amca",
+            "es": "tío",
+            "fr": "oncle",
+            "de": "Onkel",
+            "it": "zio"
+          },
+          "example": "",
+          "image": "uncle.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_040",
+          "word": "cousin",
+          "meanings": {
+            "tr": "kuzen",
+            "es": "primo",
+            "fr": "cousin",
+            "de": "Cousin",
+            "it": "cugino"
+          },
+          "example": "",
+          "image": "cousin.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_041",
+          "word": "grandfather",
+          "meanings": {
+            "tr": "büyükbaba",
+            "es": "abuelo",
+            "fr": "grand-père",
+            "de": "Großvater",
+            "it": "nonno"
+          },
+          "example": "",
+          "image": "grandfather.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_042",
+          "word": "grandmother",
+          "meanings": {
+            "tr": "büyükanne",
+            "es": "abuela",
+            "fr": "grand-mère",
+            "de": "Großmutter",
+            "it": "nonna"
+          },
+          "example": "",
+          "image": "grandmother.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_043",
+          "word": "grandparent",
+          "meanings": {
+            "tr": "büyükanne ve büyükbaba",
+            "es": "abuelo",
+            "fr": "grand-parent",
+            "de": "Großeltern",
+            "it": "nonno"
+          },
+          "example": "",
+          "image": "grandparent.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_044",
+          "word": "husband",
+          "meanings": {
+            "tr": "koca",
+            "es": "marido",
+            "fr": "mari",
+            "de": "Ehemann",
+            "it": "marito"
+          },
+          "example": "",
+          "image": "husband.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_045",
+          "word": "wife",
+          "meanings": {
+            "tr": "eş",
+            "es": "esposa",
+            "fr": "épouse",
+            "de": "Gattin",
+            "it": "moglie"
+          },
+          "example": "",
+          "image": "wife.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_046",
+          "word": "boyfriend",
+          "meanings": {
+            "tr": "erkek arkadaş",
+            "es": "novio",
+            "fr": "petit ami",
+            "de": "Freund",
+            "it": "fidanzato"
+          },
+          "example": "",
+          "image": "boyfriend.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_047",
+          "word": "girlfriend",
+          "meanings": {
+            "tr": "kız arkadaş",
+            "es": "novia",
+            "fr": "petite amie",
+            "de": "Freundin",
+            "it": "fidanzata"
+          },
+          "example": "",
+          "image": "girlfriend.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_048",
+          "word": "friend",
+          "meanings": {
+            "tr": "arkadaş",
+            "es": "amigo",
+            "fr": "ami",
+            "de": "Freund",
+            "it": "amico"
+          },
+          "example": "",
+          "image": "friend.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "yiyecek-i-çecek",
+      "title": "Yiyecek & İçecek",
+      "icon": "🍎",
+      "words": [
+        {
+          "id": "a2_049",
+          "word": "apple",
+          "meanings": {
+            "tr": "elma",
+            "es": "manzana",
+            "fr": "pomme",
+            "de": "Apfel",
+            "it": "mela"
+          },
+          "example": "",
+          "image": "apple.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_050",
+          "word": "banana",
+          "meanings": {
+            "tr": "muz",
+            "es": "banana",
+            "fr": "banane",
+            "de": "Banane",
+            "it": "banana"
+          },
+          "example": "",
+          "image": "banana.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_051",
+          "word": "bread",
+          "meanings": {
+            "tr": "ekmek",
+            "es": "pan",
+            "fr": "pain",
+            "de": "brot",
+            "it": "pane"
+          },
+          "example": "",
+          "image": "bread.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_052",
+          "word": "butter",
+          "meanings": {
+            "tr": "tereyağı",
+            "es": "manteca",
+            "fr": "beurre",
+            "de": "Butter",
+            "it": "burro"
+          },
+          "example": "",
+          "image": "butter.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_053",
+          "word": "cake",
+          "meanings": {
+            "tr": "kek",
+            "es": "pastel",
+            "fr": "gâteau",
+            "de": "Kuchen",
+            "it": "torta"
+          },
+          "example": "",
+          "image": "cake.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_054",
+          "word": "carrot",
+          "meanings": {
+            "tr": "havuç",
+            "es": "zanahoria",
+            "fr": "carotte",
+            "de": "Karotte",
+            "it": "carota"
+          },
+          "example": "",
+          "image": "carrot.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_055",
+          "word": "cheese",
+          "meanings": {
+            "tr": "peynir",
+            "es": "queso",
+            "fr": "fromage",
+            "de": "Käse",
+            "it": "formaggio"
+          },
+          "example": "",
+          "image": "cheese.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_056",
+          "word": "chicken",
+          "meanings": {
+            "tr": "tavuk",
+            "es": "pollo",
+            "fr": "poulet",
+            "de": "Huhn",
+            "it": "pollo"
+          },
+          "example": "",
+          "image": "chicken.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_057",
+          "word": "chocolate",
+          "meanings": {
+            "tr": "çikolata",
+            "es": "chocolate",
+            "fr": "chocolat",
+            "de": "Schokolade",
+            "it": "cioccolato"
+          },
+          "example": "",
+          "image": "chocolate.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_058",
+          "word": "coffee",
+          "meanings": {
+            "tr": "Kahve",
+            "es": "café",
+            "fr": "café",
+            "de": "Kaffee",
+            "it": "caffè"
+          },
+          "example": "",
+          "image": "coffee.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_059",
+          "word": "cream",
+          "meanings": {
+            "tr": "krem",
+            "es": "crema",
+            "fr": "crème",
+            "de": "Creme",
+            "it": "crema"
+          },
+          "example": "",
+          "image": "cream.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_060",
+          "word": "egg",
+          "meanings": {
+            "tr": "yumurta",
+            "es": "huevo",
+            "fr": "œuf",
+            "de": "Ei",
+            "it": "uovo"
+          },
+          "example": "",
+          "image": "egg.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_061",
+          "word": "fish",
+          "meanings": {
+            "tr": "balık",
+            "es": "pez",
+            "fr": "poisson",
+            "de": "Fisch",
+            "it": "pescare"
+          },
+          "example": "",
+          "image": "fish.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_062",
+          "word": "food",
+          "meanings": {
+            "tr": "yiyecek",
+            "es": "alimento",
+            "fr": "nourriture",
+            "de": "Essen",
+            "it": "cibo"
+          },
+          "example": "",
+          "image": "food.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_063",
+          "word": "fruit",
+          "meanings": {
+            "tr": "meyve",
+            "es": "fruta",
+            "fr": "fruit",
+            "de": "Obst",
+            "it": "frutta"
+          },
+          "example": "",
+          "image": "fruit.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_064",
+          "word": "juice",
+          "meanings": {
+            "tr": "meyve suyu",
+            "es": "jugo",
+            "fr": "jus",
+            "de": "Saft",
+            "it": "succo"
+          },
+          "example": "",
+          "image": "juice.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_065",
+          "word": "meal",
+          "meanings": {
+            "tr": "yemek",
+            "es": "comida",
+            "fr": "repas",
+            "de": "Mahlzeit",
+            "it": "pasto"
+          },
+          "example": "",
+          "image": "meal.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_066",
+          "word": "meat",
+          "meanings": {
+            "tr": "et",
+            "es": "carne",
+            "fr": "viande",
+            "de": "Fleisch",
+            "it": "carne"
+          },
+          "example": "",
+          "image": "meat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_067",
+          "word": "milk",
+          "meanings": {
+            "tr": "süt",
+            "es": "leche",
+            "fr": "lait",
+            "de": "Milch",
+            "it": "latte"
+          },
+          "example": "",
+          "image": "milk.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_068",
+          "word": "onion",
+          "meanings": {
+            "tr": "soğan",
+            "es": "cebolla",
+            "fr": "oignon",
+            "de": "Zwiebel",
+            "it": "cipolla"
+          },
+          "example": "",
+          "image": "onion.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_069",
+          "word": "orange",
+          "meanings": {
+            "tr": "turuncu",
+            "es": "naranja",
+            "fr": "orange",
+            "de": "orange",
+            "it": "arancia"
+          },
+          "example": "",
+          "image": "orange.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_070",
+          "word": "pepper",
+          "meanings": {
+            "tr": "biber",
+            "es": "pimienta",
+            "fr": "poivre",
+            "de": "Pfeffer",
+            "it": "pepe"
+          },
+          "example": "",
+          "image": "pepper.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_071",
+          "word": "potato",
+          "meanings": {
+            "tr": "patates",
+            "es": "papa",
+            "fr": "pomme de terre",
+            "de": "Kartoffel",
+            "it": "patata"
+          },
+          "example": "",
+          "image": "potato.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_072",
+          "word": "rice",
+          "meanings": {
+            "tr": "pirinç",
+            "es": "arroz",
+            "fr": "riz",
+            "de": "Reis",
+            "it": "riso"
+          },
+          "example": "",
+          "image": "rice.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "yemek-mutfak",
+      "title": "Yemek & Mutfak",
+      "icon": "🍳",
+      "words": [
+        {
+          "id": "a2_073",
+          "word": "beer",
+          "meanings": {
+            "tr": "bira",
+            "es": "cerveza",
+            "fr": "bière",
+            "de": "Bier",
+            "it": "birra"
+          },
+          "example": "",
+          "image": "beer.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_074",
+          "word": "bottle",
+          "meanings": {
+            "tr": "şişe",
+            "es": "botella",
+            "fr": "bouteille",
+            "de": "Flasche",
+            "it": "bottiglia"
+          },
+          "example": "",
+          "image": "bottle.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_075",
+          "word": "tomato",
+          "meanings": {
+            "tr": "domates",
+            "es": "tomate",
+            "fr": "tomate",
+            "de": "Tomate",
+            "it": "pomodoro"
+          },
+          "example": "",
+          "image": "tomato.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_076",
+          "word": "breakfast",
+          "meanings": {
+            "tr": "kahvaltı",
+            "es": "desayuno",
+            "fr": "petit-déjeuner",
+            "de": "Frühstück",
+            "it": "colazione"
+          },
+          "example": "",
+          "image": "breakfast.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_077",
+          "word": "cook",
+          "meanings": {
+            "tr": "aşçı",
+            "es": "cocinar",
+            "fr": "cuisiner",
+            "de": "kochen",
+            "it": "cucinare"
+          },
+          "example": "",
+          "image": "cook.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_078",
+          "word": "cooking",
+          "meanings": {
+            "tr": "yemek pişirmek",
+            "es": "cocinando",
+            "fr": "cuisson",
+            "de": "Kochen",
+            "it": "cucina"
+          },
+          "example": "",
+          "image": "cooking.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_079",
+          "word": "cup",
+          "meanings": {
+            "tr": "bardak",
+            "es": "taza",
+            "fr": "tasse",
+            "de": "Tasse",
+            "it": "tazza"
+          },
+          "example": "",
+          "image": "cup.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_080",
+          "word": "delicious",
+          "meanings": {
+            "tr": "lezzetli",
+            "es": "delicioso",
+            "fr": "délicieux",
+            "de": "lecker",
+            "it": "delizioso"
+          },
+          "example": "",
+          "image": "delicious.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_081",
+          "word": "diet",
+          "meanings": {
+            "tr": "diyet",
+            "es": "dieta",
+            "fr": "régime",
+            "de": "Diät",
+            "it": "dieta"
+          },
+          "example": "",
+          "image": "diet.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_082",
+          "word": "dinner",
+          "meanings": {
+            "tr": "akşam yemeği",
+            "es": "cena",
+            "fr": "dîner",
+            "de": "Abendessen",
+            "it": "cena"
+          },
+          "example": "",
+          "image": "dinner.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_083",
+          "word": "dish",
+          "meanings": {
+            "tr": "tabak",
+            "es": "plato",
+            "fr": "plat",
+            "de": "Gericht",
+            "it": "piatto"
+          },
+          "example": "",
+          "image": "dish.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_084",
+          "word": "drink",
+          "meanings": {
+            "tr": "içmek",
+            "es": "beber",
+            "fr": "boire",
+            "de": "trinken",
+            "it": "bere"
+          },
+          "example": "",
+          "image": "drink.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_085",
+          "word": "eat",
+          "meanings": {
+            "tr": "yemek yemek",
+            "es": "comer",
+            "fr": "manger",
+            "de": "essen",
+            "it": "mangiare"
+          },
+          "example": "",
+          "image": "eat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_086",
+          "word": "glass",
+          "meanings": {
+            "tr": "bardak",
+            "es": "vaso",
+            "fr": "verre",
+            "de": "Glas",
+            "it": "bicchiere"
+          },
+          "example": "",
+          "image": "glass.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_087",
+          "word": "hungry",
+          "meanings": {
+            "tr": "aç",
+            "es": "hambriento",
+            "fr": "affamé",
+            "de": "hungrig",
+            "it": "affamato"
+          },
+          "example": "",
+          "image": "hungry.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_088",
+          "word": "ice",
+          "meanings": {
+            "tr": "buz",
+            "es": "hielo",
+            "fr": "glace",
+            "de": "Eis",
+            "it": "ghiaccio"
+          },
+          "example": "",
+          "image": "ice.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_089",
+          "word": "ice cream",
+          "meanings": {
+            "tr": "dondurma",
+            "es": "helado",
+            "fr": "glace",
+            "de": "Eiscreme",
+            "it": "gelato"
+          },
+          "example": "",
+          "image": "ice-cream.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_090",
+          "word": "lunch",
+          "meanings": {
+            "tr": "öğle yemeği",
+            "es": "almuerzo",
+            "fr": "déjeuner",
+            "de": "Mittagessen",
+            "it": "pranzo"
+          },
+          "example": "",
+          "image": "lunch.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_091",
+          "word": "menu",
+          "meanings": {
+            "tr": "menü",
+            "es": "menú",
+            "fr": "menu",
+            "de": "Speisekarte",
+            "it": "menu"
+          },
+          "example": "",
+          "image": "menu.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_092",
+          "word": "restaurant",
+          "meanings": {
+            "tr": "restoran",
+            "es": "restaurante",
+            "fr": "restaurant",
+            "de": "Restaurant",
+            "it": "ristorante"
+          },
+          "example": "",
+          "image": "restaurant.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_093",
+          "word": "salad",
+          "meanings": {
+            "tr": "salata",
+            "es": "ensalada",
+            "fr": "salade",
+            "de": "Salat",
+            "it": "insalata"
+          },
+          "example": "",
+          "image": "salad.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_094",
+          "word": "salt",
+          "meanings": {
+            "tr": "tuz",
+            "es": "sal",
+            "fr": "sel",
+            "de": "Salz",
+            "it": "sale"
+          },
+          "example": "",
+          "image": "salt.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_095",
+          "word": "sandwich",
+          "meanings": {
+            "tr": "sandviç",
+            "es": "sándwich",
+            "fr": "sandwich",
+            "de": "Sandwich",
+            "it": "sandwich"
+          },
+          "example": "",
+          "image": "sandwich.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_096",
+          "word": "sugar",
+          "meanings": {
+            "tr": "şeker",
+            "es": "azúcar",
+            "fr": "sucre",
+            "de": "Zucker",
+            "it": "zucchero"
+          },
+          "example": "",
+          "image": "sugar.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "giyim-görünüm",
+      "title": "Giyim & Görünüm",
+      "icon": "👔",
+      "words": [
+        {
+          "id": "a2_097",
+          "word": "bag",
+          "meanings": {
+            "tr": "çanta",
+            "es": "bolsa",
+            "fr": "sac",
+            "de": "Tasche",
+            "it": "borsa"
+          },
+          "example": "",
+          "image": "bag.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_098",
+          "word": "black",
+          "meanings": {
+            "tr": "siyah",
+            "es": "negro",
+            "fr": "noir",
+            "de": "Schwarz",
+            "it": "nero"
+          },
+          "example": "",
+          "image": "black.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_099",
+          "word": "blonde",
+          "meanings": {
+            "tr": "sarışın",
+            "es": "rubio",
+            "fr": "blond",
+            "de": "blond",
+            "it": "bionda"
+          },
+          "example": "",
+          "image": "blonde.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_100",
+          "word": "blue",
+          "meanings": {
+            "tr": "mavi",
+            "es": "azul",
+            "fr": "bleu",
+            "de": "Blau",
+            "it": "blu"
+          },
+          "example": "",
+          "image": "blue.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_101",
+          "word": "boot",
+          "meanings": {
+            "tr": "bot",
+            "es": "bota",
+            "fr": "botte",
+            "de": "Stiefel",
+            "it": "stivale"
+          },
+          "example": "",
+          "image": "boot.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_102",
+          "word": "brown",
+          "meanings": {
+            "tr": "kahverengi",
+            "es": "marrón",
+            "fr": "brun",
+            "de": "braun",
+            "it": "marrone"
+          },
+          "example": "",
+          "image": "brown.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_103",
+          "word": "clothes",
+          "meanings": {
+            "tr": "kıyafetler",
+            "es": "ropa",
+            "fr": "vêtements",
+            "de": "Kleidung",
+            "it": "vestiti"
+          },
+          "example": "",
+          "image": "clothes.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_104",
+          "word": "coat",
+          "meanings": {
+            "tr": "kaban",
+            "es": "abrigo",
+            "fr": "manteau",
+            "de": "Mantel",
+            "it": "cappotto"
+          },
+          "example": "",
+          "image": "coat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_105",
+          "word": "colour",
+          "meanings": {
+            "tr": "renk",
+            "es": "color",
+            "fr": "couleur",
+            "de": "Farbe",
+            "it": "colore"
+          },
+          "example": "",
+          "image": "colour.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_106",
+          "word": "dress",
+          "meanings": {
+            "tr": "elbise",
+            "es": "vestido",
+            "fr": "robe",
+            "de": "Kleid",
+            "it": "vestito"
+          },
+          "example": "",
+          "image": "dress.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_107",
+          "word": "green",
+          "meanings": {
+            "tr": "yeşil",
+            "es": "verde",
+            "fr": "vert",
+            "de": "Grün",
+            "it": "verde"
+          },
+          "example": "",
+          "image": "green.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_108",
+          "word": "grey",
+          "meanings": {
+            "tr": "gri",
+            "es": "gris",
+            "fr": "gris",
+            "de": "grau",
+            "it": "grigio"
+          },
+          "example": "",
+          "image": "grey.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_109",
+          "word": "hat",
+          "meanings": {
+            "tr": "şapka",
+            "es": "sombrero",
+            "fr": "chapeau",
+            "de": "Hut",
+            "it": "cappello"
+          },
+          "example": "",
+          "image": "hat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_110",
+          "word": "jacket",
+          "meanings": {
+            "tr": "ceket",
+            "es": "chaqueta",
+            "fr": "veste",
+            "de": "Jacke",
+            "it": "giacca"
+          },
+          "example": "",
+          "image": "jacket.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_111",
+          "word": "jeans",
+          "meanings": {
+            "tr": "kot",
+            "es": "vaqueros",
+            "fr": "jeans",
+            "de": "Jeans",
+            "it": "jeans"
+          },
+          "example": "",
+          "image": "jeans.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_112",
+          "word": "pink",
+          "meanings": {
+            "tr": "pembe",
+            "es": "rosa",
+            "fr": "rose",
+            "de": "Rosa",
+            "it": "rosa"
+          },
+          "example": "",
+          "image": "pink.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_113",
+          "word": "purple",
+          "meanings": {
+            "tr": "mor",
+            "es": "púrpura",
+            "fr": "violet",
+            "de": "lila",
+            "it": "viola"
+          },
+          "example": "",
+          "image": "purple.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_114",
+          "word": "red",
+          "meanings": {
+            "tr": "kırmızı",
+            "es": "rojo",
+            "fr": "rouge",
+            "de": "Rot",
+            "it": "rosso"
+          },
+          "example": "",
+          "image": "red.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_115",
+          "word": "shirt",
+          "meanings": {
+            "tr": "gömlek",
+            "es": "camisa",
+            "fr": "chemise",
+            "de": "Hemd",
+            "it": "camicia"
+          },
+          "example": "",
+          "image": "shirt.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_116",
+          "word": "shoe",
+          "meanings": {
+            "tr": "ayakkabı",
+            "es": "zapato",
+            "fr": "chaussure",
+            "de": "Schuh",
+            "it": "scarpa"
+          },
+          "example": "",
+          "image": "shoe.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_117",
+          "word": "skirt",
+          "meanings": {
+            "tr": "etek",
+            "es": "falda",
+            "fr": "jupe",
+            "de": "Rock",
+            "it": "gonna"
+          },
+          "example": "",
+          "image": "skirt.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_118",
+          "word": "sweater",
+          "meanings": {
+            "tr": "kazak",
+            "es": "suéter",
+            "fr": "pull-over",
+            "de": "Pullover",
+            "it": "maglione"
+          },
+          "example": "",
+          "image": "sweater.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_119",
+          "word": "trousers",
+          "meanings": {
+            "tr": "pantolonlar",
+            "es": "pantalones",
+            "fr": "pantalon",
+            "de": "Hose",
+            "it": "pantaloni"
+          },
+          "example": "",
+          "image": "trousers.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_120",
+          "word": "T-shirt",
+          "meanings": {
+            "tr": "Tişört",
+            "es": "Camiseta",
+            "fr": "T-shirt",
+            "de": "T-Shirt",
+            "it": "maglietta"
+          },
+          "example": "",
+          "image": "t-shirt.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "vücut-sağlık",
+      "title": "Vücut & Sağlık",
+      "icon": "🏥",
+      "words": [
+        {
+          "id": "a2_121",
+          "word": "arm",
+          "meanings": {
+            "tr": "kol",
+            "es": "brazo",
+            "fr": "bras",
+            "de": "Arm",
+            "it": "braccio"
+          },
+          "example": "",
+          "image": "arm.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_122",
+          "word": "body",
+          "meanings": {
+            "tr": "vücut",
+            "es": "cuerpo",
+            "fr": "corps",
+            "de": "Körper",
+            "it": "corpo"
+          },
+          "example": "",
+          "image": "body.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_123",
+          "word": "ear",
+          "meanings": {
+            "tr": "kulak",
+            "es": "oreja",
+            "fr": "oreille",
+            "de": "Ohr",
+            "it": "orecchio"
+          },
+          "example": "",
+          "image": "ear.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_124",
+          "word": "eye",
+          "meanings": {
+            "tr": "göz",
+            "es": "ojo",
+            "fr": "œil",
+            "de": "Auge",
+            "it": "occhio"
+          },
+          "example": "",
+          "image": "eye.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_125",
+          "word": "face",
+          "meanings": {
+            "tr": "yüz",
+            "es": "rostro",
+            "fr": "affronter",
+            "de": "Gesicht",
+            "it": "viso"
+          },
+          "example": "",
+          "image": "face.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_126",
+          "word": "foot",
+          "meanings": {
+            "tr": "ayak",
+            "es": "pie",
+            "fr": "pied",
+            "de": "Fuß",
+            "it": "piede"
+          },
+          "example": "",
+          "image": "foot.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_127",
+          "word": "hair",
+          "meanings": {
+            "tr": "saç",
+            "es": "cabello",
+            "fr": "cheveux",
+            "de": "Haar",
+            "it": "capelli"
+          },
+          "example": "",
+          "image": "hair.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_128",
+          "word": "hand",
+          "meanings": {
+            "tr": "el",
+            "es": "mano",
+            "fr": "main",
+            "de": "Hand",
+            "it": "mano"
+          },
+          "example": "",
+          "image": "hand.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_129",
+          "word": "head",
+          "meanings": {
+            "tr": "KAFA",
+            "es": "cabeza",
+            "fr": "tête",
+            "de": "Kopf",
+            "it": "Testa"
+          },
+          "example": "",
+          "image": "head.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_130",
+          "word": "leg",
+          "meanings": {
+            "tr": "bacak",
+            "es": "pierna",
+            "fr": "jambe",
+            "de": "Bein",
+            "it": "gamba"
+          },
+          "example": "",
+          "image": "leg.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_131",
+          "word": "mouth",
+          "meanings": {
+            "tr": "ağız",
+            "es": "boca",
+            "fr": "bouche",
+            "de": "Mund",
+            "it": "bocca"
+          },
+          "example": "",
+          "image": "mouth.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_132",
+          "word": "nose",
+          "meanings": {
+            "tr": "burun",
+            "es": "nariz",
+            "fr": "nez",
+            "de": "Nase",
+            "it": "naso"
+          },
+          "example": "",
+          "image": "nose.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_133",
+          "word": "tooth",
+          "meanings": {
+            "tr": "diş",
+            "es": "diente",
+            "fr": "dent",
+            "de": "Zahn",
+            "it": "dente"
+          },
+          "example": "",
+          "image": "tooth.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_134",
+          "word": "health",
+          "meanings": {
+            "tr": "sağlık",
+            "es": "salud",
+            "fr": "santé",
+            "de": "Gesundheit",
+            "it": "salute"
+          },
+          "example": "",
+          "image": "health.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_135",
+          "word": "healthy",
+          "meanings": {
+            "tr": "sağlıklı",
+            "es": "saludable",
+            "fr": "en bonne santé",
+            "de": "gesund",
+            "it": "salutare"
+          },
+          "example": "",
+          "image": "healthy.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_136",
+          "word": "hospital",
+          "meanings": {
+            "tr": "hastane",
+            "es": "hospital",
+            "fr": "hôpital",
+            "de": "Krankenhaus",
+            "it": "Ospedale"
+          },
+          "example": "",
+          "image": "hospital.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_137",
+          "word": "doctor",
+          "meanings": {
+            "tr": "doktor",
+            "es": "doctor",
+            "fr": "médecin",
+            "de": "Arzt",
+            "it": "medico"
+          },
+          "example": "",
+          "image": "doctor.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_138",
+          "word": "nurse",
+          "meanings": {
+            "tr": "hemşire",
+            "es": "enfermero",
+            "fr": "infirmière",
+            "de": "Krankenschwester",
+            "it": "infermiera"
+          },
+          "example": "",
+          "image": "nurse.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_139",
+          "word": "sick",
+          "meanings": {
+            "tr": "hasta",
+            "es": "enfermo",
+            "fr": "malade",
+            "de": "krank",
+            "it": "malato"
+          },
+          "example": "",
+          "image": "sick.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_140",
+          "word": "fat",
+          "meanings": {
+            "tr": "yağ",
+            "es": "gordo",
+            "fr": "graisse",
+            "de": "fett",
+            "it": "grasso"
+          },
+          "example": "",
+          "image": "fat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_141",
+          "word": "tall",
+          "meanings": {
+            "tr": "uzun",
+            "es": "alto",
+            "fr": "grand",
+            "de": "groß",
+            "it": "Alto"
+          },
+          "example": "",
+          "image": "tall.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_142",
+          "word": "short",
+          "meanings": {
+            "tr": "kısa",
+            "es": "corto",
+            "fr": "court",
+            "de": "kurz",
+            "it": "corto"
+          },
+          "example": "",
+          "image": "short.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_143",
+          "word": "strong",
+          "meanings": {
+            "tr": "güçlü",
+            "es": "fuerte",
+            "fr": "fort",
+            "de": "stark",
+            "it": "forte"
+          },
+          "example": "",
+          "image": "strong.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_144",
+          "word": "young",
+          "meanings": {
+            "tr": "genç",
+            "es": "joven",
+            "fr": "jeune",
+            "de": "jung",
+            "it": "giovane"
+          },
+          "example": "",
+          "image": "young.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "şehir-ulaşım",
+      "title": "Şehir & Ulaşım",
+      "icon": "🚌",
+      "words": [
+        {
+          "id": "a2_145",
+          "word": "airport",
+          "meanings": {
+            "tr": "havalimanı",
+            "es": "aeropuerto",
+            "fr": "aéroport",
+            "de": "Flughafen",
+            "it": "aeroporto"
+          },
+          "example": "",
+          "image": "airport.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_146",
+          "word": "bicycle",
+          "meanings": {
+            "tr": "bisiklet",
+            "es": "bicicleta",
+            "fr": "vélo",
+            "de": "Fahrrad",
+            "it": "bicicletta"
+          },
+          "example": "",
+          "image": "bicycle.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_147",
+          "word": "bike",
+          "meanings": {
+            "tr": "bisiklet",
+            "es": "bicicleta",
+            "fr": "vélo",
+            "de": "Fahrrad",
+            "it": "bicicletta"
+          },
+          "example": "",
+          "image": "bike.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_148",
+          "word": "boat",
+          "meanings": {
+            "tr": "bot",
+            "es": "bote",
+            "fr": "bateau",
+            "de": "Boot",
+            "it": "barca"
+          },
+          "example": "",
+          "image": "boat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_149",
+          "word": "building",
+          "meanings": {
+            "tr": "bina",
+            "es": "edificio",
+            "fr": "bâtiment",
+            "de": "Gebäude",
+            "it": "edificio"
+          },
+          "example": "",
+          "image": "building.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_150",
+          "word": "bus",
+          "meanings": {
+            "tr": "otobüs",
+            "es": "autobús",
+            "fr": "bus",
+            "de": "Bus",
+            "it": "autobus"
+          },
+          "example": "",
+          "image": "bus.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_151",
+          "word": "car",
+          "meanings": {
+            "tr": "araba",
+            "es": "auto",
+            "fr": "voiture",
+            "de": "Auto",
+            "it": "auto"
+          },
+          "example": "",
+          "image": "car.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_152",
+          "word": "city",
+          "meanings": {
+            "tr": "şehir",
+            "es": "ciudad",
+            "fr": "ville",
+            "de": "Stadt",
+            "it": "città"
+          },
+          "example": "",
+          "image": "city.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_153",
+          "word": "drive",
+          "meanings": {
+            "tr": "sürmek",
+            "es": "conducir",
+            "fr": "conduire",
+            "de": "fahren",
+            "it": "guidare"
+          },
+          "example": "",
+          "image": "drive.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_154",
+          "word": "driver",
+          "meanings": {
+            "tr": "sürücü",
+            "es": "conductor",
+            "fr": "conducteur",
+            "de": "Treiber",
+            "it": "autista"
+          },
+          "example": "",
+          "image": "driver.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_155",
+          "word": "flight",
+          "meanings": {
+            "tr": "uçuş",
+            "es": "vuelo",
+            "fr": "vol",
+            "de": "Flug",
+            "it": "volo"
+          },
+          "example": "",
+          "image": "flight.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_156",
+          "word": "map",
+          "meanings": {
+            "tr": "harita",
+            "es": "mapa",
+            "fr": "carte",
+            "de": "Karte",
+            "it": "mappa"
+          },
+          "example": "",
+          "image": "map.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_157",
+          "word": "park",
+          "meanings": {
+            "tr": "park",
+            "es": "parque",
+            "fr": "parc",
+            "de": "Park",
+            "it": "parco"
+          },
+          "example": "",
+          "image": "park.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_158",
+          "word": "plane",
+          "meanings": {
+            "tr": "uçak",
+            "es": "avión",
+            "fr": "avion",
+            "de": "Flugzeug",
+            "it": "aereo"
+          },
+          "example": "",
+          "image": "plane.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_159",
+          "word": "road",
+          "meanings": {
+            "tr": "yol",
+            "es": "camino",
+            "fr": "route",
+            "de": "Straße",
+            "it": "strada"
+          },
+          "example": "",
+          "image": "road.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_160",
+          "word": "station",
+          "meanings": {
+            "tr": "istasyon",
+            "es": "estación",
+            "fr": "gare",
+            "de": "Station",
+            "it": "stazione"
+          },
+          "example": "",
+          "image": "station.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_161",
+          "word": "stop",
+          "meanings": {
+            "tr": "durmak",
+            "es": "detener",
+            "fr": "arrêt",
+            "de": "stoppen",
+            "it": "fermare"
+          },
+          "example": "",
+          "image": "stop.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_162",
+          "word": "street",
+          "meanings": {
+            "tr": "sokak",
+            "es": "calle",
+            "fr": "rue",
+            "de": "Straße",
+            "it": "strada"
+          },
+          "example": "",
+          "image": "street.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_163",
+          "word": "taxi",
+          "meanings": {
+            "tr": "taksi",
+            "es": "Taxi",
+            "fr": "Taxi",
+            "de": "Taxi",
+            "it": "Taxi"
+          },
+          "example": "",
+          "image": "taxi.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_164",
+          "word": "ticket",
+          "meanings": {
+            "tr": "bilet",
+            "es": "boleto",
+            "fr": "billet",
+            "de": "Ticket",
+            "it": "biglietto"
+          },
+          "example": "",
+          "image": "ticket.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_165",
+          "word": "town",
+          "meanings": {
+            "tr": "şehir",
+            "es": "ciudad",
+            "fr": "ville",
+            "de": "Stadt",
+            "it": "città"
+          },
+          "example": "",
+          "image": "town.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_166",
+          "word": "traffic",
+          "meanings": {
+            "tr": "trafik",
+            "es": "tráfico",
+            "fr": "trafic",
+            "de": "Verkehr",
+            "it": "traffico"
+          },
+          "example": "",
+          "image": "traffic.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_167",
+          "word": "train",
+          "meanings": {
+            "tr": "tren",
+            "es": "tren",
+            "fr": "former",
+            "de": "Zug",
+            "it": "treno"
+          },
+          "example": "",
+          "image": "train.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_168",
+          "word": "travel",
+          "meanings": {
+            "tr": "seyahat",
+            "es": "viajar",
+            "fr": "voyage",
+            "de": "reisen",
+            "it": "viaggio"
+          },
+          "example": "",
+          "image": "travel.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "doğa-hava-durumu",
+      "title": "Doğa & Hava Durumu",
+      "icon": "🌿",
+      "words": [
+        {
+          "id": "a2_169",
+          "word": "air",
+          "meanings": {
+            "tr": "hava",
+            "es": "aire",
+            "fr": "air",
+            "de": "Luft",
+            "it": "aria"
+          },
+          "example": "",
+          "image": "air.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_170",
+          "word": "animal",
+          "meanings": {
+            "tr": "hayvan",
+            "es": "animal",
+            "fr": "animal",
+            "de": "Tier",
+            "it": "animale"
+          },
+          "example": "",
+          "image": "animal.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_171",
+          "word": "beach",
+          "meanings": {
+            "tr": "sahil",
+            "es": "playa",
+            "fr": "plage",
+            "de": "Strand",
+            "it": "spiaggia"
+          },
+          "example": "",
+          "image": "beach.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_172",
+          "word": "bird",
+          "meanings": {
+            "tr": "kuş",
+            "es": "pájaro",
+            "fr": "oiseau",
+            "de": "Vogel",
+            "it": "uccello"
+          },
+          "example": "",
+          "image": "bird.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_173",
+          "word": "cat",
+          "meanings": {
+            "tr": "kedi",
+            "es": "gato",
+            "fr": "chat",
+            "de": "Katze",
+            "it": "gatto"
+          },
+          "example": "",
+          "image": "cat.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_174",
+          "word": "cow",
+          "meanings": {
+            "tr": "inek",
+            "es": "vaca",
+            "fr": "vache",
+            "de": "Kuh",
+            "it": "mucca"
+          },
+          "example": "",
+          "image": "cow.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_175",
+          "word": "dog",
+          "meanings": {
+            "tr": "köpek",
+            "es": "perro",
+            "fr": "chien",
+            "de": "Hund",
+            "it": "cane"
+          },
+          "example": "",
+          "image": "dog.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_176",
+          "word": "elephant",
+          "meanings": {
+            "tr": "fil",
+            "es": "elefante",
+            "fr": "éléphant",
+            "de": "Elefant",
+            "it": "elefante"
+          },
+          "example": "",
+          "image": "elephant.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_177",
+          "word": "farm",
+          "meanings": {
+            "tr": "çiftlik",
+            "es": "granja",
+            "fr": "ferme",
+            "de": "Bauernhof",
+            "it": "azienda agricola"
+          },
+          "example": "",
+          "image": "farm.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_178",
+          "word": "farmer",
+          "meanings": {
+            "tr": "çiftçi",
+            "es": "agricultor",
+            "fr": "fermier",
+            "de": "Bauer",
+            "it": "contadino"
+          },
+          "example": "",
+          "image": "farmer.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_179",
+          "word": "flower",
+          "meanings": {
+            "tr": "çiçek",
+            "es": "flor",
+            "fr": "fleur",
+            "de": "Blume",
+            "it": "fiore"
+          },
+          "example": "",
+          "image": "flower.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_180",
+          "word": "horse",
+          "meanings": {
+            "tr": "atış",
+            "es": "caballo",
+            "fr": "cheval",
+            "de": "Pferd",
+            "it": "cavallo"
+          },
+          "example": "",
+          "image": "horse.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_181",
+          "word": "island",
+          "meanings": {
+            "tr": "ada",
+            "es": "isla",
+            "fr": "île",
+            "de": "Insel",
+            "it": "isola"
+          },
+          "example": "",
+          "image": "island.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_182",
+          "word": "lion",
+          "meanings": {
+            "tr": "aslan",
+            "es": "león",
+            "fr": "lion",
+            "de": "Löwe",
+            "it": "leone"
+          },
+          "example": "",
+          "image": "lion.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_183",
+          "word": "mountain",
+          "meanings": {
+            "tr": "dağ",
+            "es": "montaña",
+            "fr": "montagne",
+            "de": "Berg",
+            "it": "montagna"
+          },
+          "example": "",
+          "image": "mountain.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_184",
+          "word": "mouse",
+          "meanings": {
+            "tr": "fare",
+            "es": "ratón",
+            "fr": "souris",
+            "de": "Maus",
+            "it": "topo"
+          },
+          "example": "",
+          "image": "mouse.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_185",
+          "word": "plant",
+          "meanings": {
+            "tr": "bitki",
+            "es": "planta",
+            "fr": "usine",
+            "de": "Anlage",
+            "it": "pianta"
+          },
+          "example": "",
+          "image": "plant.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_186",
+          "word": "rain",
+          "meanings": {
+            "tr": "yağmur",
+            "es": "lluvia",
+            "fr": "pluie",
+            "de": "Regen",
+            "it": "piovere"
+          },
+          "example": "",
+          "image": "rain.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_187",
+          "word": "river",
+          "meanings": {
+            "tr": "nehir",
+            "es": "río",
+            "fr": "rivière",
+            "de": "Fluss",
+            "it": "fiume"
+          },
+          "example": "",
+          "image": "river.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_188",
+          "word": "sea",
+          "meanings": {
+            "tr": "deniz",
+            "es": "mar",
+            "fr": "mer",
+            "de": "Meer",
+            "it": "mare"
+          },
+          "example": "",
+          "image": "sea.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_189",
+          "word": "sheep",
+          "meanings": {
+            "tr": "koyun",
+            "es": "oveja",
+            "fr": "mouton",
+            "de": "Schaf",
+            "it": "pecora"
+          },
+          "example": "",
+          "image": "sheep.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_190",
+          "word": "snake",
+          "meanings": {
+            "tr": "yılan",
+            "es": "serpiente",
+            "fr": "serpent",
+            "de": "Schlange",
+            "it": "serpente"
+          },
+          "example": "",
+          "image": "snake.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_191",
+          "word": "snow",
+          "meanings": {
+            "tr": "kar",
+            "es": "nieve",
+            "fr": "neige",
+            "de": "Schnee",
+            "it": "nevicare"
+          },
+          "example": "",
+          "image": "snow.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_192",
+          "word": "tree",
+          "meanings": {
+            "tr": "ağaç",
+            "es": "árbol",
+            "fr": "arbre",
+            "de": "Baum",
+            "it": "albero"
+          },
+          "example": "",
+          "image": "tree.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "hava-mevsimler",
+      "title": "Hava & Mevsimler",
+      "icon": "🌦️",
+      "words": [
+        {
+          "id": "a2_193",
+          "word": "autumn",
+          "meanings": {
+            "tr": "sonbahar",
+            "es": "otoño",
+            "fr": "automne",
+            "de": "Herbst",
+            "it": "autunno"
+          },
+          "example": "",
+          "image": "autumn.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_194",
+          "word": "beautiful",
+          "meanings": {
+            "tr": "Güzel",
+            "es": "hermoso",
+            "fr": "beau",
+            "de": "Schön",
+            "it": "Bellissimo"
+          },
+          "example": "",
+          "image": "beautiful.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_195",
+          "word": "umbrella",
+          "meanings": {
+            "tr": "şemsiye",
+            "es": "paraguas",
+            "fr": "parapluie",
+            "de": "Regenschirm",
+            "it": "ombrello"
+          },
+          "example": "",
+          "image": "umbrella.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_196",
+          "word": "cold",
+          "meanings": {
+            "tr": "soğuk",
+            "es": "frío",
+            "fr": "froid",
+            "de": "kalt",
+            "it": "Freddo"
+          },
+          "example": "",
+          "image": "cold.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_197",
+          "word": "cool",
+          "meanings": {
+            "tr": "Serin",
+            "es": "Frío",
+            "fr": "cool",
+            "de": "Cool",
+            "it": "Freddo"
+          },
+          "example": "",
+          "image": "cool.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_198",
+          "word": "dark",
+          "meanings": {
+            "tr": "karanlık",
+            "es": "oscuro",
+            "fr": "sombre",
+            "de": "dunkel",
+            "it": "buio"
+          },
+          "example": "",
+          "image": "dark.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_199",
+          "word": "fire",
+          "meanings": {
+            "tr": "ateş",
+            "es": "fuego",
+            "fr": "feu",
+            "de": "Feuer",
+            "it": "fuoco"
+          },
+          "example": "",
+          "image": "fire.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_200",
+          "word": "hot",
+          "meanings": {
+            "tr": "sıcak",
+            "es": "caliente",
+            "fr": "chaud",
+            "de": "heiß",
+            "it": "caldo"
+          },
+          "example": "",
+          "image": "hot.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_201",
+          "word": "land",
+          "meanings": {
+            "tr": "kara",
+            "es": "tierra",
+            "fr": "atterrir",
+            "de": "Land",
+            "it": "terra"
+          },
+          "example": "",
+          "image": "land.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_202",
+          "word": "natural",
+          "meanings": {
+            "tr": "doğal",
+            "es": "natural",
+            "fr": "naturel",
+            "de": "natürlich",
+            "it": "naturale"
+          },
+          "example": "",
+          "image": "natural.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_203",
+          "word": "north",
+          "meanings": {
+            "tr": "kuzey",
+            "es": "norte",
+            "fr": "nord",
+            "de": "Norden",
+            "it": "nord"
+          },
+          "example": "",
+          "image": "north.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_204",
+          "word": "south",
+          "meanings": {
+            "tr": "güney",
+            "es": "sur",
+            "fr": "sud",
+            "de": "Süden",
+            "it": "sud"
+          },
+          "example": "",
+          "image": "south.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_205",
+          "word": "east",
+          "meanings": {
+            "tr": "doğu",
+            "es": "este",
+            "fr": "est",
+            "de": "Ost",
+            "it": "est"
+          },
+          "example": "",
+          "image": "east.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_206",
+          "word": "west",
+          "meanings": {
+            "tr": "batı",
+            "es": "Oeste",
+            "fr": "Ouest",
+            "de": "Westen",
+            "it": "ovest"
+          },
+          "example": "",
+          "image": "west.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_207",
+          "word": "spring",
+          "meanings": {
+            "tr": "bahar",
+            "es": "primavera",
+            "fr": "printemps",
+            "de": "Frühling",
+            "it": "primavera"
+          },
+          "example": "",
+          "image": "spring.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_208",
+          "word": "summer",
+          "meanings": {
+            "tr": "yaz",
+            "es": "verano",
+            "fr": "été",
+            "de": "Sommer",
+            "it": "estate"
+          },
+          "example": "",
+          "image": "summer.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_209",
+          "word": "sun",
+          "meanings": {
+            "tr": "güneş",
+            "es": "sol",
+            "fr": "soleil",
+            "de": "Sonne",
+            "it": "sole"
+          },
+          "example": "",
+          "image": "sun.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_210",
+          "word": "warm",
+          "meanings": {
+            "tr": "ılık",
+            "es": "cálido",
+            "fr": "chaud",
+            "de": "warm",
+            "it": "Caldo"
+          },
+          "example": "",
+          "image": "warm.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_211",
+          "word": "water",
+          "meanings": {
+            "tr": "su",
+            "es": "agua",
+            "fr": "eau",
+            "de": "Wasser",
+            "it": "acqua"
+          },
+          "example": "",
+          "image": "water.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_212",
+          "word": "weather",
+          "meanings": {
+            "tr": "hava durumu",
+            "es": "clima",
+            "fr": "météo",
+            "de": "Wetter",
+            "it": "tempo atmosferico"
+          },
+          "example": "",
+          "image": "weather.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_213",
+          "word": "vegetable",
+          "meanings": {
+            "tr": "sebze",
+            "es": "verdura",
+            "fr": "légume",
+            "de": "Gemüse",
+            "it": "vegetale"
+          },
+          "example": "",
+          "image": "vegetable.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_214",
+          "word": "winter",
+          "meanings": {
+            "tr": "kış",
+            "es": "invierno",
+            "fr": "hiver",
+            "de": "Winter",
+            "it": "inverno"
+          },
+          "example": "",
+          "image": "winter.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_215",
+          "word": "village",
+          "meanings": {
+            "tr": "köy",
+            "es": "aldea",
+            "fr": "village",
+            "de": "Dorf",
+            "it": "villaggio"
+          },
+          "example": "",
+          "image": "village.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_216",
+          "word": "country",
+          "meanings": {
+            "tr": "ülke",
+            "es": "país",
+            "fr": "pays",
+            "de": "Land",
+            "it": "Paese"
+          },
+          "example": "",
+          "image": "country.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "eğitim-öğrenme",
+      "title": "Eğitim & Öğrenme",
+      "icon": "📚",
+      "words": [
+        {
+          "id": "a2_217",
+          "word": "book",
+          "meanings": {
+            "tr": "kitap",
+            "es": "libro",
+            "fr": "livre",
+            "de": "Buch",
+            "it": "libro"
+          },
+          "example": "",
+          "image": "book.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_218",
+          "word": "class",
+          "meanings": {
+            "tr": "sınıf",
+            "es": "clase",
+            "fr": "classe",
+            "de": "Klasse",
+            "it": "classe"
+          },
+          "example": "",
+          "image": "class.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_219",
+          "word": "classroom",
+          "meanings": {
+            "tr": "sınıf",
+            "es": "aula",
+            "fr": "classe",
+            "de": "Klassenzimmer",
+            "it": "aula"
+          },
+          "example": "",
+          "image": "classroom.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_220",
+          "word": "college",
+          "meanings": {
+            "tr": "üniversite",
+            "es": "colega",
+            "fr": "collège",
+            "de": "Hochschule",
+            "it": "college"
+          },
+          "example": "",
+          "image": "college.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_221",
+          "word": "computer",
+          "meanings": {
+            "tr": "bilgisayar",
+            "es": "computadora",
+            "fr": "ordinateur",
+            "de": "Computer",
+            "it": "computer"
+          },
+          "example": "",
+          "image": "computer.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_222",
+          "word": "correct",
+          "meanings": {
+            "tr": "doğru",
+            "es": "correcto",
+            "fr": "correct",
+            "de": "richtig",
+            "it": "corretto"
+          },
+          "example": "",
+          "image": "correct.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_223",
+          "word": "describe",
+          "meanings": {
+            "tr": "betimlemek",
+            "es": "describir",
+            "fr": "décrire",
+            "de": "beschreiben",
+            "it": "descrivere"
+          },
+          "example": "",
+          "image": "describe.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_224",
+          "word": "dictionary",
+          "meanings": {
+            "tr": "sözlük",
+            "es": "diccionario",
+            "fr": "dictionnaire",
+            "de": "Wörterbuch",
+            "it": "dizionario"
+          },
+          "example": "",
+          "image": "dictionary.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_225",
+          "word": "difficult",
+          "meanings": {
+            "tr": "zor",
+            "es": "difícil",
+            "fr": "difficile",
+            "de": "schwierig",
+            "it": "difficile"
+          },
+          "example": "",
+          "image": "difficult.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_226",
+          "word": "easy",
+          "meanings": {
+            "tr": "kolay",
+            "es": "fácil",
+            "fr": "facile",
+            "de": "einfach",
+            "it": "facile"
+          },
+          "example": "",
+          "image": "easy.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_227",
+          "word": "exam",
+          "meanings": {
+            "tr": "sınav",
+            "es": "examen",
+            "fr": "examen",
+            "de": "Prüfung",
+            "it": "esame"
+          },
+          "example": "",
+          "image": "exam.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_228",
+          "word": "example",
+          "meanings": {
+            "tr": "örnek",
+            "es": "ejemplo",
+            "fr": "exemple",
+            "de": "Beispiel",
+            "it": "esempio"
+          },
+          "example": "",
+          "image": "example.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_229",
+          "word": "exercise",
+          "meanings": {
+            "tr": "egzersiz yapmak",
+            "es": "ejercicio",
+            "fr": "exercice",
+            "de": "Übung",
+            "it": "esercizio"
+          },
+          "example": "",
+          "image": "exercise.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_230",
+          "word": "homework",
+          "meanings": {
+            "tr": "Ev ödevi",
+            "es": "tarea",
+            "fr": "devoirs",
+            "de": "Hausaufgaben",
+            "it": "compiti a casa"
+          },
+          "example": "",
+          "image": "homework.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_231",
+          "word": "language",
+          "meanings": {
+            "tr": "dil",
+            "es": "idioma",
+            "fr": "langue",
+            "de": "Sprache",
+            "it": "lingua"
+          },
+          "example": "",
+          "image": "language.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_232",
+          "word": "learn",
+          "meanings": {
+            "tr": "öğrenmek",
+            "es": "aprender",
+            "fr": "apprendre",
+            "de": "lernen",
+            "it": "Imparare"
+          },
+          "example": "",
+          "image": "learn.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_233",
+          "word": "lesson",
+          "meanings": {
+            "tr": "ders",
+            "es": "lección",
+            "fr": "leçon",
+            "de": "Lektion",
+            "it": "lezione"
+          },
+          "example": "",
+          "image": "lesson.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_234",
+          "word": "library",
+          "meanings": {
+            "tr": "kütüphane",
+            "es": "biblioteca",
+            "fr": "bibliothèque",
+            "de": "Bibliothek",
+            "it": "biblioteca"
+          },
+          "example": "",
+          "image": "library.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_235",
+          "word": "page",
+          "meanings": {
+            "tr": "sayfa",
+            "es": "página",
+            "fr": "page",
+            "de": "Seite",
+            "it": "pagina"
+          },
+          "example": "",
+          "image": "page.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_236",
+          "word": "pen",
+          "meanings": {
+            "tr": "dolma kalem",
+            "es": "bolígrafo",
+            "fr": "stylo",
+            "de": "Stift",
+            "it": "penna"
+          },
+          "example": "",
+          "image": "pen.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_237",
+          "word": "pencil",
+          "meanings": {
+            "tr": "kalem",
+            "es": "lápiz",
+            "fr": "crayon",
+            "de": "Bleistift",
+            "it": "matita"
+          },
+          "example": "",
+          "image": "pencil.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_238",
+          "word": "read",
+          "meanings": {
+            "tr": "Okumak",
+            "es": "leer",
+            "fr": "lire",
+            "de": "lesen",
+            "it": "Leggere"
+          },
+          "example": "",
+          "image": "read.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_239",
+          "word": "school",
+          "meanings": {
+            "tr": "okul",
+            "es": "escuela",
+            "fr": "école",
+            "de": "Schule",
+            "it": "scuola"
+          },
+          "example": "",
+          "image": "school.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_240",
+          "word": "student",
+          "meanings": {
+            "tr": "öğrenci",
+            "es": "alumno",
+            "fr": "étudiant",
+            "de": "Student",
+            "it": "studente"
+          },
+          "example": "",
+          "image": "student.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "i-ş-kariyer",
+      "title": "İş & Kariyer",
+      "icon": "💼",
+      "words": [
+        {
+          "id": "a2_241",
+          "word": "bill",
+          "meanings": {
+            "tr": "fatura",
+            "es": "factura",
+            "fr": "facture",
+            "de": "Rechnung",
+            "it": "conto"
+          },
+          "example": "",
+          "image": "bill.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_242",
+          "word": "worker",
+          "meanings": {
+            "tr": "işçi",
+            "es": "obrero",
+            "fr": "travailleur",
+            "de": "Arbeitnehmer",
+            "it": "lavoratore"
+          },
+          "example": "",
+          "image": "worker.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_243",
+          "word": "business",
+          "meanings": {
+            "tr": "işletme",
+            "es": "negocio",
+            "fr": "entreprise",
+            "de": "Geschäft",
+            "it": "Attività commerciale"
+          },
+          "example": "",
+          "image": "business.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_244",
+          "word": "busy",
+          "meanings": {
+            "tr": "Meşgul",
+            "es": "ocupado",
+            "fr": "occupé",
+            "de": "beschäftigt",
+            "it": "Occupato"
+          },
+          "example": "",
+          "image": "busy.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_245",
+          "word": "career",
+          "meanings": {
+            "tr": "kariyer",
+            "es": "carrera",
+            "fr": "carrière",
+            "de": "Karriere",
+            "it": "carriera"
+          },
+          "example": "",
+          "image": "career.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_246",
+          "word": "cent",
+          "meanings": {
+            "tr": "sent",
+            "es": "centavo",
+            "fr": "cent",
+            "de": "Cent",
+            "it": "cento"
+          },
+          "example": "",
+          "image": "cent.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_247",
+          "word": "company",
+          "meanings": {
+            "tr": "şirket",
+            "es": "compañía",
+            "fr": "entreprise",
+            "de": "Unternehmen",
+            "it": "azienda"
+          },
+          "example": "",
+          "image": "company.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_248",
+          "word": "complete",
+          "meanings": {
+            "tr": "tamamlamak",
+            "es": "completo",
+            "fr": "complet",
+            "de": "vollständig",
+            "it": "completare"
+          },
+          "example": "",
+          "image": "complete.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_249",
+          "word": "cost",
+          "meanings": {
+            "tr": "maliyet",
+            "es": "costo",
+            "fr": "coût",
+            "de": "kosten",
+            "it": "costo"
+          },
+          "example": "",
+          "image": "cost.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_250",
+          "word": "customer",
+          "meanings": {
+            "tr": "müşteri",
+            "es": "cliente",
+            "fr": "client",
+            "de": "Kunde",
+            "it": "cliente"
+          },
+          "example": "",
+          "image": "customer.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_251",
+          "word": "dollar",
+          "meanings": {
+            "tr": "dolar",
+            "es": "dólar",
+            "fr": "dollar",
+            "de": "Dollar",
+            "it": "dollaro"
+          },
+          "example": "",
+          "image": "dollar.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_252",
+          "word": "euro",
+          "meanings": {
+            "tr": "euro",
+            "es": "euro",
+            "fr": "euro",
+            "de": "Euro",
+            "it": "euro"
+          },
+          "example": "",
+          "image": "euro.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_253",
+          "word": "expensive",
+          "meanings": {
+            "tr": "masraflı",
+            "es": "caro",
+            "fr": "cher",
+            "de": "teuer",
+            "it": "costoso"
+          },
+          "example": "",
+          "image": "expensive.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_254",
+          "word": "cheap",
+          "meanings": {
+            "tr": "ucuz",
+            "es": "barato",
+            "fr": "bon marché",
+            "de": "billig",
+            "it": "economico"
+          },
+          "example": "",
+          "image": "cheap.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_255",
+          "word": "free",
+          "meanings": {
+            "tr": "özgür",
+            "es": "gratis",
+            "fr": "gratuit",
+            "de": "frei",
+            "it": "gratuito"
+          },
+          "example": "",
+          "image": "free.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_256",
+          "word": "job",
+          "meanings": {
+            "tr": "iş",
+            "es": "trabajo",
+            "fr": "emploi",
+            "de": "Arbeit",
+            "it": "lavoro"
+          },
+          "example": "",
+          "image": "job.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_257",
+          "word": "machine",
+          "meanings": {
+            "tr": "makine",
+            "es": "máquina",
+            "fr": "machine",
+            "de": "Maschine",
+            "it": "macchina"
+          },
+          "example": "",
+          "image": "machine.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_258",
+          "word": "meeting",
+          "meanings": {
+            "tr": "toplantı",
+            "es": "reunión",
+            "fr": "réunion",
+            "de": "treffen",
+            "it": "incontro"
+          },
+          "example": "",
+          "image": "meeting.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_259",
+          "word": "money",
+          "meanings": {
+            "tr": "para",
+            "es": "dinero",
+            "fr": "argent",
+            "de": "Geld",
+            "it": "soldi"
+          },
+          "example": "",
+          "image": "money.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_260",
+          "word": "office",
+          "meanings": {
+            "tr": "ofis",
+            "es": "oficina",
+            "fr": "bureau",
+            "de": "Büro",
+            "it": "ufficio"
+          },
+          "example": "",
+          "image": "office.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_261",
+          "word": "pay",
+          "meanings": {
+            "tr": "ödemek",
+            "es": "pagar",
+            "fr": "payer",
+            "de": "zahlen",
+            "it": "paga"
+          },
+          "example": "",
+          "image": "pay.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_262",
+          "word": "pound",
+          "meanings": {
+            "tr": "pound",
+            "es": "libra",
+            "fr": "livre",
+            "de": "Pfund",
+            "it": "libbra"
+          },
+          "example": "",
+          "image": "pound.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_263",
+          "word": "price",
+          "meanings": {
+            "tr": "fiyat",
+            "es": "precio",
+            "fr": "prix",
+            "de": "Preis",
+            "it": "prezzo"
+          },
+          "example": "",
+          "image": "price.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_264",
+          "word": "sell",
+          "meanings": {
+            "tr": "satmak",
+            "es": "vender",
+            "fr": "vendre",
+            "de": "verkaufen",
+            "it": "vendere"
+          },
+          "example": "",
+          "image": "sell.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "hobiler-eğlence",
+      "title": "Hobiler & Eğlence",
+      "icon": "🎮",
+      "words": [
+        {
+          "id": "a2_265",
+          "word": "art",
+          "meanings": {
+            "tr": "sanat",
+            "es": "arte",
+            "fr": "art",
+            "de": "Kunst",
+            "it": "arte"
+          },
+          "example": "",
+          "image": "art.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_266",
+          "word": "artist",
+          "meanings": {
+            "tr": "sanatçı",
+            "es": "artista",
+            "fr": "artiste",
+            "de": "Künstler",
+            "it": "artista"
+          },
+          "example": "",
+          "image": "artist.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_267",
+          "word": "ball",
+          "meanings": {
+            "tr": "top",
+            "es": "pelota",
+            "fr": "balle",
+            "de": "Ball",
+            "it": "palla"
+          },
+          "example": "",
+          "image": "ball.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_268",
+          "word": "band",
+          "meanings": {
+            "tr": "bant",
+            "es": "banda",
+            "fr": "groupe",
+            "de": "Band",
+            "it": "banda"
+          },
+          "example": "",
+          "image": "band.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_269",
+          "word": "camera",
+          "meanings": {
+            "tr": "kamera",
+            "es": "cámara",
+            "fr": "caméra",
+            "de": "Kamera",
+            "it": "telecamera"
+          },
+          "example": "",
+          "image": "camera.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_270",
+          "word": "cinema",
+          "meanings": {
+            "tr": "sinema",
+            "es": "cine",
+            "fr": "cinéma",
+            "de": "Kino",
+            "it": "cinema"
+          },
+          "example": "",
+          "image": "cinema.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_271",
+          "word": "concert",
+          "meanings": {
+            "tr": "konser",
+            "es": "concierto",
+            "fr": "concert",
+            "de": "Konzert",
+            "it": "concerto"
+          },
+          "example": "",
+          "image": "concert.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_272",
+          "word": "dance",
+          "meanings": {
+            "tr": "dans",
+            "es": "bailar",
+            "fr": "danse",
+            "de": "tanzen",
+            "it": "ballare"
+          },
+          "example": "",
+          "image": "dance.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_273",
+          "word": "dancer",
+          "meanings": {
+            "tr": "dansçı",
+            "es": "bailarín",
+            "fr": "danseur",
+            "de": "Tänzer",
+            "it": "ballerino"
+          },
+          "example": "",
+          "image": "dancer.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_274",
+          "word": "dancing",
+          "meanings": {
+            "tr": "dans",
+            "es": "baile",
+            "fr": "dansant",
+            "de": "Tanzen",
+            "it": "ballare"
+          },
+          "example": "",
+          "image": "dancing.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_275",
+          "word": "film",
+          "meanings": {
+            "tr": "film",
+            "es": "película",
+            "fr": "film",
+            "de": "Film",
+            "it": "film"
+          },
+          "example": "",
+          "image": "film.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_276",
+          "word": "football",
+          "meanings": {
+            "tr": "futbol",
+            "es": "fútbol americano",
+            "fr": "football",
+            "de": "Fußball",
+            "it": "calcio"
+          },
+          "example": "",
+          "image": "football.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_277",
+          "word": "fun",
+          "meanings": {
+            "tr": "eğlence",
+            "es": "divertido",
+            "fr": "amusant",
+            "de": "Spaß",
+            "it": "divertimento"
+          },
+          "example": "",
+          "image": "fun.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_278",
+          "word": "funny",
+          "meanings": {
+            "tr": "eğlenceli",
+            "es": "divertido",
+            "fr": "drôle",
+            "de": "lustig",
+            "it": "divertente"
+          },
+          "example": "",
+          "image": "funny.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_279",
+          "word": "game",
+          "meanings": {
+            "tr": "oyun",
+            "es": "juego",
+            "fr": "jeu",
+            "de": "Spiel",
+            "it": "gioco"
+          },
+          "example": "",
+          "image": "game.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_280",
+          "word": "guitar",
+          "meanings": {
+            "tr": "gitar",
+            "es": "guitarra",
+            "fr": "guitare",
+            "de": "Gitarre",
+            "it": "chitarra"
+          },
+          "example": "",
+          "image": "guitar.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_281",
+          "word": "gym",
+          "meanings": {
+            "tr": "spor salonu",
+            "es": "gimnasia",
+            "fr": "salle de sport",
+            "de": "Fitnessstudio",
+            "it": "palestra"
+          },
+          "example": "",
+          "image": "gym.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_282",
+          "word": "hobby",
+          "meanings": {
+            "tr": "hobi",
+            "es": "pasatiempo",
+            "fr": "passe-temps",
+            "de": "Hobby",
+            "it": "hobby"
+          },
+          "example": "",
+          "image": "hobby.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_283",
+          "word": "movie",
+          "meanings": {
+            "tr": "film",
+            "es": "película",
+            "fr": "film",
+            "de": "Film",
+            "it": "film"
+          },
+          "example": "",
+          "image": "movie.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_284",
+          "word": "music",
+          "meanings": {
+            "tr": "müzik",
+            "es": "música",
+            "fr": "musique",
+            "de": "Musik",
+            "it": "musica"
+          },
+          "example": "",
+          "image": "music.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_285",
+          "word": "piano",
+          "meanings": {
+            "tr": "piyano",
+            "es": "piano",
+            "fr": "piano",
+            "de": "Klavier",
+            "it": "pianoforte"
+          },
+          "example": "",
+          "image": "piano.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_286",
+          "word": "play",
+          "meanings": {
+            "tr": "oynamak",
+            "es": "jugar",
+            "fr": "jouer",
+            "de": "spielen",
+            "it": "giocare"
+          },
+          "example": "",
+          "image": "play.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_287",
+          "word": "player",
+          "meanings": {
+            "tr": "oyuncu",
+            "es": "jugador",
+            "fr": "joueur",
+            "de": "Spieler",
+            "it": "giocatore"
+          },
+          "example": "",
+          "image": "player.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_288",
+          "word": "sport",
+          "meanings": {
+            "tr": "spor",
+            "es": "deporte",
+            "fr": "sport",
+            "de": "Sport",
+            "it": "sport"
+          },
+          "example": "",
+          "image": "sport.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "i-letişim-teknoloji",
+      "title": "İletişim & Teknoloji",
+      "icon": "📱",
+      "words": [
+        {
+          "id": "a2_289",
+          "word": "address",
+          "meanings": {
+            "tr": "adres",
+            "es": "DIRECCIÓN",
+            "fr": "adresse",
+            "de": "Adresse",
+            "it": "indirizzo"
+          },
+          "example": "",
+          "image": "address.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_290",
+          "word": "answer",
+          "meanings": {
+            "tr": "cevap",
+            "es": "respuesta",
+            "fr": "répondre",
+            "de": "Antwort",
+            "it": "risposta"
+          },
+          "example": "",
+          "image": "answer.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_291",
+          "word": "article",
+          "meanings": {
+            "tr": "madde",
+            "es": "artículo",
+            "fr": "article",
+            "de": "Artikel",
+            "it": "articolo"
+          },
+          "example": "",
+          "image": "article.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_292",
+          "word": "blog",
+          "meanings": {
+            "tr": "blog",
+            "es": "blog",
+            "fr": "bloguer",
+            "de": "Blog",
+            "it": "blog"
+          },
+          "example": "",
+          "image": "blog.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_293",
+          "word": "call",
+          "meanings": {
+            "tr": "Arama",
+            "es": "llamar",
+            "fr": "appel",
+            "de": "Anruf",
+            "it": "chiamata"
+          },
+          "example": "",
+          "image": "call.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_294",
+          "word": "card",
+          "meanings": {
+            "tr": "kart",
+            "es": "tarjeta",
+            "fr": "carte",
+            "de": "Karte",
+            "it": "carta"
+          },
+          "example": "",
+          "image": "card.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_295",
+          "word": "conversation",
+          "meanings": {
+            "tr": "konuşma",
+            "es": "conversación",
+            "fr": "conversation",
+            "de": "Gespräch",
+            "it": "conversazione"
+          },
+          "example": "",
+          "image": "conversation.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_296",
+          "word": "email",
+          "meanings": {
+            "tr": "e-posta",
+            "es": "correo electrónico",
+            "fr": "e-mail",
+            "de": "E-Mail",
+            "it": "e-mail"
+          },
+          "example": "",
+          "image": "email.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_297",
+          "word": "form",
+          "meanings": {
+            "tr": "biçim",
+            "es": "forma",
+            "fr": "formulaire",
+            "de": "bilden",
+            "it": "modulo"
+          },
+          "example": "",
+          "image": "form.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_298",
+          "word": "Internet",
+          "meanings": {
+            "tr": "internet",
+            "es": "Internet",
+            "fr": "Internet",
+            "de": "Internet",
+            "it": "Internet"
+          },
+          "example": "",
+          "image": "internet.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_299",
+          "word": "interview",
+          "meanings": {
+            "tr": "röportaj",
+            "es": "entrevista",
+            "fr": "entretien",
+            "de": "Interview",
+            "it": "colloquio"
+          },
+          "example": "",
+          "image": "interview.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_300",
+          "word": "letter",
+          "meanings": {
+            "tr": "mektup",
+            "es": "carta",
+            "fr": "lettre",
+            "de": "Brief",
+            "it": "lettera"
+          },
+          "example": "",
+          "image": "letter.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_301",
+          "word": "magazine",
+          "meanings": {
+            "tr": "dergi",
+            "es": "revista",
+            "fr": "revue",
+            "de": "Magazin",
+            "it": "rivista"
+          },
+          "example": "",
+          "image": "magazine.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_302",
+          "word": "message",
+          "meanings": {
+            "tr": "mesaj",
+            "es": "mensaje",
+            "fr": "message",
+            "de": "Nachricht",
+            "it": "messaggio"
+          },
+          "example": "",
+          "image": "message.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_303",
+          "word": "newspaper",
+          "meanings": {
+            "tr": "gazete",
+            "es": "periódico",
+            "fr": "journal",
+            "de": "Zeitung",
+            "it": "giornale"
+          },
+          "example": "",
+          "image": "newspaper.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_304",
+          "word": "note",
+          "meanings": {
+            "tr": "Not",
+            "es": "nota",
+            "fr": "note",
+            "de": "Notiz",
+            "it": "nota"
+          },
+          "example": "",
+          "image": "note.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_305",
+          "word": "opinion",
+          "meanings": {
+            "tr": "fikir",
+            "es": "opinión",
+            "fr": "avis",
+            "de": "Meinung",
+            "it": "opinione"
+          },
+          "example": "",
+          "image": "opinion.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_306",
+          "word": "phone",
+          "meanings": {
+            "tr": "telefon",
+            "es": "teléfono",
+            "fr": "téléphone",
+            "de": "Telefon",
+            "it": "telefono"
+          },
+          "example": "",
+          "image": "phone.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_307",
+          "word": "photo",
+          "meanings": {
+            "tr": "fotoğraf",
+            "es": "foto",
+            "fr": "photo",
+            "de": "Foto",
+            "it": "foto"
+          },
+          "example": "",
+          "image": "photo.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_308",
+          "word": "photograph",
+          "meanings": {
+            "tr": "fotoğraf",
+            "es": "fotografía",
+            "fr": "photographier",
+            "de": "Foto",
+            "it": "fotografia"
+          },
+          "example": "",
+          "image": "photograph.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_309",
+          "word": "question",
+          "meanings": {
+            "tr": "soru",
+            "es": "pregunta",
+            "fr": "question",
+            "de": "Frage",
+            "it": "domanda"
+          },
+          "example": "",
+          "image": "question.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_310",
+          "word": "radio",
+          "meanings": {
+            "tr": "radyo",
+            "es": "radio",
+            "fr": "radio",
+            "de": "Radio",
+            "it": "radio"
+          },
+          "example": "",
+          "image": "radio.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_311",
+          "word": "telephone",
+          "meanings": {
+            "tr": "telefon",
+            "es": "teléfono",
+            "fr": "téléphone",
+            "de": "Telefon",
+            "it": "telefono"
+          },
+          "example": "",
+          "image": "telephone.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_312",
+          "word": "website",
+          "meanings": {
+            "tr": "web sitesi",
+            "es": "sitio web",
+            "fr": "site web",
+            "de": "Webseite",
+            "it": "sito web"
+          },
+          "example": "",
+          "image": "website.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "duygular-kişilik",
+      "title": "Duygular & Kişilik",
+      "icon": "😊",
+      "words": [
+        {
+          "id": "a2_313",
+          "word": "afraid",
+          "meanings": {
+            "tr": "korkmuş",
+            "es": "asustado",
+            "fr": "effrayé",
+            "de": "besorgt",
+            "it": "Paura"
+          },
+          "example": "",
+          "image": "afraid.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_314",
+          "word": "amazing",
+          "meanings": {
+            "tr": "inanılmaz",
+            "es": "asombroso",
+            "fr": "incroyable",
+            "de": "toll",
+            "it": "Sorprendente"
+          },
+          "example": "",
+          "image": "amazing.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_315",
+          "word": "angry",
+          "meanings": {
+            "tr": "sinirli",
+            "es": "enojado",
+            "fr": "en colère",
+            "de": "wütend",
+            "it": "arrabbiato"
+          },
+          "example": "",
+          "image": "angry.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_316",
+          "word": "bad",
+          "meanings": {
+            "tr": "kötü",
+            "es": "malo",
+            "fr": "mauvais",
+            "de": "schlecht",
+            "it": "Cattivo"
+          },
+          "example": "",
+          "image": "bad.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_317",
+          "word": "bored",
+          "meanings": {
+            "tr": "sıkılmış",
+            "es": "aburrido",
+            "fr": "ennuyé",
+            "de": "gelangweilt",
+            "it": "annoiato"
+          },
+          "example": "",
+          "image": "bored.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_318",
+          "word": "boring",
+          "meanings": {
+            "tr": "sıkıcı",
+            "es": "aburrido",
+            "fr": "ennuyeux",
+            "de": "langweilig",
+            "it": "noioso"
+          },
+          "example": "",
+          "image": "boring.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_319",
+          "word": "dangerous",
+          "meanings": {
+            "tr": "tehlikeli",
+            "es": "peligroso",
+            "fr": "dangereux",
+            "de": "gefährlich",
+            "it": "pericoloso"
+          },
+          "example": "",
+          "image": "dangerous.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_320",
+          "word": "excited",
+          "meanings": {
+            "tr": "heyecanlı",
+            "es": "entusiasmado",
+            "fr": "excité",
+            "de": "aufgeregt",
+            "it": "eccitato"
+          },
+          "example": "",
+          "image": "excited.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_321",
+          "word": "exciting",
+          "meanings": {
+            "tr": "heyecan verici",
+            "es": "emocionante",
+            "fr": "passionnant",
+            "de": "spannend",
+            "it": "emozionante"
+          },
+          "example": "",
+          "image": "exciting.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_322",
+          "word": "fantastic",
+          "meanings": {
+            "tr": "fantastik",
+            "es": "fantástico",
+            "fr": "fantastique",
+            "de": "fantastisch",
+            "it": "fantastico"
+          },
+          "example": "",
+          "image": "fantastic.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_323",
+          "word": "favourite",
+          "meanings": {
+            "tr": "favori",
+            "es": "favorito",
+            "fr": "préféré",
+            "de": "Favorit",
+            "it": "preferito"
+          },
+          "example": "",
+          "image": "favourite.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_324",
+          "word": "feeling",
+          "meanings": {
+            "tr": "his",
+            "es": "sentimiento",
+            "fr": "sentiment",
+            "de": "Gefühl",
+            "it": "sensazione"
+          },
+          "example": "",
+          "image": "feeling.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_325",
+          "word": "friendly",
+          "meanings": {
+            "tr": "arkadaşça",
+            "es": "amigable",
+            "fr": "amical",
+            "de": "freundlich",
+            "it": "amichevole"
+          },
+          "example": "",
+          "image": "friendly.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_326",
+          "word": "good",
+          "meanings": {
+            "tr": "iyi",
+            "es": "bien",
+            "fr": "bien",
+            "de": "Gut",
+            "it": "Bene"
+          },
+          "example": "",
+          "image": "good.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_327",
+          "word": "great",
+          "meanings": {
+            "tr": "Harika",
+            "es": "excelente",
+            "fr": "super",
+            "de": "Großartig",
+            "it": "Grande"
+          },
+          "example": "",
+          "image": "great.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_328",
+          "word": "happy",
+          "meanings": {
+            "tr": "mutlu",
+            "es": "feliz",
+            "fr": "heureux",
+            "de": "Glücklich",
+            "it": "Contento"
+          },
+          "example": "",
+          "image": "happy.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_329",
+          "word": "hate",
+          "meanings": {
+            "tr": "nefret",
+            "es": "odiar",
+            "fr": "détester",
+            "de": "hassen",
+            "it": "odio"
+          },
+          "example": "",
+          "image": "hate.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_330",
+          "word": "hope",
+          "meanings": {
+            "tr": "umut",
+            "es": "esperanza",
+            "fr": "espoir",
+            "de": "Hoffnung",
+            "it": "Speranza"
+          },
+          "example": "",
+          "image": "hope.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_331",
+          "word": "imagine",
+          "meanings": {
+            "tr": "hayal etmek",
+            "es": "imaginar",
+            "fr": "imaginer",
+            "de": "vorstellen",
+            "it": "immaginare"
+          },
+          "example": "",
+          "image": "imagine.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_332",
+          "word": "important",
+          "meanings": {
+            "tr": "önemli",
+            "es": "importante",
+            "fr": "important",
+            "de": "wichtig",
+            "it": "importante"
+          },
+          "example": "",
+          "image": "important.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_333",
+          "word": "interested",
+          "meanings": {
+            "tr": "ilgili",
+            "es": "interesado",
+            "fr": "intéressé",
+            "de": "interessiert",
+            "it": "interessato"
+          },
+          "example": "",
+          "image": "interested.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_334",
+          "word": "interesting",
+          "meanings": {
+            "tr": "ilginç",
+            "es": "interesante",
+            "fr": "intéressant",
+            "de": "interessant",
+            "it": "interessante"
+          },
+          "example": "",
+          "image": "interesting.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_335",
+          "word": "kind",
+          "meanings": {
+            "tr": "tür",
+            "es": "amable",
+            "fr": "gentil",
+            "de": "Art",
+            "it": "Tipo"
+          },
+          "example": "",
+          "image": "kind.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_336",
+          "word": "love",
+          "meanings": {
+            "tr": "Aşk",
+            "es": "amar",
+            "fr": "amour",
+            "de": "Liebe",
+            "it": "Amore"
+          },
+          "example": "",
+          "image": "love.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "eylemler-günlük-rutinler",
+      "title": "Eylemler & Günlük Rutinler",
+      "icon": "🏃",
+      "words": [
+        {
+          "id": "a2_337",
+          "word": "add",
+          "meanings": {
+            "tr": "eklemek",
+            "es": "agregar",
+            "fr": "ajouter",
+            "de": "hinzufügen",
+            "it": "aggiungere"
+          },
+          "example": "",
+          "image": "add.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_338",
+          "word": "agree",
+          "meanings": {
+            "tr": "kabul etmek",
+            "es": "aceptar",
+            "fr": "accepter",
+            "de": "zustimmen",
+            "it": "Essere d'accordo"
+          },
+          "example": "",
+          "image": "agree.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_339",
+          "word": "arrive",
+          "meanings": {
+            "tr": "varmak",
+            "es": "llegar",
+            "fr": "arriver",
+            "de": "ankommen",
+            "it": "arrivare"
+          },
+          "example": "",
+          "image": "arrive.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_340",
+          "word": "begin",
+          "meanings": {
+            "tr": "başlamak",
+            "es": "comenzar",
+            "fr": "commencer",
+            "de": "beginnen",
+            "it": "inizio"
+          },
+          "example": "",
+          "image": "begin.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_341",
+          "word": "believe",
+          "meanings": {
+            "tr": "inanmak",
+            "es": "creer",
+            "fr": "croire",
+            "de": "glauben",
+            "it": "credere"
+          },
+          "example": "",
+          "image": "believe.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_342",
+          "word": "bring",
+          "meanings": {
+            "tr": "getirmek",
+            "es": "traer",
+            "fr": "apporter",
+            "de": "bringen",
+            "it": "Portare"
+          },
+          "example": "",
+          "image": "bring.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_343",
+          "word": "build",
+          "meanings": {
+            "tr": "inşa etmek",
+            "es": "construir",
+            "fr": "construire",
+            "de": "bauen",
+            "it": "costruire"
+          },
+          "example": "",
+          "image": "build.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_344",
+          "word": "buy",
+          "meanings": {
+            "tr": "satın almak",
+            "es": "comprar",
+            "fr": "acheter",
+            "de": "kaufen",
+            "it": "acquistare"
+          },
+          "example": "",
+          "image": "buy.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_345",
+          "word": "carry",
+          "meanings": {
+            "tr": "taşımak",
+            "es": "llevar",
+            "fr": "porter",
+            "de": "tragen",
+            "it": "trasportare"
+          },
+          "example": "",
+          "image": "carry.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_346",
+          "word": "change",
+          "meanings": {
+            "tr": "değiştirmek",
+            "es": "cambiar",
+            "fr": "changement",
+            "de": "ändern",
+            "it": "modifica"
+          },
+          "example": "",
+          "image": "change.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_347",
+          "word": "choose",
+          "meanings": {
+            "tr": "seçmek",
+            "es": "elegir",
+            "fr": "choisir",
+            "de": "wählen",
+            "it": "scegliere"
+          },
+          "example": "",
+          "image": "choose.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_348",
+          "word": "climb",
+          "meanings": {
+            "tr": "tırmanmak",
+            "es": "trepar",
+            "fr": "grimper",
+            "de": "Aufstieg",
+            "it": "scalata"
+          },
+          "example": "",
+          "image": "climb.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_349",
+          "word": "close",
+          "meanings": {
+            "tr": "kapalı",
+            "es": "cerca",
+            "fr": "fermer",
+            "de": "schließen",
+            "it": "vicino"
+          },
+          "example": "",
+          "image": "close.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_350",
+          "word": "compare",
+          "meanings": {
+            "tr": "karşılaştırmak",
+            "es": "comparar",
+            "fr": "comparer",
+            "de": "vergleichen",
+            "it": "confrontare"
+          },
+          "example": "",
+          "image": "compare.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_351",
+          "word": "create",
+          "meanings": {
+            "tr": "yaratmak",
+            "es": "crear",
+            "fr": "créer",
+            "de": "erstellen",
+            "it": "creare"
+          },
+          "example": "",
+          "image": "create.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_352",
+          "word": "cut",
+          "meanings": {
+            "tr": "kesmek",
+            "es": "cortar",
+            "fr": "couper",
+            "de": "schneiden",
+            "it": "taglio"
+          },
+          "example": "",
+          "image": "cut.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_353",
+          "word": "decide",
+          "meanings": {
+            "tr": "karar vermek",
+            "es": "decidir",
+            "fr": "décider",
+            "de": "entscheiden",
+            "it": "decidere"
+          },
+          "example": "",
+          "image": "decide.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_354",
+          "word": "die",
+          "meanings": {
+            "tr": "ölmek",
+            "es": "morir",
+            "fr": "mourir",
+            "de": "sterben",
+            "it": "morire"
+          },
+          "example": "",
+          "image": "die.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_355",
+          "word": "draw",
+          "meanings": {
+            "tr": "çizmek",
+            "es": "dibujar",
+            "fr": "dessiner",
+            "de": "ziehen",
+            "it": "disegno"
+          },
+          "example": "",
+          "image": "draw.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_356",
+          "word": "enjoy",
+          "meanings": {
+            "tr": "Eğlence",
+            "es": "disfrutar",
+            "fr": "apprécier",
+            "de": "genießen",
+            "it": "Godere"
+          },
+          "example": "",
+          "image": "enjoy.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_357",
+          "word": "explain",
+          "meanings": {
+            "tr": "açıklamak",
+            "es": "explicar",
+            "fr": "expliquer",
+            "de": "erklären",
+            "it": "spiegare"
+          },
+          "example": "",
+          "image": "explain.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_358",
+          "word": "fall",
+          "meanings": {
+            "tr": "düşmek",
+            "es": "caer",
+            "fr": "automne",
+            "de": "fallen",
+            "it": "autunno"
+          },
+          "example": "",
+          "image": "fall.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_359",
+          "word": "feel",
+          "meanings": {
+            "tr": "hissetmek",
+            "es": "sentir",
+            "fr": "sentir",
+            "de": "fühlen",
+            "it": "Tatto"
+          },
+          "example": "",
+          "image": "feel.webp",
+          "pos": ""
+        },
+        {
+          "id": "a2_360",
+          "word": "fill",
+          "meanings": {
+            "tr": "doldurmak",
+            "es": "llenar",
+            "fr": "remplir",
+            "de": "füllen",
+            "it": "riempire"
+          },
+          "example": "",
+          "image": "fill.webp",
+          "pos": ""
+        }
+      ]
+    }
+  ]
+}

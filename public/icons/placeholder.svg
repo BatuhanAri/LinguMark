@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="16" fill="#1e232e"/>
+  <rect x="1" y="1" width="398" height="298" rx="15" stroke="#334155" stroke-width="2" stroke-dasharray="8 4"/>
+  <circle cx="200" cy="120" r="40" fill="#334155"/>
+  <path d="M200 100 L200 140 M180 120 L220 120" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <text x="200" y="190" text-anchor="middle" fill="#64748b" font-family="system-ui" font-size="14" font-weight="600">Görsel yükleniyor...</text>
+  <text x="200" y="210" text-anchor="middle" fill="#475569" font-family="system-ui" font-size="12">Image loading...</text>
+</svg>
