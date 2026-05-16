@@ -301,6 +301,8 @@ function openModal() {
     const inner = document.getElementById('fpModalInner');
     modal.classList.remove('hidden');
     modal.classList.add('flex');
+    if (inner) inner.scrollTop = 0;
+    
     setTimeout(() => {
         modal.classList.remove('opacity-0');
         inner.classList.remove('scale-95');
@@ -364,6 +366,9 @@ async function startLearnPhase() {
 }
 
 async function showNextLearn() {
+    const inner = document.getElementById('fpModalInner');
+    if (inner) inner.scrollTop = 0;
+
     if (ls.learnQueue.length === 0) {
         startTestPhase();
         return;
@@ -394,12 +399,14 @@ async function showNextLearn() {
     playAudio(ls.currentItem.word);
     
     // Load Image
+    imgContainer.classList.remove('hidden');
+    imgEl.src = 'icons/placeholder.svg'; // Default before loading
+    
     if (ls.currentItem.image) {
         imgEl.loading = 'lazy';
         imgEl.decoding = 'async';
         imgEl.onerror = () => { imgEl.src = 'icons/placeholder.svg'; };
         imgEl.src = `${CDN_BASE}/${activeLevel}/${ls.currentItem.image}`;
-        imgContainer.classList.remove('hidden');
     }
     
     // Fetch word data only if example is missing

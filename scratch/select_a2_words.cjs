@@ -115,11 +115,40 @@ for (const [title, words] of Object.entries(units)) {
             return null;
         }
         wordCount++;
+        
+        // Manual examples for common words to ensure good UX
+        const manualExamples = {
+            'apartment': 'I live in a small apartment in London.',
+            'bathroom': 'The bathroom is next to the bedroom.',
+            'bedroom': 'My bedroom has a large window.',
+            'bed': 'I go to bed at ten o\'clock.',
+            'chair': 'Please sit on this chair.',
+            'clock': 'The clock on the wall is slow.',
+            'door': 'Please close the door.',
+            'house': 'They live in a big house with a garden.',
+            'kitchen': 'My mother is cooking in the kitchen.',
+            'baby': 'The baby is sleeping now.',
+            'boy': 'The boy is playing with a ball.',
+            'girl': 'The girl is wearing a red dress.',
+            'apple': 'An apple a day keeps the doctor away.',
+            'banana': 'I usually have a banana for breakfast.',
+            'bread': 'Can you buy some bread from the market?',
+            'coffee': 'I like drinking coffee in the morning.',
+            'water': 'Can I have a glass of water, please?',
+            'weather': 'The weather is very hot today.',
+            'school': 'I go to school by bus.',
+            'book': 'I am reading an interesting book.',
+            'car': 'My father has a blue car.',
+            'city': 'Istanbul is a very beautiful city.',
+            'doctor': 'You should see a doctor.',
+            'money': 'I don\'t have much money today.',
+        };
+
         return {
             id: `a2_${String(wordCount).padStart(3, '0')}`,
             word: entry.word,
             meanings: entry.meanings,
-            example: '',
+            example: manualExamples[entry.word.toLowerCase()] || '',
             image: `${entry.word.toLowerCase().replace(/[^a-z0-9]/g, '-')}.webp`,
             pos: ''
         };

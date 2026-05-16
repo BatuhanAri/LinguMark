@@ -218,11 +218,11 @@
       </div>
       
       <!-- FastPath Learning & Test Modal -->
-      <div id="fpModal" class="fixed inset-0 bg-[#05070a]/95 backdrop-blur-2xl z-[100] hidden items-center justify-center p-6 transition-all opacity-0">
-        <div class="w-full max-w-4xl bg-white/[0.02] border border-white/5 shadow-[0_0_80px_rgba(0,0,0,0.8)] rounded-[40px] flex flex-col items-center justify-center p-12 relative transform scale-95 transition-transform" id="fpModalInner">
-           <button id="fpModalClose" class="absolute top-8 right-8 text-slate-500 hover:text-white transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-           </button>
+    <div id="fpModal" class="fixed inset-0 bg-[#05070a]/95 backdrop-blur-2xl z-[100] hidden items-center justify-center p-4 md:p-10 transition-all opacity-0">
+        <button id="fpModalClose" class="absolute top-6 right-6 md:top-10 md:right-10 text-slate-400 hover:text-white transition-all z-[120] bg-white/5 hover:bg-white/10 p-3 rounded-2xl border border-white/10 shadow-2xl">
+           <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <div class="w-full max-w-4xl max-h-[90vh] overflow-y-auto no-scrollbar bg-[#0f1218] border border-white/10 shadow-[0_0_100px_rgba(0,0,0,0.8)] rounded-[48px] flex flex-col p-8 md:p-12 relative transform scale-95 transition-transform" id="fpModalInner">
            
            <!-- Common Header -->
            <div class="w-full flex justify-between items-center mb-10 border-b border-white/5 pb-6">
@@ -232,8 +232,8 @@
            
            <!-- ZONE 1: LEARN -->
            <div id="fpZoneLearn" class="w-full flex flex-col items-center hidden animate-in fade-in">
-              <div id="fpLearnImageContainer" class="w-48 h-48 rounded-[32px] overflow-hidden mb-6 hidden shadow-2xl border-4 border-white/10 shrink-0">
-                 <img id="fpLearnImage" src="" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700">
+              <div id="fpLearnImageContainer" class="w-56 h-56 md:w-72 md:h-72 rounded-[48px] overflow-hidden mb-8 hidden shadow-2xl border-4 border-white/10 shrink-0 bg-slate-800/50">
+                 <img id="fpLearnImage" src="icons/placeholder.svg" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700">
               </div>
               <h2 id="fpLearnWord" class="text-5xl md:text-7xl font-black text-white mb-4 tracking-tighter drop-shadow-2xl capitalize text-center">Word</h2>
               <div class="flex items-center gap-3 mb-8">
