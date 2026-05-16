@@ -121,110 +121,121 @@ function renderLevelSelector() {
 
 function renderUnits(units, currentStepIndex, historyForLang) {
     const container = document.getElementById('fastpathContainer');
+    container.innerHTML = '';
     let globalStepCounter = 0;
 
     units.forEach((unit, unitIdx) => {
-        const unitStartStep = globalStepCounter; // Capture current counter for this unit
+        const unitStartStep = globalStepCounter;
         
-        // Placeholder for Virtualization
-        const unitSection = document.createElement('div');
-        unitSection.className = "w-full mb-20 min-h-[200px]";
-        container.appendChild(unitSection);
-
-        const observer = new IntersectionObserver((entries) => {
-            if (entries[0].isIntersecting) {
-                observer.disconnect();
-                renderUnitContent(unitSection, unit, unitIdx, unitStartStep, currentStepIndex, historyForLang);
-            }
-        }, { rootMargin: '200px' });
-
-        observer.observe(unitSection);
-        activeObservers.push(observer);
-        
-        // Update global counter for the next unit based on chunks
-        globalStepCounter += Math.ceil(unit.words.length / WORDS_PER_UNIT);
-    });
-}
-
-function renderUnitContent(section, unit, unitIdx, unitStartStep, currentStepIndex, historyForLang) {
-    section.innerHTML = '';
-    
-    // Render Unit Header
-    const header = document.createElement('div');
-    header.className = "w-full max-w-md mx-auto mt-10 mb-24 p-6 bg-white/5 border border-white/10 rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group";
-    header.innerHTML = `
-        <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        <div class="w-16 h-16 bg-gradient-to-tr from-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg z-10">
-            ${unit.icon}
-        </div>
-        <div class="flex flex-col z-10 text-left">
-            <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">ÜNİTE ${unitIdx + 1}</span>
-            <h3 class="text-xl font-bold text-white tracking-tight">${unit.title}</h3>
-        </div>
-    `;
-    section.appendChild(header);
-
-    // Chunk words
-    const unitSteps = [];
-    for (let i = 0; i < unit.words.length; i += WORDS_PER_UNIT) {
-        unitSteps.push(unit.words.slice(i, i + WORDS_PER_UNIT));
-    }
-
-    unitSteps.forEach((chunk, stepOffset) => {
-        const index = unitStartStep + stepOffset;
-        const isLocked = index > currentStepIndex;
-        const isActive = index === currentStepIndex;
-        const isCompleted = index < currentStepIndex;
-        
-        const offset = Math.sin(index * 0.8) * 120;
-        
-        const nodeDiv = document.createElement('div');
-        nodeDiv.className = 'relative flex items-center justify-center my-10 w-full';
-        
-        const innerNode = document.createElement('div');
-        innerNode.className = 'relative flex items-center justify-center';
-        innerNode.style.transform = `translateX(${offset}px)`;
-        
-        let btnClasses = "w-20 h-20 rounded-full flex items-center justify-center font-black text-2xl transition-all shadow-xl z-10 border-[6px] ";
-        let iconHtml = '';
-        
-        if (isActive) {
-            btnClasses += "bg-purple-500 border-purple-300 text-white animate-pulse shadow-[0_0_30px_rgba(168,85,247,0.8)] cursor-pointer hover:scale-110";
-            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>`;
-        } else if (isCompleted) {
-            btnClasses += "bg-emerald-500 border-emerald-300 text-white shadow-[0_0_20px_rgba(16,185,129,0.5)] cursor-pointer hover:scale-105";
-            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
-        } else {
-            btnClasses += "bg-[#1e232e] border-slate-700 text-slate-500 cursor-not-allowed";
-            iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
+        // 2. Chunk words for this unit to know how many steps it has
+        const unitSteps = [];
+        for (let i = 0; i < unit.words.length; i += WORDS_PER_UNIT) {
+            unitSteps.push(unit.words.slice(i, i + WORDS_PER_UNIT));
         }
         
-        let exclamations = '';
-        if (isCompleted && historyForLang[index] !== undefined) {
-            const m = historyForLang[index];
-            if (m >= 3) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">! !</span>`;
-            else if (m >= 1) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">!</span>`;
-        }
-        
-        innerNode.innerHTML = `
-           <button class="${btnClasses}" title="Adım ${index + 1}">
-             ${iconHtml}
-           </button>
-           <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg flex items-center">
-             <span class="text-slate-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">Adım ${index + 1}</span>${exclamations}
-           </div>
+        const unitTotalSteps = unitSteps.length;
+        const isUnitActive = currentStepIndex >= unitStartStep && currentStepIndex < (unitStartStep + unitTotalSteps);
+        const isUnitCompleted = currentStepIndex >= (unitStartStep + unitTotalSteps);
+
+        // 1. Render Unit Header
+        const header = document.createElement('div');
+        header.className = `w-full max-w-md mx-auto mt-6 mb-2 p-6 bg-white/5 border ${isUnitActive ? 'border-purple-500/50 shadow-[0_0_40px_rgba(168,85,247,0.15)]' : 'border-white/10'} rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group z-10 cursor-pointer transition-all hover:bg-white/10 active:scale-98`;
+        header.innerHTML = `
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-16 h-16 bg-gradient-to-tr ${isUnitCompleted ? 'from-emerald-500 to-teal-500' : 'from-purple-500 to-indigo-500'} rounded-2xl flex items-center justify-center text-3xl shadow-lg z-10 transition-transform group-hover:scale-110">
+                ${unit.icon}
+            </div>
+            <div class="flex flex-col z-10 text-left flex-1">
+                <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">ÜNİTE ${unitIdx + 1}</span>
+                <h3 class="text-xl font-bold text-white tracking-tight">${unit.title}</h3>
+                <span class="text-slate-500 text-[10px] font-bold uppercase mt-1 tracking-wider">${unitTotalSteps} Adım</span>
+            </div>
+            <div class="z-10 text-white/20 group-hover:text-purple-400 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 transition-transform duration-500" id="chevron-${unitIdx}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </div>
         `;
+        container.appendChild(header);
+
+        // Collapsible Steps Container
+        const stepsWrapper = document.createElement('div');
+        stepsWrapper.className = `w-full transition-all duration-500 overflow-hidden ${isUnitActive ? 'max-h-[2000px] opacity-100 mt-8 mb-16' : 'max-h-0 opacity-0'}`;
+        stepsWrapper.id = `steps-wrapper-${unitIdx}`;
         
-        if (!isLocked) {
-            innerNode.querySelector('button').addEventListener('click', () => {
-                startLesson(chunk, index);
-            });
-        }
-        
-        nodeDiv.appendChild(innerNode);
-        section.appendChild(nodeDiv);
+        const chevron = header.querySelector(`#chevron-${unitIdx}`);
+        if (isUnitActive) chevron.style.transform = 'rotate(180deg)';
+
+        header.onclick = () => {
+            const isOpen = stepsWrapper.classList.contains('max-h-[2000px]');
+            if (isOpen) {
+                stepsWrapper.classList.remove('max-h-[2000px]', 'opacity-100', 'mt-8', 'mb-16');
+                stepsWrapper.classList.add('max-h-0', 'opacity-0');
+                chevron.style.transform = 'rotate(0deg)';
+            } else {
+                stepsWrapper.classList.remove('max-h-0', 'opacity-0');
+                stepsWrapper.classList.add('max-h-[2000px]', 'opacity-100', 'mt-8', 'mb-16');
+                chevron.style.transform = 'rotate(180deg)';
+            }
+        };
+
+        // 3. Render Steps into wrapper
+        unitSteps.forEach((chunk, stepOffset) => {
+            const index = unitStartStep + stepOffset;
+            const isLocked = index > currentStepIndex;
+            const isActive = index === currentStepIndex;
+            const isCompleted = index < currentStepIndex;
+            
+            const offset = Math.sin(index * 0.8) * 120;
+            
+            const nodeDiv = document.createElement('div');
+            nodeDiv.className = 'relative flex items-center justify-center my-12 w-full';
+            
+            const innerNode = document.createElement('div');
+            innerNode.className = 'relative flex items-center justify-center';
+            innerNode.style.transform = `translateX(${offset}px)`;
+            
+            let btnClasses = "w-20 h-20 rounded-full flex items-center justify-center font-black text-2xl transition-all shadow-xl z-10 border-[6px] ";
+            let iconHtml = '';
+            
+            if (isActive) {
+                btnClasses += "bg-purple-500 border-purple-300 text-white animate-pulse shadow-[0_0_30px_rgba(168,85,247,0.8)] cursor-pointer hover:scale-110";
+                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>`;
+            } else if (isCompleted) {
+                btnClasses += "bg-emerald-500 border-emerald-300 text-white shadow-[0_0_20px_rgba(16,185,129,0.5)] cursor-pointer hover:scale-105";
+                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
+            } else {
+                btnClasses += "bg-[#1e232e] border-slate-700 text-slate-500 cursor-not-allowed";
+                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
+            }
+            
+            let exclamations = '';
+            if (isCompleted && historyForLang[index] !== undefined) {
+                const m = historyForLang[index];
+                if (m >= 3) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">! !</span>`;
+                else if (m >= 1) exclamations = `<span class="text-red-500 font-bold ml-1 text-sm tracking-tighter">!</span>`;
+            }
+            
+            innerNode.innerHTML = `
+               <button class="${btnClasses}" title="Adım ${index + 1}">
+                 ${iconHtml}
+               </button>
+               <div class="absolute -right-20 bg-white/5 border border-white/10 px-3 py-1 rounded-lg flex items-center shadow-lg">
+                 <span class="text-slate-400 font-bold text-xs tracking-widest uppercase whitespace-nowrap">Adım ${index + 1}</span>${exclamations}
+               </div>
+            `;
+            
+            if (!isLocked) {
+                innerNode.querySelector('button').onclick = () => startLesson(chunk, index);
+            }
+            
+            nodeDiv.appendChild(innerNode);
+            stepsWrapper.appendChild(nodeDiv);
+        });
+
+        container.appendChild(stepsWrapper);
+        globalStepCounter += unitSteps.length;
     });
 }
+
 
 // Lesson State
 let ls = {
