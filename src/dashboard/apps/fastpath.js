@@ -12,7 +12,7 @@ let activeLearningLang = 'en';
 let activeNativeLang = 'tr';
 let activeLevel = 'a2';
 
-export async function initFastPath(learningLang, nativeLang, requestedLevel = null) {
+export async function initFastPath(learningLang, nativeLang, requestedLevel = null, scrollToStepIndex = null) {
     activeLearningLang = learningLang;
     activeNativeLang = nativeLang;
     
@@ -71,6 +71,17 @@ export async function initFastPath(learningLang, nativeLang, requestedLevel = nu
 
     updateMistakesUI(mistakesForLang);
     renderUnits(loadedData.units, currentStepIndex, historyForLang);
+    
+    // Smooth scroll to the target step (either last played or current active step)
+    const targetScrollIndex = scrollToStepIndex !== null ? scrollToStepIndex : currentStepIndex;
+    if (targetScrollIndex !== null && targetScrollIndex > 0) {
+        setTimeout(() => {
+            const targetNode = document.getElementById(`fpStepNode-${targetScrollIndex}`);
+            if (targetNode) {
+                targetNode.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }, 150);
+    }
 }
 
 function renderLevelSelector() {
@@ -162,6 +173,7 @@ function renderUnits(units, currentStepIndex, historyForLang) {
             const offset = Math.sin(index * 0.8) * 120;
             
             const nodeDiv = document.createElement('div');
+            nodeDiv.id = `fpStepNode-${index}`;
             nodeDiv.className = 'relative flex items-center justify-center my-8 w-full';
             
             const innerNode = document.createElement('div');
@@ -616,7 +628,8 @@ function showResults() {
 
 async function completeSession() {
     closeModal();
-    initFastPath(activeLearningLang, activeNativeLang);
+    const lastPlayed = ls.stepIndex;
+    initFastPath(activeLearningLang, activeNativeLang, null, lastPlayed);
 }
 
 // ================= MISTAKES STORAGE =================
