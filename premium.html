@@ -60,7 +60,22 @@
       <div class="absolute -right-10 -top-10 w-32 h-32 bg-yellow-500/20 rounded-full blur-2xl"></div>
       
       <h3 class="text-2xl font-bold text-yellow-400 mb-2 flex items-center gap-2">Premium <img src="icons/premium.svg" class="w-5 h-5"></h3>
-      <div class="text-4xl font-black text-white mb-6">$9.99 <span class="text-lg text-slate-400 font-medium">/ ömür boyu</span></div>
+      
+      <!-- Package Switcher -->
+      <div class="flex p-1 bg-white/5 border border-white/10 rounded-2xl mb-6 relative z-10">
+         <button id="tab-monthly" class="flex-1 py-2 text-xs font-bold rounded-xl transition-all cursor-pointer text-slate-400 hover:text-white bg-transparent">Aylık</button>
+         <button id="tab-3month" class="flex-1 py-2 text-xs font-bold rounded-xl transition-all cursor-pointer text-slate-400 hover:text-white bg-transparent">3 Aylık</button>
+         <button id="tab-6month" class="flex-1 py-2 text-xs font-bold rounded-xl transition-all cursor-pointer text-slate-400 hover:text-white bg-transparent">6 Aylık</button>
+         <button id="tab-yearly" class="flex-1 py-2 text-xs font-bold rounded-xl transition-all cursor-pointer text-slate-400 hover:text-white bg-transparent">Yıllık</button>
+      </div>
+
+      <div class="mb-6 relative z-10">
+         <div class="flex items-baseline gap-2">
+            <span id="priceVal" class="text-4xl font-black text-white transition-all">$19.99</span>
+            <span id="pricePeriod" class="text-lg text-slate-400 font-medium transition-all">/ yıl</span>
+         </div>
+         <div id="pricePromo" class="text-xs text-yellow-400 font-bold mt-1.5 min-h-[16px] transition-all">Sadece $1.66/ay ( %44 Tasarruf! ) — En Popüler 🌟</div>
+      </div>
       
       <ul class="flex-1 space-y-4 mb-8">
         <li class="flex items-center gap-3 text-white font-bold">

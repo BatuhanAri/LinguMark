@@ -6,6 +6,58 @@ import { checkPremiumStatusAsync } from '../shared/premiumGuard.js';
 document.addEventListener('DOMContentLoaded', () => {
     const authContainer = document.getElementById('authContainer');
 
+    // Packages Configurations
+    const packages = {
+        monthly: { price: '$2.99', period: '/ ay', promo: 'Temel Paket' },
+        '3month': { price: '$6.99', period: '/ 3 ay', promo: 'Sadece $2.33/ay ( %22 Tasarruf! )' },
+        '6month': { price: '$11.99', period: '/ 6 ay', promo: 'Sadece $1.99/ay ( %33 Tasarruf! )' },
+        yearly: { price: '$19.99', period: '/ yıl', promo: 'Sadece $1.66/ay ( %44 Tasarruf! ) — En Popüler 🌟' }
+    };
+    
+    let activePackage = 'yearly';
+    
+    const tabs = {
+        monthly: document.getElementById('tab-monthly'),
+        '3month': document.getElementById('tab-3month'),
+        '6month': document.getElementById('tab-6month'),
+        yearly: document.getElementById('tab-yearly')
+    };
+    
+    const priceVal = document.getElementById('priceVal');
+    const pricePeriod = document.getElementById('pricePeriod');
+    const pricePromo = document.getElementById('pricePromo');
+    
+    function switchPackage(key) {
+        activePackage = key;
+        const pkg = packages[key];
+        if (priceVal) priceVal.textContent = pkg.price;
+        if (pricePeriod) pricePeriod.textContent = pkg.period;
+        if (pricePromo) pricePromo.textContent = pkg.promo;
+        
+        Object.keys(tabs).forEach(k => {
+            const btn = tabs[k];
+            if (!btn) return;
+            if (k === key) {
+                btn.className = "flex-1 py-2 text-xs font-black rounded-xl transition-all cursor-pointer bg-gradient-to-r from-yellow-300 to-yellow-500 text-[#0b0e14] shadow-lg";
+            } else {
+                btn.className = "flex-1 py-2 text-xs font-bold rounded-xl transition-all cursor-pointer text-slate-400 hover:text-white bg-transparent";
+            }
+        });
+    }
+    
+    Object.keys(tabs).forEach(k => {
+        const btn = tabs[k];
+        if (btn) {
+            btn.onclick = (e) => {
+                e.preventDefault();
+                switchPackage(k);
+            };
+        }
+    });
+    
+    // Default switch
+    switchPackage('yearly');
+
     listenAuthState(async (user) => {
         if (user) {
             // Kullanıcı giriş yapmış, premium durumunu kontrol et
