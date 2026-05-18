@@ -247,16 +247,7 @@ function startLesson(chunk, stepIndex) {
 }
 
 function prefetchNextImages(chunk, startIndex) {
-    for (let i = 1; i <= PREFETCH_AHEAD; i++) {
-        const item = chunk[startIndex + i];
-        if (item && item.image) {
-            const link = document.createElement('link');
-            link.rel = 'prefetch';
-            link.as = 'image';
-            link.href = `${CDN_BASE}/${activeLevel}/${item.image}`;
-            document.head.appendChild(link);
-        }
-    }
+    // Images disabled, no prefetching needed
 }
 
 function openModal() {
@@ -367,45 +358,25 @@ async function showNextLearn() {
     document.getElementById('fpLearnPoS').textContent = '';
     document.getElementById('fpLearnExampleBox').classList.add('hidden');
     
-    const imgContainer = document.getElementById('fpLearnImageContainer');
-    const imgEl = document.getElementById('fpLearnImage');
-    if (imgContainer && imgEl) {
-        imgContainer.classList.add('hidden');
-        imgEl.src = '';
+    const searchCard = document.getElementById('fpLearnSearchCard');
+    if (searchCard) {
+        searchCard.classList.add('hidden');
+        searchCard.classList.remove('flex');
+        searchCard.onclick = null;
     }
     
     playAudio(ls.currentItem.word);
     
-    // Load Image - Triple Fallback Strategy
-    imgContainer.classList.remove('hidden');
-    imgEl.src = 'icons/placeholder.svg'; // Step 1: Local placeholder immediately
-    
-    const word = ls.currentItem.word.toLowerCase();
-    
-    if (ls.currentItem.image) {
-        imgEl.loading = 'lazy';
-        imgEl.decoding = 'async';
+    // Show Interactive Search Card instead of dynamic image
+    if (searchCard) {
+        searchCard.classList.remove('hidden');
+        searchCard.classList.add('flex');
         
-        // Step 2: Try CDN
-        const cdnUrl = `${CDN_BASE}/${activeLevel}/${ls.currentItem.image}`;
-        
-        imgEl.onerror = () => {
-            // Step 3: If CDN fails, try Placehold.co (Dynamic Placeholder)
-            // This ensures user ALWAYS sees something relevant
-            if (imgEl.src.includes('placehold.co')) {
-                // If placehold.co also fails, show the local placeholder
-                imgEl.src = 'icons/placeholder.svg';
-                imgEl.onerror = null; // Prevent loops
-            } else {
-                // CDN failed, try placehold.co dynamic placeholder first
-                imgEl.src = `https://placehold.co/600x400/0f172a/white?text=${encodeURIComponent(word)}`;
-            }
+        const word = ls.currentItem.word;
+        searchCard.onclick = () => {
+            const searchUrl = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(word)}`;
+            window.open(searchUrl, '_blank');
         };
-        
-        imgEl.src = cdnUrl;
-    } else {
-        // No image defined in JSON? Show dynamic placeholder
-        imgEl.src = `https://placehold.co/600x400/0f172a/white?text=${encodeURIComponent(word)}`;
     }
     
     // Fetch word data only if example is missing

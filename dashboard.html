@@ -235,8 +235,21 @@
            
            <!-- ZONE 1: LEARN -->
            <div id="fpZoneLearn" class="w-full flex flex-col items-center hidden animate-in fade-in">
-              <div id="fpLearnImageContainer" class="w-56 h-56 md:w-72 md:h-72 rounded-[48px] overflow-hidden mb-8 hidden shadow-2xl border-4 border-white/10 shrink-0 bg-slate-800/50">
-                 <img id="fpLearnImage" src="icons/placeholder.svg" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700">
+              <!-- Interactive Search Card (No Image anymore) -->
+              <div id="fpLearnSearchCard" class="w-48 h-48 md:w-56 md:h-56 rounded-[40px] mb-8 hidden flex-col items-center justify-center cursor-pointer relative overflow-hidden group border-2 border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-500/40 shadow-2xl backdrop-blur-md transition-all active:scale-95 duration-500">
+                 <!-- Background glowing effect -->
+                 <div class="absolute inset-0 bg-gradient-to-tr from-pink-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                 
+                 <!-- Animated Question Mark / Search Icon container -->
+                 <div class="w-20 h-20 bg-gradient-to-tr from-pink-500/20 to-purple-500/20 rounded-3xl flex items-center justify-center border border-white/10 relative z-10 transition-transform group-hover:scale-110 duration-500 shadow-[0_0_30px_rgba(236,72,153,0.15)] group-hover:shadow-[0_0_40px_rgba(236,72,153,0.3)]">
+                    <span class="text-4xl font-extrabold text-pink-400 group-hover:text-white transition-colors duration-500">?</span>
+                 </div>
+                 
+                 <!-- Araştır Button Badge -->
+                 <div class="mt-4 px-4 py-1.5 rounded-xl bg-pink-500/10 border border-pink-500/20 group-hover:bg-pink-500/20 group-hover:border-pink-500/30 flex items-center gap-2 text-[11px] font-black text-pink-300 group-hover:text-white transition-all duration-500 relative z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    Araştır
+                 </div>
               </div>
               <h2 id="fpLearnWord" class="text-5xl md:text-7xl font-black text-white mb-4 tracking-tighter drop-shadow-2xl capitalize text-center">Word</h2>
               <div class="flex items-center gap-3 mb-8">
