@@ -151,7 +151,7 @@ function renderUnits(units, currentStepIndex, historyForLang) {
         // 3. Render Steps directly into container
         unitSteps.forEach((chunk, stepOffset) => {
             const index = unitStartStep + stepOffset;
-            const isLocked = index > currentStepIndex;
+            const isLocked = false; // All steps unlocked for testing/preview
             const isActive = index === currentStepIndex;
             const isCompleted = index < currentStepIndex;
             
@@ -174,8 +174,8 @@ function renderUnits(units, currentStepIndex, historyForLang) {
                 btnClasses += "bg-emerald-500 border-emerald-300 text-white shadow-[0_0_20px_rgba(16,185,129,0.5)] cursor-pointer hover:scale-105";
                 iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>`;
             } else {
-                btnClasses += "bg-[#1e232e] border-slate-700 text-slate-500 cursor-not-allowed";
-                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>`;
+                btnClasses += "bg-[#1e232e]/80 border-purple-500/40 hover:border-purple-400 text-purple-400 cursor-pointer hover:scale-105 shadow-[0_0_15px_rgba(168,85,247,0.15)]";
+                iconHtml = `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>`;
             }
             
             let exclamations = '';
@@ -194,9 +194,7 @@ function renderUnits(units, currentStepIndex, historyForLang) {
                </div>
             `;
             
-            if (!isLocked) {
-                innerNode.querySelector('button').onclick = () => startLesson(chunk, index);
-            }
+            innerNode.querySelector('button').onclick = () => startLesson(chunk, index);
             
             nodeDiv.appendChild(innerNode);
             container.appendChild(nodeDiv);
