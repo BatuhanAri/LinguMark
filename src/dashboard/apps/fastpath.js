@@ -1,5 +1,5 @@
 import { loadLevelData } from './fastpath_data.js';
-import { getLocalProgress, updateLevelProgress, setActiveLevel } from './fastpath_sync.js';
+import { getLocalProgress, updateLevelProgress, setActiveLevel, pushToFirestore } from './fastpath_sync.js';
 import { LEVELS, CDN_BASE, IMAGE_TIMEOUT, PREFETCH_AHEAD, WORDS_PER_UNIT } from '../../shared/constants.js';
 import { t } from '../../shared/i18n.js';
 import { isUserPremium } from '../../shared/premiumGuard.js';
@@ -127,57 +127,28 @@ function renderUnits(units, currentStepIndex, historyForLang) {
     units.forEach((unit, unitIdx) => {
         const unitStartStep = globalStepCounter;
         
-        // 2. Chunk words for this unit to know how many steps it has
-        const unitSteps = [];
-        for (let i = 0; i < unit.words.length; i += WORDS_PER_UNIT) {
-            unitSteps.push(unit.words.slice(i, i + WORDS_PER_UNIT));
-        }
-        
-        const unitTotalSteps = unitSteps.length;
-        const isUnitActive = currentStepIndex >= unitStartStep && currentStepIndex < (unitStartStep + unitTotalSteps);
-        const isUnitCompleted = currentStepIndex >= (unitStartStep + unitTotalSteps);
-
-        // 1. Render Unit Header
+        // 1. Render Unit Header directly into container
         const header = document.createElement('div');
-        header.className = `w-full max-w-md mx-auto mt-6 mb-2 p-6 bg-white/5 border ${isUnitActive ? 'border-purple-500/50 shadow-[0_0_40px_rgba(168,85,247,0.15)]' : 'border-white/10'} rounded-[32px] flex items-center gap-6 shadow-2xl relative overflow-hidden group z-10 cursor-pointer transition-all hover:bg-white/10 active:scale-98`;
+        header.className = "w-full max-w-md mx-auto mt-16 mb-10 p-10 bg-white/5 border border-white/10 rounded-[40px] flex items-center gap-8 shadow-2xl relative overflow-hidden group z-10";
         header.innerHTML = `
             <div class="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <div class="w-16 h-16 bg-gradient-to-tr ${isUnitCompleted ? 'from-emerald-500 to-teal-500' : 'from-purple-500 to-indigo-500'} rounded-2xl flex items-center justify-center text-3xl shadow-lg z-10 transition-transform group-hover:scale-110">
+            <div class="w-20 h-20 bg-gradient-to-tr from-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center text-4xl shadow-lg z-10 transition-transform group-hover:scale-110">
                 ${unit.icon}
             </div>
-            <div class="flex flex-col z-10 text-left flex-1">
+            <div class="flex flex-col z-10 text-left">
                 <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">ÜNİTE ${unitIdx + 1}</span>
-                <h3 class="text-xl font-bold text-white tracking-tight">${unit.title}</h3>
-                <span class="text-slate-500 text-[10px] font-bold uppercase mt-1 tracking-wider">${unitTotalSteps} Adım</span>
-            </div>
-            <div class="z-10 text-white/20 group-hover:text-purple-400 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 transition-transform duration-500" id="chevron-${unitIdx}" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                <h3 class="text-2xl font-bold text-white tracking-tight leading-tight">${unit.title}</h3>
             </div>
         `;
         container.appendChild(header);
 
-        // Collapsible Steps Container
-        const stepsWrapper = document.createElement('div');
-        stepsWrapper.className = `w-full transition-all duration-500 overflow-hidden ${isUnitActive ? 'max-h-[2000px] opacity-100 mt-8 mb-16' : 'max-h-0 opacity-0'}`;
-        stepsWrapper.id = `steps-wrapper-${unitIdx}`;
-        
-        const chevron = header.querySelector(`#chevron-${unitIdx}`);
-        if (isUnitActive) chevron.style.transform = 'rotate(180deg)';
+        // 2. Chunk words for this unit
+        const unitSteps = [];
+        for (let i = 0; i < unit.words.length; i += WORDS_PER_UNIT) {
+            unitSteps.push(unit.words.slice(i, i + WORDS_PER_UNIT));
+        }
 
-        header.onclick = () => {
-            const isOpen = stepsWrapper.classList.contains('max-h-[2000px]');
-            if (isOpen) {
-                stepsWrapper.classList.remove('max-h-[2000px]', 'opacity-100', 'mt-8', 'mb-16');
-                stepsWrapper.classList.add('max-h-0', 'opacity-0');
-                chevron.style.transform = 'rotate(0deg)';
-            } else {
-                stepsWrapper.classList.remove('max-h-0', 'opacity-0');
-                stepsWrapper.classList.add('max-h-[2000px]', 'opacity-100', 'mt-8', 'mb-16');
-                chevron.style.transform = 'rotate(180deg)';
-            }
-        };
-
-        // 3. Render Steps into wrapper
+        // 3. Render Steps directly into container
         unitSteps.forEach((chunk, stepOffset) => {
             const index = unitStartStep + stepOffset;
             const isLocked = index > currentStepIndex;
@@ -187,7 +158,7 @@ function renderUnits(units, currentStepIndex, historyForLang) {
             const offset = Math.sin(index * 0.8) * 120;
             
             const nodeDiv = document.createElement('div');
-            nodeDiv.className = 'relative flex items-center justify-center my-12 w-full';
+            nodeDiv.className = 'relative flex items-center justify-center my-8 w-full';
             
             const innerNode = document.createElement('div');
             innerNode.className = 'relative flex items-center justify-center';
@@ -228,10 +199,9 @@ function renderUnits(units, currentStepIndex, historyForLang) {
             }
             
             nodeDiv.appendChild(innerNode);
-            stepsWrapper.appendChild(nodeDiv);
+            container.appendChild(nodeDiv);
         });
 
-        container.appendChild(stepsWrapper);
         globalStepCounter += unitSteps.length;
     });
 }
@@ -422,11 +392,13 @@ async function showNextLearn() {
         imgEl.onerror = () => {
             // Step 3: If CDN fails, try Placehold.co (Dynamic Placeholder)
             // This ensures user ALWAYS sees something relevant
-            if (imgEl.src !== 'icons/placeholder.svg') {
+            if (imgEl.src.includes('placehold.co')) {
+                // If placehold.co also fails, show the local placeholder
                 imgEl.src = 'icons/placeholder.svg';
-            } else {
-                imgEl.src = `https://placehold.co/600x400/0f172a/white?text=${encodeURIComponent(word)}`;
                 imgEl.onerror = null; // Prevent loops
+            } else {
+                // CDN failed, try placehold.co dynamic placeholder first
+                imgEl.src = `https://placehold.co/600x400/0f172a/white?text=${encodeURIComponent(word)}`;
             }
         };
         
