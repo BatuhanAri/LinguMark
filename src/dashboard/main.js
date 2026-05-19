@@ -43,7 +43,9 @@ const emptyDesc = document.getElementById('emptyDesc');
 const dashLangBtn = document.getElementById('dashLangBtn');
 const dashLangText = document.getElementById('dashLangText');
 const dashLangMenu = document.getElementById('dashLangMenu');
-const dashLangOptions = document.querySelectorAll('.dash-lang-option');
+const dashNativeLangBtn = document.getElementById('dashNativeLangBtn');
+const dashNativeLangText = document.getElementById('dashNativeLangText');
+const dashNativeLangMenu = document.getElementById('dashNativeLangMenu');
 
 // Word List Elements
 const wordListGrid = document.getElementById('wordListGrid');
@@ -79,20 +81,30 @@ document.addEventListener('DOMContentLoaded', async () => {
   
   updateDashUI(nativeLang);
   
-  // Lang Dropdown
+  // Target Lang Dropdown Toggle
   dashLangBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     dashLangMenu.classList.toggle('hidden');
+    dashNativeLangMenu.classList.add('hidden');
+  });
+
+  // Native Lang Dropdown Toggle
+  dashNativeLangBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dashNativeLangMenu.classList.toggle('hidden');
+    dashLangMenu.classList.add('hidden');
   });
   
   document.addEventListener('click', () => {
     dashLangMenu.classList.add('hidden');
+    dashNativeLangMenu.classList.add('hidden');
   });
 
   // Load Initial Data
   chrome.storage.local.get(['words'], (result) => {
     allWords = result.words || [];
     buildLangDropdown();
+    buildNativeLangDropdown();
     filterAndRefresh(learningLang, nativeLang);
     updateOxfordTabVisibility(learningLang);
   });
@@ -156,6 +168,7 @@ function buildLangDropdown() {
          learningLang = val;
          dashLangText.textContent = langNames[val] || val.toUpperCase();
          filterAndRefresh(val, nativeLang);
+         refreshActiveTab();
          updateOxfordTabVisibility(val);
          await chrome.storage.local.set({ learningLang: val });
          dashLangMenu.classList.add('hidden');
@@ -163,6 +176,48 @@ function buildLangDropdown() {
       dashLangMenu.appendChild(btn);
    });
    dashLangText.textContent = langNames[learningLang] || learningLang.toUpperCase();
+}
+
+function buildNativeLangDropdown() {
+   const supportedLangs = ['tr', 'en', 'es', 'fr', 'de', 'it'];
+   if (!supportedLangs.includes(nativeLang)) nativeLang = 'tr';
+   
+   const langNames = {
+     en: 'English', es: 'Spanish', fr: 'French', de: 'German', it: 'Italian', tr: 'Turkish'
+   };
+   
+   dashNativeLangMenu.innerHTML = '';
+   supportedLangs.forEach(l => {
+      const btn = document.createElement('button');
+      btn.className = 'dash-lang-option w-full text-left px-4 py-2 text-[11px] font-medium text-slate-300 hover:text-white hover:bg-cyan-500/20 transition-all flex items-center justify-between';
+      btn.setAttribute('data-value', l);
+      btn.textContent = langNames[l] || l.toUpperCase();
+      btn.addEventListener('click', async (e) => {
+         const val = e.target.getAttribute('data-value');
+         nativeLang = val;
+         dashNativeLangText.textContent = langNames[val] || val.toUpperCase();
+         updateDashUI(val);
+         filterAndRefresh(learningLang, val);
+         refreshActiveTab();
+         await chrome.storage.local.set({ targetLang: val });
+         dashNativeLangMenu.classList.add('hidden');
+      });
+      dashNativeLangMenu.appendChild(btn);
+   });
+   dashNativeLangText.textContent = langNames[nativeLang] || nativeLang.toUpperCase();
+}
+
+function refreshActiveTab() {
+  const activeBtn = document.querySelector('.nav-btn.active');
+  if (!activeBtn) return;
+  const targetId = activeBtn.getAttribute('data-target');
+  if (targetId === 'view-matching') initMatch(nativeLang);
+  if (targetId === 'view-quiz') initQuiz(nativeLang);
+  if (targetId === 'view-typing') initTyping(nativeLang);
+  if (targetId === 'view-remember') initRemember(nativeLang);
+  if (targetId === 'view-oxford') initOxford(nativeLang);
+  if (targetId === 'view-fastpath') initFastPath(learningLang, nativeLang);
+  if (targetId === 'view-stats') initStats(nativeLang);
 }
 
 function updateOxfordTabVisibility(lang) {
@@ -317,7 +372,7 @@ function initOxford(lang) {
         const wObj = oxfordDictionary.find(x => x.id === wordId);
         if(!wObj) return;
         const now = new Date().toISOString();
-        const newWord = { ...wObj, lang: lang, meaning: wObj.meanings[lang] || wObj.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5, isOxford: false };
+        const newWord = { ...wObj, lang: learningLang, meaning: wObj.meanings[lang] || wObj.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5, isOxford: false };
         
         const res = await new Promise(r => chrome.storage.local.get(['words'], r));
         const existing = res.words || [];
@@ -325,7 +380,7 @@ function initOxford(lang) {
         const merged = [...existing, newWord];
         await new Promise(r => chrome.storage.local.set({words: merged}, r));
         allWords = merged;
-        filterAndRefresh(lang);
+        filterAndRefresh(learningLang, nativeLang);
         renderOxfordLevel(level); // re-render to update icon
       });
     });
@@ -367,13 +422,13 @@ function initOxford(lang) {
       const now = new Date().toISOString();
       const toAdd = oxfordDictionary
         .filter(w => w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id))
-        .map(w => ({ ...w, lang: lang, meaning: w.meanings[lang] || w.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
+        .map(w => ({ ...w, lang: learningLang, meaning: w.meanings[lang] || w.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
       const result = await new Promise(res => chrome.storage.local.get(['words'], res));
       const existing = result.words || [];
       const merged = [...existing, ...toAdd];
       await new Promise(res => chrome.storage.local.set({ words: merged }, res));
       allWords = merged;
-      filterAndRefresh(lang);
+      filterAndRefresh(learningLang, nativeLang);
       renderOxfordLevel(currentOxfordLevel);
       const n = document.getElementById('oxfordAddedNote');
       if(n) { n.textContent = toAdd.length > 0 ? `✓ ${toAdd.length} kelime eklendi` : `⚠ Zaten eklendi`; n.classList.remove('hidden'); }
@@ -391,6 +446,7 @@ function initOxford(lang) {
       const filtered = (result.words || []).filter(w => !idsToRemove.has(w.id));
       await new Promise(res => chrome.storage.local.set({ words: filtered }, res));
       allWords = filtered;
+      filterAndRefresh(learningLang, nativeLang);
       renderOxfordLevel(currentOxfordLevel);
       const n = document.getElementById('oxfordAddedNote');
       if(n) { n.textContent = `✓ Bu seviye çıkarıldı`; n.classList.remove('hidden'); }
