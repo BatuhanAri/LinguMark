@@ -1,6 +1,5152 @@
 {
   "version": 1,
   "level": "B1",
-  "totalWords": 0,
-  "units": []
+  "totalWords": 360,
+  "units": [
+    {
+      "id": "ev-günlük-yaşam",
+      "title": "Ev & Günlük Yaşam",
+      "icon": "🏠",
+      "words": [
+        {
+          "id": "b1_001",
+          "word": "accommodation",
+          "meanings": {
+            "tr": "konaklama",
+            "es": "alojamiento",
+            "fr": "hébergement",
+            "de": "Unterkunft",
+            "it": "alloggio"
+          },
+          "example": "We need to find cheap accommodation for the weekend.",
+          "image": "accommodation.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_002",
+          "word": "balcony",
+          "meanings": {
+            "tr": "balkon",
+            "es": "balcón",
+            "fr": "balcon",
+            "de": "Balkon",
+            "it": "balcone"
+          },
+          "example": "Our hotel room has a beautiful balcony facing the sea.",
+          "image": "balcony.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_003",
+          "word": "blanket",
+          "meanings": {
+            "tr": "battaniye",
+            "es": "frazada",
+            "fr": "couverture",
+            "de": "Decke",
+            "it": "coperta"
+          },
+          "example": "It was cold, so she put another blanket on the bed.",
+          "image": "blanket.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_004",
+          "word": "cabinet",
+          "meanings": {
+            "tr": "kabine",
+            "es": "gabinete",
+            "fr": "armoire",
+            "de": "Kabinett",
+            "it": "mobiletto"
+          },
+          "example": "Keep the medicine in a locked cabinet.",
+          "image": "cabinet.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_005",
+          "word": "candle",
+          "meanings": {
+            "tr": "mum",
+            "es": "vela",
+            "fr": "bougie",
+            "de": "Kerze",
+            "it": "candela"
+          },
+          "example": "We lit a candle when the electricity went out.",
+          "image": "candle.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_006",
+          "word": "carpet",
+          "meanings": {
+            "tr": "halı",
+            "es": "alfombra",
+            "fr": "tapis",
+            "de": "Teppich",
+            "it": "tappeto"
+          },
+          "example": "The living room floor is covered with a soft carpet.",
+          "image": "carpet.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_007",
+          "word": "ceiling",
+          "meanings": {
+            "tr": "tavan",
+            "es": "techo",
+            "fr": "plafond",
+            "de": "Decke",
+            "it": "soffitto"
+          },
+          "example": "The ceiling in this old house is very high.",
+          "image": "ceiling.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_008",
+          "word": "chest",
+          "meanings": {
+            "tr": "göğüs",
+            "es": "pecho",
+            "fr": "poitrine",
+            "de": "Brust",
+            "it": "Petto"
+          },
+          "example": "",
+          "image": "chest.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_009",
+          "word": "curtain",
+          "meanings": {
+            "tr": "perde",
+            "es": "cortina",
+            "fr": "rideau",
+            "de": "Vorhang",
+            "it": "tenda"
+          },
+          "example": "She pulled the curtains to block the sunlight.",
+          "image": "curtain.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_010",
+          "word": "cushion",
+          "meanings": {
+            "tr": "minder",
+            "es": "almohadón",
+            "fr": "coussin",
+            "de": "Kissen",
+            "it": "cuscino"
+          },
+          "example": "There are several cushions on the sofa.",
+          "image": "cushion.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_011",
+          "word": "desk",
+          "meanings": {
+            "tr": "çalışma masası",
+            "es": "escritorio",
+            "fr": "bureau",
+            "de": "Schreibtisch",
+            "it": "scrivania"
+          },
+          "example": "",
+          "image": "desk.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_012",
+          "word": "drawer",
+          "meanings": {
+            "tr": "çekmece",
+            "es": "cajón",
+            "fr": "tiroir",
+            "de": "Schublade",
+            "it": "cassetto"
+          },
+          "example": "I kept my passport in the desk drawer.",
+          "image": "drawer.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_013",
+          "word": "dust",
+          "meanings": {
+            "tr": "toz",
+            "es": "polvo",
+            "fr": "poussière",
+            "de": "Staub",
+            "it": "polvere"
+          },
+          "example": "The old books were covered in thick dust.",
+          "image": "dust.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_014",
+          "word": "furniture",
+          "meanings": {
+            "tr": "mobilya",
+            "es": "muebles",
+            "fr": "meubles",
+            "de": "Möbel",
+            "it": "mobilia"
+          },
+          "example": "We bought new furniture for our living room.",
+          "image": "furniture.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_015",
+          "word": "laundry",
+          "meanings": {
+            "tr": "çamaşır",
+            "es": "lavadero",
+            "fr": "lessive",
+            "de": "Wäscherei",
+            "it": "lavanderia"
+          },
+          "example": "She did the laundry on Sunday afternoon.",
+          "image": "laundry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_016",
+          "word": "mirror",
+          "meanings": {
+            "tr": "ayna",
+            "es": "espejo",
+            "fr": "miroir",
+            "de": "Spiegel",
+            "it": "specchio"
+          },
+          "example": "She looked at herself in the mirror.",
+          "image": "mirror.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_017",
+          "word": "neighbour",
+          "meanings": {
+            "tr": "komşu",
+            "es": "vecino",
+            "fr": "voisin",
+            "de": "Nachbar",
+            "it": "vicino"
+          },
+          "example": "Our neighbour helped us move the furniture.",
+          "image": "neighbour.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_018",
+          "word": "pillow",
+          "meanings": {
+            "tr": "yastık",
+            "es": "almohada",
+            "fr": "oreiller",
+            "de": "Kissen",
+            "it": "cuscino"
+          },
+          "example": "I need a soft pillow to sleep well.",
+          "image": "pillow.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_019",
+          "word": "property",
+          "meanings": {
+            "tr": "mülk",
+            "es": "propiedad",
+            "fr": "propriété",
+            "de": "Eigentum",
+            "it": "proprietà"
+          },
+          "example": "They bought a new property in the countryside.",
+          "image": "property.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_020",
+          "word": "rent",
+          "meanings": {
+            "tr": "kira",
+            "es": "alquilar",
+            "fr": "louer",
+            "de": "mieten",
+            "it": "affitto"
+          },
+          "example": "We pay our rent on the first of every month.",
+          "image": "rent.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_021",
+          "word": "repair",
+          "meanings": {
+            "tr": "tamirat",
+            "es": "reparar",
+            "fr": "réparation",
+            "de": "reparieren",
+            "it": "riparazione"
+          },
+          "example": "He repaired the broken chair.",
+          "image": "repair.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_022",
+          "word": "rubbish",
+          "meanings": {
+            "tr": "zırva",
+            "es": "basura",
+            "fr": "déchets",
+            "de": "Müll",
+            "it": "spazzatura"
+          },
+          "example": "Please throw the rubbish in the bin.",
+          "image": "rubbish.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_023",
+          "word": "sheet",
+          "meanings": {
+            "tr": "çarşaf",
+            "es": "hoja",
+            "fr": "feuille",
+            "de": "Blatt",
+            "it": "foglio"
+          },
+          "example": "She put clean sheets on the bed.",
+          "image": "sheet.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_024",
+          "word": "shelf",
+          "meanings": {
+            "tr": "raf",
+            "es": "estante",
+            "fr": "étagère",
+            "de": "Regal",
+            "it": "mensola"
+          },
+          "example": "Put the books back on the shelf.",
+          "image": "shelf.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "aile-i-lişkiler",
+      "title": "Aile & İlişkiler",
+      "icon": "👨‍👩‍👧‍👦",
+      "words": [
+        {
+          "id": "b1_025",
+          "word": "anniversary",
+          "meanings": {
+            "tr": "yıl dönümü",
+            "es": "aniversario",
+            "fr": "anniversaire",
+            "de": "Jubiläum",
+            "it": "anniversario"
+          },
+          "example": "They celebrated their tenth wedding anniversary yesterday.",
+          "image": "anniversary.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_026",
+          "word": "bride",
+          "meanings": {
+            "tr": "gelin",
+            "es": "novia",
+            "fr": "mariée",
+            "de": "Braut",
+            "it": "sposa"
+          },
+          "example": "",
+          "image": "bride.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_027",
+          "word": "groom",
+          "meanings": {
+            "tr": "damat",
+            "es": "acicalar",
+            "fr": "marié",
+            "de": "Bräutigam",
+            "it": "sposo"
+          },
+          "example": "",
+          "image": "groom.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_028",
+          "word": "couple",
+          "meanings": {
+            "tr": "çift",
+            "es": "pareja",
+            "fr": "couple",
+            "de": "Paar",
+            "it": "coppia"
+          },
+          "example": "A young couple walked past us in the park.",
+          "image": "couple.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_029",
+          "word": "generation",
+          "meanings": {
+            "tr": "nesil",
+            "es": "generación",
+            "fr": "génération",
+            "de": "Generation",
+            "it": "generazione"
+          },
+          "example": "Our grandparents belong to a different generation.",
+          "image": "generation.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_030",
+          "word": "grow up",
+          "meanings": {
+            "tr": "çıkmak",
+            "es": "crecer",
+            "fr": "grandir",
+            "de": "aufwachsen",
+            "it": "crescere"
+          },
+          "example": "",
+          "image": "grow-up.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_031",
+          "word": "guest",
+          "meanings": {
+            "tr": "misafir",
+            "es": "invitado",
+            "fr": "invité",
+            "de": "Gast",
+            "it": "ospite"
+          },
+          "example": "We invited twenty guests to the dinner party.",
+          "image": "guest.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_032",
+          "word": "marriage",
+          "meanings": {
+            "tr": "evlilik",
+            "es": "casamiento",
+            "fr": "mariage",
+            "de": "Hochzeit",
+            "it": "matrimonio"
+          },
+          "example": "A happy marriage is built on trust.",
+          "image": "marriage.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_033",
+          "word": "marry",
+          "meanings": {
+            "tr": "evlenmek",
+            "es": "casarse",
+            "fr": "marier",
+            "de": "heiraten",
+            "it": "sposare"
+          },
+          "example": "They decided to marry next month.",
+          "image": "marry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_034",
+          "word": "nephew",
+          "meanings": {
+            "tr": "yeğen",
+            "es": "sobrino",
+            "fr": "neveu",
+            "de": "Neffe",
+            "it": "nipote"
+          },
+          "example": "",
+          "image": "nephew.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_035",
+          "word": "niece",
+          "meanings": {
+            "tr": "yeğen",
+            "es": "sobrina",
+            "fr": "nièce",
+            "de": "Nichte",
+            "it": "nipote"
+          },
+          "example": "My niece is three years old today.",
+          "image": "niece.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_036",
+          "word": "parent",
+          "meanings": {
+            "tr": "ebeveyn",
+            "es": "padre",
+            "fr": "mère",
+            "de": "Elternteil",
+            "it": "genitore"
+          },
+          "example": "Every parent wants their child to succeed.",
+          "image": "parent.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_037",
+          "word": "partner",
+          "meanings": {
+            "tr": "ortak",
+            "es": "pareja",
+            "fr": "partenaire",
+            "de": "Partner",
+            "it": "partner"
+          },
+          "example": "He is my business partner in this project.",
+          "image": "partner.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_038",
+          "word": "relative",
+          "meanings": {
+            "tr": "akraba",
+            "es": "relativo",
+            "fr": "relatif",
+            "de": "relativ",
+            "it": "relativo"
+          },
+          "example": "All our relatives gathered for the holiday.",
+          "image": "relative.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_039",
+          "word": "single",
+          "meanings": {
+            "tr": "Bekar",
+            "es": "soltero",
+            "fr": "célibataire",
+            "de": "einzel",
+            "it": "separare"
+          },
+          "example": "He is single and lives alone.",
+          "image": "single.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_040",
+          "word": "twin",
+          "meanings": {
+            "tr": "ikiz",
+            "es": "mellizo",
+            "fr": "double",
+            "de": "Zwilling",
+            "it": "gemello"
+          },
+          "example": "She has a twin sister who looks just like her.",
+          "image": "twin.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_041",
+          "word": "wedding",
+          "meanings": {
+            "tr": "düğün",
+            "es": "boda",
+            "fr": "mariage",
+            "de": "Hochzeit",
+            "it": "nozze"
+          },
+          "example": "They invited all their friends to the wedding.",
+          "image": "wedding.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_042",
+          "word": "youth",
+          "meanings": {
+            "tr": "gençlik",
+            "es": "juventud",
+            "fr": "jeunesse",
+            "de": "Jugend",
+            "it": "gioventù"
+          },
+          "example": "He spent his youth in a small village.",
+          "image": "youth.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_043",
+          "word": "celebrate",
+          "meanings": {
+            "tr": "kutlamak",
+            "es": "celebrar",
+            "fr": "célébrer",
+            "de": "feiern",
+            "it": "celebrare"
+          },
+          "example": "We will celebrate my birthday at a restaurant.",
+          "image": "celebrate.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_044",
+          "word": "ceremony",
+          "meanings": {
+            "tr": "tören",
+            "es": "ceremonia",
+            "fr": "cérémonie",
+            "de": "Zeremonie",
+            "it": "cerimonia"
+          },
+          "example": "",
+          "image": "ceremony.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_045",
+          "word": "character",
+          "meanings": {
+            "tr": "karakter",
+            "es": "personaje",
+            "fr": "personnage",
+            "de": "Charakter",
+            "it": "carattere"
+          },
+          "example": "She is a strong and honest character.",
+          "image": "character.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_046",
+          "word": "childhood",
+          "meanings": {
+            "tr": "çocukluk",
+            "es": "infancia",
+            "fr": "enfance",
+            "de": "Kindheit",
+            "it": "infanzia"
+          },
+          "example": "I had a very happy childhood.",
+          "image": "childhood.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_047",
+          "word": "crowd",
+          "meanings": {
+            "tr": "kalabalık",
+            "es": "multitud",
+            "fr": "foule",
+            "de": "Menge",
+            "it": "folla"
+          },
+          "example": "A large crowd gathered to watch the concert.",
+          "image": "crowd.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_048",
+          "word": "female",
+          "meanings": {
+            "tr": "dişi",
+            "es": "femenino",
+            "fr": "femelle",
+            "de": "weiblich",
+            "it": "femmina"
+          },
+          "example": "The lioness is a female lion.",
+          "image": "female.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "yiyecek-i-çecek",
+      "title": "Yiyecek & İçecek",
+      "icon": "🍎",
+      "words": [
+        {
+          "id": "b1_049",
+          "word": "bake",
+          "meanings": {
+            "tr": "pişmek",
+            "es": "hornear",
+            "fr": "cuire",
+            "de": "backen",
+            "it": "cottura al forno"
+          },
+          "example": "",
+          "image": "bake.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_050",
+          "word": "bean",
+          "meanings": {
+            "tr": "fasulye",
+            "es": "frijol",
+            "fr": "haricot",
+            "de": "Bohne",
+            "it": "fagiolo"
+          },
+          "example": "",
+          "image": "bean.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_051",
+          "word": "beef",
+          "meanings": {
+            "tr": "biftek",
+            "es": "carne de res",
+            "fr": "bœuf",
+            "de": "Rindfleisch",
+            "it": "manzo"
+          },
+          "example": "",
+          "image": "beef.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_052",
+          "word": "biscuit",
+          "meanings": {
+            "tr": "bisküvi",
+            "es": "galleta",
+            "fr": "biscuit",
+            "de": "Keks",
+            "it": "biscotto"
+          },
+          "example": "",
+          "image": "biscuit.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_053",
+          "word": "bitter",
+          "meanings": {
+            "tr": "acı",
+            "es": "amargo",
+            "fr": "amer",
+            "de": "bitter",
+            "it": "amaro"
+          },
+          "example": "",
+          "image": "bitter.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_054",
+          "word": "boil",
+          "meanings": {
+            "tr": "kaynamak",
+            "es": "hervir",
+            "fr": "bouillir",
+            "de": "kochen",
+            "it": "bollire"
+          },
+          "example": "",
+          "image": "boil.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_055",
+          "word": "cabbage",
+          "meanings": {
+            "tr": "lahana",
+            "es": "repollo",
+            "fr": "chou",
+            "de": "Kohl",
+            "it": "cavolo"
+          },
+          "example": "",
+          "image": "cabbage.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_056",
+          "word": "cream",
+          "meanings": {
+            "tr": "krem",
+            "es": "crema",
+            "fr": "crème",
+            "de": "Creme",
+            "it": "crema"
+          },
+          "example": "",
+          "image": "cream.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_057",
+          "word": "cucumber",
+          "meanings": {
+            "tr": "salatalık",
+            "es": "pepino",
+            "fr": "concombre",
+            "de": "Gurke",
+            "it": "cetriolo"
+          },
+          "example": "",
+          "image": "cucumber.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_058",
+          "word": "dessert",
+          "meanings": {
+            "tr": "tatlı",
+            "es": "postre",
+            "fr": "dessert",
+            "de": "Nachtisch",
+            "it": "dessert"
+          },
+          "example": "",
+          "image": "dessert.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_059",
+          "word": "flour",
+          "meanings": {
+            "tr": "un",
+            "es": "harina",
+            "fr": "farine",
+            "de": "Mehl",
+            "it": "farina"
+          },
+          "example": "Bread is made from flour and water.",
+          "image": "flour.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_060",
+          "word": "garlic",
+          "meanings": {
+            "tr": "sarımsak",
+            "es": "ajo",
+            "fr": "ail",
+            "de": "Knoblauch",
+            "it": "aglio"
+          },
+          "example": "I always put garlic in the pasta sauce.",
+          "image": "garlic.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_061",
+          "word": "grape",
+          "meanings": {
+            "tr": "üzüm",
+            "es": "uva",
+            "fr": "raisin",
+            "de": "Traube",
+            "it": "uva"
+          },
+          "example": "We bought green grapes from the market.",
+          "image": "grape.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_062",
+          "word": "honey",
+          "meanings": {
+            "tr": "Bal",
+            "es": "Miel",
+            "fr": "Miel",
+            "de": "Honig",
+            "it": "Miele"
+          },
+          "example": "I like to add honey to my warm tea.",
+          "image": "honey.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_063",
+          "word": "ingredient",
+          "meanings": {
+            "tr": "bileşen",
+            "es": "ingrediente",
+            "fr": "ingrédient",
+            "de": "Bestandteil",
+            "it": "ingrediente"
+          },
+          "example": "Flour is the main ingredient of this cake.",
+          "image": "ingredient.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_064",
+          "word": "lemon",
+          "meanings": {
+            "tr": "limon",
+            "es": "limón",
+            "fr": "citron",
+            "de": "Zitrone",
+            "it": "limone"
+          },
+          "example": "I squeezed some lemon into the salad.",
+          "image": "lemon.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_065",
+          "word": "melon",
+          "meanings": {
+            "tr": "kavun",
+            "es": "melón",
+            "fr": "melon",
+            "de": "Melone",
+            "it": "melone"
+          },
+          "example": "",
+          "image": "melon.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_066",
+          "word": "oil",
+          "meanings": {
+            "tr": "yağ",
+            "es": "aceite",
+            "fr": "huile",
+            "de": "Öl",
+            "it": "olio"
+          },
+          "example": "Olive oil is very popular in Turkish cooking.",
+          "image": "oil.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_067",
+          "word": "onion",
+          "meanings": {
+            "tr": "soğan",
+            "es": "cebolla",
+            "fr": "oignon",
+            "de": "Zwiebel",
+            "it": "cipolla"
+          },
+          "example": "I chopped some onions for the soup.",
+          "image": "onion.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_068",
+          "word": "peach",
+          "meanings": {
+            "tr": "şeftali",
+            "es": "durazno",
+            "fr": "pêche",
+            "de": "Pfirsich",
+            "it": "pesca"
+          },
+          "example": "I ate a sweet, juicy peach.",
+          "image": "peach.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_069",
+          "word": "pear",
+          "meanings": {
+            "tr": "armut",
+            "es": "pera",
+            "fr": "poire",
+            "de": "Birne",
+            "it": "pera"
+          },
+          "example": "We picked fresh pears from the tree.",
+          "image": "pear.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_070",
+          "word": "raw",
+          "meanings": {
+            "tr": "çiğ",
+            "es": "crudo",
+            "fr": "brut",
+            "de": "roh",
+            "it": "crudo"
+          },
+          "example": "Sushi is made with raw fish.",
+          "image": "raw.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_071",
+          "word": "recipe",
+          "meanings": {
+            "tr": "yemek tarifi",
+            "es": "receta",
+            "fr": "recette",
+            "de": "Rezept",
+            "it": "ricetta"
+          },
+          "example": "Follow this simple recipe to make a delicious cake.",
+          "image": "recipe.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_072",
+          "word": "spice",
+          "meanings": {
+            "tr": "baharat",
+            "es": "condimentar",
+            "fr": "pimenter",
+            "de": "würzen",
+            "it": "spezia"
+          },
+          "example": "Chili is a very hot spice.",
+          "image": "spice.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "yemek-mutfak",
+      "title": "Yemek & Mutfak",
+      "icon": "🍳",
+      "words": [
+        {
+          "id": "b1_073",
+          "word": "bowl",
+          "meanings": {
+            "tr": "tas",
+            "es": "bol",
+            "fr": "bol",
+            "de": "Schüssel",
+            "it": "ciotola"
+          },
+          "example": "She ate a bowl of soup for lunch.",
+          "image": "bowl.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_074",
+          "word": "cooker",
+          "meanings": {
+            "tr": "ocak",
+            "es": "estufa",
+            "fr": "cuisinière",
+            "de": "Kocher",
+            "it": "fornello"
+          },
+          "example": "We bought a new gas cooker for our kitchen.",
+          "image": "cooker.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_075",
+          "word": "cupboard",
+          "meanings": {
+            "tr": "büfe",
+            "es": "armario",
+            "fr": "placard",
+            "de": "Schrank",
+            "it": "credenza"
+          },
+          "example": "",
+          "image": "cupboard.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_076",
+          "word": "dish",
+          "meanings": {
+            "tr": "tabak",
+            "es": "plato",
+            "fr": "plat",
+            "de": "Gericht",
+            "it": "piatto"
+          },
+          "example": "",
+          "image": "dish.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_077",
+          "word": "fork",
+          "meanings": {
+            "tr": "çatal",
+            "es": "tenedor",
+            "fr": "fourchette",
+            "de": "Gabel",
+            "it": "forchetta"
+          },
+          "example": "He ate his dinner with a knife and fork.",
+          "image": "fork.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_078",
+          "word": "frying pan",
+          "meanings": {
+            "tr": "tava",
+            "es": "sartén",
+            "fr": "poêle à frire",
+            "de": "Bratpfanne",
+            "it": "padella"
+          },
+          "example": "",
+          "image": "frying-pan.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_079",
+          "word": "glass",
+          "meanings": {
+            "tr": "bardak",
+            "es": "vaso",
+            "fr": "verre",
+            "de": "Glas",
+            "it": "bicchiere"
+          },
+          "example": "",
+          "image": "glass.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_080",
+          "word": "grill",
+          "meanings": {
+            "tr": "ızgara",
+            "es": "parrilla",
+            "fr": "gril",
+            "de": "Grill",
+            "it": "griglia"
+          },
+          "example": "",
+          "image": "grill.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_081",
+          "word": "kettle",
+          "meanings": {
+            "tr": "su ısıtıcısı",
+            "es": "pava",
+            "fr": "bouilloire",
+            "de": "Wasserkocher",
+            "it": "bollitore"
+          },
+          "example": "Put the kettle on to make some tea.",
+          "image": "kettle.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_082",
+          "word": "knife",
+          "meanings": {
+            "tr": "bıçak",
+            "es": "cuchillo",
+            "fr": "couteau",
+            "de": "Messer",
+            "it": "coltello"
+          },
+          "example": "Be careful with that sharp knife.",
+          "image": "knife.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_083",
+          "word": "microwave",
+          "meanings": {
+            "tr": "mikrodalga",
+            "es": "microonda",
+            "fr": "micro-ondes",
+            "de": "Mikrowelle",
+            "it": "microonde"
+          },
+          "example": "You can heat the soup in the microwave.",
+          "image": "microwave.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_084",
+          "word": "oven",
+          "meanings": {
+            "tr": "fırın",
+            "es": "horno",
+            "fr": "four",
+            "de": "Ofen",
+            "it": "forno"
+          },
+          "example": "Bake the cake in a preheated oven.",
+          "image": "oven.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_085",
+          "word": "pan",
+          "meanings": {
+            "tr": "tava",
+            "es": "cacerola",
+            "fr": "poêle",
+            "de": "Pfanne",
+            "it": "padella"
+          },
+          "example": "Heat some butter in the frying pan.",
+          "image": "pan.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_086",
+          "word": "plate",
+          "meanings": {
+            "tr": "plaka",
+            "es": "lámina",
+            "fr": "plaque",
+            "de": "Platte",
+            "it": "piatto"
+          },
+          "example": "She put a plate of cookies on the table.",
+          "image": "plate.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_087",
+          "word": "pot",
+          "meanings": {
+            "tr": "saksı",
+            "es": "olla",
+            "fr": "pot",
+            "de": "Pot",
+            "it": "pentola"
+          },
+          "example": "She put a pot of water on the stove.",
+          "image": "pot.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_088",
+          "word": "refrigerator",
+          "meanings": {
+            "tr": "buzdolabı",
+            "es": "refrigerador",
+            "fr": "réfrigérateur",
+            "de": "Kühlschrank",
+            "it": "frigorifero"
+          },
+          "example": "Keep the milk in the refrigerator.",
+          "image": "refrigerator.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_089",
+          "word": "saucepan",
+          "meanings": {
+            "tr": "tencere",
+            "es": "cacerola",
+            "fr": "casserole",
+            "de": "Topf",
+            "it": "casseruola"
+          },
+          "example": "Pour the sauce into a small saucepan.",
+          "image": "saucepan.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_090",
+          "word": "spoon",
+          "meanings": {
+            "tr": "kaşık",
+            "es": "cuchara",
+            "fr": "cuillère",
+            "de": "Löffel",
+            "it": "cucchiaio"
+          },
+          "example": "Stir the soup with a wooden spoon.",
+          "image": "spoon.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_091",
+          "word": "chef",
+          "meanings": {
+            "tr": "şef",
+            "es": "cocinero",
+            "fr": "cuisinier",
+            "de": "Küchenchef",
+            "it": "cuoco"
+          },
+          "example": "The head chef prepared a delicious meal.",
+          "image": "chef.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_092",
+          "word": "canteen",
+          "meanings": {
+            "tr": "kantin",
+            "es": "cantina",
+            "fr": "cantine",
+            "de": "Kantine",
+            "it": "mensa"
+          },
+          "example": "We usually eat lunch at the school canteen.",
+          "image": "canteen.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_093",
+          "word": "flavour",
+          "meanings": {
+            "tr": "lezzet",
+            "es": "sabor",
+            "fr": "saveur",
+            "de": "Geschmack",
+            "it": "gusto"
+          },
+          "example": "I love the flavour of fresh strawberries.",
+          "image": "flavour.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_094",
+          "word": "freeze",
+          "meanings": {
+            "tr": "dondurmak",
+            "es": "congelar",
+            "fr": "geler",
+            "de": "einfrieren",
+            "it": "congelare"
+          },
+          "example": "Water freezes at zero degrees Celsius.",
+          "image": "freeze.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_095",
+          "word": "fry",
+          "meanings": {
+            "tr": "yağda kızartmak",
+            "es": "freír",
+            "fr": "frire",
+            "de": "braten",
+            "it": "friggere"
+          },
+          "example": "Fry the onions in a pan with some olive oil.",
+          "image": "fry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_096",
+          "word": "taste",
+          "meanings": {
+            "tr": "tatmak",
+            "es": "gusto",
+            "fr": "goût",
+            "de": "schmecken",
+            "it": "gusto"
+          },
+          "example": "This soup tastes wonderful.",
+          "image": "taste.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "giyim-görünüm",
+      "title": "Giyim & Görünüm",
+      "icon": "👔",
+      "words": [
+        {
+          "id": "b1_097",
+          "word": "belt",
+          "meanings": {
+            "tr": "kemer",
+            "es": "cinturón",
+            "fr": "ceinture",
+            "de": "Gürtel",
+            "it": "cintura"
+          },
+          "example": "",
+          "image": "belt.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_098",
+          "word": "blouse",
+          "meanings": {
+            "tr": "bluz",
+            "es": "blusa",
+            "fr": "blouse",
+            "de": "Bluse",
+            "it": "camicetta"
+          },
+          "example": "",
+          "image": "blouse.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_099",
+          "word": "boot",
+          "meanings": {
+            "tr": "bot",
+            "es": "bota",
+            "fr": "botte",
+            "de": "Stiefel",
+            "it": "stivale"
+          },
+          "example": "",
+          "image": "boot.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_100",
+          "word": "button",
+          "meanings": {
+            "tr": "düğme",
+            "es": "botón",
+            "fr": "bouton",
+            "de": "Taste",
+            "it": "pulsante"
+          },
+          "example": "",
+          "image": "button.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_101",
+          "word": "cap",
+          "meanings": {
+            "tr": "kap",
+            "es": "tapa",
+            "fr": "capuchon",
+            "de": "Kappe",
+            "it": "berretto"
+          },
+          "example": "",
+          "image": "cap.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_102",
+          "word": "collar",
+          "meanings": {
+            "tr": "yaka",
+            "es": "cuello",
+            "fr": "collier",
+            "de": "Kragen",
+            "it": "collare"
+          },
+          "example": "",
+          "image": "collar.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_103",
+          "word": "costume",
+          "meanings": {
+            "tr": "kostüm",
+            "es": "traje",
+            "fr": "costume",
+            "de": "Kostüm",
+            "it": "costume"
+          },
+          "example": "The children wore colorful costumes for Halloween.",
+          "image": "costume.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_104",
+          "word": "cotton",
+          "meanings": {
+            "tr": "pamuk",
+            "es": "algodón",
+            "fr": "coton",
+            "de": "Baumwolle",
+            "it": "cotone"
+          },
+          "example": "This shirt is made of one hundred percent cotton.",
+          "image": "cotton.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_105",
+          "word": "earring",
+          "meanings": {
+            "tr": "küpe",
+            "es": "pendiente",
+            "fr": "boucle",
+            "de": "Ohrring",
+            "it": "orecchino"
+          },
+          "example": "",
+          "image": "earring.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_106",
+          "word": "fashion",
+          "meanings": {
+            "tr": "moda",
+            "es": "moda",
+            "fr": "mode",
+            "de": "Mode",
+            "it": "moda"
+          },
+          "example": "She is interested in the latest fashion trends.",
+          "image": "fashion.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_107",
+          "word": "glove",
+          "meanings": {
+            "tr": "eldiven",
+            "es": "guante",
+            "fr": "gant",
+            "de": "Handschuh",
+            "it": "guanto"
+          },
+          "example": "Wear gloves to keep your hands warm.",
+          "image": "glove.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_108",
+          "word": "handbag",
+          "meanings": {
+            "tr": "çanta",
+            "es": "bolso",
+            "fr": "sac à main",
+            "de": "Handtasche",
+            "it": "borsetta"
+          },
+          "example": "She left her handbag on the bus.",
+          "image": "handbag.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_109",
+          "word": "jewellery",
+          "meanings": {
+            "tr": "mücevher",
+            "es": "joyería",
+            "fr": "bijoux",
+            "de": "Schmuck",
+            "it": "gioielleria"
+          },
+          "example": "She wore beautiful gold jewellery to the party.",
+          "image": "jewellery.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_110",
+          "word": "leather",
+          "meanings": {
+            "tr": "deri",
+            "es": "cuero",
+            "fr": "cuir",
+            "de": "Leder",
+            "it": "pelle"
+          },
+          "example": "I bought a black leather jacket.",
+          "image": "leather.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_111",
+          "word": "necklace",
+          "meanings": {
+            "tr": "kolye",
+            "es": "collar",
+            "fr": "collier",
+            "de": "Halskette",
+            "it": "collana"
+          },
+          "example": "He bought a silver necklace for his mother.",
+          "image": "necklace.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_112",
+          "word": "pocket",
+          "meanings": {
+            "tr": "cep",
+            "es": "bolsillo",
+            "fr": "poche",
+            "de": "Tasche",
+            "it": "tasca"
+          },
+          "example": "I have some coins in my pocket.",
+          "image": "pocket.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_113",
+          "word": "purse",
+          "meanings": {
+            "tr": "el çantası",
+            "es": "cartera",
+            "fr": "bourse",
+            "de": "Geldbeutel",
+            "it": "borsa"
+          },
+          "example": "She kept her credit cards in her purse.",
+          "image": "purse.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_114",
+          "word": "ring",
+          "meanings": {
+            "tr": "yüzük",
+            "es": "anillo",
+            "fr": "anneau",
+            "de": "Ring",
+            "it": "squillo"
+          },
+          "example": "She wears a gold ring on her finger.",
+          "image": "ring.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_115",
+          "word": "scarf",
+          "meanings": {
+            "tr": "atkı",
+            "es": "bufanda",
+            "fr": "foulard",
+            "de": "Schal",
+            "it": "sciarpa"
+          },
+          "example": "She wore a wool scarf around her neck.",
+          "image": "scarf.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_116",
+          "word": "silk",
+          "meanings": {
+            "tr": "ipek",
+            "es": "seda",
+            "fr": "soie",
+            "de": "Seide",
+            "it": "seta"
+          },
+          "example": "This scarf is made of genuine Chinese silk.",
+          "image": "silk.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_117",
+          "word": "sleeve",
+          "meanings": {
+            "tr": "elbise kolu",
+            "es": "manga",
+            "fr": "manche",
+            "de": "Ärmel",
+            "it": "manica"
+          },
+          "example": "He rolled up his sleeves and started working.",
+          "image": "sleeve.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_118",
+          "word": "suit",
+          "meanings": {
+            "tr": "uygun olmak",
+            "es": "traje",
+            "fr": "costume",
+            "de": "Anzug",
+            "it": "abito"
+          },
+          "example": "He wore a dark suit and tie to the interview.",
+          "image": "suit.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_119",
+          "word": "tie",
+          "meanings": {
+            "tr": "bağlamak",
+            "es": "atar",
+            "fr": "cravate",
+            "de": "binden",
+            "it": "cravatta"
+          },
+          "example": "He wore a red tie with his suit.",
+          "image": "tie.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_120",
+          "word": "underwear",
+          "meanings": {
+            "tr": "iç çamaşırı",
+            "es": "ropa interior",
+            "fr": "sous-vêtement",
+            "de": "Unterwäsche",
+            "it": "biancheria intima"
+          },
+          "example": "Wash your underwear in warm water.",
+          "image": "underwear.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "vücut-sağlık",
+      "title": "Vücut & Sağlık",
+      "icon": "🏥",
+      "words": [
+        {
+          "id": "b1_121",
+          "word": "ache",
+          "meanings": {
+            "tr": "ağrı",
+            "es": "dolor",
+            "fr": "mal",
+            "de": "schmerzen",
+            "it": "dolore"
+          },
+          "example": "",
+          "image": "ache.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_122",
+          "word": "ankle",
+          "meanings": {
+            "tr": "bilek",
+            "es": "tobillo",
+            "fr": "cheville",
+            "de": "Knöchel",
+            "it": "caviglia"
+          },
+          "example": "",
+          "image": "ankle.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_123",
+          "word": "bandage",
+          "meanings": {
+            "tr": "bandaj",
+            "es": "vendaje",
+            "fr": "bandage",
+            "de": "Bandage",
+            "it": "bendare"
+          },
+          "example": "She put a bandage on her cut finger.",
+          "image": "bandage.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_124",
+          "word": "bleed",
+          "meanings": {
+            "tr": "kanama",
+            "es": "sangrar",
+            "fr": "saigner",
+            "de": "bluten",
+            "it": "sanguinare"
+          },
+          "example": "His nose started to bleed after the fall.",
+          "image": "bleed.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_125",
+          "word": "blind",
+          "meanings": {
+            "tr": "kör",
+            "es": "ciego",
+            "fr": "aveugle",
+            "de": "blind",
+            "it": "cieco"
+          },
+          "example": "",
+          "image": "blind.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_126",
+          "word": "blood",
+          "meanings": {
+            "tr": "kan",
+            "es": "sangre",
+            "fr": "sang",
+            "de": "Blut",
+            "it": "sangue"
+          },
+          "example": "Donating blood can save lives.",
+          "image": "blood.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_127",
+          "word": "brain",
+          "meanings": {
+            "tr": "beyin",
+            "es": "cerebro",
+            "fr": "cerveau",
+            "de": "Gehirn",
+            "it": "cervello"
+          },
+          "example": "Reading books helps keep your brain active.",
+          "image": "brain.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_128",
+          "word": "breath",
+          "meanings": {
+            "tr": "nefes",
+            "es": "aliento",
+            "fr": "haleine",
+            "de": "Atem",
+            "it": "respiro"
+          },
+          "example": "Take a deep breath before you speak.",
+          "image": "breath.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_129",
+          "word": "breathe",
+          "meanings": {
+            "tr": "nefes almak",
+            "es": "respirar",
+            "fr": "respirer",
+            "de": "atmen",
+            "it": "respirare"
+          },
+          "example": "",
+          "image": "breathe.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_130",
+          "word": "chin",
+          "meanings": {
+            "tr": "çene",
+            "es": "mentón",
+            "fr": "menton",
+            "de": "kinn",
+            "it": "mento"
+          },
+          "example": "",
+          "image": "chin.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_131",
+          "word": "cure",
+          "meanings": {
+            "tr": "tedavi",
+            "es": "curar",
+            "fr": "guérir",
+            "de": "Heilung",
+            "it": "cura"
+          },
+          "example": "",
+          "image": "cure.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_132",
+          "word": "deaf",
+          "meanings": {
+            "tr": "sağır",
+            "es": "sordo",
+            "fr": "sourd",
+            "de": "taub",
+            "it": "sordo"
+          },
+          "example": "He has been deaf since childhood.",
+          "image": "deaf.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_133",
+          "word": "dentist",
+          "meanings": {
+            "tr": "dişçi",
+            "es": "dentista",
+            "fr": "dentiste",
+            "de": "Zahnarzt",
+            "it": "dentista"
+          },
+          "example": "You should visit the dentist twice a year.",
+          "image": "dentist.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_134",
+          "word": "disease",
+          "meanings": {
+            "tr": "hastalık",
+            "es": "enfermedad",
+            "fr": "maladie",
+            "de": "Krankheit",
+            "it": "malattia"
+          },
+          "example": "Washing hands helps prevent the spread of disease.",
+          "image": "disease.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_135",
+          "word": "elbow",
+          "meanings": {
+            "tr": "dirsek",
+            "es": "codo",
+            "fr": "coude",
+            "de": "Ellbogen",
+            "it": "gomito"
+          },
+          "example": "",
+          "image": "elbow.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_136",
+          "word": "fever",
+          "meanings": {
+            "tr": "ateş",
+            "es": "fiebre",
+            "fr": "fièvre",
+            "de": "Fieber",
+            "it": "febbre"
+          },
+          "example": "The child has a high fever and needs rest.",
+          "image": "fever.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_137",
+          "word": "fit",
+          "meanings": {
+            "tr": "yerleştirmek",
+            "es": "adaptar",
+            "fr": "ajuster",
+            "de": "fit",
+            "it": "adatto"
+          },
+          "example": "",
+          "image": "fit.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_138",
+          "word": "flu",
+          "meanings": {
+            "tr": "nezle",
+            "es": "gripe",
+            "fr": "grippe",
+            "de": "Grippe",
+            "it": "influenza"
+          },
+          "example": "",
+          "image": "flu.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_139",
+          "word": "illness",
+          "meanings": {
+            "tr": "hastalık",
+            "es": "enfermedad",
+            "fr": "maladie",
+            "de": "Erkrankung",
+            "it": "malattia"
+          },
+          "example": "Her illness kept her away from school.",
+          "image": "illness.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_140",
+          "word": "knee",
+          "meanings": {
+            "tr": "diz",
+            "es": "rodilla",
+            "fr": "genou",
+            "de": "Knie",
+            "it": "ginocchio"
+          },
+          "example": "He hurt his knee while playing football.",
+          "image": "knee.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_141",
+          "word": "neck",
+          "meanings": {
+            "tr": "boyun",
+            "es": "cuello",
+            "fr": "cou",
+            "de": "Nacken",
+            "it": "collo"
+          },
+          "example": "",
+          "image": "neck.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_142",
+          "word": "pain",
+          "meanings": {
+            "tr": "ağrı",
+            "es": "dolor",
+            "fr": "douleur",
+            "de": "Schmerz",
+            "it": "Dolore"
+          },
+          "example": "He felt a sharp pain in his back.",
+          "image": "pain.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_143",
+          "word": "patient",
+          "meanings": {
+            "tr": "hasta",
+            "es": "paciente",
+            "fr": "patient",
+            "de": "geduldig",
+            "it": "paziente"
+          },
+          "example": "The doctor examined the sick patient.",
+          "image": "patient.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_144",
+          "word": "pill",
+          "meanings": {
+            "tr": "hap",
+            "es": "píldora",
+            "fr": "pilule",
+            "de": "Pille",
+            "it": "pillola"
+          },
+          "example": "Take one pill before going to bed.",
+          "image": "pill.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "şehir-ulaşım",
+      "title": "Şehir & Ulaşım",
+      "icon": "🚌",
+      "words": [
+        {
+          "id": "b1_145",
+          "word": "abroad",
+          "meanings": {
+            "tr": "yurt dışı",
+            "es": "en el extranjero",
+            "fr": "à l'étranger",
+            "de": "im Ausland",
+            "it": "all'estero"
+          },
+          "example": "She decided to study abroad next semester.",
+          "image": "abroad.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_146",
+          "word": "accident",
+          "meanings": {
+            "tr": "kaza",
+            "es": "accidente",
+            "fr": "accident",
+            "de": "Unfall",
+            "it": "incidente"
+          },
+          "example": "The police arrived at the scene of the accident.",
+          "image": "accident.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_147",
+          "word": "airport",
+          "meanings": {
+            "tr": "havalimanı",
+            "es": "aeropuerto",
+            "fr": "aéroport",
+            "de": "Flughafen",
+            "it": "aeroporto"
+          },
+          "example": "The taxi dropped us off at the airport.",
+          "image": "airport.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_148",
+          "word": "ambulance",
+          "meanings": {
+            "tr": "ambulans",
+            "es": "ambulancia",
+            "fr": "ambulance",
+            "de": "Krankenwagen",
+            "it": "ambulanza"
+          },
+          "example": "An ambulance arrived to take him to the hospital.",
+          "image": "ambulance.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_149",
+          "word": "baggage",
+          "meanings": {
+            "tr": "bagaj",
+            "es": "equipaje",
+            "fr": "bagages",
+            "de": "Gepäck",
+            "it": "Bagaglio"
+          },
+          "example": "",
+          "image": "baggage.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_150",
+          "word": "bicycle",
+          "meanings": {
+            "tr": "bisiklet",
+            "es": "bicicleta",
+            "fr": "vélo",
+            "de": "Fahrrad",
+            "it": "bicicletta"
+          },
+          "example": "",
+          "image": "bicycle.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_151",
+          "word": "border",
+          "meanings": {
+            "tr": "sınır",
+            "es": "borde",
+            "fr": "frontière",
+            "de": "Grenze",
+            "it": "confine"
+          },
+          "example": "",
+          "image": "border.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_152",
+          "word": "bridge",
+          "meanings": {
+            "tr": "köprü",
+            "es": "puente",
+            "fr": "pont",
+            "de": "Brücke",
+            "it": "ponte"
+          },
+          "example": "They are building a new bridge over the river.",
+          "image": "bridge.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_153",
+          "word": "cabin",
+          "meanings": {
+            "tr": "kabin",
+            "es": "cabina",
+            "fr": "cabine",
+            "de": "Kabine",
+            "it": "cabina"
+          },
+          "example": "",
+          "image": "cabin.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_154",
+          "word": "canal",
+          "meanings": {
+            "tr": "kanal",
+            "es": "canal",
+            "fr": "canal",
+            "de": "Kanal",
+            "it": "canale"
+          },
+          "example": "",
+          "image": "canal.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_155",
+          "word": "customs",
+          "meanings": {
+            "tr": "gümrük",
+            "es": "aduanas",
+            "fr": "douane",
+            "de": "Zoll",
+            "it": "dogana"
+          },
+          "example": "We had to go through customs at the border.",
+          "image": "customs.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_156",
+          "word": "delay",
+          "meanings": {
+            "tr": "gecikme",
+            "es": "demora",
+            "fr": "retard",
+            "de": "Verzögerung",
+            "it": "ritardo"
+          },
+          "example": "Our flight was delayed by two hours due to rain.",
+          "image": "delay.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_157",
+          "word": "departure",
+          "meanings": {
+            "tr": "kalkış",
+            "es": "partida",
+            "fr": "départ",
+            "de": "Abfahrt",
+            "it": "partenza"
+          },
+          "example": "The departure time of our train is 9:30 AM.",
+          "image": "departure.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_158",
+          "word": "destination",
+          "meanings": {
+            "tr": "varış noktası",
+            "es": "destino",
+            "fr": "destination",
+            "de": "Ziel",
+            "it": "destinazione"
+          },
+          "example": "We finally reached our destination after a long drive.",
+          "image": "destination.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_159",
+          "word": "fare",
+          "meanings": {
+            "tr": "ücret",
+            "es": "tarifa",
+            "fr": "tarif",
+            "de": "Fahrpreis",
+            "it": "tariffa"
+          },
+          "example": "Bus fares have increased recently.",
+          "image": "fare.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_160",
+          "word": "flight",
+          "meanings": {
+            "tr": "uçuş",
+            "es": "vuelo",
+            "fr": "vol",
+            "de": "Flug",
+            "it": "volo"
+          },
+          "example": "The flight to Paris was very comfortable.",
+          "image": "flight.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_161",
+          "word": "harbour",
+          "meanings": {
+            "tr": "liman",
+            "es": "puerto",
+            "fr": "port",
+            "de": "Hafen",
+            "it": "porto"
+          },
+          "example": "We saw many boats in the harbour.",
+          "image": "harbour.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_162",
+          "word": "journey",
+          "meanings": {
+            "tr": "seyahat",
+            "es": "viaje",
+            "fr": "voyage",
+            "de": "Reise",
+            "it": "viaggio"
+          },
+          "example": "It was a long and tiring journey by train.",
+          "image": "journey.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_163",
+          "word": "luggage",
+          "meanings": {
+            "tr": "bagaj",
+            "es": "equipaje",
+            "fr": "bagage",
+            "de": "Gepäck",
+            "it": "bagaglio"
+          },
+          "example": "We checked in our luggage at the counter.",
+          "image": "luggage.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_164",
+          "word": "motorcycle",
+          "meanings": {
+            "tr": "motosiklet",
+            "es": "motocicleta",
+            "fr": "moto",
+            "de": "Motorrad",
+            "it": "motociclo"
+          },
+          "example": "He rode his motorcycle to the countryside.",
+          "image": "motorcycle.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_165",
+          "word": "passenger",
+          "meanings": {
+            "tr": "yolcu",
+            "es": "pasajero",
+            "fr": "passager",
+            "de": "Passagier",
+            "it": "passeggeri"
+          },
+          "example": "All passengers must wear seat belts.",
+          "image": "passenger.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_166",
+          "word": "passport",
+          "meanings": {
+            "tr": "pasaport",
+            "es": "pasaporte",
+            "fr": "passeport",
+            "de": "Reisepass",
+            "it": "passaporto"
+          },
+          "example": "Don't forget to bring your passport to the airport.",
+          "image": "passport.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_167",
+          "word": "pedestrian",
+          "meanings": {
+            "tr": "yaya",
+            "es": "peatonal",
+            "fr": "piéton",
+            "de": "Fußgänger",
+            "it": "pedonale"
+          },
+          "example": "Drivers must stop for pedestrians at the crossing.",
+          "image": "pedestrian.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_168",
+          "word": "platform",
+          "meanings": {
+            "tr": "platformu",
+            "es": "plataforma",
+            "fr": "plate-forme",
+            "de": "Plattform",
+            "it": "piattaforma"
+          },
+          "example": "The train to London leaves from platform four.",
+          "image": "platform.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "doğa-hava-durumu",
+      "title": "Doğa & Hava Durumu",
+      "icon": "🌿",
+      "words": [
+        {
+          "id": "b1_169",
+          "word": "animal",
+          "meanings": {
+            "tr": "hayvan",
+            "es": "animal",
+            "fr": "animal",
+            "de": "Tier",
+            "it": "animale"
+          },
+          "example": "",
+          "image": "animal.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_170",
+          "word": "atmosphere",
+          "meanings": {
+            "tr": "atmosfer",
+            "es": "atmósfera",
+            "fr": "atmosphère",
+            "de": "Atmosphäre",
+            "it": "atmosfera"
+          },
+          "example": "The Earth's atmosphere protects us from the sun.",
+          "image": "atmosphere.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_171",
+          "word": "bay",
+          "meanings": {
+            "tr": "koy",
+            "es": "bahía",
+            "fr": "baie",
+            "de": "Bucht",
+            "it": "baia"
+          },
+          "example": "",
+          "image": "bay.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_172",
+          "word": "beach",
+          "meanings": {
+            "tr": "sahil",
+            "es": "playa",
+            "fr": "plage",
+            "de": "Strand",
+            "it": "spiaggia"
+          },
+          "example": "",
+          "image": "beach.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_173",
+          "word": "bush",
+          "meanings": {
+            "tr": "çalı",
+            "es": "arbusto",
+            "fr": "buisson",
+            "de": "Busch",
+            "it": "cespuglio"
+          },
+          "example": "",
+          "image": "bush.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_174",
+          "word": "cave",
+          "meanings": {
+            "tr": "mağara",
+            "es": "cueva",
+            "fr": "grotte",
+            "de": "Höhle",
+            "it": "grotta"
+          },
+          "example": "",
+          "image": "cave.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_175",
+          "word": "climate",
+          "meanings": {
+            "tr": "iklim",
+            "es": "clima",
+            "fr": "climat",
+            "de": "Klima",
+            "it": "clima"
+          },
+          "example": "The world's climate is changing rapidly.",
+          "image": "climate.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_176",
+          "word": "coast",
+          "meanings": {
+            "tr": "sahil",
+            "es": "costa",
+            "fr": "côte",
+            "de": "Küste",
+            "it": "costa"
+          },
+          "example": "",
+          "image": "coast.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_177",
+          "word": "continent",
+          "meanings": {
+            "tr": "kıta",
+            "es": "continente",
+            "fr": "continent",
+            "de": "Kontinent",
+            "it": "continente"
+          },
+          "example": "",
+          "image": "continent.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_178",
+          "word": "creature",
+          "meanings": {
+            "tr": "yaratık",
+            "es": "criatura",
+            "fr": "créature",
+            "de": "Kreatur",
+            "it": "creatura"
+          },
+          "example": "",
+          "image": "creature.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_179",
+          "word": "crop",
+          "meanings": {
+            "tr": "mahsul",
+            "es": "cultivo",
+            "fr": "recadrer",
+            "de": "Ernte",
+            "it": "raccolto"
+          },
+          "example": "",
+          "image": "crop.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_180",
+          "word": "desert",
+          "meanings": {
+            "tr": "çöl",
+            "es": "desierto",
+            "fr": "désert",
+            "de": "Wüste",
+            "it": "deserto"
+          },
+          "example": "Camels can survive in the hot desert for days.",
+          "image": "desert.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_181",
+          "word": "environment",
+          "meanings": {
+            "tr": "çevre",
+            "es": "ambiente",
+            "fr": "environnement",
+            "de": "Umfeld",
+            "it": "ambiente"
+          },
+          "example": "We need to protect the natural environment.",
+          "image": "environment.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_182",
+          "word": "flood",
+          "meanings": {
+            "tr": "sel basmak",
+            "es": "inundación",
+            "fr": "inondation",
+            "de": "Flut",
+            "it": "alluvione"
+          },
+          "example": "The river overflowed and caused a major flood.",
+          "image": "flood.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_183",
+          "word": "flower",
+          "meanings": {
+            "tr": "çiçek",
+            "es": "flor",
+            "fr": "fleur",
+            "de": "Blume",
+            "it": "fiore"
+          },
+          "example": "",
+          "image": "flower.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_184",
+          "word": "forest",
+          "meanings": {
+            "tr": "orman",
+            "es": "bosque",
+            "fr": "forêt",
+            "de": "Wald",
+            "it": "foresta"
+          },
+          "example": "We took a walk in the green forest.",
+          "image": "forest.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_185",
+          "word": "grass",
+          "meanings": {
+            "tr": "çimen",
+            "es": "césped",
+            "fr": "herbe",
+            "de": "Gras",
+            "it": "erba"
+          },
+          "example": "",
+          "image": "grass.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_186",
+          "word": "hill",
+          "meanings": {
+            "tr": "tepe",
+            "es": "colina",
+            "fr": "colline",
+            "de": "hügel",
+            "it": "collina"
+          },
+          "example": "",
+          "image": "hill.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_187",
+          "word": "insect",
+          "meanings": {
+            "tr": "böcek",
+            "es": "insecto",
+            "fr": "insecte",
+            "de": "Insekt",
+            "it": "insetto"
+          },
+          "example": "A bee is a very useful insect.",
+          "image": "insect.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_188",
+          "word": "island",
+          "meanings": {
+            "tr": "ada",
+            "es": "isla",
+            "fr": "île",
+            "de": "Insel",
+            "it": "isola"
+          },
+          "example": "They spent their vacation on a tropical island.",
+          "image": "island.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_189",
+          "word": "jungle",
+          "meanings": {
+            "tr": "orman",
+            "es": "selva",
+            "fr": "jungle",
+            "de": "Dschungel",
+            "it": "giungla"
+          },
+          "example": "Many wild animals live in the deep jungle.",
+          "image": "jungle.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_190",
+          "word": "lake",
+          "meanings": {
+            "tr": "göl",
+            "es": "lago",
+            "fr": "lac",
+            "de": "See",
+            "it": "lago"
+          },
+          "example": "We swam in the cool lake during summer.",
+          "image": "lake.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_191",
+          "word": "landscape",
+          "meanings": {
+            "tr": "manzara",
+            "es": "paisaje",
+            "fr": "paysage",
+            "de": "Landschaft",
+            "it": "paesaggio"
+          },
+          "example": "The mountain landscape was absolutely beautiful.",
+          "image": "landscape.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_192",
+          "word": "mountain",
+          "meanings": {
+            "tr": "dağ",
+            "es": "montaña",
+            "fr": "montagne",
+            "de": "Berg",
+            "it": "montagna"
+          },
+          "example": "They climbed a high mountain last weekend.",
+          "image": "mountain.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "çevre-enerji",
+      "title": "Çevre & Enerji",
+      "icon": "🔋",
+      "words": [
+        {
+          "id": "b1_193",
+          "word": "damage",
+          "meanings": {
+            "tr": "zarar",
+            "es": "daño",
+            "fr": "dommage",
+            "de": "Schaden",
+            "it": "danno"
+          },
+          "example": "The storm caused serious damage to the roof.",
+          "image": "damage.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_194",
+          "word": "electricity",
+          "meanings": {
+            "tr": "elektrik",
+            "es": "electricidad",
+            "fr": "électricité",
+            "de": "Strom",
+            "it": "elettricità"
+          },
+          "example": "Many cars now run on electricity.",
+          "image": "electricity.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_195",
+          "word": "energy",
+          "meanings": {
+            "tr": "enerji",
+            "es": "energía",
+            "fr": "énergie",
+            "de": "Energie",
+            "it": "energia"
+          },
+          "example": "We need more solar energy to protect the environment.",
+          "image": "energy.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_196",
+          "word": "fuel",
+          "meanings": {
+            "tr": "yakıt",
+            "es": "combustible",
+            "fr": "carburant",
+            "de": "Kraftstoff",
+            "it": "carburante"
+          },
+          "example": "Wood is still used as fuel in some countries.",
+          "image": "fuel.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_197",
+          "word": "gas",
+          "meanings": {
+            "tr": "gaz",
+            "es": "gas",
+            "fr": "gaz",
+            "de": "Gas",
+            "it": "gas"
+          },
+          "example": "The kitchen smelled of gas, so we opened the window.",
+          "image": "gas.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_198",
+          "word": "petrol",
+          "meanings": {
+            "tr": "benzin",
+            "es": "gasolina",
+            "fr": "essence",
+            "de": "Benzin",
+            "it": "benzina"
+          },
+          "example": "Our car is low on petrol, we must find a station.",
+          "image": "petrol.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_199",
+          "word": "planet",
+          "meanings": {
+            "tr": "gezegen",
+            "es": "planeta",
+            "fr": "planète",
+            "de": "Planet",
+            "it": "pianeta"
+          },
+          "example": "Earth is the only planet known to support life.",
+          "image": "planet.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_200",
+          "word": "pollution",
+          "meanings": {
+            "tr": "kirlilik",
+            "es": "contaminación",
+            "fr": "pollution",
+            "de": "Verschmutzung",
+            "it": "inquinamento"
+          },
+          "example": "Air pollution is a major problem in big cities.",
+          "image": "pollution.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_201",
+          "word": "power",
+          "meanings": {
+            "tr": "güç",
+            "es": "fuerza",
+            "fr": "pouvoir",
+            "de": "Leistung",
+            "it": "energia"
+          },
+          "example": "The storm caused a power outage in the area.",
+          "image": "power.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_202",
+          "word": "recycle",
+          "meanings": {
+            "tr": "geri dönüşüm",
+            "es": "reciclar",
+            "fr": "recycler",
+            "de": "recyceln",
+            "it": "riciclare"
+          },
+          "example": "We should recycle plastic bottles to protect nature.",
+          "image": "recycle.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_203",
+          "word": "waste",
+          "meanings": {
+            "tr": "atık",
+            "es": "desperdiciar",
+            "fr": "déchets",
+            "de": "Abfall",
+            "it": "sciupare"
+          },
+          "example": "Recycling helps reduce household waste.",
+          "image": "waste.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_204",
+          "word": "wind",
+          "meanings": {
+            "tr": "rüzgâr",
+            "es": "viento",
+            "fr": "vent",
+            "de": "Wind",
+            "it": "vento"
+          },
+          "example": "The strong wind blew away my hat.",
+          "image": "wind.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_205",
+          "word": "temperature",
+          "meanings": {
+            "tr": "sıcaklık",
+            "es": "temperatura",
+            "fr": "température",
+            "de": "Temperatur",
+            "it": "temperatura"
+          },
+          "example": "The temperature is very high today.",
+          "image": "temperature.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_206",
+          "word": "season",
+          "meanings": {
+            "tr": "mevsim",
+            "es": "estación",
+            "fr": "saison",
+            "de": "Jahreszeit",
+            "it": "stagione"
+          },
+          "example": "",
+          "image": "season.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_207",
+          "word": "effect",
+          "meanings": {
+            "tr": "etki",
+            "es": "efecto",
+            "fr": "effet",
+            "de": "Wirkung",
+            "it": "effetto"
+          },
+          "example": "Smoking has a bad effect on your health.",
+          "image": "effect.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_208",
+          "word": "protect",
+          "meanings": {
+            "tr": "korumak",
+            "es": "proteger",
+            "fr": "protéger",
+            "de": "schützen",
+            "it": "proteggere"
+          },
+          "example": "We must protect our planet from pollution.",
+          "image": "protect.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_209",
+          "word": "natural",
+          "meanings": {
+            "tr": "doğal",
+            "es": "natural",
+            "fr": "naturel",
+            "de": "natürlich",
+            "it": "naturale"
+          },
+          "example": "Earthquakes are natural disasters.",
+          "image": "natural.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_210",
+          "word": "battery",
+          "meanings": {
+            "tr": "pil",
+            "es": "batería",
+            "fr": "batterie",
+            "de": "Batterie",
+            "it": "batteria"
+          },
+          "example": "This toy needs two double-A batteries to work.",
+          "image": "battery.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_211",
+          "word": "dirt",
+          "meanings": {
+            "tr": "kir",
+            "es": "suciedad",
+            "fr": "saleté",
+            "de": "Schmutz",
+            "it": "sporco"
+          },
+          "example": "Wash the dirt off your hands.",
+          "image": "dirt.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_212",
+          "word": "earth",
+          "meanings": {
+            "tr": "toprak",
+            "es": "tierra",
+            "fr": "Terre",
+            "de": "Erde",
+            "it": "terra"
+          },
+          "example": "The astronaut looked down at the green and blue Earth.",
+          "image": "earth.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_213",
+          "word": "heat",
+          "meanings": {
+            "tr": "sıcaklık",
+            "es": "calor",
+            "fr": "chaleur",
+            "de": "Hitze",
+            "it": "Calore"
+          },
+          "example": "The summer heat was almost unbearable.",
+          "image": "heat.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_214",
+          "word": "ice",
+          "meanings": {
+            "tr": "buz",
+            "es": "hielo",
+            "fr": "glace",
+            "de": "Eis",
+            "it": "ghiaccio"
+          },
+          "example": "Put some ice in my water, please.",
+          "image": "ice.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_215",
+          "word": "lightning",
+          "meanings": {
+            "tr": "yıldırım",
+            "es": "iluminación",
+            "fr": "foudre",
+            "de": "Blitz",
+            "it": "fulmine"
+          },
+          "example": "A flash of lightning lit up the dark sky.",
+          "image": "lightning.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_216",
+          "word": "metal",
+          "meanings": {
+            "tr": "maden",
+            "es": "metal",
+            "fr": "métal",
+            "de": "Metall",
+            "it": "metallo"
+          },
+          "example": "This table is made of strong metal.",
+          "image": "metal.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "eğitim-öğrenme",
+      "title": "Eğitim & Öğrenme",
+      "icon": "📚",
+      "words": [
+        {
+          "id": "b1_217",
+          "word": "biology",
+          "meanings": {
+            "tr": "biyoloji",
+            "es": "biología",
+            "fr": "biologie",
+            "de": "Biologie",
+            "it": "biologia"
+          },
+          "example": "",
+          "image": "biology.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_218",
+          "word": "chemistry",
+          "meanings": {
+            "tr": "kimya",
+            "es": "química",
+            "fr": "chimie",
+            "de": "Chemie",
+            "it": "chimica"
+          },
+          "example": "Chemistry was my favorite subject in high school.",
+          "image": "chemistry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_219",
+          "word": "class",
+          "meanings": {
+            "tr": "sınıf",
+            "es": "clase",
+            "fr": "classe",
+            "de": "Klasse",
+            "it": "classe"
+          },
+          "example": "",
+          "image": "class.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_220",
+          "word": "college",
+          "meanings": {
+            "tr": "üniversite",
+            "es": "colega",
+            "fr": "collège",
+            "de": "Hochschule",
+            "it": "college"
+          },
+          "example": "He went to college in Boston.",
+          "image": "college.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_221",
+          "word": "course",
+          "meanings": {
+            "tr": "kurs",
+            "es": "curso",
+            "fr": "cours",
+            "de": "Kurs",
+            "it": "corso"
+          },
+          "example": "I enrolled in an online English language course.",
+          "image": "course.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_222",
+          "word": "degree",
+          "meanings": {
+            "tr": "derece",
+            "es": "grado",
+            "fr": "degré",
+            "de": "Grad",
+            "it": "grado"
+          },
+          "example": "",
+          "image": "degree.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_223",
+          "word": "diploma",
+          "meanings": {
+            "tr": "diploma",
+            "es": "diploma",
+            "fr": "diplôme",
+            "de": "Diplom",
+            "it": "diploma"
+          },
+          "example": "",
+          "image": "diploma.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_224",
+          "word": "education",
+          "meanings": {
+            "tr": "eğitim",
+            "es": "educación",
+            "fr": "éducation",
+            "de": "Ausbildung",
+            "it": "istruzione"
+          },
+          "example": "Education is the key to a better future.",
+          "image": "education.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_225",
+          "word": "elementary",
+          "meanings": {
+            "tr": "temel",
+            "es": "elemental",
+            "fr": "élémentaire",
+            "de": "elementar",
+            "it": "elementare"
+          },
+          "example": "",
+          "image": "elementary.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_226",
+          "word": "geography",
+          "meanings": {
+            "tr": "coğrafya",
+            "es": "geografía",
+            "fr": "géographie",
+            "de": "Geographie",
+            "it": "geografia"
+          },
+          "example": "We learned about rivers in geography class.",
+          "image": "geography.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_227",
+          "word": "graduate",
+          "meanings": {
+            "tr": "mezun olmak",
+            "es": "graduado",
+            "fr": "diplômé",
+            "de": "Absolvent",
+            "it": "laureato"
+          },
+          "example": "She graduated from university last summer.",
+          "image": "graduate.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_228",
+          "word": "history",
+          "meanings": {
+            "tr": "tarih",
+            "es": "historia",
+            "fr": "histoire",
+            "de": "Geschichte",
+            "it": "storia"
+          },
+          "example": "",
+          "image": "history.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_229",
+          "word": "homework",
+          "meanings": {
+            "tr": "Ev ödevi",
+            "es": "tarea",
+            "fr": "devoirs",
+            "de": "Hausaufgaben",
+            "it": "compiti a casa"
+          },
+          "example": "",
+          "image": "homework.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_230",
+          "word": "instructor",
+          "meanings": {
+            "tr": "eğitmen",
+            "es": "instructor",
+            "fr": "instructeur",
+            "de": "Lehrer",
+            "it": "istruttore"
+          },
+          "example": "",
+          "image": "instructor.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_231",
+          "word": "knowledge",
+          "meanings": {
+            "tr": "bilgi",
+            "es": "conocimiento",
+            "fr": "connaissance",
+            "de": "Wissen",
+            "it": "conoscenza"
+          },
+          "example": "Books are a source of great knowledge.",
+          "image": "knowledge.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_232",
+          "word": "lecture",
+          "meanings": {
+            "tr": "ders",
+            "es": "conferencia",
+            "fr": "conférence",
+            "de": "Vortrag",
+            "it": "lezione"
+          },
+          "example": "The professor gave an interesting lecture on history.",
+          "image": "lecture.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_233",
+          "word": "lesson",
+          "meanings": {
+            "tr": "ders",
+            "es": "lección",
+            "fr": "leçon",
+            "de": "Lektion",
+            "it": "lezione"
+          },
+          "example": "Our English lesson starts at ten o'clock.",
+          "image": "lesson.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_234",
+          "word": "library",
+          "meanings": {
+            "tr": "kütüphane",
+            "es": "biblioteca",
+            "fr": "bibliothèque",
+            "de": "Bibliothek",
+            "it": "biblioteca"
+          },
+          "example": "I borrowed two books from the library.",
+          "image": "library.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_235",
+          "word": "physics",
+          "meanings": {
+            "tr": "fizik",
+            "es": "física",
+            "fr": "physique",
+            "de": "Physik",
+            "it": "fisica"
+          },
+          "example": "Physics helps us understand how the universe works.",
+          "image": "physics.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_236",
+          "word": "professor",
+          "meanings": {
+            "tr": "profesör",
+            "es": "profesor",
+            "fr": "professeur",
+            "de": "Professor",
+            "it": "professore"
+          },
+          "example": "The professor answered the student's question.",
+          "image": "professor.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_237",
+          "word": "pupil",
+          "meanings": {
+            "tr": "öğrenci",
+            "es": "alumno",
+            "fr": "élève",
+            "de": "Schüler",
+            "it": "pupilla"
+          },
+          "example": "",
+          "image": "pupil.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_238",
+          "word": "term",
+          "meanings": {
+            "tr": "terim",
+            "es": "término",
+            "fr": "terme",
+            "de": "Begriff",
+            "it": "termine"
+          },
+          "example": "The academic term ends in January.",
+          "image": "term.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_239",
+          "word": "concentrate",
+          "meanings": {
+            "tr": "konsantre olmak",
+            "es": "concentrarse",
+            "fr": "se concentrer",
+            "de": "konzentrieren",
+            "it": "concentrarsi"
+          },
+          "example": "It is hard to concentrate with all this noise.",
+          "image": "concentrate.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_240",
+          "word": "intelligent",
+          "meanings": {
+            "tr": "zeki",
+            "es": "inteligente",
+            "fr": "intelligent",
+            "de": "intelligent",
+            "it": "intelligente"
+          },
+          "example": "Dolphins are very intelligent animals.",
+          "image": "intelligent.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "i-ş-kariyer",
+      "title": "İş & Kariyer",
+      "icon": "💼",
+      "words": [
+        {
+          "id": "b1_241",
+          "word": "accountant",
+          "meanings": {
+            "tr": "muhasebeci",
+            "es": "contador",
+            "fr": "comptable",
+            "de": "Buchhalter",
+            "it": "contabile"
+          },
+          "example": "",
+          "image": "accountant.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_242",
+          "word": "application",
+          "meanings": {
+            "tr": "başvuru",
+            "es": "solicitud",
+            "fr": "application",
+            "de": "Anwendung",
+            "it": "applicazione"
+          },
+          "example": "Please submit your job application by Friday.",
+          "image": "application.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_243",
+          "word": "boss",
+          "meanings": {
+            "tr": "patron",
+            "es": "jefe",
+            "fr": "chef",
+            "de": "Chef",
+            "it": "capo"
+          },
+          "example": "My boss asked me to work overtime today.",
+          "image": "boss.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_244",
+          "word": "business",
+          "meanings": {
+            "tr": "işletme",
+            "es": "negocio",
+            "fr": "entreprise",
+            "de": "Geschäft",
+            "it": "Attività commerciale"
+          },
+          "example": "",
+          "image": "business.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_245",
+          "word": "candidate",
+          "meanings": {
+            "tr": "aday",
+            "es": "candidato",
+            "fr": "candidat",
+            "de": "Kandidat",
+            "it": "candidato"
+          },
+          "example": "She is a strong candidate for the manager position.",
+          "image": "candidate.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_246",
+          "word": "career",
+          "meanings": {
+            "tr": "kariyer",
+            "es": "carrera",
+            "fr": "carrière",
+            "de": "Karriere",
+            "it": "carriera"
+          },
+          "example": "He wants to pursue a career in computer science.",
+          "image": "career.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_247",
+          "word": "colleague",
+          "meanings": {
+            "tr": "iş arkadaşı",
+            "es": "colega",
+            "fr": "collègue",
+            "de": "Kollege",
+            "it": "collega"
+          },
+          "example": "She is a helpful colleague from my office.",
+          "image": "colleague.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_248",
+          "word": "company",
+          "meanings": {
+            "tr": "şirket",
+            "es": "compañía",
+            "fr": "entreprise",
+            "de": "Unternehmen",
+            "it": "azienda"
+          },
+          "example": "They work for a large technology company.",
+          "image": "company.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_249",
+          "word": "contract",
+          "meanings": {
+            "tr": "sözleşme",
+            "es": "contrato",
+            "fr": "contracter",
+            "de": "Vertrag",
+            "it": "contrarre"
+          },
+          "example": "They signed a two-year contract with the client.",
+          "image": "contract.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_250",
+          "word": "department",
+          "meanings": {
+            "tr": "departman",
+            "es": "departamento",
+            "fr": "département",
+            "de": "Abteilung",
+            "it": "dipartimento"
+          },
+          "example": "She works in the marketing department.",
+          "image": "department.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_251",
+          "word": "director",
+          "meanings": {
+            "tr": "müdür",
+            "es": "director",
+            "fr": "directeur",
+            "de": "Direktor",
+            "it": "direttore"
+          },
+          "example": "The director of the film won an award.",
+          "image": "director.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_252",
+          "word": "employ",
+          "meanings": {
+            "tr": "istihdam etmek",
+            "es": "emplear",
+            "fr": "employer",
+            "de": "beschäftigen",
+            "it": "impiegare"
+          },
+          "example": "",
+          "image": "employ.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_253",
+          "word": "employee",
+          "meanings": {
+            "tr": "çalışan",
+            "es": "empleado",
+            "fr": "employé",
+            "de": "Mitarbeiter",
+            "it": "dipendente"
+          },
+          "example": "The company has over five hundred employees.",
+          "image": "employee.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_254",
+          "word": "employer",
+          "meanings": {
+            "tr": "iş veren",
+            "es": "empleador",
+            "fr": "employeur",
+            "de": "Arbeitgeber",
+            "it": "datore di lavoro"
+          },
+          "example": "Her employer gave her a bonus for her hard work.",
+          "image": "employer.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_255",
+          "word": "employment",
+          "meanings": {
+            "tr": "istihdam",
+            "es": "empleo",
+            "fr": "emploi",
+            "de": "Anstellung",
+            "it": "occupazione"
+          },
+          "example": "",
+          "image": "employment.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_256",
+          "word": "firm",
+          "meanings": {
+            "tr": "firma",
+            "es": "firme",
+            "fr": "ferme",
+            "de": "Firma",
+            "it": "ditta"
+          },
+          "example": "",
+          "image": "firm.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_257",
+          "word": "hire",
+          "meanings": {
+            "tr": "kiralamak",
+            "es": "contratar",
+            "fr": "embaucher",
+            "de": "mieten",
+            "it": "assumere"
+          },
+          "example": "",
+          "image": "hire.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_258",
+          "word": "industry",
+          "meanings": {
+            "tr": "endüstri",
+            "es": "industria",
+            "fr": "industrie",
+            "de": "Industrie",
+            "it": "industria"
+          },
+          "example": "",
+          "image": "industry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_259",
+          "word": "interview",
+          "meanings": {
+            "tr": "röportaj",
+            "es": "entrevista",
+            "fr": "entretien",
+            "de": "Interview",
+            "it": "colloquio"
+          },
+          "example": "He has a job interview tomorrow morning.",
+          "image": "interview.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_260",
+          "word": "job",
+          "meanings": {
+            "tr": "iş",
+            "es": "trabajo",
+            "fr": "emploi",
+            "de": "Arbeit",
+            "it": "lavoro"
+          },
+          "example": "",
+          "image": "job.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_261",
+          "word": "manager",
+          "meanings": {
+            "tr": "müdür",
+            "es": "gerente",
+            "fr": "directeur",
+            "de": "Manager",
+            "it": "manager"
+          },
+          "example": "The manager solved the customer's problem.",
+          "image": "manager.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_262",
+          "word": "meeting",
+          "meanings": {
+            "tr": "toplantı",
+            "es": "reunión",
+            "fr": "réunion",
+            "de": "treffen",
+            "it": "incontro"
+          },
+          "example": "We have a staff meeting every Monday.",
+          "image": "meeting.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_263",
+          "word": "occupation",
+          "meanings": {
+            "tr": "meslek",
+            "es": "ocupación",
+            "fr": "profession",
+            "de": "Beruf",
+            "it": "occupazione"
+          },
+          "example": "Please write your occupation on the form.",
+          "image": "occupation.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_264",
+          "word": "office",
+          "meanings": {
+            "tr": "ofis",
+            "es": "oficina",
+            "fr": "bureau",
+            "de": "Büro",
+            "it": "ufficio"
+          },
+          "example": "Our office is located in the city center.",
+          "image": "office.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "hobiler-eğlence",
+      "title": "Hobiler & Eğlence",
+      "icon": "🎮",
+      "words": [
+        {
+          "id": "b1_265",
+          "word": "activity",
+          "meanings": {
+            "tr": "aktivite",
+            "es": "actividad",
+            "fr": "activité",
+            "de": "Aktivität",
+            "it": "attività"
+          },
+          "example": "Hiking is my favorite outdoor activity.",
+          "image": "activity.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_266",
+          "word": "art",
+          "meanings": {
+            "tr": "sanat",
+            "es": "arte",
+            "fr": "art",
+            "de": "Kunst",
+            "it": "arte"
+          },
+          "example": "",
+          "image": "art.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_267",
+          "word": "artist",
+          "meanings": {
+            "tr": "sanatçı",
+            "es": "artista",
+            "fr": "artiste",
+            "de": "Künstler",
+            "it": "artista"
+          },
+          "example": "",
+          "image": "artist.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_268",
+          "word": "athletics",
+          "meanings": {
+            "tr": "atletizm",
+            "es": "atletismo",
+            "fr": "athlétisme",
+            "de": "Leichtathletik",
+            "it": "atletica"
+          },
+          "example": "",
+          "image": "athletics.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_269",
+          "word": "audience",
+          "meanings": {
+            "tr": "kitle",
+            "es": "audiencia",
+            "fr": "public",
+            "de": "Publikum",
+            "it": "pubblico"
+          },
+          "example": "",
+          "image": "audience.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_270",
+          "word": "ballet",
+          "meanings": {
+            "tr": "bale",
+            "es": "ballet",
+            "fr": "ballet",
+            "de": "Ballett",
+            "it": "balletto"
+          },
+          "example": "",
+          "image": "ballet.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_271",
+          "word": "band",
+          "meanings": {
+            "tr": "bant",
+            "es": "banda",
+            "fr": "groupe",
+            "de": "Band",
+            "it": "banda"
+          },
+          "example": "",
+          "image": "band.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_272",
+          "word": "camera",
+          "meanings": {
+            "tr": "kamera",
+            "es": "cámara",
+            "fr": "caméra",
+            "de": "Kamera",
+            "it": "telecamera"
+          },
+          "example": "",
+          "image": "camera.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_273",
+          "word": "chess",
+          "meanings": {
+            "tr": "satranç",
+            "es": "ajedrez",
+            "fr": "échecs",
+            "de": "Schach",
+            "it": "scacchi"
+          },
+          "example": "",
+          "image": "chess.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_274",
+          "word": "cinema",
+          "meanings": {
+            "tr": "sinema",
+            "es": "cine",
+            "fr": "cinéma",
+            "de": "Kino",
+            "it": "cinema"
+          },
+          "example": "Let's go to the cinema to watch a movie.",
+          "image": "cinema.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_275",
+          "word": "circus",
+          "meanings": {
+            "tr": "sirk",
+            "es": "circo",
+            "fr": "cirque",
+            "de": "Zirkus",
+            "it": "circo"
+          },
+          "example": "",
+          "image": "circus.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_276",
+          "word": "club",
+          "meanings": {
+            "tr": "kulüp",
+            "es": "club",
+            "fr": "club",
+            "de": "Verein",
+            "it": "club"
+          },
+          "example": "",
+          "image": "club.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_277",
+          "word": "comedy",
+          "meanings": {
+            "tr": "komedi",
+            "es": "comedia",
+            "fr": "comédie",
+            "de": "Komödie",
+            "it": "commedia"
+          },
+          "example": "We watched a funny comedy last night.",
+          "image": "comedy.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_278",
+          "word": "concert",
+          "meanings": {
+            "tr": "konser",
+            "es": "concierto",
+            "fr": "concert",
+            "de": "Konzert",
+            "it": "concerto"
+          },
+          "example": "The band played a great concert last Saturday.",
+          "image": "concert.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_279",
+          "word": "dance",
+          "meanings": {
+            "tr": "dans",
+            "es": "bailar",
+            "fr": "danse",
+            "de": "tanzen",
+            "it": "ballare"
+          },
+          "example": "",
+          "image": "dance.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_280",
+          "word": "drama",
+          "meanings": {
+            "tr": "dram",
+            "es": "drama",
+            "fr": "drame",
+            "de": "Drama",
+            "it": "dramma"
+          },
+          "example": "",
+          "image": "drama.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_281",
+          "word": "exhibition",
+          "meanings": {
+            "tr": "sergi",
+            "es": "exhibición",
+            "fr": "exposition",
+            "de": "Ausstellung",
+            "it": "mostra"
+          },
+          "example": "We visited an art exhibition in the museum.",
+          "image": "exhibition.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_282",
+          "word": "festival",
+          "meanings": {
+            "tr": "festival",
+            "es": "festival",
+            "fr": "festival",
+            "de": "Festival",
+            "it": "festival"
+          },
+          "example": "The music festival takes place every summer.",
+          "image": "festival.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_283",
+          "word": "film",
+          "meanings": {
+            "tr": "film",
+            "es": "película",
+            "fr": "film",
+            "de": "Film",
+            "it": "film"
+          },
+          "example": "We watched an interesting documentary film.",
+          "image": "film.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_284",
+          "word": "game",
+          "meanings": {
+            "tr": "oyun",
+            "es": "juego",
+            "fr": "jeu",
+            "de": "Spiel",
+            "it": "gioco"
+          },
+          "example": "They played a board game together.",
+          "image": "game.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_285",
+          "word": "gallery",
+          "meanings": {
+            "tr": "galeri",
+            "es": "galería",
+            "fr": "galerie",
+            "de": "Galerie",
+            "it": "galleria"
+          },
+          "example": "They went to a gallery to see paintings.",
+          "image": "gallery.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_286",
+          "word": "guitar",
+          "meanings": {
+            "tr": "gitar",
+            "es": "guitarra",
+            "fr": "guitare",
+            "de": "Gitarre",
+            "it": "chitarra"
+          },
+          "example": "He plays the guitar in a rock band.",
+          "image": "guitar.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_287",
+          "word": "gym",
+          "meanings": {
+            "tr": "spor salonu",
+            "es": "gimnasia",
+            "fr": "salle de sport",
+            "de": "Fitnessstudio",
+            "it": "palestra"
+          },
+          "example": "I go to the gym three times a week.",
+          "image": "gym.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_288",
+          "word": "hobby",
+          "meanings": {
+            "tr": "hobi",
+            "es": "pasatiempo",
+            "fr": "passe-temps",
+            "de": "Hobby",
+            "it": "hobby"
+          },
+          "example": "",
+          "image": "hobby.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "i-letişim-teknoloji",
+      "title": "İletişim & Teknoloji",
+      "icon": "📱",
+      "words": [
+        {
+          "id": "b1_289",
+          "word": "address",
+          "meanings": {
+            "tr": "adres",
+            "es": "DIRECCIÓN",
+            "fr": "adresse",
+            "de": "Adresse",
+            "it": "indirizzo"
+          },
+          "example": "",
+          "image": "address.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_290",
+          "word": "advertise",
+          "meanings": {
+            "tr": "reklam vermek",
+            "es": "anunciar",
+            "fr": "annoncer",
+            "de": "werben",
+            "it": "pubblicizzare"
+          },
+          "example": "",
+          "image": "advertise.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_291",
+          "word": "advertisement",
+          "meanings": {
+            "tr": "reklamcılık",
+            "es": "anuncio",
+            "fr": "publicité",
+            "de": "Werbung",
+            "it": "annuncio"
+          },
+          "example": "",
+          "image": "advertisement.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_292",
+          "word": "cable",
+          "meanings": {
+            "tr": "kablo",
+            "es": "cable",
+            "fr": "câble",
+            "de": "Kabel",
+            "it": "cavo"
+          },
+          "example": "",
+          "image": "cable.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_293",
+          "word": "chat",
+          "meanings": {
+            "tr": "sohbet",
+            "es": "charlar",
+            "fr": "chat",
+            "de": "chatten",
+            "it": "chiacchierata"
+          },
+          "example": "",
+          "image": "chat.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_294",
+          "word": "communication",
+          "meanings": {
+            "tr": "iletişim",
+            "es": "comunicación",
+            "fr": "communication",
+            "de": "Kommunikation",
+            "it": "comunicazione"
+          },
+          "example": "",
+          "image": "communication.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_295",
+          "word": "computer",
+          "meanings": {
+            "tr": "bilgisayar",
+            "es": "computadora",
+            "fr": "ordinateur",
+            "de": "Computer",
+            "it": "computer"
+          },
+          "example": "I bought a new computer for my studies.",
+          "image": "computer.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_296",
+          "word": "connection",
+          "meanings": {
+            "tr": "bağlantı",
+            "es": "conexión",
+            "fr": "connexion",
+            "de": "Verbindung",
+            "it": "connessione"
+          },
+          "example": "Our internet connection is very slow today.",
+          "image": "connection.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_297",
+          "word": "conversation",
+          "meanings": {
+            "tr": "konuşma",
+            "es": "conversación",
+            "fr": "conversation",
+            "de": "Gespräch",
+            "it": "conversazione"
+          },
+          "example": "We had an interesting conversation about politics.",
+          "image": "conversation.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_298",
+          "word": "data",
+          "meanings": {
+            "tr": "veri",
+            "es": "datos",
+            "fr": "données",
+            "de": "Daten",
+            "it": "dati"
+          },
+          "example": "The researcher analyzed the collected data.",
+          "image": "data.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_299",
+          "word": "digital",
+          "meanings": {
+            "tr": "dijital",
+            "es": "digital",
+            "fr": "numérique",
+            "de": "digital",
+            "it": "digitale"
+          },
+          "example": "We live in a digital world now.",
+          "image": "digital.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_300",
+          "word": "discussion",
+          "meanings": {
+            "tr": "tartışma",
+            "es": "discusión",
+            "fr": "discussion",
+            "de": "Diskussion",
+            "it": "discussione"
+          },
+          "example": "",
+          "image": "discussion.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_301",
+          "word": "email",
+          "meanings": {
+            "tr": "e-posta",
+            "es": "correo electrónico",
+            "fr": "e-mail",
+            "de": "E-Mail",
+            "it": "e-mail"
+          },
+          "example": "I received an email from my teacher.",
+          "image": "email.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_302",
+          "word": "hardware",
+          "meanings": {
+            "tr": "donanım",
+            "es": "hardware",
+            "fr": "matériel",
+            "de": "Hardware",
+            "it": "hardware"
+          },
+          "example": "Computer hardware includes the monitor and keyboard.",
+          "image": "hardware.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_303",
+          "word": "information",
+          "meanings": {
+            "tr": "bilgi",
+            "es": "información",
+            "fr": "information",
+            "de": "Information",
+            "it": "informazioni"
+          },
+          "example": "",
+          "image": "information.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_304",
+          "word": "internet",
+          "meanings": {
+            "tr": "internet",
+            "es": "Internet",
+            "fr": "Internet",
+            "de": "Internet",
+            "it": "Internet"
+          },
+          "example": "You can find any information on the internet.",
+          "image": "internet.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_305",
+          "word": "link",
+          "meanings": {
+            "tr": "bağlantı",
+            "es": "enlace",
+            "fr": "lien",
+            "de": "Link",
+            "it": "collegamento"
+          },
+          "example": "Click on this link to visit our website.",
+          "image": "link.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_306",
+          "word": "message",
+          "meanings": {
+            "tr": "mesaj",
+            "es": "mensaje",
+            "fr": "message",
+            "de": "Nachricht",
+            "it": "messaggio"
+          },
+          "example": "Send me a message when you arrive.",
+          "image": "message.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_307",
+          "word": "network",
+          "meanings": {
+            "tr": "ağ",
+            "es": "red",
+            "fr": "réseau",
+            "de": "Netzwerk",
+            "it": "rete"
+          },
+          "example": "The computer network was down for maintenance.",
+          "image": "network.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_308",
+          "word": "online",
+          "meanings": {
+            "tr": "çevrimiçi",
+            "es": "en línea",
+            "fr": "en ligne",
+            "de": "online",
+            "it": "in linea"
+          },
+          "example": "",
+          "image": "online.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_309",
+          "word": "phone",
+          "meanings": {
+            "tr": "telefon",
+            "es": "teléfono",
+            "fr": "téléphone",
+            "de": "Telefon",
+            "it": "telefono"
+          },
+          "example": "He made a quick phone call to his wife.",
+          "image": "phone.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_310",
+          "word": "press",
+          "meanings": {
+            "tr": "basmak",
+            "es": "prensa",
+            "fr": "presse",
+            "de": "drücken",
+            "it": "premere"
+          },
+          "example": "",
+          "image": "press.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_311",
+          "word": "screen",
+          "meanings": {
+            "tr": "ekran",
+            "es": "pantalla",
+            "fr": "écran",
+            "de": "Bildschirm",
+            "it": "schermo"
+          },
+          "example": "",
+          "image": "screen.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_312",
+          "word": "software",
+          "meanings": {
+            "tr": "yazılım",
+            "es": "software",
+            "fr": "logiciel",
+            "de": "Software",
+            "it": "software"
+          },
+          "example": "I installed the new design software.",
+          "image": "software.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "duygular-kişilik",
+      "title": "Duygular & Kişilik",
+      "icon": "😊",
+      "words": [
+        {
+          "id": "b1_313",
+          "word": "afraid",
+          "meanings": {
+            "tr": "korkmuş",
+            "es": "asustado",
+            "fr": "effrayé",
+            "de": "besorgt",
+            "it": "Paura"
+          },
+          "example": "",
+          "image": "afraid.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_314",
+          "word": "angry",
+          "meanings": {
+            "tr": "sinirli",
+            "es": "enojado",
+            "fr": "en colère",
+            "de": "wütend",
+            "it": "arrabbiato"
+          },
+          "example": "He was very angry because they were late.",
+          "image": "angry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_315",
+          "word": "anxious",
+          "meanings": {
+            "tr": "endişeli",
+            "es": "ansioso",
+            "fr": "anxieux",
+            "de": "ängstlich",
+            "it": "ansioso"
+          },
+          "example": "",
+          "image": "anxious.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_316",
+          "word": "ashamed",
+          "meanings": {
+            "tr": "utanmış",
+            "es": "avergonzado",
+            "fr": "honteux",
+            "de": "beschämt",
+            "it": "che si vergogna"
+          },
+          "example": "",
+          "image": "ashamed.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_317",
+          "word": "bored",
+          "meanings": {
+            "tr": "sıkılmış",
+            "es": "aburrido",
+            "fr": "ennuyé",
+            "de": "gelangweilt",
+            "it": "annoiato"
+          },
+          "example": "",
+          "image": "bored.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_318",
+          "word": "brave",
+          "meanings": {
+            "tr": "cesur",
+            "es": "corajudo",
+            "fr": "courageux",
+            "de": "mutig",
+            "it": "coraggioso"
+          },
+          "example": "The brave firefighter saved the little girl from the fire.",
+          "image": "brave.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_319",
+          "word": "calm",
+          "meanings": {
+            "tr": "sakinlik",
+            "es": "calma",
+            "fr": "calme",
+            "de": "ruhig",
+            "it": "calma"
+          },
+          "example": "",
+          "image": "calm.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_320",
+          "word": "cheerful",
+          "meanings": {
+            "tr": "neşeli",
+            "es": "alegre",
+            "fr": "joyeux",
+            "de": "heiter",
+            "it": "allegro"
+          },
+          "example": "",
+          "image": "cheerful.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_321",
+          "word": "confident",
+          "meanings": {
+            "tr": "kendinden emin",
+            "es": "seguro",
+            "fr": "confiant",
+            "de": "zuversichtlich",
+            "it": "fiducioso"
+          },
+          "example": "",
+          "image": "confident.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_322",
+          "word": "confused",
+          "meanings": {
+            "tr": "kafası karışmış",
+            "es": "confundido",
+            "fr": "confus",
+            "de": "verwirrt",
+            "it": "confuso"
+          },
+          "example": "",
+          "image": "confused.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_323",
+          "word": "cruel",
+          "meanings": {
+            "tr": "acımasız",
+            "es": "cruel",
+            "fr": "cruel",
+            "de": "grausam",
+            "it": "crudele"
+          },
+          "example": "",
+          "image": "cruel.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_324",
+          "word": "curious",
+          "meanings": {
+            "tr": "meraklı",
+            "es": "curioso",
+            "fr": "curieux",
+            "de": "neugierig",
+            "it": "curioso"
+          },
+          "example": "The little cat was curious about the new toy.",
+          "image": "curious.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_325",
+          "word": "delighted",
+          "meanings": {
+            "tr": "memnun",
+            "es": "contento",
+            "fr": "ravi",
+            "de": "erfreut",
+            "it": "incantato"
+          },
+          "example": "",
+          "image": "delighted.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_326",
+          "word": "depressed",
+          "meanings": {
+            "tr": "depresif",
+            "es": "deprimido",
+            "fr": "déprimé",
+            "de": "gedrückt",
+            "it": "depresso"
+          },
+          "example": "",
+          "image": "depressed.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_327",
+          "word": "disappointed",
+          "meanings": {
+            "tr": "hayal kırıklığına uğramış",
+            "es": "decepcionado",
+            "fr": "déçu",
+            "de": "enttäuscht",
+            "it": "deluso"
+          },
+          "example": "",
+          "image": "disappointed.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_328",
+          "word": "embarrassed",
+          "meanings": {
+            "tr": "utanmış",
+            "es": "avergonzado",
+            "fr": "gêné",
+            "de": "beschämt",
+            "it": "imbarazzato"
+          },
+          "example": "",
+          "image": "embarrassed.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_329",
+          "word": "excitement",
+          "meanings": {
+            "tr": "heyecanlanmak",
+            "es": "excitación",
+            "fr": "excitation",
+            "de": "Aufregung",
+            "it": "eccitazione"
+          },
+          "example": "",
+          "image": "excitement.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_330",
+          "word": "excited",
+          "meanings": {
+            "tr": "heyecanlı",
+            "es": "entusiasmado",
+            "fr": "excité",
+            "de": "aufgeregt",
+            "it": "eccitato"
+          },
+          "example": "",
+          "image": "excited.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_331",
+          "word": "fear",
+          "meanings": {
+            "tr": "korku",
+            "es": "miedo",
+            "fr": "peur",
+            "de": "Furcht",
+            "it": "Paura"
+          },
+          "example": "He overcame his fear of heights.",
+          "image": "fear.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_332",
+          "word": "friendly",
+          "meanings": {
+            "tr": "arkadaşça",
+            "es": "amigable",
+            "fr": "amical",
+            "de": "freundlich",
+            "it": "amichevole"
+          },
+          "example": "Our new neighbors are very friendly.",
+          "image": "friendly.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_333",
+          "word": "generous",
+          "meanings": {
+            "tr": "cömert",
+            "es": "generoso",
+            "fr": "généreux",
+            "de": "großzügig",
+            "it": "generoso"
+          },
+          "example": "",
+          "image": "generous.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_334",
+          "word": "happy",
+          "meanings": {
+            "tr": "mutlu",
+            "es": "feliz",
+            "fr": "heureux",
+            "de": "Glücklich",
+            "it": "Contento"
+          },
+          "example": "",
+          "image": "happy.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_335",
+          "word": "hate",
+          "meanings": {
+            "tr": "nefret",
+            "es": "odiar",
+            "fr": "détester",
+            "de": "hassen",
+            "it": "odio"
+          },
+          "example": "",
+          "image": "hate.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_336",
+          "word": "honest",
+          "meanings": {
+            "tr": "dürüst",
+            "es": "honesto",
+            "fr": "honnête",
+            "de": "ehrlich",
+            "it": "onesto"
+          },
+          "example": "Please be honest with me about your decision.",
+          "image": "honest.webp",
+          "pos": ""
+        }
+      ]
+    },
+    {
+      "id": "eylemler-günlük-rutinler",
+      "title": "Eylemler & Günlük Rutinler",
+      "icon": "🏃",
+      "words": [
+        {
+          "id": "b1_337",
+          "word": "achieve",
+          "meanings": {
+            "tr": "başarmak",
+            "es": "lograr",
+            "fr": "atteindre",
+            "de": "erreichen",
+            "it": "raggiungere"
+          },
+          "example": "If you work hard, you can achieve your goals.",
+          "image": "achieve.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_338",
+          "word": "agree",
+          "meanings": {
+            "tr": "kabul etmek",
+            "es": "aceptar",
+            "fr": "accepter",
+            "de": "zustimmen",
+            "it": "Essere d'accordo"
+          },
+          "example": "",
+          "image": "agree.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_339",
+          "word": "arrive",
+          "meanings": {
+            "tr": "varmak",
+            "es": "llegar",
+            "fr": "arriver",
+            "de": "ankommen",
+            "it": "arrivare"
+          },
+          "example": "",
+          "image": "arrive.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_340",
+          "word": "begin",
+          "meanings": {
+            "tr": "başlamak",
+            "es": "comenzar",
+            "fr": "commencer",
+            "de": "beginnen",
+            "it": "inizio"
+          },
+          "example": "",
+          "image": "begin.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_341",
+          "word": "believe",
+          "meanings": {
+            "tr": "inanmak",
+            "es": "creer",
+            "fr": "croire",
+            "de": "glauben",
+            "it": "credere"
+          },
+          "example": "",
+          "image": "believe.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_342",
+          "word": "bite",
+          "meanings": {
+            "tr": "ısırmak",
+            "es": "morder",
+            "fr": "mordre",
+            "de": "beißen",
+            "it": "morso"
+          },
+          "example": "",
+          "image": "bite.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_343",
+          "word": "break",
+          "meanings": {
+            "tr": "kırmak",
+            "es": "romper",
+            "fr": "casser",
+            "de": "brechen",
+            "it": "rottura"
+          },
+          "example": "",
+          "image": "break.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_344",
+          "word": "bring",
+          "meanings": {
+            "tr": "getirmek",
+            "es": "traer",
+            "fr": "apporter",
+            "de": "bringen",
+            "it": "Portare"
+          },
+          "example": "",
+          "image": "bring.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_345",
+          "word": "build",
+          "meanings": {
+            "tr": "inşa etmek",
+            "es": "construir",
+            "fr": "construire",
+            "de": "bauen",
+            "it": "costruire"
+          },
+          "example": "",
+          "image": "build.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_346",
+          "word": "burn",
+          "meanings": {
+            "tr": "yakmak",
+            "es": "quemar",
+            "fr": "brûler",
+            "de": "brennen",
+            "it": "bruciare"
+          },
+          "example": "",
+          "image": "burn.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_347",
+          "word": "buy",
+          "meanings": {
+            "tr": "satın almak",
+            "es": "comprar",
+            "fr": "acheter",
+            "de": "kaufen",
+            "it": "acquistare"
+          },
+          "example": "",
+          "image": "buy.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_348",
+          "word": "carry",
+          "meanings": {
+            "tr": "taşımak",
+            "es": "llevar",
+            "fr": "porter",
+            "de": "tragen",
+            "it": "trasportare"
+          },
+          "example": "",
+          "image": "carry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_349",
+          "word": "catch",
+          "meanings": {
+            "tr": "yakalamak",
+            "es": "atrapar",
+            "fr": "attraper",
+            "de": "fangen",
+            "it": "presa"
+          },
+          "example": "",
+          "image": "catch.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_350",
+          "word": "change",
+          "meanings": {
+            "tr": "değiştirmek",
+            "es": "cambiar",
+            "fr": "changement",
+            "de": "ändern",
+            "it": "modifica"
+          },
+          "example": "",
+          "image": "change.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_351",
+          "word": "choose",
+          "meanings": {
+            "tr": "seçmek",
+            "es": "elegir",
+            "fr": "choisir",
+            "de": "wählen",
+            "it": "scegliere"
+          },
+          "example": "",
+          "image": "choose.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_352",
+          "word": "clean",
+          "meanings": {
+            "tr": "temiz",
+            "es": "limpio",
+            "fr": "faire le ménage",
+            "de": "sauber",
+            "it": "pulito"
+          },
+          "example": "",
+          "image": "clean.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_353",
+          "word": "climb",
+          "meanings": {
+            "tr": "tırmanmak",
+            "es": "trepar",
+            "fr": "grimper",
+            "de": "Aufstieg",
+            "it": "scalata"
+          },
+          "example": "",
+          "image": "climb.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_354",
+          "word": "close",
+          "meanings": {
+            "tr": "kapalı",
+            "es": "cerca",
+            "fr": "fermer",
+            "de": "schließen",
+            "it": "vicino"
+          },
+          "example": "",
+          "image": "close.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_355",
+          "word": "compare",
+          "meanings": {
+            "tr": "karşılaştırmak",
+            "es": "comparar",
+            "fr": "comparer",
+            "de": "vergleichen",
+            "it": "confrontare"
+          },
+          "example": "",
+          "image": "compare.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_356",
+          "word": "cook",
+          "meanings": {
+            "tr": "aşçı",
+            "es": "cocinar",
+            "fr": "cuisiner",
+            "de": "kochen",
+            "it": "cucinare"
+          },
+          "example": "",
+          "image": "cook.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_357",
+          "word": "create",
+          "meanings": {
+            "tr": "yaratmak",
+            "es": "crear",
+            "fr": "créer",
+            "de": "erstellen",
+            "it": "creare"
+          },
+          "example": "",
+          "image": "create.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_358",
+          "word": "cry",
+          "meanings": {
+            "tr": "ağlamak",
+            "es": "llorar",
+            "fr": "pleurer",
+            "de": "weinen",
+            "it": "gridare"
+          },
+          "example": "",
+          "image": "cry.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_359",
+          "word": "cut",
+          "meanings": {
+            "tr": "kesmek",
+            "es": "cortar",
+            "fr": "couper",
+            "de": "schneiden",
+            "it": "taglio"
+          },
+          "example": "",
+          "image": "cut.webp",
+          "pos": ""
+        },
+        {
+          "id": "b1_360",
+          "word": "decide",
+          "meanings": {
+            "tr": "karar vermek",
+            "es": "decidir",
+            "fr": "décider",
+            "de": "entscheiden",
+            "it": "decidere"
+          },
+          "example": "",
+          "image": "decide.webp",
+          "pos": ""
+        }
+      ]
+    }
+  ]
 }

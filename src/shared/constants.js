@@ -13,7 +13,7 @@ export const CDN_FALLBACK = 'https://raw.githubusercontent.com/BatuhanAri/lingum
 // Desteklenen CEFR seviyeleri
 export const LEVELS = [
     { id: 'a2', label: 'A2', title: 'Elementary', icon: '🌱', free: true },
-    { id: 'b1', label: 'B1', title: 'Intermediate', icon: '📘', free: false },
+    { id: 'b1', label: 'B1', title: 'Intermediate', icon: '📘', free: true },
     { id: 'b2', label: 'B2', title: 'Upper-Intermediate', icon: '🚀', free: false },
     { id: 'c1', label: 'C1', title: 'Advanced', icon: '🎓', free: false },
 ];
