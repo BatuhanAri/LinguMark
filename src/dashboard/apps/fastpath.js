@@ -151,9 +151,31 @@ function renderUnits(units, currentStepIndex, historyForLang) {
     container.innerHTML = '';
     let globalStepCounter = 0;
 
+    const titleKeyMap = {
+      "Ev & Günlük Yaşam": "cat_home_daily",
+      "Aile & İlişkiler": "cat_family_relations",
+      "Yiyecek & İçecek": "cat_food_drinks",
+      "Yemek & Mutfak": "cat_cooking_kitchen",
+      "Giyim & Görünüm": "cat_clothing_appearance",
+      "Vücut & Sağlık": "cat_body_health",
+      "Şehir & Ulaşım": "cat_city_transport",
+      "Doğa & Hava Durumu": "cat_nature_weather",
+      "Hava & Mevsimler": "cat_weather_seasons",
+      "Çevre & Enerji": "cat_environment_energy",
+      "Eğitim & Öğrenme": "cat_education_learning",
+      "İş & Kariyer": "cat_jobs_career",
+      "Hobiler & Eğlence": "cat_hobbies_entertainment",
+      "İletişim & Teknoloji": "cat_communication_tech",
+      "Duygular & Kişilik": "cat_emotions_personality",
+      "Eylemler & Günlük Rutinler": "cat_actions_routines"
+    };
+
     units.forEach((unit, unitIdx) => {
         const unitStartStep = globalStepCounter;
         
+        const translationKey = titleKeyMap[unit.title];
+        const localizedTitle = translationKey ? t(translationKey, activeNativeLang) : unit.title;
+
         // 1. Render Unit Header directly into container
         const header = document.createElement('div');
         header.className = "w-full max-w-md mx-auto mt-16 mb-10 p-10 bg-white/5 border border-white/10 rounded-[40px] flex items-center gap-8 shadow-2xl relative overflow-hidden group z-10";
@@ -163,8 +185,8 @@ function renderUnits(units, currentStepIndex, historyForLang) {
                 ${unit.icon}
             </div>
             <div class="flex flex-col z-10 text-left">
-                <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">ÜNİTE ${unitIdx + 1}</span>
-                <h3 class="text-2xl font-bold text-white tracking-tight leading-tight">${unit.title}</h3>
+                <span class="text-purple-400 text-xs font-black tracking-widest uppercase mb-1">${t('unit_label', activeNativeLang)} ${unitIdx + 1}</span>
+                <h3 class="text-2xl font-bold text-white tracking-tight leading-tight">${localizedTitle}</h3>
             </div>
         `;
         container.appendChild(header);

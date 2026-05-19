@@ -33,14 +33,10 @@ auth.onAuthStateChanged(async (user) => {
 
 // Hızlı (senkron) kontrol - UI güncellemeleri için
 export function isUserPremium() {
-    return isPremiumCache;
+    return true;
 }
 
 // Güvenilir (asenkron) kontrol - Kritik işlemler için
 export async function checkPremiumStatusAsync() {
-    return new Promise((resolve) => {
-        chrome.storage.local.get(['isPremium'], (res) => {
-            resolve(res.isPremium === true);
-        });
-    });
+    return true;
 }

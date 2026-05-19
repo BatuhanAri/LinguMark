@@ -101,6 +101,7 @@ async function saveWord(word, oxfordId, meanings) {
       word: word.toLowerCase(),
       meaning: meaning,
       lang: lang,
+      nativeLang: targetLang,
       dateAdded: new Date().toISOString(),
       isOxford: false,
       context: "Added via Web Röntgen",
@@ -186,6 +187,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
           word: word.toLowerCase(),
           meaning: meaning,
           lang: detectedLang,
+          nativeLang: targetLang,
           dateAdded: new Date().toISOString(),
           // Premium: Contextual Memory fields
           context: (lastCapturedData.sentence && lastCapturedData.sentence.toLowerCase().includes(word.toLowerCase())) ? lastCapturedData.sentence : "",

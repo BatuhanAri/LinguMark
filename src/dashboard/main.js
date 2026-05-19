@@ -18,6 +18,7 @@ let currentOxfordLevel = null;
 // Pagination state
 let myWordsPage = 1;
 let oxfordPage = 1;
+let activeCategoryFilter = 'all';
 const ITEMS_PER_PAGE = 60;
 
 // DOM Elements
@@ -53,6 +54,8 @@ const wordListGrid = document.getElementById('wordListGrid');
 const wordCountBadge = document.getElementById('wordCountBadge');
 const viewTitleWords = document.getElementById('viewTitleWords');
 const viewDescWords = document.getElementById('viewDescWords');
+const categoryFilterSelect = document.getElementById('categoryFilterSelect');
+const categoryFilterLabel = document.getElementById('categoryFilterLabel');
 
 const toggleOxfordBtn = null; // removed
 const oxfordToggleStatus = null; // removed
@@ -99,6 +102,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     dashLangMenu.classList.add('hidden');
     dashNativeLangMenu.classList.add('hidden');
   });
+
+  if (categoryFilterSelect) {
+    categoryFilterSelect.addEventListener('change', (e) => {
+      activeCategoryFilter = e.target.value;
+      myWordsPage = 1;
+      filterAndRefresh(learningLang, nativeLang);
+    });
+  }
 
   // Load Initial Data
   chrome.storage.local.get(['words'], (result) => {
@@ -264,6 +275,58 @@ function updateDashUI(lang) {
   if (btnRemembered) btnRemembered.textContent = t('remembered', lang).toUpperCase();
 }
 
+function buildCategoryDropdown(customWords, natLang) {
+  if (!categoryFilterSelect) return;
+  
+  const prevVal = categoryFilterSelect.value || activeCategoryFilter;
+  const categories = new Set();
+  
+  customWords.forEach(w => {
+    if (w.category && w.category.trim() !== '') {
+      categories.add(w.category.trim());
+    }
+  });
+  
+  categoryFilterSelect.innerHTML = '';
+  
+  // All option
+  const allOpt = document.createElement('option');
+  allOpt.value = 'all';
+  allOpt.textContent = t('all_categories', natLang) || 'Tümü';
+  allOpt.className = 'bg-[#0b0e14] text-white';
+  categoryFilterSelect.appendChild(allOpt);
+  
+  // Sorted unique categories
+  [...categories].sort().forEach(cat => {
+    const opt = document.createElement('option');
+    opt.value = cat;
+    opt.textContent = cat;
+    opt.className = 'bg-[#0b0e14] text-white';
+    categoryFilterSelect.appendChild(opt);
+  });
+  
+  if (prevVal === 'all' || categories.has(prevVal)) {
+    categoryFilterSelect.value = prevVal;
+    activeCategoryFilter = prevVal;
+  } else {
+    categoryFilterSelect.value = 'all';
+    activeCategoryFilter = 'all';
+  }
+
+  if (categoryFilterLabel) {
+    categoryFilterLabel.textContent = t('category_label', natLang);
+  }
+}
+
+async function updateWordCategory(wordId, newCategory) {
+  const idx = allWords.findIndex(w => w.id === wordId);
+  if (idx !== -1) {
+    allWords[idx].category = newCategory || "";
+    await new Promise(res => chrome.storage.local.set({ words: allWords }, res));
+    filterAndRefresh(learningLang, nativeLang);
+  }
+}
+
 function filterAndRefresh(learnLang, natLang) {
   window.linguWords = allWords.filter(w => w.lang === learnLang);
   const wordlistContent = document.getElementById('wordlistContent');
@@ -275,15 +338,22 @@ function filterAndRefresh(learnLang, natLang) {
     if(noWordsState) { noWordsState.classList.add('hidden'); noWordsState.classList.remove('flex'); }
     if(wordlistContent) { wordlistContent.classList.remove('hidden'); wordlistContent.classList.add('flex'); }
     
-    // Split rendering
     const customWords = window.linguWords.filter(w => !w.isOxford);
     
-    // wordCountBadge should reflect custom words
-    wordCountBadge.textContent = `${customWords.length} ${t('words_count', natLang)}`;
-    renderWordListItems(customWords, wordListGrid, natLang);
+    buildCategoryDropdown(customWords, natLang);
+
+    let displayedWords = customWords;
+    if (activeCategoryFilter && activeCategoryFilter !== 'all') {
+      displayedWords = customWords.filter(w => w.category === activeCategoryFilter);
+    }
+    
+    if (wordCountBadge) {
+      wordCountBadge.textContent = `${displayedWords.length} ${t('words_count', natLang)}`;
+    }
+    
+    renderWordListItems(displayedWords, wordListGrid, natLang);
     setupFlashcard();
     
-    // Init others
     initQuiz(natLang);
     initTyping(natLang);
     initMatch(natLang);
@@ -421,7 +491,7 @@ function initOxford(lang) {
       const now = new Date().toISOString();
       const toAdd = oxfordDictionary
         .filter(w => w.level === currentOxfordLevel && !allWords.some(aw => aw.id === w.id))
-        .map(w => ({ ...w, lang: learningLang, meaning: w.meanings[lang] || w.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
+        .map(w => ({ ...w, lang: learningLang, nativeLang: nativeLang, meaning: w.meanings[lang] || w.meanings['tr'], dateAdded: now, nextReviewDate: now, interval: 1, easeFactor: 2.5 }));
       const result = await new Promise(res => chrome.storage.local.get(['words'], res));
       const existing = result.words || [];
       const merged = [...existing, ...toAdd];
@@ -531,21 +601,44 @@ function renderWordListItems(words, gridElement, natLang) {
     card.innerHTML = `
       <div class="flex justify-between items-start mb-3 z-10 relative">
         <h3 class="text-xl font-black text-white capitalize tracking-tight drop-shadow-md group-hover:text-cyan-300 transition-colors flex-1 pr-2 truncate" title="${wordObj.word}">${wordObj.word}</h3>
-        <div class="flex items-center gap-1 shrink-0">
+        <div class="flex items-center gap-1.5 shrink-0 z-20 pointer-events-auto">
+            <span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 uppercase" title="Ana Dil (Native Lang)">${wordObj.nativeLang || natLang}</span>
             ${deleteBtnHtml}
-            <button class="speaker-btn p-1.5 rounded-md bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white shrink-0 pointer-events-auto" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
+            <button class="speaker-btn p-1.5 rounded-md bg-white/5 hover:bg-white/20 transition-colors text-slate-300 hover:text-white shrink-0" data-word="${wordObj.word}" data-lang="${wordObj.lang}" title="Dinle">
                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.561.276 2.561-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z"/><path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.061z"/></svg>
             </button>
         </div>
       </div>
-      <div class="bg-black/40 backdrop-blur-md p-3 rounded-xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none w-full">
+      <div class="bg-black/40 backdrop-blur-md p-3 rounded-xl border border-white/5 relative z-10 hover:border-white/10 transition-colors pointer-events-none w-full text-left">
         <p class="text-[14px] text-slate-200 font-bold leading-relaxed line-clamp-2 hover:line-clamp-none">${wordObj.meaning}</p>
+        
+        <!-- Category Tag & Edit -->
+        <div class="mt-3 flex items-center justify-between text-[11px] text-slate-400 font-bold tracking-wide pointer-events-auto">
+           <div class="flex items-center gap-1.5 cursor-pointer hover:text-cyan-300 transition-colors category-badge" data-id="${wordObj.id}" data-category="${wordObj.category || ''}" title="Kategoriyi Düzenle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-cyan-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+              <span># ${wordObj.category || (natLang === 'tr' ? 'Genel' : 'General')}</span>
+           </div>
+        </div>
+
         ${contextHtml}
         ${buttonsHtml}
       </div>
     `;
     
     gridElement.appendChild(card);
+  });
+
+  // Attach category badge click listener
+  document.querySelectorAll('.category-badge').forEach(badge => {
+    badge.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const id = badge.getAttribute('data-id');
+        const currentCat = badge.getAttribute('data-category');
+        const newCat = prompt(t('enter_category', natLang) || "Kategori girin (örn. İş, Seyahat):", currentCat);
+        if (newCat !== null) {
+          updateWordCategory(id, newCat.trim());
+        }
+    });
   });
   
   // Attach speaker event listeners
