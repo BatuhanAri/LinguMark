@@ -165,13 +165,8 @@ function buildLangDropdown() {
       btn.textContent = langNames[l] || l.toUpperCase();
       btn.addEventListener('click', async (e) => {
          const val = e.target.getAttribute('data-value');
-         learningLang = val;
-         dashLangText.textContent = langNames[val] || val.toUpperCase();
-         filterAndRefresh(val, nativeLang);
-         refreshActiveTab();
-         updateOxfordTabVisibility(val);
          await chrome.storage.local.set({ learningLang: val });
-         dashLangMenu.classList.add('hidden');
+         window.location.reload();
       });
       dashLangMenu.appendChild(btn);
    });
@@ -240,6 +235,10 @@ function updateOxfordTabVisibility(lang) {
 
 function updateDashUI(lang) {
   // Update Selector Text removed because it is handled by buildLangDropdown
+  const dashLangLabel = document.getElementById('dashLangLabel');
+  const dashNativeLangLabel = document.getElementById('dashNativeLangLabel');
+  if (dashLangLabel) dashLangLabel.textContent = t('target_lang_label', lang);
+  if (dashNativeLangLabel) dashNativeLangLabel.textContent = t('native_lang_label', lang);
 
   // Localize Static Text
   if (navTitle) navTitle.textContent = t('app_title', lang);

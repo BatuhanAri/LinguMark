@@ -77,9 +77,9 @@
 
     <!-- Dashboard Controls -->
     <div class="flex items-center gap-4">
-      <!-- Target Language (Hedef Dil) Selector -->
+      <!-- Target Language (Hedef Dil) Selector ---->
       <div class="flex flex-col relative">
-         <span class="text-[9px] text-purple-400 font-bold uppercase tracking-widest mb-1 pl-1">Hedef Dil (Target)</span>
+         <span id="dashLangLabel" class="text-[9px] text-purple-400 font-bold uppercase tracking-widest mb-1 pl-1">Hedef Dil (Target)</span>
          <button id="dashLangBtn" class="bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-xl flex items-center gap-2 transition-all min-w-[135px] shadow-xl">
             <div class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></div>
             <span id="dashLangText" class="text-xs font-bold text-white uppercase tracking-wider">English</span>
@@ -91,7 +91,7 @@
 
       <!-- Native Language (Ana Dil) Selector -->
       <div class="flex flex-col relative">
-         <span class="text-[9px] text-cyan-400 font-bold uppercase tracking-widest mb-1 pl-1">Ana Dil (Native)</span>
+         <span id="dashNativeLangLabel" class="text-[9px] text-cyan-400 font-bold uppercase tracking-widest mb-1 pl-1">Ana Dil (Native)</span>
          <button id="dashNativeLangBtn" class="bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-xl flex items-center gap-2 transition-all min-w-[135px] shadow-xl">
             <div class="w-2 h-2 rounded-full bg-pink-400 animate-pulse"></div>
             <span id="dashNativeLangText" class="text-xs font-bold text-white uppercase tracking-wider">Turkish</span>

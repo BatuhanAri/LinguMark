@@ -39,7 +39,11 @@ export const translations = {
     kontrol_et: "Kontrol Et",
     context: "Bağlam",
     view_source: "Kaynağa Git",
-    loading: "Yükleniyor..."
+    loading: "Yükleniyor...",
+    target_lang_label: "Hedef Dil (Target)",
+    native_lang_label: "Ana Dil (Native)",
+    coming_soon: "Çok Yakında",
+    fastpath_coming_soon_desc: "FastPath yakında bu dil için de aktif olacak!"
   },
   en: {
     app_title: "LinguMark",
@@ -81,7 +85,11 @@ export const translations = {
     kontrol_et: "Check",
     context: "Context",
     view_source: "View Source",
-    loading: "Loading..."
+    loading: "Loading...",
+    target_lang_label: "Target Language",
+    native_lang_label: "Native Language",
+    coming_soon: "Coming Soon",
+    fastpath_coming_soon_desc: "FastPath will be available for this language soon!"
   },
   es: {
     app_title: "LinguMark",
@@ -123,7 +131,11 @@ export const translations = {
     kontrol_et: "Comprobar",
     context: "Contexto",
     view_source: "Ver Fuente",
-    loading: "Cargando..."
+    loading: "Cargando...",
+    target_lang_label: "Idioma Objetivo",
+    native_lang_label: "Idioma Nativo",
+    coming_soon: "Muy Pronto",
+    fastpath_coming_soon_desc: "¡FastPath estará disponible para este idioma pronto!"
   },
   fr: {
     app_title: "LinguMark",
@@ -165,7 +177,11 @@ export const translations = {
     kontrol_et: "Vérifier",
     context: "Contexte",
     view_source: "Voir la source",
-    loading: "Chargement..."
+    loading: "Chargement...",
+    target_lang_label: "Langue Cible",
+    native_lang_label: "Langue Maternelle",
+    coming_soon: "Bientôt Disponible",
+    fastpath_coming_soon_desc: "FastPath sera bientôt disponible pour cette langue !"
   },
   de: {
     app_title: "LinguMark",
@@ -207,7 +223,11 @@ export const translations = {
     kontrol_et: "Prüfen",
     context: "Kontext",
     view_source: "Quelle ansehen",
-    loading: "Laden..."
+    loading: "Laden...",
+    target_lang_label: "Zielsprache",
+    native_lang_label: "Muttersprache",
+    coming_soon: "Demnächst",
+    fastpath_coming_soon_desc: "FastPath wird bald für diese Sprache verfügbar sein!"
   },
   it: {
     app_title: "LinguMark",
@@ -249,7 +269,11 @@ export const translations = {
     kontrol_et: "Controlla",
     context: "Contesto",
     view_source: "Vedi Fonte",
-    loading: "Caricamento..."
+    loading: "Caricamento...",
+    target_lang_label: "Lingua Obiettivo",
+    native_lang_label: "Madrelingua",
+    coming_soon: "Prossimamente",
+    fastpath_coming_soon_desc: "FastPath sarà presto disponibile per questa lingua!"
   }
 };
 

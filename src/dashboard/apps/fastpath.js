@@ -24,12 +24,28 @@ export async function initFastPath(learningLang, nativeLang, requestedLevel = nu
 
     const container = document.getElementById('fastpathContainer');
     const errorState = document.getElementById('fpErrorState');
+    const selectorContainer = document.getElementById('fpLevelSelectorContainer');
     if (!container) return;
     
     container.innerHTML = '';
     if (errorState) {
         errorState.classList.add('hidden');
         errorState.classList.remove('flex');
+    }
+
+    if (learningLang !== 'en') {
+        if (selectorContainer) selectorContainer.innerHTML = '';
+        container.innerHTML = `
+            <div class="flex flex-col items-center justify-center text-center p-12 bg-white/5 border border-white/10 rounded-[32px] backdrop-blur-2xl max-w-lg mx-auto mt-12 shadow-2xl animate-in fade-in slide-in-from-bottom-5">
+                <div class="relative w-36 h-36 mb-6 group">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 rounded-full blur-2xl group-hover:scale-110 transition-transform duration-700"></div>
+                    <img src="icons/cheetah.png" alt="Cheetah" class="relative z-10 w-full h-full object-contain rounded-3xl border border-white/10 shadow-lg" />
+                </div>
+                <h2 class="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 tracking-wider mb-3">${t('coming_soon', activeNativeLang)}</h2>
+                <p class="text-sm text-slate-300 font-medium leading-relaxed max-w-sm">${t('fastpath_coming_soon_desc', activeNativeLang)}</p>
+            </div>
+        `;
+        return;
     }
 
     // 1. Get Active Level
